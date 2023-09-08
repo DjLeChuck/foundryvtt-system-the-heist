@@ -11,3 +11,12 @@ npm-debug.log
 jsconfig.json
 foundry
 assets/
+
+###> yarn ###
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+###< yarn ###

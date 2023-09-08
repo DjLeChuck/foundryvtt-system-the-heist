@@ -23,7 +23,7 @@
     }
   ],
   "esmodules": [
-    "module/the-heist.mjs"
+    "assets/js/the-heist.js"
   ],
   "styles": [
     "assets/css/the-heist.css"
