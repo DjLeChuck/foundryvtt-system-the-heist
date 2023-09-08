@@ -1,0 +1,29 @@
+<form class="{{cssClass}} {{actor.type}} flexcol" autocomplete="off">
+  <header class="sheet-header">
+    <div class="flex flexcol">
+      <div class="flexrow flex-group-center">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+        <div class="header-fields">
+          <h1 class="charname">
+            <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+          </h1>
+          <div class="flex flexrow flex-group-center">
+            <h1 class="charname">
+              <input type="text" value="{{characterClass.name}}" readonly disabled
+                     placeholder="{{localize "HEIST.Global.CharacterClass"}}" />
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-3col">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="sheet-body">
+    {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+  </section>
+</form>

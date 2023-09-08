@@ -1,0 +1,12 @@
+{
+  "TYPES.Actor.character": "Joueur",
+  "TYPES.Item.characterClass": "Classe de personnage",
+  "TYPES.Item.skill": "Compétence",
+  "HEIST.Settings.AutoRegisterBabele.Title": "Activer automatiquement la traduction via Babele",
+  "HEIST.Settings.AutoRegisterBabele.Hint": "Met automatiquement en place les traductions au sein de Babele sans avoir besoin de pointer vers le répertoire contenant les traductions.",
+  "HEIST.Global.Add": "Ajouter",
+  "HEIST.Global.Edit": "Éditer",
+  "HEIST.Global.Delete": "Supprimer",
+  "HEIST.Global.Name": "Nom",
+  "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !"
+}

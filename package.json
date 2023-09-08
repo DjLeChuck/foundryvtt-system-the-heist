@@ -1,0 +1,28 @@
+{
+  "name": "the-heist",
+  "version": "0.0.1-dev",
+  "description": "CSS compiler for the system The Heist",
+  "scripts": {
+    "build": "gulp build",
+    "compile": "gulp css",
+    "watch": "gulp",
+    "gulp": "gulp"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "DjLeChuck",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.53.0"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "1.22.19"
+  }
+}

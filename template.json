@@ -1,0 +1,22 @@
+{
+  "Actor": {
+    "types": [
+      "character"
+    ],
+    "htmlFields": [
+      "description"
+    ],
+    "character": {}
+  },
+  "Item": {
+    "types": [
+      "characterClass",
+      "skill"
+    ],
+    "htmlFields": [
+      "description"
+    ],
+    "characterClass": {},
+    "skill": {}
+  }
+}
