@@ -8,5 +8,8 @@
   "HEIST.Global.Edit": "Edit",
   "HEIST.Global.Delete": "Delete",
   "HEIST.Global.Name": "Name",
-  "HEIST.Errors.CompendiumNotFound": "The compendium {name} is not found!"
+  "HEIST.Errors.CompendiumNotFound": "The compendium {name} is not found!",
+  "HEIST.Cards.AgentDeckName": "{name}’s Deck",
+  "HEIST.Cards.AgentHandName": "{name}’s Hand",
+  "HEIST.Cards.AgentPileName": "{name}’s Pile"
 }

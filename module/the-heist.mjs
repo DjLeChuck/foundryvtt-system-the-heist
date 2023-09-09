@@ -1,6 +1,9 @@
 import * as actor from './actor/_module.mjs';
 import * as item from './item/_module.mjs';
+import * as cards from './cards/_module.mjs';
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
+import { CardWindow } from './app/card-window.mjs';
+import { SocketListener } from './socket-listener.mjs';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -27,11 +30,13 @@ Hooks.once('init', async function () {
   // accessible in global contexts.
   game.heist = {
     rollItemMacro,
+    cardWindow: new CardWindow(),
   };
 
   // Define custom Document classes
   CONFIG.Actor.documentClass = actor.documents.BaseActor;
   CONFIG.Item.documentClass = item.documents.BaseItem;
+  CONFIG.Cards.documentClass = cards.documents.BaseCards;
 
   game.system.heist = {
     actorClasses: {
@@ -95,6 +100,8 @@ Handlebars.registerHelper('toLowerCase', function (str) {
 Hooks.once('ready', async function () {
   // Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
   Hooks.on('hotbarDrop', (bar, data, slot) => createItemMacro(data, slot));
+
+  SocketListener.activate();
 });
 
 /* -------------------------------------------- */

@@ -4,6 +4,15 @@ export class CharacterDataModel extends foundry.abstract.DataModel {
 
     return {
       description: new fields.HTMLField(),
+      deck: new fields.DocumentIdField({
+        required: false,
+      }),
+      hand: new fields.DocumentIdField({
+        required: false,
+      }),
+      pile: new fields.DocumentIdField({
+        required: false,
+      }),
     };
   }
 }

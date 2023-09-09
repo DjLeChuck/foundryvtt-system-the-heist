@@ -8,5 +8,8 @@
   "HEIST.Global.Edit": "Éditer",
   "HEIST.Global.Delete": "Supprimer",
   "HEIST.Global.Name": "Nom",
-  "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !"
+  "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !",
+  "HEIST.Cards.AgentDeckName": "Deck de {name}",
+  "HEIST.Cards.AgentHandName": "Main de {name}",
+  "HEIST.Cards.AgentPileName": "Défausse de {name}"
 }
