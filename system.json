@@ -1,5 +1,5 @@
 {
-  "id": "the-heist",
+  "id": "heist",
   "title": "The Heist",
   "description": "The Heist system for FoundryVTT!",
   "version": "0.0.1-dev",
@@ -23,10 +23,10 @@
     }
   ],
   "esmodules": [
-    "assets/js/the-heist.js"
+    "assets/js/heist.js"
   ],
   "styles": [
-    "assets/css/the-heist.css"
+    "assets/css/heist.css"
   ],
   "languages": [
     {

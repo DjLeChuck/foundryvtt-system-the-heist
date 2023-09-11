@@ -1,13 +1,15 @@
+import * as HEIST from '../../const.mjs';
+
 /**
  * Extend the basic Item with some very simple modifications.
  * @extends {Item}
  */
 export class BaseItem extends Item {
   constructor(docData, context = {}) {
-    if (!context.heist?.ready) {
-      mergeObject(context, { heist: { ready: true } });
+    if (!context[HEIST.SYSTEM_ID]?.ready) {
+      mergeObject(context, { [HEIST.SYSTEM_ID]: { ready: true } });
 
-      const actorConstructor = game.system.heist.itemClasses[docData.type];
+      const actorConstructor = game.system[HEIST.SYSTEM_ID].itemClasses[docData.type];
       if (actorConstructor) {
         return new actorConstructor(docData, context);
       }

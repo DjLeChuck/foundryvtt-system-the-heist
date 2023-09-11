@@ -1,9 +1,11 @@
+import * as HEIST from '../const.mjs';
+
 export class CardWindow extends Application {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ['the-heist', 'card-window'],
-      template: 'systems/the-heist/templates/app/card-window.html.hbs',
+      classes: [HEIST.SYSTEM_ID, 'card-window'],
+      template: `systems/${HEIST.SYSTEM_ID}/templates/app/card-window.html.hbs`,
       width: 750,
       height: 690,
       card: null,

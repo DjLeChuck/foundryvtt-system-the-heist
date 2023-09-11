@@ -1,4 +1,5 @@
 import { BaseActorSheet } from './base-actor-sheet.mjs';
+import * as HEIST from '../../const.mjs';
 
 export class CharacterActorSheet extends BaseActorSheet {
   /** @override */
@@ -71,7 +72,7 @@ export class CharacterActorSheet extends BaseActorSheet {
     const element = event.currentTarget;
     const dataset = element.dataset;
 
-    const compendium = game.packs.find((pack) => `heist.${dataset.name}` === pack.metadata.id);
+    const compendium = game.packs.find((pack) => `${HEIST.SYSTEM_ID}.${dataset.name}` === pack.metadata.id);
     if (!compendium) {
       ui.notifications.error(game.i18n.format('HEIST.Errors.CompendiumNotFound', { name: dataset.name }));
 

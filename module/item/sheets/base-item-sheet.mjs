@@ -1,3 +1,5 @@
+import * as HEIST from '../../const.mjs';
+
 /**
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
@@ -6,7 +8,7 @@ export class BaseItemSheet extends ItemSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ['the-heist', 'sheet', 'item'],
+      classes: [HEIST.SYSTEM_ID, 'sheet', 'item'],
       width: 520,
       height: 480,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'description' }],
@@ -15,7 +17,7 @@ export class BaseItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = 'systems/the-heist/templates/item';
+    const path = `systems/${HEIST.SYSTEM_ID}/templates/item`;
     // Return a single sheet for all item types.
     // return `${path}/item-sheet.html.hbs`;
 

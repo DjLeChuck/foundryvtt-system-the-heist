@@ -1,3 +1,5 @@
+import * as HEIST from '../../const.mjs';
+
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -6,8 +8,8 @@ export class BaseActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ['the-heist', 'sheet', 'actor'],
-      template: 'systems/the-heist/templates/actor/actor-sheet.html.hbs',
+      classes: [HEIST.SYSTEM_ID, 'sheet', 'actor'],
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-sheet.html.hbs`,
       width: 750,
       height: 690,
     });
@@ -15,7 +17,7 @@ export class BaseActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/the-heist/templates/actor/actor-${this.actor.type}-sheet.html.hbs`;
+    return `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-${this.actor.type}-sheet.html.hbs`;
   }
 
   /**

@@ -1,3 +1,4 @@
+import * as HEIST from './const.mjs';
 import * as actor from './actor/_module.mjs';
 import * as item from './item/_module.mjs';
 import * as cards from './cards/_module.mjs';
@@ -10,7 +11,7 @@ import { SocketListener } from './socket-listener.mjs';
 /* -------------------------------------------- */
 
 Hooks.once('init', async function () {
-  game.settings.register('heist', 'autoRegisterBabel', {
+  game.settings.register(HEIST.SYSTEM_ID, 'autoRegisterBabel', {
     name: 'HEIST.Settings.AutoRegisterBabele.Title',
     hint: 'HEIST.Settings.AutoRegisterBabele.Hint',
     scope: 'world',
@@ -28,7 +29,7 @@ Hooks.once('init', async function () {
 
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
-  game.heist = {
+  game[HEIST.SYSTEM_ID] = {
     rollItemMacro,
     cardWindow: new CardWindow(),
   };
@@ -38,7 +39,7 @@ Hooks.once('init', async function () {
   CONFIG.Item.documentClass = item.documents.BaseItem;
   CONFIG.Cards.documentClass = cards.documents.BaseCards;
 
-  game.system.heist = {
+  game.system[HEIST.SYSTEM_ID] = {
     actorClasses: {
       character: actor.documents.CharacterActor,
     },
@@ -55,22 +56,22 @@ Hooks.once('init', async function () {
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet);
-  Actors.registerSheet('heist', actor.sheets.CharacterActorSheet, {
+  Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.CharacterActorSheet, {
     types: ['character'],
     makeDefault: true,
   });
   Items.unregisterSheet('core', ItemSheet);
-  Items.registerSheet('heist', item.sheets.CharacterClassItemSheet, {
+  Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.CharacterClassItemSheet, {
     types: ['characterClass'],
     makeDefault: true,
   });
-  Items.registerSheet('heist', item.sheets.SkillItemSheet, {
+  Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
     types: ['skill'],
     makeDefault: true,
   });
 
   if (typeof Babele !== 'undefined') {
-    if (game.settings.get('heist', 'autoRegisterBabel')) {
+    if (game.settings.get(HEIST.SYSTEM_ID, 'autoRegisterBabel')) {
       autoRegisterBabel();
     }
   }
@@ -130,7 +131,7 @@ async function createItemMacro(data, slot) {
   const item = await Item.fromDropData(data);
 
   // Create the macro command using the uuid.
-  const command = `game.heist.rollItemMacro("${data.uuid}");`;
+  const command = `game.${HEIST.SYSTEM_ID}.rollItemMacro("${data.uuid}");`;
   let macro = game.macros.find(m => (m.name === item.name) && (m.command === command));
   if (!macro) {
     macro = await Macro.create({
@@ -138,7 +139,7 @@ async function createItemMacro(data, slot) {
       type: 'script',
       img: item.img,
       command: command,
-      flags: { 'heist.itemMacro': true },
+      flags: { [`${HEIST.SYSTEM_ID}.itemMacro`]: true },
     });
   }
   game.user.assignHotbarMacro(macro, slot);

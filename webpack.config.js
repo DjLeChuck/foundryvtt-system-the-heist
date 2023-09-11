@@ -3,10 +3,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    app: ['./module/the-heist.mjs', './scss/the-heist.scss'],
+    app: ['./module/heist.mjs', './scss/heist.scss'],
   },
   output: {
-    filename: 'js/the-heist.js',
+    filename: 'js/heist.js',
     path: path.resolve(__dirname, 'assets'),
   },
   module: {
@@ -48,7 +48,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'css/the-heist.css',
+      filename: 'css/heist.css',
     }),
   ],
 };

@@ -1,5 +1,5 @@
 {
-  "name": "the-heist",
+  "name": "heist",
   "version": "0.0.1-dev",
   "description": "CSS compiler for the system The Heist",
   "scripts": {
