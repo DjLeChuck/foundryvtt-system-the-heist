@@ -1,7 +1,9 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const dev = process.env.NODE_ENV !== 'production';
 
 module.exports = {
+  devtool: dev ? 'eval-cheap-module-source-map' : false,
   entry: {
     app: ['./module/heist.mjs', './scss/heist.scss'],
   },

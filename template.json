@@ -1,22 +1,26 @@
 {
   "Actor": {
     "types": [
-      "character"
+      "agent",
+      "gamemaster"
     ],
     "htmlFields": [
       "description"
     ],
-    "character": {}
+    "agent": {},
+    "gamemaster": {}
   },
   "Item": {
     "types": [
-      "characterClass",
-      "skill"
+      "agentType",
+      "skill",
+      "fetish"
     ],
     "htmlFields": [
       "description"
     ],
-    "characterClass": {},
-    "skill": {}
+    "agentType": {},
+    "skill": {},
+    "fetish": {}
   }
 }

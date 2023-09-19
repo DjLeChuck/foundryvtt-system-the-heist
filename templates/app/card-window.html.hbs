@@ -1,9 +1,8 @@
 <div>
-  <div class="form-group">
-    <h2 class="card-title">{{card.name}}</h2>
-  </div>
-  <div class="form-group">
-    <label>Valeur de carte :</label>
-    <p>{{card.value}}</p>
-  </div>
+  {{#if test.isRunning}}
+    {{> "systems/heist/templates/app/_partials/_card-window-test-running.html.hbs"}}
+  {{/if}}
+  {{#unless test.isRunning}}
+    {{> "systems/heist/templates/app/_partials/_card-window-no-test.html.hbs"}}
+  {{/unless}}
 </div>

@@ -10,9 +10,10 @@
 @import "global/flex";
 
 /* Styles limited to The Heist sheets */
-.the-heist {
+.heist {
   @import "components/forms";
   @import "components/resource";
   @import "components/items";
   @import "components/effects";
+  @import "components/card-window";
 }

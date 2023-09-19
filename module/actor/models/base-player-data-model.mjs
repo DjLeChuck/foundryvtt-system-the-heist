@@ -1,9 +1,8 @@
-export class CharacterDataModel extends foundry.abstract.DataModel {
+export class BasePlayerDataModel extends foundry.abstract.DataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
 
     return {
-      description: new fields.HTMLField(),
       deck: new fields.DocumentIdField({
         required: false,
       }),

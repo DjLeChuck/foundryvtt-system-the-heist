@@ -1,4 +1,5 @@
 import * as HEIST from '../const.mjs';
+import * as CARDS from '../helpers/cards.mjs';
 
 export class CardWindow extends Application {
   /** @override */
@@ -7,25 +8,176 @@ export class CardWindow extends Application {
       classes: [HEIST.SYSTEM_ID, 'card-window'],
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/card-window.html.hbs`,
       width: 750,
-      height: 690,
-      card: null,
+      height: 800,
     });
   }
 
+  /**
+   * @returns {GamemasterActor|null}
+   */
+  get gm() {
+    const gmID = game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.gm;
+    if (!gmID) {
+      return null;
+    }
+
+    const gm = game.actors.get(gmID);
+    if (!gm) {
+      return null;
+    }
+
+    return gm;
+  }
+
+  /**
+   * @returns {AgentActor|null}
+   */
+  get agent() {
+    const agentId = game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.agent;
+    if (!agentId) {
+      return null;
+    }
+
+    const agent = game.actors.get(agentId);
+    if (!agent) {
+      return null;
+    }
+
+    return agent;
+  }
+
+  /**
+   * @returns {boolean}
+   */
+  get isRevealed() {
+    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isRevealed ?? false;
+  }
+
+  /**
+   * @returns {boolean}
+   */
+  get isFinished() {
+    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isFinished ?? false;
+  }
+
+  async prepareTest(gm, agent) {
+    await this.#setTestSettings({
+      gm,
+      agent,
+      isRevealed: false,
+      isFinished: false,
+    });
+
+    await this.#clearHands();
+  }
+
   getData() {
-    // Ici vous pouvez insérer les données nécessaires pour votre fenêtre.
-    // Exemple: la carte actuellement tirée
-    return { card: this.options.card };
+    const gm = this.gm;
+    const agent = this.agent;
+
+    if (null === gm || null === agent) {
+      return {
+        test: {
+          isRunning: false,
+        },
+      };
+    }
+
+    const gmCards = gm.hand.cards;
+    const agentCards = agent.hand.cards;
+    const agentScore = CARDS.scoreForAgent(agentCards);
+    const gmTotalScore = CARDS.scoreForGM(gmCards);
+
+    return {
+      isAdmin: game.user.isGM,
+      test: {
+        isRunning: true,
+        isRevealed: this.isRevealed,
+        isFinished: this.isFinished,
+        isSuccessful: agentScore >= gmTotalScore,
+        isBlackjack: 21 === agentScore,
+      },
+      gm: {
+        cards: CARDS.sortByValue(gmCards),
+        score: CARDS.scoreForAgent(gmCards),
+        totalScore: gmTotalScore,
+      },
+      agent: {
+        name: agent.name,
+        isOwner: agent.isOwner,
+        cards: CARDS.sortByValue(agentCards),
+        score: agentScore,
+        canDraw: 0 < agent.deck.availableCards.length,
+      },
+    };
   }
 
-  // Events listeners
   activateListeners(html) {
-    // Vous pouvez attacher des écouteurs d'événements ici pour interagir avec votre fenêtre.
+    const agent = this.agent;
+
+    if (agent?.isOwner) {
+      html.find('[data-draw]').click(this._onDraw.bind(this));
+      html.find('[data-finish]').click(this._onFinishTest.bind(this));
+    }
+
+    if (!game.user.isGM) {
+      return;
+    }
+
+    html.find('[data-reveal]').click(this._onRevealTest.bind(this));
   }
 
-  setCard(card) {
-    this.options.card = card;
+  async _onDraw(e) {
+    e.preventDefault();
 
+    await this.agent.drawCards(1);
+
+    this.#refreshViews();
+  }
+
+  async _onFinishTest(e) {
+    e.preventDefault();
+
+    await this.#setTestSettings({ isFinished: true });
+
+    this.#refreshViews();
+  }
+
+  async _onRevealTest(e) {
+    e.preventDefault();
+
+    await this.gm.revealTest();
+
+    await this.#setTestSettings({ isRevealed: true });
+
+    this.#refreshViews();
+  }
+
+  #currentTestSettings() {
+    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest').toJSON();
+  }
+
+  async #setTestSettings(settings) {
+    await game.settings.set(HEIST.SYSTEM_ID, 'currentTest', mergeObject(
+      this.#currentTestSettings(),
+      settings,
+    ));
+  }
+
+  async #clearHands() {
+    await this.gm?.throwHand();
+    await this.agent?.throwHand();
+  }
+
+  #refreshViews() {
     this.render(true);
+
+    if (this.gm?.sheet.rendered) {
+      this.gm?.sheet?.render(true, { focus: false });
+    }
+
+    if (this.agent?.sheet.rendered) {
+      this.agent?.sheet?.render(true, { focus: false });
+    }
   }
 }

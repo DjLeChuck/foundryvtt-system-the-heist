@@ -1,0 +1,62 @@
+<h2>{{localize "HEIST.CardWindow.TitleWithTest" name=agent.name}}</h2>
+
+<div class="grid grid-2col align-center">
+  {{#each gm.cards}}
+    <div>
+      <img src="{{this.img}}" alt="{{this.name}}" class="card" />
+    </div>
+  {{/each}}
+</div>
+
+<p>{{localize "HEIST.CardWindow.CurrentScore" value=gm.score}}</p>
+
+{{#if isAdmin}}
+  <p>{{localize "HEIST.CardWindow.TotalScore" value=gm.totalScore}}</p>
+
+  {{#unless test.isRevealed}}
+    <p>
+      <button type="button" data-reveal>{{localize "HEIST.CardWindow.Reveal"}}</button>
+    </p>
+  {{/unless}}
+{{/if}}
+
+<h2>{{localize "HEIST.CardWindow.AgentHand"}}</h2>
+
+<div class="grid grid-4col align-center">
+  {{#each agent.cards}}
+    <div>
+      <img src="{{this.img}}" alt="{{this.name}}" class="card" />
+    </div>
+  {{/each}}
+</div>
+
+<p>{{localize "HEIST.CardWindow.CurrentScore" value=agent.score}}</p>
+
+{{#if agent.isOwner}}
+  {{#unless test.isFinished}}
+    <p class="grid grid-2col">
+      <button type="button" data-draw{{#unless agent.canDraw}} disabled title="{{localize "HEIST.CardWindow.NoCardLeft"}}"{{/unless}}>
+        {{localize "HEIST.CardWindow.Draw"}}
+      </button>
+      <button type="button" data-finish>{{localize "HEIST.CardWindow.Finish"}}</button>
+    </p>
+  {{/unless}}
+{{/if}}
+
+{{#if test.isFinished}}
+  <h2>{{localize "HEIST.CardWindow.Result.Title"}}</h2>
+
+  {{#if test.isRevealed}}
+    {{#if test.isSuccessful}}
+      <p>{{localize "HEIST.CardWindow.Result.Success"}}</p>
+
+      {{#if test.isBlackjack}}
+        <p><strong>{{localize "HEIST.Blackjack.Label"}}</strong></p>
+        <p>{{localize "HEIST.Blackjack.Explanation" name=agent.name}}</p>
+      {{/if}}
+    {{/if}}
+    {{#unless test.isSuccessful}}
+      <p>{{localize "HEIST.CardWindow.Result.Failure"}}</p>
+    {{/unless}}
+  {{/if}}
+{{/if}}

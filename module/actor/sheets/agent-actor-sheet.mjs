@@ -1,7 +1,7 @@
 import { BaseActorSheet } from './base-actor-sheet.mjs';
 import * as HEIST from '../../const.mjs';
 
-export class CharacterActorSheet extends BaseActorSheet {
+export class AgentActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
@@ -11,7 +11,7 @@ export class CharacterActorSheet extends BaseActorSheet {
 
   /**
    * A convenience reference to the Actor document
-   * @type {CharacterActor}
+   * @type {AgentActor}
    */
   get actor() {
     return this.object;
@@ -45,22 +45,22 @@ export class CharacterActorSheet extends BaseActorSheet {
    * @return {undefined}
    */
   async _prepareItems(context) {
-    let characterClass = null;
+    let agentType = null;
 
     // Iterate through items, allocating to containers
     for (let i of context.items) {
       i.img = i.img || Item.DEFAULT_ICON;
-      if (i.type === 'characterClass') {
-        characterClass = i;
+      if (i.type === 'agentType') {
+        agentType = i;
       }
     }
 
-    context.characterClass = characterClass;
+    context.agentType = agentType;
   }
 
   async _onDropSingleItem(itemData) {
-    if ('characterClass' === itemData.type && null !== this.actor.characterClass) {
-      await this.actor.characterClass.delete();
+    if ('agentType' === itemData.type && null !== this.actor.agentType) {
+      await this.actor.agentType.delete();
     }
 
     return itemData;

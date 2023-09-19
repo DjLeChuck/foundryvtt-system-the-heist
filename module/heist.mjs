@@ -2,9 +2,9 @@ import * as HEIST from './const.mjs';
 import * as actor from './actor/_module.mjs';
 import * as item from './item/_module.mjs';
 import * as cards from './cards/_module.mjs';
+import * as appModels from './app/models/_module.mjs';
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
 import { CardWindow } from './app/card-window.mjs';
-import { SocketListener } from './socket-listener.mjs';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -27,6 +27,13 @@ Hooks.once('init', async function () {
     },
   });
 
+  game.settings.register(HEIST.SYSTEM_ID, 'currentTest', {
+    scope: 'world',
+    config: false,
+    type: appModels.CurrentTestDataModel,
+    default: {},
+  });
+
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
   game[HEIST.SYSTEM_ID] = {
@@ -41,28 +48,40 @@ Hooks.once('init', async function () {
 
   game.system[HEIST.SYSTEM_ID] = {
     actorClasses: {
-      character: actor.documents.CharacterActor,
+      agent: actor.documents.AgentActor,
+      gamemaster: actor.documents.GamemasterActor,
     },
     itemClasses: {
-      characterClass: item.documents.CharacterClassItem,
+      agentType: item.documents.AgentTypeItem,
+      fetish: item.documents.FetishItem,
       skill: item.documents.SkillItem,
     },
   };
 
   // Register custom Data Model
-  CONFIG.Actor.dataModels.character = actor.models.CharacterDataModel;
-  CONFIG.Item.dataModels.characterClass = item.models.CharacterClassDataModel;
+  CONFIG.Actor.dataModels.agent = actor.models.AgentDataModel;
+  CONFIG.Actor.dataModels.gamemaster = actor.models.GamemasterDataModel;
+  CONFIG.Item.dataModels.agentType = item.models.AgentTypeDataModel;
+  CONFIG.Item.dataModels.fetish = item.models.FetishDataModel;
   CONFIG.Item.dataModels.skill = item.models.SkillDataModel;
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet);
-  Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.CharacterActorSheet, {
-    types: ['character'],
+  Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.AgentActorSheet, {
+    types: ['agent'],
+    makeDefault: true,
+  });
+  Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.GamemasterActorSheet, {
+    types: ['gamemaster'],
     makeDefault: true,
   });
   Items.unregisterSheet('core', ItemSheet);
-  Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.CharacterClassItemSheet, {
-    types: ['characterClass'],
+  Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
+    types: ['agentType'],
+    makeDefault: true,
+  });
+  Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
+    types: ['fetish'],
     makeDefault: true,
   });
   Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
@@ -94,6 +113,10 @@ Handlebars.registerHelper('toLowerCase', function (str) {
   return str.toLowerCase();
 });
 
+Handlebars.registerHelper('length', function (value) {
+  return value.length;
+});
+
 /* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
@@ -101,8 +124,6 @@ Handlebars.registerHelper('toLowerCase', function (str) {
 Hooks.once('ready', async function () {
   // Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
   Hooks.on('hotbarDrop', (bar, data, slot) => createItemMacro(data, slot));
-
-  SocketListener.activate();
 });
 
 /* -------------------------------------------- */
