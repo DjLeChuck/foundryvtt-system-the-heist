@@ -2,9 +2,8 @@ import * as HEIST from './const.mjs';
 import * as actor from './actor/_module.mjs';
 import * as item from './item/_module.mjs';
 import * as cards from './cards/_module.mjs';
-import * as appModels from './app/models/_module.mjs';
+import * as app from './app/_module.mjs';
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
-import { CardWindow } from './app/card-window.mjs';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -30,15 +29,23 @@ Hooks.once('init', async function () {
   game.settings.register(HEIST.SYSTEM_ID, 'currentTest', {
     scope: 'world',
     config: false,
-    type: appModels.CurrentTestDataModel,
+    type: app.models.CurrentTestDataModel,
     default: {},
+  });
+
+  game.settings.register(HEIST.SYSTEM_ID, 'gamePhaseTimer', {
+    scope: 'world',
+    config: false,
+    default: 0,
+    type: Number,
   });
 
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
   game[HEIST.SYSTEM_ID] = {
     rollItemMacro,
-    cardWindow: new CardWindow(),
+    cardWindow: new app.windows.CardWindow(),
+    gamePhaseWindow: new app.windows.GamePhaseWindow(),
   };
 
   // Define custom Document classes
@@ -115,6 +122,13 @@ Handlebars.registerHelper('toLowerCase', function (str) {
 
 Handlebars.registerHelper('length', function (value) {
   return value.length;
+});
+
+Handlebars.registerHelper('formattedTimeLeft', function(timeLeft) {
+  const minutes = Math.floor(timeLeft / 60);
+  const seconds = timeLeft % 60;
+
+  return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 });
 
 /* -------------------------------------------- */

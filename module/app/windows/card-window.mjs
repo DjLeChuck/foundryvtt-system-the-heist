@@ -1,5 +1,5 @@
-import * as HEIST from '../const.mjs';
-import * as CARDS from '../helpers/cards.mjs';
+import * as HEIST from '../../const.mjs';
+import * as CARDS from '../../helpers/cards.mjs';
 
 export class CardWindow extends Application {
   /** @override */

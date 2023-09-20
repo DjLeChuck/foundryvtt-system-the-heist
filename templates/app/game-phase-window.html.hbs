@@ -1,0 +1,23 @@
+<div class="game-phase-window">
+  <ul class="breadcrumb">
+    {{#each phases}}
+      <li {{#if (eq ../currentPhase this) }}class="active"{{/if}}>{{this.name}}</li>
+    {{/each}}
+  </ul>
+  <div class="phase-details">
+    <h2>{{currentPhase.name}}</h2>
+    <div id="timer">_Durée : {{currentPhase.duration}} minutes</div>
+
+    {{#if (gt timeLeft 0)}}
+      <div id="timer">_Temps restant : {{formattedTimeLeft timeLeft}}</div>
+    {{/if}}
+  </div>
+  <div class="buttons">
+    <button type="button" data-pause>
+      {{#if paused}}_Reprendre{{/if}}
+      {{#unless paused}}_Pause{{/unless}}
+    </button>
+    <button type="button" data-next>_Phase suivante</button>
+    <button type="button" data-reinit>_Réinitialiser</button>
+  </div>
+</div>
