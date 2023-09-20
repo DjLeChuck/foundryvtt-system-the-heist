@@ -1,0 +1,16 @@
+<h3>{{localize "HEIST.Blackjack.Label"}}</h3>
+
+<ul>
+  {{#each recalls}}
+    {{#if this.show}}
+      <li>
+        {{#if this.tested}}
+          {{localize "HEIST.Cards.RecallHand" name=this.agent}}
+        {{/if}}
+        {{#unless this.tested}}
+          {{localize "HEIST.Cards.RecallFromPile" name=this.agent number=this.number}}
+        {{/unless}}
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>

@@ -32,15 +32,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
   /** @override */
   getData() {
     const context = super.getData();
-    context.agents = [];
-
-    for (const agentId of this.actor.system.agents) {
-      const agent = game.actors.get(agentId);
-
-      if (agent) {
-        context.agents.push(agent);
-      }
-    }
+    context.agents = this.actor.agents;
 
     return context;
   }

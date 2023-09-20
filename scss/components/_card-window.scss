@@ -1,5 +1,9 @@
 &.card-window {
-  .card {
-    height: 220px;
+  .cards {
+    min-height: 220px;
+
+    .card {
+      height: 220px;
+    }
   }
 }

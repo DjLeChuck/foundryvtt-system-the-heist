@@ -3,6 +3,19 @@ import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
 
 export class GamemasterActor extends BasePlayerActor {
+  /**
+   * @returns {AgentActor[]}
+   */
+  get agents() {
+    const agents = [];
+
+    for (const agentId of this.system.agents) {
+      agents.push(game.actors.get(agentId));
+    }
+
+    return agents;
+  }
+
   _baseDeckId() {
     return HEIST.GM_DECK_ID;
   }

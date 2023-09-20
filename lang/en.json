@@ -17,6 +17,8 @@
   "HEIST.Cards.AgentHandName": "{name}’s Hand",
   "HEIST.Cards.AgentPileName": "{name}’s Pile",
   "HEIST.Cards.Remaining": "Remaining cards: {count}",
+  "HEIST.Cards.RecallHand": "Agent {name} recovers his hand and shuffles his deck.",
+  "HEIST.Cards.RecallFromPile": "Agent {name} recovers {number} card(s) from his pile and shuffles his deck.",
   "HEIST.CardWindow.TitleWithTest": "Test for agent {name}",
   "HEIST.CardWindow.TitleWithoutTest": "No test running",
   "HEIST.CardWindow.AgentHand": "Agent's hand",

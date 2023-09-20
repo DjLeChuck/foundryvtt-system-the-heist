@@ -125,6 +125,7 @@ export class CardWindow extends Application {
     }
 
     html.find('[data-reveal]').click(this._onRevealTest.bind(this));
+    html.find('[data-blackjack]').click(this._onBlackjack.bind(this));
   }
 
   async _onDraw(e) {
@@ -146,11 +147,54 @@ export class CardWindow extends Application {
   async _onRevealTest(e) {
     e.preventDefault();
 
+    if (!game.user.isGM) {
+      return;
+    }
+
     await this.gm.revealTest();
 
     await this.#setTestSettings({ isRevealed: true });
 
     this.#refreshViews();
+  }
+
+  async _onBlackjack(e) {
+    e.preventDefault();
+
+    if (!game.user.isGM) {
+      return;
+    }
+
+    const testedAgent = this.agent;
+    const recalls = [];
+
+    for (const agent of this.gm.agents) {
+      if (agent === testedAgent) {
+        const number = await agent.recallHand();
+
+        recalls.push({
+          number,
+          agent: agent.name,
+          tested: true,
+          show: 0 < number,
+        });
+      } else {
+        const number = await agent.recallFromPile(2);
+
+        recalls.push({
+          number,
+          agent: agent.name,
+          tested: false,
+          show: 0 < number,
+        });
+      }
+    }
+
+    ChatMessage.create({
+      content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/blackjack.html.hbs`, {
+        recalls,
+      }),
+    });
   }
 
   #currentTestSettings() {
@@ -165,8 +209,15 @@ export class CardWindow extends Application {
   }
 
   async #clearHands() {
+    if (!this.gm) {
+      return;
+    }
+
     await this.gm?.throwHand();
-    await this.agent?.throwHand();
+
+    for (const agent of this.gm.agents) {
+      await agent.throwHand();
+    }
   }
 
   #refreshViews() {

@@ -17,6 +17,8 @@
   "HEIST.Cards.AgentHandName": "Main de {name}",
   "HEIST.Cards.AgentPileName": "Défausse de {name}",
   "HEIST.Cards.Remaining": "Cartes restantes : {count}",
+  "HEIST.Cards.RecallHand": "L’agent {name} récupère sa main et mélange son deck.",
+  "HEIST.Cards.RecallFromPile": "L’agent {name} récupère {number} carte(s) de sa défausse et mélange son deck.",
   "HEIST.CardWindow.TitleWithTest": "Test pour l’agent {name}",
   "HEIST.CardWindow.TitleWithoutTest": "Aucun test en cours",
   "HEIST.CardWindow.AgentHand": "Main de l’agent",

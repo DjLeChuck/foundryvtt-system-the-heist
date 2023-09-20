@@ -1,6 +1,6 @@
 <h2>{{localize "HEIST.CardWindow.TitleWithTest" name=agent.name}}</h2>
 
-<div class="grid grid-2col align-center">
+<div class="grid grid-2col align-center cards">
   {{#each gm.cards}}
     <div>
       <img src="{{this.img}}" alt="{{this.name}}" class="card" />
@@ -22,7 +22,7 @@
 
 <h2>{{localize "HEIST.CardWindow.AgentHand"}}</h2>
 
-<div class="grid grid-4col align-center">
+<div class="grid grid-4col align-center cards">
   {{#each agent.cards}}
     <div>
       <img src="{{this.img}}" alt="{{this.name}}" class="card" />
@@ -53,6 +53,10 @@
       {{#if test.isBlackjack}}
         <p><strong>{{localize "HEIST.Blackjack.Label"}}</strong></p>
         <p>{{localize "HEIST.Blackjack.Explanation" name=agent.name}}</p>
+
+        {{#if isAdmin}}
+          <button type="button" data-blackjack>{{localize "HEIST.CardWindow.Blackjack"}}</button>
+        {{/if}}
       {{/if}}
     {{/if}}
     {{#unless test.isSuccessful}}
