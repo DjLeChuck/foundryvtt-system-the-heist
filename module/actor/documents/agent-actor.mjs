@@ -11,6 +11,11 @@ export class AgentActor extends BasePlayerActor {
     return this.items.find((item) => 'agentType' === item.type) ?? null;
   }
 
+  async setDecks() {
+    await this._deleteDecks();
+    await this._createDecks();
+  }
+
   async recallHand() {
     const ids = this.hand.cards.map((c) => c.id);
 
@@ -48,6 +53,12 @@ export class AgentActor extends BasePlayerActor {
   }
 
   _baseDeckId() {
-    return HEIST.CLUB_DECK_ID;
+    if (null === this.agentType || !this.agentType.getFlag(HEIST.SYSTEM_ID, 'deckId')) {
+      ui.notifications.error(game.i18n.format('HEIST.Errors.DeckIdNotSet'));
+
+      return null;
+    }
+
+    return this.agentType.getFlag(HEIST.SYSTEM_ID, 'deckId');
   }
 }

@@ -40,20 +40,27 @@ export class BasePlayerActor extends BaseActor {
     throw new Error('You have to implement the method _baseDeckId!');
   }
 
-  /** @override */
-  async _preCreate(data, options, userId) {
-    await super._preCreate(data, options, userId);
+  async _onDelete(options, userId) {
+    await this._deleteDecks();
 
-    const baseDeck = await this.#baseDeck();
+    super._onDelete(options, userId);
+  }
+
+  _baseDeck() {
+    return game.packs.get(HEIST.COMPENDIUM_DECK_ID).getDocument(this._baseDeckId());
+  }
+
+  async _createDecks() {
+    const baseDeck = await this._baseDeck();
     const deck = await Cards.create(foundry.utils.mergeObject(baseDeck.toObject(false), {
-      name: game.i18n.format('HEIST.Cards.DeckName', { name: data.name }),
+      name: game.i18n.format('HEIST.Cards.DeckName', { name: this.name }),
     }));
     const hand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.HandName', { name: data.name }),
+      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
       type: 'hand',
     });
     const pile = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.PileName', { name: data.name }),
+      name: game.i18n.format('HEIST.Cards.PileName', { name: this.name }),
       type: 'pile',
     });
 
@@ -69,15 +76,9 @@ export class BasePlayerActor extends BaseActor {
     });
   }
 
-  async _onDelete(options, userId) {
+  async _deleteDecks() {
     await this.deck?.delete({});
     await this.hand?.delete({});
     await this.pile?.delete({});
-
-    super._onDelete(options, userId);
-  }
-
-  #baseDeck() {
-    return game.packs.get(HEIST.COMPENDIUM_DECK_ID).getDocument(this._baseDeckId());
   }
 }

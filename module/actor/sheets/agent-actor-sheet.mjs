@@ -1,5 +1,6 @@
 import { BaseActorSheet } from './base-actor-sheet.mjs';
 import * as HEIST from '../../const.mjs';
+import { AgentTypeItem } from '../../item/documents/_module.mjs';
 
 export class AgentActorSheet extends BaseActorSheet {
   /** @override */
@@ -64,6 +65,17 @@ export class AgentActorSheet extends BaseActorSheet {
     }
 
     return itemData;
+  }
+
+  /** @override */
+  async _onDropItemCreate(itemData) {
+    const items = await super._onDropItemCreate(itemData);
+
+    if (items.length && items[0] instanceof AgentTypeItem) {
+      await this.actor.setDecks();
+    }
+
+    return items;
   }
 
   async _onOpenCompendium(event) {

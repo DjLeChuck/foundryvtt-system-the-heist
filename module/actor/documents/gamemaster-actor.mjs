@@ -16,10 +16,6 @@ export class GamemasterActor extends BasePlayerActor {
     return agents;
   }
 
-  _baseDeckId() {
-    return HEIST.GM_DECK_ID;
-  }
-
   /**
    * @param {String|undefined} difficulty
    * @param {String|undefined} agentId
@@ -74,5 +70,16 @@ export class GamemasterActor extends BasePlayerActor {
     for (const card of this.hand.cards.contents) {
       await card.flip(0);
     }
+  }
+
+  /** @override */
+  async _preCreate(data, options, userId) {
+    await super._preCreate(data, options, userId);
+
+    await this._createDecks();
+  }
+
+  _baseDeckId() {
+    return HEIST.GM_DECK_ID;
   }
 }

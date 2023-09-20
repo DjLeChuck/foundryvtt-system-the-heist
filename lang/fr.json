@@ -33,5 +33,6 @@
   "HEIST.CardWindow.Result.Failure": "Malheureusement agent, votre test est un échec.",
   "HEIST.GamemasterSheet.EasyTest": "Test facile",
   "HEIST.GamemasterSheet.DifficultTest": "Test difficile",
-  "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !"
+  "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !",
+  "HEIST.Errors.DeckIdNotSet": "L’ID du deck à utiliser n’est pas défini !"
 }
