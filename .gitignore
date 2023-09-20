@@ -11,6 +11,8 @@ npm-debug.log
 jsconfig.json
 foundry
 assets/
+packs/
+!packs/**/_source
 
 ###> yarn ###
 .pnp.*

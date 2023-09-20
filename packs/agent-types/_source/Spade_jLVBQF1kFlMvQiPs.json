@@ -1,0 +1,26 @@
+{
+  "name": "Spade",
+  "type": "agentType",
+  "_id": "jLVBQF1kFlMvQiPs",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>As elegant as he or she is graceful, he or she is immovably dexterous and discreet. <strong>Spades</strong> are capable of impressive physical prowess as well as being professional burglars. They are often the mover and shaker at the heart of the agency’s action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "0.0.1-dev",
+    "coreVersion": "11.308",
+    "createdTime": 1695240467770,
+    "modifiedTime": 1695241029694,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!jLVBQF1kFlMvQiPs"
+}

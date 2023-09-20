@@ -1,0 +1,26 @@
+{
+  "name": "Diamond",
+  "type": "agentType",
+  "_id": "Aphrr30JH60NfbOP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Often professional and impressive, he or she is always sure of his or her technical skills, whether in demolition, mechanics or piloting. <strong>Diamonds</strong> are expert technicians who can improvise with ease, and who have learned not to let themselves be taken for a ride. They sometimes have a dark past...</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "0.0.1-dev",
+    "coreVersion": "11.308",
+    "createdTime": 1695240469874,
+    "modifiedTime": 1695240992018,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!Aphrr30JH60NfbOP"
+}

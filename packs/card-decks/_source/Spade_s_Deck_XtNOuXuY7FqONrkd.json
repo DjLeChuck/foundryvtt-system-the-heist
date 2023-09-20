@@ -1,0 +1,431 @@
+{
+  "name": "Spade’s Deck",
+  "type": "deck",
+  "description": "Cards deck of Spade.",
+  "img": "cards/backs/dark-gold.webp",
+  "cards": [
+    {
+      "name": "Ace of Spades",
+      "faces": [
+        {
+          "name": "Ace of Spades",
+          "img": "cards/dark-gold/spades-ace.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 1,
+      "suit": "spades",
+      "_id": "CWgif1hwr9zHSi1Z",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 39,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.CWgif1hwr9zHSi1Z",
+      "cards": []
+    },
+    {
+      "name": "Two of Spades",
+      "faces": [
+        {
+          "name": "Two of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-02.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 2,
+      "suit": "spades",
+      "_id": "rkN2VIFOCoIFTljy",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 40,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.rkN2VIFOCoIFTljy",
+      "cards": []
+    },
+    {
+      "name": "Three of Spades",
+      "faces": [
+        {
+          "name": "Three of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-03.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 3,
+      "suit": "spades",
+      "_id": "tjZBEJGNOGw5OarJ",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 41,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.tjZBEJGNOGw5OarJ",
+      "cards": []
+    },
+    {
+      "name": "Four of Spades",
+      "faces": [
+        {
+          "name": "Four of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-04.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 4,
+      "suit": "spades",
+      "_id": "U88fDHv16N7NwKog",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 42,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.U88fDHv16N7NwKog",
+      "cards": []
+    },
+    {
+      "name": "Five of Spades",
+      "faces": [
+        {
+          "name": "Five of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-05.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 5,
+      "suit": "spades",
+      "_id": "BWAoswy63BNmbfFR",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 43,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.BWAoswy63BNmbfFR",
+      "cards": []
+    },
+    {
+      "name": "Six of Spades",
+      "faces": [
+        {
+          "name": "Six of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-06.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 6,
+      "suit": "spades",
+      "_id": "wGJNwFgIDRKHsuNs",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 44,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.wGJNwFgIDRKHsuNs",
+      "cards": []
+    },
+    {
+      "name": "Seven of Spades",
+      "faces": [
+        {
+          "name": "Seven of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-07.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 7,
+      "suit": "spades",
+      "_id": "zOVzGhV7WCZ6g0DH",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 45,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.zOVzGhV7WCZ6g0DH",
+      "cards": []
+    },
+    {
+      "name": "Eight of Spades",
+      "faces": [
+        {
+          "name": "Eight of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-08.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 8,
+      "suit": "spades",
+      "_id": "O39MQt4Die23LekG",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 46,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.O39MQt4Die23LekG",
+      "cards": []
+    },
+    {
+      "name": "Nine of Spades",
+      "faces": [
+        {
+          "name": "Nine of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-09.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 9,
+      "suit": "spades",
+      "_id": "SHsshwOizq97j7Yv",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 47,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.SHsshwOizq97j7Yv",
+      "cards": []
+    },
+    {
+      "name": "Ten of Spades",
+      "faces": [
+        {
+          "name": "Ten of Spades",
+          "text": "",
+          "img": "cards/dark-gold/spades-10.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 10,
+      "suit": "spades",
+      "_id": "XnXbwpNpZzZua7Qe",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 48,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.XnXbwpNpZzZua7Qe",
+      "cards": []
+    },
+    {
+      "name": "Jack of Spades",
+      "faces": [
+        {
+          "name": "Jack of Spades",
+          "img": "cards/dark-gold/spades-jack.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 11,
+      "suit": "spades",
+      "_id": "3bcTt41XPE6JYXjm",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 49,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.3bcTt41XPE6JYXjm",
+      "cards": []
+    },
+    {
+      "name": "Queen of Spades",
+      "faces": [
+        {
+          "name": "Queen of Spades",
+          "img": "cards/dark-gold/spades-queen.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 12,
+      "suit": "spades",
+      "_id": "bNing2cbz9nbdqvl",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 50,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.bNing2cbz9nbdqvl",
+      "cards": []
+    },
+    {
+      "name": "King of Spades",
+      "faces": [
+        {
+          "name": "King of Spades",
+          "img": "cards/dark-gold/spades-king.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 13,
+      "suit": "spades",
+      "_id": "c9jqBcs9dWaqnqKf",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 51,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.c9jqBcs9dWaqnqKf",
+      "cards": []
+    }
+  ],
+  "width": 2,
+  "height": 3,
+  "rotation": 0,
+  "displayCount": true,
+  "flags": {
+    "exportSource": {
+      "world": "testworld",
+      "system": "dnd5e",
+      "coreVersion": "9.222",
+      "systemVersion": "1.4.3"
+    }
+  },
+  "system": {},
+  "_id": "XtNOuXuY7FqONrkd",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vVJVBCfWogk10kDN": 3
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "0.0.1-dev",
+    "coreVersion": "11.308",
+    "createdTime": 1694536079932,
+    "modifiedTime": 1694536884422,
+    "lastModifiedBy": "vVJVBCfWogk10kDN"
+  },
+  "_key": "!cards!XtNOuXuY7FqONrkd"
+}

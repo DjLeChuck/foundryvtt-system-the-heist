@@ -1,0 +1,26 @@
+{
+  "name": "Heart",
+  "type": "agentType",
+  "_id": "3IxPwTiTEb2ofovu",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Charming and playful, he or she is very sure of his or her charm, always elegantly dressed. <strong>Hearts</strong> are social characters par excellence, who know how to chat, seduce or imitate in order to divert attention, create sensational diversions or win favor with a target.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "0.0.1-dev",
+    "coreVersion": "11.308",
+    "createdTime": 1695240464154,
+    "modifiedTime": 1695240893182,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!3IxPwTiTEb2ofovu"
+}

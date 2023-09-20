@@ -1,0 +1,26 @@
+{
+  "name": "Club",
+  "type": "agentType",
+  "_id": "WZETYxMj05ktoNDN",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Observant and ingenious, he or she is always exceptionally intelligent. <strong>Clubs</strong> are multi-graduated characters who apply their genius to the preparation phases and plan the group’s actions. They are often the brains of an agent’s team, and an indispensable part of it.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "0.0.1-dev",
+    "coreVersion": "11.308",
+    "createdTime": 1695240472038,
+    "modifiedTime": 1695241015384,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!WZETYxMj05ktoNDN"
+}

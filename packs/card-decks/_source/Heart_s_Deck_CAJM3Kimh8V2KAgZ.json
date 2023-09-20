@@ -1,0 +1,431 @@
+{
+  "name": "Heart’s Deck",
+  "type": "deck",
+  "description": "Cards deck of Heart.",
+  "img": "cards/backs/dark-gold.webp",
+  "cards": [
+    {
+      "name": "Ace of Hearts",
+      "faces": [
+        {
+          "name": "Ace of Hearts",
+          "img": "cards/dark-gold/hearts-ace.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 1,
+      "suit": "hearts",
+      "_id": "PpqIxib3t6mqgtGD",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 26,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.PpqIxib3t6mqgtGD",
+      "cards": []
+    },
+    {
+      "name": "Two of Hearts",
+      "faces": [
+        {
+          "name": "Two of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-02.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 2,
+      "suit": "hearts",
+      "_id": "XRM7MdLoRGyvgwsc",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 27,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XRM7MdLoRGyvgwsc",
+      "cards": []
+    },
+    {
+      "name": "Three of Hearts",
+      "faces": [
+        {
+          "name": "Three of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-03.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 3,
+      "suit": "hearts",
+      "_id": "6GSrHlpgnFo9fT7j",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 28,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.6GSrHlpgnFo9fT7j",
+      "cards": []
+    },
+    {
+      "name": "Four of Hearts",
+      "faces": [
+        {
+          "name": "Four of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-04.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 4,
+      "suit": "hearts",
+      "_id": "16v9ggdoIzIKDqDL",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 29,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.16v9ggdoIzIKDqDL",
+      "cards": []
+    },
+    {
+      "name": "Five of Hearts",
+      "faces": [
+        {
+          "name": "Five of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-05.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 5,
+      "suit": "hearts",
+      "_id": "hHphZIYnFESJKW3Y",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 30,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.hHphZIYnFESJKW3Y",
+      "cards": []
+    },
+    {
+      "name": "Six of Hearts",
+      "faces": [
+        {
+          "name": "Six of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-06.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 6,
+      "suit": "hearts",
+      "_id": "xpCH3DivRVNGouvm",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 31,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xpCH3DivRVNGouvm",
+      "cards": []
+    },
+    {
+      "name": "Seven of Hearts",
+      "faces": [
+        {
+          "name": "Seven of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-07.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 7,
+      "suit": "hearts",
+      "_id": "XxMqu8DH4jJ5DciP",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 32,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XxMqu8DH4jJ5DciP",
+      "cards": []
+    },
+    {
+      "name": "Eight of Hearts",
+      "faces": [
+        {
+          "name": "Eight of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-08.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 8,
+      "suit": "hearts",
+      "_id": "1NcfAUG9wdqsU9SW",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 33,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.1NcfAUG9wdqsU9SW",
+      "cards": []
+    },
+    {
+      "name": "Nine of Hearts",
+      "faces": [
+        {
+          "name": "Nine of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-09.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 9,
+      "suit": "hearts",
+      "_id": "0sI4Htn1NR11zTEK",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 34,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.0sI4Htn1NR11zTEK",
+      "cards": []
+    },
+    {
+      "name": "Ten of Hearts",
+      "faces": [
+        {
+          "name": "Ten of Hearts",
+          "text": "",
+          "img": "cards/dark-gold/hearts-10.webp"
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 10,
+      "suit": "hearts",
+      "_id": "5SNZYzAjHduVhZsA",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 35,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": ""
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5SNZYzAjHduVhZsA",
+      "cards": []
+    },
+    {
+      "name": "Jack of Hearts",
+      "faces": [
+        {
+          "name": "Jack of Hearts",
+          "img": "cards/dark-gold/hearts-jack.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 11,
+      "suit": "hearts",
+      "_id": "5gqebD2qo82GlRpV",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 36,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5gqebD2qo82GlRpV",
+      "cards": []
+    },
+    {
+      "name": "Queen of Hearts",
+      "faces": [
+        {
+          "name": "Queen of Hearts",
+          "img": "cards/dark-gold/hearts-queen.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 12,
+      "suit": "hearts",
+      "_id": "xrxzIz2PAe3QU8RK",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 37,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xrxzIz2PAe3QU8RK",
+      "cards": []
+    },
+    {
+      "name": "King of Hearts",
+      "faces": [
+        {
+          "name": "King of Hearts",
+          "img": "cards/dark-gold/hearts-king.webp",
+          "text": ""
+        }
+      ],
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "type": "base",
+      "value": 13,
+      "suit": "hearts",
+      "_id": "X5uUlTlTmZ47fFBo",
+      "description": "",
+      "face": 0,
+      "drawn": false,
+      "sort": 38,
+      "flags": {},
+      "back": {
+        "name": "",
+        "text": "",
+        "img": null
+      },
+      "origin": "ye4k4c8ILOXk4prz",
+      "system": {},
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.X5uUlTlTmZ47fFBo",
+      "cards": []
+    }
+  ],
+  "width": 2,
+  "height": 3,
+  "rotation": 0,
+  "displayCount": true,
+  "flags": {
+    "exportSource": {
+      "world": "testworld",
+      "system": "dnd5e",
+      "coreVersion": "9.222",
+      "systemVersion": "1.4.3"
+    }
+  },
+  "system": {},
+  "_id": "CAJM3Kimh8V2KAgZ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vVJVBCfWogk10kDN": 3
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "0.0.1-dev",
+    "coreVersion": "11.308",
+    "createdTime": 1694536194798,
+    "modifiedTime": 1694536889225,
+    "lastModifiedBy": "vVJVBCfWogk10kDN"
+  },
+  "_key": "!cards!CAJM3Kimh8V2KAgZ"
+}

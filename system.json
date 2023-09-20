@@ -9,8 +9,16 @@
   },
   "flags": {
     "hotReload": {
-      "extensions": ["css", "hbs", "json"],
-      "paths": ["lang/", "assets/", "templates/"]
+      "extensions": [
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "lang/",
+        "assets/",
+        "templates/"
+      ]
     }
   },
   "authors": [
@@ -45,6 +53,12 @@
       "name": "card-decks",
       "label": "Card decks",
       "type": "Cards",
+      "system": "heist"
+    },
+    {
+      "name": "agent-types",
+      "label": "Agent types",
+      "type": "Item",
       "system": "heist"
     }
   ],
