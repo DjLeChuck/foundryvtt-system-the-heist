@@ -4,16 +4,16 @@ export class GamePhaseWindow extends Application {
   constructor(options = {}) {
     super(options);
 
-    this.timer = game.settings.get(HEIST.SYSTEM_ID, 'gamePhaseTimer');
+    this.currentPhase = game.settings.get(HEIST.SYSTEM_ID, 'currentPhase');
     this.phases = [
-      { name: '_Création des personnages en mode one-shot', duration: 10 },
-      { name: '_Briefing', duration: 10 },
-      { name: '_Reconnaissance', duration: 60 },
-      { name: '_Planification', duration: 30 },
-      { name: '_Action', duration: 90 },
+      { name: 'HEIST.GamePhases.Phase1.Title', duration: 10 },
+      { name: 'HEIST.GamePhases.Phase2.Title', duration: 10 },
+      { name: 'HEIST.GamePhases.Phase3.Title', duration: 60 },
+      { name: 'HEIST.GamePhases.Phase4.Title', duration: 30 },
+      { name: 'HEIST.GamePhases.Phase5.Title', duration: 90 },
     ];
-    this.paused = false;
-    this.intervalId = null;
+    this.paused = true;
+    this.interval = null;
 
     this.#setTimeLeft();
   }
@@ -23,17 +23,19 @@ export class GamePhaseWindow extends Application {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'game-phase-window'],
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`,
-      width: 500,
-      height: 600,
+      title: game.i18n.localize('HEIST.GamePhaseWindow.Title'),
+      width: 600,
+      height: 320,
     });
   }
 
   getData() {
     return {
       phases: this.phases,
-      currentPhase: this.phases[this.timer],
+      currentPhase: this.phases[this.currentPhase],
       timeLeft: this.timeLeft,
       paused: this.paused,
+      active: 0 < this.timeLeft,
     };
   }
 
@@ -42,13 +44,9 @@ export class GamePhaseWindow extends Application {
       return;
     }
 
-    html.find('[data-pause]').click(this._onPause.bind(this));
-    html.find('[data-next]').click(this._onNextPhase.bind(this));
-    html.find('[data-reinit]').click(this._onReinit.bind(this));
-
-    if (!this.paused) {
-      this.startTimeLeftUpdate();
-    }
+    html.find('[data-pause]').click(this.#onPause.bind(this));
+    html.find('[data-next]').click(this.#onNextPhase.bind(this));
+    html.find('[data-reset]').click(this.#onReset.bind(this));
   }
 
   render(force = false, options = {}) {
@@ -59,66 +57,63 @@ export class GamePhaseWindow extends Application {
     return super.render(force, options);
   }
 
-  startTimeLeftUpdate() {
-    this.stopTimeLeftUpdate();
-
-    this.intervalId = setInterval(() => {
-      this.timeLeft -= 1;
-
-      // if (this.timeLeft < 0) {
-      //   this.stopTimeLeftUpdate();
-      //   this.onNextPhase();
-      //
-      //   return;
-      // }
-
-      this.render(false);
-    }, 1000);
-  }
-
-  stopTimeLeftUpdate() {
-    if (this.intervalId) {
-      clearInterval(this.intervalId);
-
-      this.intervalId = null;
-    }
-  }
-
-  _onPause(e) {
+  #onPause(e) {
     e.preventDefault();
 
     if (this.paused) {
       this.paused = false;
-      this.startTimeLeftUpdate();
+      this.#startTimeLeftUpdate();
     } else {
       this.paused = true;
-      this.stopTimeLeftUpdate();
+      this.#stopTimeLeftUpdate();
     }
 
     this.render();
   }
 
-  _onNextPhase(e) {
+  #onNextPhase(e) {
     e.preventDefault();
 
-    this.timer++;
-    game.settings.set(HEIST.SYSTEM_ID, 'gamePhaseTimer', this.timer);
-    this.#setTimeLeft();
-
-    this.render();
+    this.#changePhase(this.currentPhase + 1);
   }
 
-  _onReinit(e) {
+  #onReset(e) {
     e.preventDefault();
 
-    this.timer = 0;
-    game.settings.set(HEIST.SYSTEM_ID, 'gamePhaseTimer', this.timer);
+    this.#changePhase(0);
+  }
+
+  #changePhase(phase) {
+    this.#stopTimeLeftUpdate();
+    this.paused = true;
+    this.currentPhase = phase;
+    game.settings.set(HEIST.SYSTEM_ID, 'currentPhase', this.currentPhase);
     this.#setTimeLeft();
 
     this.render();
   }
 
   #setTimeLeft() {
-    this.timeLeft = this.phases[this.timer].duration;// * 60;
+    this.timeLeft = this.phases[this.currentPhase].duration * 60;
+  }
+
+  #startTimeLeftUpdate() {
+    this.interval = setInterval(() => {
+      this.timeLeft -= 1;
+
+      if (this.timeLeft < 0) {
+        this.#stopTimeLeftUpdate();
+      }
+
+      this.render(false);
+    }, 1000);
+  }
+
+  #stopTimeLeftUpdate() {
+    if (this.interval) {
+      clearInterval(this.interval);
+
+      this.interval = null;
+    }
   }
 }

@@ -33,7 +33,7 @@ Hooks.once('init', async function () {
     default: {},
   });
 
-  game.settings.register(HEIST.SYSTEM_ID, 'gamePhaseTimer', {
+  game.settings.register(HEIST.SYSTEM_ID, 'currentPhase', {
     scope: 'world',
     config: false,
     default: 0,

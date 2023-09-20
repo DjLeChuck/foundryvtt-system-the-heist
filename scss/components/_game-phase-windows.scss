@@ -1,4 +1,4 @@
-.phase-window {
+.game-phase-window {
   .breadcrumb {
     display: flex;
     list-style-type: none;
@@ -12,7 +12,7 @@
 
       &.active {
         font-weight: bold;
-        color: red;
+        color: #ff0000;
       }
     }
   }
@@ -20,8 +20,19 @@
   .phase-details {
     margin: 20px 0;
 
-    #timer {
-      color: red;
+    .duration {
+      font-size: 1.3em;
+    }
+
+    .timer {
+      text-align: center;
+      font-size: 3em;
+
+      &.finished {
+        color: #ff0000;
+        font-weight: bold;
+        font-size: 2em;
+      }
     }
   }
 
@@ -31,7 +42,6 @@
 
     button {
       padding: 10px 20px;
-      cursor: pointer;
     }
   }
 }

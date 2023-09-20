@@ -1,23 +1,26 @@
 <div class="game-phase-window">
-  <ul class="breadcrumb">
+  <ul class="breadcrumb flex-group-center">
     {{#each phases}}
-      <li {{#if (eq ../currentPhase this) }}class="active"{{/if}}>{{this.name}}</li>
+      <li {{#if (eq ../currentPhase this) }}class="active"{{/if}}>{{localize this.name}}</li>
     {{/each}}
   </ul>
   <div class="phase-details">
-    <h2>{{currentPhase.name}}</h2>
-    <div id="timer">_Durée : {{currentPhase.duration}} minutes</div>
+    <h2>{{localize currentPhase.name}}</h2>
+    <p class="duration">{{localize "HEIST.GamePhaseWindow.Duration" duration=currentPhase.duration}}</p>
 
-    {{#if (gt timeLeft 0)}}
-      <div id="timer">_Temps restant : {{formattedTimeLeft timeLeft}}</div>
+    {{#if active}}
+      <p class="timer">{{formattedTimeLeft timeLeft}}</p>
     {{/if}}
+    {{#unless active}}
+      <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
+    {{/unless}}
   </div>
   <div class="buttons">
-    <button type="button" data-pause>
-      {{#if paused}}_Reprendre{{/if}}
-      {{#unless paused}}_Pause{{/unless}}
+    <button type="button" data-pause{{#unless active}} disabled{{/unless}}>
+      {{#if paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}{{/if}}
+      {{#unless paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}{{/unless}}
     </button>
-    <button type="button" data-next>_Phase suivante</button>
-    <button type="button" data-reinit>_Réinitialiser</button>
+    <button type="button" data-next>{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}</button>
+    <button type="button" data-reset>{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}</button>
   </div>
 </div>
