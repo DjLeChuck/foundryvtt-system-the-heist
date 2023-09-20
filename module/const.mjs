@@ -1,5 +1,6 @@
 export const SYSTEM_ID = 'heist';
 
+export const COMPENDIUM_DECK_ID = `${SYSTEM_ID}.card-decks`;
 export const GM_DECK_ID = '6iHXq3POOsIUPQOB';
 export const HEART_DECK_ID = 'CAJM3Kimh8V2KAgZ';
 export const SPADE_DECK_ID = 'XtNOuXuY7FqONrkd';

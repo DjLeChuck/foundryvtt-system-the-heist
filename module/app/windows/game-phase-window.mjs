@@ -20,7 +20,7 @@ export class GamePhaseWindow extends Application {
 
   /** @override */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'game-phase-window'],
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`,
       width: 500,

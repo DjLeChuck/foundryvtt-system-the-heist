@@ -4,7 +4,7 @@ import { AgentActor } from '../documents/_module.mjs';
 export class GamemasterActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'description' }],
       width: 910,
     });

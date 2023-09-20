@@ -4,7 +4,7 @@ import * as CARDS from '../../helpers/cards.mjs';
 export class CardWindow extends Application {
   /** @override */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'card-window'],
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/card-window.html.hbs`,
       width: 750,
@@ -202,7 +202,7 @@ export class CardWindow extends Application {
   }
 
   async #setTestSettings(settings) {
-    await game.settings.set(HEIST.SYSTEM_ID, 'currentTest', mergeObject(
+    await game.settings.set(HEIST.SYSTEM_ID, 'currentTest', foundry.utils.mergeObject(
       this.#currentTestSettings(),
       settings,
     ));

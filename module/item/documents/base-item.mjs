@@ -7,7 +7,7 @@ import * as HEIST from '../../const.mjs';
 export class BaseItem extends Item {
   constructor(docData, context = {}) {
     if (!context[HEIST.SYSTEM_ID]?.ready) {
-      mergeObject(context, { [HEIST.SYSTEM_ID]: { ready: true } });
+      foundry.utils.mergeObject(context, { [HEIST.SYSTEM_ID]: { ready: true } });
 
       const actorConstructor = game.system[HEIST.SYSTEM_ID].itemClasses[docData.type];
       if (actorConstructor) {

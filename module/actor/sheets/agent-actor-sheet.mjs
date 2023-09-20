@@ -4,7 +4,7 @@ import * as HEIST from '../../const.mjs';
 export class AgentActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'description' }],
     });
   }

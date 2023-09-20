@@ -1,4 +1,5 @@
 import { BaseActor } from './base-actor.mjs';
+import * as HEIST from '../../const.mjs';
 
 export class BasePlayerActor extends BaseActor {
   /**
@@ -43,17 +44,16 @@ export class BasePlayerActor extends BaseActor {
   async _preCreate(data, options, userId) {
     await super._preCreate(data, options, userId);
 
-    const baseDeck = game.cards.get(this._baseDeckId());
-    const deck = await baseDeck.clone({
-      folder: null,
-      name: game.i18n.format('HEIST.Cards.AgentDeckName', { name: data.name }),
-    }, { save: true });
+    const baseDeck = await this.#baseDeck();
+    const deck = await Cards.create(foundry.utils.mergeObject(baseDeck.toObject(false), {
+      name: game.i18n.format('HEIST.Cards.DeckName', { name: data.name }),
+    }));
     const hand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.AgentHandName', { name: data.name }),
+      name: game.i18n.format('HEIST.Cards.HandName', { name: data.name }),
       type: 'hand',
     });
     const pile = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.AgentPileName', { name: data.name }),
+      name: game.i18n.format('HEIST.Cards.PileName', { name: data.name }),
       type: 'pile',
     });
 
@@ -75,5 +75,9 @@ export class BasePlayerActor extends BaseActor {
     await this.pile?.delete({});
 
     super._onDelete(options, userId);
+  }
+
+  #baseDeck() {
+    return game.packs.get(HEIST.COMPENDIUM_DECK_ID).getDocument(this._baseDeckId());
   }
 }
