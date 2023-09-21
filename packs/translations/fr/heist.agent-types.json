@@ -1,0 +1,24 @@
+{
+  "label": "Types d’agent",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Club": {
+      "name": "Trèfle",
+      "description": "<p>Observatrice et géniale, elle ou il est toujours dotée d'une intelligence hors norme. Les <strong>Trèfles</strong> sont des personnages aux multiples diplômes, qui mettent leur génie au service des phases de préparation et qui planifient les actions du groupe. Éléments indispensables d'une équipe d'agent, ils en sont souvent les cerveaux.</p>"
+    },
+    "Diamond": {
+      "name": "Carreau",
+      "description": "<p>Souvent professionnelle et impressionnante, elle ou il est toujours certaine de ses compétences techniques, que ce soit en démolition, en mécanique ou en pilotage. Les <strong>Carreaux</strong> sont des techniciens experts, qui savent aisément improviser et qui ont appris à ne pas se laisser faire. Ils possèdent parfois un passé sombre...</p>"
+    },
+    "Heart": {
+      "name": "Cœur",
+      "description": "<p>Charmeur et joueur, il ou elle est très sûr de son charme, toujours élégamment habillé. Les <strong>Cœurs</strong> sont des personnages sociaux par excellence, qui savent discuter, séduire ou imiter pour détourner l’attention, faire de sensationnelles diversions ou encore obtenir les faveurs d’une cible.</p>"
+    },
+    "Spade": {
+      "name": "Pique",
+      "description": "<p>Aussi élégant que gracieux, il ou elle est immuablement dextre et discret. Les <strong>Piques</strong> sont capables de prouesses physiques impressionnantes tout en étant des cambrioleurs de profession. Ce sont souvent des monte-en-l'air qui sont au cœur des phases d'action de l'agence.</p>"
+    }
+  }
+}

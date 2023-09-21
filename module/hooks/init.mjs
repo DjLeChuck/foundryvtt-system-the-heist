@@ -24,15 +24,15 @@ export const Init = {
         },
       };
 
+      registerHandlebarsHelper();
+      registerSettings();
+      registerTemplates();
+
       if (typeof Babele !== 'undefined') {
         if (game.settings.get(HEIST.SYSTEM_ID, 'autoRegisterBabel')) {
           autoRegisterBabel();
         }
       }
-
-      registerHandlebarsHelper();
-      registerSettings();
-      registerTemplates();
 
       // Add utility classes to the global game object so that they're more easily
       // accessible in global contexts.

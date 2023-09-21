@@ -12,6 +12,7 @@ jsconfig.json
 foundry
 assets/
 packs/
+!packs/translations
 !packs/**/_source
 
 ###> yarn ###

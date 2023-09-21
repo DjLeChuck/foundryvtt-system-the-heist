@@ -1,0 +1,763 @@
+{
+  "label": "Decks de cartes",
+  "entries": {
+    "Club’s Deck": {
+      "name": "Deck de Trèfle",
+      "description": "Cartes du deck de Trèfle.",
+      "cards": {
+        "Ace of Clubs": {
+          "faces": [
+            {
+              "name": "As de Trèfle"
+            }
+          ]
+        },
+        "Two of Clubs": {
+          "faces": [
+            {
+              "name": "Deux de Trèfle"
+            }
+          ]
+        },
+        "Three of Clubs": {
+          "faces": [
+            {
+              "name": "Trois de Trèfle"
+            }
+          ]
+        },
+        "Four of Clubs": {
+          "faces": [
+            {
+              "name": "Quatre de Trèfle"
+            }
+          ]
+        },
+        "Five of Clubs": {
+          "faces": [
+            {
+              "name": "Cinq de Trèfle"
+            }
+          ]
+        },
+        "Six of Clubs": {
+          "faces": [
+            {
+              "name": "Six de Trèfle"
+            }
+          ]
+        },
+        "Seven of Clubs": {
+          "faces": [
+            {
+              "name": "Sept de Trèfle"
+            }
+          ]
+        },
+        "Eight of Clubs": {
+          "faces": [
+            {
+              "name": "Huit de Trèfle"
+            }
+          ]
+        },
+        "Nine of Clubs": {
+          "faces": [
+            {
+              "name": "Neuf de Trèfle"
+            }
+          ]
+        },
+        "Ten of Clubs": {
+          "faces": [
+            {
+              "name": "Dix de Trèfle"
+            }
+          ]
+        },
+        "Jack of Clubs": {
+          "faces": [
+            {
+              "name": "Valet de Trèfle"
+            }
+          ]
+        },
+        "Queen of Clubs": {
+          "faces": [
+            {
+              "name": "Dame de Trèfle"
+            }
+          ]
+        },
+        "King of Clubs": {
+          "faces": [
+            {
+              "name": "Roi de Trèfle"
+            }
+          ]
+        }
+      }
+    },
+    "Diamond’s Deck": {
+      "name": "Deck de Carreau",
+      "description": "Cartes du deck de Carreau.",
+      "cards": {
+        "Ace of Diamonds": {
+          "faces": [
+            {
+              "name": "As de Carreau"
+            }
+          ]
+        },
+        "Two of Diamonds": {
+          "faces": [
+            {
+              "name": "Deux de Carreau"
+            }
+          ]
+        },
+        "Three of Diamonds": {
+          "faces": [
+            {
+              "name": "Trois de Carreau"
+            }
+          ]
+        },
+        "Four of Diamonds": {
+          "faces": [
+            {
+              "name": "Quatre de Carreau"
+            }
+          ]
+        },
+        "Five of Diamonds": {
+          "faces": [
+            {
+              "name": "Cinq de Carreau"
+            }
+          ]
+        },
+        "Six of Diamonds": {
+          "faces": [
+            {
+              "name": "Six de Carreau"
+            }
+          ]
+        },
+        "Seven of Diamonds": {
+          "faces": [
+            {
+              "name": "Sept de Carreau"
+            }
+          ]
+        },
+        "Eight of Diamonds": {
+          "faces": [
+            {
+              "name": "Huit de Carreau"
+            }
+          ]
+        },
+        "Nine of Diamonds": {
+          "faces": [
+            {
+              "name": "Neuf de Carreau"
+            }
+          ]
+        },
+        "Ten of Diamonds": {
+          "faces": [
+            {
+              "name": "Dix de Carreau"
+            }
+          ]
+        },
+        "Jack of Diamonds": {
+          "faces": [
+            {
+              "name": "Valet de Carreau"
+            }
+          ]
+        },
+        "Queen of Diamonds": {
+          "faces": [
+            {
+              "name": "Dame de Carreau"
+            }
+          ]
+        },
+        "King of Diamonds": {
+          "faces": [
+            {
+              "name": "Roi de Carreau"
+            }
+          ]
+        }
+      }
+    },
+    "Heart’s Deck": {
+      "name": "Deck de Cœur",
+      "description": "Cartes du deck de Cœur.",
+      "cards": {
+        "Ace of Hearts": {
+          "faces": [
+            {
+              "name": "As de Cœur"
+            }
+          ]
+        },
+        "Two of Hearts": {
+          "faces": [
+            {
+              "name": "Deux de Cœur"
+            }
+          ]
+        },
+        "Three of Hearts": {
+          "faces": [
+            {
+              "name": "Trois de Cœur"
+            }
+          ]
+        },
+        "Four of Hearts": {
+          "faces": [
+            {
+              "name": "Quatre de Cœur"
+            }
+          ]
+        },
+        "Five of Hearts": {
+          "faces": [
+            {
+              "name": "Cinq de Cœur"
+            }
+          ]
+        },
+        "Six of Hearts": {
+          "faces": [
+            {
+              "name": "Six de Cœur"
+            }
+          ]
+        },
+        "Seven of Hearts": {
+          "faces": [
+            {
+              "name": "Sept de Cœur"
+            }
+          ]
+        },
+        "Eight of Hearts": {
+          "faces": [
+            {
+              "name": "Huit de Cœur"
+            }
+          ]
+        },
+        "Nine of Hearts": {
+          "faces": [
+            {
+              "name": "Neuf de Cœur"
+            }
+          ]
+        },
+        "Ten of Hearts": {
+          "faces": [
+            {
+              "name": "Dix de Cœur"
+            }
+          ]
+        },
+        "Jack of Hearts": {
+          "faces": [
+            {
+              "name": "Valet de Cœur"
+            }
+          ]
+        },
+        "Queen of Hearts": {
+          "faces": [
+            {
+              "name": "Dame de Cœur"
+            }
+          ]
+        },
+        "King of Hearts": {
+          "faces": [
+            {
+              "name": "Roi de Cœur"
+            }
+          ]
+        }
+      }
+    },
+    "Spade’s Deck": {
+      "name": "Deck de Pique",
+      "description": "Cartes du deck de Pique.",
+      "cards": {
+        "Ace of Spades": {
+          "faces": [
+            {
+              "name": "As de Pique"
+            }
+          ]
+        },
+        "Two of Spades": {
+          "faces": [
+            {
+              "name": "Deux de Pique"
+            }
+          ]
+        },
+        "Three of Spades": {
+          "faces": [
+            {
+              "name": "Trois de Pique"
+            }
+          ]
+        },
+        "Four of Spades": {
+          "faces": [
+            {
+              "name": "Quatre de Pique"
+            }
+          ]
+        },
+        "Five of Spades": {
+          "faces": [
+            {
+              "name": "Cinq de Pique"
+            }
+          ]
+        },
+        "Six of Spades": {
+          "faces": [
+            {
+              "name": "Six de Pique"
+            }
+          ]
+        },
+        "Seven of Spades": {
+          "faces": [
+            {
+              "name": "Sept de Pique"
+            }
+          ]
+        },
+        "Eight of Spades": {
+          "faces": [
+            {
+              "name": "Huit de Pique"
+            }
+          ]
+        },
+        "Nine of Spades": {
+          "faces": [
+            {
+              "name": "Neuf de Pique"
+            }
+          ]
+        },
+        "Ten of Spades": {
+          "faces": [
+            {
+              "name": "Dix de Pique"
+            }
+          ]
+        },
+        "Jack of Spades": {
+          "faces": [
+            {
+              "name": "Valet de Pique"
+            }
+          ]
+        },
+        "Queen of Spades": {
+          "faces": [
+            {
+              "name": "Dame de Pique"
+            }
+          ]
+        },
+        "King of Spades": {
+          "faces": [
+            {
+              "name": "Roi de Pique"
+            }
+          ]
+        }
+      }
+    },
+    "GM’s Deck": {
+      "name": "Deck du maître du jeu",
+      "description": "Cartes du deck du maître du jeu.",
+      "cards": {
+        "Ace of Clubs": {
+          "faces": [
+            {
+              "name": "As de Trèfle"
+            }
+          ]
+        },
+        "Two of Clubs": {
+          "faces": [
+            {
+              "name": "Deux de Trèfle"
+            }
+          ]
+        },
+        "Three of Clubs": {
+          "faces": [
+            {
+              "name": "Trois de Trèfle"
+            }
+          ]
+        },
+        "Four of Clubs": {
+          "faces": [
+            {
+              "name": "Quatre de Trèfle"
+            }
+          ]
+        },
+        "Five of Clubs": {
+          "faces": [
+            {
+              "name": "Cinq de Trèfle"
+            }
+          ]
+        },
+        "Six of Clubs": {
+          "faces": [
+            {
+              "name": "Six de Trèfle"
+            }
+          ]
+        },
+        "Seven of Clubs": {
+          "faces": [
+            {
+              "name": "Sept de Trèfle"
+            }
+          ]
+        },
+        "Eight of Clubs": {
+          "faces": [
+            {
+              "name": "Huit de Trèfle"
+            }
+          ]
+        },
+        "Nine of Clubs": {
+          "faces": [
+            {
+              "name": "Neuf de Trèfle"
+            }
+          ]
+        },
+        "Ten of Clubs": {
+          "faces": [
+            {
+              "name": "Dix de Trèfle"
+            }
+          ]
+        },
+        "Jack of Clubs": {
+          "faces": [
+            {
+              "name": "Valet de Trèfle"
+            }
+          ]
+        },
+        "Queen of Clubs": {
+          "faces": [
+            {
+              "name": "Dame de Trèfle"
+            }
+          ]
+        },
+        "King of Clubs": {
+          "faces": [
+            {
+              "name": "Roi de Trèfle"
+            }
+          ]
+        },
+        "Ace of Diamonds": {
+          "faces": [
+            {
+              "name": "As de Carreau"
+            }
+          ]
+        },
+        "Two of Diamonds": {
+          "faces": [
+            {
+              "name": "Deux de Carreau"
+            }
+          ]
+        },
+        "Three of Diamonds": {
+          "faces": [
+            {
+              "name": "Trois de Carreau"
+            }
+          ]
+        },
+        "Four of Diamonds": {
+          "faces": [
+            {
+              "name": "Quatre de Carreau"
+            }
+          ]
+        },
+        "Five of Diamonds": {
+          "faces": [
+            {
+              "name": "Cinq de Carreau"
+            }
+          ]
+        },
+        "Six of Diamonds": {
+          "faces": [
+            {
+              "name": "Six de Carreau"
+            }
+          ]
+        },
+        "Seven of Diamonds": {
+          "faces": [
+            {
+              "name": "Sept de Carreau"
+            }
+          ]
+        },
+        "Eight of Diamonds": {
+          "faces": [
+            {
+              "name": "Huit de Carreau"
+            }
+          ]
+        },
+        "Nine of Diamonds": {
+          "faces": [
+            {
+              "name": "Neuf de Carreau"
+            }
+          ]
+        },
+        "Ten of Diamonds": {
+          "faces": [
+            {
+              "name": "Dix de Carreau"
+            }
+          ]
+        },
+        "Jack of Diamonds": {
+          "faces": [
+            {
+              "name": "Valet de Carreau"
+            }
+          ]
+        },
+        "Queen of Diamonds": {
+          "faces": [
+            {
+              "name": "Dame de Carreau"
+            }
+          ]
+        },
+        "King of Diamonds": {
+          "faces": [
+            {
+              "name": "Roi de Carreau"
+            }
+          ]
+        },
+        "Ace of Hearts": {
+          "faces": [
+            {
+              "name": "As de Cœur"
+            }
+          ]
+        },
+        "Two of Hearts": {
+          "faces": [
+            {
+              "name": "Deux de Cœur"
+            }
+          ]
+        },
+        "Three of Hearts": {
+          "faces": [
+            {
+              "name": "Trois de Cœur"
+            }
+          ]
+        },
+        "Four of Hearts": {
+          "faces": [
+            {
+              "name": "Quatre de Cœur"
+            }
+          ]
+        },
+        "Five of Hearts": {
+          "faces": [
+            {
+              "name": "Cinq de Cœur"
+            }
+          ]
+        },
+        "Six of Hearts": {
+          "faces": [
+            {
+              "name": "Six de Cœur"
+            }
+          ]
+        },
+        "Seven of Hearts": {
+          "faces": [
+            {
+              "name": "Sept de Cœur"
+            }
+          ]
+        },
+        "Eight of Hearts": {
+          "faces": [
+            {
+              "name": "Huit de Cœur"
+            }
+          ]
+        },
+        "Nine of Hearts": {
+          "faces": [
+            {
+              "name": "Neuf de Cœur"
+            }
+          ]
+        },
+        "Ten of Hearts": {
+          "faces": [
+            {
+              "name": "Dix de Cœur"
+            }
+          ]
+        },
+        "Jack of Hearts": {
+          "faces": [
+            {
+              "name": "Valet de Cœur"
+            }
+          ]
+        },
+        "Queen of Hearts": {
+          "faces": [
+            {
+              "name": "Dame de Cœur"
+            }
+          ]
+        },
+        "King of Hearts": {
+          "faces": [
+            {
+              "name": "Roi de Cœur"
+            }
+          ]
+        },
+        "Ace of Spades": {
+          "faces": [
+            {
+              "name": "As de Pique"
+            }
+          ]
+        },
+        "Two of Spades": {
+          "faces": [
+            {
+              "name": "Deux de Pique"
+            }
+          ]
+        },
+        "Three of Spades": {
+          "faces": [
+            {
+              "name": "Trois de Pique"
+            }
+          ]
+        },
+        "Four of Spades": {
+          "faces": [
+            {
+              "name": "Quatre de Pique"
+            }
+          ]
+        },
+        "Five of Spades": {
+          "faces": [
+            {
+              "name": "Cinq de Pique"
+            }
+          ]
+        },
+        "Six of Spades": {
+          "faces": [
+            {
+              "name": "Six de Pique"
+            }
+          ]
+        },
+        "Seven of Spades": {
+          "faces": [
+            {
+              "name": "Sept de Pique"
+            }
+          ]
+        },
+        "Eight of Spades": {
+          "faces": [
+            {
+              "name": "Huit de Pique"
+            }
+          ]
+        },
+        "Nine of Spades": {
+          "faces": [
+            {
+              "name": "Neuf de Pique"
+            }
+          ]
+        },
+        "Ten of Spades": {
+          "faces": [
+            {
+              "name": "Dix de Pique"
+            }
+          ]
+        },
+        "Jack of Spades": {
+          "faces": [
+            {
+              "name": "Valet de Pique"
+            }
+          ]
+        },
+        "Queen of Spades": {
+          "faces": [
+            {
+              "name": "Dame de Pique"
+            }
+          ]
+        },
+        "King of Spades": {
+          "faces": [
+            {
+              "name": "Roi de Pique"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
