@@ -15,12 +15,18 @@
       <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
     {{/unless}}
   </div>
-  <div class="buttons">
-    <button type="button" data-pause{{#unless active}} disabled{{/unless}}>
-      {{#if paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}{{/if}}
-      {{#unless paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}{{/unless}}
-    </button>
-    <button type="button" data-next>{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}</button>
-    <button type="button" data-reset>{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}</button>
-  </div>
+  {{#if isGM}}
+    <div class="buttons">
+      {{#if canPause}}
+        <button type="button" data-pause{{#unless active}} disabled{{/unless}}>
+          {{#if paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}{{/if}}
+          {{#unless paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}{{/unless}}
+        </button>
+      {{/if}}
+      {{#if hasNextPhase}}
+        <button type="button" data-next>{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}</button>
+      {{/if}}
+      <button type="button" data-reset>{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}</button>
+    </div>
+  {{/if}}
 </div>

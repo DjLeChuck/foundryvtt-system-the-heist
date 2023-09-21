@@ -5,13 +5,7 @@ export class GamePhaseWindow extends Application {
     super(options);
 
     this.currentPhase = game.settings.get(HEIST.SYSTEM_ID, 'currentPhase');
-    this.phases = [
-      { name: 'HEIST.GamePhases.Phase1.Title', duration: 10 },
-      { name: 'HEIST.GamePhases.Phase2.Title', duration: 10 },
-      { name: 'HEIST.GamePhases.Phase3.Title', duration: 60 },
-      { name: 'HEIST.GamePhases.Phase4.Title', duration: 30 },
-      { name: 'HEIST.GamePhases.Phase5.Title', duration: 90 },
-    ];
+    this.phases = this.#loadPhases();
     this.paused = true;
     this.interval = null;
 
@@ -31,11 +25,14 @@ export class GamePhaseWindow extends Application {
 
   getData() {
     return {
+      isGM: game.user.isGM,
       phases: this.phases,
       currentPhase: this.phases[this.currentPhase],
       timeLeft: this.timeLeft,
       paused: this.paused,
       active: 0 < this.timeLeft,
+      canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
+      hasNextPhase: undefined !== this.phases[this.currentPhase + 1],
     };
   }
 
@@ -44,22 +41,20 @@ export class GamePhaseWindow extends Application {
       return;
     }
 
-    html.find('[data-pause]').click(this.#onPause.bind(this));
+    html.find('[data-pause]').click(this.#onTogglePause.bind(this));
     html.find('[data-next]').click(this.#onNextPhase.bind(this));
     html.find('[data-reset]').click(this.#onReset.bind(this));
   }
 
   render(force = false, options = {}) {
-    if (!game.user.isGM) {
+    if (!game.user.isGM && !game.settings.get(HEIST.SYSTEM_ID, 'allowAgentsToSeeGamePhaseTimer')) {
       return this;
     }
 
     return super.render(force, options);
   }
 
-  #onPause(e) {
-    e.preventDefault();
-
+  togglePause() {
     if (this.paused) {
       this.paused = false;
       this.#startTimeLeftUpdate();
@@ -71,6 +66,25 @@ export class GamePhaseWindow extends Application {
     this.render();
   }
 
+  #onTogglePause(e) {
+    e.preventDefault();
+
+    this.togglePause();
+  }
+
+  #loadPhases() {
+    const phases = {};
+
+    for (const phase of HEIST.GAME_PHASES) {
+      phases[phase.number] = {
+        name: phase.name,
+        duration: game.settings.get(HEIST.SYSTEM_ID, `phase${phase.number}Duration`),
+      };
+    }
+
+    return phases;
+  }
+
   #onNextPhase(e) {
     e.preventDefault();
 
@@ -80,10 +94,16 @@ export class GamePhaseWindow extends Application {
   #onReset(e) {
     e.preventDefault();
 
-    this.#changePhase(0);
+    this.#changePhase(1);
   }
 
   #changePhase(phase) {
+    if (undefined === this.phases[phase]) {
+      ui.notifications.error(`Invalid phase ${phase}!`);
+
+      return;
+    }
+
     this.#stopTimeLeftUpdate();
     this.paused = true;
     this.currentPhase = phase;
@@ -95,6 +115,7 @@ export class GamePhaseWindow extends Application {
 
   #setTimeLeft() {
     this.timeLeft = this.phases[this.currentPhase].duration * 60;
+    // game.settings.set(HEIST.SYSTEM_ID, 'currentPhase', this.timeLeft);
   }
 
   #startTimeLeftUpdate() {
