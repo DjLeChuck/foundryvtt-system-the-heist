@@ -10,3 +10,16 @@
     cursor: pointer;
   }
 }
+
+#interface {
+  background: url("../images/background.webp") center no-repeat;
+
+  #logo {
+    content: url("../images/logos/full.webp");
+    min-height: 65px;
+  }
+}
+
+#pause img {
+  content: url("../images/logos/mini.webp");
+}
