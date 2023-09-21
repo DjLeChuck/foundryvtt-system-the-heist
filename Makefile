@@ -1,4 +1,5 @@
-.PHONY: workon unpack
+.PHONY: workon clear unpack pack
+PACK_DIRS := ./packs
 
 workon:
 	@fvtt package workon heist --type System
@@ -9,11 +10,15 @@ clear:
 unpack:
 	@make -s workon
 	@echo "Unpack compendiums..."
-	@fvtt unpack card-decks
-	@fvtt unpack agent-types
+	@for dir in $(shell ls ${PACK_DIRS}); do \
+	    fvtt package unpack $$dir >/dev/null; \
+	done
+	@make -s clear
 
 pack:
 	@make -s workon
 	@echo "Pack compendiums..."
-	@fvtt pack card-decks
-	@fvtt pack agent-types
+	@for dir in $(shell ls ${PACK_DIRS}); do \
+	    fvtt package pack $$dir >/dev/null; \
+	done
+	@make -s clear
