@@ -61,4 +61,14 @@ export class AgentActor extends BasePlayerActor {
 
     return this.agentType.getFlag(HEIST.SYSTEM_ID, 'deckId');
   }
+
+  async _saveCreatedDecks(deck, hand, pile) {
+    await this.update({
+      system: {
+        deck,
+        hand,
+        pile,
+      },
+    });
+  }
 }

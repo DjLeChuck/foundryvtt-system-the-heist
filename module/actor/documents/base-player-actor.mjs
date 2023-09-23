@@ -25,10 +25,14 @@ export class BasePlayerActor extends BaseActor {
 
   async drawCards(number) {
     await this.hand.draw(this.deck, number, { chatNotification: false });
+
+    this.render(false);
   }
 
   async throwHand() {
     await this.hand.pass(this.pile, this.hand.cards.map((c) => c.id), { chatNotification: false });
+
+    this.render(false);
   }
 
   /**
@@ -38,6 +42,13 @@ export class BasePlayerActor extends BaseActor {
    */
   _baseDeckId() {
     throw new Error('You have to implement the method _baseDeckId!');
+  }
+
+  /**
+   * @abstract
+   */
+  _saveCreatedDecks(deck, hand, pile) {
+    throw new Error('You have to implement the method _saveCreatedDecks!');
   }
 
   async _onDelete(options, userId) {
@@ -67,18 +78,12 @@ export class BasePlayerActor extends BaseActor {
     // Shuffle the cloned deck
     await deck.shuffle({ chatNotification: false });
 
-    this.updateSource({
-      system: {
-        deck: deck.id,
-        hand: hand.id,
-        pile: pile.id,
-      },
-    });
+    this._saveCreatedDecks(deck.id, hand.id, pile.id);
   }
 
   async _deleteDecks() {
-    await this.deck?.delete({});
-    await this.hand?.delete({});
-    await this.pile?.delete({});
+    await this.deck?.delete();
+    await this.hand?.delete();
+    await this.pile?.delete();
   }
 }

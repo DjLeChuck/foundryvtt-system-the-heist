@@ -82,4 +82,14 @@ export class GamemasterActor extends BasePlayerActor {
   _baseDeckId() {
     return HEIST.GM_DECK_ID;
   }
+
+  _saveCreatedDecks(deck, hand, pile) {
+    this.updateSource({
+      system: {
+        deck,
+        hand,
+        pile,
+      },
+    });
+  }
 }

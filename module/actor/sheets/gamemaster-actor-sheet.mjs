@@ -51,7 +51,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
     const agents = new Set(this.actor.system.agents ?? []);
     agents.add(actor.id);
 
-    this.actor.update({ 'system.agents': Array.from(agents.values()) });
+    await this.actor.update({ 'system.agents': Array.from(agents.values()) });
   }
 
   async _onAskAgentTest(e) {

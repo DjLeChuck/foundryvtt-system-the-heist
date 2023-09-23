@@ -190,7 +190,7 @@ export class CardWindow extends Application {
       }
     }
 
-    ChatMessage.create({
+    await ChatMessage.create({
       content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/blackjack.html.hbs`, {
         recalls,
       }),
@@ -224,11 +224,11 @@ export class CardWindow extends Application {
     this.render(true);
 
     if (this.gm?.sheet.rendered) {
-      this.gm?.sheet?.render(true, { focus: false });
+      this.gm?.sheet?.render(false, { focus: false });
     }
 
     if (this.agent?.sheet.rendered) {
-      this.agent?.sheet?.render(true, { focus: false });
+      this.agent?.sheet?.render(false, { focus: false });
     }
   }
 }
