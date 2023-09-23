@@ -52,6 +52,7 @@ jobs:
                       --recurse-paths                      \
                        ./system.zip                        \
                       system.json                          \
+                      template.json                        \
                       README.md                            \
                       CHANGELOG.md                         \
                       LICENSE                              \
