@@ -28,6 +28,9 @@ jobs:
             -   name: Build assets [2/2] - yarn build
                 run: NODE_ENV=production yarn run build
 
+            -   name: Pack compendiums
+                run: yarn run pack-packs
+
             -   name: Extract Version From Tag
                 id: get_version
                 uses: battila7/get-version-action@v2
