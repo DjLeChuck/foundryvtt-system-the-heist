@@ -1,4 +1,5 @@
 import * as HEIST from '../const.mjs';
+import { SocketListener } from '../socket-listener.mjs';
 
 export const Ready = {
   listen() {
@@ -12,6 +13,8 @@ export const Ready = {
       ) {
         game[HEIST.SYSTEM_ID].gamePhaseWindow.render(true);
       }
+
+      SocketListener.activate();
     });
   },
 };

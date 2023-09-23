@@ -38,6 +38,13 @@ export function registerSettings() {
     type: Number,
   });
 
+  game.settings.register(HEIST.SYSTEM_ID, 'currentPhasePaused', {
+    scope: 'world',
+    config: false,
+    default: true,
+    type: Boolean,
+  });
+
   game.settings.register(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft', {
     scope: 'world',
     config: false,

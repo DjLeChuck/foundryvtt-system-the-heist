@@ -62,6 +62,7 @@
       "system": "heist"
     }
   ],
+  "socket": true,
   "url": "https://github.com/DjLeChuck/foundryvtt-system-the-heist",
   "manifest": "https://raw.githubusercontent.com/DjLeChuck/foundryvtt-system-the-heist/main/system.json",
   "download": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/archive/0.0.1-dev.zip",

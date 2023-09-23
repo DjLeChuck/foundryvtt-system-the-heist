@@ -4,12 +4,16 @@ export class GamePhaseWindow extends Application {
   constructor(options = {}) {
     super(options);
 
-    this.currentPhase = game.settings.get(HEIST.SYSTEM_ID, 'currentPhase');
     this.phases = this.#loadPhases();
-    this.paused = true;
-    this.interval = null;
+    this.paused = this.#getPausedStatus();
 
     this.#setTimeLeft();
+
+    if (this.paused) {
+      this.#stopTimeLeftInterval();
+    } else {
+      this.#startTimeLeftInterval();
+    }
   }
 
   /** @override */
@@ -23,14 +27,20 @@ export class GamePhaseWindow extends Application {
     });
   }
 
+  get currentPhase() {
+    return game.settings.get(HEIST.SYSTEM_ID, 'currentPhase');
+  }
+
   getData() {
+    const timeLeft = game.settings.get(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft');
+
     return {
+      timeLeft,
       isGM: game.user.isGM,
       phases: this.phases,
       currentPhase: this.phases[this.currentPhase],
-      timeLeft: this.timeLeft,
-      paused: this.paused,
-      active: 0 < this.timeLeft,
+      paused: game.settings.get(HEIST.SYSTEM_ID, 'currentPhasePaused'),
+      active: 0 < timeLeft,
       canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
       hasNextPhase: undefined !== this.phases[this.currentPhase + 1],
     };
@@ -54,22 +64,36 @@ export class GamePhaseWindow extends Application {
     return super.render(force, options);
   }
 
-  togglePause() {
-    if (this.paused) {
-      this.paused = false;
-      this.#startTimeLeftUpdate();
-    } else {
-      this.paused = true;
-      this.#stopTimeLeftUpdate();
+  async setPauseState(paused) {
+    if (!game.user.isGM) {
+      return;
     }
 
-    this.render();
+    this.paused = paused;
+
+    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhasePaused', this.paused);
+
+    this.#updateTimeLeftInterval();
   }
 
-  #onTogglePause(e) {
+  async togglePause() {
+    if (!game.user.isGM) {
+      return;
+    }
+
+    this.paused = !!this.paused;
+
+    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhasePaused', this.paused);
+
+    this.#updateTimeLeftInterval();
+
+    this.#render();
+  }
+
+  async #onTogglePause(e) {
     e.preventDefault();
 
-    this.togglePause();
+    await this.togglePause();
   }
 
   #loadPhases() {
@@ -85,56 +109,86 @@ export class GamePhaseWindow extends Application {
     return phases;
   }
 
-  #onNextPhase(e) {
+  async #onNextPhase(e) {
     e.preventDefault();
 
-    this.#changePhase(this.currentPhase + 1);
+    await this.#changePhase(this.currentPhase + 1);
   }
 
-  #onReset(e) {
+  async #onReset(e) {
     e.preventDefault();
 
-    this.#changePhase(1);
+    await this.#changePhase(1);
   }
 
-  #changePhase(phase) {
+  async #changePhase(phase) {
     if (undefined === this.phases[phase]) {
       ui.notifications.error(`Invalid phase ${phase}!`);
 
       return;
     }
 
-    this.#stopTimeLeftUpdate();
-    this.paused = true;
-    this.currentPhase = phase;
-    game.settings.set(HEIST.SYSTEM_ID, 'currentPhase', this.currentPhase);
-    this.#setTimeLeft();
+    this.#stopTimeLeftInterval();
 
-    this.render();
+    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhase', phase);
+
+    this.#setTimeLeft();
+    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft', this.timeLeft);
+
+    if (!this.paused) {
+      this.#startTimeLeftInterval();
+    }
+
+    this.#render();
   }
 
   #setTimeLeft() {
     this.timeLeft = this.phases[this.currentPhase].duration * 60;
-    // game.settings.set(HEIST.SYSTEM_ID, 'currentPhase', this.timeLeft);
   }
 
-  #startTimeLeftUpdate() {
-    this.interval = setInterval(() => {
+  #startTimeLeftInterval() {
+    this.interval = setInterval(async () => {
       this.timeLeft -= 1;
 
+      if (game.user.isGM) {
+        await game.settings.set(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft', this.timeLeft);
+      }
+
       if (this.timeLeft < 0) {
-        this.#stopTimeLeftUpdate();
+        this.#stopTimeLeftInterval();
       }
 
       this.render(false);
     }, 1000);
   }
 
-  #stopTimeLeftUpdate() {
+  #stopTimeLeftInterval() {
     if (this.interval) {
       clearInterval(this.interval);
 
       this.interval = null;
     }
+  }
+
+  #updateTimeLeftInterval() {
+    if (this.paused) {
+      this.#stopTimeLeftInterval();
+    } else {
+      this.#startTimeLeftInterval();
+    }
+  }
+
+  #getPausedStatus() {
+    if (game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft')) {
+      return game.paused;
+    }
+
+    return game.settings.get(HEIST.SYSTEM_ID, 'currentPhasePaused');
+  }
+
+  #render() {
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.REFRESH_GAME_PHASE_WINDOW });
+
+    this.render();
   }
 }

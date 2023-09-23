@@ -10,3 +10,7 @@ export const GAME_PHASES = [
   { number: 4, name: 'HEIST.GamePhases.Phase4.Title', duration: 30 },
   { number: 5, name: 'HEIST.GamePhases.Phase5.Title', duration: 90 },
 ];
+
+export const SOCKET_REQUESTS = {
+  REFRESH_GAME_PHASE_WINDOW: 'refreshGamePhaseWindow',
+};
