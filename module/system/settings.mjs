@@ -3,7 +3,7 @@ import * as app from '../app/_module.mjs';
 
 export function autoRegisterBabel() {
   if (typeof Babele !== 'undefined') {
-    Babele.get().setSystemTranslationsDir('packs/translations');
+    Babele.get().setSystemTranslationsDir('lang/packs/translations');
   }
 }
 

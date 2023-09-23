@@ -11,7 +11,7 @@ unpack:
 	@make -s workon
 	@echo "Unpack compendiums..."
 	@for dir in $(shell ls ${PACK_DIRS}); do \
-	    fvtt package unpack $$dir >/dev/null; \
+	    fvtt package unpack --out _packs_sources/$$dir $$dir >/dev/null; \
 	done
 	@make -s clear
 
@@ -19,6 +19,6 @@ pack:
 	@make -s workon
 	@echo "Pack compendiums..."
 	@for dir in $(shell ls ${PACK_DIRS}); do \
-	    fvtt package pack $$dir >/dev/null; \
+	    fvtt package pack --in _packs_sources/$$dir $$dir >/dev/null; \
 	done
 	@make -s clear
