@@ -61,6 +61,16 @@ export function registerSettings() {
     requiresReload: true,
   });
 
+  game.settings.register(HEIST.SYSTEM_ID, 'smallGamePhaseWindow', {
+    name: 'HEIST.Settings.SmallGamePhaseWindow.Title',
+    hint: 'HEIST.Settings.SmallGamePhaseWindow.Hint',
+    scope: 'client',
+    config: true,
+    default: false,
+    type: Boolean,
+    requiresReload: true,
+  });
+
   game.settings.register(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft', {
     name: 'HEIST.Settings.UseGamePauseForPhaseTimeLeft.Title',
     hint: 'HEIST.Settings.UseGamePauseForPhaseTimeLeft.Hint',

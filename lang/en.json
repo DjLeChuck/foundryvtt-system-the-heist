@@ -10,6 +10,8 @@
   "HEIST.Settings.UseGamePauseForPhaseTimeLeft.Hint": "The game phase timer runs only when the game is not paused.",
   "HEIST.Settings.AllowAgentsToSeeGamePhaseTimer.Title": "Allow agents to display the game phase window",
   "HEIST.Settings.DisplayGamePhaseWindowOnLogin.Title":  "Displays the game phase window on connection",
+  "HEIST.Settings.SmallGamePhaseWindow.Title":  "Miniature version of the game phase window",
+  "HEIST.Settings.SmallGamePhaseWindow.Hint":  "Displays the name of the current phase and time remaining for all, as well as control icons for GMs.",
   "HEIST.Settings.Phase1Duration.Title": "Phase 1 duration",
   "HEIST.Settings.Phase1Duration.Hint": "10 minutes by default",
   "HEIST.Settings.Phase2Duration.Title": "Phase 2 duration",

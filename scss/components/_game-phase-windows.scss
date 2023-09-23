@@ -1,4 +1,14 @@
 .game-phase-window {
+  &.small {
+    .timer {
+      margin: 0;
+    }
+
+    button > i {
+      margin-right: 0;
+    }
+  }
+
   .breadcrumb {
     display: flex;
     list-style-type: none;

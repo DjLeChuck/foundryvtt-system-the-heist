@@ -10,6 +10,8 @@
   "HEIST.Settings.UseGamePauseForPhaseTimeLeft.Hint": "Le chronomètre de phase de jeu ne s’écoule que lorsque le jeu n’est pas en pause.",
   "HEIST.Settings.AllowAgentsToSeeGamePhaseTimer.Title": "Autoriser les agents à afficher la fenêtre de phase de jeu",
   "HEIST.Settings.DisplayGamePhaseWindowOnLogin.Title":  "Affiche la fenêtre de phase de jeu à la connexion",
+  "HEIST.Settings.SmallGamePhaseWindow.Title":  "Version miniature de la fenêtre de phase de jeu",
+  "HEIST.Settings.SmallGamePhaseWindow.Hint":  "Affiche le nom de la phase en cours et le temps restant pour tous, ainsi que des icônes de contrôle pour les MJs.",
   "HEIST.Settings.Phase1Duration.Title": "Durée de la phase 1",
   "HEIST.Settings.Phase1Duration.Hint": "10 minutes par défaut",
   "HEIST.Settings.Phase2Duration.Title": "Durée de la phase 2",

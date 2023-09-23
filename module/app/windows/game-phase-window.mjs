@@ -20,15 +20,23 @@ export class GamePhaseWindow extends Application {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'game-phase-window'],
-      template: `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`,
       title: game.i18n.localize('HEIST.GamePhaseWindow.Title'),
-      width: 600,
-      height: 320,
+      width: GamePhaseWindow.#width(),
+      height: GamePhaseWindow.#height(),
     });
   }
 
   get currentPhase() {
     return game.settings.get(HEIST.SYSTEM_ID, 'currentPhase');
+  }
+
+  /** @override */
+  get template() {
+    if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
+      return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window-small.html.hbs`;
+    }
+
+    return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`;
   }
 
   getData() {
@@ -39,7 +47,7 @@ export class GamePhaseWindow extends Application {
       isGM: game.user.isGM,
       phases: this.phases,
       currentPhase: this.phases[this.currentPhase],
-      paused: game.settings.get(HEIST.SYSTEM_ID, 'currentPhasePaused'),
+      paused: this.#getPausedStatus(),
       active: 0 < timeLeft,
       canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
       hasNextPhase: undefined !== this.phases[this.currentPhase + 1],
@@ -81,13 +89,29 @@ export class GamePhaseWindow extends Application {
       return;
     }
 
-    this.paused = !!this.paused;
+    this.paused = !this.paused;
 
     await game.settings.set(HEIST.SYSTEM_ID, 'currentPhasePaused', this.paused);
 
     this.#updateTimeLeftInterval();
 
     this.#render();
+  }
+
+  static #width() {
+    if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
+      return 400;
+    }
+
+    return 600;
+  }
+
+  static #height() {
+    if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
+      return 175;
+    }
+
+    return 320;
   }
 
   async #onTogglePause(e) {

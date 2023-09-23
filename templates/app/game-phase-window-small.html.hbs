@@ -1,0 +1,35 @@
+<div class="game-phase-window small">
+  <div class="phase-details">
+    <h2>{{localize currentPhase.name}}</h2>
+
+    <div {{#if isGM}}class="grid grid-2col"{{/if}}>
+      <div>
+        {{#if active}}
+          <p class="timer">{{formattedTimeLeft timeLeft}}</p>
+        {{/if}}
+        {{#unless active}}
+          <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
+        {{/unless}}
+      </div>
+      {{#if isGM}}
+        <div class="buttons">
+          {{#if hasNextPhase}}
+            <button type="button" data-next title="{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}" class="flexshrink">
+              <i class="far fa-forward"></i>
+            </button>
+          {{/if}}
+          {{#if canPause}}
+            <button type="button" data-pause{{#unless active}} disabled{{/unless}} class="flexshrink"
+                    title="{{#if paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}{{/if}}{{#unless paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}{{/unless}}">
+              {{#if paused}}<i class="far fa-play"></i>{{/if}}
+              {{#unless paused}}<i class="far fa-pause"></i>{{/unless}}
+            </button>
+          {{/if}}
+          <button type="button" data-reset title="{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}" class="flexshrink">
+            <i class="far fa-rotate-left"></i>
+          </button>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</div>
