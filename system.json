@@ -69,5 +69,6 @@
   "bugs": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/issues",
   "changelog": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/blob/main/CHANGELOG.md",
   "license": "./LICENSE",
-  "readme": "./README.md"
+  "readme": "./README.md",
+  "background": "systems/heist/assets/system-background.webp"
 }

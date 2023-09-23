@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const dev = process.env.NODE_ENV !== 'production';
 
 module.exports = {
@@ -51,6 +52,11 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'css/heist.css',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'images/system-background.webp' },
+      ],
     }),
   ],
 };
