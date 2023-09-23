@@ -22,6 +22,12 @@ jobs:
             -   name: Checkout Repository
                 uses: actions/checkout@v3
 
+            -   name: Build assets [1/2] - yarn install
+                run: yarn install
+
+            -   name: Build assets [2/2] - yarn build
+                run: NODE_ENV=production yarn run build
+
             -   name: Extract Version From Tag
                 id: get_version
                 uses: battila7/get-version-action@v2
