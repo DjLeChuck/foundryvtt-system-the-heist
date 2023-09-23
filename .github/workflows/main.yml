@@ -8,8 +8,9 @@ env:
 
 
 on:
-    release:
-        types: [published]
+    push:
+        tags:
+            - '*'
 
 
 jobs:
