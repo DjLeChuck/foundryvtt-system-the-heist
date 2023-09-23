@@ -2,7 +2,7 @@
   "id": "heist",
   "title": "The Heist",
   "description": "The Heist system for FoundryVTT!",
-  "version": "0.0.1-dev",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
     "verified": "11.308"
@@ -63,9 +63,9 @@
     }
   ],
   "socket": true,
-  "url": "https://github.com/DjLeChuck/foundryvtt-system-the-heist",
-  "manifest": "https://raw.githubusercontent.com/DjLeChuck/foundryvtt-system-the-heist/main/system.json",
-  "download": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/archive/0.0.1-dev.zip",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "bugs": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/issues",
   "changelog": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/blob/main/CHANGELOG.md",
   "license": "./LICENSE",
