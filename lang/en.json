@@ -42,6 +42,7 @@
   "HEIST.CardWindow.Reveal": "Reveal",
   "HEIST.CardWindow.Draw": "Draw",
   "HEIST.CardWindow.Finish": "Finish",
+  "HEIST.CardWindow.UseFetish": "Use fetish object",
   "HEIST.CardWindow.CurrentScore": "Current score: {value}",
   "HEIST.CardWindow.TotalScore": "Total score: {value}",
   "HEIST.CardWindow.NoCardLeft": "No card left",
@@ -67,5 +68,6 @@
   "HEIST.Agent.Skills": "Skills",
   "HEIST.Errors.CompendiumNotFound": "The compendium {name} is not found!",
   "HEIST.Errors.DeckIdNotSet": "The deck ID to use is not defined!",
-  "HEIST.Errors.AlreadyTwoSkills": "Impossible to add the skill, you already have 2!"
+  "HEIST.Errors.AlreadyTwoSkills": "Impossible to add the skill, you already have 2!",
+  "HEIST.Errors.NoFetishObject": "You don't have a fetish object!"
 }

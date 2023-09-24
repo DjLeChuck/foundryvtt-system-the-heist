@@ -11,6 +11,7 @@ export class CurrentTestDataModel extends foundry.abstract.DataModel {
       }),
       isRevealed: new fields.BooleanField(),
       isFinished: new fields.BooleanField(),
+      isSuccessful: new fields.BooleanField(),
     };
   }
 }

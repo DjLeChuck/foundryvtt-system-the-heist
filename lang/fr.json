@@ -42,6 +42,7 @@
   "HEIST.CardWindow.Reveal": "Révéler",
   "HEIST.CardWindow.Draw": "Piocher",
   "HEIST.CardWindow.Finish": "Terminer",
+  "HEIST.CardWindow.UseFetish": "Utiliser l’objet fétiche",
   "HEIST.CardWindow.CurrentScore": "Score actuel : {value}",
   "HEIST.CardWindow.TotalScore": "Score totale : {value}",
   "HEIST.CardWindow.NoCardLeft": "Plus de carte disponible",
@@ -67,5 +68,6 @@
   "HEIST.Agent.Skills": "Compétences",
   "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !",
   "HEIST.Errors.DeckIdNotSet": "L’ID du deck à utiliser n’est pas défini !",
-  "HEIST.Errors.AlreadyTwoSkills": "Impossible d’ajouter la compétence, vous en possédez déjà 2 !"
+  "HEIST.Errors.AlreadyTwoSkills": "Impossible d’ajouter la compétence, vous en possédez déjà 2 !",
+  "HEIST.Errors.NoFetishObject": "Vous ne disposez pas d’un objet fétiche !"
 }

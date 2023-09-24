@@ -23,6 +23,24 @@ export class AgentActor extends BasePlayerActor {
     return this.items.filter((item) => 'skill' === item.type);
   }
 
+  get canUseFetish() {
+    if (!this.fetish || this.fetish.isUsed) {
+      return false;
+    }
+
+    return 0 < (this.hand?.availableCards.length || 0);
+  }
+
+  async useFetish() {
+    if (!this.fetish) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.NoFetishObject'));
+
+      return;
+    }
+
+    await this.fetish.update({ 'system.used': true });
+  }
+
   async setDecks() {
     await this._deleteDecks();
     await this._createDecks();

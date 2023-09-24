@@ -60,6 +60,13 @@ export class CardWindow extends Application {
     return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isFinished ?? false;
   }
 
+  /**
+   * @returns {boolean}
+   */
+  get isSuccessful() {
+    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isSuccessful ?? false;
+  }
+
   async prepareTest(gm, agent) {
     await this.#setTestSettings({
       gm,
@@ -94,7 +101,7 @@ export class CardWindow extends Application {
         isRunning: true,
         isRevealed: this.isRevealed,
         isFinished: this.isFinished,
-        isSuccessful: agentScore >= gmTotalScore,
+        isSuccessful: this.isSuccessful,
         isBlackjack: 21 === agentScore,
       },
       gm: {
@@ -108,6 +115,7 @@ export class CardWindow extends Application {
         cards: CARDS.sortByValue(agentCards),
         score: agentScore,
         canDraw: 0 < agent.deck.availableCards.length,
+        canUseFetish: agent.canUseFetish,
       },
     };
   }
@@ -118,6 +126,7 @@ export class CardWindow extends Application {
     if (agent?.isOwner) {
       html.find('[data-draw]').click(this._onDraw.bind(this));
       html.find('[data-finish]').click(this._onFinishTest.bind(this));
+      html.find('[data-fetish]').click(this._onUseFetish.bind(this));
     }
 
     if (!game.user.isGM) {
@@ -139,7 +148,23 @@ export class CardWindow extends Application {
   async _onFinishTest(e) {
     e.preventDefault();
 
-    await this.#setTestSettings({ isFinished: true });
+    await this.#setTestSettings({
+      isSuccessful: CARDS.scoreForGM(this.agent.hand.cards) >= CARDS.scoreForGM(this.gm.hand.cards),
+      isFinished: true,
+    });
+
+    this.#refreshViews();
+  }
+
+  async _onUseFetish(e) {
+    e.preventDefault();
+
+    await this.agent.useFetish();
+
+    await this.#setTestSettings({
+      isSuccessful: true,
+      isFinished: true,
+    });
 
     this.#refreshViews();
   }
@@ -215,7 +240,7 @@ export class CardWindow extends Application {
       return;
     }
 
-    await this.gm?.throwHand();
+    await this.gm.throwHand();
 
     for (const agent of this.gm.agents) {
       await agent.throwHand();

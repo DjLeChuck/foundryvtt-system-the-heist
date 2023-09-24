@@ -40,6 +40,13 @@
       </button>
       <button type="button" data-finish>{{localize "HEIST.CardWindow.Finish"}}</button>
     </p>
+    {{#if agent.canUseFetish}}
+      <p class="grid grid-2col">
+        <button type="button" class="grid-span-2" data-fetish>
+          {{localize "HEIST.CardWindow.UseFetish"}}
+        </button>
+      </p>
+    {{/if}}
   {{/unless}}
 {{/if}}
 
