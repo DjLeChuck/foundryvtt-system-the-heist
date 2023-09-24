@@ -195,6 +195,8 @@ export class CardWindow extends Application {
         recalls,
       }),
     });
+
+    this.#refreshViews();
   }
 
   #currentTestSettings() {

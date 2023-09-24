@@ -6,12 +6,11 @@ export class AgentActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'description' }],
+      height: 450,
     });
   }
 
   /**
-   * A convenience reference to the Actor document
    * @type {AgentActor}
    */
   get actor() {
@@ -23,6 +22,8 @@ export class AgentActorSheet extends BaseActorSheet {
     const context = super.getData();
 
     await this._prepareItems(context);
+
+    context.remainingCards = this.actor.deck?.availableCards.length;
 
     return context;
   }
@@ -39,29 +40,53 @@ export class AgentActorSheet extends BaseActorSheet {
   }
 
   /**
-   * Organize and classify Items for Character sheets.
-   *
-   * @param {Object} context The actor to prepare.
-   *
-   * @return {undefined}
+   * @param {Object} context
    */
   async _prepareItems(context) {
     let agentType = null;
+    let fetish = null;
+    const skills = [];
 
     // Iterate through items, allocating to containers
     for (let i of context.items) {
       i.img = i.img || Item.DEFAULT_ICON;
-      if (i.type === 'agentType') {
+
+      if ('agentType' === i.type) {
         agentType = i;
+      }
+
+      if ('fetish' === i.type) {
+        fetish = i;
+      }
+
+      if ('skill' === i.type) {
+        skills.push(i);
       }
     }
 
     context.agentType = agentType;
+    context.fetish = fetish;
+    context.skills = skills;
   }
 
+  /**
+   * @param {Object} itemData
+   * @returns {Promise<Object|boolean>}
+   * @private
+   */
   async _onDropSingleItem(itemData) {
     if ('agentType' === itemData.type && null !== this.actor.agentType) {
       await this.actor.agentType.delete();
+    }
+
+    if ('fetish' === itemData.type && null !== this.actor.fetish) {
+      await this.actor.fetish.delete();
+    }
+
+    if ('skill' === itemData.type && 2 === this.actor.skills.length) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.AlreadyTwoSkills'));
+
+      return false;
     }
 
     return itemData;

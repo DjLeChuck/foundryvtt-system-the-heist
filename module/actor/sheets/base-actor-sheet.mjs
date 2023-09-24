@@ -10,8 +10,6 @@ export class BaseActorSheet extends ActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor'],
       template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-sheet.html.hbs`,
-      width: 750,
-      height: 690,
     });
   }
 

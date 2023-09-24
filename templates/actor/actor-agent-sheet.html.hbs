@@ -12,18 +12,46 @@
               <input type="text" value="{{agentType.name}}" readonly disabled
                      placeholder="{{localize "TYPES.Item.agentType"}}" />
             </h1>
+            {{#unless agentType}}
+              <p class="flexshrink ml-8">
+                <button type="button" data-open-compendium data-name="agent-types">
+                  <i class="fa fa-magnifying-glass"></i>
+                </button>
+              </p>
+            {{/unless}}
           </div>
         </div>
-      </div>
-      <div class="grid grid-3col">
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
       </div>
     </div>
   </header>
 
   <section class="sheet-body">
-    {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+    <div class="grid grid-3col">
+      <div class="flexcol">
+        <div>
+          <p>
+            {{localize "HEIST.Agent.FetishObject" name=fetish.name}}
+            {{#if fetish.used}}{{localize "HEIST.Agent.FetishObjectUsed"}}{{/if}}
+          </p>
+        </div>
+        <div>
+          <p>{{localize "HEIST.Agent.Skills"}}</p>
+
+          <ul>
+            {{#each skills}}
+              <li>{{this.name}}</li>
+            {{/each}}
+          </ul>
+        </div>
+        <div>
+          {{#if remainingCards}}
+            <p>{{localize "HEIST.Cards.Remaining" count=remainingCards}}</p>
+          {{/if}}
+        </div>
+      </div>
+      <div class="grid-span-2">
+        {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+      </div>
+    </div>
   </section>
 </form>

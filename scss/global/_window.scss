@@ -22,4 +22,7 @@
 
 #pause img {
   content: url("../images/logos/mini.webp");
+
+  animation-name: fa-beat-fade;
+  --fa-animation-duration: 2s;
 }

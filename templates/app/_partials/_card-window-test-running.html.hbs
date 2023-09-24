@@ -52,10 +52,10 @@
 
       {{#if test.isBlackjack}}
         <p><strong>{{localize "HEIST.Blackjack.Label"}}</strong></p>
-        <p>{{localize "HEIST.Blackjack.Explanation" name=agent.name}}</p>
+        <p>{{localize "HEIST.Blackjack.Explanations" name=agent.name}}</p>
 
         {{#if isAdmin}}
-          <button type="button" data-blackjack>{{localize "HEIST.CardWindow.Blackjack"}}</button>
+          <button type="button" data-blackjack>{{localize "HEIST.Blackjack.Label"}}</button>
         {{/if}}
       {{/if}}
     {{/if}}

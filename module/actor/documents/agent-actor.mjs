@@ -3,12 +3,24 @@ import * as HEIST from '../../const.mjs';
 
 export class AgentActor extends BasePlayerActor {
   /**
-   * Get the actor agent type item.
-   *
    * @returns {AgentTypeItem|null}
    */
   get agentType() {
     return this.items.find((item) => 'agentType' === item.type) ?? null;
+  }
+
+  /**
+   * @returns {FetishItem|null}
+   */
+  get fetish() {
+    return this.items.find((item) => 'fetish' === item.type) ?? null;
+  }
+
+  /**
+   * @returns {SkillItem[]}
+   */
+  get skills() {
+    return this.items.filter((item) => 'skill' === item.type);
   }
 
   async setDecks() {

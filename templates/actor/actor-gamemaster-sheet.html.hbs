@@ -21,19 +21,21 @@
           <p>{{localize "HEIST.Global.AgentName" name=this.name}}</p>
           <p>{{localize "HEIST.Cards.Remaining" count=(length this.deck.availableCards)}}</p>
 
-          {{#if (length this.deck.availableCards)}}
-            <div class="grid grid-2col">
-              <div>
-                <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{this.id}}">
-                  {{localize "HEIST.GamemasterSheet.EasyTest"}}
-                </button>
+          {{#if ../canTest}}
+            {{#if (length this.deck.availableCards)}}
+              <div class="grid grid-2col">
+                <div>
+                  <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{this.id}}">
+                    {{localize "HEIST.GamemasterSheet.EasyTest"}}
+                  </button>
+                </div>
+                <div>
+                  <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{this.id}}">
+                    {{localize "HEIST.GamemasterSheet.DifficultTest"}}
+                  </button>
+                </div>
               </div>
-              <div>
-                <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{this.id}}">
-                  {{localize "HEIST.GamemasterSheet.DifficultTest"}}
-                </button>
-              </div>
-            </div>
+            {{/if}}
           {{/if}}
         </div>
       {{/each}}

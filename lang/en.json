@@ -27,6 +27,7 @@
   "HEIST.Global.Delete": "Delete",
   "HEIST.Global.Name": "Name",
   "HEIST.Global.AgentName": "Agent: {name}",
+  "HEIST.Global.Used": "Used?",
   "HEIST.Blackjack.Label": "BLACKJACK!",
   "HEIST.Blackjack.Explanations": "Agent {name} collects all the cards he just played and the others collect 2 from their pile!",
   "HEIST.Cards.DeckName": "{name}’s Deck",
@@ -61,6 +62,10 @@
   "HEIST.GamePhases.Phase5.Title": "Action",
   "HEIST.GamemasterSheet.EasyTest": "Easy test",
   "HEIST.GamemasterSheet.DifficultTest": "Difficult test",
+  "HEIST.Agent.FetishObject": "Fetish object: {name}",
+  "HEIST.Agent.FetishObjectUsed": "(used)",
+  "HEIST.Agent.Skills": "Skills",
   "HEIST.Errors.CompendiumNotFound": "The compendium {name} is not found!",
-  "HEIST.Errors.DeckIdNotSet": "The deck ID to use is not defined!"
+  "HEIST.Errors.DeckIdNotSet": "The deck ID to use is not defined!",
+  "HEIST.Errors.AlreadyTwoSkills": "Impossible to add the skill, you already have 2!"
 }

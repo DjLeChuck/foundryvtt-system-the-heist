@@ -4,6 +4,7 @@ export class FetishDataModel extends foundry.abstract.DataModel {
 
     return {
       description: new fields.HTMLField(),
+      used: new fields.BooleanField(),
     };
   }
 }

@@ -27,6 +27,7 @@
   "HEIST.Global.Delete": "Supprimer",
   "HEIST.Global.Name": "Nom",
   "HEIST.Global.AgentName": "Agent : {name}",
+  "HEIST.Global.Used": "Utilisé ?",
   "HEIST.Blackjack.Label": "BLACKJACK !",
   "HEIST.Blackjack.Explanations": "L’agent {name} récupère toutes les cartes qu’il vient de jouer et les autres en récupèrent 2 de leur défausse !",
   "HEIST.Cards.DeckName": "Deck de {name}",
@@ -61,6 +62,10 @@
   "HEIST.GamePhases.Phase5.Title": "Action",
   "HEIST.GamemasterSheet.EasyTest": "Test facile",
   "HEIST.GamemasterSheet.DifficultTest": "Test difficile",
+  "HEIST.Agent.FetishObject": "Objet fétiche : {name}",
+  "HEIST.Agent.FetishObjectUsed": "(utilisé)",
+  "HEIST.Agent.Skills": "Compétences",
   "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !",
-  "HEIST.Errors.DeckIdNotSet": "L’ID du deck à utiliser n’est pas défini !"
+  "HEIST.Errors.DeckIdNotSet": "L’ID du deck à utiliser n’est pas défini !",
+  "HEIST.Errors.AlreadyTwoSkills": "Impossible d’ajouter la compétence, vous en possédez déjà 2 !"
 }

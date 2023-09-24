@@ -5,8 +5,8 @@ export class GamemasterActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'description' }],
       width: 910,
+      height: 450,
     });
   }
 
@@ -33,6 +33,8 @@ export class GamemasterActorSheet extends BaseActorSheet {
   getData() {
     const context = super.getData();
     context.agents = this.actor.agents;
+
+    context.canTest = this.actor.deck?.availableCards.length >= 3;
 
     return context;
   }
