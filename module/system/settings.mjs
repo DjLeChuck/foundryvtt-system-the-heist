@@ -13,7 +13,7 @@ export function registerSettings() {
     hint: 'HEIST.Settings.AutoRegisterBabele.Hint',
     scope: 'world',
     config: true,
-    default: true,
+    default: false,
     type: Boolean,
     onChange: value => {
       if (value) {

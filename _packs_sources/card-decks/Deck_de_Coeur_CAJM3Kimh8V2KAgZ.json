@@ -1,15 +1,15 @@
 {
-  "name": "Club’s Deck",
+  "name": "Deck de Cœur",
   "type": "deck",
-  "description": "Cards deck of Club.",
+  "description": "Cartes du deck de Cœur.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "Ace of Clubs",
+      "name": "As de Cœur",
       "faces": [
         {
-          "name": "Ace of Clubs",
-          "img": "cards/dark-gold/clubs-ace.webp",
+          "name": "As de Cœur",
+          "img": "cards/dark-gold/hearts-ace.webp",
           "text": ""
         }
       ],
@@ -18,12 +18,12 @@
       "rotation": 0,
       "type": "base",
       "value": 11,
-      "suit": "clubs",
-      "_id": "wXvlgmV7YwKDxSjH",
+      "suit": "hearts",
+      "_id": "PpqIxib3t6mqgtGD",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 0,
+      "sort": 26,
       "flags": {},
       "back": {
         "name": "",
@@ -33,15 +33,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.wXvlgmV7YwKDxSjH"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.PpqIxib3t6mqgtGD"
     },
     {
-      "name": "Two of Clubs",
+      "name": "Deux de Cœur",
       "faces": [
         {
-          "name": "Two of Clubs",
+          "name": "Deux de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-02.webp"
+          "img": "cards/dark-gold/hearts-02.webp"
         }
       ],
       "width": 2,
@@ -49,12 +49,12 @@
       "rotation": 0,
       "type": "base",
       "value": 2,
-      "suit": "clubs",
-      "_id": "r0G9Og8k5aHqR8Pg",
+      "suit": "hearts",
+      "_id": "XRM7MdLoRGyvgwsc",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 1,
+      "sort": 27,
       "flags": {},
       "back": {
         "name": "",
@@ -63,15 +63,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.r0G9Og8k5aHqR8Pg"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XRM7MdLoRGyvgwsc"
     },
     {
-      "name": "Three of Clubs",
+      "name": "Trois de Cœur",
       "faces": [
         {
-          "name": "Three of Clubs",
+          "name": "Trois de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-03.webp"
+          "img": "cards/dark-gold/hearts-03.webp"
         }
       ],
       "width": 2,
@@ -79,12 +79,12 @@
       "rotation": 0,
       "type": "base",
       "value": 3,
-      "suit": "clubs",
-      "_id": "unqGlb57BrdvWGaR",
+      "suit": "hearts",
+      "_id": "6GSrHlpgnFo9fT7j",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 2,
+      "sort": 28,
       "flags": {},
       "back": {
         "name": "",
@@ -93,15 +93,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.unqGlb57BrdvWGaR"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.6GSrHlpgnFo9fT7j"
     },
     {
-      "name": "Four of Clubs",
+      "name": "Quatre de Cœur",
       "faces": [
         {
-          "name": "Four of Clubs",
+          "name": "Quatre de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-04.webp"
+          "img": "cards/dark-gold/hearts-04.webp"
         }
       ],
       "width": 2,
@@ -109,12 +109,12 @@
       "rotation": 0,
       "type": "base",
       "value": 4,
-      "suit": "clubs",
-      "_id": "ZzTCuGUxAi5qmwVd",
+      "suit": "hearts",
+      "_id": "16v9ggdoIzIKDqDL",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 3,
+      "sort": 29,
       "flags": {},
       "back": {
         "name": "",
@@ -123,15 +123,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.ZzTCuGUxAi5qmwVd"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.16v9ggdoIzIKDqDL"
     },
     {
-      "name": "Five of Clubs",
+      "name": "Cinq de Cœur",
       "faces": [
         {
-          "name": "Five of Clubs",
+          "name": "Cinq de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-05.webp"
+          "img": "cards/dark-gold/hearts-05.webp"
         }
       ],
       "width": 2,
@@ -139,12 +139,12 @@
       "rotation": 0,
       "type": "base",
       "value": 5,
-      "suit": "clubs",
-      "_id": "SHeHIXRD5DLhBTWf",
+      "suit": "hearts",
+      "_id": "hHphZIYnFESJKW3Y",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 4,
+      "sort": 30,
       "flags": {},
       "back": {
         "name": "",
@@ -153,15 +153,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.SHeHIXRD5DLhBTWf"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.hHphZIYnFESJKW3Y"
     },
     {
-      "name": "Six of Clubs",
+      "name": "Six de Cœur",
       "faces": [
         {
-          "name": "Six of Clubs",
+          "name": "Six de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-06.webp"
+          "img": "cards/dark-gold/hearts-06.webp"
         }
       ],
       "width": 2,
@@ -169,12 +169,12 @@
       "rotation": 0,
       "type": "base",
       "value": 6,
-      "suit": "clubs",
-      "_id": "SPJOZgF9HN1EZ2TY",
+      "suit": "hearts",
+      "_id": "xpCH3DivRVNGouvm",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 5,
+      "sort": 31,
       "flags": {},
       "back": {
         "name": "",
@@ -183,15 +183,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.SPJOZgF9HN1EZ2TY"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xpCH3DivRVNGouvm"
     },
     {
-      "name": "Seven of Clubs",
+      "name": "Sept de Cœur",
       "faces": [
         {
-          "name": "Seven of Clubs",
+          "name": "Sept de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-07.webp"
+          "img": "cards/dark-gold/hearts-07.webp"
         }
       ],
       "width": 2,
@@ -199,12 +199,12 @@
       "rotation": 0,
       "type": "base",
       "value": 7,
-      "suit": "clubs",
-      "_id": "Wwm5kqTuhOVeqR3E",
+      "suit": "hearts",
+      "_id": "XxMqu8DH4jJ5DciP",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 6,
+      "sort": 32,
       "flags": {},
       "back": {
         "name": "",
@@ -213,15 +213,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.Wwm5kqTuhOVeqR3E"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XxMqu8DH4jJ5DciP"
     },
     {
-      "name": "Eight of Clubs",
+      "name": "Huit de Cœur",
       "faces": [
         {
-          "name": "Eight of Clubs",
+          "name": "Huit de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-08.webp"
+          "img": "cards/dark-gold/hearts-08.webp"
         }
       ],
       "width": 2,
@@ -229,12 +229,12 @@
       "rotation": 0,
       "type": "base",
       "value": 8,
-      "suit": "clubs",
-      "_id": "0LEcFSU7RPiBw1Cj",
+      "suit": "hearts",
+      "_id": "1NcfAUG9wdqsU9SW",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 7,
+      "sort": 33,
       "flags": {},
       "back": {
         "name": "",
@@ -243,15 +243,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.0LEcFSU7RPiBw1Cj"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.1NcfAUG9wdqsU9SW"
     },
     {
-      "name": "Nine of Clubs",
+      "name": "Neuf de Cœur",
       "faces": [
         {
-          "name": "Nine of Clubs",
+          "name": "Neuf de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-09.webp"
+          "img": "cards/dark-gold/hearts-09.webp"
         }
       ],
       "width": 2,
@@ -259,12 +259,12 @@
       "rotation": 0,
       "type": "base",
       "value": 9,
-      "suit": "clubs",
-      "_id": "jUvavOLjRT2dtAu5",
+      "suit": "hearts",
+      "_id": "0sI4Htn1NR11zTEK",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 8,
+      "sort": 34,
       "flags": {},
       "back": {
         "name": "",
@@ -273,15 +273,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.jUvavOLjRT2dtAu5"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.0sI4Htn1NR11zTEK"
     },
     {
-      "name": "Ten of Clubs",
+      "name": "Dix de Cœur",
       "faces": [
         {
-          "name": "Ten of Clubs",
+          "name": "Dix de Cœur",
           "text": "",
-          "img": "cards/dark-gold/clubs-10.webp"
+          "img": "cards/dark-gold/hearts-10.webp"
         }
       ],
       "width": 2,
@@ -289,12 +289,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "clubs",
-      "_id": "8ku0qEM6LJK2jpBD",
+      "suit": "hearts",
+      "_id": "5SNZYzAjHduVhZsA",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 9,
+      "sort": 35,
       "flags": {},
       "back": {
         "name": "",
@@ -303,14 +303,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.8ku0qEM6LJK2jpBD"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5SNZYzAjHduVhZsA"
     },
     {
-      "name": "Jack of Clubs",
+      "name": "Valet de Cœur",
       "faces": [
         {
-          "name": "Jack of Clubs",
-          "img": "cards/dark-gold/clubs-jack.webp",
+          "name": "Valet de Cœur",
+          "img": "cards/dark-gold/hearts-jack.webp",
           "text": ""
         }
       ],
@@ -319,12 +319,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "clubs",
-      "_id": "L3BdwK8Wjo8UNyzL",
+      "suit": "hearts",
+      "_id": "5gqebD2qo82GlRpV",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 10,
+      "sort": 36,
       "flags": {},
       "back": {
         "name": "",
@@ -334,14 +334,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.L3BdwK8Wjo8UNyzL"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5gqebD2qo82GlRpV"
     },
     {
-      "name": "Queen of Clubs",
+      "name": "Dame de Cœur",
       "faces": [
         {
-          "name": "Queen of Clubs",
-          "img": "cards/dark-gold/clubs-queen.webp",
+          "name": "Dame de Cœur",
+          "img": "cards/dark-gold/hearts-queen.webp",
           "text": ""
         }
       ],
@@ -350,12 +350,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "clubs",
-      "_id": "eF5KAukclMjuXhWq",
+      "suit": "hearts",
+      "_id": "xrxzIz2PAe3QU8RK",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 11,
+      "sort": 37,
       "flags": {},
       "back": {
         "name": "",
@@ -365,14 +365,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.eF5KAukclMjuXhWq"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xrxzIz2PAe3QU8RK"
     },
     {
-      "name": "King of Clubs",
+      "name": "Roi de Cœur",
       "faces": [
         {
-          "name": "King of Clubs",
-          "img": "cards/dark-gold/clubs-king.webp",
+          "name": "Roi de Cœur",
+          "img": "cards/dark-gold/hearts-king.webp",
           "text": ""
         }
       ],
@@ -381,12 +381,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "clubs",
-      "_id": "hux4CICxmt8DTsyN",
+      "suit": "hearts",
+      "_id": "X5uUlTlTmZ47fFBo",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 12,
+      "sort": 38,
       "flags": {},
       "back": {
         "name": "",
@@ -396,7 +396,7 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!qOga6zR3CbE0dPsg.hux4CICxmt8DTsyN"
+      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.X5uUlTlTmZ47fFBo"
     }
   ],
   "width": 2,
@@ -405,7 +405,7 @@
   "displayCount": true,
   "flags": {},
   "system": {},
-  "_id": "qOga6zR3CbE0dPsg",
+  "_id": "CAJM3Kimh8V2KAgZ",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -414,11 +414,11 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1694536281006,
-    "modifiedTime": 1694536913974,
+    "createdTime": 1694536194798,
+    "modifiedTime": 1694536889225,
     "lastModifiedBy": "vVJVBCfWogk10kDN"
   },
-  "_key": "!cards!qOga6zR3CbE0dPsg"
+  "_key": "!cards!CAJM3Kimh8V2KAgZ"
 }

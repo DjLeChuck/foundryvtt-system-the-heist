@@ -1,10 +1,10 @@
 {
-  "name": "Club",
+  "name": "Trèfle",
   "type": "agentType",
   "_id": "WZETYxMj05ktoNDN",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Observant and ingenious, he or she is always exceptionally intelligent. <strong>Clubs</strong> are multi-graduated characters who apply their genius to the preparation phases and plan the group’s actions. They are often the brains of an agent’s team, and an indispensable part of it.</p>"
+    "description": "<p>Observatrice et géniale, elle ou il est toujours dotée d'une intelligence hors norme. Les <strong>Trèfles</strong> sont des personnages aux multiples diplômes, qui mettent leur génie au service des phases de préparation et qui planifient les actions du groupe. Éléments indispensables d'une équipe d'agent, ils en sont souvent les cerveaux.</p>"
   },
   "effects": [],
   "folder": null,
@@ -20,7 +20,7 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
     "createdTime": 1695240472038,
     "modifiedTime": 1695241015384,

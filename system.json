@@ -51,19 +51,19 @@
   "packs": [
     {
       "name": "card-decks",
-      "label": "Card decks",
+      "label": "Decks de cartes",
       "type": "Cards",
       "system": "heist"
     },
     {
       "name": "agent-types",
-      "label": "Agent types",
+      "label": "Types d’agent",
       "type": "Item",
       "system": "heist"
     },
     {
       "name": "skills",
-      "label": "Skills",
+      "label": "Compétences",
       "type": "Item",
       "system": "heist"
     }

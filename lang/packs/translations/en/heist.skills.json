@@ -1,0 +1,14 @@
+{
+  "label": "Skills",
+  "entries": {
+    "Discrétion": {
+      "name": "Discretion"
+    },
+    "Piratage": {
+      "name": "Hacking"
+    },
+    "Crochetage": {
+      "name": "Lock picking"
+    }
+  }
+}

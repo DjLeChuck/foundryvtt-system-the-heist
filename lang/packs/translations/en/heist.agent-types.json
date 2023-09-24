@@ -1,0 +1,24 @@
+{
+  "label": "Agent types",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Trèfle": {
+      "name": "Club",
+      "description": "<p>Observant and ingenious, he or she is always exceptionally intelligent. <strong>Clubs</strong> are multi-graduated characters who apply their genius to the preparation phases and plan the group’s actions. They are often the brains of an agent’s team, and an indispensable part of it.</p>"
+    },
+    "Carreau": {
+      "name": "Diamond",
+      "description": "<p>Often professional and impressive, he or she is always sure of his or her technical skills, whether in demolition, mechanics or piloting. <strong>Diamonds</strong> are expert technicians who can improvise with ease, and who have learned not to let themselves be taken for a ride. They sometimes have a dark past...</p>"
+    },
+    "Cœur": {
+      "name": "Heart",
+      "description": "<p>Charming and playful, he or she is very sure of his or her charm, always elegantly dressed. <strong>Hearts</strong> are social characters par excellence, who know how to chat, seduce or imitate in order to divert attention, create sensational diversions or win favor with a target.</p>"
+    },
+    "Pique": {
+      "name": "Spade",
+      "description": "<p>As elegant as he or she is graceful, he or she is immovably dexterous and discreet. <strong>Spades</strong> are capable of impressive physical prowess as well as being professional burglars. They are often the mover and shaker at the heart of the agency’s action.</p>"
+    }
+  }
+}

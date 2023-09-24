@@ -1,7 +1,7 @@
 {
-  "name": "Lock picking",
+  "name": "Piratage",
   "type": "skill",
-  "_id": "xSmO93zWpQ1Xv4u4",
+  "_id": "eGeDbV6vjWQpcvUk",
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": ""
@@ -18,9 +18,9 @@
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1695562472000,
-    "modifiedTime": 1695562472000,
+    "createdTime": 1695562576444,
+    "modifiedTime": 1695562576444,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!xSmO93zWpQ1Xv4u4"
+  "_key": "!items!eGeDbV6vjWQpcvUk"
 }

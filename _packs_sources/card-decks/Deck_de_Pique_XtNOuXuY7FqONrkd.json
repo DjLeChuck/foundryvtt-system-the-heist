@@ -1,15 +1,15 @@
 {
-  "name": "Diamond’s Deck",
+  "name": "Deck de Pique",
   "type": "deck",
-  "description": "Cards deck of Diamond.",
+  "description": "Cartes du deck de Pique.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "Ace of Diamonds",
+      "name": "As de Pique",
       "faces": [
         {
-          "name": "Ace of Diamonds",
-          "img": "cards/dark-gold/diamonds-ace.webp",
+          "name": "As de Pique",
+          "img": "cards/dark-gold/spades-ace.webp",
           "text": ""
         }
       ],
@@ -18,12 +18,12 @@
       "rotation": 0,
       "type": "base",
       "value": 11,
-      "suit": "diamonds",
-      "_id": "hR0x0AwWqE848wMe",
+      "suit": "spades",
+      "_id": "CWgif1hwr9zHSi1Z",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 13,
+      "sort": 39,
       "flags": {},
       "back": {
         "name": "",
@@ -33,15 +33,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.hR0x0AwWqE848wMe"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.CWgif1hwr9zHSi1Z"
     },
     {
-      "name": "Two of Diamonds",
+      "name": "Deux de Pique",
       "faces": [
         {
-          "name": "Two of Diamonds",
+          "name": "Deux de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-02.webp"
+          "img": "cards/dark-gold/spades-02.webp"
         }
       ],
       "width": 2,
@@ -49,12 +49,12 @@
       "rotation": 0,
       "type": "base",
       "value": 2,
-      "suit": "diamonds",
-      "_id": "NHt29JpITypcY2ix",
+      "suit": "spades",
+      "_id": "rkN2VIFOCoIFTljy",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 14,
+      "sort": 40,
       "flags": {},
       "back": {
         "name": "",
@@ -63,15 +63,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.NHt29JpITypcY2ix"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.rkN2VIFOCoIFTljy"
     },
     {
-      "name": "Three of Diamonds",
+      "name": "Trois de Pique",
       "faces": [
         {
-          "name": "Three of Diamonds",
+          "name": "Trois de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-03.webp"
+          "img": "cards/dark-gold/spades-03.webp"
         }
       ],
       "width": 2,
@@ -79,12 +79,12 @@
       "rotation": 0,
       "type": "base",
       "value": 3,
-      "suit": "diamonds",
-      "_id": "x1Umm37xuxJ5eAcj",
+      "suit": "spades",
+      "_id": "tjZBEJGNOGw5OarJ",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 15,
+      "sort": 41,
       "flags": {},
       "back": {
         "name": "",
@@ -93,15 +93,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.x1Umm37xuxJ5eAcj"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.tjZBEJGNOGw5OarJ"
     },
     {
-      "name": "Four of Diamonds",
+      "name": "Quatre de Pique",
       "faces": [
         {
-          "name": "Four of Diamonds",
+          "name": "Quatre de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-04.webp"
+          "img": "cards/dark-gold/spades-04.webp"
         }
       ],
       "width": 2,
@@ -109,12 +109,12 @@
       "rotation": 0,
       "type": "base",
       "value": 4,
-      "suit": "diamonds",
-      "_id": "JYktSwBB0gUHKa6S",
+      "suit": "spades",
+      "_id": "U88fDHv16N7NwKog",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 16,
+      "sort": 42,
       "flags": {},
       "back": {
         "name": "",
@@ -123,15 +123,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.JYktSwBB0gUHKa6S"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.U88fDHv16N7NwKog"
     },
     {
-      "name": "Five of Diamonds",
+      "name": "Cinq de Pique",
       "faces": [
         {
-          "name": "Five of Diamonds",
+          "name": "Cinq de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-05.webp"
+          "img": "cards/dark-gold/spades-05.webp"
         }
       ],
       "width": 2,
@@ -139,12 +139,12 @@
       "rotation": 0,
       "type": "base",
       "value": 5,
-      "suit": "diamonds",
-      "_id": "4YYBgMyTJmJz4wyJ",
+      "suit": "spades",
+      "_id": "BWAoswy63BNmbfFR",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 17,
+      "sort": 43,
       "flags": {},
       "back": {
         "name": "",
@@ -153,15 +153,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.4YYBgMyTJmJz4wyJ"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.BWAoswy63BNmbfFR"
     },
     {
-      "name": "Six of Diamonds",
+      "name": "Six de Pique",
       "faces": [
         {
-          "name": "Six of Diamonds",
+          "name": "Six de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-06.webp"
+          "img": "cards/dark-gold/spades-06.webp"
         }
       ],
       "width": 2,
@@ -169,12 +169,12 @@
       "rotation": 0,
       "type": "base",
       "value": 6,
-      "suit": "diamonds",
-      "_id": "2KIKPjMFhZVQXdkB",
+      "suit": "spades",
+      "_id": "wGJNwFgIDRKHsuNs",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 18,
+      "sort": 44,
       "flags": {},
       "back": {
         "name": "",
@@ -183,15 +183,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.2KIKPjMFhZVQXdkB"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.wGJNwFgIDRKHsuNs"
     },
     {
-      "name": "Seven of Diamonds",
+      "name": "Sept de Pique",
       "faces": [
         {
-          "name": "Seven of Diamonds",
+          "name": "Sept de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-07.webp"
+          "img": "cards/dark-gold/spades-07.webp"
         }
       ],
       "width": 2,
@@ -199,12 +199,12 @@
       "rotation": 0,
       "type": "base",
       "value": 7,
-      "suit": "diamonds",
-      "_id": "XtWM5u2S94nTQwD1",
+      "suit": "spades",
+      "_id": "zOVzGhV7WCZ6g0DH",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 19,
+      "sort": 45,
       "flags": {},
       "back": {
         "name": "",
@@ -213,15 +213,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.XtWM5u2S94nTQwD1"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.zOVzGhV7WCZ6g0DH"
     },
     {
-      "name": "Eight of Diamonds",
+      "name": "Huit de Pique",
       "faces": [
         {
-          "name": "Eight of Diamonds",
+          "name": "Huit de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-08.webp"
+          "img": "cards/dark-gold/spades-08.webp"
         }
       ],
       "width": 2,
@@ -229,12 +229,12 @@
       "rotation": 0,
       "type": "base",
       "value": 8,
-      "suit": "diamonds",
-      "_id": "1wNVfbqZhPUT6Uqi",
+      "suit": "spades",
+      "_id": "O39MQt4Die23LekG",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 20,
+      "sort": 46,
       "flags": {},
       "back": {
         "name": "",
@@ -243,15 +243,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.1wNVfbqZhPUT6Uqi"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.O39MQt4Die23LekG"
     },
     {
-      "name": "Nine of Diamonds",
+      "name": "Neuf de Pique",
       "faces": [
         {
-          "name": "Nine of Diamonds",
+          "name": "Neuf de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-09.webp"
+          "img": "cards/dark-gold/spades-09.webp"
         }
       ],
       "width": 2,
@@ -259,12 +259,12 @@
       "rotation": 0,
       "type": "base",
       "value": 9,
-      "suit": "diamonds",
-      "_id": "rZg26MpPZ4H4DrJd",
+      "suit": "spades",
+      "_id": "SHsshwOizq97j7Yv",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 21,
+      "sort": 47,
       "flags": {},
       "back": {
         "name": "",
@@ -273,15 +273,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.rZg26MpPZ4H4DrJd"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.SHsshwOizq97j7Yv"
     },
     {
-      "name": "Ten of Diamonds",
+      "name": "Dix de Pique",
       "faces": [
         {
-          "name": "Ten of Diamonds",
+          "name": "Dix de Pique",
           "text": "",
-          "img": "cards/dark-gold/diamonds-10.webp"
+          "img": "cards/dark-gold/spades-10.webp"
         }
       ],
       "width": 2,
@@ -289,12 +289,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "diamonds",
-      "_id": "HB0VCdNk7AvZYmVW",
+      "suit": "spades",
+      "_id": "XnXbwpNpZzZua7Qe",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 22,
+      "sort": 48,
       "flags": {},
       "back": {
         "name": "",
@@ -303,14 +303,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.HB0VCdNk7AvZYmVW"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.XnXbwpNpZzZua7Qe"
     },
     {
-      "name": "Jack of Diamonds",
+      "name": "Valet de Pique",
       "faces": [
         {
-          "name": "Jack of Diamonds",
-          "img": "cards/dark-gold/diamonds-jack.webp",
+          "name": "Valet de Pique",
+          "img": "cards/dark-gold/spades-jack.webp",
           "text": ""
         }
       ],
@@ -319,12 +319,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "diamonds",
-      "_id": "qq2gcTwhpvresgwi",
+      "suit": "spades",
+      "_id": "3bcTt41XPE6JYXjm",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 23,
+      "sort": 49,
       "flags": {},
       "back": {
         "name": "",
@@ -334,14 +334,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.qq2gcTwhpvresgwi"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.3bcTt41XPE6JYXjm"
     },
     {
-      "name": "Queen of Diamonds",
+      "name": "Dame de Pique",
       "faces": [
         {
-          "name": "Queen of Diamonds",
-          "img": "cards/dark-gold/diamonds-queen.webp",
+          "name": "Dame de Pique",
+          "img": "cards/dark-gold/spades-queen.webp",
           "text": ""
         }
       ],
@@ -350,12 +350,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "diamonds",
-      "_id": "Z0CTeRFZEu1xKz01",
+      "suit": "spades",
+      "_id": "bNing2cbz9nbdqvl",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 24,
+      "sort": 50,
       "flags": {},
       "back": {
         "name": "",
@@ -365,14 +365,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.Z0CTeRFZEu1xKz01"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.bNing2cbz9nbdqvl"
     },
     {
-      "name": "King of Diamonds",
+      "name": "Roi de Pique",
       "faces": [
         {
-          "name": "King of Diamonds",
-          "img": "cards/dark-gold/diamonds-king.webp",
+          "name": "Roi de Pique",
+          "img": "cards/dark-gold/spades-king.webp",
           "text": ""
         }
       ],
@@ -381,12 +381,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "diamonds",
-      "_id": "21K0tt6MzapgbzSL",
+      "suit": "spades",
+      "_id": "c9jqBcs9dWaqnqKf",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 25,
+      "sort": 51,
       "flags": {},
       "back": {
         "name": "",
@@ -396,7 +396,7 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!d6RqAElimCGfzNBd.21K0tt6MzapgbzSL"
+      "_key": "!cards.cards!XtNOuXuY7FqONrkd.c9jqBcs9dWaqnqKf"
     }
   ],
   "width": 2,
@@ -405,7 +405,7 @@
   "displayCount": true,
   "flags": {},
   "system": {},
-  "_id": "d6RqAElimCGfzNBd",
+  "_id": "XtNOuXuY7FqONrkd",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -414,11 +414,11 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1694536308275,
-    "modifiedTime": 1694536901206,
+    "createdTime": 1694536079932,
+    "modifiedTime": 1694536884422,
     "lastModifiedBy": "vVJVBCfWogk10kDN"
   },
-  "_key": "!cards!d6RqAElimCGfzNBd"
+  "_key": "!cards!XtNOuXuY7FqONrkd"
 }

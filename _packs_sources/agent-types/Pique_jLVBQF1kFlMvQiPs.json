@@ -1,10 +1,10 @@
 {
-  "name": "Spade",
+  "name": "Pique",
   "type": "agentType",
   "_id": "jLVBQF1kFlMvQiPs",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>As elegant as he or she is graceful, he or she is immovably dexterous and discreet. <strong>Spades</strong> are capable of impressive physical prowess as well as being professional burglars. They are often the mover and shaker at the heart of the agency’s action.</p>"
+    "description": "<p>Aussi élégant que gracieux, il ou elle est immuablement dextre et discret. Les <strong>Piques</strong> sont capables de prouesses physiques impressionnantes tout en étant des cambrioleurs de profession. Ce sont souvent des monte-en-l'air qui sont au cœur des phases d'action de l'agence.</p>"
   },
   "effects": [],
   "folder": null,
@@ -20,7 +20,7 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
     "createdTime": 1695240467770,
     "modifiedTime": 1695241029694,

@@ -1,7 +1,7 @@
 {
-  "name": "Hacking",
+  "name": "Crochetage",
   "type": "skill",
-  "_id": "eGeDbV6vjWQpcvUk",
+  "_id": "xSmO93zWpQ1Xv4u4",
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": ""
@@ -18,9 +18,9 @@
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1695562576444,
-    "modifiedTime": 1695562576444,
+    "createdTime": 1695562472000,
+    "modifiedTime": 1695562472000,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!eGeDbV6vjWQpcvUk"
+  "_key": "!items!xSmO93zWpQ1Xv4u4"
 }

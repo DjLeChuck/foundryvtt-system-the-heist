@@ -1,14 +1,14 @@
 {
-  "name": "GM’s Deck",
+  "name": "Deck du MJ",
   "type": "deck",
-  "description": "Card deck of the Gamemaster.",
+  "description": "Cartes du deck du maître du jeu.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "Ace of Clubs",
+      "name": "As de Trèfle",
       "faces": [
         {
-          "name": "Ace of Clubs",
+          "name": "As de Trèfle",
           "img": "cards/dark-gold/clubs-ace.webp",
           "text": ""
         }
@@ -36,10 +36,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.6klJxUCsQ76rrvfA"
     },
     {
-      "name": "Two of Clubs",
+      "name": "Deux de Trèfle",
       "faces": [
         {
-          "name": "Two of Clubs",
+          "name": "Deux de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-02.webp"
         }
@@ -66,10 +66,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.LbqdBKSVH7V7hfDA"
     },
     {
-      "name": "Three of Clubs",
+      "name": "Trois de Trèfle",
       "faces": [
         {
-          "name": "Three of Clubs",
+          "name": "Trois de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-03.webp"
         }
@@ -96,10 +96,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.qeMiPCZSuBwUPerE"
     },
     {
-      "name": "Four of Clubs",
+      "name": "Quatre de Trèfle",
       "faces": [
         {
-          "name": "Four of Clubs",
+          "name": "Quatre de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-04.webp"
         }
@@ -126,10 +126,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.obiqC1BrlWcZc7uD"
     },
     {
-      "name": "Five of Clubs",
+      "name": "Cinq de Trèfle",
       "faces": [
         {
-          "name": "Five of Clubs",
+          "name": "Cinq de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-05.webp"
         }
@@ -156,10 +156,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.XMRb6dYD5qoDtBl5"
     },
     {
-      "name": "Six of Clubs",
+      "name": "Six de Trèfle",
       "faces": [
         {
-          "name": "Six of Clubs",
+          "name": "Six de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-06.webp"
         }
@@ -186,10 +186,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.ZGTKzy1hRUBS3lar"
     },
     {
-      "name": "Seven of Clubs",
+      "name": "Sept de Trèfle",
       "faces": [
         {
-          "name": "Seven of Clubs",
+          "name": "Sept de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-07.webp"
         }
@@ -216,10 +216,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.IV3OCg7UdK46TVgf"
     },
     {
-      "name": "Eight of Clubs",
+      "name": "Huit de Trèfle",
       "faces": [
         {
-          "name": "Eight of Clubs",
+          "name": "Huit de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-08.webp"
         }
@@ -246,10 +246,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.sseeAt0gvQCnUDIU"
     },
     {
-      "name": "Nine of Clubs",
+      "name": "Neuf de Trèfle",
       "faces": [
         {
-          "name": "Nine of Clubs",
+          "name": "Neuf de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-09.webp"
         }
@@ -276,10 +276,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.N6jb4TfWyKzAfp8v"
     },
     {
-      "name": "Ten of Clubs",
+      "name": "Dix de Trèfle",
       "faces": [
         {
-          "name": "Ten of Clubs",
+          "name": "Dix de Trèfle",
           "text": "",
           "img": "cards/dark-gold/clubs-10.webp"
         }
@@ -306,10 +306,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.dhwGk684FrymyRik"
     },
     {
-      "name": "Jack of Clubs",
+      "name": "Valet de Trèfle",
       "faces": [
         {
-          "name": "Jack of Clubs",
+          "name": "Valet de Trèfle",
           "img": "cards/dark-gold/clubs-jack.webp",
           "text": ""
         }
@@ -337,10 +337,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.4HpBsDI99A3KThuL"
     },
     {
-      "name": "Queen of Clubs",
+      "name": "Dame de Trèfle",
       "faces": [
         {
-          "name": "Queen of Clubs",
+          "name": "Dame de Trèfle",
           "img": "cards/dark-gold/clubs-queen.webp",
           "text": ""
         }
@@ -368,10 +368,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.1osDgUy2FI0D1MfM"
     },
     {
-      "name": "King of Clubs",
+      "name": "Roi de Trèfle",
       "faces": [
         {
-          "name": "King of Clubs",
+          "name": "Roi de Trèfle",
           "img": "cards/dark-gold/clubs-king.webp",
           "text": ""
         }
@@ -399,10 +399,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.UBWfHinF4Eg4eqdt"
     },
     {
-      "name": "Ace of Spades",
+      "name": "As de Pique",
       "faces": [
         {
-          "name": "Ace of Spades",
+          "name": "As de Pique",
           "img": "cards/dark-gold/spades-ace.webp",
           "text": ""
         }
@@ -430,10 +430,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.bZjdN8DECnk0Lxd0"
     },
     {
-      "name": "Two of Spades",
+      "name": "Deux de Pique",
       "faces": [
         {
-          "name": "Two of Spades",
+          "name": "Deux de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-02.webp"
         }
@@ -460,10 +460,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.9a30dvlM6pfA16TA"
     },
     {
-      "name": "Three of Spades",
+      "name": "Trois de Pique",
       "faces": [
         {
-          "name": "Three of Spades",
+          "name": "Trois de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-03.webp"
         }
@@ -490,10 +490,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.nCJcxFMeZCjiWTZZ"
     },
     {
-      "name": "Four of Spades",
+      "name": "Quatre de Pique",
       "faces": [
         {
-          "name": "Four of Spades",
+          "name": "Quatre de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-04.webp"
         }
@@ -520,10 +520,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.HUR2uDLKMz6MWpHm"
     },
     {
-      "name": "Five of Spades",
+      "name": "Cinq de Pique",
       "faces": [
         {
-          "name": "Five of Spades",
+          "name": "Cinq de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-05.webp"
         }
@@ -550,10 +550,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.OkIAOES4BqKiU7wK"
     },
     {
-      "name": "Six of Spades",
+      "name": "Six de Pique",
       "faces": [
         {
-          "name": "Six of Spades",
+          "name": "Six de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-06.webp"
         }
@@ -580,10 +580,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.tEYAuNY8q2Wn6Jzw"
     },
     {
-      "name": "Seven of Spades",
+      "name": "Sept de Pique",
       "faces": [
         {
-          "name": "Seven of Spades",
+          "name": "Sept de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-07.webp"
         }
@@ -610,10 +610,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.46e60yKxuXs2Imwj"
     },
     {
-      "name": "Eight of Spades",
+      "name": "Huit de Pique",
       "faces": [
         {
-          "name": "Eight of Spades",
+          "name": "Huit de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-08.webp"
         }
@@ -640,10 +640,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.s4DDph4ly6mEnAY8"
     },
     {
-      "name": "Nine of Spades",
+      "name": "Neuf de Pique",
       "faces": [
         {
-          "name": "Nine of Spades",
+          "name": "Neuf de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-09.webp"
         }
@@ -670,10 +670,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.hebuxzLyv6CGcDYb"
     },
     {
-      "name": "Ten of Spades",
+      "name": "Dix de Pique",
       "faces": [
         {
-          "name": "Ten of Spades",
+          "name": "Dix de Pique",
           "text": "",
           "img": "cards/dark-gold/spades-10.webp"
         }
@@ -700,10 +700,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.VRS1I2UHlfm7oanN"
     },
     {
-      "name": "Jack of Spades",
+      "name": "Valet de Pique",
       "faces": [
         {
-          "name": "Jack of Spades",
+          "name": "Valet de Pique",
           "img": "cards/dark-gold/spades-jack.webp",
           "text": ""
         }
@@ -731,10 +731,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.OMN8O9RVAqBiIdI3"
     },
     {
-      "name": "Queen of Spades",
+      "name": "Dame de Pique",
       "faces": [
         {
-          "name": "Queen of Spades",
+          "name": "Dame de Pique",
           "img": "cards/dark-gold/spades-queen.webp",
           "text": ""
         }
@@ -762,10 +762,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.GYM4mnU7LCdPPUeO"
     },
     {
-      "name": "King of Spades",
+      "name": "Roi de Pique",
       "faces": [
         {
-          "name": "King of Spades",
+          "name": "Roi de Pique",
           "img": "cards/dark-gold/spades-king.webp",
           "text": ""
         }
@@ -793,10 +793,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.NzxHD7STh5JCDLiP"
     },
     {
-      "name": "Ace of Diamonds",
+      "name": "As de Carreau",
       "faces": [
         {
-          "name": "Ace of Diamonds",
+          "name": "As de Carreau",
           "img": "cards/dark-gold/diamonds-ace.webp",
           "text": ""
         }
@@ -824,10 +824,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.Bmn0ZFLSz80OSZci"
     },
     {
-      "name": "Two of Diamonds",
+      "name": "Deux de Carreau",
       "faces": [
         {
-          "name": "Two of Diamonds",
+          "name": "Deux de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-02.webp"
         }
@@ -854,10 +854,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.YzhsGfQnpEYZlOUW"
     },
     {
-      "name": "Three of Diamonds",
+      "name": "Trois de Carreau",
       "faces": [
         {
-          "name": "Three of Diamonds",
+          "name": "Trois de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-03.webp"
         }
@@ -884,10 +884,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.6dBy4KajltYIcoh2"
     },
     {
-      "name": "Four of Diamonds",
+      "name": "Quatre de Carreau",
       "faces": [
         {
-          "name": "Four of Diamonds",
+          "name": "Quatre de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-04.webp"
         }
@@ -914,10 +914,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.qpaHMdw9F3PjMpVn"
     },
     {
-      "name": "Five of Diamonds",
+      "name": "Cinq de Carreau",
       "faces": [
         {
-          "name": "Five of Diamonds",
+          "name": "Cinq de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-05.webp"
         }
@@ -944,10 +944,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.51CbCPW5t3IsKMTC"
     },
     {
-      "name": "Six of Diamonds",
+      "name": "Six de Carreau",
       "faces": [
         {
-          "name": "Six of Diamonds",
+          "name": "Six de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-06.webp"
         }
@@ -974,10 +974,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.IQGqK2qHmCy1jBUk"
     },
     {
-      "name": "Seven of Diamonds",
+      "name": "Sept de Carreau",
       "faces": [
         {
-          "name": "Seven of Diamonds",
+          "name": "Sept de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-07.webp"
         }
@@ -1004,10 +1004,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.oAdlaVhU90VwXqAm"
     },
     {
-      "name": "Eight of Diamonds",
+      "name": "Huit de Carreau",
       "faces": [
         {
-          "name": "Eight of Diamonds",
+          "name": "Huit de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-08.webp"
         }
@@ -1034,10 +1034,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.vYXj8NYmxjfPFZEd"
     },
     {
-      "name": "Nine of Diamonds",
+      "name": "Neuf de Carreau",
       "faces": [
         {
-          "name": "Nine of Diamonds",
+          "name": "Neuf de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-09.webp"
         }
@@ -1064,10 +1064,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.6Qc0SZNq8oHBFQwc"
     },
     {
-      "name": "Ten of Diamonds",
+      "name": "Dix de Carreau",
       "faces": [
         {
-          "name": "Ten of Diamonds",
+          "name": "Dix de Carreau",
           "text": "",
           "img": "cards/dark-gold/diamonds-10.webp"
         }
@@ -1094,10 +1094,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.8ZhyY2BdPGRe55uT"
     },
     {
-      "name": "Jack of Diamonds",
+      "name": "Valet de Carreau",
       "faces": [
         {
-          "name": "Jack of Diamonds",
+          "name": "Valet de Carreau",
           "img": "cards/dark-gold/diamonds-jack.webp",
           "text": ""
         }
@@ -1125,10 +1125,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.FN6f0qmw13fVChGg"
     },
     {
-      "name": "Queen of Diamonds",
+      "name": "Dame de Carreau",
       "faces": [
         {
-          "name": "Queen of Diamonds",
+          "name": "Dame de Carreau",
           "img": "cards/dark-gold/diamonds-queen.webp",
           "text": ""
         }
@@ -1156,10 +1156,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.fqoWj9YfJJB7BCkQ"
     },
     {
-      "name": "King of Diamonds",
+      "name": "Roi de Carreau",
       "faces": [
         {
-          "name": "King of Diamonds",
+          "name": "Roi de Carreau",
           "img": "cards/dark-gold/diamonds-king.webp",
           "text": ""
         }
@@ -1187,10 +1187,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.RdEmdtYqqMbsZbVJ"
     },
     {
-      "name": "Ace of Hearts",
+      "name": "As de Cœur",
       "faces": [
         {
-          "name": "Ace of Hearts",
+          "name": "As de Cœur",
           "img": "cards/dark-gold/hearts-ace.webp",
           "text": ""
         }
@@ -1218,10 +1218,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.kwzmvrE1fH5YkJ67"
     },
     {
-      "name": "Two of Hearts",
+      "name": "Deux de Cœur",
       "faces": [
         {
-          "name": "Two of Hearts",
+          "name": "Deux de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-02.webp"
         }
@@ -1248,10 +1248,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.OXtxMcTnQ6nmSJfm"
     },
     {
-      "name": "Three of Hearts",
+      "name": "Trois de Cœur",
       "faces": [
         {
-          "name": "Three of Hearts",
+          "name": "Trois de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-03.webp"
         }
@@ -1278,10 +1278,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.6QwaPUjRDn08IB12"
     },
     {
-      "name": "Four of Hearts",
+      "name": "Quatre de Cœur",
       "faces": [
         {
-          "name": "Four of Hearts",
+          "name": "Quatre de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-04.webp"
         }
@@ -1308,10 +1308,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.6Dty74RXhT2cdkUH"
     },
     {
-      "name": "Five of Hearts",
+      "name": "Cinq de Cœur",
       "faces": [
         {
-          "name": "Five of Hearts",
+          "name": "Cinq de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-05.webp"
         }
@@ -1338,10 +1338,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.GBRtJQX2kuJ091au"
     },
     {
-      "name": "Six of Hearts",
+      "name": "Six de Cœur",
       "faces": [
         {
-          "name": "Six of Hearts",
+          "name": "Six de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-06.webp"
         }
@@ -1368,10 +1368,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.02knFXqpZoR1sGqZ"
     },
     {
-      "name": "Seven of Hearts",
+      "name": "Sept de Cœur",
       "faces": [
         {
-          "name": "Seven of Hearts",
+          "name": "Sept de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-07.webp"
         }
@@ -1398,10 +1398,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.BUVpd4PKJP4yUrOV"
     },
     {
-      "name": "Eight of Hearts",
+      "name": "Huit de Cœur",
       "faces": [
         {
-          "name": "Eight of Hearts",
+          "name": "Huit de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-08.webp"
         }
@@ -1428,10 +1428,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.BLaSlLtbLybR5SUe"
     },
     {
-      "name": "Nine of Hearts",
+      "name": "Neuf de Cœur",
       "faces": [
         {
-          "name": "Nine of Hearts",
+          "name": "Neuf de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-09.webp"
         }
@@ -1458,10 +1458,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.KN3fVUWsUIvIghfa"
     },
     {
-      "name": "Ten of Hearts",
+      "name": "Dix de Cœur",
       "faces": [
         {
-          "name": "Ten of Hearts",
+          "name": "Dix de Cœur",
           "text": "",
           "img": "cards/dark-gold/hearts-10.webp"
         }
@@ -1488,10 +1488,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.vtLWSjPH5gR7Zh1h"
     },
     {
-      "name": "Jack of Hearts",
+      "name": "Valet de Cœur",
       "faces": [
         {
-          "name": "Jack of Hearts",
+          "name": "Valet de Cœur",
           "img": "cards/dark-gold/hearts-jack.webp",
           "text": ""
         }
@@ -1519,10 +1519,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.LmFiHYlcAddsOiBz"
     },
     {
-      "name": "Queen of Hearts",
+      "name": "Dame de Cœur",
       "faces": [
         {
-          "name": "Queen of Hearts",
+          "name": "Dame de Cœur",
           "img": "cards/dark-gold/hearts-queen.webp",
           "text": ""
         }
@@ -1550,10 +1550,10 @@
       "_key": "!cards.cards!6iHXq3POOsIUPQOB.RE2hRavItAVjqNhT"
     },
     {
-      "name": "King of Hearts",
+      "name": "Roi de Cœur",
       "faces": [
         {
-          "name": "King of Hearts",
+          "name": "Roi de Cœur",
           "img": "cards/dark-gold/hearts-king.webp",
           "text": ""
         }
@@ -1596,7 +1596,7 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
     "createdTime": 1694535994844,
     "modifiedTime": 1694536811546,

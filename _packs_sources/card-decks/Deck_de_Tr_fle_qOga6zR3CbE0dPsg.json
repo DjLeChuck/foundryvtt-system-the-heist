@@ -1,15 +1,15 @@
 {
-  "name": "Heart’s Deck",
+  "name": "Deck de Trèfle",
   "type": "deck",
-  "description": "Cards deck of Heart.",
+  "description": "Cartes du deck de Trèfle.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "Ace of Hearts",
+      "name": "As de Trèfle",
       "faces": [
         {
-          "name": "Ace of Hearts",
-          "img": "cards/dark-gold/hearts-ace.webp",
+          "name": "As de Trèfle",
+          "img": "cards/dark-gold/clubs-ace.webp",
           "text": ""
         }
       ],
@@ -18,12 +18,12 @@
       "rotation": 0,
       "type": "base",
       "value": 11,
-      "suit": "hearts",
-      "_id": "PpqIxib3t6mqgtGD",
+      "suit": "clubs",
+      "_id": "wXvlgmV7YwKDxSjH",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 26,
+      "sort": 0,
       "flags": {},
       "back": {
         "name": "",
@@ -33,15 +33,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.PpqIxib3t6mqgtGD"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.wXvlgmV7YwKDxSjH"
     },
     {
-      "name": "Two of Hearts",
+      "name": "Deux de Trèfle",
       "faces": [
         {
-          "name": "Two of Hearts",
+          "name": "Deux de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-02.webp"
+          "img": "cards/dark-gold/clubs-02.webp"
         }
       ],
       "width": 2,
@@ -49,12 +49,12 @@
       "rotation": 0,
       "type": "base",
       "value": 2,
-      "suit": "hearts",
-      "_id": "XRM7MdLoRGyvgwsc",
+      "suit": "clubs",
+      "_id": "r0G9Og8k5aHqR8Pg",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 27,
+      "sort": 1,
       "flags": {},
       "back": {
         "name": "",
@@ -63,15 +63,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XRM7MdLoRGyvgwsc"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.r0G9Og8k5aHqR8Pg"
     },
     {
-      "name": "Three of Hearts",
+      "name": "Trois de Trèfle",
       "faces": [
         {
-          "name": "Three of Hearts",
+          "name": "Trois de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-03.webp"
+          "img": "cards/dark-gold/clubs-03.webp"
         }
       ],
       "width": 2,
@@ -79,12 +79,12 @@
       "rotation": 0,
       "type": "base",
       "value": 3,
-      "suit": "hearts",
-      "_id": "6GSrHlpgnFo9fT7j",
+      "suit": "clubs",
+      "_id": "unqGlb57BrdvWGaR",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 28,
+      "sort": 2,
       "flags": {},
       "back": {
         "name": "",
@@ -93,15 +93,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.6GSrHlpgnFo9fT7j"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.unqGlb57BrdvWGaR"
     },
     {
-      "name": "Four of Hearts",
+      "name": "Quatre de Trèfle",
       "faces": [
         {
-          "name": "Four of Hearts",
+          "name": "Quatre de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-04.webp"
+          "img": "cards/dark-gold/clubs-04.webp"
         }
       ],
       "width": 2,
@@ -109,12 +109,12 @@
       "rotation": 0,
       "type": "base",
       "value": 4,
-      "suit": "hearts",
-      "_id": "16v9ggdoIzIKDqDL",
+      "suit": "clubs",
+      "_id": "ZzTCuGUxAi5qmwVd",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 29,
+      "sort": 3,
       "flags": {},
       "back": {
         "name": "",
@@ -123,15 +123,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.16v9ggdoIzIKDqDL"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.ZzTCuGUxAi5qmwVd"
     },
     {
-      "name": "Five of Hearts",
+      "name": "Cinq de Trèfle",
       "faces": [
         {
-          "name": "Five of Hearts",
+          "name": "Cinq de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-05.webp"
+          "img": "cards/dark-gold/clubs-05.webp"
         }
       ],
       "width": 2,
@@ -139,12 +139,12 @@
       "rotation": 0,
       "type": "base",
       "value": 5,
-      "suit": "hearts",
-      "_id": "hHphZIYnFESJKW3Y",
+      "suit": "clubs",
+      "_id": "SHeHIXRD5DLhBTWf",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 30,
+      "sort": 4,
       "flags": {},
       "back": {
         "name": "",
@@ -153,15 +153,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.hHphZIYnFESJKW3Y"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.SHeHIXRD5DLhBTWf"
     },
     {
-      "name": "Six of Hearts",
+      "name": "Six de Trèfle",
       "faces": [
         {
-          "name": "Six of Hearts",
+          "name": "Six de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-06.webp"
+          "img": "cards/dark-gold/clubs-06.webp"
         }
       ],
       "width": 2,
@@ -169,12 +169,12 @@
       "rotation": 0,
       "type": "base",
       "value": 6,
-      "suit": "hearts",
-      "_id": "xpCH3DivRVNGouvm",
+      "suit": "clubs",
+      "_id": "SPJOZgF9HN1EZ2TY",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 31,
+      "sort": 5,
       "flags": {},
       "back": {
         "name": "",
@@ -183,15 +183,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xpCH3DivRVNGouvm"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.SPJOZgF9HN1EZ2TY"
     },
     {
-      "name": "Seven of Hearts",
+      "name": "Sept de Trèfle",
       "faces": [
         {
-          "name": "Seven of Hearts",
+          "name": "Sept de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-07.webp"
+          "img": "cards/dark-gold/clubs-07.webp"
         }
       ],
       "width": 2,
@@ -199,12 +199,12 @@
       "rotation": 0,
       "type": "base",
       "value": 7,
-      "suit": "hearts",
-      "_id": "XxMqu8DH4jJ5DciP",
+      "suit": "clubs",
+      "_id": "Wwm5kqTuhOVeqR3E",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 32,
+      "sort": 6,
       "flags": {},
       "back": {
         "name": "",
@@ -213,15 +213,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XxMqu8DH4jJ5DciP"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.Wwm5kqTuhOVeqR3E"
     },
     {
-      "name": "Eight of Hearts",
+      "name": "Huit de Trèfle",
       "faces": [
         {
-          "name": "Eight of Hearts",
+          "name": "Huit de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-08.webp"
+          "img": "cards/dark-gold/clubs-08.webp"
         }
       ],
       "width": 2,
@@ -229,12 +229,12 @@
       "rotation": 0,
       "type": "base",
       "value": 8,
-      "suit": "hearts",
-      "_id": "1NcfAUG9wdqsU9SW",
+      "suit": "clubs",
+      "_id": "0LEcFSU7RPiBw1Cj",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 33,
+      "sort": 7,
       "flags": {},
       "back": {
         "name": "",
@@ -243,15 +243,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.1NcfAUG9wdqsU9SW"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.0LEcFSU7RPiBw1Cj"
     },
     {
-      "name": "Nine of Hearts",
+      "name": "Neuf de Trèfle",
       "faces": [
         {
-          "name": "Nine of Hearts",
+          "name": "Neuf de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-09.webp"
+          "img": "cards/dark-gold/clubs-09.webp"
         }
       ],
       "width": 2,
@@ -259,12 +259,12 @@
       "rotation": 0,
       "type": "base",
       "value": 9,
-      "suit": "hearts",
-      "_id": "0sI4Htn1NR11zTEK",
+      "suit": "clubs",
+      "_id": "jUvavOLjRT2dtAu5",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 34,
+      "sort": 8,
       "flags": {},
       "back": {
         "name": "",
@@ -273,15 +273,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.0sI4Htn1NR11zTEK"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.jUvavOLjRT2dtAu5"
     },
     {
-      "name": "Ten of Hearts",
+      "name": "Dix de Trèfle",
       "faces": [
         {
-          "name": "Ten of Hearts",
+          "name": "Dix de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/hearts-10.webp"
+          "img": "cards/dark-gold/clubs-10.webp"
         }
       ],
       "width": 2,
@@ -289,12 +289,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "5SNZYzAjHduVhZsA",
+      "suit": "clubs",
+      "_id": "8ku0qEM6LJK2jpBD",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 35,
+      "sort": 9,
       "flags": {},
       "back": {
         "name": "",
@@ -303,14 +303,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5SNZYzAjHduVhZsA"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.8ku0qEM6LJK2jpBD"
     },
     {
-      "name": "Jack of Hearts",
+      "name": "Valet de Trèfle",
       "faces": [
         {
-          "name": "Jack of Hearts",
-          "img": "cards/dark-gold/hearts-jack.webp",
+          "name": "Valet de Trèfle",
+          "img": "cards/dark-gold/clubs-jack.webp",
           "text": ""
         }
       ],
@@ -319,12 +319,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "5gqebD2qo82GlRpV",
+      "suit": "clubs",
+      "_id": "L3BdwK8Wjo8UNyzL",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 36,
+      "sort": 10,
       "flags": {},
       "back": {
         "name": "",
@@ -334,14 +334,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5gqebD2qo82GlRpV"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.L3BdwK8Wjo8UNyzL"
     },
     {
-      "name": "Queen of Hearts",
+      "name": "Dame de Trèfle",
       "faces": [
         {
-          "name": "Queen of Hearts",
-          "img": "cards/dark-gold/hearts-queen.webp",
+          "name": "Dame de Trèfle",
+          "img": "cards/dark-gold/clubs-queen.webp",
           "text": ""
         }
       ],
@@ -350,12 +350,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "xrxzIz2PAe3QU8RK",
+      "suit": "clubs",
+      "_id": "eF5KAukclMjuXhWq",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 37,
+      "sort": 11,
       "flags": {},
       "back": {
         "name": "",
@@ -365,14 +365,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xrxzIz2PAe3QU8RK"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.eF5KAukclMjuXhWq"
     },
     {
-      "name": "King of Hearts",
+      "name": "Roi de Trèfle",
       "faces": [
         {
-          "name": "King of Hearts",
-          "img": "cards/dark-gold/hearts-king.webp",
+          "name": "Roi de Trèfle",
+          "img": "cards/dark-gold/clubs-king.webp",
           "text": ""
         }
       ],
@@ -381,12 +381,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "X5uUlTlTmZ47fFBo",
+      "suit": "clubs",
+      "_id": "hux4CICxmt8DTsyN",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 38,
+      "sort": 12,
       "flags": {},
       "back": {
         "name": "",
@@ -396,7 +396,7 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.X5uUlTlTmZ47fFBo"
+      "_key": "!cards.cards!qOga6zR3CbE0dPsg.hux4CICxmt8DTsyN"
     }
   ],
   "width": 2,
@@ -405,7 +405,7 @@
   "displayCount": true,
   "flags": {},
   "system": {},
-  "_id": "CAJM3Kimh8V2KAgZ",
+  "_id": "qOga6zR3CbE0dPsg",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -414,11 +414,11 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1694536194798,
-    "modifiedTime": 1694536889225,
+    "createdTime": 1694536281006,
+    "modifiedTime": 1694536913974,
     "lastModifiedBy": "vVJVBCfWogk10kDN"
   },
-  "_key": "!cards!CAJM3Kimh8V2KAgZ"
+  "_key": "!cards!qOga6zR3CbE0dPsg"
 }

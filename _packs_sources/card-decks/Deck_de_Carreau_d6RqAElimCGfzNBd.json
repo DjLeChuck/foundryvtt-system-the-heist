@@ -1,15 +1,15 @@
 {
-  "name": "Spade’s Deck",
+  "name": "Deck de Carreau",
   "type": "deck",
-  "description": "Cards deck of Spade.",
+  "description": "Cartes du deck de Carreau.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "Ace of Spades",
+      "name": "As de Carreau",
       "faces": [
         {
-          "name": "Ace of Spades",
-          "img": "cards/dark-gold/spades-ace.webp",
+          "name": "As de Carreau",
+          "img": "cards/dark-gold/diamonds-ace.webp",
           "text": ""
         }
       ],
@@ -18,12 +18,12 @@
       "rotation": 0,
       "type": "base",
       "value": 11,
-      "suit": "spades",
-      "_id": "CWgif1hwr9zHSi1Z",
+      "suit": "diamonds",
+      "_id": "hR0x0AwWqE848wMe",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 39,
+      "sort": 13,
       "flags": {},
       "back": {
         "name": "",
@@ -33,15 +33,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.CWgif1hwr9zHSi1Z"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.hR0x0AwWqE848wMe"
     },
     {
-      "name": "Two of Spades",
+      "name": "Deux de Carreau",
       "faces": [
         {
-          "name": "Two of Spades",
+          "name": "Deux de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-02.webp"
+          "img": "cards/dark-gold/diamonds-02.webp"
         }
       ],
       "width": 2,
@@ -49,12 +49,12 @@
       "rotation": 0,
       "type": "base",
       "value": 2,
-      "suit": "spades",
-      "_id": "rkN2VIFOCoIFTljy",
+      "suit": "diamonds",
+      "_id": "NHt29JpITypcY2ix",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 40,
+      "sort": 14,
       "flags": {},
       "back": {
         "name": "",
@@ -63,15 +63,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.rkN2VIFOCoIFTljy"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.NHt29JpITypcY2ix"
     },
     {
-      "name": "Three of Spades",
+      "name": "Trois de Carreau",
       "faces": [
         {
-          "name": "Three of Spades",
+          "name": "Trois de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-03.webp"
+          "img": "cards/dark-gold/diamonds-03.webp"
         }
       ],
       "width": 2,
@@ -79,12 +79,12 @@
       "rotation": 0,
       "type": "base",
       "value": 3,
-      "suit": "spades",
-      "_id": "tjZBEJGNOGw5OarJ",
+      "suit": "diamonds",
+      "_id": "x1Umm37xuxJ5eAcj",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 41,
+      "sort": 15,
       "flags": {},
       "back": {
         "name": "",
@@ -93,15 +93,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.tjZBEJGNOGw5OarJ"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.x1Umm37xuxJ5eAcj"
     },
     {
-      "name": "Four of Spades",
+      "name": "Quatre de Carreau",
       "faces": [
         {
-          "name": "Four of Spades",
+          "name": "Quatre de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-04.webp"
+          "img": "cards/dark-gold/diamonds-04.webp"
         }
       ],
       "width": 2,
@@ -109,12 +109,12 @@
       "rotation": 0,
       "type": "base",
       "value": 4,
-      "suit": "spades",
-      "_id": "U88fDHv16N7NwKog",
+      "suit": "diamonds",
+      "_id": "JYktSwBB0gUHKa6S",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 42,
+      "sort": 16,
       "flags": {},
       "back": {
         "name": "",
@@ -123,15 +123,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.U88fDHv16N7NwKog"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.JYktSwBB0gUHKa6S"
     },
     {
-      "name": "Five of Spades",
+      "name": "Cinq de Carreau",
       "faces": [
         {
-          "name": "Five of Spades",
+          "name": "Cinq de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-05.webp"
+          "img": "cards/dark-gold/diamonds-05.webp"
         }
       ],
       "width": 2,
@@ -139,12 +139,12 @@
       "rotation": 0,
       "type": "base",
       "value": 5,
-      "suit": "spades",
-      "_id": "BWAoswy63BNmbfFR",
+      "suit": "diamonds",
+      "_id": "4YYBgMyTJmJz4wyJ",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 43,
+      "sort": 17,
       "flags": {},
       "back": {
         "name": "",
@@ -153,15 +153,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.BWAoswy63BNmbfFR"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.4YYBgMyTJmJz4wyJ"
     },
     {
-      "name": "Six of Spades",
+      "name": "Six de Carreau",
       "faces": [
         {
-          "name": "Six of Spades",
+          "name": "Six de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-06.webp"
+          "img": "cards/dark-gold/diamonds-06.webp"
         }
       ],
       "width": 2,
@@ -169,12 +169,12 @@
       "rotation": 0,
       "type": "base",
       "value": 6,
-      "suit": "spades",
-      "_id": "wGJNwFgIDRKHsuNs",
+      "suit": "diamonds",
+      "_id": "2KIKPjMFhZVQXdkB",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 44,
+      "sort": 18,
       "flags": {},
       "back": {
         "name": "",
@@ -183,15 +183,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.wGJNwFgIDRKHsuNs"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.2KIKPjMFhZVQXdkB"
     },
     {
-      "name": "Seven of Spades",
+      "name": "Sept de Carreau",
       "faces": [
         {
-          "name": "Seven of Spades",
+          "name": "Sept de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-07.webp"
+          "img": "cards/dark-gold/diamonds-07.webp"
         }
       ],
       "width": 2,
@@ -199,12 +199,12 @@
       "rotation": 0,
       "type": "base",
       "value": 7,
-      "suit": "spades",
-      "_id": "zOVzGhV7WCZ6g0DH",
+      "suit": "diamonds",
+      "_id": "XtWM5u2S94nTQwD1",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 45,
+      "sort": 19,
       "flags": {},
       "back": {
         "name": "",
@@ -213,15 +213,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.zOVzGhV7WCZ6g0DH"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.XtWM5u2S94nTQwD1"
     },
     {
-      "name": "Eight of Spades",
+      "name": "Huit de Carreau",
       "faces": [
         {
-          "name": "Eight of Spades",
+          "name": "Huit de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-08.webp"
+          "img": "cards/dark-gold/diamonds-08.webp"
         }
       ],
       "width": 2,
@@ -229,12 +229,12 @@
       "rotation": 0,
       "type": "base",
       "value": 8,
-      "suit": "spades",
-      "_id": "O39MQt4Die23LekG",
+      "suit": "diamonds",
+      "_id": "1wNVfbqZhPUT6Uqi",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 46,
+      "sort": 20,
       "flags": {},
       "back": {
         "name": "",
@@ -243,15 +243,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.O39MQt4Die23LekG"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.1wNVfbqZhPUT6Uqi"
     },
     {
-      "name": "Nine of Spades",
+      "name": "Neuf de Carreau",
       "faces": [
         {
-          "name": "Nine of Spades",
+          "name": "Neuf de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-09.webp"
+          "img": "cards/dark-gold/diamonds-09.webp"
         }
       ],
       "width": 2,
@@ -259,12 +259,12 @@
       "rotation": 0,
       "type": "base",
       "value": 9,
-      "suit": "spades",
-      "_id": "SHsshwOizq97j7Yv",
+      "suit": "diamonds",
+      "_id": "rZg26MpPZ4H4DrJd",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 47,
+      "sort": 21,
       "flags": {},
       "back": {
         "name": "",
@@ -273,15 +273,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.SHsshwOizq97j7Yv"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.rZg26MpPZ4H4DrJd"
     },
     {
-      "name": "Ten of Spades",
+      "name": "Dix de Carreau",
       "faces": [
         {
-          "name": "Ten of Spades",
+          "name": "Dix de Carreau",
           "text": "",
-          "img": "cards/dark-gold/spades-10.webp"
+          "img": "cards/dark-gold/diamonds-10.webp"
         }
       ],
       "width": 2,
@@ -289,12 +289,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "XnXbwpNpZzZua7Qe",
+      "suit": "diamonds",
+      "_id": "HB0VCdNk7AvZYmVW",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 48,
+      "sort": 22,
       "flags": {},
       "back": {
         "name": "",
@@ -303,14 +303,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.XnXbwpNpZzZua7Qe"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.HB0VCdNk7AvZYmVW"
     },
     {
-      "name": "Jack of Spades",
+      "name": "Valet de Carreau",
       "faces": [
         {
-          "name": "Jack of Spades",
-          "img": "cards/dark-gold/spades-jack.webp",
+          "name": "Valet de Carreau",
+          "img": "cards/dark-gold/diamonds-jack.webp",
           "text": ""
         }
       ],
@@ -319,12 +319,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "3bcTt41XPE6JYXjm",
+      "suit": "diamonds",
+      "_id": "qq2gcTwhpvresgwi",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 49,
+      "sort": 23,
       "flags": {},
       "back": {
         "name": "",
@@ -334,14 +334,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.3bcTt41XPE6JYXjm"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.qq2gcTwhpvresgwi"
     },
     {
-      "name": "Queen of Spades",
+      "name": "Dame de Carreau",
       "faces": [
         {
-          "name": "Queen of Spades",
-          "img": "cards/dark-gold/spades-queen.webp",
+          "name": "Dame de Carreau",
+          "img": "cards/dark-gold/diamonds-queen.webp",
           "text": ""
         }
       ],
@@ -350,12 +350,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "bNing2cbz9nbdqvl",
+      "suit": "diamonds",
+      "_id": "Z0CTeRFZEu1xKz01",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 50,
+      "sort": 24,
       "flags": {},
       "back": {
         "name": "",
@@ -365,14 +365,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.bNing2cbz9nbdqvl"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.Z0CTeRFZEu1xKz01"
     },
     {
-      "name": "King of Spades",
+      "name": "Roi de Carreau",
       "faces": [
         {
-          "name": "King of Spades",
-          "img": "cards/dark-gold/spades-king.webp",
+          "name": "Roi de Carreau",
+          "img": "cards/dark-gold/diamonds-king.webp",
           "text": ""
         }
       ],
@@ -381,12 +381,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "c9jqBcs9dWaqnqKf",
+      "suit": "diamonds",
+      "_id": "21K0tt6MzapgbzSL",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 51,
+      "sort": 25,
       "flags": {},
       "back": {
         "name": "",
@@ -396,7 +396,7 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.c9jqBcs9dWaqnqKf"
+      "_key": "!cards.cards!d6RqAElimCGfzNBd.21K0tt6MzapgbzSL"
     }
   ],
   "width": 2,
@@ -405,7 +405,7 @@
   "displayCount": true,
   "flags": {},
   "system": {},
-  "_id": "XtNOuXuY7FqONrkd",
+  "_id": "d6RqAElimCGfzNBd",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -414,11 +414,11 @@
   },
   "_stats": {
     "systemId": "heist",
-    "systemVersion": "0.0.1-dev",
+    "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1694536079932,
-    "modifiedTime": 1694536884422,
+    "createdTime": 1694536308275,
+    "modifiedTime": 1694536901206,
     "lastModifiedBy": "vVJVBCfWogk10kDN"
   },
-  "_key": "!cards!XtNOuXuY7FqONrkd"
+  "_key": "!cards!d6RqAElimCGfzNBd"
 }
