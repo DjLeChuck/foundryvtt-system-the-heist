@@ -1,0 +1,26 @@
+{
+  "name": "Hacking",
+  "type": "skill",
+  "_id": "eGeDbV6vjWQpcvUk",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.308",
+    "createdTime": 1695562576444,
+    "modifiedTime": 1695562576444,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!eGeDbV6vjWQpcvUk"
+}

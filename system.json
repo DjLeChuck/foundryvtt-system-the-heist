@@ -60,6 +60,12 @@
       "label": "Agent types",
       "type": "Item",
       "system": "heist"
+    },
+    {
+      "name": "skills",
+      "label": "Skills",
+      "type": "Item",
+      "system": "heist"
     }
   ],
   "socket": true,

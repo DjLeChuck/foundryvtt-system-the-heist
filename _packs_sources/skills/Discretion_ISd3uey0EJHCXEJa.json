@@ -1,0 +1,26 @@
+{
+  "name": "Discretion",
+  "type": "skill",
+  "_id": "ISd3uey0EJHCXEJa",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.308",
+    "createdTime": 1695562559152,
+    "modifiedTime": 1695562559152,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!ISd3uey0EJHCXEJa"
+}
