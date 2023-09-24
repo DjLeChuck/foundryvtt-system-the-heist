@@ -31,25 +31,22 @@ export class AgentActor extends BasePlayerActor {
   }
 
   async recallFromPile(number) {
-    const recalled = [];
+    const toRecall = Math.min(2, this.pile.availableCards.length);
 
-    for (let i = 0; i < number; i++) {
-      const id = this.pile.cards.contents[i]?.id;
-
-      if (id) {
-        recalled.push(id);
-      }
-    }
-
-    if (!recalled.length) {
+    if (0 === toRecall) {
       return 0;
     }
 
-    await this.pile.pass(this.deck, recalled, { chatNotification: false });
+    // Draw 2 (or 1) random cards from the pile to the deck
+    await this.deck.draw(this.pile, toRecall, {
+      how: CONST.CARD_DRAW_MODES.RANDOM,
+      chatNotification: false,
+    });
 
+    // Shuffle the deck
     await this.deck.shuffle({ chatNotification: false });
 
-    return recalled.length;
+    return toRecall;
   }
 
   _baseDeckId() {
