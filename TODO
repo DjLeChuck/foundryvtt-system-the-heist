@@ -1,0 +1,40 @@
+Fiche agent
+
+Image
+Nom
+Description
+Type d’agent
+1 objet fétiche
+2 compétences
+Nombre de cartes restantes
+
+---
+
+Spécificité des phases
+------------------------
+Reconnaissance
+	* À chaque fois qu’une action est un peu suspecte, même un peu, le MJ pioche 1 à 5 cartes (les agents ne savent pas combien)
+	* À partir du moment où au moins 10 cartes sont piochées, s’il y en a au moins 5 de la même couleur, vous êtes grillés, la phase s’arrête
+	* Vous pouvez décider d’arrêter avant, quand vous le souhaitez
+
+Plan
+	* Achat de matériel grâce à 10 crédits
+	* Permet d’acheter ce que l’on veut, contre un certains coût en crédits
+		- Exemple d’illustration
+		- 1 cure-dent c’est gratuit
+		- 1 carton de cure-dent c’est 1 crédit
+		- 1 camion de cure-dents à décharger dans la rue c’est 2/3 crédits
+	* À la fin de la phase il faut que les agents sachent
+		- Quand ils interviennent
+		- Avoir une idée claire de ce qui va être fait, au moins au début
+		- Prévoir, si possible, un plan de sortie en cas de problème
+
+Action
+	* 2 jokers communs à tous les agents
+		- Permet de faire « Mais en fait, c’était prévu depuis le début... »
+		- Permet d’éviter complètement un test, voir + (mais ne doit pas contredire l’univers du jeu)
+	* 2 jokers pour le MJ
+		* divise le paquet en 3
+		* glisse 1 joker dans les parties 2 et 3
+		* si un joker est pioché, ça sera la carte montrée et on double la carte de la difficulté
+		* en plus de cela, cela déclenche un événement scripté (pas forcéemnt tout de suite, on garde donc juste trace)
