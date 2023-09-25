@@ -17,26 +17,35 @@
 
     <div class="grid grid-2col">
       {{#each agents}}
-        <div>
-          <p>{{localize "HEIST.Global.AgentName" name=this.name}}</p>
-          <p>{{localize "HEIST.Cards.Remaining" count=(length this.deck.availableCards)}}</p>
-
-          {{#if ../canTest}}
-            {{#if (length this.deck.availableCards)}}
-              <div class="grid grid-2col">
-                <div>
-                  <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{this.id}}">
-                    {{localize "HEIST.GamemasterSheet.EasyTest"}}
-                  </button>
-                </div>
-                <div>
-                  <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{this.id}}">
-                    {{localize "HEIST.GamemasterSheet.DifficultTest"}}
-                  </button>
-                </div>
+        <div class="agent-card-wrapper">
+          <div class="agent-card">
+            <div class="flexrow flex-group-left">
+              <p class="ml-8">{{localize "HEIST.Global.AgentName" name=this.name}}</p>
+              <div class="flexshrink">
+                <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-agent data-id="{{this.id}}">
+                  <i class="fa fa-trash"></i>
+                </button>
               </div>
+            </div>
+            <p>{{localize "HEIST.Cards.Remaining" count=(length this.deck.availableCards)}}</p>
+
+            {{#if ../canTest}}
+              {{#if (length this.deck.availableCards)}}
+                <div class="grid grid-2col">
+                  <div>
+                    <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{this.id}}">
+                      {{localize "HEIST.GamemasterSheet.EasyTest"}}
+                    </button>
+                  </div>
+                  <div>
+                    <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{this.id}}">
+                      {{localize "HEIST.GamemasterSheet.DifficultTest"}}
+                    </button>
+                  </div>
+                </div>
+              {{/if}}
             {{/if}}
-          {{/if}}
+          </div>
         </div>
       {{/each}}
     </div>

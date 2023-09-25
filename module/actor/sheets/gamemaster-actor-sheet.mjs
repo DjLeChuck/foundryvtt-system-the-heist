@@ -27,6 +27,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
     }
 
     html.find('[data-ask-agent-test]').click(this._onAskAgentTest.bind(this));
+    html.find('[data-remove-agent]').click(this._onRemoveAgent.bind(this));
   }
 
   /** @override */
@@ -62,5 +63,34 @@ export class GamemasterActorSheet extends BaseActorSheet {
     const dataset = e.currentTarget.dataset;
 
     await this.actor.doAgentTest(dataset?.difficulty, dataset?.agentId);
+  }
+
+  async _onRemoveAgent(e) {
+    e.preventDefault();
+
+    const agentId = e.currentTarget.dataset.id;
+    if (!agentId) {
+      return;
+    }
+
+    const agent = game.actors.get(agentId);
+    if (!agent) {
+      return;
+    }
+
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.GamemasterSheet.RemoveAgent.Title', { agent: agent.name }),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
+<p>${game.i18n.format('HEIST.GamemasterSheet.RemoveAgent.Message', { agent: agent.name })}</p>`,
+      yes: this.#removeAgent.bind(this, agent),
+    });
+  }
+
+  async #removeAgent(agent) {
+    const agents = new Set(this.actor.system.agents ?? []);
+
+    agents.delete(agent.id);
+
+    await this.actor.update({ 'system.agents': Array.from(agents.values()) });
   }
 }
