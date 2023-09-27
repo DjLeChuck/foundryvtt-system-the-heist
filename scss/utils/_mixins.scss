@@ -1,16 +1,17 @@
-@mixin element-invisible {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+@mixin goldy-gradient-bg {
+  background-color: $c-shadow;
+  background-image: linear-gradient(90deg, $c-shadow, $c-buff, $c-shadow);
 }
 
-@mixin hide {
-  display: none;
+@mixin goldy-gradient-text {
+  @include goldy-gradient-bg;
+
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  max-width: max-content;
+
+  border-bottom: none;
 }

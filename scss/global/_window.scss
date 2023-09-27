@@ -1,5 +1,14 @@
 .window-app {
   font-family: $font-primary;
+
+  .main-title {
+    @include goldy-gradient-text;
+    font-family: $masqualero-groove;
+  }
+
+  .sub-title {
+    @include goldy-gradient-text;
+  }
 }
 
 .rollable {
