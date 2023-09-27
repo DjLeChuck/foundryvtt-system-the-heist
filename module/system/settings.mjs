@@ -31,25 +31,11 @@ export function registerSettings() {
     default: {},
   });
 
-  game.settings.register(HEIST.SYSTEM_ID, 'currentPhase', {
+  game.settings.register(HEIST.SYSTEM_ID, 'gamePhase', {
     scope: 'world',
     config: false,
-    default: 0,
-    type: Number,
-  });
-
-  game.settings.register(HEIST.SYSTEM_ID, 'currentPhasePaused', {
-    scope: 'world',
-    config: false,
-    default: true,
-    type: Boolean,
-  });
-
-  game.settings.register(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft', {
-    scope: 'world',
-    config: false,
-    default: 0,
-    type: Number,
+    type: app.models.GamePhaseDataModel,
+    default: {},
   });
 
   game.settings.register(HEIST.SYSTEM_ID, 'displayGamePhaseWindowOnLogin', {

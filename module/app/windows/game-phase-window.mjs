@@ -1,6 +1,7 @@
 import * as HEIST from '../../const.mjs';
+import { WithSettingsWindow } from './with-settings-window.mjs';
 
-export class GamePhaseWindow extends Application {
+export class GamePhaseWindow extends WithSettingsWindow {
   constructor(options = {}) {
     super(options);
 
@@ -23,11 +24,12 @@ export class GamePhaseWindow extends Application {
       title: game.i18n.localize('HEIST.GamePhaseWindow.Title'),
       width: GamePhaseWindow.#width(),
       height: GamePhaseWindow.#height(),
+      settingsName: 'gamePhase',
     });
   }
 
   get currentPhase() {
-    return game.settings.get(HEIST.SYSTEM_ID, 'currentPhase');
+    return this._getSetting('current');
   }
 
   /** @override */
@@ -40,13 +42,13 @@ export class GamePhaseWindow extends Application {
   }
 
   getData() {
-    const timeLeft = game.settings.get(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft');
+    const timeLeft = this._getSetting('timeLeft');
 
     return {
       timeLeft,
       isGM: game.user.isGM,
       phases: this.phases,
-      currentPhase: this.phases[this.currentPhase],
+      currentPhase: this.#getCurrentPhase(),
       paused: this.#getPausedStatus(),
       active: 0 < timeLeft,
       canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
@@ -79,7 +81,7 @@ export class GamePhaseWindow extends Application {
 
     this.paused = paused;
 
-    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhasePaused', this.paused);
+    await this._setSettings({ paused });
 
     this.#updateTimeLeftInterval();
   }
@@ -91,7 +93,7 @@ export class GamePhaseWindow extends Application {
 
     this.paused = !this.paused;
 
-    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhasePaused', this.paused);
+    await this._setSettings({ paused: this.paused });
 
     this.#updateTimeLeftInterval();
 
@@ -154,10 +156,10 @@ export class GamePhaseWindow extends Application {
 
     this.#stopTimeLeftInterval();
 
-    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhase', phase);
+    await this._setSettings({ current: phase });
 
     this.#setTimeLeft();
-    await game.settings.set(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft', this.timeLeft);
+    await this._setSettings({ timeLeft: this.timeLeft });
 
     if (!this.paused) {
       this.#startTimeLeftInterval();
@@ -167,7 +169,13 @@ export class GamePhaseWindow extends Application {
   }
 
   #setTimeLeft() {
-    this.timeLeft = this.phases[this.currentPhase].duration * 60;
+    const currentPhase = this.#getCurrentPhase();
+
+    if (currentPhase) {
+      this.timeLeft = this.phases[this.currentPhase].duration * 60;
+    } else {
+      this.timeLeft = 0;
+    }
   }
 
   #startTimeLeftInterval() {
@@ -175,7 +183,7 @@ export class GamePhaseWindow extends Application {
       this.timeLeft -= 1;
 
       if (game.user.isGM) {
-        await game.settings.set(HEIST.SYSTEM_ID, 'currentPhaseTimeLeft', this.timeLeft);
+        await this._setSettings({ timeLeft: this.timeLeft });
       }
 
       if (this.timeLeft < 0) {
@@ -207,7 +215,11 @@ export class GamePhaseWindow extends Application {
       return game.paused;
     }
 
-    return game.settings.get(HEIST.SYSTEM_ID, 'currentPhasePaused');
+    return this._getSetting('paused', false);
+  }
+
+  #getCurrentPhase() {
+    return this.phases[this.currentPhase] ?? null;
   }
 
   #render() {

@@ -1,7 +1,8 @@
 import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
+import { WithSettingsWindow } from './with-settings-window.mjs';
 
-export class CardWindow extends Application {
+export class CardWindow extends WithSettingsWindow {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -9,6 +10,7 @@ export class CardWindow extends Application {
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/card-window.html.hbs`,
       width: 750,
       height: 800,
+      settingsName: 'currentTest',
     });
   }
 
@@ -16,7 +18,7 @@ export class CardWindow extends Application {
    * @returns {GamemasterActor|null}
    */
   get gm() {
-    const gmID = game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.gm;
+    const gmID = this._getSetting('gm');
     if (!gmID) {
       return null;
     }
@@ -33,7 +35,7 @@ export class CardWindow extends Application {
    * @returns {AgentActor|null}
    */
   get agent() {
-    const agentId = game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.agent;
+    const agentId = this._getSetting('agent');
     if (!agentId) {
       return null;
     }
@@ -50,29 +52,30 @@ export class CardWindow extends Application {
    * @returns {boolean}
    */
   get isRevealed() {
-    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isRevealed ?? false;
+    return this._getSetting('isRevealed', false);
   }
 
   /**
    * @returns {boolean}
    */
   get isFinished() {
-    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isFinished ?? false;
+    return this._getSetting('isFinished', false);
   }
 
   /**
    * @returns {boolean}
    */
   get isSuccessful() {
-    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest')?.isSuccessful ?? false;
+    return this._getSetting('isSuccessful', false);
   }
 
   async prepareTest(gm, agent) {
-    await this.#setTestSettings({
+    await this._setSettings({
       gm,
       agent,
       isRevealed: false,
       isFinished: false,
+      isSuccessful: false,
     });
 
     await this.#clearHands();
@@ -148,7 +151,7 @@ export class CardWindow extends Application {
   async _onFinishTest(e) {
     e.preventDefault();
 
-    await this.#setTestSettings({
+    await this._setSettings({
       isSuccessful: CARDS.scoreForGM(this.agent.hand.cards) >= CARDS.scoreForGM(this.gm.hand.cards),
       isFinished: true,
     });
@@ -161,7 +164,7 @@ export class CardWindow extends Application {
 
     await this.agent.useFetish();
 
-    await this.#setTestSettings({
+    await this._setSettings({
       isSuccessful: true,
       isFinished: true,
     });
@@ -178,7 +181,7 @@ export class CardWindow extends Application {
 
     await this.gm.revealTest();
 
-    await this.#setTestSettings({ isRevealed: true });
+    await this._setSettings({ isRevealed: true });
 
     this.#refreshViews();
   }
@@ -222,17 +225,6 @@ export class CardWindow extends Application {
     });
 
     this.#refreshViews();
-  }
-
-  #currentTestSettings() {
-    return game.settings.get(HEIST.SYSTEM_ID, 'currentTest').toJSON();
-  }
-
-  async #setTestSettings(settings) {
-    await game.settings.set(HEIST.SYSTEM_ID, 'currentTest', foundry.utils.mergeObject(
-      this.#currentTestSettings(),
-      settings,
-    ));
   }
 
   async #clearHands() {

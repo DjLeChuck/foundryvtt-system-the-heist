@@ -10,6 +10,10 @@ Nombre de cartes restantes
 
 ---
 
+* Le compteur se ré-initialise lorsqu’on recharge la page et que l’on retire la pause du jeu
+
+---
+
 Spécificité des phases
 ------------------------
 Reconnaissance
