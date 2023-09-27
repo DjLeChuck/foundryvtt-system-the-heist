@@ -12,42 +12,17 @@
     </div>
   </header>
 
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="agents">{{localize "HEIST.GamemasterSheet.TheHeistAgents"}}</a>
+    <a class="item" data-tab="reconnaissance">{{localize "HEIST.GamePhases.Phase3.Title"}}</a>
+  </nav>
+
   <section class="sheet-body">
-    <p class="align-center">{{localize "HEIST.Cards.Remaining" count=(length actor.deck.availableCards)}}</p>
-
-    <div class="grid grid-2col">
-      {{#each agents}}
-        <div class="agent-card-wrapper">
-          <div class="agent-card">
-            <div class="flexrow flex-group-left">
-              <p class="ml-8">{{localize "HEIST.Global.AgentName" name=this.name}}</p>
-              <div class="flexshrink">
-                <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-agent data-id="{{this.id}}">
-                  <i class="fa fa-trash"></i>
-                </button>
-              </div>
-            </div>
-            <p>{{localize "HEIST.Cards.Remaining" count=(length this.deck.availableCards)}}</p>
-
-            {{#if ../canTest}}
-              {{#if (length this.deck.availableCards)}}
-                <div class="grid grid-2col">
-                  <div>
-                    <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{this.id}}">
-                      {{localize "HEIST.GamemasterSheet.EasyTest"}}
-                    </button>
-                  </div>
-                  <div>
-                    <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{this.id}}">
-                      {{localize "HEIST.GamemasterSheet.DifficultTest"}}
-                    </button>
-                  </div>
-                </div>
-              {{/if}}
-            {{/if}}
-          </div>
-        </div>
-      {{/each}}
+    <div class="tab" data-group="primary" data-tab="agents">
+      {{> "systems/heist/templates/actor/_partials/_gamemaster-agents.html.hbs"}}
+    </div>
+    <div class="tab" data-group="primary" data-tab="reconnaissance">
+      {{> "systems/heist/templates/actor/_partials/_gamemaster-reconnaissance.html.hbs"}}
     </div>
   </section>
 </form>

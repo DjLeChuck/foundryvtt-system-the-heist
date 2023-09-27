@@ -63,6 +63,7 @@
   "HEIST.GamePhases.Phase5.Title": "Action",
   "HEIST.GamemasterSheet.EasyTest": "Test facile",
   "HEIST.GamemasterSheet.DifficultTest": "Test difficile",
+  "HEIST.GamemasterSheet.TheHeistAgents": "Agents de The Heist",
   "HEIST.GamemasterSheet.RemoveAgent.Title":  "Retrait de l’agent {agent}",
   "HEIST.GamemasterSheet.RemoveAgent.Message": "Vous allez retirer l’agent {agent} du groupe.",
   "HEIST.Agent.FetishObject": "Objet fétiche : {name}",

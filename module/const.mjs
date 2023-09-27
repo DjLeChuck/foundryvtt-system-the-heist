@@ -3,12 +3,42 @@ export const SYSTEM_ID = 'heist';
 export const COMPENDIUM_DECK_ID = `${SYSTEM_ID}.card-decks`;
 export const GM_DECK_ID = '6iHXq3POOsIUPQOB';
 
+export const GAME_PHASE_CREATION = 'creation';
+export const GAME_PHASE_BRIEFING = 'briefing';
+export const GAME_PHASE_RECONNAISSANCE = 'reconnaissance';
+export const GAME_PHASE_PLANNING = 'planning';
+export const GAME_PHASE_ACTION = 'action';
 export const GAME_PHASES = [
-  { number: 1, name: 'HEIST.GamePhases.Phase1.Title', duration: 10 },
-  { number: 2, name: 'HEIST.GamePhases.Phase2.Title', duration: 10 },
-  { number: 3, name: 'HEIST.GamePhases.Phase3.Title', duration: 60 },
-  { number: 4, name: 'HEIST.GamePhases.Phase4.Title', duration: 30 },
-  { number: 5, name: 'HEIST.GamePhases.Phase5.Title', duration: 90 },
+  {
+    id: GAME_PHASE_CREATION,
+    number: 1,
+    name: 'HEIST.GamePhases.Phase1.Title',
+    defaultDuration: 10,
+  },
+  {
+    id: GAME_PHASE_BRIEFING,
+    number: 2,
+    name: 'HEIST.GamePhases.Phase2.Title',
+    defaultDuration: 10,
+  },
+  {
+    id: GAME_PHASE_RECONNAISSANCE,
+    number: 3,
+    name: 'HEIST.GamePhases.Phase3.Title',
+    defaultDuration: 60,
+  },
+  {
+    id: GAME_PHASE_PLANNING,
+    number: 4,
+    name: 'HEIST.GamePhases.Phase4.Title',
+    defaultDuration: 30,
+  },
+  {
+    id: GAME_PHASE_ACTION,
+    number: 5,
+    name: 'HEIST.GamePhases.Phase5.Title',
+    defaultDuration: 90,
+  },
 ];
 
 export const SOCKET_REQUESTS = {

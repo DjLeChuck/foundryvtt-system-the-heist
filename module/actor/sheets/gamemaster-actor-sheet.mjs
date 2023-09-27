@@ -1,12 +1,23 @@
 import { BaseActorSheet } from './base-actor-sheet.mjs';
 import { AgentActor } from '../documents/_module.mjs';
+import * as HEIST from '../../const.mjs';
 
 export class GamemasterActorSheet extends BaseActorSheet {
+  constructor(object, options = {}) {
+    super(object, options);
+
+    this.changeGamePhaseHook = Hooks.on(
+      `${HEIST.SYSTEM_ID}.changeGamePhase`,
+      (phase) => this.#onChangeGamePhase(phase),
+    );
+  }
+
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       width: 910,
       height: 450,
+      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agents' }],
     });
   }
 
@@ -36,8 +47,20 @@ export class GamemasterActorSheet extends BaseActorSheet {
     context.agents = this.actor.agents;
 
     context.canTest = this.actor.deck?.availableCards.length >= 3;
+    context.reconnaissanceActive = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id;
+
+    context.hand = this.actor?.hand;
 
     return context;
+  }
+
+  /** @override */
+  async close(options) {
+    if (this.changeGamePhaseHook) {
+      Hooks.off(`${HEIST.SYSTEM_ID}.changeGamePhase`, this.changeGamePhaseHook);
+    }
+
+    return super.close(options);
   }
 
   async _onDropActor(event, data) {
@@ -92,5 +115,13 @@ export class GamemasterActorSheet extends BaseActorSheet {
     agents.delete(agent.id);
 
     await this.actor.update({ 'system.agents': Array.from(agents.values()) });
+  }
+
+  async #onChangeGamePhase(phase) {
+    if (HEIST.GAME_PHASE_RECONNAISSANCE === phase.id) {
+      await this.actor.recallDeck();
+    }
+
+    this.render(false);
   }
 }

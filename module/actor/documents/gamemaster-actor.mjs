@@ -72,6 +72,10 @@ export class GamemasterActor extends BasePlayerActor {
     }
   }
 
+  async recallDeck() {
+    await this.deck?.recall({ chatNotification: false });
+  }
+
   /** @override */
   async _preCreate(data, options, userId) {
     await super._preCreate(data, options, userId);

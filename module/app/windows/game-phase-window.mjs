@@ -28,10 +28,6 @@ export class GamePhaseWindow extends WithSettingsWindow {
     });
   }
 
-  get currentPhase() {
-    return this._getSetting('current');
-  }
-
   /** @override */
   get template() {
     if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
@@ -39,6 +35,14 @@ export class GamePhaseWindow extends WithSettingsWindow {
     }
 
     return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`;
+  }
+
+  get #currentPhaseIndex() {
+    return this._getSetting('current');
+  }
+
+  get currentPhase() {
+    return this.#getCurrentPhase();
   }
 
   getData() {
@@ -52,7 +56,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
       paused: this.#getPausedStatus(),
       active: 0 < timeLeft,
       canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
-      hasNextPhase: undefined !== this.phases[this.currentPhase + 1],
+      hasNextPhase: undefined !== this.phases[this.#currentPhaseIndex + 1],
     };
   }
 
@@ -127,8 +131,8 @@ export class GamePhaseWindow extends WithSettingsWindow {
 
     for (const phase of HEIST.GAME_PHASES) {
       phases[phase.number] = {
-        name: phase.name,
-        duration: game.settings.get(HEIST.SYSTEM_ID, `phase${phase.number}Duration`),
+        ...phase,
+        duration: game.settings.get(HEIST.SYSTEM_ID, `phase${phase.number}Duration`) ?? phase.defaultDuration,
       };
     }
 
@@ -138,7 +142,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
   async #onNextPhase(e) {
     e.preventDefault();
 
-    await this.#changePhase(this.currentPhase + 1);
+    await this.#changePhase(this.#currentPhaseIndex + 1);
   }
 
   async #onReset(e) {
@@ -165,6 +169,8 @@ export class GamePhaseWindow extends WithSettingsWindow {
       this.#startTimeLeftInterval();
     }
 
+    Hooks.callAll(`${HEIST.SYSTEM_ID}.changeGamePhase`, this.currentPhase);
+
     this.#render();
   }
 
@@ -172,7 +178,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
     const currentPhase = this.#getCurrentPhase();
 
     if (currentPhase) {
-      this.timeLeft = this.phases[this.currentPhase].duration * 60;
+      this.timeLeft = this.phases[this.#currentPhaseIndex].duration * 60;
     } else {
       this.timeLeft = 0;
     }
@@ -219,7 +225,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
   }
 
   #getCurrentPhase() {
-    return this.phases[this.currentPhase] ?? null;
+    return this.phases[this.#currentPhaseIndex] ?? null;
   }
 
   #render() {
