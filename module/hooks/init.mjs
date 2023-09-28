@@ -38,7 +38,7 @@ export const Init = {
       // accessible in global contexts.
       game[HEIST.SYSTEM_ID] = {
         rollItemMacro,
-        cardWindow: new app.windows.CardWindow(),
+        agentTestWindow: new app.windows.AgentTestWindow(),
         gamePhaseWindow: new app.windows.GamePhaseWindow(),
       };
     });

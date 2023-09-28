@@ -29,7 +29,7 @@ export class GamemasterActor extends BasePlayerActor {
       throw new Error('Missing agent ID for agent test.');
     }
 
-    await game[HEIST.SYSTEM_ID].cardWindow.prepareTest(this.id, agentId);
+    await game[HEIST.SYSTEM_ID].agentTestWindow.prepareTest(this.id, agentId);
 
     // Draw 3 cards
     await this.drawCards(3);
@@ -63,7 +63,7 @@ export class GamemasterActor extends BasePlayerActor {
     // Remove the unwanted card
     await this.hand.pass(this.pile, [removedCard], { chatNotification: false });
 
-    game[HEIST.SYSTEM_ID].cardWindow.render(true);
+    game[HEIST.SYSTEM_ID].agentTestWindow.render(true);
   }
 
   async revealTest() {

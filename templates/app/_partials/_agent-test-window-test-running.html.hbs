@@ -1,4 +1,4 @@
-<h2>{{localize "HEIST.CardWindow.TitleWithTest" name=agent.name}}</h2>
+<h2>{{localize "HEIST.AgentTestWindow.TitleWithTest" name=agent.name}}</h2>
 
 <div class="grid grid-2col align-center cards-container">
   {{#each gm.cards}}
@@ -8,19 +8,19 @@
   {{/each}}
 </div>
 
-<p>{{localize "HEIST.CardWindow.CurrentScore" value=gm.score}}</p>
+<p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=gm.score}}</p>
 
 {{#if isAdmin}}
-  <p>{{localize "HEIST.CardWindow.TotalScore" value=gm.totalScore}}</p>
+  <p>{{localize "HEIST.AgentTestWindow.TotalScore" value=gm.totalScore}}</p>
 
   {{#unless test.isRevealed}}
     <p>
-      <button type="button" data-reveal>{{localize "HEIST.CardWindow.Reveal"}}</button>
+      <button type="button" data-reveal>{{localize "HEIST.AgentTestWindow.Reveal"}}</button>
     </p>
   {{/unless}}
 {{/if}}
 
-<h2>{{localize "HEIST.CardWindow.AgentHand"}}</h2>
+<h2>{{localize "HEIST.AgentTestWindow.AgentHand"}}</h2>
 
 <div class="grid grid-4col align-center cards-container">
   {{#each agent.cards}}
@@ -30,20 +30,20 @@
   {{/each}}
 </div>
 
-<p>{{localize "HEIST.CardWindow.CurrentScore" value=agent.score}}</p>
+<p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=agent.score}}</p>
 
 {{#if agent.isOwner}}
   {{#unless test.isFinished}}
     <p class="grid grid-2col">
-      <button type="button" data-draw{{#unless agent.canDraw}} disabled title="{{localize "HEIST.CardWindow.NoCardLeft"}}"{{/unless}}>
-        {{localize "HEIST.CardWindow.Draw"}}
+      <button type="button" data-draw{{#unless agent.canDraw}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}>
+        {{localize "HEIST.AgentTestWindow.Draw"}}
       </button>
-      <button type="button" data-finish>{{localize "HEIST.CardWindow.Finish"}}</button>
+      <button type="button" data-finish>{{localize "HEIST.AgentTestWindow.Finish"}}</button>
     </p>
     {{#if agent.canUseFetish}}
       <p class="grid grid-2col">
         <button type="button" class="grid-span-2" data-fetish>
-          {{localize "HEIST.CardWindow.UseFetish"}}
+          {{localize "HEIST.AgentTestWindow.UseFetish"}}
         </button>
       </p>
     {{/if}}
@@ -51,11 +51,11 @@
 {{/if}}
 
 {{#if test.isFinished}}
-  <h2>{{localize "HEIST.CardWindow.Result.Title"}}</h2>
+  <h2>{{localize "HEIST.AgentTestWindow.Result.Title"}}</h2>
 
   {{#if test.isRevealed}}
     {{#if test.isSuccessful}}
-      <p>{{localize "HEIST.CardWindow.Result.Success"}}</p>
+      <p>{{localize "HEIST.AgentTestWindow.Result.Success"}}</p>
 
       {{#if test.isBlackjack}}
         <p><strong>{{localize "HEIST.Blackjack.Label"}}</strong></p>
@@ -67,7 +67,7 @@
       {{/if}}
     {{/if}}
     {{#unless test.isSuccessful}}
-      <p>{{localize "HEIST.CardWindow.Result.Failure"}}</p>
+      <p>{{localize "HEIST.AgentTestWindow.Result.Failure"}}</p>
     {{/unless}}
   {{/if}}
 {{/if}}

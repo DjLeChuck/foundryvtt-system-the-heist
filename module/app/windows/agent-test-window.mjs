@@ -2,12 +2,12 @@ import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
 import { WithSettingsWindow } from './with-settings-window.mjs';
 
-export class CardWindow extends WithSettingsWindow {
+export class AgentTestWindow extends WithSettingsWindow {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [HEIST.SYSTEM_ID, 'card-window'],
-      template: `systems/${HEIST.SYSTEM_ID}/templates/app/card-window.html.hbs`,
+      classes: [HEIST.SYSTEM_ID, 'agent-test-window'],
+      template: `systems/${HEIST.SYSTEM_ID}/templates/app/agent-test-window.html.hbs`,
       width: 750,
       height: 800,
       settingsName: 'currentTest',
