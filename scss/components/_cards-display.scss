@@ -1,0 +1,11 @@
+.cards-container {
+  min-height: 220px;
+
+  .card {
+    height: 220px;
+  }
+}
+
+.card-suit-diamonds, .card-suit-hearts {
+  color: $c-red;
+}

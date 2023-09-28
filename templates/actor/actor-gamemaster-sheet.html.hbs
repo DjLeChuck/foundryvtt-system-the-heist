@@ -3,10 +3,15 @@
     <div class="flex flexcol">
       <div class="flexrow flex-group-center">
         <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
-        <div class="header-fields">
+        <div class="flex2">
           <h1 class="charname">
             <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
           </h1>
+        </div>
+        <div>
+          {{#if deck}}
+            <p><u>{{localize "HEIST.Cards.Remaining"}}</u> <strong>{{length deck.availableCards}}</strong></p>
+          {{/if}}
         </div>
       </div>
     </div>

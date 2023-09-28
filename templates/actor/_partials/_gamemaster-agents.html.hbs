@@ -3,14 +3,14 @@
     <div class="agent-card-wrapper">
       <div class="agent-card">
         <div class="flexrow flex-group-left">
-          <p>{{localize "HEIST.Global.AgentName" name=this.name}}</p>
+          <p><u>{{localize "HEIST.Global.AgentName"}}</u> <strong>{{this.name}}</strong></p>
           <div class="flexshrink">
             <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-agent data-id="{{this.id}}">
               <i class="fa fa-trash"></i>
             </button>
           </div>
         </div>
-        <p>{{localize "HEIST.Cards.Remaining" count=(length this.deck.availableCards)}}</p>
+        <p><u>{{localize "HEIST.Cards.Remaining"}}</u> <strong>{{length this.deck.availableCards}}</strong></p>
 
         {{#if ../canTest}}
           {{#if (length this.deck.availableCards)}}

@@ -1,16 +1,32 @@
-.agent-card-wrapper {
-  width: 75%;
-  margin: auto;
-  //padding: 0 0.5em;
+&.gamemaster-sheet {
+  .agent-card-wrapper {
+    width: 75%;
+    margin: auto;
 
-  max-width: 250px;
-  padding: 1rem;
-  position: relative;
-  background: linear-gradient(90deg, $c-shadow 0%, $c-buff 50%, $c-shadow 100%);
-  padding: 3px;
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(90deg, $c-shadow 0%, $c-buff 50%, $c-shadow 100%);
+    padding: 3px;
 
-  .agent-card {
-    background: white;
-    padding: 0.5rem;
+    .agent-card {
+      background: $c-white;
+      padding: 0.5rem;
+    }
+  }
+
+  .badge {
+    padding: 4px 8px;
+    background-color: $c-white;
+    border: 1px solid $c-tan;
+    border-radius: 4px;
+
+    .badge-value {
+      margin-left: 10px;
+
+      &.overflowed {
+        color: $c-red;
+      }
+    }
   }
 }

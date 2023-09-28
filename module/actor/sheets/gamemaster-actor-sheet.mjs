@@ -15,8 +15,9 @@ export class GamemasterActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
+      classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'gamemaster-sheet'],
       width: 910,
-      height: 450,
+      height: 800,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agents' }],
     });
   }
@@ -37,19 +38,23 @@ export class GamemasterActorSheet extends BaseActorSheet {
       return;
     }
 
-    html.find('[data-ask-agent-test]').click(this._onAskAgentTest.bind(this));
-    html.find('[data-remove-agent]').click(this._onRemoveAgent.bind(this));
+    html.find('[data-ask-agent-test]').click(this.#onAskAgentTest.bind(this));
+    html.find('[data-remove-agent]').click(this.#onRemoveAgent.bind(this));
+    html.find('[data-draw]').click(this.#onDrawCards.bind(this));
   }
 
   /** @override */
-  getData() {
+  async getData() {
     const context = super.getData();
     context.agents = this.actor.agents;
 
     context.canTest = this.actor.deck?.availableCards.length >= 3;
     context.reconnaissanceActive = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id;
 
+    context.deck = this.actor?.deck;
     context.hand = this.actor?.hand;
+
+    await this.#prepareCards(context);
 
     return context;
   }
@@ -80,7 +85,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
     await this.actor.update({ 'system.agents': Array.from(agents.values()) });
   }
 
-  async _onAskAgentTest(e) {
+  async #onAskAgentTest(e) {
     e.preventDefault();
 
     const dataset = e.currentTarget.dataset;
@@ -88,7 +93,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
     await this.actor.doAgentTest(dataset?.difficulty, dataset?.agentId);
   }
 
-  async _onRemoveAgent(e) {
+  async #onRemoveAgent(e) {
     e.preventDefault();
 
     const agentId = e.currentTarget.dataset.id;
@@ -109,6 +114,33 @@ export class GamemasterActorSheet extends BaseActorSheet {
     });
   }
 
+  async #onDrawCards(e) {
+    e.preventDefault();
+
+    await Dialog.prompt({
+      title: game.i18n.localize('HEIST.Global.DrawCards'),
+      content: `<p>
+  <label for="number-cards">${game.i18n.localize('HEIST.Cards.HOwManyToDraw')}</label>
+  <select id="number-cards">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+</p>`,
+      callback: (html) => {
+        const nbCards = html.find('#number-cards')[0]?.value;
+        if (!nbCards) {
+          return;
+        }
+
+        this.actor.drawCards(nbCards);
+      },
+      rejectClose: false,
+    });
+  }
+
   async #removeAgent(agent) {
     const agents = new Set(this.actor.system.agents ?? []);
 
@@ -123,5 +155,46 @@ export class GamemasterActorSheet extends BaseActorSheet {
     }
 
     this.render(false);
+  }
+
+  async #prepareCards(context) {
+    context.colors = {
+      hearts: {
+        icon: '♥️',
+        label: game.i18n.localize('HEIST.Global.Suit.Hearts'),
+        value: 0,
+        isOverflowed: false,
+      },
+      spades: {
+        icon: '♠️',
+        label: game.i18n.localize('HEIST.Global.Suit.Spades'),
+        value: 0,
+        isOverflowed: false,
+      },
+      diamonds: {
+        icon: '♦️',
+        label: game.i18n.localize('HEIST.Global.Suit.Diamonds'),
+        value: 0,
+        isOverflowed: false,
+      },
+      clubs: {
+        icon: '♣️',
+        label: game.i18n.localize('HEIST.Global.Suit.Clubs'),
+        value: 0,
+        isOverflowed: false,
+      },
+    };
+
+    if (!context.hand) {
+      return;
+    }
+
+    for (const card of context.hand.cards) {
+      ++context.colors[card.suit].value;
+
+      if (HEIST.RECONNAISSANCE_SUIT_OVERFLOW_LIMIT <= context.colors[card.suit].value) {
+        context.colors[card.suit].isOverflowed = true;
+      }
+    }
   }
 }

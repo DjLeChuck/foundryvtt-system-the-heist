@@ -1,4 +1,26 @@
-<div class="grid grid-2col align-center cards">
+<div class="grid grid-5col align-center">
+  <div>
+    <span class="badge">
+      <span>Cartes piochées</span>
+      <strong class="badge-value">{{length hand.availableCards}}</strong>
+    </span>
+  </div>
+  {{#each colors}}
+    <div>
+      <span class="badge">
+        <span class="card-suit-{{@key}}">{{this.icon}}</span>
+        <span>{{this.label}}</span>
+        <strong class="badge-value{{#if this.isOverflowed}} overflowed{{/if}}">{{this.value}}</strong>
+      </span>
+    </div>
+  {{/each}}
+</div>
+
+<div class="flexrow">
+  <button type="button" data-draw>{{localize "HEIST.Global.DrawCards"}}</button>
+</div>
+
+<div class="grid grid-5col align-center cards-container">
   {{#each hand.cards}}
     <div>
       <img src="{{this.img}}" alt="{{this.name}}" class="card" />
