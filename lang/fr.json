@@ -43,6 +43,7 @@
   "HEIST.Cards.RecallHand": "L’agent {name} récupère sa main et mélange son deck.",
   "HEIST.Cards.RecallFromPile": "L’agent {name} récupère {number} carte(s) de sa défausse et mélange son deck.",
   "HEIST.Cards.HOwManyToDraw": "Piocher combien de carte ?",
+  "HEIST.AgentTestWindow.Title": "Test d’agent",
   "HEIST.AgentTestWindow.TitleWithTest": "Test pour l’agent {name}",
   "HEIST.AgentTestWindow.TitleWithoutTest": "Aucun test en cours",
   "HEIST.AgentTestWindow.AgentHand": "Main de l’agent",

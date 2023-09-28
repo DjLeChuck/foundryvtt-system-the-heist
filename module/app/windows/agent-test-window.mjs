@@ -7,6 +7,7 @@ export class AgentTestWindow extends WithSettingsWindow {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'agent-test-window'],
+      title: game.i18n.localize('HEIST.AgentTestWindow.Title'),
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/agent-test-window.html.hbs`,
       width: 750,
       height: 800,
