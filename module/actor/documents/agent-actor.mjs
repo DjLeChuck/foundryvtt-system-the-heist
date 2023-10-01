@@ -3,6 +3,13 @@ import * as HEIST from '../../const.mjs';
 
 export class AgentActor extends BasePlayerActor {
   /**
+   * @returns {Cards|null}
+   */
+  get hand() {
+    return game.cards.get(this.system.hand);
+  }
+
+  /**
    * @returns {AgentTypeItem|null}
    */
   get agentType() {
@@ -29,6 +36,18 @@ export class AgentActor extends BasePlayerActor {
     }
 
     return 0 < (this.hand?.availableCards.length || 0);
+  }
+
+  async drawCards(number) {
+    await this.hand.draw(this.deck, number, { chatNotification: false });
+
+    this.render(false);
+  }
+
+  async throwHand() {
+    await this.hand.pass(this.pile, this.hand.cards.map((c) => c.id), { chatNotification: false });
+
+    this.render(false);
   }
 
   async useFetish() {
@@ -89,13 +108,34 @@ export class AgentActor extends BasePlayerActor {
     return this.agentType.getFlag(HEIST.SYSTEM_ID, 'deckId');
   }
 
-  async _saveCreatedDecks(deck, hand, pile) {
-    await this.update({
-      system: {
-        deck,
-        hand,
-        pile,
+  async _createDecks() {
+    const deck = await this._createDeck();
+    const pile = await this._createPile();
+    const hand = await Cards.create({
+      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
+      type: 'hand',
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
       },
     });
+
+    // Shuffle the cloned deck
+    await deck.shuffle({ chatNotification: false });
+
+    this._saveCreatedDecks({ deck: deck.id, hand: hand.id, pile: pile.id });
+  }
+
+  async _saveCreatedDecks(decks) {
+    await this.update({
+      system: { ...decks },
+    });
+  }
+
+  async _deleteDecks() {
+    await super._deleteDecks();
+
+    await this.hand?.delete();
   }
 }

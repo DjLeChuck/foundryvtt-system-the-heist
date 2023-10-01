@@ -6,6 +6,9 @@ export class AgentDataModel extends BasePlayerDataModel {
 
     return Object.assign({}, super.defineSchema(), {
       description: new fields.HTMLField(),
+      hand: new fields.DocumentIdField({
+        required: false,
+      }),
     });
   }
 }

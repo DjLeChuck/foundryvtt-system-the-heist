@@ -2,7 +2,7 @@
   <div>
     <span class="badge">
       <span>Cartes piochées</span>
-      <strong class="badge-value">{{length hand.availableCards}}</strong>
+      <strong class="badge-value">{{length reconnaissanceHand.availableCards}}</strong>
     </span>
   </div>
   {{#each colors}}
@@ -21,7 +21,7 @@
 </div>
 
 <div class="grid grid-5col align-center cards-container">
-  {{#each hand.cards}}
+  {{#each reconnaissanceHand.cards}}
     <div>
       <img src="{{this.img}}" alt="{{this.name}}" class="card" />
     </div>

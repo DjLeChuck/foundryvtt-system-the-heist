@@ -52,7 +52,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
     context.reconnaissanceActive = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id;
 
     context.deck = this.actor?.deck;
-    context.hand = this.actor?.hand;
+    context.reconnaissanceHand = this.actor?.reconnaissanceHand;
 
     await this.#prepareCards(context);
 
@@ -135,7 +135,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
           return;
         }
 
-        this.actor.drawCards(nbCards);
+        this.actor.drawCards(this.actor.reconnaissanceHand, nbCards);
       },
       rejectClose: false,
     });
@@ -185,11 +185,11 @@ export class GamemasterActorSheet extends BaseActorSheet {
       },
     };
 
-    if (!context.hand) {
+    if (!context.reconnaissanceHand) {
       return;
     }
 
-    for (const card of context.hand.cards) {
+    for (const card of context.reconnaissanceHand.cards) {
       ++context.colors[card.suit].value;
 
       if (HEIST.RECONNAISSANCE_SUIT_OVERFLOW_LIMIT <= context.colors[card.suit].value) {

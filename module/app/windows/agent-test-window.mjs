@@ -94,7 +94,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       };
     }
 
-    const gmCards = gm.hand.cards;
+    const gmCards = gm.testHand.cards;
     const agentCards = agent.hand.cards;
     const agentScore = CARDS.scoreForAgent(agentCards);
     const gmTotalScore = CARDS.scoreForGM(gmCards);
@@ -153,7 +153,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     e.preventDefault();
 
     await this._setSettings({
-      isSuccessful: CARDS.scoreForGM(this.agent.hand.cards) >= CARDS.scoreForGM(this.gm.hand.cards),
+      isSuccessful: CARDS.scoreForGM(this.agent.hand.cards) >= CARDS.scoreForGM(this.gm.testHand.cards),
       isFinished: true,
     });
 
@@ -233,7 +233,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       return;
     }
 
-    await this.gm.throwHand();
+    await this.gm.throwTestHand();
 
     for (const agent of this.gm.agents) {
       await agent.throwHand();

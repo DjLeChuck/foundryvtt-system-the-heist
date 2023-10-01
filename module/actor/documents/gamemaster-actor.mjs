@@ -4,6 +4,20 @@ import * as CARDS from '../../helpers/cards.mjs';
 
 export class GamemasterActor extends BasePlayerActor {
   /**
+   * @returns {Cards|null}
+   */
+  get testHand() {
+    return game.cards.get(this.system.testHand);
+  }
+
+  /**
+   * @returns {Cards|null}
+   */
+  get reconnaissanceHand() {
+    return game.cards.get(this.system.reconnaissanceHand);
+  }
+
+  /**
    * @returns {AgentActor[]}
    */
   get agents() {
@@ -14,6 +28,20 @@ export class GamemasterActor extends BasePlayerActor {
     }
 
     return agents;
+  }
+
+  async drawCards(hand, number) {
+    await hand.draw(this.deck, number, { chatNotification: false });
+
+    this.render(false);
+  }
+
+  async throwTestHand() {
+    await this.#throwHand(this.testHand);
+  }
+
+  async throwReconnaissanceHand() {
+    await this.#throwHand(this.reconnaissanceHand);
   }
 
   /**
@@ -32,10 +60,10 @@ export class GamemasterActor extends BasePlayerActor {
     await game[HEIST.SYSTEM_ID].agentTestWindow.prepareTest(this.id, agentId);
 
     // Draw 3 cards
-    await this.drawCards(3);
+    await this.drawCards(this.testHand, 3);
 
     // Sort them by value
-    const sortedCards = CARDS.sortByValue(this.hand.cards);
+    const sortedCards = CARDS.sortByValue(this.testHand.cards);
 
     let removedCard;
 
@@ -61,13 +89,13 @@ export class GamemasterActor extends BasePlayerActor {
     }
 
     // Remove the unwanted card
-    await this.hand.pass(this.pile, [removedCard], { chatNotification: false });
+    await this.testHand.pass(this.pile, [removedCard], { chatNotification: false });
 
     game[HEIST.SYSTEM_ID].agentTestWindow.render(true);
   }
 
   async revealTest() {
-    for (const card of this.hand.cards.contents) {
+    for (const card of this.testHand.cards.contents) {
       await card.flip(0);
     }
   }
@@ -87,13 +115,55 @@ export class GamemasterActor extends BasePlayerActor {
     return HEIST.GM_DECK_ID;
   }
 
-  _saveCreatedDecks(deck, hand, pile) {
-    this.updateSource({
-      system: {
-        deck,
-        hand,
-        pile,
+  async _createDecks() {
+    const deck = await this._createDeck();
+    const pile = await this._createPile();
+    const testHand = await Cards.create({
+      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
+      type: 'hand',
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
       },
     });
+    const reconnaissanceHand = await Cards.create({
+      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
+      type: 'hand',
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
+      },
+    });
+
+    // Shuffle the cloned deck
+    await deck.shuffle({ chatNotification: false });
+
+    this._saveCreatedDecks({
+      deck: deck.id,
+      testHand: testHand.id,
+      reconnaissanceHand: reconnaissanceHand.id,
+      pile: pile.id,
+    });
+  }
+
+  _saveCreatedDecks(decks) {
+    this.updateSource({
+      system: { ...decks },
+    });
+  }
+
+  async _deleteDecks() {
+    await super._deleteDecks();
+
+    await this.testHand?.delete();
+    await this.reconnaissanceHand?.delete();
+  }
+
+  async #throwHand(hand) {
+    await hand.pass(this.pile, hand.cards.map((c) => c.id), { chatNotification: false });
+
+    this.render(false);
   }
 }

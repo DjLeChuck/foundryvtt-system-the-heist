@@ -6,9 +6,6 @@ export class BasePlayerDataModel extends foundry.abstract.DataModel {
       deck: new fields.DocumentIdField({
         required: false,
       }),
-      hand: new fields.DocumentIdField({
-        required: false,
-      }),
       pile: new fields.DocumentIdField({
         required: false,
       }),
