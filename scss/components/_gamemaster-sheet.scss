@@ -1,4 +1,8 @@
 &.gamemaster-sheet {
+  .compromised {
+    color: $c-red;
+  }
+
   .agent-card-wrapper {
     width: 75%;
     margin: auto;

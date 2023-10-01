@@ -1,7 +1,7 @@
 <div class="grid grid-5col align-center">
   <div>
     <span class="badge">
-      <span>Cartes piochées</span>
+      <span>{{localize "HEIST.Cards.Drawn"}}</span>
       <strong class="badge-value">{{length reconnaissanceHand.availableCards}}</strong>
     </span>
   </div>
@@ -14,11 +14,16 @@
       </span>
     </div>
   {{/each}}
+  {{#if agentsCompromised}}
+    <p class="grid-span-5 compromised">{{localize "HEIST.GamemasterSheet.Reconnaissance.AgentsCompromised"}}</p>
+  {{/if}}
 </div>
 
-<div class="flexrow">
-  <button type="button" data-draw>{{localize "HEIST.Global.DrawCards"}}</button>
-</div>
+{{#if canDrawReconnaissance}}
+  <div class="flexrow">
+    <button type="button" data-draw>{{localize "HEIST.Global.DrawCards"}}</button>
+  </div>
+{{/if}}
 
 <div class="grid grid-5col align-center cards-container">
   {{#each reconnaissanceHand.cards}}

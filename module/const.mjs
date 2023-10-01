@@ -41,6 +41,7 @@ export const GAME_PHASES = [
   },
 ];
 
+export const RECONNAISSANCE_HAND_TRIGGER_LIMIT = 10;
 export const RECONNAISSANCE_SUIT_OVERFLOW_LIMIT = 5;
 
 export const SOCKET_REQUESTS = {

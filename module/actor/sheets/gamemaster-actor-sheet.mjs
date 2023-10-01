@@ -49,23 +49,11 @@ export class GamemasterActorSheet extends BaseActorSheet {
     context.agents = this.actor.agents;
 
     context.canTest = this.actor.deck?.availableCards.length >= 3;
-    context.reconnaissanceActive = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id;
-
     context.deck = this.actor?.deck;
-    context.reconnaissanceHand = this.actor?.reconnaissanceHand;
 
-    await this.#prepareCards(context);
+    await this.#prepareReconnaissanceContext(context);
 
     return context;
-  }
-
-  /** @override */
-  async close(options) {
-    if (this.changeGamePhaseHook) {
-      Hooks.off(`${HEIST.SYSTEM_ID}.changeGamePhase`, this.changeGamePhaseHook);
-    }
-
-    return super.close(options);
   }
 
   async _onDropActor(event, data) {
@@ -117,17 +105,17 @@ export class GamemasterActorSheet extends BaseActorSheet {
   async #onDrawCards(e) {
     e.preventDefault();
 
+    let numberCardsOptions = '';
+
+    for (let i = 0; i < Math.min(5, this.actor.deck.availableCards.length); i++) {
+      numberCardsOptions += `<option value="${i}">${i}</option>`;
+    }
+
     await Dialog.prompt({
       title: game.i18n.localize('HEIST.Global.DrawCards'),
       content: `<p>
-  <label for="number-cards">${game.i18n.localize('HEIST.Cards.HOwManyToDraw')}</label>
-  <select id="number-cards">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-  </select>
+  <label for="number-cards">${game.i18n.localize('HEIST.Cards.HowManyToDraw')}</label>
+  <select id="number-cards">${numberCardsOptions}</select>
 </p>`,
       callback: (html) => {
         const nbCards = html.find('#number-cards')[0]?.value;
@@ -151,13 +139,18 @@ export class GamemasterActorSheet extends BaseActorSheet {
 
   async #onChangeGamePhase(phase) {
     if (HEIST.GAME_PHASE_RECONNAISSANCE === phase.id) {
-      await this.actor.recallDeck();
+      await this.actor.throwReconnaissanceHand();
     }
 
     this.render(false);
   }
 
-  async #prepareCards(context) {
+  async #prepareReconnaissanceContext(context) {
+    context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
+      && this.actor.deck?.availableCards.length;
+    context.reconnaissanceHand = this.actor?.reconnaissanceHand;
+    context.agentsCompromised = false;
+
     context.colors = {
       hearts: {
         icon: '♥️',
@@ -189,11 +182,17 @@ export class GamemasterActorSheet extends BaseActorSheet {
       return;
     }
 
+    const handSize = context.reconnaissanceHand.availableCards.length;
+
     for (const card of context.reconnaissanceHand.cards) {
       ++context.colors[card.suit].value;
 
       if (HEIST.RECONNAISSANCE_SUIT_OVERFLOW_LIMIT <= context.colors[card.suit].value) {
         context.colors[card.suit].isOverflowed = true;
+
+        if (handSize >= HEIST.RECONNAISSANCE_HAND_TRIGGER_LIMIT) {
+          context.agentsCompromised = true;
+        }
       }
     }
   }
