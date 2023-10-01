@@ -14,6 +14,7 @@ export const Load = {
     CONFIG.Actor.dataModels.gamemaster = actor.models.GamemasterDataModel;
     CONFIG.Item.dataModels.agentType = item.models.AgentTypeDataModel;
     CONFIG.Item.dataModels.fetish = item.models.FetishDataModel;
+    CONFIG.Item.dataModels.planning = item.models.PlanningDataModel;
     CONFIG.Item.dataModels.skill = item.models.SkillDataModel;
 
     CONFIG.Canvas.layers.heist = { layerClass: ControlsLayer, group: 'primary' };

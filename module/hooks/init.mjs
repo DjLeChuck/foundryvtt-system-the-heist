@@ -20,6 +20,7 @@ export const Init = {
         itemClasses: {
           agentType: item.documents.AgentTypeItem,
           fetish: item.documents.FetishItem,
+          planning: item.documents.PlanningItem,
           skill: item.documents.SkillItem,
         },
       };

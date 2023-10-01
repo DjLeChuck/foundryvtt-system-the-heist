@@ -13,14 +13,16 @@
   "Item": {
     "types": [
       "agentType",
-      "skill",
-      "fetish"
+      "fetish",
+      "planning",
+      "skill"
     ],
     "htmlFields": [
       "description"
     ],
     "agentType": {},
-    "skill": {},
-    "fetish": {}
+    "fetish": {},
+    "planning": {},
+    "skill": {}
   }
 }

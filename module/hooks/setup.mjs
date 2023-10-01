@@ -24,6 +24,10 @@ export const Setup = {
         types: ['fetish'],
         makeDefault: true,
       });
+      Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.PlanningItemSheet, {
+        types: ['planning'],
+        makeDefault: true,
+      });
       Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
         types: ['skill'],
         makeDefault: true,
