@@ -55,7 +55,7 @@ export class JackActorSheet extends BaseActorSheet {
 
     let numberCardsOptions = '';
 
-    for (let i = 0; i < Math.min(5, this.actor.deck.availableCards.length); i++) {
+    for (let i = 0; i <= Math.min(5, this.actor.deck.availableCards.length); i++) {
       numberCardsOptions += `<option value="${i}">${i}</option>`;
     }
 
