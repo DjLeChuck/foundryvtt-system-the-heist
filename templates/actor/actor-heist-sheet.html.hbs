@@ -8,16 +8,21 @@
             <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
           </h1>
         </div>
-        <div>
-          {{#if deck}}
-            <p><u>{{localize "HEIST.Cards.Remaining"}}</u> <strong>{{length deck.availableCards}}</strong></p>
-          {{/if}}
-        </div>
       </div>
     </div>
   </header>
 
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="agents">{{localize "HEIST.HeistSheet.TheHeistAgents"}}</a>
+    <a class="item" data-tab="planning">{{localize "HEIST.GamePhases.Phase4.Title"}}</a>
+  </nav>
+
   <section class="sheet-body">
-    {{> "systems/heist/templates/actor/_partials/_gamemaster-reconnaissance.html.hbs"}}
+    <div class="tab" data-group="primary" data-tab="agents">
+      {{> "systems/heist/templates/actor/_partials/_heist-agents.html.hbs"}}
+    </div>
+    <div class="tab" data-group="primary" data-tab="planning">
+      {{> "systems/heist/templates/actor/_partials/_heist-planning.html.hbs"}}
+    </div>
   </section>
 </form>

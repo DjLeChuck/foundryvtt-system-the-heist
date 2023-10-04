@@ -6,9 +6,12 @@ import * as HEIST from '../const.mjs';
  */
 export const registerTemplates = function () {
   loadTemplates([
-    // Gamemaster
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_gamemaster-agents.html.hbs`,
+    // Gamemaster actor
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_gamemaster-reconnaissance.html.hbs`,
+
+    // The Heist actor
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agents.html.hbs`,
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-planning.html.hbs`,
 
     // Agent Test Window
     `systems/${HEIST.SYSTEM_ID}/templates/app/_partials/_agent-test-window-test-running.html.hbs`,

@@ -1,5 +1,4 @@
 import { BaseActorSheet } from './base-actor-sheet.mjs';
-import { AgentActor } from '../documents/_module.mjs';
 import * as HEIST from '../../const.mjs';
 
 export class GamemasterActorSheet extends BaseActorSheet {
@@ -18,7 +17,6 @@ export class GamemasterActorSheet extends BaseActorSheet {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'gamemaster-sheet'],
       width: 910,
       height: 800,
-      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agents' }],
     });
   }
 
@@ -38,68 +36,18 @@ export class GamemasterActorSheet extends BaseActorSheet {
       return;
     }
 
-    html.find('[data-ask-agent-test]').click(this.#onAskAgentTest.bind(this));
-    html.find('[data-remove-agent]').click(this.#onRemoveAgent.bind(this));
     html.find('[data-draw]').click(this.#onDrawCards.bind(this));
   }
 
   /** @override */
   async getData() {
     const context = super.getData();
-    context.agents = this.actor.agents;
 
-    context.canTest = this.actor.deck?.availableCards.length >= 3;
     context.deck = this.actor?.deck;
 
     await this.#prepareReconnaissanceContext(context);
 
     return context;
-  }
-
-  async _onDropActor(event, data) {
-    if (!this.actor.isOwner) {
-      return false;
-    }
-
-    /** @var Actor actor */
-    const actor = await fromUuid(data.uuid);
-    if (!actor || !(actor instanceof AgentActor)) {
-      return false;
-    }
-
-    const agents = new Set(this.actor.system.agents ?? []);
-    agents.add(actor.id);
-
-    await this.actor.update({ 'system.agents': Array.from(agents.values()) });
-  }
-
-  async #onAskAgentTest(e) {
-    e.preventDefault();
-
-    const dataset = e.currentTarget.dataset;
-
-    await this.actor.doAgentTest(dataset?.difficulty, dataset?.agentId);
-  }
-
-  async #onRemoveAgent(e) {
-    e.preventDefault();
-
-    const agentId = e.currentTarget.dataset.id;
-    if (!agentId) {
-      return;
-    }
-
-    const agent = game.actors.get(agentId);
-    if (!agent) {
-      return;
-    }
-
-    await Dialog.confirm({
-      title: game.i18n.format('HEIST.GamemasterSheet.RemoveAgent.Title', { agent: agent.name }),
-      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
-<p>${game.i18n.format('HEIST.GamemasterSheet.RemoveAgent.Message', { agent: agent.name })}</p>`,
-      yes: this.#removeAgent.bind(this, agent),
-    });
   }
 
   async #onDrawCards(e) {
@@ -127,14 +75,6 @@ export class GamemasterActorSheet extends BaseActorSheet {
       },
       rejectClose: false,
     });
-  }
-
-  async #removeAgent(agent) {
-    const agents = new Set(this.actor.system.agents ?? []);
-
-    agents.delete(agent.id);
-
-    await this.actor.update({ 'system.agents': Array.from(agents.values()) });
   }
 
   async #onChangeGamePhase(phase) {

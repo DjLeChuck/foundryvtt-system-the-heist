@@ -15,6 +15,10 @@ export const Setup = {
         types: ['gamemaster'],
         makeDefault: true,
       });
+      Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
+        types: ['heist'],
+        makeDefault: true,
+      });
       Items.unregisterSheet('core', ItemSheet);
       Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
         types: ['agentType'],

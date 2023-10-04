@@ -16,6 +16,7 @@ export const Init = {
         actorClasses: {
           agent: actor.documents.AgentActor,
           gamemaster: actor.documents.GamemasterActor,
+          heist: actor.documents.HeistActor,
         },
         itemClasses: {
           agentType: item.documents.AgentTypeItem,

@@ -1,0 +1,17 @@
+&.heist-sheet {
+  .agent-card-wrapper {
+    width: 75%;
+    margin: auto;
+
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(90deg, $c-shadow 0%, $c-buff 50%, $c-shadow 100%);
+    padding: 3px;
+
+    .agent-card {
+      background: $c-white;
+      padding: 0.5rem;
+    }
+  }
+}
