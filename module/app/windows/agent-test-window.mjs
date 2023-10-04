@@ -229,15 +229,8 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   async #clearHands() {
-    if (!this.jack) {
-      return;
-    }
-
-    await this.jack.throwTestHand();
-
-    for (const agent of this.jack.agents) {
-      await agent.throwHand();
-    }
+    await this.jack?.throwTestHand();
+    await this.agent?.throwHand();
   }
 
   #refreshViews() {
