@@ -1,3 +1,5 @@
+import * as HEIST from '../const.mjs';
+
 export function registerHandlebarsHelper() {
   Handlebars.registerHelper('toLowerCase', function (str) {
     return str.toLowerCase();
@@ -12,5 +14,9 @@ export function registerHandlebarsHelper() {
     const seconds = timeLeft % 60;
 
     return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  });
+
+  Handlebars.registerHelper('template', function (path) {
+    return `systems/${HEIST.SYSTEM_ID}/templates/${path}`;
   });
 }

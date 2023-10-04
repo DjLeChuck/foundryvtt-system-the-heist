@@ -10,10 +10,10 @@ export class HeistActorSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
-      width: 910,
-      height: 800,
+      width: 1100,
+      height: 900,
       template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
-      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agents' }],
+      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
     });
   }
 
@@ -34,14 +34,19 @@ export class HeistActorSheet extends ActorSheet {
     }
 
     html.find('[data-ask-agent-test]').click(this.#onAskAgentTest.bind(this));
-    html.find('[data-remove-agent]').click(this.#onRemoveAgent.bind(this));
+    html.find('[data-remove-actor]').click(this.#onRemoveActor.bind(this));
   }
 
   /** @override */
   async getData() {
     const context = super.getData();
-    context.agents = this.actor.agents;
+    context.jack = this.actor.jack;
+    context.diamond = this.actor.diamond;
+    context.heart = this.actor.heart;
+    context.spade = this.actor.spade;
+    context.club = this.actor.club;
 
+    context.isGM = game.user.isGM;
     context.canTest = game.user.isGM && this.actor.jack?.deck?.availableCards.length >= 3;
 
     return context;
@@ -59,10 +64,12 @@ export class HeistActorSheet extends ActorSheet {
     }
 
     if (actor instanceof AgentActor) {
-      const agents = new Set(this.actor.system.agents ?? []);
-      agents.add(actor.id);
+      const agentType = actor.agentType;
+      if (null === agentType || !agentType.system?.type) {
+        return false;
+      }
 
-      await this.actor.update({ 'system.agents': Array.from(agents.values()) });
+      await this.actor.update({ [`system.${agentType.system.type}`]: actor.id });
     } else if (actor instanceof JackActor) {
       await this.actor.update({ 'system.jack': actor.id });
     }
@@ -76,32 +83,28 @@ export class HeistActorSheet extends ActorSheet {
     await this.actor.jack.doAgentTest(dataset?.difficulty, dataset?.agentId);
   }
 
-  async #onRemoveAgent(e) {
+  async #onRemoveActor(e) {
     e.preventDefault();
 
-    const agentId = e.currentTarget.dataset.id;
-    if (!agentId) {
+    const { id: actorId, type } = e.currentTarget.dataset;
+    if (!actorId) {
       return;
     }
 
-    const agent = game.actors.get(agentId);
-    if (!agent) {
+    const actor = game.actors.get(actorId);
+    if (!actor) {
       return;
     }
 
     await Dialog.confirm({
-      title: game.i18n.format('HEIST.JackSheet.RemoveAgent.Title', { agent: agent.name }),
+      title: game.i18n.format('HEIST.HeistSheet.RemoveAgent.Title'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
-<p>${game.i18n.format('HEIST.JackSheet.RemoveAgent.Message', { agent: agent.name })}</p>`,
-      yes: this.#removeAgent.bind(this, agent),
+<p>${game.i18n.format('HEIST.HeistSheet.RemoveAgent.Message', { agent: actor.name })}</p>`,
+      yes: this.#removeActor.bind(this, type),
     });
   }
 
-  async #removeAgent(agent) {
-    const agents = new Set(this.actor.system.agents ?? []);
-
-    agents.delete(agent.id);
-
-    await this.actor.update({ 'system.agents': Array.from(agents.values()) });
+  async #removeActor(type) {
+    await this.actor.update({ [`system.${type}`]: null });
   }
 }

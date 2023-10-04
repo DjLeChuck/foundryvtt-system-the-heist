@@ -9,15 +9,30 @@ export class HeistActor extends BaseActor {
   }
 
   /**
-   * @returns {AgentActor[]}
+   * @returns {AgentActor}
    */
-  get agents() {
-    const agents = [];
+  get spade() {
+    return game.actors.get(this.system.spade);
+  }
 
-    for (const agentId of this.system.agents) {
-      agents.push(game.actors.get(agentId));
-    }
+  /**
+   * @returns {AgentActor}
+   */
+  get heart() {
+    return game.actors.get(this.system.heart);
+  }
 
-    return agents;
+  /**
+   * @returns {AgentActor}
+   */
+  get diamond() {
+    return game.actors.get(this.system.diamond);
+  }
+
+  /**
+   * @returns {AgentActor}
+   */
+  get club() {
+    return game.actors.get(this.system.club);
   }
 }

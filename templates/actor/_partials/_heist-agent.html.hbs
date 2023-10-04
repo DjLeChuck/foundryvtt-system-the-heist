@@ -1,0 +1,34 @@
+<div class="agency-member agent-card-wrapper">
+  <div class="agent-card">
+    <div class="flexrow flex-group-left">
+      <p><u>{{localize "HEIST.Global.AgentName"}}</u> <strong>{{agent.name}}</strong></p>
+
+      {{#if isGM}}
+        <div class="flexshrink">
+          <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
+                  data-type="{{agent.agentType.system.type}}" data-id="{{agent.id}}">
+            <i class="fa fa-trash"></i>
+          </button>
+        </div>
+      {{/if}}
+    </div>
+    <p><u>{{localize "HEIST.Cards.Remaining"}}</u> <strong>{{length agent.deck.availableCards}}</strong></p>
+
+    {{#if canTest}}
+      {{#if (length agent.deck.availableCards)}}
+        <div class="grid grid-2col">
+          <div>
+            <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{agent.id}}">
+              {{localize "HEIST.HeistSheet.EasyTest"}}
+            </button>
+          </div>
+          <div>
+            <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{agent.id}}">
+              {{localize "HEIST.HeistSheet.DifficultTest"}}
+            </button>
+          </div>
+        </div>
+      {{/if}}
+    {{/if}}
+  </div>
+</div>

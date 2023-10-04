@@ -13,16 +13,16 @@
   </header>
 
   <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="agents">{{localize "HEIST.HeistSheet.TheHeistAgents"}}</a>
+    <a class="item" data-tab="agency">{{localize "HEIST.HeistSheet.TheAgency"}}</a>
     <a class="item" data-tab="planning">{{localize "HEIST.GamePhases.Phase4.Title"}}</a>
   </nav>
 
   <section class="sheet-body">
-    <div class="tab" data-group="primary" data-tab="agents">
-      {{> "systems/heist/templates/actor/_partials/_heist-agents.html.hbs"}}
+    <div class="tab" data-group="primary" data-tab="agency">
+      {{> (template "actor/_partials/_heist-agency.html.hbs")}}
     </div>
     <div class="tab" data-group="primary" data-tab="planning">
-      {{> "systems/heist/templates/actor/_partials/_heist-planning.html.hbs"}}
+      {{> (template "actor/_partials/_heist-planning.html.hbs")}}
     </div>
   </section>
 </form>

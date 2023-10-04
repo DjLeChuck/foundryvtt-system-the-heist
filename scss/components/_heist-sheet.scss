@@ -3,7 +3,7 @@
     width: 75%;
     margin: auto;
 
-    max-width: 250px;
+    max-width: $c-card-width;
     padding: 1rem;
     position: relative;
     background: linear-gradient(90deg, $c-shadow 0%, $c-buff 50%, $c-shadow 100%);
@@ -12,6 +12,48 @@
     .agent-card {
       background: $c-white;
       padding: 0.5rem;
+      height: 100%;
+    }
+  }
+}
+
+.agency-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+
+  .agency-member {
+    width: $c-card-width;
+    height: $c-card-height;
+
+    &:nth-child(1) {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    &:nth-child(2) {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    &:nth-child(3) {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+
+      margin-top: - calc($c-card-height / 2);
+    }
+
+    &:nth-child(4) {
+      grid-column: 1;
+      grid-row: 3;
+      margin-top: - calc($c-card-height / 2);
+    }
+
+    &:nth-child(5) {
+      grid-column: 2;
+      grid-row: 3;
+      margin-top: - calc($c-card-height / 2);
     }
   }
 }
