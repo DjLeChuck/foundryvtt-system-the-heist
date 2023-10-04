@@ -1,7 +1,7 @@
 import { BaseActorSheet } from './base-actor-sheet.mjs';
 import * as HEIST from '../../const.mjs';
 
-export class GamemasterActorSheet extends BaseActorSheet {
+export class JackActorSheet extends BaseActorSheet {
   constructor(object, options = {}) {
     super(object, options);
 
@@ -14,7 +14,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'gamemaster-sheet'],
+      classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'jack-sheet'],
       width: 910,
       height: 800,
     });
@@ -22,7 +22,7 @@ export class GamemasterActorSheet extends BaseActorSheet {
 
   /**
    * A convenience reference to the Actor document
-   * @type {GamemasterActor}
+   * @type {JackActor}
    */
   get actor() {
     return this.object;

@@ -2,7 +2,7 @@
  * @param {Card} card
  * @return number
  */
-export function getValueForGm(card) {
+export function getValueForJack(card) {
   return card.value;
 }
 
@@ -28,9 +28,9 @@ export function scoreForAgent(cards) {
  * @param {Collection<Card>} cards
  * @returns number
  */
-export function scoreForGM(cards) {
+export function scoreForJack(cards) {
   return cards.reduce((acc, card) => {
-    return acc + getValueForGm(card);
+    return acc + getValueForJack(card);
   }, 0);
 }
 
@@ -40,6 +40,6 @@ export function scoreForGM(cards) {
  */
 export function sortByValue(cards) {
   return cards.contents.sort((a, b) => {
-    return getValueForGm(a) - getValueForGm(b);
+    return getValueForJack(a) - getValueForJack(b);
   });
 }

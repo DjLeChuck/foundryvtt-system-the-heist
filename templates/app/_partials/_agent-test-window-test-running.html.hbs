@@ -1,17 +1,17 @@
 <h2>{{localize "HEIST.AgentTestWindow.TitleWithTest" name=agent.name}}</h2>
 
 <div class="grid grid-2col align-center cards-container">
-  {{#each gm.cards}}
+  {{#each jack.cards}}
     <div>
       <img src="{{this.img}}" alt="{{this.name}}" class="card" />
     </div>
   {{/each}}
 </div>
 
-<p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=gm.score}}</p>
+<p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=jack.score}}</p>
 
 {{#if isAdmin}}
-  <p>{{localize "HEIST.AgentTestWindow.TotalScore" value=gm.totalScore}}</p>
+  <p>{{localize "HEIST.AgentTestWindow.TotalScore" value=jack.totalScore}}</p>
 
   {{#unless test.isRevealed}}
     <p>

@@ -1,5 +1,5 @@
 import * as HEIST from '../../const.mjs';
-import { AgentActor, GamemasterActor } from '../documents/_module.mjs';
+import { AgentActor, JackActor } from '../documents/_module.mjs';
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -42,7 +42,7 @@ export class HeistActorSheet extends ActorSheet {
     const context = super.getData();
     context.agents = this.actor.agents;
 
-    context.canTest = game.user.isGM && this.actor.gm?.deck?.availableCards.length >= 3;
+    context.canTest = game.user.isGM && this.actor.jack?.deck?.availableCards.length >= 3;
 
     return context;
   }
@@ -63,8 +63,8 @@ export class HeistActorSheet extends ActorSheet {
       agents.add(actor.id);
 
       await this.actor.update({ 'system.agents': Array.from(agents.values()) });
-    } else if (actor instanceof GamemasterActor) {
-      await this.actor.update({ 'system.gm': actor.id });
+    } else if (actor instanceof JackActor) {
+      await this.actor.update({ 'system.jack': actor.id });
     }
   }
 
@@ -73,7 +73,7 @@ export class HeistActorSheet extends ActorSheet {
 
     const dataset = e.currentTarget.dataset;
 
-    await this.actor.gm.doAgentTest(dataset?.difficulty, dataset?.agentId);
+    await this.actor.jack.doAgentTest(dataset?.difficulty, dataset?.agentId);
   }
 
   async #onRemoveAgent(e) {
@@ -90,9 +90,9 @@ export class HeistActorSheet extends ActorSheet {
     }
 
     await Dialog.confirm({
-      title: game.i18n.format('HEIST.GamemasterSheet.RemoveAgent.Title', { agent: agent.name }),
+      title: game.i18n.format('HEIST.JackSheet.RemoveAgent.Title', { agent: agent.name }),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
-<p>${game.i18n.format('HEIST.GamemasterSheet.RemoveAgent.Message', { agent: agent.name })}</p>`,
+<p>${game.i18n.format('HEIST.JackSheet.RemoveAgent.Message', { agent: agent.name })}</p>`,
       yes: this.#removeAgent.bind(this, agent),
     });
   }

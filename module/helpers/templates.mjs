@@ -6,8 +6,8 @@ import * as HEIST from '../const.mjs';
  */
 export const registerTemplates = function () {
   loadTemplates([
-    // Gamemaster actor
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_gamemaster-reconnaissance.html.hbs`,
+    // Jack actor
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_jack-reconnaissance.html.hbs`,
 
     // The Heist actor
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agents.html.hbs`,

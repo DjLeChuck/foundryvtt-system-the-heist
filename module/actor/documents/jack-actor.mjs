@@ -2,7 +2,7 @@ import { BasePlayerActor } from './base-player-actor.mjs';
 import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
 
-export class GamemasterActor extends BasePlayerActor {
+export class JackActor extends BasePlayerActor {
   /**
    * @returns {Cards|null}
    */
@@ -112,7 +112,7 @@ export class GamemasterActor extends BasePlayerActor {
   }
 
   _baseDeckId() {
-    return HEIST.GM_DECK_ID;
+    return HEIST.JACK_DECK_ID;
   }
 
   async _createDecks() {

@@ -1,7 +1,7 @@
 {
-  "name": "Deck du MJ",
+  "name": "Deck de Jack",
   "type": "deck",
-  "description": "Cartes du deck du maître du jeu.",
+  "description": "Cartes du deck de Jack.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {

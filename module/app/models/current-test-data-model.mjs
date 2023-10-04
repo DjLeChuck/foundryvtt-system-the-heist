@@ -3,7 +3,7 @@ export class CurrentTestDataModel extends foundry.abstract.DataModel {
     const fields = foundry.data.fields;
 
     return {
-      gm: new fields.DocumentIdField({
+      jack: new fields.DocumentIdField({
         readonly: false,
       }),
       agent: new fields.DocumentIdField({

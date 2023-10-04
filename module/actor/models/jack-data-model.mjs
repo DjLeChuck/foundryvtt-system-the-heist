@@ -1,6 +1,6 @@
 import { BasePlayerDataModel } from './base-player-data-model.mjs';
 
-export class GamemasterDataModel extends BasePlayerDataModel {
+export class JackDataModel extends BasePlayerDataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
 

@@ -2,14 +2,14 @@
   "Actor": {
     "types": [
       "agent",
-      "gamemaster",
+      "jack",
       "heist"
     ],
     "htmlFields": [
       "description"
     ],
     "agent": {},
-    "gamemaster": {},
+    "jack": {},
     "heist": {}
   },
   "Item": {

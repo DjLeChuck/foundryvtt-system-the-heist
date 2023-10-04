@@ -2,10 +2,10 @@ import { BaseActor } from './base-actor.mjs';
 
 export class HeistActor extends BaseActor {
   /**
-   * @returns {GamemasterActor|null}
+   * @returns {JackActor|null}
    */
-  get gm() {
-    return game.actors.get(this.system.gm);
+  get jack() {
+    return game.actors.get(this.system.jack);
   }
 
   /**

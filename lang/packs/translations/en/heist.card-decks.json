@@ -389,9 +389,9 @@
         }
       }
     },
-    "Deck du MJ": {
-      "name": "GM’s Deck",
-      "description": "Card deck of the Gamemaster.",
+    "Deck de Jack": {
+      "name": "Jack’s Deck",
+      "description": "Card deck of Jack.",
       "cards": {
         "As de Trèfle": {
           "faces": [

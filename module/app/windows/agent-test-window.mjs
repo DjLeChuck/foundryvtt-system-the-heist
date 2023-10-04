@@ -16,20 +16,20 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   /**
-   * @returns {GamemasterActor|null}
+   * @returns {JackActor|null}
    */
-  get gm() {
-    const gmID = this._getSetting('gm');
-    if (!gmID) {
+  get jack() {
+    const jackID = this._getSetting('jack');
+    if (!jackID) {
       return null;
     }
 
-    const gm = game.actors.get(gmID);
-    if (!gm) {
+    const jack = game.actors.get(jackID);
+    if (!jack) {
       return null;
     }
 
-    return gm;
+    return jack;
   }
 
   /**
@@ -70,9 +70,9 @@ export class AgentTestWindow extends WithSettingsWindow {
     return this._getSetting('isSuccessful', false);
   }
 
-  async prepareTest(gm, agent) {
+  async prepareTest(jack, agent) {
     await this._setSettings({
-      gm,
+      jack,
       agent,
       isRevealed: false,
       isFinished: false,
@@ -83,10 +83,10 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   getData() {
-    const gm = this.gm;
+    const jack = this.jack;
     const agent = this.agent;
 
-    if (null === gm || null === agent) {
+    if (null === jack || null === agent) {
       return {
         test: {
           isRunning: false,
@@ -94,10 +94,10 @@ export class AgentTestWindow extends WithSettingsWindow {
       };
     }
 
-    const gmCards = gm.testHand.cards;
+    const jackCards = jack.testHand.cards;
     const agentCards = agent.hand.cards;
     const agentScore = CARDS.scoreForAgent(agentCards);
-    const gmTotalScore = CARDS.scoreForGM(gmCards);
+    const jackTotalScore = CARDS.scoreForJack(jackCards);
 
     return {
       isAdmin: game.user.isGM,
@@ -108,10 +108,10 @@ export class AgentTestWindow extends WithSettingsWindow {
         isSuccessful: this.isSuccessful,
         isBlackjack: 21 === agentScore,
       },
-      gm: {
-        cards: CARDS.sortByValue(gmCards),
-        score: CARDS.scoreForAgent(gmCards),
-        totalScore: gmTotalScore,
+      jack: {
+        cards: CARDS.sortByValue(jackCards),
+        score: CARDS.scoreForAgent(jackCards),
+        totalScore: jackTotalScore,
       },
       agent: {
         name: agent.name,
@@ -153,7 +153,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     e.preventDefault();
 
     await this._setSettings({
-      isSuccessful: CARDS.scoreForGM(this.agent.hand.cards) >= CARDS.scoreForGM(this.gm.testHand.cards),
+      isSuccessful: CARDS.scoreForJack(this.agent.hand.cards) >= CARDS.scoreForJack(this.jack.testHand.cards),
       isFinished: true,
     });
 
@@ -180,7 +180,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       return;
     }
 
-    await this.gm.revealTest();
+    await this.jack.revealTest();
 
     await this._setSettings({ isRevealed: true });
 
@@ -197,7 +197,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     const testedAgent = this.agent;
     const recalls = [];
 
-    for (const agent of this.gm.agents) {
+    for (const agent of this.jack.agents) {
       if (agent === testedAgent) {
         const number = await agent.recallHand();
 
@@ -229,13 +229,13 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   async #clearHands() {
-    if (!this.gm) {
+    if (!this.jack) {
       return;
     }
 
-    await this.gm.throwTestHand();
+    await this.jack.throwTestHand();
 
-    for (const agent of this.gm.agents) {
+    for (const agent of this.jack.agents) {
       await agent.throwHand();
     }
   }
@@ -243,8 +243,8 @@ export class AgentTestWindow extends WithSettingsWindow {
   #refreshViews() {
     this.render(true);
 
-    if (this.gm?.sheet.rendered) {
-      this.gm?.sheet?.render(false, { focus: false });
+    if (this.jack?.sheet.rendered) {
+      this.jack?.sheet?.render(false, { focus: false });
     }
 
     if (this.agent?.sheet.rendered) {
