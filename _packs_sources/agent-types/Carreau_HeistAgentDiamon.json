@@ -1,9 +1,11 @@
 {
   "name": "Carreau",
   "type": "agentType",
-  "_id": "Aphrr30JH60NfbOP",
+  "_id": "HeistAgentDiamon",
   "img": "icons/svg/item-bag.svg",
   "system": {
+    "type": "diamond",
+    "deckId": "HeistDeckDiamond",
     "description": "<p>Souvent professionnelle et impressionnante, elle ou il est toujours certaine de ses compétences techniques, que ce soit en démolition, en mécanique ou en pilotage. Les <strong>Carreaux</strong> sont des techniciens experts, qui savent aisément improviser et qui ont appris à ne pas se laisser faire. Ils possèdent parfois un passé sombre...</p>"
   },
   "effects": [],
@@ -13,11 +15,6 @@
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
   },
-  "flags": {
-    "heist": {
-      "deckId": "d6RqAElimCGfzNBd"
-    }
-  },
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
@@ -26,5 +23,5 @@
     "modifiedTime": 1695240992018,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!Aphrr30JH60NfbOP"
+  "_key": "!items!HeistAgentDiamon"
 }

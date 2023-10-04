@@ -99,13 +99,13 @@ export class AgentActor extends BasePlayerActor {
   }
 
   _baseDeckId() {
-    if (null === this.agentType || !this.agentType.getFlag(HEIST.SYSTEM_ID, 'deckId')) {
+    if (null === this.agentType || !this.agentType.system?.deckId) {
       ui.notifications.error(game.i18n.format('HEIST.Errors.DeckIdNotSet'));
 
       return null;
     }
 
-    return this.agentType.getFlag(HEIST.SYSTEM_ID, 'deckId');
+    return this.agentType.system.deckId
   }
 
   async _createDecks() {

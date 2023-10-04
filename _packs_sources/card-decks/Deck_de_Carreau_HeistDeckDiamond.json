@@ -1,15 +1,15 @@
 {
-  "name": "Deck de Cœur",
+  "name": "Deck de Carreau",
   "type": "deck",
-  "description": "Cartes du deck de Cœur.",
+  "description": "Cartes du deck de Carreau.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "As de Cœur",
+      "name": "As de Carreau",
       "faces": [
         {
-          "name": "As de Cœur",
-          "img": "cards/dark-gold/hearts-ace.webp",
+          "name": "As de Carreau",
+          "img": "cards/dark-gold/diamonds-ace.webp",
           "text": ""
         }
       ],
@@ -18,12 +18,12 @@
       "rotation": 0,
       "type": "base",
       "value": 11,
-      "suit": "hearts",
-      "_id": "PpqIxib3t6mqgtGD",
+      "suit": "diamonds",
+      "_id": "hR0x0AwWqE848wMe",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 26,
+      "sort": 13,
       "flags": {},
       "back": {
         "name": "",
@@ -33,15 +33,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.PpqIxib3t6mqgtGD"
+      "_key": "!cards.cards!HeistDeckDiamond.hR0x0AwWqE848wMe"
     },
     {
-      "name": "Deux de Cœur",
+      "name": "Deux de Carreau",
       "faces": [
         {
-          "name": "Deux de Cœur",
+          "name": "Deux de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-02.webp"
+          "img": "cards/dark-gold/diamonds-02.webp"
         }
       ],
       "width": 2,
@@ -49,12 +49,12 @@
       "rotation": 0,
       "type": "base",
       "value": 2,
-      "suit": "hearts",
-      "_id": "XRM7MdLoRGyvgwsc",
+      "suit": "diamonds",
+      "_id": "NHt29JpITypcY2ix",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 27,
+      "sort": 14,
       "flags": {},
       "back": {
         "name": "",
@@ -63,15 +63,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XRM7MdLoRGyvgwsc"
+      "_key": "!cards.cards!HeistDeckDiamond.NHt29JpITypcY2ix"
     },
     {
-      "name": "Trois de Cœur",
+      "name": "Trois de Carreau",
       "faces": [
         {
-          "name": "Trois de Cœur",
+          "name": "Trois de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-03.webp"
+          "img": "cards/dark-gold/diamonds-03.webp"
         }
       ],
       "width": 2,
@@ -79,12 +79,12 @@
       "rotation": 0,
       "type": "base",
       "value": 3,
-      "suit": "hearts",
-      "_id": "6GSrHlpgnFo9fT7j",
+      "suit": "diamonds",
+      "_id": "x1Umm37xuxJ5eAcj",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 28,
+      "sort": 15,
       "flags": {},
       "back": {
         "name": "",
@@ -93,15 +93,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.6GSrHlpgnFo9fT7j"
+      "_key": "!cards.cards!HeistDeckDiamond.x1Umm37xuxJ5eAcj"
     },
     {
-      "name": "Quatre de Cœur",
+      "name": "Quatre de Carreau",
       "faces": [
         {
-          "name": "Quatre de Cœur",
+          "name": "Quatre de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-04.webp"
+          "img": "cards/dark-gold/diamonds-04.webp"
         }
       ],
       "width": 2,
@@ -109,12 +109,12 @@
       "rotation": 0,
       "type": "base",
       "value": 4,
-      "suit": "hearts",
-      "_id": "16v9ggdoIzIKDqDL",
+      "suit": "diamonds",
+      "_id": "JYktSwBB0gUHKa6S",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 29,
+      "sort": 16,
       "flags": {},
       "back": {
         "name": "",
@@ -123,15 +123,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.16v9ggdoIzIKDqDL"
+      "_key": "!cards.cards!HeistDeckDiamond.JYktSwBB0gUHKa6S"
     },
     {
-      "name": "Cinq de Cœur",
+      "name": "Cinq de Carreau",
       "faces": [
         {
-          "name": "Cinq de Cœur",
+          "name": "Cinq de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-05.webp"
+          "img": "cards/dark-gold/diamonds-05.webp"
         }
       ],
       "width": 2,
@@ -139,12 +139,12 @@
       "rotation": 0,
       "type": "base",
       "value": 5,
-      "suit": "hearts",
-      "_id": "hHphZIYnFESJKW3Y",
+      "suit": "diamonds",
+      "_id": "4YYBgMyTJmJz4wyJ",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 30,
+      "sort": 17,
       "flags": {},
       "back": {
         "name": "",
@@ -153,15 +153,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.hHphZIYnFESJKW3Y"
+      "_key": "!cards.cards!HeistDeckDiamond.4YYBgMyTJmJz4wyJ"
     },
     {
-      "name": "Six de Cœur",
+      "name": "Six de Carreau",
       "faces": [
         {
-          "name": "Six de Cœur",
+          "name": "Six de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-06.webp"
+          "img": "cards/dark-gold/diamonds-06.webp"
         }
       ],
       "width": 2,
@@ -169,12 +169,12 @@
       "rotation": 0,
       "type": "base",
       "value": 6,
-      "suit": "hearts",
-      "_id": "xpCH3DivRVNGouvm",
+      "suit": "diamonds",
+      "_id": "2KIKPjMFhZVQXdkB",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 31,
+      "sort": 18,
       "flags": {},
       "back": {
         "name": "",
@@ -183,15 +183,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xpCH3DivRVNGouvm"
+      "_key": "!cards.cards!HeistDeckDiamond.2KIKPjMFhZVQXdkB"
     },
     {
-      "name": "Sept de Cœur",
+      "name": "Sept de Carreau",
       "faces": [
         {
-          "name": "Sept de Cœur",
+          "name": "Sept de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-07.webp"
+          "img": "cards/dark-gold/diamonds-07.webp"
         }
       ],
       "width": 2,
@@ -199,12 +199,12 @@
       "rotation": 0,
       "type": "base",
       "value": 7,
-      "suit": "hearts",
-      "_id": "XxMqu8DH4jJ5DciP",
+      "suit": "diamonds",
+      "_id": "XtWM5u2S94nTQwD1",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 32,
+      "sort": 19,
       "flags": {},
       "back": {
         "name": "",
@@ -213,15 +213,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.XxMqu8DH4jJ5DciP"
+      "_key": "!cards.cards!HeistDeckDiamond.XtWM5u2S94nTQwD1"
     },
     {
-      "name": "Huit de Cœur",
+      "name": "Huit de Carreau",
       "faces": [
         {
-          "name": "Huit de Cœur",
+          "name": "Huit de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-08.webp"
+          "img": "cards/dark-gold/diamonds-08.webp"
         }
       ],
       "width": 2,
@@ -229,12 +229,12 @@
       "rotation": 0,
       "type": "base",
       "value": 8,
-      "suit": "hearts",
-      "_id": "1NcfAUG9wdqsU9SW",
+      "suit": "diamonds",
+      "_id": "1wNVfbqZhPUT6Uqi",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 33,
+      "sort": 20,
       "flags": {},
       "back": {
         "name": "",
@@ -243,15 +243,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.1NcfAUG9wdqsU9SW"
+      "_key": "!cards.cards!HeistDeckDiamond.1wNVfbqZhPUT6Uqi"
     },
     {
-      "name": "Neuf de Cœur",
+      "name": "Neuf de Carreau",
       "faces": [
         {
-          "name": "Neuf de Cœur",
+          "name": "Neuf de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-09.webp"
+          "img": "cards/dark-gold/diamonds-09.webp"
         }
       ],
       "width": 2,
@@ -259,12 +259,12 @@
       "rotation": 0,
       "type": "base",
       "value": 9,
-      "suit": "hearts",
-      "_id": "0sI4Htn1NR11zTEK",
+      "suit": "diamonds",
+      "_id": "rZg26MpPZ4H4DrJd",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 34,
+      "sort": 21,
       "flags": {},
       "back": {
         "name": "",
@@ -273,15 +273,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.0sI4Htn1NR11zTEK"
+      "_key": "!cards.cards!HeistDeckDiamond.rZg26MpPZ4H4DrJd"
     },
     {
-      "name": "Dix de Cœur",
+      "name": "Dix de Carreau",
       "faces": [
         {
-          "name": "Dix de Cœur",
+          "name": "Dix de Carreau",
           "text": "",
-          "img": "cards/dark-gold/hearts-10.webp"
+          "img": "cards/dark-gold/diamonds-10.webp"
         }
       ],
       "width": 2,
@@ -289,12 +289,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "5SNZYzAjHduVhZsA",
+      "suit": "diamonds",
+      "_id": "HB0VCdNk7AvZYmVW",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 35,
+      "sort": 22,
       "flags": {},
       "back": {
         "name": "",
@@ -303,14 +303,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5SNZYzAjHduVhZsA"
+      "_key": "!cards.cards!HeistDeckDiamond.HB0VCdNk7AvZYmVW"
     },
     {
-      "name": "Valet de Cœur",
+      "name": "Valet de Carreau",
       "faces": [
         {
-          "name": "Valet de Cœur",
-          "img": "cards/dark-gold/hearts-jack.webp",
+          "name": "Valet de Carreau",
+          "img": "cards/dark-gold/diamonds-jack.webp",
           "text": ""
         }
       ],
@@ -319,12 +319,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "5gqebD2qo82GlRpV",
+      "suit": "diamonds",
+      "_id": "qq2gcTwhpvresgwi",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 36,
+      "sort": 23,
       "flags": {},
       "back": {
         "name": "",
@@ -334,14 +334,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.5gqebD2qo82GlRpV"
+      "_key": "!cards.cards!HeistDeckDiamond.qq2gcTwhpvresgwi"
     },
     {
-      "name": "Dame de Cœur",
+      "name": "Dame de Carreau",
       "faces": [
         {
-          "name": "Dame de Cœur",
-          "img": "cards/dark-gold/hearts-queen.webp",
+          "name": "Dame de Carreau",
+          "img": "cards/dark-gold/diamonds-queen.webp",
           "text": ""
         }
       ],
@@ -350,12 +350,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "xrxzIz2PAe3QU8RK",
+      "suit": "diamonds",
+      "_id": "Z0CTeRFZEu1xKz01",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 37,
+      "sort": 24,
       "flags": {},
       "back": {
         "name": "",
@@ -365,14 +365,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.xrxzIz2PAe3QU8RK"
+      "_key": "!cards.cards!HeistDeckDiamond.Z0CTeRFZEu1xKz01"
     },
     {
-      "name": "Roi de Cœur",
+      "name": "Roi de Carreau",
       "faces": [
         {
-          "name": "Roi de Cœur",
-          "img": "cards/dark-gold/hearts-king.webp",
+          "name": "Roi de Carreau",
+          "img": "cards/dark-gold/diamonds-king.webp",
           "text": ""
         }
       ],
@@ -381,12 +381,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "hearts",
-      "_id": "X5uUlTlTmZ47fFBo",
+      "suit": "diamonds",
+      "_id": "21K0tt6MzapgbzSL",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 38,
+      "sort": 25,
       "flags": {},
       "back": {
         "name": "",
@@ -396,7 +396,7 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!CAJM3Kimh8V2KAgZ.X5uUlTlTmZ47fFBo"
+      "_key": "!cards.cards!HeistDeckDiamond.21K0tt6MzapgbzSL"
     }
   ],
   "width": 2,
@@ -405,7 +405,7 @@
   "displayCount": true,
   "flags": {},
   "system": {},
-  "_id": "CAJM3Kimh8V2KAgZ",
+  "_id": "HeistDeckDiamond",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -416,9 +416,9 @@
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1694536194798,
-    "modifiedTime": 1694536889225,
+    "createdTime": 1694536308275,
+    "modifiedTime": 1694536901206,
     "lastModifiedBy": "vVJVBCfWogk10kDN"
   },
-  "_key": "!cards!CAJM3Kimh8V2KAgZ"
+  "_key": "!cards!HeistDeckDiamond"
 }

@@ -1,7 +1,7 @@
 export const SYSTEM_ID = 'heist';
 
 export const COMPENDIUM_DECK_ID = `${SYSTEM_ID}.card-decks`;
-export const JACK_DECK_ID = '6iHXq3POOsIUPQOB';
+export const JACK_DECK_ID = 'HeistDeckJack000';
 
 export const GAME_PHASE_CREATION = 'creation';
 export const GAME_PHASE_BRIEFING = 'briefing';

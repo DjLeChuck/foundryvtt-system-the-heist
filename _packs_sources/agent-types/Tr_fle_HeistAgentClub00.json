@@ -1,9 +1,11 @@
 {
   "name": "Trèfle",
   "type": "agentType",
-  "_id": "WZETYxMj05ktoNDN",
+  "_id": "HeistAgentClub00",
   "img": "icons/svg/item-bag.svg",
   "system": {
+    "type": "club",
+    "deckId": "HeistDeckClub000",
     "description": "<p>Observatrice et géniale, elle ou il est toujours dotée d'une intelligence hors norme. Les <strong>Trèfles</strong> sont des personnages aux multiples diplômes, qui mettent leur génie au service des phases de préparation et qui planifient les actions du groupe. Éléments indispensables d'une équipe d'agent, ils en sont souvent les cerveaux.</p>"
   },
   "effects": [],
@@ -13,11 +15,6 @@
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
   },
-  "flags": {
-    "heist": {
-      "deckId": "qOga6zR3CbE0dPsg"
-    }
-  },
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
@@ -26,5 +23,5 @@
     "modifiedTime": 1695241015384,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!WZETYxMj05ktoNDN"
+  "_key": "!items!HeistAgentClub00"
 }

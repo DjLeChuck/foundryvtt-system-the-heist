@@ -1,9 +1,11 @@
 {
   "name": "Cœur",
   "type": "agentType",
-  "_id": "3IxPwTiTEb2ofovu",
+  "_id": "HeistAgentHeart0",
   "img": "icons/svg/item-bag.svg",
   "system": {
+    "type": "heart",
+    "deckId": "HeistDeckHeart00",
     "description": "<p>Charmeur et joueur, il ou elle est très sûr de son charme, toujours élégamment habillé. Les <strong>Cœurs</strong> sont des personnages sociaux par excellence, qui savent discuter, séduire ou imiter pour détourner l’attention, faire de sensationnelles diversions ou encore obtenir les faveurs d’une cible.</p>"
   },
   "effects": [],
@@ -13,11 +15,6 @@
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
   },
-  "flags": {
-    "heist": {
-      "deckId": "CAJM3Kimh8V2KAgZ"
-    }
-  },
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
@@ -26,5 +23,5 @@
     "modifiedTime": 1695240893182,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!3IxPwTiTEb2ofovu"
+  "_key": "!items!HeistAgentHeart0"
 }

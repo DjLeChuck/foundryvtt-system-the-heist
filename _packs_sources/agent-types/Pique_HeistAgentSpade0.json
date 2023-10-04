@@ -1,9 +1,11 @@
 {
   "name": "Pique",
   "type": "agentType",
-  "_id": "jLVBQF1kFlMvQiPs",
+  "_id": "HeistAgentSpade0",
   "img": "icons/svg/item-bag.svg",
   "system": {
+    "type": "spade",
+    "deckId": "HeistDeckSpade00",
     "description": "<p>Aussi élégant que gracieux, il ou elle est immuablement dextre et discret. Les <strong>Piques</strong> sont capables de prouesses physiques impressionnantes tout en étant des cambrioleurs de profession. Ce sont souvent des monte-en-l'air qui sont au cœur des phases d'action de l'agence.</p>"
   },
   "effects": [],
@@ -13,11 +15,6 @@
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
   },
-  "flags": {
-    "heist": {
-      "deckId": "XtNOuXuY7FqONrkd"
-    }
-  },
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
@@ -26,5 +23,5 @@
     "modifiedTime": 1695241029694,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!jLVBQF1kFlMvQiPs"
+  "_key": "!items!HeistAgentSpade0"
 }

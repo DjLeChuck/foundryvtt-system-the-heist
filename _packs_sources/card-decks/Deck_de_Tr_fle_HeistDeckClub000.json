@@ -1,15 +1,15 @@
 {
-  "name": "Deck de Pique",
+  "name": "Deck de Trèfle",
   "type": "deck",
-  "description": "Cartes du deck de Pique.",
+  "description": "Cartes du deck de Trèfle.",
   "img": "cards/backs/dark-gold.webp",
   "cards": [
     {
-      "name": "As de Pique",
+      "name": "As de Trèfle",
       "faces": [
         {
-          "name": "As de Pique",
-          "img": "cards/dark-gold/spades-ace.webp",
+          "name": "As de Trèfle",
+          "img": "cards/dark-gold/clubs-ace.webp",
           "text": ""
         }
       ],
@@ -18,12 +18,12 @@
       "rotation": 0,
       "type": "base",
       "value": 11,
-      "suit": "spades",
-      "_id": "CWgif1hwr9zHSi1Z",
+      "suit": "clubs",
+      "_id": "wXvlgmV7YwKDxSjH",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 39,
+      "sort": 0,
       "flags": {},
       "back": {
         "name": "",
@@ -33,15 +33,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.CWgif1hwr9zHSi1Z"
+      "_key": "!cards.cards!HeistDeckClub000.wXvlgmV7YwKDxSjH"
     },
     {
-      "name": "Deux de Pique",
+      "name": "Deux de Trèfle",
       "faces": [
         {
-          "name": "Deux de Pique",
+          "name": "Deux de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-02.webp"
+          "img": "cards/dark-gold/clubs-02.webp"
         }
       ],
       "width": 2,
@@ -49,12 +49,12 @@
       "rotation": 0,
       "type": "base",
       "value": 2,
-      "suit": "spades",
-      "_id": "rkN2VIFOCoIFTljy",
+      "suit": "clubs",
+      "_id": "r0G9Og8k5aHqR8Pg",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 40,
+      "sort": 1,
       "flags": {},
       "back": {
         "name": "",
@@ -63,15 +63,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.rkN2VIFOCoIFTljy"
+      "_key": "!cards.cards!HeistDeckClub000.r0G9Og8k5aHqR8Pg"
     },
     {
-      "name": "Trois de Pique",
+      "name": "Trois de Trèfle",
       "faces": [
         {
-          "name": "Trois de Pique",
+          "name": "Trois de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-03.webp"
+          "img": "cards/dark-gold/clubs-03.webp"
         }
       ],
       "width": 2,
@@ -79,12 +79,12 @@
       "rotation": 0,
       "type": "base",
       "value": 3,
-      "suit": "spades",
-      "_id": "tjZBEJGNOGw5OarJ",
+      "suit": "clubs",
+      "_id": "unqGlb57BrdvWGaR",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 41,
+      "sort": 2,
       "flags": {},
       "back": {
         "name": "",
@@ -93,15 +93,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.tjZBEJGNOGw5OarJ"
+      "_key": "!cards.cards!HeistDeckClub000.unqGlb57BrdvWGaR"
     },
     {
-      "name": "Quatre de Pique",
+      "name": "Quatre de Trèfle",
       "faces": [
         {
-          "name": "Quatre de Pique",
+          "name": "Quatre de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-04.webp"
+          "img": "cards/dark-gold/clubs-04.webp"
         }
       ],
       "width": 2,
@@ -109,12 +109,12 @@
       "rotation": 0,
       "type": "base",
       "value": 4,
-      "suit": "spades",
-      "_id": "U88fDHv16N7NwKog",
+      "suit": "clubs",
+      "_id": "ZzTCuGUxAi5qmwVd",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 42,
+      "sort": 3,
       "flags": {},
       "back": {
         "name": "",
@@ -123,15 +123,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.U88fDHv16N7NwKog"
+      "_key": "!cards.cards!HeistDeckClub000.ZzTCuGUxAi5qmwVd"
     },
     {
-      "name": "Cinq de Pique",
+      "name": "Cinq de Trèfle",
       "faces": [
         {
-          "name": "Cinq de Pique",
+          "name": "Cinq de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-05.webp"
+          "img": "cards/dark-gold/clubs-05.webp"
         }
       ],
       "width": 2,
@@ -139,12 +139,12 @@
       "rotation": 0,
       "type": "base",
       "value": 5,
-      "suit": "spades",
-      "_id": "BWAoswy63BNmbfFR",
+      "suit": "clubs",
+      "_id": "SHeHIXRD5DLhBTWf",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 43,
+      "sort": 4,
       "flags": {},
       "back": {
         "name": "",
@@ -153,15 +153,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.BWAoswy63BNmbfFR"
+      "_key": "!cards.cards!HeistDeckClub000.SHeHIXRD5DLhBTWf"
     },
     {
-      "name": "Six de Pique",
+      "name": "Six de Trèfle",
       "faces": [
         {
-          "name": "Six de Pique",
+          "name": "Six de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-06.webp"
+          "img": "cards/dark-gold/clubs-06.webp"
         }
       ],
       "width": 2,
@@ -169,12 +169,12 @@
       "rotation": 0,
       "type": "base",
       "value": 6,
-      "suit": "spades",
-      "_id": "wGJNwFgIDRKHsuNs",
+      "suit": "clubs",
+      "_id": "SPJOZgF9HN1EZ2TY",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 44,
+      "sort": 5,
       "flags": {},
       "back": {
         "name": "",
@@ -183,15 +183,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.wGJNwFgIDRKHsuNs"
+      "_key": "!cards.cards!HeistDeckClub000.SPJOZgF9HN1EZ2TY"
     },
     {
-      "name": "Sept de Pique",
+      "name": "Sept de Trèfle",
       "faces": [
         {
-          "name": "Sept de Pique",
+          "name": "Sept de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-07.webp"
+          "img": "cards/dark-gold/clubs-07.webp"
         }
       ],
       "width": 2,
@@ -199,12 +199,12 @@
       "rotation": 0,
       "type": "base",
       "value": 7,
-      "suit": "spades",
-      "_id": "zOVzGhV7WCZ6g0DH",
+      "suit": "clubs",
+      "_id": "Wwm5kqTuhOVeqR3E",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 45,
+      "sort": 6,
       "flags": {},
       "back": {
         "name": "",
@@ -213,15 +213,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.zOVzGhV7WCZ6g0DH"
+      "_key": "!cards.cards!HeistDeckClub000.Wwm5kqTuhOVeqR3E"
     },
     {
-      "name": "Huit de Pique",
+      "name": "Huit de Trèfle",
       "faces": [
         {
-          "name": "Huit de Pique",
+          "name": "Huit de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-08.webp"
+          "img": "cards/dark-gold/clubs-08.webp"
         }
       ],
       "width": 2,
@@ -229,12 +229,12 @@
       "rotation": 0,
       "type": "base",
       "value": 8,
-      "suit": "spades",
-      "_id": "O39MQt4Die23LekG",
+      "suit": "clubs",
+      "_id": "0LEcFSU7RPiBw1Cj",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 46,
+      "sort": 7,
       "flags": {},
       "back": {
         "name": "",
@@ -243,15 +243,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.O39MQt4Die23LekG"
+      "_key": "!cards.cards!HeistDeckClub000.0LEcFSU7RPiBw1Cj"
     },
     {
-      "name": "Neuf de Pique",
+      "name": "Neuf de Trèfle",
       "faces": [
         {
-          "name": "Neuf de Pique",
+          "name": "Neuf de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-09.webp"
+          "img": "cards/dark-gold/clubs-09.webp"
         }
       ],
       "width": 2,
@@ -259,12 +259,12 @@
       "rotation": 0,
       "type": "base",
       "value": 9,
-      "suit": "spades",
-      "_id": "SHsshwOizq97j7Yv",
+      "suit": "clubs",
+      "_id": "jUvavOLjRT2dtAu5",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 47,
+      "sort": 8,
       "flags": {},
       "back": {
         "name": "",
@@ -273,15 +273,15 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.SHsshwOizq97j7Yv"
+      "_key": "!cards.cards!HeistDeckClub000.jUvavOLjRT2dtAu5"
     },
     {
-      "name": "Dix de Pique",
+      "name": "Dix de Trèfle",
       "faces": [
         {
-          "name": "Dix de Pique",
+          "name": "Dix de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/spades-10.webp"
+          "img": "cards/dark-gold/clubs-10.webp"
         }
       ],
       "width": 2,
@@ -289,12 +289,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "XnXbwpNpZzZua7Qe",
+      "suit": "clubs",
+      "_id": "8ku0qEM6LJK2jpBD",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 48,
+      "sort": 9,
       "flags": {},
       "back": {
         "name": "",
@@ -303,14 +303,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.XnXbwpNpZzZua7Qe"
+      "_key": "!cards.cards!HeistDeckClub000.8ku0qEM6LJK2jpBD"
     },
     {
-      "name": "Valet de Pique",
+      "name": "Valet de Trèfle",
       "faces": [
         {
-          "name": "Valet de Pique",
-          "img": "cards/dark-gold/spades-jack.webp",
+          "name": "Valet de Trèfle",
+          "img": "cards/dark-gold/clubs-jack.webp",
           "text": ""
         }
       ],
@@ -319,12 +319,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "3bcTt41XPE6JYXjm",
+      "suit": "clubs",
+      "_id": "L3BdwK8Wjo8UNyzL",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 49,
+      "sort": 10,
       "flags": {},
       "back": {
         "name": "",
@@ -334,14 +334,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.3bcTt41XPE6JYXjm"
+      "_key": "!cards.cards!HeistDeckClub000.L3BdwK8Wjo8UNyzL"
     },
     {
-      "name": "Dame de Pique",
+      "name": "Dame de Trèfle",
       "faces": [
         {
-          "name": "Dame de Pique",
-          "img": "cards/dark-gold/spades-queen.webp",
+          "name": "Dame de Trèfle",
+          "img": "cards/dark-gold/clubs-queen.webp",
           "text": ""
         }
       ],
@@ -350,12 +350,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "bNing2cbz9nbdqvl",
+      "suit": "clubs",
+      "_id": "eF5KAukclMjuXhWq",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 50,
+      "sort": 11,
       "flags": {},
       "back": {
         "name": "",
@@ -365,14 +365,14 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.bNing2cbz9nbdqvl"
+      "_key": "!cards.cards!HeistDeckClub000.eF5KAukclMjuXhWq"
     },
     {
-      "name": "Roi de Pique",
+      "name": "Roi de Trèfle",
       "faces": [
         {
-          "name": "Roi de Pique",
-          "img": "cards/dark-gold/spades-king.webp",
+          "name": "Roi de Trèfle",
+          "img": "cards/dark-gold/clubs-king.webp",
           "text": ""
         }
       ],
@@ -381,12 +381,12 @@
       "rotation": 0,
       "type": "base",
       "value": 10,
-      "suit": "spades",
-      "_id": "c9jqBcs9dWaqnqKf",
+      "suit": "clubs",
+      "_id": "hux4CICxmt8DTsyN",
       "description": "",
       "face": 0,
       "drawn": false,
-      "sort": 51,
+      "sort": 12,
       "flags": {},
       "back": {
         "name": "",
@@ -396,7 +396,7 @@
       "origin": "ye4k4c8ILOXk4prz",
       "system": {},
       "cards": [],
-      "_key": "!cards.cards!XtNOuXuY7FqONrkd.c9jqBcs9dWaqnqKf"
+      "_key": "!cards.cards!HeistDeckClub000.hux4CICxmt8DTsyN"
     }
   ],
   "width": 2,
@@ -405,7 +405,7 @@
   "displayCount": true,
   "flags": {},
   "system": {},
-  "_id": "XtNOuXuY7FqONrkd",
+  "_id": "HeistDeckClub000",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -416,9 +416,9 @@
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.308",
-    "createdTime": 1694536079932,
-    "modifiedTime": 1694536884422,
+    "createdTime": 1694536281006,
+    "modifiedTime": 1694536913974,
     "lastModifiedBy": "vVJVBCfWogk10kDN"
   },
-  "_key": "!cards!XtNOuXuY7FqONrkd"
+  "_key": "!cards!HeistDeckClub000"
 }
