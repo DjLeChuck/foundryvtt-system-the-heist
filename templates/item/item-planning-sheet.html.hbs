@@ -10,8 +10,9 @@
 
   <section class="sheet-body">
     <p>
-      <label for="cost-{{this.id}}">Coût</label>
-      <select name="system.cost">{{selectOptions costChoices selected=this.system.cost}}</select> crédits
+      <label for="cost-{{this.id}}">{{localize "HEIST.PlanningItem.Cost"}}</label>
+      <select name="system.cost">{{selectOptions costChoices selected=this.system.cost}}</select>
+      {{localize "HEIST.PlanningItem.Credits"}}
     </p>
 
     {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}

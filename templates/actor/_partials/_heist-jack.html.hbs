@@ -1,17 +1,17 @@
 <div class="agency-member agent-card-wrapper">
   <div class="agent-card">
-    <div class="flexrow flex-group-left">
-      <p><u>{{localize "HEIST.Global.AgentName"}}</u> <strong>{{jack.name}}</strong></p>
-
-      {{#if isGM}}
-        <div class="flexshrink">
-          <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
-                  data-type="jack"
-                  data-id="{{jack.id}}">
-            <i class="fa fa-trash"></i>
-          </button>
-        </div>
-      {{/if}}
+    <div class="flexcol flex-group-center">
+      <img class="profile-img" src="{{jack.img}}" title="{{jack.name}}" height="100" width="100" />
+      <p><strong>{{jack.name}}</strong></p>
     </div>
+
+    {{#if isGM}}
+      <div class="remove-btn">
+        <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
+                data-type="jack" data-id="{{jack.id}}">
+          <i class="fa fa-trash"></i>
+        </button>
+      </div>
+    {{/if}}
   </div>
 </div>

@@ -1,1 +1,43 @@
-<p>PLANNING</p>
+<div class="flexcol">
+  <div class="align-center">Crédits</div>
+  <div class="flexrow flex-group-center">
+    <div>{{localize "HEIST.HeistSheet.Planning.Credit.Available"}} {{planning.credits.available}}</div>
+    <div>{{localize "HEIST.HeistSheet.Planning.Credit.Used"}} {{planning.credits.used}}</div>
+    <div>{{localize "HEIST.HeistSheet.Planning.Credit.Remaining"}} {{planning.credits.remaining}}</div>
+  </div>
+
+  {{#if isOwner}}
+    <p>
+      <button type="button" data-add-planning-item{{#unless planning.canAddItem}} disabled{{/unless}}>
+        {{localize "HEIST.HeistSheet.Planning.AddItem"}}
+      </button>
+    </p>
+  {{/if}}
+</div>
+
+<hr />
+
+<div class="grid grid-3col">
+  {{#each items}}
+    <div>
+      <div class="flexcol flex-group-center">
+        <img class="profile-img" src="{{this.img}}" title="{{this.name}}" height="100" width="100" />
+        <p><strong>{{this.name}}</strong></p>
+        <p>
+          <u>{{localize "HEIST.PlanningItem.Cost"}}</u>
+          <strong>{{this.system.cost}} {{localize "HEIST.PlanningItem.Credits"}}</strong></p>
+      </div>
+
+      {{#if ../isOwner}}
+        <div class="flexrow">
+          <button type="button" title="{{localize "HEIST.Global.Edit"}}" data-edit-item data-id="{{this._id}}">
+            <i class="fa fa-pencil"></i>
+          </button>
+          <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-item data-id="{{this._id}}">
+            <i class="fa fa-trash"></i>
+          </button>
+        </div>
+      {{/if}}
+    </div>
+  {{/each}}
+</div>

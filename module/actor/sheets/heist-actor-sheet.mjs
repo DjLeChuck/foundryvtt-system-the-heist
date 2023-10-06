@@ -1,5 +1,6 @@
 import * as HEIST from '../../const.mjs';
 import { AgentActor, JackActor } from '../documents/_module.mjs';
+import { PlanningItem } from '../../item/documents/_module.mjs';
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -10,7 +11,7 @@ export class HeistActorSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
-      width: 1100,
+      width: 830,
       height: 900,
       template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
@@ -29,12 +30,20 @@ export class HeistActorSheet extends ActorSheet {
   activateListeners(html) {
     super.activateListeners(html);
 
+    if (!game.user.isOwner) {
+      return;
+    }
+
+    html.find('[data-add-planning-item]').click(this.#onAddPlanningItem.bind(this));
+
     if (!game.user.isGM) {
       return;
     }
 
     html.find('[data-ask-agent-test]').click(this.#onAskAgentTest.bind(this));
     html.find('[data-remove-actor]').click(this.#onRemoveActor.bind(this));
+    html.find('[data-edit-item]').click(this.#onEditItem.bind(this));
+    html.find('[data-remove-item]').click(this.#onRemoveItem.bind(this));
   }
 
   /** @override */
@@ -47,7 +56,10 @@ export class HeistActorSheet extends ActorSheet {
     context.club = this.actor.club;
 
     context.isGM = game.user.isGM;
+    context.isOwner = game.user.isOwner;
     context.canTest = game.user.isGM && this.actor.jack?.deck?.availableCards.length >= 3;
+
+    await this.#preparePlanningContext(context);
 
     return context;
   }
@@ -75,6 +87,31 @@ export class HeistActorSheet extends ActorSheet {
     }
   }
 
+  async _onDropItem(event, data) {
+    if (!game.user.isGM) {
+      return false;
+    }
+
+    /** @var Item item */
+    const item = await fromUuid(data.uuid);
+    if (!item || !(item instanceof PlanningItem)) {
+      return false;
+    }
+
+    return super._onDropItem(event, data);
+  }
+
+  async #onAddPlanningItem(e) {
+    e.preventDefault();
+
+    const items = await this.actor.createEmbeddedDocuments('Item', [{
+      type: 'planning',
+      name: game.i18n.localize('HEIST.Global.NewItem'),
+    }]);
+
+    items[0]?.sheet?.render(true);
+  }
+
   async #onAskAgentTest(e) {
     e.preventDefault();
 
@@ -97,14 +134,65 @@ export class HeistActorSheet extends ActorSheet {
     }
 
     await Dialog.confirm({
-      title: game.i18n.format('HEIST.HeistSheet.RemoveAgent.Title'),
+      title: game.i18n.format('HEIST.HeistSheet.RemoveActor.Title'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
-<p>${game.i18n.format('HEIST.HeistSheet.RemoveAgent.Message', { agent: actor.name })}</p>`,
+<p>${game.i18n.format('HEIST.HeistSheet.RemoveActor.Message', { agent: actor.name })}</p>`,
       yes: this.#removeActor.bind(this, type),
     });
   }
 
   async #removeActor(type) {
     await this.actor.update({ [`system.${type}`]: null });
+  }
+
+  async #onEditItem(e) {
+    e.preventDefault();
+
+    const { id: itemId, type } = e.currentTarget.dataset;
+    if (!itemId) {
+      return;
+    }
+
+    const item = this.actor.items.get(itemId);
+    if (!item) {
+      return;
+    }
+
+    await item.sheet.render(true);
+  }
+
+  async #onRemoveItem(e) {
+    e.preventDefault();
+
+    const { id: itemId, type } = e.currentTarget.dataset;
+    if (!itemId) {
+      return;
+    }
+
+    const item = this.actor.items.get(itemId);
+    if (!item) {
+      return;
+    }
+
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.Global.Delete'),
+      content: `<p>${game.i18n.localize('AreYouSure')}</p>`,
+      yes: () => item.delete(),
+    });
+  }
+
+  async #preparePlanningContext(context) {
+    const available = game.settings.get(HEIST.SYSTEM_ID, 'availableCreditsOnPlanningPhase');
+    const used = context.items.reduce((acc, item) => acc + item.system.cost, 0);
+    const remaining = available - used;
+
+    context.planning = {
+      credits: {
+        available,
+        used,
+        remaining,
+      },
+      canAddItem: 0 < remaining,
+    };
   }
 }
