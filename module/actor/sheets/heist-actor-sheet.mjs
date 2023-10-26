@@ -18,8 +18,8 @@ export class HeistActorSheet extends ActorSheet {
     });
   }
 
-  constructor(options) {
-    super(options);
+  constructor(object, options = {}) {
+    super(object, options);
 
     Hooks.on('updateCard', async (card, change) => {
       if (!change?.drawn) {
@@ -28,6 +28,8 @@ export class HeistActorSheet extends ActorSheet {
 
       this.render();
     });
+
+    Hooks.on(`${HEIST.SYSTEM_ID}.changeGamePhase`, () => this.render());
   }
 
   /**
@@ -214,14 +216,16 @@ export class HeistActorSheet extends ActorSheet {
     const available = game.settings.get(HEIST.SYSTEM_ID, 'availableCreditsOnPlanningPhase');
     const used = context.items.reduce((acc, item) => acc + item.system.cost, 0);
     const remaining = available - used;
+    const planningActive = HEIST.GAME_PHASE_PLANNING === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id;
 
     context.planning = {
+      active: planningActive,
       credits: {
         available,
         used,
         remaining,
       },
-      canAddItem: 0 < remaining,
+      canAddItem: planningActive && 0 < remaining,
     };
   }
 }

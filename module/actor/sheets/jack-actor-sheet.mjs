@@ -5,10 +5,7 @@ export class JackActorSheet extends BaseActorSheet {
   constructor(object, options = {}) {
     super(object, options);
 
-    this.changeGamePhaseHook = Hooks.on(
-      `${HEIST.SYSTEM_ID}.changeGamePhase`,
-      (phase) => this.#onChangeGamePhase(phase),
-    );
+    Hooks.on(`${HEIST.SYSTEM_ID}.changeGamePhase`, (phase) => this.#onChangeGamePhase(phase));
   }
 
   /** @override */
