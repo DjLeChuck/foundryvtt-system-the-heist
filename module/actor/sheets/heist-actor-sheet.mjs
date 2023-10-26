@@ -46,6 +46,7 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
+    html.find('[data-open-sheet]').click(this.#onOpenSheet.bind(this));
     html.find('[data-add-planning-item]').click(this.#onAddPlanningItem.bind(this));
 
     if (!game.user.isGM) {
@@ -122,6 +123,22 @@ export class HeistActorSheet extends ActorSheet {
     }]);
 
     items[0]?.sheet?.render(true);
+  }
+
+  async #onOpenSheet(e) {
+    e.preventDefault();
+
+    const actorId = e.currentTarget?.dataset?.openSheet;
+    if (!actorId) {
+      return;
+    }
+
+    const actor = game.actors.get(actorId);
+    if (!actor || !actor.sheet) {
+      return;
+    }
+
+    actor.sheet.render(true);
   }
 
   async #onAskAgentTest(e) {

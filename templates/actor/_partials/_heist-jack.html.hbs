@@ -1,7 +1,8 @@
 <div class="agency-member agent-card-wrapper">
   <div class="agent-card">
     <div class="flexcol flex-group-center">
-      <img class="profile-img" src="{{jack.img}}" title="{{jack.name}}" height="100" width="100" />
+      <img class="profile-img{{ifThen jack.visible " openable" ""}}" src="{{jack.img}}" title="{{jack.name}}"
+           height="100" width="100" {{ifThen jack.visible (concat " data-open-sheet=\"" jack.id "\"") ""}} />
       <p><strong>{{jack.name}}</strong></p>
     </div>
 

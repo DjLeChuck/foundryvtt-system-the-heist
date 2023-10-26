@@ -1,7 +1,8 @@
 <div class="agency-member agent-card-wrapper">
   <div class="agent-card flexcol">
     <div class="flexcol flex-group-center">
-      <img class="profile-img" src="{{agent.img}}" title="{{agent.name}}" height="100" width="100" />
+      <img class="profile-img{{ifThen agent.visible " openable" ""}}" src="{{agent.img}}" title="{{agent.name}}"
+           height="100" width="100" {{ifThen agent.visible (concat " data-open-sheet=\"" agent.id "\"") ""}} />
       <p><u>{{localize "HEIST.Global.AgentName"}}</u> <strong>{{agent.name}}</strong></p>
     </div>
 
