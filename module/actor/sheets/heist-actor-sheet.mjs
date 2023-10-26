@@ -18,6 +18,18 @@ export class HeistActorSheet extends ActorSheet {
     });
   }
 
+  constructor(options) {
+    super(options);
+
+    Hooks.on('updateCard', async (card, change) => {
+      if (!change?.drawn) {
+        return;
+      }
+
+      this.render();
+    });
+  }
+
   /**
    * A convenience reference to the Actor document
    * @type {HeistActor}
