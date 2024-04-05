@@ -40,7 +40,7 @@ The implementation was made with their kind permission.
 
 ## Installation
 
-The system can be installed directly from Foundry by searching for its name: `The Heist`. You'll then have the
+The system can be installed directly from Foundry by searching for its name: `The Heist`. You'll then have the latest
 version and benefit from automatic updates.
 
 Alternatively, you can add it using its manifest link:

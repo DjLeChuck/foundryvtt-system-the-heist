@@ -87,6 +87,7 @@
   "HEIST.JackSheet.Reconnaissance.Title": "Phase de reconnaissance",
   "HEIST.JackSheet.Reconnaissance.Explanations": "À partir de 10 cartes piochées, si au moins 5 ont la même couleur, alors les agents seront compromis !",
   "HEIST.JackSheet.Reconnaissance.AgentsCompromised": "Les agents sont compromis !",
+  "HEIST.JackSheet.Reconnaissance.CardsDrawn": "Quelques cartes sont piochées...",
   "HEIST.Agent.FetishObject": "Objet fétiche :",
   "HEIST.Agent.FetishObjectUsed": "(utilisé)",
   "HEIST.Agent.Skills": "Compétences",

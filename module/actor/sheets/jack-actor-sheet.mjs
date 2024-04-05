@@ -63,8 +63,8 @@ export class JackActorSheet extends BaseActorSheet {
   <select id="number-cards">${numberCardsOptions}</select>
 </p>`,
       callback: (html) => {
-        const nbCards = html.find('#number-cards')[0]?.value;
-        if (!nbCards) {
+        const nbCards = parseInt(html.find('#number-cards')[0]?.value || '0', 10);
+        if (0 === nbCards) {
           return;
         }
 
