@@ -3,6 +3,11 @@ import * as CARDS from '../../helpers/cards.mjs';
 import { WithSettingsWindow } from './with-settings-window.mjs';
 
 export class AgentTestWindow extends WithSettingsWindow {
+  #testSuccessBlackjack = 0;
+  #testSuccessFetish = 1;
+  #testSuccessCards = 2;
+  #testFailure = 99;
+
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -151,11 +156,11 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this._setSettings({ isSuccessful: true });
 
     await this.#revealTest();
-    await this.#finishTest();
+    await this.#finishTest(this.#testSuccessBlackjack);
     await this.#processBlackjack();
   }
 
-  async finishAgentTestWithSuccess() {
+  async handleAgentFetish() {
     if (game.user !== game.users.activeGM) {
       return;
     }
@@ -163,7 +168,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this._setSettings({ isSuccessful: true });
 
     await this.#revealTest();
-    await this.#finishTest();
+    await this.#finishTest(this.#testSuccessFetish);
   }
 
   async #onDraw(e) {
@@ -185,11 +190,18 @@ export class AgentTestWindow extends WithSettingsWindow {
   async #onFinishTest(e) {
     e.preventDefault();
 
+    const jackScore = CARDS.scoreForJack(this.jack.testHand.cards);
+    const agentScore = CARDS.scoreForJack(this.agent.hand.cards);
+    const isSuccessful = agentScore >= jackScore;
+
     await this._setSettings({
-      isSuccessful: CARDS.scoreForJack(this.agent.hand.cards) >= CARDS.scoreForJack(this.jack.testHand.cards),
+      isSuccessful,
     });
 
-    await this.#finishTest();
+    await this.#finishTest(isSuccessful ? this.#testSuccessCards : this.#testFailure, {
+      agentScore,
+      scoreToBeat: jackScore,
+    });
   }
 
   async #onUseFetish(e) {
@@ -198,9 +210,9 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this.agent.useFetish();
 
     if (game.user.isGM) {
-      await this.finishAgentTestWithSuccess();
+      await this.handleAgentFetish();
     } else {
-      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.GM_FINISH_AGENT_TEST_WITH_SUCCESS });
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_FETISH });
     }
 
     this.#refreshViews();
@@ -229,23 +241,37 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this._setSettings({ isRevealed: true });
   }
 
-  async #finishTest() {
-    const isBlackjack = this.#isBlackjack();
-
+  async #finishTest(resultType, payload = {}) {
     await this._setSettings({ isFinished: true });
 
+    const messagePayload = Object.assign({}, payload, {
+      agent: this.agent,
+    });
+
     if (this.#isSuccessful) {
+      let messageTemplate = `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success.html.hbs`;
+
+      switch (resultType) {
+        case this.#testSuccessBlackjack:
+          messageTemplate = `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success-blackjack.html.hbs`;
+          break;
+        case this.#testSuccessFetish:
+          messageTemplate = `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success-fetish.html.hbs`;
+          break;
+        case this.#testSuccessCards:
+          messageTemplate = `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success-cards.html.hbs`;
+          break;
+      }
+
       await ChatMessage.create({
-        content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success.html.hbs`, {
-          isBlackjack,
-          agent: this.agent,
-        }),
+        content: await renderTemplate(messageTemplate, messagePayload),
       });
     } else {
       await ChatMessage.create({
-        content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/failure.html.hbs`, {
-          agent: this.agent,
-        }),
+        content: await renderTemplate(
+          `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/failure.html.hbs`,
+          messagePayload,
+        ),
       });
     }
 

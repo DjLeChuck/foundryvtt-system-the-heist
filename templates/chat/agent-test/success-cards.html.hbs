@@ -1,6 +1,4 @@
-<h2>{{localize "HEIST.AgentTestWindow.Result.Title"}}</h2>
-
-<p>{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</p>
+{{> (template "chat/agent-test/success.html.hbs")}}
 
 <p><u>{{localize "HEIST.ChatMessage.ScoreToBeat"}}</u> <strong>{{scoreToBeat}}</strong></p>
 <p><u>{{localize "HEIST.ChatMessage.AgentScore"}}</u> <strong>{{agentScore}}</strong></p>

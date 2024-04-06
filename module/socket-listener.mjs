@@ -16,11 +16,12 @@ export class SocketListener {
         case HEIST.SOCKET_REQUESTS.CLOSE_AGENT_TEST_WINDOW:
           await game[HEIST.SYSTEM_ID].agentTestWindow.close();
           break;
-        case HEIST.SOCKET_REQUESTS.HANDLE_AGENT_TEST_BLACKJACK:
+        // Proxy user actions to GM
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_BLACKJACK:
           await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentBlackjack();
           break;
-        case HEIST.SOCKET_REQUESTS.FINISH_AGENT_TEST_WITH_SUCCESS:
-          await game[HEIST.SYSTEM_ID].agentTestWindow.finishAgentTestWithSuccess();
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_FETISH:
+          await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentFetish();
           break;
         default:
           throw new Error(`Unknown socket request ${request}`);

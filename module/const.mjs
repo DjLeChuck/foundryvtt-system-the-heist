@@ -51,5 +51,5 @@ export const SOCKET_REQUESTS = {
   CLOSE_AGENT_TEST_WINDOW: 'closeAgentTestWindow',
   // Proxy user actions to GM
   GM_HANDLE_AGENT_TEST_BLACKJACK: 'gmHandleAgentTestBlackjack',
-  GM_FINISH_AGENT_TEST_WITH_SUCCESS: 'gmFinishAgentTestWithSuccess',
+  GM_HANDLE_AGENT_TEST_FETISH: 'gmHandleAgentTestFetish',
 };

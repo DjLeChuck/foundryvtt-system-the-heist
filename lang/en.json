@@ -106,5 +106,7 @@
   "HEIST.ChatMessage.DifficultTestAsked": "A difficult test has been asked to {name}!",
   "HEIST.ChatMessage.TestSuccessful": "{name} has passed the test!",
   "HEIST.ChatMessage.TestFailed": "Unfortunately, {name} did not pass the test.",
-  "HEIST.ChatMessage.AgentUsedFetish": "{name} has just used his fetish object."
+  "HEIST.ChatMessage.AgentUsedFetish": "He has used his fetish object.",
+  "HEIST.ChatMessage.ScoreToBeat": "Score to beat:",
+  "HEIST.ChatMessage.AgentScore": "Agent score:"
 }

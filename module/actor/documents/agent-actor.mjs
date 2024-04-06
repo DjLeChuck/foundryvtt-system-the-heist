@@ -63,12 +63,6 @@ export class AgentActor extends BasePlayerActor {
     }
 
     await this.fetish.update({ 'system.used': true });
-
-    await ChatMessage.create({
-      content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentUsedFetish', {
-        name: this.name,
-      })}</p>`,
-    });
   }
 
   async setDecks() {
