@@ -39,6 +39,10 @@ export class AgentActor extends BasePlayerActor {
     return 2 <= this.skills.length;
   }
 
+  get canDraw() {
+    return 0 < this.deck.availableCards.length
+  }
+
   async drawCards(number) {
     await this.hand.draw(this.deck, number, { chatNotification: false });
 

@@ -96,8 +96,6 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     const jackCards = jack.testHand.cards;
     const agentCards = agent.hand.cards;
-    const agentScore = CARDS.scoreForAgent(agentCards);
-    const jackTotalScore = CARDS.scoreForJack(jackCards);
 
     return {
       isAdmin: game.user.isGM,
@@ -105,20 +103,18 @@ export class AgentTestWindow extends WithSettingsWindow {
         isRunning: true,
         isRevealed: this.isRevealed,
         isFinished: this.isFinished,
-        isSuccessful: this.isSuccessful,
-        isBlackjack: 21 === agentScore,
       },
       jack: {
         cards: CARDS.sortByValue(jackCards),
         score: CARDS.scoreForAgent(jackCards),
-        totalScore: jackTotalScore,
+        totalScore: CARDS.scoreForJack(jackCards),
       },
       agent: {
         name: agent.name,
         isOwner: agent.isOwner,
         cards: CARDS.sortByValue(agentCards),
-        score: agentScore,
-        canDraw: 0 < agent.deck.availableCards.length,
+        score: CARDS.scoreForAgent(agentCards),
+        canDraw: agent.canDraw,
         canUseFetish: agent.canUseFetish,
       },
     };
@@ -128,17 +124,26 @@ export class AgentTestWindow extends WithSettingsWindow {
     const agent = this.agent;
 
     if (agent?.isOwner) {
-      html.find('[data-draw]').click(this.#onDraw.bind(this));
-      html.find('[data-finish]').click(this.#onFinishTest.bind(this));
-      html.find('[data-fetish]').click(this.#onUseFetish.bind(this));
+      html.on('click', '[data-draw]', this.#onDraw.bind(this));
+      html.on('click', '[data-finish]', this.#onFinishTest.bind(this));
+      html.on('click', '[data-fetish]', this.#onUseFetish.bind(this));
     }
 
     if (!game.user.isGM) {
       return;
     }
 
-    html.find('[data-reveal]').click(this.#onRevealTest.bind(this));
-    html.find('[data-blackjack]').click(this.#onBlackjack.bind(this));
+    html.on('click', '[data-reveal]', this.#onRevealTest.bind(this));
+  }
+
+  async handleAgentBlackjack() {
+    if (game.user !== game.users.activeGM) {
+      return;
+    }
+
+    await this.#revealTest();
+    await this.#finishTest();
+    await this.#processBlackjack();
   }
 
   async #onDraw(e) {
@@ -146,16 +151,21 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     await this.agent.drawCards(1);
 
+    if (this.#isBlackjack()) {
+      if (game.user.isGM) {
+        await this.handleAgentBlackjack();
+      } else {
+        game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.HANDLE_AGENT_TEST_BLACKJACK });
+      }
+    }
+
     this.#refreshViews();
   }
 
   async #onFinishTest(e) {
     e.preventDefault();
 
-    await this._setSettings({
-      isSuccessful: CARDS.scoreForJack(this.agent.hand.cards) >= CARDS.scoreForJack(this.jack.testHand.cards),
-      isFinished: true,
-    });
+    await this.#finishTest();
 
     this.#refreshViews();
   }
@@ -180,16 +190,49 @@ export class AgentTestWindow extends WithSettingsWindow {
       return;
     }
 
-    await this.jack.revealTest();
-
-    await this._setSettings({ isRevealed: true });
+    await this.#revealTest();
 
     this.#refreshViews();
   }
 
-  async #onBlackjack(e) {
-    e.preventDefault();
+  async #clearHands() {
+    await this.jack?.throwTestHand();
+    await this.agent?.throwHand();
+  }
 
+  async #revealTest() {
+    await this.jack.revealTest();
+
+    await this._setSettings({ isRevealed: true });
+  }
+
+  async #finishTest() {
+    const isBlackjack = this.#isBlackjack();
+    const isSuccessful = isBlackjack
+      || CARDS.scoreForJack(this.agent.hand.cards) >= CARDS.scoreForJack(this.jack.testHand.cards);
+
+    await this._setSettings({
+      isSuccessful,
+      isFinished: true,
+    });
+
+    if (isSuccessful) {
+      await ChatMessage.create({
+        content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success.html.hbs`, {
+          isBlackjack,
+          agent: this.agent,
+        }),
+      });
+    } else {
+      await ChatMessage.create({
+        content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/failure.html.hbs`, {
+          agent: this.agent,
+        }),
+      });
+    }
+  }
+
+  async #processBlackjack() {
     if (!game.user.isGM) {
       return;
     }
@@ -224,13 +267,10 @@ export class AgentTestWindow extends WithSettingsWindow {
         recalls,
       }),
     });
-
-    this.#refreshViews();
   }
 
-  async #clearHands() {
-    await this.jack?.throwTestHand();
-    await this.agent?.throwHand();
+  #isBlackjack() {
+    return CARDS.BLACKJACK_SCORE === CARDS.scoreForAgent(this.agent.hand.cards);
   }
 
   #refreshViews() {

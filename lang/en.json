@@ -41,6 +41,7 @@
   "HEIST.Global.Easy": "easy",
   "HEIST.Global.Difficult": "difficult",
   "HEIST.Blackjack.Label": "BLACKJACK!",
+  "HEIST.Blackjack.ItsABlackjack": "It’s a blackjack!",
   "HEIST.Blackjack.Explanations": "Agent {name} retrieves all the cards he has just played and everyone (including himself) retrieves 2 from their pile!",
   "HEIST.Cards.DeckName": "{name}’s Deck",
   "HEIST.Cards.HandName": "{name}’s Hand",
@@ -64,8 +65,6 @@
   "HEIST.AgentTestWindow.TotalScore": "Total score: {value}",
   "HEIST.AgentTestWindow.NoCardLeft": "No card left",
   "HEIST.AgentTestWindow.Result.Title": "Test result",
-  "HEIST.AgentTestWindow.Result.Success": "Agent, your test is a success!",
-  "HEIST.AgentTestWindow.Result.Failure": "Unfortunately agent, your test is a failure.",
   "HEIST.GamePhaseWindow.Title": "Game phases",
   "HEIST.GamePhaseWindow.Duration": "Duration: {duration} minutes",
   "HEIST.GamePhaseWindow.NoTimeLeft": "The phase is over! You need to move on to the next one.",
@@ -104,5 +103,7 @@
   "HEIST.Errors.AlreadyTwoSkills": "Impossible to add the skill, you’ve reached the max!",
   "HEIST.Errors.NoFetishObject": "You don’t have a fetish object!",
   "HEIST.ChatMessage.EasyTestAsked": "An easy test has been asked to {name}!",
-  "HEIST.ChatMessage.DifficultTestAsked": "A difficult test has been asked to {name}!"
+  "HEIST.ChatMessage.DifficultTestAsked": "A difficult test has been asked to {name}!",
+  "HEIST.ChatMessage.TestSuccessful": "{name} has passed the test!",
+  "HEIST.ChatMessage.TestFailed": "Unfortunately, {name} did not pass the test."
 }

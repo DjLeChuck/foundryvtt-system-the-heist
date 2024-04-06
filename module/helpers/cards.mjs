@@ -1,3 +1,5 @@
+export const BLACKJACK_SCORE = 21;
+
 /**
  * @param {Card} card
  * @return number

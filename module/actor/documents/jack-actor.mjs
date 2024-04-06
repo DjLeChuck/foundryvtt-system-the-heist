@@ -79,6 +79,7 @@ export class JackActor extends BasePlayerActor {
     await this.testHand.pass(this.pile, [removedCard], { chatNotification: false });
 
     game[HEIST.SYSTEM_ID].agentTestWindow.render(true);
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.SHOW_AGENT_TEST_WINDOW });
   }
 
   async revealTest() {

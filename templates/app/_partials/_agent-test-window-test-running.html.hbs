@@ -50,25 +50,3 @@
     {{/if}}
   {{/unless}}
 {{/if}}
-
-{{#if test.isFinished}}
-  <h2>{{localize "HEIST.AgentTestWindow.Result.Title"}}</h2>
-
-  {{#if test.isRevealed}}
-    {{#if test.isSuccessful}}
-      <p>{{localize "HEIST.AgentTestWindow.Result.Success"}}</p>
-
-      {{#if test.isBlackjack}}
-        <p><strong>{{localize "HEIST.Blackjack.Label"}}</strong></p>
-        <p>{{localize "HEIST.Blackjack.Explanations" name=agent.name}}</p>
-
-        {{#if isAdmin}}
-          <button type="button" data-blackjack>{{localize "HEIST.Blackjack.Label"}}</button>
-        {{/if}}
-      {{/if}}
-    {{/if}}
-    {{#unless test.isSuccessful}}
-      <p>{{localize "HEIST.AgentTestWindow.Result.Failure"}}</p>
-    {{/unless}}
-  {{/if}}
-{{/if}}
