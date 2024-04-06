@@ -66,6 +66,12 @@
       "label": "Compétences",
       "type": "Item",
       "system": "heist"
+    },
+    {
+      "name": "fetishs",
+      "label": "Objets fétiches",
+      "type": "Item",
+      "system": "heist"
     }
   ],
   "socket": true,

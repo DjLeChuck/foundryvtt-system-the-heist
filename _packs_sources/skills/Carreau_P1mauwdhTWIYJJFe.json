@@ -1,0 +1,19 @@
+{
+  "name": "Carreau",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "P1mauwdhTWIYJJFe",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387437763,
+    "modifiedTime": 1712387437763,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!folders!P1mauwdhTWIYJJFe"
+}

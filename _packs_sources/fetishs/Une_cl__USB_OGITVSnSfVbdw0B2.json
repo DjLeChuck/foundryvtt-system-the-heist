@@ -1,0 +1,29 @@
+{
+  "name": "Une clé USB",
+  "type": "fetish",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712388497937,
+    "modifiedTime": 1712389816536,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_id": "OGITVSnSfVbdw0B2",
+  "sort": 200000,
+  "_key": "!items!OGITVSnSfVbdw0B2"
+}

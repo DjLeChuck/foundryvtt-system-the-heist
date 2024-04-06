@@ -1,0 +1,26 @@
+{
+  "folder": "8TPHzgAPiy6DQmt0",
+  "name": "Empathie animale",
+  "type": "skill",
+  "_id": "ESSUx32H9DNJS2L1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387669803,
+    "modifiedTime": 1712387669803,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!ESSUx32H9DNJS2L1"
+}

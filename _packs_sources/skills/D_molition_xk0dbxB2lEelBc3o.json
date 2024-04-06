@@ -1,0 +1,26 @@
+{
+  "folder": "P1mauwdhTWIYJJFe",
+  "name": "Démolition",
+  "type": "skill",
+  "_id": "xk0dbxB2lEelBc3o",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387582028,
+    "modifiedTime": 1712387582028,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!xk0dbxB2lEelBc3o"
+}

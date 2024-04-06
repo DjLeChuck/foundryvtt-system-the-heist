@@ -1,0 +1,26 @@
+{
+  "folder": "V8dVlw3qvmvr81Lv",
+  "name": "Pickpocket",
+  "type": "skill",
+  "_id": "WZPhWUkR7LUPDXQQ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387519049,
+    "modifiedTime": 1712387560254,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!WZPhWUkR7LUPDXQQ"
+}

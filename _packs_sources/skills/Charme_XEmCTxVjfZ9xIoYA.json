@@ -1,0 +1,26 @@
+{
+  "folder": "V8dVlw3qvmvr81Lv",
+  "name": "Charme",
+  "type": "skill",
+  "_id": "XEmCTxVjfZ9xIoYA",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387481029,
+    "modifiedTime": 1712387554388,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!XEmCTxVjfZ9xIoYA"
+}

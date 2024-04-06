@@ -1,0 +1,26 @@
+{
+  "folder": "V8dVlw3qvmvr81Lv",
+  "name": "Persuation",
+  "type": "skill",
+  "_id": "cxUXs9YbB2muT1Xq",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387513680,
+    "modifiedTime": 1712387559205,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!cxUXs9YbB2muT1Xq"
+}

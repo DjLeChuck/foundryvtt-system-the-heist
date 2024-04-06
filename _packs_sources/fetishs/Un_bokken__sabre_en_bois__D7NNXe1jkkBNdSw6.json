@@ -1,0 +1,29 @@
+{
+  "name": "Un bokken (sabre en bois)",
+  "type": "fetish",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712388489096,
+    "modifiedTime": 1712389816536,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_id": "D7NNXe1jkkBNdSw6",
+  "sort": 2100000,
+  "_key": "!items!D7NNXe1jkkBNdSw6"
+}

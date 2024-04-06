@@ -1,0 +1,26 @@
+{
+  "folder": "V8dVlw3qvmvr81Lv",
+  "name": "Représentation",
+  "type": "skill",
+  "_id": "PxHDUuFUSYJGsLG6",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 101563,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387536944,
+    "modifiedTime": 1712387562538,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!PxHDUuFUSYJGsLG6"
+}

@@ -1,0 +1,26 @@
+{
+  "folder": "8TPHzgAPiy6DQmt0",
+  "name": "Visée",
+  "type": "skill",
+  "_id": "B0OtzvgZeLG5qYz8",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387674070,
+    "modifiedTime": 1712387674070,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!B0OtzvgZeLG5qYz8"
+}

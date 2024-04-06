@@ -1,0 +1,26 @@
+{
+  "folder": "V8dVlw3qvmvr81Lv",
+  "name": "Prestidigitation",
+  "type": "skill",
+  "_id": "vay3NDlFk8Tf2XPx",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387528208,
+    "modifiedTime": 1712387561488,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!vay3NDlFk8Tf2XPx"
+}

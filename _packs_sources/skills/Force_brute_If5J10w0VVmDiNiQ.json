@@ -1,13 +1,13 @@
 {
-  "name": "Piratage",
+  "folder": "P1mauwdhTWIYJJFe",
+  "name": "Force brute",
   "type": "skill",
-  "_id": "eGeDbV6vjWQpcvUk",
+  "_id": "If5J10w0VVmDiNiQ",
   "img": "icons/svg/item-bag.svg",
   "system": {
     "description": ""
   },
   "effects": [],
-  "folder": null,
   "sort": 0,
   "ownership": {
     "default": 0,
@@ -17,10 +17,10 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.308",
-    "createdTime": 1695562576444,
-    "modifiedTime": 1695562576444,
+    "coreVersion": "11.315",
+    "createdTime": 1712387592884,
+    "modifiedTime": 1712387592884,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_key": "!items!eGeDbV6vjWQpcvUk"
+  "_key": "!items!If5J10w0VVmDiNiQ"
 }

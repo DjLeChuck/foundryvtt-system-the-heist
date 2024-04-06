@@ -1,0 +1,29 @@
+{
+  "name": "Un briquet Zippo",
+  "type": "fetish",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "used": false
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712388515448,
+    "modifiedTime": 1712389816536,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_id": "DyBub66LSaQjbCuQ",
+  "sort": 1700000,
+  "_key": "!items!DyBub66LSaQjbCuQ"
+}

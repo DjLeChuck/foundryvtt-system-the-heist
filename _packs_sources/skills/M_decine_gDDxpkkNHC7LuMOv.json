@@ -1,0 +1,26 @@
+{
+  "folder": "xKew0ZttXdyXJP6x",
+  "name": "Médecine",
+  "type": "skill",
+  "_id": "gDDxpkkNHC7LuMOv",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387710866,
+    "modifiedTime": 1712387710866,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!gDDxpkkNHC7LuMOv"
+}

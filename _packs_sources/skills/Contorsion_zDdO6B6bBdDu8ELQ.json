@@ -1,0 +1,26 @@
+{
+  "folder": "8TPHzgAPiy6DQmt0",
+  "name": "Contorsion",
+  "type": "skill",
+  "_id": "zDdO6B6bBdDu8ELQ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387647098,
+    "modifiedTime": 1712387647098,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!zDdO6B6bBdDu8ELQ"
+}

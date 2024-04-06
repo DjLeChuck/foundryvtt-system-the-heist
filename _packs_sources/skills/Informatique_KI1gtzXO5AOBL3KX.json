@@ -1,0 +1,26 @@
+{
+  "folder": "xKew0ZttXdyXJP6x",
+  "name": "Informatique",
+  "type": "skill",
+  "_id": "KI1gtzXO5AOBL3KX",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387706053,
+    "modifiedTime": 1712387706053,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!items!KI1gtzXO5AOBL3KX"
+}

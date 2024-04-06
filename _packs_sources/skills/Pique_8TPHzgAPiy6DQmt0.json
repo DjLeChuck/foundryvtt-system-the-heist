@@ -1,0 +1,19 @@
+{
+  "name": "Pique",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "8TPHzgAPiy6DQmt0",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1712387435245,
+    "modifiedTime": 1712387435245,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!folders!8TPHzgAPiy6DQmt0"
+}
