@@ -3,6 +3,14 @@ import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
 
 export class JackActor extends BasePlayerActor {
+  constructor(docData, context = {}) {
+    super(docData, context);
+
+    if (docData._id) {
+      Hooks.on(`${HEIST.SYSTEM_ID}.changeGamePhase`, (phase) => this.#onChangeGamePhase(phase));
+    }
+  }
+
   /**
    * @returns {Cards|null}
    */
@@ -38,10 +46,6 @@ export class JackActor extends BasePlayerActor {
 
   async throwTestHand() {
     await this.#throwHand(this.testHand);
-  }
-
-  async throwReconnaissanceHand() {
-    await this.#throwHand(this.reconnaissanceHand);
   }
 
   /**
@@ -98,10 +102,6 @@ export class JackActor extends BasePlayerActor {
     for (const card of this.testHand.cards.contents) {
       await card.flip(0);
     }
-  }
-
-  async recallDeck() {
-    await this.deck?.recall({ chatNotification: false });
   }
 
   /** @override */
@@ -165,5 +165,22 @@ export class JackActor extends BasePlayerActor {
     await hand.pass(this.pile, hand.cards.map((c) => c.id), { chatNotification: false });
 
     this.render(false);
+  }
+
+  async #onChangeGamePhase(phase) {
+    if (HEIST.GAME_PHASE_RECONNAISSANCE === phase.id) {
+      await this.#throwHand(this.reconnaissanceHand);
+      await this.#recallDeck();
+    }
+
+    if (HEIST.GAME_PHASE_ACTION === phase.id) {
+      await this.#recallDeck();
+    }
+
+    this.render(false);
+  }
+
+  async #recallDeck() {
+    await this.deck?.recall({ chatNotification: false });
   }
 }

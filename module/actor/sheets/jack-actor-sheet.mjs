@@ -2,12 +2,6 @@ import { BaseActorSheet } from './base-actor-sheet.mjs';
 import * as HEIST from '../../const.mjs';
 
 export class JackActorSheet extends BaseActorSheet {
-  constructor(object, options = {}) {
-    super(object, options);
-
-    Hooks.on(`${HEIST.SYSTEM_ID}.changeGamePhase`, (phase) => this.#onChangeGamePhase(phase));
-  }
-
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -76,19 +70,6 @@ export class JackActorSheet extends BaseActorSheet {
       },
       rejectClose: false,
     });
-  }
-
-  async #onChangeGamePhase(phase) {
-    if (HEIST.GAME_PHASE_RECONNAISSANCE === phase.id) {
-      await this.actor.throwReconnaissanceHand();
-      await this.actor.recallDeck();
-    }
-
-    if (HEIST.GAME_PHASE_ACTION === phase.id) {
-      await this.actor.recallDeck();
-    }
-
-    this.render(false);
   }
 
   async #prepareReconnaissanceContext(context) {
