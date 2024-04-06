@@ -59,14 +59,14 @@ export class AgentTestWindow extends WithSettingsWindow {
   /**
    * @returns {boolean}
    */
-  get isFinished() {
+  get #isFinished() {
     return this._getSetting('isFinished', false);
   }
 
   /**
    * @returns {boolean}
    */
-  get isSuccessful() {
+  get #isSuccessful() {
     return this._getSetting('isSuccessful', false);
   }
 
@@ -83,6 +83,14 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   getData() {
+    if (this.#isFinished) {
+      return {
+        test: {
+          isFinished: true,
+        },
+      };
+    }
+
     const jack = this.jack;
     const agent = this.agent;
 
@@ -102,7 +110,6 @@ export class AgentTestWindow extends WithSettingsWindow {
       test: {
         isRunning: true,
         isRevealed: this.isRevealed,
-        isFinished: this.isFinished,
       },
       jack: {
         cards: CARDS.sortByValue(jackCards),
@@ -141,9 +148,22 @@ export class AgentTestWindow extends WithSettingsWindow {
       return;
     }
 
+    await this._setSettings({ isSuccessful: true });
+
     await this.#revealTest();
     await this.#finishTest();
     await this.#processBlackjack();
+  }
+
+  async finishAgentTestWithSuccess() {
+    if (game.user !== game.users.activeGM) {
+      return;
+    }
+
+    await this._setSettings({ isSuccessful: true });
+
+    await this.#revealTest();
+    await this.#finishTest();
   }
 
   async #onDraw(e) {
@@ -165,6 +185,10 @@ export class AgentTestWindow extends WithSettingsWindow {
   async #onFinishTest(e) {
     e.preventDefault();
 
+    await this._setSettings({
+      isSuccessful: CARDS.scoreForJack(this.agent.hand.cards) >= CARDS.scoreForJack(this.jack.testHand.cards),
+    });
+
     await this.#finishTest();
 
     this.#refreshViews();
@@ -175,10 +199,11 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     await this.agent.useFetish();
 
-    await this._setSettings({
-      isSuccessful: true,
-      isFinished: true,
-    });
+    if (game.user.isGM) {
+      await this.finishAgentTestWithSuccess();
+    } else {
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.FINISH_AGENT_TEST_WITH_SUCCESS });
+    }
 
     this.#refreshViews();
   }
@@ -208,15 +233,10 @@ export class AgentTestWindow extends WithSettingsWindow {
 
   async #finishTest() {
     const isBlackjack = this.#isBlackjack();
-    const isSuccessful = isBlackjack
-      || CARDS.scoreForJack(this.agent.hand.cards) >= CARDS.scoreForJack(this.jack.testHand.cards);
 
-    await this._setSettings({
-      isSuccessful,
-      isFinished: true,
-    });
+    await this._setSettings({ isFinished: true });
 
-    if (isSuccessful) {
+    if (this.#isSuccessful) {
       await ChatMessage.create({
         content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success.html.hbs`, {
           isBlackjack,

@@ -13,6 +13,9 @@ export class SocketListener {
         case HEIST.SOCKET_REQUESTS.HANDLE_AGENT_TEST_BLACKJACK:
           await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentBlackjack();
           break;
+        case HEIST.SOCKET_REQUESTS.FINISH_AGENT_TEST_WITH_SUCCESS:
+          await game[HEIST.SYSTEM_ID].agentTestWindow.finishAgentTestWithSuccess();
+          break;
         default:
           throw new Error(`Unknown socket request ${request}`);
       }

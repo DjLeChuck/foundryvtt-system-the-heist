@@ -40,7 +40,7 @@ export class AgentActor extends BasePlayerActor {
   }
 
   get canDraw() {
-    return 0 < this.deck.availableCards.length
+    return 0 < this.deck.availableCards.length;
   }
 
   async drawCards(number) {
@@ -63,6 +63,12 @@ export class AgentActor extends BasePlayerActor {
     }
 
     await this.fetish.update({ 'system.used': true });
+
+    await ChatMessage.create({
+      content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentUsedFetish', {
+        name: this.name,
+      })}</p>`,
+    });
   }
 
   async setDecks() {
@@ -110,7 +116,7 @@ export class AgentActor extends BasePlayerActor {
       return null;
     }
 
-    return this.agentType.system.deckId
+    return this.agentType.system.deckId;
   }
 
   async _createDecks() {

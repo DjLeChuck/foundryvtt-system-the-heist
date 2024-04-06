@@ -48,4 +48,5 @@ export const SOCKET_REQUESTS = {
   REFRESH_GAME_PHASE_WINDOW: 'refreshGamePhaseWindow',
   SHOW_AGENT_TEST_WINDOW: 'showAgentTestWindow',
   HANDLE_AGENT_TEST_BLACKJACK: 'handleAgentTestBlackjack',
+  FINISH_AGENT_TEST_WITH_SUCCESS: 'finishAgentTestWithSuccess',
 };
