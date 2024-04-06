@@ -43,6 +43,8 @@
   "HEIST.Cards.DeckName": "{name}’s Deck",
   "HEIST.Cards.HandName": "{name}’s Hand",
   "HEIST.Cards.PileName": "{name}’s Pile",
+  "HEIST.Cards.TestHandName": "{name}’s Hand - Agent testing",
+  "HEIST.Cards.RecognitionHandName": "{name}’s Hand - Phase \"Recognition\"",
   "HEIST.Cards.Remaining": "Remaining cards:",
   "HEIST.Cards.RecallHand": "Agent {name} recovers his hand and shuffles his deck.",
   "HEIST.Cards.RecallFromPile": "Agent {name} recovers {number} card(s) from his pile and shuffles his deck.",

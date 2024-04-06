@@ -119,7 +119,7 @@ export class JackActor extends BasePlayerActor {
     const deck = await this._createDeck();
     const pile = await this._createPile();
     const testHand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
+      name: game.i18n.format('HEIST.Cards.TestHandName', { name: this.name }),
       type: 'hand',
       flags: {
         [HEIST.SYSTEM_ID]: {
@@ -128,7 +128,7 @@ export class JackActor extends BasePlayerActor {
       },
     });
     const reconnaissanceHand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
+      name: game.i18n.format('HEIST.Cards.RecognitionHandName', { name: this.name }),
       type: 'hand',
       flags: {
         [HEIST.SYSTEM_ID]: {

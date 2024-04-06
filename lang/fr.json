@@ -42,6 +42,8 @@
   "HEIST.Blackjack.Explanations": "L’agent {name} récupère toutes les cartes qu’il vient de jouer et les autres en récupèrent 2 de leur défausse !",
   "HEIST.Cards.DeckName": "Deck de {name}",
   "HEIST.Cards.HandName": "Main de {name}",
+  "HEIST.Cards.TestHandName": "Main de test {name} - Test d’agent",
+  "HEIST.Cards.RecognitionHandName": "Main de {name} - Phase « Reconnaissance »",
   "HEIST.Cards.PileName": "Défausse de {name}",
   "HEIST.Cards.Remaining": "Cartes restantes :",
   "HEIST.Cards.RecallHand": "L’agent {name} récupère sa main et mélange son deck.",
