@@ -83,7 +83,7 @@ export class AgentActorSheet extends BaseActorSheet {
       await this.actor.fetish.delete();
     }
 
-    if ('skill' === itemData.type && 2 === this.actor.skills.length) {
+    if ('skill' === itemData.type && this.actor.canLearnSkill) {
       ui.notifications.error(game.i18n.localize('HEIST.Errors.AlreadyTwoSkills'));
 
       return false;

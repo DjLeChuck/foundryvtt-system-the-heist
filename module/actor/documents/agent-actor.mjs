@@ -34,6 +34,11 @@ export class AgentActor extends BasePlayerActor {
     return this.fetish && !this.fetish.isUsed;
   }
 
+  get canLearnSkill() {
+    // @todo Gérer la progresse « Entraînement des agents »
+    return 2 <= this.skills.length;
+  }
+
   async drawCards(number) {
     await this.hand.draw(this.deck, number, { chatNotification: false });
 
