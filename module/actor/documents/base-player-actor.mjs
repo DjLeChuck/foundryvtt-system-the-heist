@@ -71,4 +71,8 @@ export class BasePlayerActor extends BaseActor {
     await this.deck?.delete();
     await this.pile?.delete();
   }
+
+  async _shuffleDeck(deck) {
+    await deck.shuffle({ chatNotification: false });
+  }
 }

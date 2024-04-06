@@ -75,13 +75,13 @@ export class AgentActor extends BasePlayerActor {
 
     await this.hand.pass(this.deck, ids, { chatNotification: false });
 
-    await this.deck.shuffle({ chatNotification: false });
+    await this._shuffleDeck(this.deck);
 
     return ids.length;
   }
 
   async recallFromPile(number) {
-    const toRecall = Math.min(2, this.pile.availableCards.length);
+    const toRecall = Math.min(number, this.pile.availableCards.length);
 
     if (0 === toRecall) {
       return 0;
@@ -94,7 +94,7 @@ export class AgentActor extends BasePlayerActor {
     });
 
     // Shuffle the deck
-    await this.deck.shuffle({ chatNotification: false });
+    await this._shuffleDeck(this.deck);
 
     return toRecall;
   }
@@ -123,7 +123,7 @@ export class AgentActor extends BasePlayerActor {
     });
 
     // Shuffle the cloned deck
-    await deck.shuffle({ chatNotification: false });
+    await this._shuffleDeck(deck);
 
     this._saveCreatedDecks({ deck: deck.id, hand: hand.id, pile: pile.id });
   }

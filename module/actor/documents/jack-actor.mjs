@@ -138,7 +138,7 @@ export class JackActor extends BasePlayerActor {
     });
 
     // Shuffle the cloned deck
-    await deck.shuffle({ chatNotification: false });
+    await this._shuffleDeck(deck);
 
     this._saveCreatedDecks({
       deck: deck.id,
