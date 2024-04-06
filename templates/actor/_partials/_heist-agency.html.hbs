@@ -1,7 +1,32 @@
 <div class="agency-layout">
-  {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade canTest=canTest}}
-  {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart canTest=canTest}}
-  {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond canTest=canTest}}
-  {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club canTest=canTest}}
-  {{> (template "actor/_partials/_heist-jack.html.hbs") jack=jack canTest=canTest}}
+  {{#if spade}}
+    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade canTest=canTest}}
+  {{/if}}
+  {{#unless spade}}
+    {{> (template "actor/_partials/_heist-empty-agent.html.hbs")}}
+  {{/unless}}
+  {{#if heart}}
+    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart canTest=canTest}}
+  {{/if}}
+  {{#unless heart}}
+    {{> (template "actor/_partials/_heist-empty-agent.html.hbs")}}
+  {{/unless}}
+  {{#if diamond}}
+    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond canTest=canTest}}
+  {{/if}}
+  {{#unless diamond}}
+    {{> (template "actor/_partials/_heist-empty-agent.html.hbs")}}
+  {{/unless}}
+  {{#if club}}
+    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club canTest=canTest}}
+  {{/if}}
+  {{#unless club}}
+    {{> (template "actor/_partials/_heist-empty-agent.html.hbs")}}
+  {{/unless}}
+  {{#if jack}}
+    {{> (template "actor/_partials/_heist-jack.html.hbs") jack=jack canTest=canTest}}
+  {{/if}}
+  {{#unless jack}}
+    {{> (template "actor/_partials/_heist-empty-agent.html.hbs")}}
+  {{/unless}}
 </div>
