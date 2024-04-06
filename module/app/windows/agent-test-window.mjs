@@ -358,6 +358,8 @@ export class AgentTestWindow extends WithSettingsWindow {
         recalls,
       }),
     });
+
+    this.#refreshJackAndAgentsSheet();
   }
 
   #isBlackjack() {
@@ -367,14 +369,20 @@ export class AgentTestWindow extends WithSettingsWindow {
   #refreshViews() {
     this.render(true);
 
+    this.#refreshJackAndAgentsSheet();
+
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.REFRESH_AGENT_TEST_WINDOW });
+  }
+
+  #refreshJackAndAgentsSheet() {
     if (this.jack?.sheet.rendered) {
       this.jack?.sheet?.render(false, { focus: false });
     }
 
-    if (this.agent?.sheet.rendered) {
-      this.agent?.sheet?.render(false, { focus: false });
+    for (const agent of this.jack.agency?.agents) {
+      agent?.sheet?.render(false, { focus: false });
     }
 
-    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.REFRESH_AGENT_TEST_WINDOW });
+    this.jack.agency?.sheet?.render(false, { focus: false });
   }
 }
