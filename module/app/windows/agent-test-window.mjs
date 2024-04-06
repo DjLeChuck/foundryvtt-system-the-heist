@@ -24,12 +24,12 @@ export class AgentTestWindow extends WithSettingsWindow {
    * @returns {JackActor|null}
    */
   get jack() {
-    const jackID = this._getSetting('jack');
-    if (!jackID) {
+    const jackId = this._getSetting('jack');
+    if (!jackId) {
       return null;
     }
 
-    const jack = game.actors.get(jackID);
+    const jack = game.actors.get(jackId);
     if (!jack) {
       return null;
     }
@@ -57,6 +57,20 @@ export class AgentTestWindow extends WithSettingsWindow {
   /**
    * @returns {boolean}
    */
+  get canAskTest() {
+    return game.user.isGM && !this.isRunning && this.jack?.canAskTest;
+  }
+
+  /**
+   * @returns {boolean}
+   */
+  get isRunning() {
+    return this._getSetting('isRunning', false);
+  }
+
+  /**
+   * @returns {boolean}
+   */
   get isRevealed() {
     return this._getSetting('isRevealed', false);
   }
@@ -73,18 +87,6 @@ export class AgentTestWindow extends WithSettingsWindow {
    */
   get #isSuccessful() {
     return this._getSetting('isSuccessful', false);
-  }
-
-  async prepareTest(jack, agent) {
-    await this._setSettings({
-      jack,
-      agent,
-      isRevealed: false,
-      isFinished: false,
-      isSuccessful: false,
-    });
-
-    await this.#clearHands();
   }
 
   getData() {
@@ -148,6 +150,20 @@ export class AgentTestWindow extends WithSettingsWindow {
     html.on('click', '[data-reveal]', this.#onRevealTest.bind(this));
   }
 
+  /**
+   * @param {String} difficulty
+   * @param {String} jackId
+   * @param {String} agentId
+   */
+  async doAgentTest(difficulty, jackId, agentId) {
+    await this.#prepareTest(jackId, agentId);
+
+    await this.jack.drawAgentTest(difficulty);
+
+    this.render(true);
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.SHOW_AGENT_TEST_WINDOW });
+  }
+
   async handleAgentBlackjack() {
     if (game.user !== game.users.activeGM) {
       return;
@@ -171,10 +187,25 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this.#finishTest(this.#testSuccessFetish);
   }
 
+  async #prepareTest(jack, agent) {
+    await this._setSettings({
+      jack,
+      agent,
+      isRunning: true,
+      isRevealed: false,
+      isFinished: false,
+      isSuccessful: false,
+    });
+
+    await this.#clearHands();
+  }
+
   async #onDraw(e) {
     e.preventDefault();
 
     await this.agent.drawCards(1);
+
+    this.#refreshViews();
 
     if (this.#isBlackjack()) {
       if (game.user.isGM) {
@@ -183,8 +214,6 @@ export class AgentTestWindow extends WithSettingsWindow {
         game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_BLACKJACK });
       }
     }
-
-    this.#refreshViews();
   }
 
   async #onFinishTest(e) {
@@ -209,13 +238,13 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     await this.agent.useFetish();
 
+    this.#refreshViews();
+
     if (game.user.isGM) {
       await this.handleAgentFetish();
     } else {
       game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_FETISH });
     }
-
-    this.#refreshViews();
   }
 
   async #onRevealTest(e) {
@@ -232,7 +261,10 @@ export class AgentTestWindow extends WithSettingsWindow {
 
   async #clearHands() {
     await this.jack?.throwTestHand();
-    await this.agent?.throwHand();
+
+    for (const agent of this.jack.agency?.agents) {
+      await agent.throwHand();
+    }
   }
 
   async #revealTest() {
@@ -242,7 +274,12 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   async #finishTest(resultType, payload = {}) {
-    await this._setSettings({ isFinished: true });
+    await this._setSettings({
+      isFinished: true,
+      isRunning: false,
+    });
+
+    await this.#clearHands();
 
     const messagePayload = Object.assign({}, payload, {
       agent: this.agent,
@@ -278,6 +315,12 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this.close();
 
     game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.CLOSE_AGENT_TEST_WINDOW });
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+      request: HEIST.SOCKET_REQUESTS.REFRESH_AGENCY_SHEET,
+      agencyId: this.jack.agency.id,
+    });
+
+    this.jack.agency.render();
   }
 
   async #processBlackjack() {

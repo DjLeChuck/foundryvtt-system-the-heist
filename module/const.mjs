@@ -49,6 +49,7 @@ export const SOCKET_REQUESTS = {
   REFRESH_AGENT_TEST_WINDOW: 'refreshAgentTestWindow',
   SHOW_AGENT_TEST_WINDOW: 'showAgentTestWindow',
   CLOSE_AGENT_TEST_WINDOW: 'closeAgentTestWindow',
+  REFRESH_AGENCY_SHEET: 'refreshAgencySheet',
   // Proxy user actions to GM
   GM_HANDLE_AGENT_TEST_BLACKJACK: 'gmHandleAgentTestBlackjack',
   GM_HANDLE_AGENT_TEST_FETISH: 'gmHandleAgentTestFetish',

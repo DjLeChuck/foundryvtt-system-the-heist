@@ -84,7 +84,7 @@ export class AgentActorSheet extends BaseActorSheet {
     }
 
     if ('skill' === itemData.type && this.actor.canLearnSkill) {
-      ui.notifications.error(game.i18n.localize('HEIST.Errors.AlreadyTwoSkills'));
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.AlreadyMaxSkills'));
 
       return false;
     }

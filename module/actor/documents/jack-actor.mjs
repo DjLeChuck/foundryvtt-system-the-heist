@@ -41,11 +41,8 @@ export class JackActor extends BasePlayerActor {
 
   /**
    * @param {String} difficulty
-   * @param {String} agentId
    */
-  async doAgentTest(difficulty, agentId) {
-    await game[HEIST.SYSTEM_ID].agentTestWindow.prepareTest(this.id, agentId);
-
+  async drawAgentTest(difficulty) {
     // Draw 3 cards
     await this.drawCards(this.testHand, 3);
 
@@ -77,9 +74,6 @@ export class JackActor extends BasePlayerActor {
 
     // Remove the unwanted card
     await this.testHand.pass(this.pile, [removedCard], { chatNotification: false });
-
-    game[HEIST.SYSTEM_ID].agentTestWindow.render(true);
-    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.SHOW_AGENT_TEST_WINDOW });
   }
 
   async revealTest() {

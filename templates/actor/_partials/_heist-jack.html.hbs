@@ -14,5 +14,11 @@
         </button>
       </div>
     {{/if}}
+
+    {{#unless canTest}}
+      <div>
+        <button type="button" data-open-agent-test>{{localize "HEIST.AgentTestWindow.Title"}}</button>
+      </div>
+    {{/unless}}
   </div>
 </div>

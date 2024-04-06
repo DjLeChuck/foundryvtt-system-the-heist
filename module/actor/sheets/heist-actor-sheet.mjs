@@ -50,6 +50,7 @@ export class HeistActorSheet extends ActorSheet {
 
     html.on('click', '[data-open-sheet]', this.#onOpenSheet.bind(this));
     html.on('click', '[data-add-planning-item]', this.#onAddPlanningItem.bind(this));
+    html.on('click', '[data-open-agent-test]', this.#onOpenAgentTest.bind(this));
 
     if (!game.user.isGM) {
       return;
@@ -72,7 +73,7 @@ export class HeistActorSheet extends ActorSheet {
 
     context.isGM = game.user.isGM;
     context.isOwner = game.user.isOwner;
-    context.canTest = game.user.isGM && this.actor.jack?.canAskTest;
+    context.canTest = game[HEIST.SYSTEM_ID].agentTestWindow.canAskTest;
 
     await this.#preparePlanningContext(context);
 
@@ -129,6 +130,12 @@ export class HeistActorSheet extends ActorSheet {
     items[0]?.sheet?.render(true);
   }
 
+  async #onOpenAgentTest(e) {
+    e.preventDefault();
+
+    game[HEIST.SYSTEM_ID].agentTestWindow.render(true);
+  }
+
   async #onOpenSheet(e) {
     e.preventDefault();
 
@@ -155,7 +162,15 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
-    await this.actor.jack.doAgentTest(dataset.difficulty, dataset.agentId);
+    if (game[HEIST.SYSTEM_ID].agentTestWindow.isRunning) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.TestAlreadyRunning'));
+
+      return;
+    }
+
+    // await this.actor.jack.doAgentTest(dataset.difficulty, dataset.agentId);
+
+    await game[HEIST.SYSTEM_ID].agentTestWindow.doAgentTest(dataset.difficulty, this.actor.jack.id, dataset.agentId);
 
     const actor = game.actors.get(dataset.agentId);
     if (actor) {

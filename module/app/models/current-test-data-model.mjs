@@ -9,6 +9,7 @@ export class CurrentTestDataModel extends foundry.abstract.DataModel {
       agent: new fields.DocumentIdField({
         readonly: false,
       }),
+      isRunning: new fields.BooleanField(),
       isRevealed: new fields.BooleanField(),
       isFinished: new fields.BooleanField(),
       isSuccessful: new fields.BooleanField(),
