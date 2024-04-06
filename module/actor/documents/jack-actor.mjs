@@ -33,10 +33,6 @@ export class JackActor extends BasePlayerActor {
   async drawCards(hand, number) {
     await hand.draw(this.deck, number, { chatNotification: false });
 
-    await ChatMessage.create({
-      content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
-    });
-
     this.render(false);
   }
 

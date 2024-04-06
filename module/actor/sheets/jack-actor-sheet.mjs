@@ -62,13 +62,17 @@ export class JackActorSheet extends BaseActorSheet {
   <label for="number-cards">${game.i18n.localize('HEIST.Cards.HowManyToDraw')}</label>
   <select id="number-cards">${numberCardsOptions}</select>
 </p>`,
-      callback: (html) => {
+      callback: async (html) => {
         const nbCards = parseInt(html.find('#number-cards')[0]?.value || '0', 10);
         if (0 === nbCards) {
           return;
         }
 
-        this.actor.drawCards(this.actor.reconnaissanceHand, nbCards);
+        await this.actor.drawCards(this.actor.reconnaissanceHand, nbCards);
+
+        await ChatMessage.create({
+          content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
+        });
       },
       rejectClose: false,
     });
@@ -77,6 +81,11 @@ export class JackActorSheet extends BaseActorSheet {
   async #onChangeGamePhase(phase) {
     if (HEIST.GAME_PHASE_RECONNAISSANCE === phase.id) {
       await this.actor.throwReconnaissanceHand();
+      await this.actor.recallDeck();
+    }
+
+    if (HEIST.GAME_PHASE_ACTION === phase.id) {
+      await this.actor.recallDeck();
     }
 
     this.render(false);
