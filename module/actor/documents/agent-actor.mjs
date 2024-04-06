@@ -31,11 +31,7 @@ export class AgentActor extends BasePlayerActor {
   }
 
   get canUseFetish() {
-    if (!this.fetish || this.fetish.isUsed) {
-      return false;
-    }
-
-    return 0 < (this.hand?.availableCards.length || 0);
+    return this.fetish && !this.fetish.isUsed;
   }
 
   async drawCards(number) {
