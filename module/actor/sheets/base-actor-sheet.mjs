@@ -56,7 +56,7 @@ export class BaseActorSheet extends ActorSheet {
       return;
     }
 
-    html.find('.item-create').click(this._onItemCreate.bind(this));
+    html.on('click', '.item-create', this._onItemCreate.bind(this));
 
     new ContextMenu(html, '.item.card', [], { onOpen: this._onItemContext.bind(this) });
 

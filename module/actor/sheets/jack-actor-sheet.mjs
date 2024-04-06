@@ -27,7 +27,7 @@ export class JackActorSheet extends BaseActorSheet {
       return;
     }
 
-    html.find('[data-draw]').click(this.#onDrawCards.bind(this));
+    html.on('click', '[data-draw]', this.#onDrawCards.bind(this));
   }
 
   /** @override */

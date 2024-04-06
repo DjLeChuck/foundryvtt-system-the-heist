@@ -36,7 +36,7 @@ export class AgentActorSheet extends BaseActorSheet {
       return;
     }
 
-    html.find('[data-open-compendium]').click(this._onOpenCompendium.bind(this));
+    html.on('click', '[data-open-compendium]', this._onOpenCompendium.bind(this));
   }
 
   /**

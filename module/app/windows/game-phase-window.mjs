@@ -65,9 +65,9 @@ export class GamePhaseWindow extends WithSettingsWindow {
       return;
     }
 
-    html.find('[data-pause]').click(this.#onTogglePause.bind(this));
-    html.find('[data-next]').click(this.#onNextPhase.bind(this));
-    html.find('[data-reset]').click(this.#onReset.bind(this));
+    html.on('click', '[data-pause]', this.#onTogglePause.bind(this));
+    html.on('click', '[data-next]', this.#onNextPhase.bind(this));
+    html.on('click', '[data-reset]', this.#onReset.bind(this));
   }
 
   render(force = false, options = {}) {

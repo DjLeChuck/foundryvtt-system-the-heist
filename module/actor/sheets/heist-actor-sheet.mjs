@@ -48,17 +48,17 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
-    html.find('[data-open-sheet]').click(this.#onOpenSheet.bind(this));
-    html.find('[data-add-planning-item]').click(this.#onAddPlanningItem.bind(this));
+    html.on('click', '[data-open-sheet]', this.#onOpenSheet.bind(this));
+    html.on('click', '[data-add-planning-item]', this.#onAddPlanningItem.bind(this));
 
     if (!game.user.isGM) {
       return;
     }
 
-    html.find('[data-ask-agent-test]').click(this.#onAskAgentTest.bind(this));
-    html.find('[data-remove-actor]').click(this.#onRemoveActor.bind(this));
-    html.find('[data-edit-item]').click(this.#onEditItem.bind(this));
-    html.find('[data-remove-item]').click(this.#onRemoveItem.bind(this));
+    html.on('click', '[data-ask-agent-test]', this.#onAskAgentTest.bind(this));
+    html.on('click', '[data-remove-actor]', this.#onRemoveActor.bind(this));
+    html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
+    html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
   }
 
   /** @override */
