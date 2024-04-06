@@ -207,16 +207,16 @@ export class AgentTestWindow extends WithSettingsWindow {
           tested: true,
           show: 0 < number,
         });
-      } else {
-        const number = await agent.recallFromPile(2);
-
-        recalls.push({
-          number,
-          agent: agent.name,
-          tested: false,
-          show: 0 < number,
-        });
       }
+
+      const number = await agent.recallFromPile(2);
+
+      recalls.push({
+        number,
+        agent: agent.name,
+        tested: false,
+        show: 0 < number,
+      });
     }
 
     await ChatMessage.create({
