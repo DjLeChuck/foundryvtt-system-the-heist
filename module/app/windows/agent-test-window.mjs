@@ -128,20 +128,20 @@ export class AgentTestWindow extends WithSettingsWindow {
     const agent = this.agent;
 
     if (agent?.isOwner) {
-      html.find('[data-draw]').click(this._onDraw.bind(this));
-      html.find('[data-finish]').click(this._onFinishTest.bind(this));
-      html.find('[data-fetish]').click(this._onUseFetish.bind(this));
+      html.find('[data-draw]').click(this.#onDraw.bind(this));
+      html.find('[data-finish]').click(this.#onFinishTest.bind(this));
+      html.find('[data-fetish]').click(this.#onUseFetish.bind(this));
     }
 
     if (!game.user.isGM) {
       return;
     }
 
-    html.find('[data-reveal]').click(this._onRevealTest.bind(this));
-    html.find('[data-blackjack]').click(this._onBlackjack.bind(this));
+    html.find('[data-reveal]').click(this.#onRevealTest.bind(this));
+    html.find('[data-blackjack]').click(this.#onBlackjack.bind(this));
   }
 
-  async _onDraw(e) {
+  async #onDraw(e) {
     e.preventDefault();
 
     await this.agent.drawCards(1);
@@ -149,7 +149,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     this.#refreshViews();
   }
 
-  async _onFinishTest(e) {
+  async #onFinishTest(e) {
     e.preventDefault();
 
     await this._setSettings({
@@ -160,7 +160,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     this.#refreshViews();
   }
 
-  async _onUseFetish(e) {
+  async #onUseFetish(e) {
     e.preventDefault();
 
     await this.agent.useFetish();
@@ -173,7 +173,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     this.#refreshViews();
   }
 
-  async _onRevealTest(e) {
+  async #onRevealTest(e) {
     e.preventDefault();
 
     if (!game.user.isGM) {
@@ -187,7 +187,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     this.#refreshViews();
   }
 
-  async _onBlackjack(e) {
+  async #onBlackjack(e) {
     e.preventDefault();
 
     if (!game.user.isGM) {
@@ -197,7 +197,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     const testedAgent = this.agent;
     const recalls = [];
 
-    for (const agent of this.jack.agents) {
+    for (const agent of this.jack.agency?.agents) {
       if (agent === testedAgent) {
         const number = await agent.recallHand();
 

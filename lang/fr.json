@@ -38,8 +38,10 @@
   "HEIST.Global.Suit.Clubs": "Trèfle",
   "HEIST.Global.DrawCards": "Piocher des cartes",
   "HEIST.Global.NewItem": "Nouvel objet",
+  "HEIST.Global.Easy": "facile",
+  "HEIST.Global.Difficult": "difficile",
   "HEIST.Blackjack.Label": "BLACKJACK !",
-  "HEIST.Blackjack.Explanations": "L’agent {name} récupère toutes les cartes qu’il vient de jouer et les autres en récupèrent 2 de leur défausse !",
+  "HEIST.Blackjack.Explanations": "L’agent {name} récupère toutes les cartes qu’il vient de jouer et tous (lui y compris) en récupèrent 2 de leur défausse !",
   "HEIST.Cards.DeckName": "Deck de {name}",
   "HEIST.Cards.HandName": "Main de {name}",
   "HEIST.Cards.TestHandName": "Main de test {name} - Test d’agent",
@@ -99,6 +101,8 @@
   "HEIST.PlanningItem.Credits": "crédit(s)",
   "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !",
   "HEIST.Errors.DeckIdNotSet": "L’ID du deck à utiliser n’est pas défini !",
-  "HEIST.Errors.AlreadyTwoSkills": "Impossible d’ajouter la compétence, vous en possédez déjà 2 !",
-  "HEIST.Errors.NoFetishObject": "Vous ne disposez pas d’un objet fétiche !"
+  "HEIST.Errors.AlreadyTwoSkills": "Impossible d’ajouter la compétence, vous avez atteint le max !",
+  "HEIST.Errors.NoFetishObject": "Vous ne disposez pas d’un objet fétiche !",
+  "HEIST.ChatMessage.EasyTestAsked": "Un test facile a été demandé à {name} !",
+  "HEIST.ChatMessage.DifficultTestAsked": "Un test difficile a été demandé à {name} !"
 }

@@ -6,6 +6,10 @@ export class BasePlayerActor extends BaseActor {
    * @returns {Cards|null}
    */
   get deck() {
+    if (!this.system.deck) {
+      return null;
+    }
+
     return game.cards.get(this.system.deck);
   }
 
@@ -13,7 +17,22 @@ export class BasePlayerActor extends BaseActor {
    * @returns {Cards|null}
    */
   get pile() {
+    if (!this.system.pile) {
+      return null;
+    }
+
     return game.cards.get(this.system.pile);
+  }
+
+  /**
+   * @returns {HeistActor|null}
+   */
+  get agency() {
+    if (!this.system.agency) {
+      return null;
+    }
+
+    return game.actors.get(this.system.agency);
   }
 
   /**

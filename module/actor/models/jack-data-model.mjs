@@ -11,7 +11,6 @@ export class JackDataModel extends BasePlayerDataModel {
       reconnaissanceHand: new fields.DocumentIdField({
         required: false,
       }),
-      agents: new fields.ArrayField(new fields.DocumentIdField()),
     });
   }
 }

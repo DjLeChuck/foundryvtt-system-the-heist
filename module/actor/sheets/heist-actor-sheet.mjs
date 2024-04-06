@@ -72,7 +72,7 @@ export class HeistActorSheet extends ActorSheet {
 
     context.isGM = game.user.isGM;
     context.isOwner = game.user.isOwner;
-    context.canTest = game.user.isGM && this.actor.jack?.deck?.availableCards.length >= 3;
+    context.canTest = game.user.isGM && this.actor.jack?.canAskTest;
 
     await this.#preparePlanningContext(context);
 
@@ -100,6 +100,8 @@ export class HeistActorSheet extends ActorSheet {
     } else if (actor instanceof JackActor) {
       await this.actor.update({ 'system.jack': actor.id });
     }
+
+    await actor.update({ 'system.agency': this.actor.id });
   }
 
   async _onDropItem(event, data) {
@@ -147,8 +149,22 @@ export class HeistActorSheet extends ActorSheet {
     e.preventDefault();
 
     const dataset = e.currentTarget.dataset;
+    if (!dataset.difficulty || !dataset.agentId) {
+      ui.notifications.error('Cannot ask a test, missing difficulty and/or agentId!');
 
-    await this.actor.jack.doAgentTest(dataset?.difficulty, dataset?.agentId);
+      return;
+    }
+
+    await this.actor.jack.doAgentTest(dataset.difficulty, dataset.agentId);
+
+    const actor = game.actors.get(dataset.agentId);
+    if (actor) {
+      await ChatMessage.create({
+        content: `<p>${game.i18n.format(`HEIST.ChatMessage.${dataset.difficulty.titleCase()}TestAsked`, {
+          name: actor.name,
+        })}</p>`,
+      });
+    }
   }
 
   async #onRemoveActor(e) {
@@ -168,12 +184,13 @@ export class HeistActorSheet extends ActorSheet {
       title: game.i18n.format('HEIST.HeistSheet.RemoveActor.Title'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
 <p>${game.i18n.format('HEIST.HeistSheet.RemoveActor.Message', { agent: actor.name })}</p>`,
-      yes: this.#removeActor.bind(this, type),
+      yes: this.#removeActor.bind(this, type, actor),
     });
   }
 
-  async #removeActor(type) {
+  async #removeActor(type, actor) {
     await this.actor.update({ [`system.${type}`]: null });
+    await actor.update({ 'system.agency': null });
   }
 
   async #onEditItem(e) {

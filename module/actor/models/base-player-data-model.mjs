@@ -9,6 +9,9 @@ export class BasePlayerDataModel extends foundry.abstract.DataModel {
       pile: new fields.DocumentIdField({
         required: false,
       }),
+      agency: new fields.DocumentIdField({
+        required: false,
+      }),
     };
   }
 }

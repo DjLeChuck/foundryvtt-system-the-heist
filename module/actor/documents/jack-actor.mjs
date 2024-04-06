@@ -25,17 +25,8 @@ export class JackActor extends BasePlayerActor {
     return game.cards.get(this.system.reconnaissanceHand);
   }
 
-  /**
-   * @returns {AgentActor[]}
-   */
-  get agents() {
-    const agents = [];
-
-    for (const agentId of this.system.agents) {
-      agents.push(game.actors.get(agentId));
-    }
-
-    return agents;
+  get canAskTest() {
+    return this.deck?.availableCards.length >= 3;
   }
 
   async drawCards(hand, number) {
@@ -49,18 +40,10 @@ export class JackActor extends BasePlayerActor {
   }
 
   /**
-   * @param {String|undefined} difficulty
-   * @param {String|undefined} agentId
+   * @param {String} difficulty
+   * @param {String} agentId
    */
   async doAgentTest(difficulty, agentId) {
-    if (!difficulty) {
-      throw new Error('Missing difficulty for agent test.');
-    }
-
-    if (!agentId) {
-      throw new Error('Missing agent ID for agent test.');
-    }
-
     await game[HEIST.SYSTEM_ID].agentTestWindow.prepareTest(this.id, agentId);
 
     // Draw 3 cards

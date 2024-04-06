@@ -38,8 +38,10 @@
   "HEIST.Global.Suit.Clubs": "Clubs",
   "HEIST.Global.DrawCards": "Draw cards",
   "HEIST.Global.NewItem": "New item",
+  "HEIST.Global.Easy": "easy",
+  "HEIST.Global.Difficult": "difficult",
   "HEIST.Blackjack.Label": "BLACKJACK!",
-  "HEIST.Blackjack.Explanations": "Agent {name} collects all the cards he just played and the others collect 2 from their pile!",
+  "HEIST.Blackjack.Explanations": "Agent {name} retrieves all the cards he has just played and everyone (including himself) retrieves 2 from their pile!",
   "HEIST.Cards.DeckName": "{name}’s Deck",
   "HEIST.Cards.HandName": "{name}’s Hand",
   "HEIST.Cards.PileName": "{name}’s Pile",
@@ -53,7 +55,7 @@
   "HEIST.AgentTestWindow.Title": "Agent testing",
   "HEIST.AgentTestWindow.TitleWithTest": "Test for agent {name}",
   "HEIST.AgentTestWindow.TitleWithoutTest": "No test running",
-  "HEIST.AgentTestWindow.AgentHand": "Agent's hand",
+  "HEIST.AgentTestWindow.AgentHand": "Agent’s hand",
   "HEIST.AgentTestWindow.Reveal": "Reveal",
   "HEIST.AgentTestWindow.Draw": "Draw",
   "HEIST.AgentTestWindow.Finish": "Finish",
@@ -99,6 +101,8 @@
   "HEIST.PlanningItem.Credits": "credit(s)",
   "HEIST.Errors.CompendiumNotFound": "The compendium {name} is not found!",
   "HEIST.Errors.DeckIdNotSet": "The deck ID to use is not defined!",
-  "HEIST.Errors.AlreadyTwoSkills": "Impossible to add the skill, you already have 2!",
-  "HEIST.Errors.NoFetishObject": "You don't have a fetish object!"
+  "HEIST.Errors.AlreadyTwoSkills": "Impossible to add the skill, you’ve reached the max!",
+  "HEIST.Errors.NoFetishObject": "You don’t have a fetish object!",
+  "HEIST.ChatMessage.EasyTestAsked": "An easy test has been asked to {name}!",
+  "HEIST.ChatMessage.DifficultTestAsked": "A difficult test has been asked to {name}!"
 }
