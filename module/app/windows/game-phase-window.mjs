@@ -142,13 +142,23 @@ export class GamePhaseWindow extends WithSettingsWindow {
   async #onNextPhase(e) {
     e.preventDefault();
 
-    await this.#changePhase(this.#currentPhaseIndex + 1);
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.NextPhase'),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
+<p>${game.i18n.format('HEIST.GamePhaseWindow.NextPhaseValidation.Message')}</p>`,
+      yes: this.#changePhase.bind(this, this.#currentPhaseIndex + 1),
+    });
   }
 
   async #onReset(e) {
     e.preventDefault();
 
-    await this.#changePhase(1);
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.Reset'),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
+<p>${game.i18n.format('HEIST.GamePhaseWindow.ResetPhaseValidation.Message')}</p>`,
+      yes: this.#changePhase.bind(this, 1),
+    });
   }
 
   async #changePhase(phase) {
@@ -162,7 +172,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
 
     await this._setSettings({ current: phase });
 
-    this.#setTimeLeft();
+    this.#setTimeLeft(true);
     await this._setSettings({ timeLeft: this.timeLeft });
 
     if (!this.paused) {
@@ -174,11 +184,15 @@ export class GamePhaseWindow extends WithSettingsWindow {
     this.#render();
   }
 
-  #setTimeLeft() {
+  #setTimeLeft(isPhaseChanging) {
     const currentPhase = this.#getCurrentPhase();
 
     if (currentPhase) {
-      this.timeLeft = this.phases[this.#currentPhaseIndex].duration * 60;
+      if (isPhaseChanging) {
+        this.timeLeft = this.phases[this.#currentPhaseIndex].duration * 60;
+      } else {
+        this.timeLeft = this._getSetting('timeLeft', this.phases[this.#currentPhaseIndex].duration * 60);
+      }
     } else {
       this.timeLeft = 0;
     }
