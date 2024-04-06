@@ -86,7 +86,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     if (this.#isFinished) {
       return {
         test: {
-          isFinished: true,
+          isRunning: false,
         },
       };
     }
@@ -175,7 +175,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       if (game.user.isGM) {
         await this.handleAgentBlackjack();
       } else {
-        game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.HANDLE_AGENT_TEST_BLACKJACK });
+        game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_BLACKJACK });
       }
     }
 
@@ -190,8 +190,6 @@ export class AgentTestWindow extends WithSettingsWindow {
     });
 
     await this.#finishTest();
-
-    this.#refreshViews();
   }
 
   async #onUseFetish(e) {
@@ -202,7 +200,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     if (game.user.isGM) {
       await this.finishAgentTestWithSuccess();
     } else {
-      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.FINISH_AGENT_TEST_WITH_SUCCESS });
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.GM_FINISH_AGENT_TEST_WITH_SUCCESS });
     }
 
     this.#refreshViews();
@@ -250,6 +248,10 @@ export class AgentTestWindow extends WithSettingsWindow {
         }),
       });
     }
+
+    await this.close();
+
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.CLOSE_AGENT_TEST_WINDOW });
   }
 
   async #processBlackjack() {
@@ -303,5 +305,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     if (this.agent?.sheet.rendered) {
       this.agent?.sheet?.render(false, { focus: false });
     }
+
+    game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.REFRESH_AGENT_TEST_WINDOW });
   }
 }

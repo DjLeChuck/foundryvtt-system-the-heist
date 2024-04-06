@@ -46,7 +46,10 @@ export const RECONNAISSANCE_SUIT_OVERFLOW_LIMIT = 5;
 
 export const SOCKET_REQUESTS = {
   REFRESH_GAME_PHASE_WINDOW: 'refreshGamePhaseWindow',
+  REFRESH_AGENT_TEST_WINDOW: 'refreshAgentTestWindow',
   SHOW_AGENT_TEST_WINDOW: 'showAgentTestWindow',
-  HANDLE_AGENT_TEST_BLACKJACK: 'handleAgentTestBlackjack',
-  FINISH_AGENT_TEST_WITH_SUCCESS: 'finishAgentTestWithSuccess',
+  CLOSE_AGENT_TEST_WINDOW: 'closeAgentTestWindow',
+  // Proxy user actions to GM
+  GM_HANDLE_AGENT_TEST_BLACKJACK: 'gmHandleAgentTestBlackjack',
+  GM_FINISH_AGENT_TEST_WITH_SUCCESS: 'gmFinishAgentTestWithSuccess',
 };
