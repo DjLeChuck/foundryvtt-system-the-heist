@@ -1,0 +1,71 @@
+{
+  "label": "Fetishs",
+  "entries": {
+    "Un paquet de cartes": {
+      "name": "A deck of cards"
+    },
+    "Un portefeuille": {
+      "name": "A wallet"
+    },
+    "Une boîte de cigares": {
+      "name": "A cigar box"
+    },
+    "Une clé anglaise": {
+      "name": "A wrench"
+    },
+    "Un passe-partout": {
+      "name": "A master key"
+    },
+    "Un bokken (sabre en bois)": {
+      "name": "A bokken (wooden sword)"
+    },
+    "Un carnet de notes": {
+      "name": "A notebook"
+    },
+    "Une clé USB": {
+      "name": "An USB key"
+    },
+    "Une paire de gants noirs": {
+      "name": "A pair of black gloves"
+    },
+    "Un bracelet en or": {
+      "name": "A gold bracelet"
+    },
+    "Un casque Bluetooth": {
+      "name": "A Bluetooth headset"
+    },
+    "Un briquet Zippo": {
+      "name": "A Zippo lighter"
+    },
+    "Un mètre ruban": {
+      "name": "A tape measure"
+    },
+    "Un stylo plume": {
+      "name": "A fountain pen"
+    },
+    "Un sac à main": {
+      "name": "A handbag"
+    },
+    "Un couteau suisse": {
+      "name": "A Swiss Army Knife"
+    },
+    "Des clés de voiture": {
+      "name": "Car keys"
+    },
+    "Une boîte contenant des poudres aux effets variables": {
+      "name": "A box containing powders with varying effects"
+    },
+    "Un drone caméra miniature": {
+      "name": "A miniature camera drone"
+    },
+    "Une poignée de nourriture pour animaux": {
+      "name": "A handful of pet food"
+    },
+    "Un couteau papillon": {
+      "name": "A butterfly knife"
+    },
+    "Une montre": {
+      "name": "A watch"
+    }
+  }
+}

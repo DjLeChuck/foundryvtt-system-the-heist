@@ -1,14 +1,107 @@
 {
   "label": "Skills",
+  "folders": {
+    "Carreau": "Diamond",
+    "Cœur": "Heart",
+    "Pique": "Spade",
+    "Trèfle": "Club"
+  },
   "entries": {
+    "Bagarre": {
+      "name": "Fight"
+    },
+    "Démolition": {
+      "name": "Demolition"
+    },
+    "Endurance": {
+      "name": "Endurance"
+    },
+    "Force brute": {
+      "name": "Gross force"
+    },
+    "Intimidation": {
+      "name": "Intimidation"
+    },
+    "Mécanique": {
+      "name": "Mechanical engineering"
+    },
+    "Pilotage": {
+      "name": "Driving"
+    },
+    "Réparation": {
+      "name": "Repair"
+    },
+    "Charme": {
+      "name": "Charm"
+    },
+    "Étiquette / Protocole": {
+      "name": "Label / Protocol"
+    },
+    "Imitation": {
+      "name": "Imitation"
+    },
+    "Jeu": {
+      "name": "Game"
+    },
+    "Persuasion": {
+      "name": "Persuasion"
+    },
+    "Pickpocket": {
+      "name": "Pickpocket"
+    },
+    "Prestidigitation": {
+      "name": "Prestidigitation"
+    },
+    "Représentation": {
+      "name": "Representation"
+    },
+    "Acrobatie": {
+      "name": "Acrobatics"
+    },
+    "Arts martiaux": {
+      "name": "Martial arts"
+    },
+    "Contorsion": {
+      "name": "Contortion"
+    },
+    "Crochetage": {
+      "name": "Lock-picking"
+    },
+    "Déguisement": {
+      "name": "Disguise"
+    },
     "Discrétion": {
       "name": "Discretion"
     },
-    "Piratage": {
-      "name": "Hacking"
+    "Empathie animale": {
+      "name": "Animal empathy"
     },
-    "Crochetage": {
-      "name": "Lock picking"
+    "Visée": {
+      "name": "Aiming"
+    },
+    "Bricolage": {
+      "name": "DIY"
+    },
+    "Chimie": {
+      "name": "Chemistry"
+    },
+    "Électronique": {
+      "name": "Electronics"
+    },
+    "Falsification": {
+      "name": "Falsification"
+    },
+    "Informatique": {
+      "name": "IT"
+    },
+    "Médecine": {
+      "name": "Medicine"
+    },
+    "Observation": {
+      "name": "Observation"
+    },
+    "Psychologie": {
+      "name": "Psychology"
     }
   }
 }
