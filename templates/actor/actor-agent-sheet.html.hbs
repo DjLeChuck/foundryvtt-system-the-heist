@@ -29,7 +29,8 @@
 
           {{#if fetish}}
             <p class="fetish-container align-center">
-              <input id="fetish-{{actor.id}}" type="checkbox" {{checked fetish.used}}>
+              <input id="fetish-{{actor.id}}" type="checkbox"
+                     data-fetish {{#unless editable}}disabled{{/unless}} {{checked (not actor.canUseFetish)}} />
               <label for="fetish-{{actor.id}}">{{fetish.name}}</label>
             </p>
           {{/if}}

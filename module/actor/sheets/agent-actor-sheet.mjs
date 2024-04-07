@@ -39,6 +39,7 @@ export class AgentActorSheet extends BaseActorSheet {
     }
 
     html.on('click', '[data-open-compendium]', this._onOpenCompendium.bind(this));
+    html.on('input', '[data-fetish]', this.#onChangeFetish.bind(this));
   }
 
   /**
@@ -119,5 +120,11 @@ export class AgentActorSheet extends BaseActorSheet {
     }
 
     compendium.render(true);
+  }
+
+  async #onChangeFetish(e) {
+    e.preventDefault();
+
+    await this.actor.toggleFetish();
   }
 }

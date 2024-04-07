@@ -81,6 +81,16 @@ export class AgentActor extends BasePlayerActor {
     await this.fetish.update({ 'system.used': true });
   }
 
+  async toggleFetish() {
+    if (!this.fetish) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.NoFetishObject'));
+
+      return;
+    }
+
+    await this.fetish.toggleUsage();
+  }
+
   async setDecks() {
     await this._deleteDecks();
     await this._createDecks();
