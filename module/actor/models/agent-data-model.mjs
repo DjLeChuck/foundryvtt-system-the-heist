@@ -9,6 +9,7 @@ export class AgentDataModel extends BasePlayerDataModel {
       hand: new fields.DocumentIdField({
         required: false,
       }),
+      dead: new fields.BooleanField(),
     });
   }
 }

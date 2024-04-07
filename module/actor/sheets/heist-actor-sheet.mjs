@@ -12,7 +12,7 @@ export class HeistActorSheet extends ActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
       width: 830,
-      height: 900,
+      height: 950,
       template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
     });
@@ -23,6 +23,14 @@ export class HeistActorSheet extends ActorSheet {
 
     Hooks.on('updateCard', async (card, change) => {
       if (!change?.drawn) {
+        return;
+      }
+
+      this.render();
+    });
+
+    Hooks.on('updateActor', async (actor) => {
+      if (actor === this.actor || actor?.agency?._id !== this.actor?._id) {
         return;
       }
 
@@ -57,6 +65,8 @@ export class HeistActorSheet extends ActorSheet {
     }
 
     html.on('click', '[data-ask-agent-test]', this.#onAskAgentTest.bind(this));
+    html.on('click', '[data-harm-agent]', this.#onHarmAgent.bind(this));
+    html.on('click', '[data-kill-agent]', this.#onKillAgent.bind(this));
     html.on('click', '[data-remove-actor]', this.#onRemoveActor.bind(this));
     html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
@@ -168,8 +178,6 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
-    // await this.actor.jack.doAgentTest(dataset.difficulty, dataset.agentId);
-
     await game[HEIST.SYSTEM_ID].agentTestWindow.doAgentTest(dataset.difficulty, this.actor.jack.id, dataset.agentId);
 
     const actor = game.actors.get(dataset.agentId);
@@ -180,6 +188,66 @@ export class HeistActorSheet extends ActorSheet {
         })}</p>`,
       });
     }
+  }
+
+  async #onHarmAgent(e) {
+    e.preventDefault();
+
+    const { agentId } = e.currentTarget.dataset;
+    if (!agentId) {
+      return;
+    }
+
+    const agent = game.actors.get(agentId);
+    if (!agent) {
+      return;
+    }
+
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.HeistSheet.Harm'),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
+      yes: async () => {
+        const count = await agent.harm();
+        if (null === count) {
+          return;
+        }
+
+        await ChatMessage.create({
+          content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
+            count,
+            name: agent.name,
+          })}</p>`,
+        });
+      },
+    });
+  }
+
+  async #onKillAgent(e) {
+    e.preventDefault();
+
+    const { agentId } = e.currentTarget.dataset;
+    if (!agentId) {
+      return;
+    }
+
+    const agent = game.actors.get(agentId);
+    if (!agent) {
+      return;
+    }
+
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.HeistSheet.Kill'),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
+      yes: async () => {
+        await agent.kill();
+
+        await ChatMessage.create({
+          content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentKilled', {
+            name: agent.name,
+          })}</p>`,
+        });
+      },
+    });
   }
 
   async #onRemoveActor(e) {

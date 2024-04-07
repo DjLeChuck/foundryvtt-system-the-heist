@@ -43,6 +43,20 @@ export class AgentActor extends BasePlayerActor {
     return 0 < this.deck.availableCards.length;
   }
 
+  /**
+   * @return {boolean}
+   */
+  get isDead() {
+    return this.system.dead;
+  }
+
+  /**
+   * @return {boolean}
+   */
+  get canBeTested() {
+    return !this.isDead && this.canDraw;
+  }
+
   async drawCards(number) {
     await this.hand.draw(this.deck, number, { chatNotification: false });
 
@@ -91,16 +105,28 @@ export class AgentActor extends BasePlayerActor {
       return 0;
     }
 
-    // Draw 2 (or 1) random cards from the pile to the deck
-    await this.deck.draw(this.pile, toRecall, {
-      how: CONST.CARD_DRAW_MODES.RANDOM,
-      chatNotification: false,
-    });
-
-    // Shuffle the deck
-    await this._shuffleDeck(this.deck);
+    await this.#recallRandom(this.pile, this.deck, toRecall);
 
     return toRecall;
+  }
+
+  /**
+   * @return {Promise<number|null>}
+   */
+  async harm() {
+    const toRecall = Math.ceil(this.deck.availableCards.length / 2);
+
+    if (0 >= toRecall) {
+      return null;
+    }
+
+    await this.#recallRandom(this.deck, this.pile, toRecall);
+
+    return toRecall;
+  }
+
+  async kill() {
+    await this.update({ 'system.dead': true });
   }
 
   _baseDeckId() {
@@ -142,5 +168,14 @@ export class AgentActor extends BasePlayerActor {
     await super._deleteDecks();
 
     await this.hand?.delete();
+  }
+
+  async #recallRandom(from, to, number) {
+    await to.draw(from, number, {
+      how: CONST.CARD_DRAW_MODES.RANDOM,
+      chatNotification: false,
+    });
+
+    await this._shuffleDeck(to);
   }
 }

@@ -31,6 +31,7 @@
   "HEIST.Global.Delete": "Supprimer",
   "HEIST.Global.Name": "Nom",
   "HEIST.Global.AgentName": "Agent :",
+  "HEIST.Global.AgentIsDead": "L’agent est mort !",
   "HEIST.Global.Used": "Utilisé ?",
   "HEIST.Global.Suit.Hearts": "Cœur",
   "HEIST.Global.Suit.Spades": "Pique",
@@ -83,6 +84,8 @@
   "HEIST.HeistSheet.RemoveActor.Message": "Vous allez retirer {agent} de l’agence.",
   "HEIST.HeistSheet.EasyTest": "Test facile",
   "HEIST.HeistSheet.DifficultTest": "Test difficile",
+  "HEIST.HeistSheet.Harm": "Blesser",
+  "HEIST.HeistSheet.Kill": "Tuer",
   "HEIST.HeistSheet.TheAgency": "L’agence",
   "HEIST.HeistSheet.Planning.AddItem": "Ajouter un objet",
   "HEIST.HeistSheet.Planning.Credit.Label": "Crédits",
@@ -109,5 +112,7 @@
   "HEIST.ChatMessage.TestFailed": "Malheureusement, {name} n’a pas réussi son test.",
   "HEIST.ChatMessage.AgentUsedFetish": "Il a utilisé son objet fétiche.",
   "HEIST.ChatMessage.ScoreToBeat": "Score à battre :",
-  "HEIST.ChatMessage.AgentScore": "Score de l’agent :"
+  "HEIST.ChatMessage.AgentScore": "Score de l’agent :",
+  "HEIST.ChatMessage.AgentHarmed": "L’agent {name} a été blessé ! Il perd la moitié de son paquet de cartes ({count}).",
+  "HEIST.ChatMessage.AgentKilled": "L’agent {name} est mort !"
 }

@@ -4,6 +4,10 @@
       <img class="profile-img{{ifThen agent.visible " openable" ""}}" src="{{agent.img}}" title="{{agent.name}}"
            height="100" width="100" {{ifThen agent.visible (concat " data-open-sheet=\"" agent.id "\"") ""}} />
       <p><u>{{localize "HEIST.Global.AgentName"}}</u> <strong>{{agent.name}}</strong></p>
+
+      {{#if agent.isDead}}
+        <p><strong>{{localize "HEIST.Global.AgentIsDead"}}</strong></p>
+      {{/if}}
     </div>
 
     {{#if isGM}}
@@ -23,18 +27,20 @@
     </p>
 
     {{#if canTest}}
-      {{#if (length agent.deck.availableCards)}}
+      {{#if agent.canBeTested}}
         <div class="grid grid-2col flexshrink">
-          <div>
-            <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{agent.id}}">
-              {{localize "HEIST.HeistSheet.EasyTest"}}
-            </button>
-          </div>
-          <div>
-            <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{agent.id}}">
-              {{localize "HEIST.HeistSheet.DifficultTest"}}
-            </button>
-          </div>
+          <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{agent.id}}">
+            {{localize "HEIST.HeistSheet.EasyTest"}}
+          </button>
+          <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{agent.id}}">
+            {{localize "HEIST.HeistSheet.DifficultTest"}}
+          </button>
+          <button type="button" data-harm-agent data-agent-id="{{agent.id}}">
+            {{localize "HEIST.HeistSheet.Harm"}}
+          </button>
+          <button type="button" data-kill-agent data-agent-id="{{agent.id}}">
+            {{localize "HEIST.HeistSheet.Kill"}}
+          </button>
         </div>
       {{/if}}
     {{/if}}
