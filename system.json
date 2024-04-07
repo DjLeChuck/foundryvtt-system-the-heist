@@ -5,7 +5,7 @@
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
-    "verified": "11.308"
+    "verified": "11.315"
   },
   "flags": {
     "hotReload": {
@@ -26,7 +26,7 @@
       "name": "DjLeChuck",
       "email": "djlechuck@gmail.com",
       "url": "https://github.com/djlechuck/",
-      "discord": "DjLeChuck#9015",
+      "discord": "djlechuck",
       "flags": {}
     }
   ],
@@ -80,6 +80,13 @@
   "download": "#{DOWNLOAD}#",
   "bugs": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/issues",
   "changelog": "https://github.com/DjLeChuck/foundryvtt-system-the-heist/blob/main/CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/heist/assets/system-background.webp",
+      "thumbnail": "systems/heist/assets/system-background.webp"
+    }
+  ],
   "license": "./LICENSE",
   "readme": "./README.md",
   "background": "systems/heist/assets/system-background.webp"
