@@ -3,7 +3,6 @@
 @import "utils/colors";
 @import "utils/mixins";
 @import "utils/variables";
-@import "utils/spaces";
 
 /* Global styles */
 @import "global/window";
@@ -16,7 +15,12 @@
 
   @import "components/cards-display";
   @import "components/game-phase-windows";
+
+  // Actors
   @import "components/agent-sheet";
   @import "components/jack-sheet";
   @import "components/heist-sheet";
+
+  // Items
+  @import "components/skill-sheet";
 }

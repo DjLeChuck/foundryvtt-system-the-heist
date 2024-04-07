@@ -2,8 +2,6 @@ import { BasePlayerActor } from './base-player-actor.mjs';
 import * as HEIST from '../../const.mjs';
 
 export class AgentActor extends BasePlayerActor {
-  static DEFAULT_ICON = `systems/${HEIST.SYSTEM_ID}/images/logos/mini.webp`;
-
   /**
    * @returns {Cards|null}
    */

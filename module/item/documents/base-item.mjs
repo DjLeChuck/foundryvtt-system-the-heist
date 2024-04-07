@@ -5,6 +5,8 @@ import * as HEIST from '../../const.mjs';
  * @extends {Item}
  */
 export class BaseItem extends Item {
+  static DEFAULT_ICON = `systems/${HEIST.SYSTEM_ID}/images/logos/mini.webp`;
+
   constructor(docData, context = {}) {
     if (!context[HEIST.SYSTEM_ID]?.ready) {
       foundry.utils.mergeObject(context, { [HEIST.SYSTEM_ID]: { ready: true } });
@@ -16,14 +18,5 @@ export class BaseItem extends Item {
     }
 
     super(docData, context);
-  }
-
-  /**
-   * Augment the basic Item data model with additional dynamic data.
-   */
-  prepareData() {
-    // As with the actor class, items are documents that can have their data
-    // preparation methods overridden (such as prepareBaseData()).
-    super.prepareData();
   }
 }

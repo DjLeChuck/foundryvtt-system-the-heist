@@ -5,6 +5,8 @@ import * as HEIST from '../../const.mjs';
  * @extends {Actor}
  */
 export class BaseActor extends Actor {
+  static DEFAULT_ICON = `systems/${HEIST.SYSTEM_ID}/images/logos/mini.webp`;
+
   constructor(docData, context = {}) {
     if (!context[HEIST.SYSTEM_ID]?.ready) {
       foundry.utils.mergeObject(context, { [HEIST.SYSTEM_ID]: { ready: true } });
