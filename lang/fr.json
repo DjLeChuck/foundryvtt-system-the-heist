@@ -85,6 +85,7 @@
   "HEIST.HeistSheet.EasyTest": "Test facile",
   "HEIST.HeistSheet.DifficultTest": "Test difficile",
   "HEIST.HeistSheet.Harm": "Blesser",
+  "HEIST.HeistSheet.Rescue": "Sauver",
   "HEIST.HeistSheet.Kill": "Tuer",
   "HEIST.HeistSheet.TheAgency": "L’agence",
   "HEIST.HeistSheet.Planning.AddItem": "Ajouter un objet",
@@ -113,6 +114,7 @@
   "HEIST.ChatMessage.AgentUsedFetish": "Il a utilisé son objet fétiche.",
   "HEIST.ChatMessage.ScoreToBeat": "Score à battre :",
   "HEIST.ChatMessage.AgentScore": "Score de l’agent :",
-  "HEIST.ChatMessage.AgentHarmed": "L’agent {name} a été blessé ! Il perd la moitié de son paquet de cartes ({count}).",
+  "HEIST.ChatMessage.AgentHarmed": "L’agent {name} a été blessé ! Il défausse la moitié de son paquet de cartes ({count}).",
+  "HEIST.ChatMessage.AgentRescued": "L’agent {name} a été sauvé ! Il défausse toutes ses cartes.",
   "HEIST.ChatMessage.AgentKilled": "L’agent {name} est mort !"
 }

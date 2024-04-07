@@ -12,7 +12,7 @@ export class HeistActorSheet extends ActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
       width: 830,
-      height: 950,
+      height: 1050,
       template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
     });
@@ -66,6 +66,7 @@ export class HeistActorSheet extends ActorSheet {
 
     html.on('click', '[data-ask-agent-test]', this.#onAskAgentTest.bind(this));
     html.on('click', '[data-harm-agent]', this.#onHarmAgent.bind(this));
+    html.on('click', '[data-rescue-agent]', this.#onRescueAgent.bind(this));
     html.on('click', '[data-kill-agent]', this.#onKillAgent.bind(this));
     html.on('click', '[data-remove-actor]', this.#onRemoveActor.bind(this));
     html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
@@ -215,6 +216,34 @@ export class HeistActorSheet extends ActorSheet {
         await ChatMessage.create({
           content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
             count,
+            name: agent.name,
+          })}</p>`,
+        });
+      },
+    });
+  }
+
+  async #onRescueAgent(e) {
+    e.preventDefault();
+
+    const { agentId } = e.currentTarget.dataset;
+    if (!agentId) {
+      return;
+    }
+
+    const agent = game.actors.get(agentId);
+    if (!agent) {
+      return;
+    }
+
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.HeistSheet.Rescue'),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
+      yes: async () => {
+        await agent.rescue();
+
+        await ChatMessage.create({
+          content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentRescued', {
             name: agent.name,
           })}</p>`,
         });

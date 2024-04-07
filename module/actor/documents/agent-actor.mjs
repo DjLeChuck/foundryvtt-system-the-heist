@@ -35,7 +35,7 @@ export class AgentActor extends BasePlayerActor {
   }
 
   get canLearnSkill() {
-    // @todo Gérer la progresse « Entraînement des agents »
+    // @todo Gérer la progression « Entraînement des agents »
     return 2 <= this.skills.length;
   }
 
@@ -105,7 +105,7 @@ export class AgentActor extends BasePlayerActor {
       return 0;
     }
 
-    await this.#recallRandom(this.pile, this.deck, toRecall);
+    await this.#recallCards(this.pile, this.deck, toRecall);
 
     return toRecall;
   }
@@ -120,13 +120,17 @@ export class AgentActor extends BasePlayerActor {
       return null;
     }
 
-    await this.#recallRandom(this.deck, this.pile, toRecall);
+    await this.#recallCards(this.deck, this.pile, toRecall);
 
     return toRecall;
   }
 
   async kill() {
     await this.update({ 'system.dead': true });
+  }
+
+  async rescue() {
+    await this.#recallCards(this.deck, this.pile, this.deck.availableCards.length);
   }
 
   _baseDeckId() {
@@ -170,7 +174,7 @@ export class AgentActor extends BasePlayerActor {
     await this.hand?.delete();
   }
 
-  async #recallRandom(from, to, number) {
+  async #recallCards(from, to, number) {
     await to.draw(from, number, {
       how: CONST.CARD_DRAW_MODES.RANDOM,
       chatNotification: false,

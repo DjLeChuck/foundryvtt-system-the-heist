@@ -85,6 +85,7 @@
   "HEIST.HeistSheet.EasyTest": "Easy test",
   "HEIST.HeistSheet.DifficultTest": "Difficult test",
   "HEIST.HeistSheet.Harm": "Harm",
+  "HEIST.HeistSheet.Rescue": "Rescue",
   "HEIST.HeistSheet.Kill": "Kill",
   "HEIST.HeistSheet.TheAgency": "The agency",
   "HEIST.HeistSheet.Planning.AddItem": "Add an item",
@@ -113,6 +114,7 @@
   "HEIST.ChatMessage.AgentUsedFetish": "He has used his fetish object.",
   "HEIST.ChatMessage.ScoreToBeat": "Score to beat:",
   "HEIST.ChatMessage.AgentScore": "Agent score:",
-  "HEIST.ChatMessage.AgentHarmed": "Agent {name} has been harmed! He loses half his deck of cards ({count}).",
+  "HEIST.ChatMessage.AgentHarmed": "Agent {name} has been harmed! He discards half his deck of cards ({count}).",
+  "HEIST.ChatMessage.AgentRescued": "Agent {name} has been saved! He discards all his cards.",
   "HEIST.ChatMessage.AgentKilled": "Agent {name} is dead!"
 }
