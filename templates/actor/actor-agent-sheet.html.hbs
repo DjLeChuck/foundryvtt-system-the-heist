@@ -1,57 +1,45 @@
-<form class="{{cssClass}} {{actor.type}} flexcol" autocomplete="off">
-  <header class="sheet-header">
-    <div class="flex flexcol">
-      <div class="flexrow flex-group-center">
-        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
-        <div class="header-fields">
-          <h1 class="charname">
-            <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
-          </h1>
-          <div class="flex flexrow flex-group-center">
-            <h1 class="charname">
-              <input type="text" value="{{agentType.name}}" readonly disabled
-                     placeholder="{{localize "TYPES.Item.agentType"}}" />
-            </h1>
-            {{#unless agentType}}
-              <p class="flexshrink ml-8">
-                <button type="button" data-open-compendium data-name="agent-types">
-                  <i class="fa fa-magnifying-glass"></i>
-                </button>
-              </p>
-            {{/unless}}
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+<form class="{{cssClass}} {{actor.type}}" autocomplete="off">
+  <div class="inner-wrapper">
+    <div class="heist-margin">THE HEIST</div>
 
-  <section class="sheet-body">
-    <div class="grid grid-3col">
-      <div class="flexcol">
-        <div>
+    {{#if agentType}}
+      <div class="agent-type">
+        <img src="{{ui (concat agentType.system.type ".webp")}}" alt="" />
+        <div class="agent-type-name">{{agentType.name}}</div>
+      </div>
+    {{/if}}
+
+    <div class="flex flexcol align-center agent-inner">
+      <div class="agent-image">
+        <img src="{{actor.img}}" data-edit="img" alt="" />
+      </div>
+      <div class="agent-info flexshrink">
+        <div class="agent-skills">
+          <p><strong>{{localize "HEIST.Agent.Skills"}}</strong></p>
+
           <p>
-            <u>{{localize "HEIST.Agent.FetishObject"}}</u> {{fetish.name}}
-            {{#if fetish.system.used}}{{localize "HEIST.Agent.FetishObjectUsed"}}{{/if}}
+            {{#each skills}}
+              <span>{{this.name}}</span>
+              {{#unless @last}}|{{/unless}}
+            {{/each}}
           </p>
         </div>
-        <div>
-          <p>{{localize "HEIST.Agent.Skills"}}</p>
+        <div class="agent-fetish">
+          <p><strong>{{localize "HEIST.Agent.FetishObject"}}</strong></p>
 
-          <ul>
-            {{#each skills}}
-              <li>{{this.name}}</li>
-            {{/each}}
-          </ul>
-        </div>
-        <div>
-          {{#if remainingCards}}
-            <p>{{localize "HEIST.Cards.Remaining"}} <strong>{{remainingCards}}</strong></p>
+          {{#if fetish}}
+            <p class="fetish-container align-center">
+              <input id="fetish-{{actor.id}}" type="checkbox" {{checked fetish.used}}>
+              <label for="fetish-{{actor.id}}">{{fetish.name}}</label>
+            </p>
           {{/if}}
         </div>
-      </div>
-      <div class="grid-span-2">
-        {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+        <div class="agent-story">
+          <p><strong>{{localize "HEIST.Agent.Story"}}</strong></p>
+
+          {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 </form>

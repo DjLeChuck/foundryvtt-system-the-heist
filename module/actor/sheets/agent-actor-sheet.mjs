@@ -6,7 +6,8 @@ export class AgentActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      height: 450,
+      classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'agent-sheet'],
+      height: 1100,
     });
   }
 
@@ -23,6 +24,7 @@ export class AgentActorSheet extends BaseActorSheet {
 
     await this._prepareItems(context);
 
+    context.enrichedDescription = await TextEditor.enrichHTML(context.actor.system.description, { async: true });
     context.remainingCards = this.actor.deck?.availableCards.length;
 
     return context;

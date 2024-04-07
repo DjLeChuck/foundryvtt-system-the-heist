@@ -98,7 +98,7 @@
   "HEIST.JackSheet.Reconnaissance.AgentsCompromised": "Agents are compromised!",
   "HEIST.JackSheet.Reconnaissance.CardsDrawn": "A few cards are drawn...",
   "HEIST.Agent.FetishObject": "Fetish object:",
-  "HEIST.Agent.FetishObjectUsed": "(used)",
+  "HEIST.Agent.Story": "Story:",
   "HEIST.Agent.Skills": "Skills",
   "HEIST.PlanningItem.Cost": "Cost:",
   "HEIST.PlanningItem.Credits": "credit(s)",

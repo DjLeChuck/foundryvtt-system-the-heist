@@ -1,10 +1,6 @@
 import * as HEIST from '../const.mjs';
 
 export function registerHandlebarsHelper() {
-  Handlebars.registerHelper('toLowerCase', function (str) {
-    return str.toLowerCase();
-  });
-
   Handlebars.registerHelper('length', function (value) {
     return value ? value.length : 0;
   });
@@ -18,5 +14,9 @@ export function registerHandlebarsHelper() {
 
   Handlebars.registerHelper('template', function (path) {
     return `systems/${HEIST.SYSTEM_ID}/templates/${path}`;
+  });
+
+  Handlebars.registerHelper('ui', function (path) {
+    return `systems/${HEIST.SYSTEM_ID}/images/ui/${path}`;
   });
 }
