@@ -7,7 +7,7 @@ export class AgentActorSheet extends BaseActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'agent-sheet'],
-      height: 1100,
+      height: 1130,
     });
   }
 
@@ -85,7 +85,7 @@ export class AgentActorSheet extends BaseActorSheet {
       await this.actor.fetish.delete();
     }
 
-    if ('skill' === itemData.type && this.actor.canLearnSkill) {
+    if ('skill' === itemData.type && !this.actor.canLearnSkill) {
       ui.notifications.error(game.i18n.localize('HEIST.Errors.AlreadyMaxSkills'));
 
       return false;

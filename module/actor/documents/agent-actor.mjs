@@ -2,6 +2,8 @@ import { BasePlayerActor } from './base-player-actor.mjs';
 import * as HEIST from '../../const.mjs';
 
 export class AgentActor extends BasePlayerActor {
+  static DEFAULT_ICON = `systems/${HEIST.SYSTEM_ID}/images/logos/mini.webp`;
+
   /**
    * @returns {Cards|null}
    */
@@ -36,7 +38,7 @@ export class AgentActor extends BasePlayerActor {
 
   get canLearnSkill() {
     // @todo Gérer la progression « Entraînement des agents »
-    return 2 <= this.skills.length;
+    return 2 > this.skills.length;
   }
 
   get canDraw() {

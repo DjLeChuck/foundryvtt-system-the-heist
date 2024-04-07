@@ -44,7 +44,7 @@
 
           .agent-type-name {
             position: relative;
-            top: 260px;
+            top: 290px;
             font-family: $f-masqualero;
             font-weight: bold;
             text-transform: uppercase;
@@ -62,6 +62,8 @@
 
           .agent-image {
             position: relative;
+            width: 590px;
+            margin: auto;
 
             &::before {
               content: "";
@@ -70,11 +72,12 @@
               left: 0;
               width: 100%;
               height: 100%;
-              background: linear-gradient(0deg, $c-gable-green 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 100%);
+              background: linear-gradient(0deg, $c-gable-green 0%, transparent 45%, transparent 100%);
               z-index: 1;
             }
 
             img {
+              object-fit: contain;
               width: auto;
               height: auto;
               min-width: 100%;
@@ -88,7 +91,7 @@
 
           .agent-info {
             z-index: 2;
-            margin-top: -110px;
+            margin-top: -210px;
 
             .agent-fetish {
               margin-top: 30px;
@@ -106,6 +109,19 @@
 
             .agent-story {
               margin-top: 30px;
+
+              .editor-content {
+                background: none;
+              }
+
+              .prosemirror {
+                border: 1px solid $c-brown-rust;
+                border-radius: 6px;
+
+                menu {
+                  background: $c-brown-rust;
+                }
+              }
             }
           }
         }
