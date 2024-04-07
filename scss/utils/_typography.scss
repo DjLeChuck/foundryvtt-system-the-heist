@@ -3,6 +3,18 @@
   src: url("../fonts/MasqualeroGroove-Regular.otf") format("opentype");
 }
 
-$masqualero-groove: "Masqualero Groove";
-$font-primary: sans-serif;
+@font-face {
+  font-family: "Masqualero";
+  src: url("../fonts/Masqualero-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bodega Sans";
+  src: url("../fonts/BodegaSans-Light.otf") format("opentype");
+}
+
+$f-masqualero-groove: "Masqualero Groove";
+$f-masqualero: "Masqualero";
+$f-bodega-sans: "Bodega Sans";
+$font-primary: $f-masqualero, sans-serif;
 $font-secondary: sans-serif;

@@ -3,20 +3,11 @@
 
   .main-title {
     @include goldy-gradient-text;
-    font-family: $masqualero-groove;
+    font-family: $f-masqualero-groove;
   }
 
   .sub-title {
     @include goldy-gradient-text;
-  }
-}
-
-.rollable {
-  &:hover,
-  &:focus {
-    color: #000;
-    text-shadow: 0 0 10px red;
-    cursor: pointer;
   }
 }
 

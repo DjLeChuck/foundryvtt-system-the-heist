@@ -12,6 +12,8 @@
 
 /* Styles limited to The Heist sheets */
 .heist {
+  font-size: 1rem;
+
   @import "components/forms";
   @import "components/items";
   @import "components/effects";
