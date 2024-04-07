@@ -14,9 +14,6 @@
 .heist {
   font-size: 1rem;
 
-  @import "components/forms";
-  @import "components/items";
-  @import "components/effects";
   @import "components/cards-display";
   @import "components/game-phase-windows";
   @import "components/agent-sheet";

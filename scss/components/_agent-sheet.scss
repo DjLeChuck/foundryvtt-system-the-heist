@@ -110,16 +110,28 @@
             .agent-story {
               margin-top: 30px;
 
-              .editor-content {
-                background: none;
-              }
+              .editor {
+                height: 100%;
+                min-height: 15rem;
 
-              .prosemirror {
-                border: 1px solid $c-brown-rust;
-                border-radius: 6px;
+                &.prosemirror {
+                  border: 1px solid $c-brown-rust;
+                  border-radius: 6px;
 
-                menu {
-                  background: $c-brown-rust;
+                  menu {
+                    background: $c-brown-rust;
+                  }
+                }
+
+                .editor-container {
+                  .editor-content {
+                    min-height: 8rem;
+                  }
+                }
+
+                .editor-content {
+                  background: none;
+                  min-height: 15rem;
                 }
               }
             }
