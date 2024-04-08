@@ -1,0 +1,56 @@
+&.agent-type-sheet {
+  .window-content {
+    background: none $c-gable-green;
+
+    .sheet-header {
+      img {
+        object-fit: contain;
+        border: none;
+      }
+
+      input {
+        padding: 30px 8px;
+        width: 80%;
+      }
+
+      .agent-type-name {
+        font-family: $f-masqualero-groove;
+        color: $c-manhattan;
+        font-size: 1.8rem;
+      }
+    }
+
+    .sheet-body {
+      margin-top: 20px;
+      background-color: $c-astronaut;
+      padding: 30px;
+      border: 2px solid $c-brown-rust;
+      color: $c-white;
+
+      .editor {
+        height: 100%;
+        min-height: 15rem;
+
+        &.prosemirror {
+          border: 1px solid $c-brown-rust;
+          border-radius: 6px;
+
+          menu {
+            background: $c-brown-rust;
+          }
+        }
+
+        .editor-container {
+          .editor-content {
+            min-height: 8rem;
+          }
+        }
+
+        .editor-content {
+          background: none;
+          min-height: 15rem;
+        }
+      }
+    }
+  }
+}
