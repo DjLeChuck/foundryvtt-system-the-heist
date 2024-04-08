@@ -3,7 +3,7 @@
   "name": "Acrobatie",
   "type": "skill",
   "_id": "gxCJENfVnr2cFUHg",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

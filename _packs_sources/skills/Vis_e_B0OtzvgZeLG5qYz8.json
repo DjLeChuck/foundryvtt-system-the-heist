@@ -3,7 +3,7 @@
   "name": "Visée",
   "type": "skill",
   "_id": "B0OtzvgZeLG5qYz8",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

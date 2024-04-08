@@ -3,7 +3,7 @@
   "name": "Bagarre",
   "type": "skill",
   "_id": "mVAZianil9mw9hBh",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

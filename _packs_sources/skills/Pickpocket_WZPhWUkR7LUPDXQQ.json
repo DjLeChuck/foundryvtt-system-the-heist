@@ -3,7 +3,7 @@
   "name": "Pickpocket",
   "type": "skill",
   "_id": "WZPhWUkR7LUPDXQQ",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

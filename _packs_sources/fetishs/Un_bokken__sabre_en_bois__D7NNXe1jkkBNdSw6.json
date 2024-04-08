@@ -1,7 +1,7 @@
 {
   "name": "Un bokken (sabre en bois)",
   "type": "fetish",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": "",
     "used": false

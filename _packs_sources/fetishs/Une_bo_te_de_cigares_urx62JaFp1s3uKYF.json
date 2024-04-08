@@ -1,7 +1,7 @@
 {
   "name": "Une boîte de cigares",
   "type": "fetish",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": "",
     "used": false

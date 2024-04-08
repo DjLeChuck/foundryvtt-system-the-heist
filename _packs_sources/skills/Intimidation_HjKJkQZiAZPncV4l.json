@@ -3,7 +3,7 @@
   "name": "Intimidation",
   "type": "skill",
   "_id": "HjKJkQZiAZPncV4l",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

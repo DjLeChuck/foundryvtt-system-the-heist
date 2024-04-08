@@ -3,7 +3,7 @@
   "name": "Charme",
   "type": "skill",
   "_id": "XEmCTxVjfZ9xIoYA",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

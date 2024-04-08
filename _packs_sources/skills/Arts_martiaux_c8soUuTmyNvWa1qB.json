@@ -3,7 +3,7 @@
   "name": "Arts martiaux",
   "type": "skill",
   "_id": "c8soUuTmyNvWa1qB",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

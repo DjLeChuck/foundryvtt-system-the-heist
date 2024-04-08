@@ -3,7 +3,7 @@
   "name": "Endurance",
   "type": "skill",
   "_id": "wZ16YzEQXivqgbhP",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

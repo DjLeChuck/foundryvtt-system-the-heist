@@ -3,7 +3,7 @@
   "name": "Persuasion",
   "type": "skill",
   "_id": "cxUXs9YbB2muT1Xq",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

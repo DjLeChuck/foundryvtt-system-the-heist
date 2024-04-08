@@ -3,7 +3,7 @@
   "name": "Jeu",
   "type": "skill",
   "_id": "6fYu8x60a1BAmP8Y",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

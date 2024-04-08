@@ -3,7 +3,7 @@
   "name": "Démolition",
   "type": "skill",
   "_id": "xk0dbxB2lEelBc3o",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

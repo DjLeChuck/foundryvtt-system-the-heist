@@ -3,7 +3,7 @@
   "name": "Mécanique",
   "type": "skill",
   "_id": "1SGClzZ4AUR1HxWe",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

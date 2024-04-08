@@ -3,7 +3,7 @@
   "name": "Observation",
   "type": "skill",
   "_id": "NTbFk2NWzNz5Gsyk",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

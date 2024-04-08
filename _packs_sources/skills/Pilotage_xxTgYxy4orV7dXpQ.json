@@ -3,7 +3,7 @@
   "name": "Pilotage",
   "type": "skill",
   "_id": "xxTgYxy4orV7dXpQ",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

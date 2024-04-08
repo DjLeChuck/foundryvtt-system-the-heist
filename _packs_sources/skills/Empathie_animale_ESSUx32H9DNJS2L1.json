@@ -3,7 +3,7 @@
   "name": "Empathie animale",
   "type": "skill",
   "_id": "ESSUx32H9DNJS2L1",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

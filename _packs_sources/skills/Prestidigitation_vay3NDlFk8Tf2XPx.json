@@ -3,7 +3,7 @@
   "name": "Prestidigitation",
   "type": "skill",
   "_id": "vay3NDlFk8Tf2XPx",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

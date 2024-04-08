@@ -3,7 +3,7 @@
   "name": "Réparation",
   "type": "skill",
   "_id": "xLoL5msECzPgtS4b",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

@@ -3,7 +3,7 @@
   "name": "Déguisement",
   "type": "skill",
   "_id": "UiBXdfEkkm5jFcHp",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

@@ -3,7 +3,7 @@
   "name": "Médecine",
   "type": "skill",
   "_id": "gDDxpkkNHC7LuMOv",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },

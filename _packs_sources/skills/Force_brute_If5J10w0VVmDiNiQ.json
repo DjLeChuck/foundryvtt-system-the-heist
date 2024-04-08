@@ -3,7 +3,7 @@
   "name": "Force brute",
   "type": "skill",
   "_id": "If5J10w0VVmDiNiQ",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/logos/mini.webp",
   "system": {
     "description": ""
   },
