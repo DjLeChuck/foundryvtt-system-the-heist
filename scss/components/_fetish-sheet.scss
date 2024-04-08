@@ -1,0 +1,66 @@
+&.fetish-sheet {
+  .window-content {
+    background: none $c-gable-green;
+    font-family: $f-masqualero-groove;
+    color: $c-manhattan;
+    font-size: 2rem;
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+
+    form {
+      width: 100%;
+
+      .fetish-edit {
+        position: absolute;
+        right: 30px;
+        top: 25px;
+
+        button {
+          background-color: $c-manhattan;
+          border: none;
+        }
+      }
+
+      .fetish-wrapper {
+        border: 1px solid $c-manhattan;
+        border-radius: 8px;
+        display: flex;
+        flex: 0 0 100%;
+        height: 100%;
+        background: radial-gradient(circle, $c-tan 0%, $c-black 100%);
+        box-shadow: -5px -5px 15px 0px $c-manhattan;
+        padding: 0 8px;
+
+        .fetish-image {
+          padding: $padding-sm;
+          max-height: 80%;
+
+          img {
+            max-height: 100px;
+            object-fit: contain;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+            border: none;
+          }
+        }
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+
+          input {
+            color: $c-manhattan;
+            width: 80%;
+            padding: 30px 8px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,8 @@ import { BaseItemSheet } from './base-item-sheet.mjs';
 import * as HEIST from '../../const.mjs';
 
 export class SkillItemSheet extends BaseItemSheet {
+  isLocked = true;
+
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -11,18 +13,11 @@ export class SkillItemSheet extends BaseItemSheet {
     });
   }
 
-  /**
-   * @type {SkillItem}
-   */
-  get item() {
-    return this.object;
-  }
-
   /** @override */
   async getData() {
     const context = await super.getData();
 
-    context.isLocked = this.item.isLocked;
+    context.isLocked = this.isLocked;
 
     return context;
   }
@@ -38,9 +33,11 @@ export class SkillItemSheet extends BaseItemSheet {
     html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
   }
 
-  async #onToggleLock(e) {
+  #onToggleLock(e) {
     e.preventDefault();
 
-    await this.item.toggleLock();
+    this.isLocked = !this.isLocked;
+
+    this.render();
   }
 }

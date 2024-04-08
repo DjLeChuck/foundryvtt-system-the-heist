@@ -1,14 +1,24 @@
 <form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header">
-    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
-    <div class="header-fields">
-      <h1 class="charname">
-        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
-      </h1>
-    </div>
-  </header>
+  {{#if editable}}
+    <p class="fetish-edit">
+      <button type="button" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+        <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
+      </button>
+    </p>
+  {{/if}}
 
-  <section class="sheet-body">
-    {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
-  </section>
+  <div class="fetish-wrapper flexcol">
+    <div class="fetish-image">
+      <img src="{{item.img}}"{{#if (and editable (not isLocked))}} data-edit="img"{{/if}} alt="" />
+    </div>
+
+    <div class="flexshrink">
+      {{#if (and editable (not isLocked))}}
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+      {{/if}}
+      {{#if (or (not editable) isLocked)}}
+        <p>{{item.name}}</p>
+      {{/if}}
+    </div>
+  </div>
 </form>
