@@ -2,7 +2,7 @@
   "name": "Carreau",
   "type": "agentType",
   "_id": "HeistAgentDiamon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/ui/diamond.webp",
   "system": {
     "type": "diamond",
     "deckId": "HeistDeckDiamond",
@@ -18,10 +18,11 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.308",
+    "coreVersion": "11.315",
     "createdTime": 1695240469874,
-    "modifiedTime": 1695240992018,
+    "modifiedTime": 1712594160780,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
+  "flags": {},
   "_key": "!items!HeistAgentDiamon"
 }

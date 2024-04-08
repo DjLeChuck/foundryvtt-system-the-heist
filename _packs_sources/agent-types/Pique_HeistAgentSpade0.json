@@ -2,7 +2,7 @@
   "name": "Pique",
   "type": "agentType",
   "_id": "HeistAgentSpade0",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/ui/spade.webp",
   "system": {
     "type": "spade",
     "deckId": "HeistDeckSpade00",
@@ -18,10 +18,11 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.308",
+    "coreVersion": "11.315",
     "createdTime": 1695240467770,
-    "modifiedTime": 1695241029694,
+    "modifiedTime": 1712594193429,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
+  "flags": {},
   "_key": "!items!HeistAgentSpade0"
 }

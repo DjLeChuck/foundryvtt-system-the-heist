@@ -2,7 +2,7 @@
   "name": "Cœur",
   "type": "agentType",
   "_id": "HeistAgentHeart0",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/heist/images/ui/heart.webp",
   "system": {
     "type": "heart",
     "deckId": "HeistDeckHeart00",
@@ -18,10 +18,11 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.308",
+    "coreVersion": "11.315",
     "createdTime": 1695240464154,
-    "modifiedTime": 1695240893182,
+    "modifiedTime": 1712594177202,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
+  "flags": {},
   "_key": "!items!HeistAgentHeart0"
 }

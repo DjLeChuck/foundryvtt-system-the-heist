@@ -9,6 +9,9 @@
 @import "global/grid";
 @import "global/flex";
 
+/** Foundry overrides */
+@import "foundry/overrides";
+
 /* Styles limited to The Heist sheets */
 .heist {
   font-size: 1rem;
