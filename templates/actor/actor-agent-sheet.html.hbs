@@ -1,4 +1,12 @@
 <form class="{{cssClass}} {{actor.type}}" autocomplete="off">
+  {{#if editable}}
+    <p class="agent-edit">
+      <button type="button" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+        <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
+      </button>
+    </p>
+  {{/if}}
+
   <div class="inner-wrapper">
     <div class="heist-margin">THE HEIST</div>
 
@@ -30,7 +38,7 @@
           {{#if fetish}}
             <p class="fetish-container align-center">
               <input id="fetish-{{actor.id}}" type="checkbox"
-                     data-fetish {{#unless editable}}disabled{{/unless}} {{checked (not actor.canUseFetish)}} />
+                     data-fetish {{#if isLocked}}disabled{{/if}} {{checked (not actor.canUseFetish)}} />
               <label for="fetish-{{actor.id}}">{{fetish.name}}</label>
             </p>
           {{/if}}
@@ -38,7 +46,7 @@
         <div class="agent-story">
           <p><strong>{{localize "HEIST.Agent.Story"}}</strong></p>
 
-          {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+          {{editor enrichedDescription target="system.description" editable=(not isLocked) engine="prosemirror"}}
         </div>
       </div>
     </div>

@@ -3,11 +3,14 @@ import * as HEIST from '../../const.mjs';
 import { AgentTypeItem } from '../../item/documents/_module.mjs';
 
 export class AgentActorSheet extends BaseActorSheet {
+  isLocked = true;
+
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'agent-sheet'],
-      height: 1130,
+      width: 600,
+      height: 800,
     });
   }
 
@@ -24,6 +27,7 @@ export class AgentActorSheet extends BaseActorSheet {
 
     await this._prepareItems(context);
 
+    context.isLocked = this.isLocked;
     context.enrichedDescription = await TextEditor.enrichHTML(context.actor.system.description, { async: true });
     context.remainingCards = this.actor.deck?.availableCards.length;
 
@@ -40,6 +44,7 @@ export class AgentActorSheet extends BaseActorSheet {
 
     html.on('click', '[data-open-compendium]', this._onOpenCompendium.bind(this));
     html.on('input', '[data-fetish]', this.#onChangeFetish.bind(this));
+    html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
   }
 
   /**
@@ -126,5 +131,13 @@ export class AgentActorSheet extends BaseActorSheet {
     e.preventDefault();
 
     await this.actor.toggleFetish();
+  }
+
+  #onToggleLock(e) {
+    e.preventDefault();
+
+    this.isLocked = !this.isLocked;
+
+    this.render();
   }
 }
