@@ -20,7 +20,7 @@
           {{/if}}
           {{#if canPause}}
             <button type="button" data-pause{{#unless active}} disabled{{/unless}} class="flexshrink"
-                    title="{{#if paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}{{/if}}{{#unless paused}}{{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}{{/unless}}">
+                    title="{{ifThen paused (localize "HEIST.GamePhaseWindow.Buttons.Launch") (localize "HEIST.GamePhaseWindow.Buttons.Pause")}}">
               {{#if paused}}<i class="far fa-play"></i>{{/if}}
               {{#unless paused}}<i class="far fa-pause"></i>{{/unless}}
             </button>

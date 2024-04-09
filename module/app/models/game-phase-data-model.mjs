@@ -3,11 +3,15 @@ export class GamePhaseDataModel extends foundry.abstract.DataModel {
     const fields = foundry.data.fields;
 
     return {
-      current: new fields.NumberField(),
+      current: new fields.NumberField({
+        initial: 1,
+      }),
       paused: new fields.BooleanField({
         initial: true,
       }),
-      timeLeft: new fields.NumberField(),
+      timeLeft: new fields.NumberField({
+        initial: 10,
+      }),
     };
   }
 }
