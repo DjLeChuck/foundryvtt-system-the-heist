@@ -14,7 +14,7 @@
 
 /* Styles limited to The Heist sheets */
 .heist {
-  font-size: 1rem;
+  @import "components/common";
 
   @import "components/cards-display";
   @import "components/game-phase-windows";

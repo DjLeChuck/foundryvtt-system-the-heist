@@ -6,6 +6,12 @@ import * as HEIST from '../const.mjs';
  */
 export const registerTemplates = function () {
   loadTemplates([
+    // Agent actor
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-editable-skills.html.hbs`,
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-skills.html.hbs`,
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-editable-fetish.html.hbs`,
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-fetish.html.hbs`,
+
     // Jack actor
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_jack-reconnaissance.html.hbs`,
 

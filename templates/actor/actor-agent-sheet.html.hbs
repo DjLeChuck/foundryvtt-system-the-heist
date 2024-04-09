@@ -25,21 +25,16 @@
         <div class="agent-skills">
           <p><strong>{{localize "HEIST.Agent.Skills"}}</strong></p>
 
-          <p>
-            {{#each skills}}
-              <span>{{this.name}}</span>
-              {{#unless @last}}|{{/unless}}
-            {{/each}}
-          </p>
+          {{#if isLocked}}{{> (template "actor/_partials/_agent-skills.html.hbs")}}{{/if}}
+          {{#if (not isLocked)}}{{> (template "actor/_partials/_agent-editable-skills.html.hbs")}}{{/if}}
         </div>
         <div class="agent-fetish">
           <p><strong>{{localize "HEIST.Agent.FetishObject"}}</strong></p>
 
           {{#if fetish}}
             <p class="fetish-container align-center">
-              <input id="fetish-{{actor.id}}" type="checkbox"
-                     data-fetish {{#if isLocked}}disabled{{/if}} {{checked (not actor.canUseFetish)}} />
-              <label for="fetish-{{actor.id}}">{{fetish.name}}</label>
+              {{#if isLocked}}{{> (template "actor/_partials/_agent-fetish.html.hbs")}}{{/if}}
+              {{#if (not isLocked)}}{{> (template "actor/_partials/_agent-editable-fetish.html.hbs")}}{{/if}}
             </p>
           {{/if}}
         </div>

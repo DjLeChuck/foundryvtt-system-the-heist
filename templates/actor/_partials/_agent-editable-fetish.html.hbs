@@ -1,0 +1,6 @@
+<button type="button" class="delete-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Delete"}}"
+        data-remove-item data-id="{{fetish._id}}">
+  <i class="fa {{ifThen isLocked "fa-lock" "fa-trash"}}"></i>
+</button>
+<input id="fetish-{{actor.id}}" type="checkbox" {{checked (not actor.canUseFetish)}} />
+<label for="fetish-{{actor.id}}">{{fetish.name}}</label>

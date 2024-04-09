@@ -10,7 +10,7 @@ export class AgentActorSheet extends BaseActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'agent-sheet'],
       width: 600,
-      height: 800,
+      height: 935,
     });
   }
 
@@ -45,6 +45,7 @@ export class AgentActorSheet extends BaseActorSheet {
     html.on('click', '[data-open-compendium]', this._onOpenCompendium.bind(this));
     html.on('input', '[data-fetish]', this.#onChangeFetish.bind(this));
     html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
+    html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
   }
 
   /**
@@ -139,5 +140,24 @@ export class AgentActorSheet extends BaseActorSheet {
     this.isLocked = !this.isLocked;
 
     this.render();
+  }
+
+  async #onRemoveItem(e) {
+    e.preventDefault();
+
+    const item = this.actor.items.get(e.currentTarget.dataset.id);
+    if (!item) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.ItemNotFound'));
+
+      return;
+    }
+
+    await Dialog.confirm({
+      title: game.i18n.localize('AreYouSure'),
+      content: `<h4>${game.i18n.format('HEIST.Global.DeleteItem', { name: item.name })}</h4>`,
+      yes: async () => {
+        await item.delete();
+      },
+    });
   }
 }
