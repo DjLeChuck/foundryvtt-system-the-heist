@@ -6,9 +6,9 @@
     <div>{{localize "HEIST.HeistSheet.Planning.Credit.Remaining"}} {{planning.credits.remaining}}</div>
   </div>
 
-  {{#if isOwner}}
+  {{#if (and isGM planning.active)}}
     <p>
-      <button type="button" data-add-planning-item{{#unless planning.canAddItem}} disabled{{/unless}}>
+      <button type="button" data-add-planning-item>
         {{localize "HEIST.HeistSheet.Planning.AddItem"}}
       </button>
     </p>
@@ -28,7 +28,7 @@
           <strong>{{this.system.cost}} {{localize "HEIST.PlanningItem.Credits"}}</strong></p>
       </div>
 
-      {{#if ../isOwner}}
+      {{#if ../isGM}}
         <div class="flexrow">
           <button type="button" title="{{localize "HEIST.Global.Edit"}}" data-edit-item data-id="{{this._id}}">
             <i class="fa fa-pencil"></i>

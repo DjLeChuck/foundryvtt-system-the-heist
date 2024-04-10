@@ -83,7 +83,6 @@ export class HeistActorSheet extends ActorSheet {
     context.club = this.actor.club;
 
     context.isGM = game.user.isGM;
-    context.isOwner = game.user.isOwner;
     context.canTest = game[HEIST.SYSTEM_ID].agentTestWindow.canAskTest;
 
     await this.#preparePlanningContext(context);
