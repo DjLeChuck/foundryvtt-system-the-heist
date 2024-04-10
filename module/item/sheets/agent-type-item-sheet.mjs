@@ -15,5 +15,7 @@ export class AgentTypeItemSheet extends BaseItemSheet {
     const context = super.getData();
 
     context.enrichedDescription = await TextEditor.enrichHTML(context.system.description, { async: true });
+
+    return context;
   }
 }
