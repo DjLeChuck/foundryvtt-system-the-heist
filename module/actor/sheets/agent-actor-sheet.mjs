@@ -47,6 +47,7 @@ export class AgentActorSheet extends BaseActorSheet {
     html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
     html.on('click', '[data-resurrect]', this.#onResurrect.bind(this));
+    html.on('click', '[data-edit-img]', this.#onEditImg.bind(this));
   }
 
   /**
@@ -172,5 +173,24 @@ export class AgentActorSheet extends BaseActorSheet {
         await this.actor.resurrect();
       },
     });
+  }
+
+  async #onEditImg(e) {
+    e.preventDefault();
+
+    const current = foundry.utils.getProperty(this.object, 'img');
+    const { img } = this.document.constructor.getDefaultArtwork?.(this.document.toObject()) ?? {};
+    const fp = new FilePicker({
+      current,
+      type: 'image',
+      redirectToRoot: img ? [img] : [],
+      callback: (path) => {
+        this.object.update({ 'img': path });
+      },
+      top: this.position.top + 40,
+      left: this.position.left + 10,
+    });
+
+    return fp.browse();
   }
 }

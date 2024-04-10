@@ -6,6 +6,10 @@
       </button>
 
       {{#if (not isLocked)}}
+        <button type="button" data-tooltip="{{localize "HEIST.Global.EditImage"}}" data-edit-img="img">
+          <i class="fa fa-image"></i>
+        </button>
+
         {{# if actor.isDead}}
           <button type="button" data-tooltip="{{localize "HEIST.Agent.Resurrect"}}" data-resurrect>
             <i class="fa fa-tombstone"></i>
@@ -27,7 +31,7 @@
 
     <div class="flex flexcol align-center agent-inner">
       <div class="agent-image{{#if actor.isDead}} dead{{/if}}">
-        <img src="{{actor.img}}" data-edit="img" alt="" />
+        <img src="{{actor.img}}" alt="" />
       </div>
       <div class="agent-info flexshrink">
         <div class="agent-skills">

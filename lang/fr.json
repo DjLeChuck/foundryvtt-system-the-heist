@@ -28,6 +28,7 @@
   "HEIST.Global.TheHeist": "The Heist",
   "HEIST.Global.Add": "Ajouter",
   "HEIST.Global.Edit": "Éditer",
+  "HEIST.Global.EditImage": "Éditer l’image",
   "HEIST.Global.Delete": "Supprimer",
   "HEIST.Global.DeleteItem": "Supprimer l’objet « {name} » ?",
   "HEIST.Global.Name": "Nom",
