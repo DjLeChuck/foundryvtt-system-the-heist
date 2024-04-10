@@ -5,4 +5,15 @@
     background-color: $c-manhattan;
     border: none;
   }
+
+  .sheet-edit {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+
+    button {
+      background-color: $c-manhattan;
+      border: none;
+    }
+  }
 }

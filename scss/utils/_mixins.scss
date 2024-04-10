@@ -8,12 +8,21 @@
 
   background-clip: text;
   text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 
   max-width: max-content;
 
   border-bottom: none;
+}
+
+@mixin black-card-style {
+  border: 1px solid $c-manhattan;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 100%;
+  height: 100%;
+  background: radial-gradient(circle, $c-tan 0%, $c-black 100%);
+  box-shadow: -5px -5px 15px 0px $c-manhattan;
+  padding: 0 2px;
 }
 
 @mixin magpies {

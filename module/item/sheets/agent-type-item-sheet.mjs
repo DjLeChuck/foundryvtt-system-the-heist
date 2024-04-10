@@ -6,6 +6,8 @@ export class AgentTypeItemSheet extends BaseItemSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'item', 'agent-type-sheet'],
+      width: 520,
+      height: 480,
     });
   }
 

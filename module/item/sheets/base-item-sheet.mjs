@@ -9,8 +9,8 @@ export class BaseItemSheet extends ItemSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'item'],
-      width: 520,
-      height: 480,
+      width: 480,
+      height: 720,
     });
   }
 

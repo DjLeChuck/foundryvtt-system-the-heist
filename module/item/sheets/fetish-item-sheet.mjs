@@ -8,8 +8,6 @@ export class FetishItemSheet extends BaseItemSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'item', 'fetish-sheet'],
-      width: 480,
-      height: 720,
     });
   }
 

@@ -8,8 +8,6 @@ export class SkillItemSheet extends BaseItemSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'item', 'skill-sheet'],
-      width: 480,
-      height: 640,
     });
   }
 
