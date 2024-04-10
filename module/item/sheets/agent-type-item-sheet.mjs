@@ -8,4 +8,10 @@ export class AgentTypeItemSheet extends BaseItemSheet {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'item', 'agent-type-sheet'],
     });
   }
+
+  async getData() {
+    const context = super.getData();
+
+    context.enrichedDescription = await TextEditor.enrichHTML(context.system.description, { async: true });
+  }
 }

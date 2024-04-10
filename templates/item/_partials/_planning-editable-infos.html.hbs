@@ -1,0 +1,9 @@
+<div class="flexshrink flexcol">
+  <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+
+  <p>
+    <label for="cost-{{this.id}}">{{localize "HEIST.PlanningItem.Cost"}}</label>
+    <select name="system.cost">{{selectOptions costChoices selected=this.system.cost}}</select>
+    {{localize "HEIST.PlanningItem.Credits"}}
+  </p>
+</div>

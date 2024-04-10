@@ -1,9 +1,23 @@
 import { BaseItemSheet } from './base-item-sheet.mjs';
+import * as HEIST from '../../const.mjs';
 
 export class PlanningItemSheet extends BaseItemSheet {
+  isLocked = true;
+
   /** @override */
-  async getData() {
-    const context = await super.getData();
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      classes: [HEIST.SYSTEM_ID, 'sheet', 'item', 'planning-sheet'],
+      width: 480,
+      height: 720,
+    });
+  }
+
+  /** @override */
+  getData() {
+    const context = super.getData();
+
+    context.isLocked = this.isLocked;
 
     const costsChoices = this.object.system.schema.fields.cost.choices;
     context.costChoices = costsChoices.reduce((acc, val) => {
@@ -12,5 +26,24 @@ export class PlanningItemSheet extends BaseItemSheet {
     }, {});
 
     return context;
+  }
+
+  /** @override */
+  activateListeners(html) {
+    super.activateListeners(html);
+
+    if (!this.isEditable) {
+      return;
+    }
+
+    html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
+  }
+
+  #onToggleLock(e) {
+    e.preventDefault();
+
+    this.isLocked = !this.isLocked;
+
+    this.render();
   }
 }

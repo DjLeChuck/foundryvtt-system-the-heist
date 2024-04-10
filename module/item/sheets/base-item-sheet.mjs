@@ -22,13 +22,12 @@ export class BaseItemSheet extends ItemSheet {
   /* -------------------------------------------- */
 
   /** @override */
-  async getData() {
+  getData() {
     const context = super.getData();
 
-    const itemData = context.item;
+    const itemData = this.item.toObject(false);
 
     context.system = itemData.system;
-    context.enrichedDescription = await TextEditor.enrichHTML(itemData.system.description, { async: true });
 
     return context;
   }

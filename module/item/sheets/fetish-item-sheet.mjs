@@ -14,8 +14,8 @@ export class FetishItemSheet extends BaseItemSheet {
   }
 
   /** @override */
-  async getData() {
-    const context = await super.getData();
+  getData() {
+    const context = super.getData();
 
     context.isLocked = this.isLocked;
 
