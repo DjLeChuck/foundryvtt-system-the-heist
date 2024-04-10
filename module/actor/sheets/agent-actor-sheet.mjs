@@ -46,6 +46,7 @@ export class AgentActorSheet extends BaseActorSheet {
     html.on('input', '[data-fetish]', this.#onChangeFetish.bind(this));
     html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
+    html.on('click', '[data-resurrect]', this.#onResurrect.bind(this));
   }
 
   /**
@@ -157,6 +158,18 @@ export class AgentActorSheet extends BaseActorSheet {
       content: `<h4>${game.i18n.format('HEIST.Global.DeleteItem', { name: item.name })}</h4>`,
       yes: async () => {
         await item.delete();
+      },
+    });
+  }
+
+  async #onResurrect(e) {
+    e.preventDefault();
+
+    await Dialog.confirm({
+      title: game.i18n.localize('AreYouSure'),
+      content: `<h4>${game.i18n.localize('HEIST.Agent.ConfirmResurrect')}</h4>`,
+      yes: async () => {
+        await this.actor.resurrect();
       },
     });
   }

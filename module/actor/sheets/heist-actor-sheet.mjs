@@ -343,17 +343,14 @@ export class HeistActorSheet extends ActorSheet {
   async #preparePlanningContext(context) {
     const available = game.settings.get(HEIST.SYSTEM_ID, 'availableCreditsOnPlanningPhase');
     const used = context.items.reduce((acc, item) => acc + item.system.cost, 0);
-    const remaining = available - used;
-    const planningActive = HEIST.GAME_PHASE_PLANNING === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id;
 
     context.planning = {
-      active: planningActive,
+      active: HEIST.GAME_PHASE_PLANNING === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id,
       credits: {
         available,
         used,
-        remaining,
+        remaining: available - used,
       },
-      canAddItem: planningActive && 0 < remaining,
     };
   }
 }

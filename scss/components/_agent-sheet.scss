@@ -76,6 +76,10 @@
               background: linear-gradient(0deg, $c-gable-green 0%, transparent 45%, transparent 85%, $c-gable-green 100%);
             }
 
+            &.dead::before {
+              background: linear-gradient(0deg, $c-gable-green 0%, transparent 45%, $c-old-brick 100%);
+            }
+
             img {
               object-fit: contain;
               width: auto;

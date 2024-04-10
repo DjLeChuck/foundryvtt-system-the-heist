@@ -9,7 +9,9 @@
   .sheet-edit {
     position: absolute;
     right: 30px;
-    top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 
     button {
       background-color: $c-manhattan;

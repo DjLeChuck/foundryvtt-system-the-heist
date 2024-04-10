@@ -139,6 +139,10 @@ export class AgentActor extends BasePlayerActor {
     await this.update({ 'system.dead': true });
   }
 
+  async resurrect() {
+    await this.update({ 'system.dead': false });
+  }
+
   async rescue() {
     await this.#recallCards(this.deck, this.pile, this.deck.availableCards.length);
   }

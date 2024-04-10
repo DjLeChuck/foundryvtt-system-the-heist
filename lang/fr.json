@@ -101,6 +101,8 @@
   "HEIST.Agent.FetishObject": "Objet fétiche :",
   "HEIST.Agent.Story": "Histoire :",
   "HEIST.Agent.Skills": "Compétences :",
+  "HEIST.Agent.Resurrect": "Ressusciter",
+  "HEIST.Agent.ConfirmResurrect": "Ramener l’agent à la vie ?",
   "HEIST.PlanningItem.Cost": "Coût :",
   "HEIST.PlanningItem.Credits": "crédit(s)",
   "HEIST.Errors.CompendiumNotFound": "Le compendium {name} est introuvable !",
