@@ -45,6 +45,7 @@ export class AgentActorSheet extends BaseActorSheet {
     html.on('click', '[data-open-compendium]', this._onOpenCompendium.bind(this));
     html.on('input', '[data-fetish]', this.#onChangeFetish.bind(this));
     html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
+    html.on('click', '[data-agency]', this.#onOpenAgency.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
     html.on('click', '[data-resurrect]', this.#onResurrect.bind(this));
     html.on('click', '[data-edit-img]', this.#onEditImg.bind(this));
@@ -142,6 +143,16 @@ export class AgentActorSheet extends BaseActorSheet {
     this.isLocked = !this.isLocked;
 
     this.render();
+  }
+
+  #onOpenAgency(e) {
+    e.preventDefault();
+
+    if (null === this.actor.agency) {
+      return;
+    }
+
+    this.actor.agency.sheet.render(true);
   }
 
   async #onRemoveItem(e) {

@@ -5,6 +5,12 @@
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
 
+      {{#if actor.agency}}
+        <button type="button" data-tooltip="{{localize "HEIST.HeistSheet.TheAgency"}}" data-agency>
+          <i class="fa fa-briefcase"></i>
+        </button>
+      {{/if}}
+
       {{#if (not isLocked)}}
         <button type="button" data-tooltip="{{localize "HEIST.Global.EditImage"}}" data-edit-img="img">
           <i class="fa fa-image"></i>
