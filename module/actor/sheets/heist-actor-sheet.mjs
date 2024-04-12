@@ -107,8 +107,20 @@ export class HeistActorSheet extends ActorSheet {
         return false;
       }
 
+      if (null !== actor.agency) {
+        ui.notifications.error('Cet agent appartient déjà à une agence !');
+
+        return false;
+      }
+
       await this.actor.update({ [`system.${agentType.system.type}`]: actor.id });
     } else if (actor instanceof JackActor) {
+      if (null !== actor.agency) {
+        ui.notifications.error('Jack appartient déjà à une agence !');
+
+        return false;
+      }
+
       await this.actor.update({ 'system.jack': actor.id });
     }
 
