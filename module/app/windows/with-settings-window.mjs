@@ -9,7 +9,7 @@ export class WithSettingsWindow extends Application {
     const settings = this._getSettings();
 
     return settings[key] ?? defaultValue;
-}
+  }
 
   async _setSettings(settings) {
     await game.settings.set(HEIST.SYSTEM_ID, this.options.settingsName, foundry.utils.mergeObject(

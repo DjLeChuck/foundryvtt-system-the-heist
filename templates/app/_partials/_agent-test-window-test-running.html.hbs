@@ -1,10 +1,14 @@
 <h2>{{localize "HEIST.AgentTestWindow.TitleWithTest" name=agent.name}}</h2>
 
-<div class="grid grid-2col align-center cards-container">
+<div class="grid {{ifThen isAdmin "grid-3col" "grid-2col"}} align-center cards-container">
   {{#each jack.cards}}
-    <div>
-      <img src="{{this.img}}" alt="{{this.name}}" class="card" />
-    </div>
+    {{#if (or ../isAdmin (not this.excluded))}}
+      <div>
+        <img src="{{ifThen this.visible this.front this.back}}" alt="{{this.name}}"
+             class="card{{#if this.excluded}} excluded{{/if}}"
+          {{#if this.excluded}} data-tooltip="{{localize "HEIST.Cards.Excluded"}}"{{/if}} />
+      </div>
+    {{/if}}
   {{/each}}
 </div>
 
@@ -19,7 +23,9 @@
     </p>
   {{/unless}}
 
-  <button type="button" data-finish>{{localize "HEIST.AgentTestWindow.Finish"}}</button>
+  {{#unless test.isFinished}}
+    <button type="button" data-finish>{{localize "HEIST.AgentTestWindow.Finish"}}</button>
+  {{/unless}}
 {{/if}}
 
 <h2>{{localize "HEIST.AgentTestWindow.AgentHand"}}</h2>
@@ -27,14 +33,14 @@
 <div class="grid grid-4col align-center cards-container">
   {{#each agent.cards}}
     <div>
-      <img src="{{this.img}}" alt="{{this.name}}" class="card" />
+      <img src="{{this.front}}" alt="{{this.name}}" class="card" />
     </div>
   {{/each}}
 </div>
 
 <p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=agent.score}}</p>
 
-{{#if agent.isOwner}}
+{{#if (and agent.isOwner (not test.isFinished))}}
   <p class="grid grid-2col">
     <button type="button" data-draw{{#unless agent.canDraw}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}
       {{#unless agent.canUseFetish}} class="grid-span-2"{{/unless}}>
@@ -46,4 +52,16 @@
       </button>
     {{/if}}
   </p>
+{{/if}}
+
+{{#if test.isFinished}}
+  {{#if (not test.isSuccessful)}}
+    <h2 class="align-center">{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h2>
+  {{/if}}
+  {{#if test.isSuccessful}}
+    <h2 class="align-center">{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h2>
+    {{#if test.isBlackjack}}
+      <h3 class="align-center">{{localize "HEIST.Blackjack.ItsABlackjack"}}</h3>
+    {{/if}}
+  {{/if}}
 {{/if}}

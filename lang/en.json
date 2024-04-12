@@ -57,6 +57,7 @@
   "HEIST.Cards.HowManyToDraw": "How many cards to draw?",
   "HEIST.Cards.Drawn": "Drawn cards",
   "HEIST.AgentTestWindow.Title": "Agent testing",
+  "HEIST.Cards.Excluded": "Excluded card",
   "HEIST.AgentTestWindow.TitleWithTest": "Test for agent {name}",
   "HEIST.AgentTestWindow.TitleWithoutTest": "No test running",
   "HEIST.AgentTestWindow.AgentHand": "Agent’s hand",

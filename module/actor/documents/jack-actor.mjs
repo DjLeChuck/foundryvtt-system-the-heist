@@ -1,6 +1,5 @@
 import { BasePlayerActor } from './base-player-actor.mjs';
 import * as HEIST from '../../const.mjs';
-import * as CARDS from '../../helpers/cards.mjs';
 
 export class JackActor extends BasePlayerActor {
   constructor(docData, context = {}) {
@@ -29,57 +28,21 @@ export class JackActor extends BasePlayerActor {
     return this.deck?.availableCards.length >= 3;
   }
 
+  /**
+   * @param {Cards} hand
+   * @param {number} number
+   * @returns {Promise<Card[]>}
+   */
   async drawCards(hand, number) {
-    await hand.draw(this.deck, number, { chatNotification: false });
+    const cards = await hand.draw(this.deck, number, { chatNotification: false });
 
     this.render(false);
+
+    return cards;
   }
 
   async throwTestHand() {
     await this.#throwHand(this.testHand);
-  }
-
-  /**
-   * @param {String} difficulty
-   */
-  async drawAgentTest(difficulty) {
-    // Draw 3 cards
-    await this.drawCards(this.testHand, 3);
-
-    // Sort them by value
-    const sortedCards = CARDS.sortByValue(this.testHand.cards);
-
-    let removedCard;
-
-    switch (difficulty) {
-      case 'easy':
-        // Hide "easy" card
-        await sortedCards[0].flip(null);
-
-        // Remove the last card
-        removedCard = sortedCards[2].id;
-
-        break;
-      case 'difficult':
-        // Hide "difficult" card
-        await sortedCards[2].flip(null);
-
-        // Remove the first card
-        removedCard = sortedCards[0].id;
-
-        break;
-      default:
-        throw new Error(`Unknown difficulty "${difficulty}"`);
-    }
-
-    // Remove the unwanted card
-    await this.testHand.pass(this.pile, [removedCard], { chatNotification: false });
-  }
-
-  async revealTest() {
-    for (const card of this.testHand.cards.contents) {
-      await card.flip(0);
-    }
   }
 
   /** @override */

@@ -56,6 +56,7 @@
   "HEIST.Cards.RecallFromPile": "L’agent {name} récupère {number} carte(s) de sa défausse et mélange son deck.",
   "HEIST.Cards.HowManyToDraw": "Piocher combien de carte ?",
   "HEIST.Cards.Drawn": "Cartes piochées",
+  "HEIST.Cards.Excluded": "Carte exclue",
   "HEIST.AgentTestWindow.Title": "Test d’agent",
   "HEIST.AgentTestWindow.TitleWithTest": "Test pour l’agent {name}",
   "HEIST.AgentTestWindow.TitleWithoutTest": "Aucun test en cours",

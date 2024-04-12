@@ -3,6 +3,10 @@
 
   .card {
     height: 220px;
+
+    &.excluded {
+      filter: grayscale(100%);
+    }
   }
 }
 

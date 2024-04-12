@@ -57,10 +57,16 @@ export class AgentActor extends BasePlayerActor {
     return !this.isDead && this.canDraw;
   }
 
+  /**
+   * @param {number} number
+   * @returns {Promise<Card[]>}
+   */
   async drawCards(number) {
-    await this.hand.draw(this.deck, number, { chatNotification: false });
+    const cards = await this.hand.draw(this.deck, number, { chatNotification: false });
 
     this.render(false);
+
+    return cards;
   }
 
   async throwHand() {
