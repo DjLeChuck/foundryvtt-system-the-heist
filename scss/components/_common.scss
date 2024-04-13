@@ -1,6 +1,28 @@
 & {
   font-size: 1rem;
 
+  h1 {
+    font-family: $f-masqualero-groove;
+    border-bottom: none;
+    @include goldy-gradient-text;
+  }
+
+  h2 {
+    font-family: $f-bodega-sans;
+    letter-spacing: 1px;
+    color: $c-brown-rust;
+    border-bottom: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-family: $f-bodega-sans;
+    letter-spacing: 1px;
+    color: $c-astronaut;
+    border-bottom: none;
+  }
+
   .delete-btn {
     background-color: $c-manhattan;
     border: none;

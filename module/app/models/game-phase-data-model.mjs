@@ -4,7 +4,7 @@ export class GamePhaseDataModel extends foundry.abstract.DataModel {
 
     return {
       current: new fields.NumberField({
-        initial: 1,
+        initial: 0,
       }),
       paused: new fields.BooleanField({
         initial: true,

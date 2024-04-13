@@ -15,11 +15,13 @@
 /* Styles limited to The Heist sheets */
 .heist {
   --form-field-height: 60px;
+  --font-primary: "Masqualero", sans-serif;
 
   @import "components/common";
 
   @import "components/cards-display";
-  @import "components/game-phase-windows";
+  @import "components/agent-test-window";
+  @import "components/game-phase-window";
 
   // Actors
   @import "components/agent-sheet";

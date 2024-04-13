@@ -1,0 +1,57 @@
+&.game-phase-window {
+
+  .window-content {
+    background: url("../images/ui/queen-card.webp") no-repeat center center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    color: $c-white;
+  }
+
+  &.small {
+    .timer {
+      margin: 0;
+    }
+
+    button {
+      padding: 0;
+
+      & > i {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .breadcrumb {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+    li {
+      padding: 10px;
+      display: inline;
+
+      &.active {
+        font-weight: bold;
+        color: $c-brown-rust;
+      }
+    }
+  }
+
+  .phase-details {
+    .duration {
+      font-size: 1.3rem;
+    }
+
+    .timer {
+      text-align: center;
+      font-size: 3rem;
+      margin: 0;
+    }
+  }
+
+  .buttons {
+    align-items: center;
+    gap: 20px;
+  }
+}

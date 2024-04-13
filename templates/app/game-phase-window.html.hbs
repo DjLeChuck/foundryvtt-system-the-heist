@@ -1,44 +1,54 @@
-<div class="game-phase-window">
-  <ul class="breadcrumb flex-group-center">
-    {{#each phases}}
-      <li {{#if (eq ../currentPhase this) }}class="active"{{/if}}>{{localize this.name}}</li>
-    {{/each}}
-  </ul>
+<div class="flex flexcol">
+  <div class="flexshrink">
+    <ul class="breadcrumb flex-group-center">
+      {{#each phases}}
+        <li {{#if (eq ../currentPhase this) }}class="active"{{/if}}>{{localize this.name}}</li>
+      {{/each}}
+    </ul>
+  </div>
   <div class="phase-details">
-    <h2>{{localize currentPhase.name}}</h2>
-    <p class="duration">{{localize "HEIST.GamePhaseWindow.Duration" duration=currentPhase.duration}}</p>
+    <p class="duration align-center">{{localize "HEIST.GamePhaseWindow.Duration" duration=currentPhase.duration}}</p>
 
     {{#if active}}
-      <p class="timer">{{formattedTimeLeft timeLeft}}</p>
+      <p class="timer running">{{formattedTimeLeft timeLeft}}</p>
     {{/if}}
-    {{#unless active}}
-      <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
-    {{/unless}}
+    {{#if (not active)}}
+      <h2 class="timer finished">
+        {{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}
+        {{#if isGM}}{{localize "HEIST.GamePhaseWindow.ChangePhase"}}{{/if}}
+      </h2>
+    {{/if}}
   </div>
   {{#if isGM}}
-    <div class="buttons">
-      {{#if canPause}}
-        <button type="button" data-pause{{#unless active}} disabled{{/unless}}>
-          {{#if paused}}
-            <i class="far fa-play"></i>
-            {{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}
-          {{/if}}
-          {{#unless paused}}
-            <i class="far fa-pause"></i>
-            {{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}
-          {{/unless}}
-        </button>
-      {{/if}}
+    <div class="buttons flex flexrow">
       {{#if hasNextPhase}}
-        <button type="button" data-next>
-          <i class="far fa-forward"></i>
-          {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
-        </button>
+        <div>
+          <button type="button" data-next>
+            <i class="fa fa-forward"></i>
+            {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
+          </button>
+        </div>
       {{/if}}
-      <button type="button" data-reset>
-        <i class="far fa-rotate-left"></i>
-        {{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}
-      </button>
+      {{#if canPause}}
+        <div>
+          <button type="button" data-pause{{#unless active}} disabled{{/unless}}>
+            {{#if paused}}
+              <i class="fa fa-play"></i>
+              {{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}
+            {{/if}}
+            {{#unless paused}}
+              <i class="fa fa-pause"></i>
+              {{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}
+            {{/unless}}
+          </button>
+        </div>
+      {{/if}}
+      <div>
+        <button type="button" data-reset>
+          <i class="fa fa-rotate-left"></i>
+          {{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}
+        </button>
+      </div>
     </div>
   {{/if}}
 </div>

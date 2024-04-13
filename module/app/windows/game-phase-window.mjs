@@ -25,6 +25,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
       width: GamePhaseWindow.#width(),
       height: GamePhaseWindow.#height(),
       settingsName: 'gamePhase',
+      resizable: true,
     });
   }
 
@@ -106,18 +107,18 @@ export class GamePhaseWindow extends WithSettingsWindow {
 
   static #width() {
     if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
-      return 400;
+      return 440;
     }
 
-    return 600;
+    return 800;
   }
 
   static #height() {
     if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
-      return 175;
+      return 230;
     }
 
-    return 320;
+    return 310;
   }
 
   async #onTogglePause(e) {
@@ -157,7 +158,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
       title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.Reset'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
 <p>${game.i18n.format('HEIST.GamePhaseWindow.ResetPhaseValidation.Message')}</p>`,
-      yes: this.#changePhase.bind(this, 1),
+      yes: this.#changePhase.bind(this, 0),
     });
   }
 

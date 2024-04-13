@@ -133,6 +133,12 @@
                   border: 1px solid $c-brown-rust;
                   border-radius: 6px;
 
+                  &.editing-source {
+                    textarea {
+                      color: $c-white;
+                    }
+                  }
+
                   menu {
                     background: $c-brown-rust;
                   }

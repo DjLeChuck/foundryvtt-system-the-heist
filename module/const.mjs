@@ -8,36 +8,43 @@ export const GAME_PHASE_BRIEFING = 'briefing';
 export const GAME_PHASE_RECONNAISSANCE = 'reconnaissance';
 export const GAME_PHASE_PLANNING = 'planning';
 export const GAME_PHASE_ACTION = 'action';
+export const GAME_PHASE_PROGESSION = 'progression';
 export const GAME_PHASES = [
   {
     id: GAME_PHASE_CREATION,
+    number: 0,
+    name: 'HEIST.GamePhases.Phase0.Title',
+    defaultDuration: 10,
+  },
+  {
+    id: GAME_PHASE_BRIEFING,
     number: 1,
     name: 'HEIST.GamePhases.Phase1.Title',
     defaultDuration: 10,
   },
   {
-    id: GAME_PHASE_BRIEFING,
+    id: GAME_PHASE_RECONNAISSANCE,
     number: 2,
     name: 'HEIST.GamePhases.Phase2.Title',
-    defaultDuration: 10,
-  },
-  {
-    id: GAME_PHASE_RECONNAISSANCE,
-    number: 3,
-    name: 'HEIST.GamePhases.Phase3.Title',
     defaultDuration: 60,
   },
   {
     id: GAME_PHASE_PLANNING,
-    number: 4,
-    name: 'HEIST.GamePhases.Phase4.Title',
+    number: 3,
+    name: 'HEIST.GamePhases.Phase3.Title',
     defaultDuration: 30,
   },
   {
     id: GAME_PHASE_ACTION,
+    number: 4,
+    name: 'HEIST.GamePhases.Phase4.Title',
+    defaultDuration: 90,
+  },
+  {
+    id: GAME_PHASE_PROGESSION,
     number: 5,
     name: 'HEIST.GamePhases.Phase5.Title',
-    defaultDuration: 90,
+    defaultDuration: 10,
   },
 ];
 

@@ -1,35 +1,39 @@
-<div class="game-phase-window small">
-  <div class="phase-details">
-    <h2>{{localize currentPhase.name}}</h2>
+<div class="flex flexcol small phase-details">
+  <h2 class="align-center">{{localize currentPhase.name}}</h2>
 
-    <div {{#if isGM}}class="grid grid-2col"{{/if}}>
-      <div>
-        {{#if active}}
-          <p class="timer">{{formattedTimeLeft timeLeft}}</p>
-        {{/if}}
-        {{#unless active}}
-          <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
-        {{/unless}}
-      </div>
-      {{#if isGM}}
-        <div class="buttons">
-          {{#if hasNextPhase}}
-            <button type="button" data-next title="{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}" class="flexshrink">
-              <i class="far fa-forward"></i>
-            </button>
-          {{/if}}
-          {{#if canPause}}
-            <button type="button" data-pause{{#unless active}} disabled{{/unless}} class="flexshrink"
-                    title="{{ifThen paused (localize "HEIST.GamePhaseWindow.Buttons.Launch") (localize "HEIST.GamePhaseWindow.Buttons.Pause")}}">
-              {{#if paused}}<i class="far fa-play"></i>{{/if}}
-              {{#unless paused}}<i class="far fa-pause"></i>{{/unless}}
-            </button>
-          {{/if}}
-          <button type="button" data-reset title="{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}" class="flexshrink">
-            <i class="far fa-rotate-left"></i>
+  <div>
+    {{#if active}}
+      <p class="timer">{{formattedTimeLeft timeLeft}}</p>
+    {{/if}}
+    {{#if (not active)}}
+      <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
+    {{/if}}
+  </div>
+  {{#if isGM}}
+    <div class="buttons flex flexrow">
+      {{#if hasNextPhase}}
+        <div>
+          <button type="button" data-next data-tooltip="{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}"
+                  class="flexshrink">
+            <i class="fa fa-forward"></i>
           </button>
         </div>
       {{/if}}
+      {{#if canPause}}
+        <div>
+          <button type="button" data-pause{{#unless active}} disabled{{/unless}} class="flexshrink"
+                  data-tooltip="{{ifThen paused (localize "HEIST.GamePhaseWindow.Buttons.Launch") (localize "HEIST.GamePhaseWindow.Buttons.Pause")}}">
+            {{#if paused}}<i class="fa fa-play"></i>{{/if}}
+            {{#unless paused}}<i class="fa fa-pause"></i>{{/unless}}
+          </button>
+        </div>
+      {{/if}}
+      <div>
+        <button type="button" data-reset data-tooltip="{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}"
+                class="flexshrink">
+          <i class="fa fa-rotate-left"></i>
+        </button>
+      </div>
     </div>
-  </div>
+  {{/if}}
 </div>

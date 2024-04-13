@@ -91,7 +91,7 @@ export function registerSettings() {
       hint: `HEIST.Settings.Phase${phase.number}Duration.Hint`,
       scope: 'world',
       config: true,
-      default: phase.duration,
+      default: phase.defaultDuration,
       type: Number,
       requiresReload: true,
     });
