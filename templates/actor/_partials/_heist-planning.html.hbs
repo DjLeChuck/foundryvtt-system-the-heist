@@ -1,12 +1,19 @@
 <div class="flexcol">
-  <div class="align-center">Crédits</div>
+  <div>
+    <div class="align-center">_Le plan</div>
+    <div>
+      {{editor planning.description target="system.plan" button=true editable=editable engine="prosemirror"}}
+    </div>
+  </div>
+
+  <div class="align-center">_Crédits</div>
   <div class="flexrow flex-group-center">
     <div>{{localize "HEIST.HeistSheet.Planning.Credit.Available"}} {{planning.credits.available}}</div>
     <div>{{localize "HEIST.HeistSheet.Planning.Credit.Used"}} {{planning.credits.used}}</div>
     <div>{{localize "HEIST.HeistSheet.Planning.Credit.Remaining"}} {{planning.credits.remaining}}</div>
   </div>
 
-  {{#if (and isGM planning.active)}}
+  {{#if isGM}}
     <p>
       <button type="button" data-add-planning-item>
         {{localize "HEIST.HeistSheet.Planning.AddItem"}}
@@ -21,7 +28,6 @@
   {{#each items}}
     <div>
       <div class="flexcol flex-group-center">
-        <img class="profile-img" src="{{this.img}}" title="{{this.name}}" height="100" width="100" />
         <p><strong>{{this.name}}</strong></p>
         <p>
           <u>{{localize "HEIST.PlanningItem.Cost"}}</u>

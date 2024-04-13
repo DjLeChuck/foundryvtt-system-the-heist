@@ -149,7 +149,8 @@ export class HeistActorSheet extends ActorSheet {
       name: game.i18n.localize('HEIST.Global.NewItem'),
     }]);
 
-    items[0]?.sheet?.render(true);
+    items[0].sheet.isLocked = false;
+    items[0].sheet.render(true);
   }
 
   async #onOpenAgentTest(e) {
@@ -357,7 +358,7 @@ export class HeistActorSheet extends ActorSheet {
     const used = context.items.reduce((acc, item) => acc + item.system.cost, 0);
 
     context.planning = {
-      active: HEIST.GAME_PHASE_PLANNING === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id,
+      description: await TextEditor.enrichHTML(context.actor.system.plan, { async: true }),
       credits: {
         available,
         used,

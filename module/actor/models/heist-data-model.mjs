@@ -10,6 +10,7 @@ export class HeistDataModel extends foundry.abstract.DataModel {
       heart: new fields.ForeignDocumentField(AgentDataModel, { idOnly: true }),
       spade: new fields.ForeignDocumentField(AgentDataModel, { idOnly: true }),
       club: new fields.ForeignDocumentField(AgentDataModel, { idOnly: true }),
+      plan: new fields.StringField(),
     };
   }
 }
