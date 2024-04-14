@@ -97,12 +97,26 @@
             position: relative;
             margin-top: -210px;
 
+            .agent-name {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              input {
+                color: $c-manhattan;
+                width: 80%;
+                font-family: $f-masqualero-groove;
+                font-size: 2rem;
+                background: $c-gable-green;
+              }
+            }
+
             .agent-skills {
               .skills-list {
                 padding-left: 20px;
                 align-items: center;
 
-                span {
+                button {
                   margin-left: 4px;
                 }
               }
@@ -115,6 +129,10 @@
                 display: flex;
                 align-items: center;
                 position: relative;
+
+                button {
+                  margin-left: 4px;
+                }
 
                 input + label {
                   position: relative;

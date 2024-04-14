@@ -40,6 +40,13 @@
         <img src="{{actor.img}}" alt="" />
       </div>
       <div class="agent-info flexshrink">
+        {{#if (not isLocked)}}
+          <div class="agent-name">
+            <label for="agent-{{actor.id}}-name"><strong>{{localize "HEIST.Global.Name"}}</strong></label>
+            <input type="text" name="name" value="{{actor.name}}" id="agent-{{actor.id}}-name" />
+          </div>
+        {{/if}}
+
         <div class="agent-skills">
           <p><strong>{{localize "HEIST.Agent.Skills"}}</strong></p>
 

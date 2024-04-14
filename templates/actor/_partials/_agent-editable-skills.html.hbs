@@ -1,11 +1,15 @@
 <div class="grid grid-2col skills-list">
   {{#each skills}}
     <div class="flex flex-group-left">
-      <button type="button" class="delete-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Delete"}}"
+      <span>{{this.name}}</span>
+      <button type="button" class="action-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Edit"}}"
+              data-edit-item data-id="{{this._id}}">
+        <i class="fa {{ifThen isLocked "fa-lock" "fa-edit"}}"></i>
+      </button>
+      <button type="button" class="action-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Delete"}}"
               data-remove-item data-id="{{this._id}}">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-trash"}}"></i>
       </button>
-      <span>{{this.name}}</span>
     </div>
   {{/each}}
 </div>

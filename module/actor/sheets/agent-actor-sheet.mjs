@@ -46,6 +46,7 @@ export class AgentActorSheet extends BaseActorSheet {
     html.on('input', '[data-fetish]', this.#onChangeFetish.bind(this));
     html.on('click', '[data-lock]', this.#onToggleLock.bind(this));
     html.on('click', '[data-agency]', this.#onOpenAgency.bind(this));
+    html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
     html.on('click', '[data-resurrect]', this.#onResurrect.bind(this));
     html.on('click', '[data-edit-img]', this.#onEditImg.bind(this));
@@ -153,6 +154,20 @@ export class AgentActorSheet extends BaseActorSheet {
     }
 
     this.actor.agency.sheet.render(true);
+  }
+
+  #onEditItem(e) {
+    e.preventDefault();
+
+    const item = this.actor.items.get(e.currentTarget.dataset.id);
+    if (!item) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.ItemNotFound'));
+
+      return;
+    }
+
+    item.sheet.isLocked = false;
+    item.sheet.render(true);
   }
 
   async #onRemoveItem(e) {
