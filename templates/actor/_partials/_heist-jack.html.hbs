@@ -1,24 +1,34 @@
-<div class="agency-member agent-card-wrapper">
-  <div class="agent-card">
-    <div class="flexcol flex-group-center">
-      <img class="profile-img{{ifThen jack.visible " openable" ""}}" src="{{jack.img}}" title="{{jack.name}}"
-           height="100" width="100" {{ifThen jack.visible (concat " data-open-sheet=\"" jack.id "\"") ""}} />
-      <p><strong>{{jack.name}}</strong></p>
+<div class="jack flexcol">
+  <div class="flexrow">
+    <div>
+      <h2 class="jack-name">{{jack.name}}</h2>
     </div>
+    <div class="delete-btn">
+      <button type="button" class="action-btn" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
+              data-type="jack" data-id="{{jack.id}}">
+        <i class="fa fa-trash"></i>
+      </button>
+    </div>
+  </div>
 
-    {{#if isGM}}
-      <div class="remove-btn">
-        <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
-                data-type="jack" data-id="{{jack.id}}">
-          <i class="fa fa-trash"></i>
-        </button>
-      </div>
-    {{/if}}
-
-    {{#unless canTest}}
-      <div>
-        <button type="button" data-open-agent-test>{{localize "HEIST.AgentTestWindow.Title"}}</button>
-      </div>
-    {{/unless}}
+  <div class="flexrow u-gap-small">
+    <div>
+      <button type="button" class="action-btn" data-ask-agent-test>
+        <i class="fa-duotone fa-cards"></i>
+        {{localize "HEIST.HeistSheet.AskTest"}}
+      </button>
+    </div>
+    <div>
+      <button type="button" class="action-btn" data-open-agent-test>
+        <i class="fa-duotone fa-eye"></i>
+        {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
+      </button>
+    </div>
+  </div>
+  <div class="align-center">
+    <p>
+      <u>{{localize "HEIST.Cards.Remaining"}}</u>
+      <strong>{{length jack.deck.availableCards}}</strong>
+    </p>
   </div>
 </div>

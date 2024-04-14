@@ -1,23 +1,24 @@
 <form class="{{cssClass}} {{actor.type}}" autocomplete="off">
   {{#if editable}}
     <p class="sheet-edit">
-      <button type="button" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
 
       {{#if actor.agency}}
-        <button type="button" data-tooltip="{{localize "HEIST.HeistSheet.TheAgency"}}" data-agency>
+        <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.HeistSheet.TheAgency"}}" data-agency>
           <i class="fa fa-briefcase"></i>
         </button>
       {{/if}}
 
       {{#if (not isLocked)}}
-        <button type="button" data-tooltip="{{localize "HEIST.Global.EditImage"}}" data-edit-img="img">
+        <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.EditImage"}}"
+                data-edit-img="img">
           <i class="fa fa-image"></i>
         </button>
 
         {{# if actor.isDead}}
-          <button type="button" data-tooltip="{{localize "HEIST.Agent.Resurrect"}}" data-resurrect>
+          <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Agent.Resurrect"}}" data-resurrect>
             <i class="fa fa-tombstone"></i>
           </button>
         {{/if}}

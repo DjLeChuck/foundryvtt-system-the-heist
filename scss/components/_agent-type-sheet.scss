@@ -9,7 +9,7 @@
       }
 
       input {
-        padding: 30px 8px;
+        padding: 30px var(--small-gap);
         width: 80%;
       }
 
@@ -21,7 +21,7 @@
     }
 
     .sheet-body {
-      margin-top: 20px;
+      margin-top: var(--big-gap);
       background-color: $c-astronaut;
       padding: 30px;
       border: 2px solid $c-brown-rust;

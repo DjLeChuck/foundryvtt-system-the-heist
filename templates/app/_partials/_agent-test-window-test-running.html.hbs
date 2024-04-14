@@ -10,7 +10,7 @@
   {{/if}}
 {{/if}}
 
-<h2 class="u-mt-8">{{localize "HEIST.Cards.HandName" name=jack.name}}</h2>
+<h2 class="u-mt-small">{{localize "HEIST.Cards.HandName" name=jack.name}}</h2>
 
 <div class="grid {{ifThen isAdmin "grid-3col" "grid-2col"}} align-center cards-container">
   {{#each jack.cards}}
@@ -35,12 +35,12 @@
   <div class="actions-buttons">
     {{#if (not test.isFinished)}}
       {{#if (not test.isRevealed)}}
-        <button type="button" data-reveal>
+        <button class="action-btn" type="button" data-reveal>
           <i class="fa-duotone fa-eye"></i>
           {{localize "HEIST.AgentTestWindow.Reveal"}}
         </button>
       {{/if}}
-      <button type="button" data-finish>
+      <button class="action-btn" type="button" data-finish>
         <i class="fa-duotone fa-flag-checkered"></i>
         {{localize "HEIST.AgentTestWindow.Finish"}}
       </button>
@@ -48,7 +48,7 @@
   </div>
 {{/if}}
 
-<h2 class="u-mt-8">{{localize "HEIST.Cards.HandName" name=agent.name}}</h2>
+<h2 class="u-mt-small">{{localize "HEIST.Cards.HandName" name=agent.name}}</h2>
 
 <div class="grid grid-4col align-center cards-container">
   {{#each agent.cards}}
@@ -62,13 +62,14 @@
 
 {{#if (and agent.isOwner (not test.isFinished))}}
   <div class="actions-buttons">
-    <button type="button" data-draw{{#unless agent.canDraw}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}
+    <button type="button" class="action-btn" data-draw{{#unless agent.canDraw}} disabled
+            title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}
       {{#unless agent.canUseFetish}} class="grid-span-2"{{/unless}}>
       <i class="fa-duotone fa-cards"></i>
       {{localize "HEIST.AgentTestWindow.Draw"}}
     </button>
     {{#if agent.canUseFetish}}
-      <button type="button" data-fetish>
+      <button type="button" class="action-btn" data-fetish>
         <i class="fa fa-clover"></i>
         {{localize "HEIST.AgentTestWindow.UseFetish"}}
       </button>

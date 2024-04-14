@@ -1,52 +1,53 @@
-<div class="agency-member agent-card-wrapper">
-  <div class="agent-card flexcol">
-    <div class="flexcol flex-group-center">
-      <img class="profile-img{{ifThen agent.visible " openable" ""}}" src="{{agent.img}}" title="{{agent.name}}"
-           height="100" width="100" {{ifThen agent.visible (concat " data-open-sheet=\"" agent.id "\"") ""}} />
-      <p><u>{{localize "HEIST.Global.AgentName"}}</u> <strong>{{agent.name}}</strong></p>
+<div class="agent type-{{type}}">
+  {{#if isGM}}
+    <div class="delete-btn flexcol">
+      <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
+              data-type="{{agent.agentType.system.type}}" data-id="{{agent.id}}" class="action-btn">
+        <i class="fa fa-trash"></i>
+      </button>
+    </div>
+  {{/if}}
 
-      {{#if agent.isDead}}
-        <p><strong>{{localize "HEIST.Global.AgentIsDead"}}</strong></p>
-      {{/if}}
+  <div class="flexcol">
+    <div class="flex align-center">
+      <div class="agent-image{{#if agent.isDead}} dead{{/if}}{{#if agent.visible}} openable{{/if}}"
+           {{#if agent.isDead}}data-tooltip="{{localize "HEIST.Global.AgentIsDead"}}"{{/if}}
+        {{#if agent.visible}} data-open-sheet="{{agent.id}}"{{/if}}>
+        <img class="img" src="{{agent.img}}" title="{{agent.name}}" />
+      </div>
     </div>
 
-    {{#if isGM}}
-      <div class="remove-btn">
-        <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
-                data-type="{{agent.agentType.system.type}}" data-id="{{agent.id}}">
-          <i class="fa fa-trash"></i>
-        </button>
-      </div>
-    {{/if}}
-
-    <p><u>{{localize "HEIST.Cards.Remaining"}}</u> <strong>{{length agent.deck.availableCards}}</strong></p>
-
-    <p>
-      <u>{{localize "HEIST.Agent.FetishObject"}}</u> {{agent.fetish.name}}
-      {{#if agent.fetish.system.used}}{{localize "HEIST.Agent.FetishObjectUsed"}}{{/if}}
+    <p class="flexrow">
+      <u>{{localize "HEIST.Global.AgentName"}}</u>
+      <strong>{{agent.name}}</strong>
     </p>
 
-    {{#if canTest}}
-      <div class="grid grid-2col flexshrink">
-        {{#if agent.canBeTested}}
-          <button type="button" data-ask-agent-test data-difficulty="easy" data-agent-id="{{agent.id}}">
-            {{localize "HEIST.HeistSheet.EasyTest"}}
-          </button>
-          <button type="button" data-ask-agent-test data-difficulty="difficult" data-agent-id="{{agent.id}}">
-            {{localize "HEIST.HeistSheet.DifficultTest"}}
-          </button>
-        {{/if}}
-        <button type="button" data-harm-agent data-agent-id="{{agent.id}}">
-          {{localize "HEIST.HeistSheet.Harm"}}
+    <p class="flexrow">
+      <u>{{localize "HEIST.Cards.Remaining"}}</u>
+      <strong>{{length agent.deck.availableCards}}</strong>
+    </p>
+
+    <p class="flexrow">
+      <u>{{localize "HEIST.Agent.FetishObject"}}</u>
+      <strong class="{{#if agent.fetishUsed}}u-strike{{/if}}">
+        {{agent.fetish.name}}
+      </strong>
+    </p>
+
+    {{#if (and isGM (not agent.isDead))}}
+      <div class="flexrow">
+        <button type="button" data-harm-agent data-agent-id="{{agent.id}}"
+                data-tooltip="{{localize "HEIST.HeistSheet.Harm"}}" class="action-btn">
+          <i class="fa fa-gun"></i>
         </button>
-        <button type="button" data-rescue-agent data-agent-id="{{agent.id}}">
-          {{localize "HEIST.HeistSheet.Rescue"}}
+        <button type="button" data-rescue-agent data-agent-id="{{agent.id}}"
+                data-tooltip="{{localize "HEIST.HeistSheet.Rescue"}}" class="action-btn">
+          <i class="fa fa-briefcase-medical"></i>
         </button>
-        {{#if (not agent.isDead)}}
-          <button type="button" class="grid-span-2" data-kill-agent data-agent-id="{{agent.id}}">
-            {{localize "HEIST.HeistSheet.Kill"}}
-          </button>
-        {{/if}}
+        <button type="button" data-kill-agent data-agent-id="{{agent.id}}"
+                data-tooltip="{{localize "HEIST.HeistSheet.Kill"}}" class="action-btn">
+          <i class="fa fa-skull"></i>
+        </button>
       </div>
     {{/if}}
   </div>

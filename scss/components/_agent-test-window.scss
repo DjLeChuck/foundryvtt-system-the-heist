@@ -1,7 +1,8 @@
 &.agent-test-window {
   .window-content {
     background: url("../images/ui/blueprint-h.webp") no-repeat center center;
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6);
+
+    @include light-transparency-bg;
   }
 
   h1 {
@@ -19,13 +20,6 @@
   .actions-buttons {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-  }
-
-  button {
-    color: $c-gable-green;
-    background-color: $c-manhattan;
-    border: 1px solid $c-gable-green;
-    font-size: var(--font-size-16);
+    gap: var(--big-gap);
   }
 }

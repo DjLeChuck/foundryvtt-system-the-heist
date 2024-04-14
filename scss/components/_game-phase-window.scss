@@ -1,12 +1,12 @@
 &.game-phase-window {
-
   .window-content {
     background: url("../images/ui/queen-card.webp") no-repeat center center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     color: $c-white;
+
+    @include dark-transparency-bg;
   }
 
-  &.small {
+  .small {
     .timer {
       margin: 0;
     }
@@ -26,6 +26,7 @@
     margin: 0;
     padding: 0;
     overflow: auto;
+    border-bottom: 2px solid $c-brown-rust;
 
     li {
       padding: 10px;
@@ -46,12 +47,17 @@
     .timer {
       text-align: center;
       font-size: 3rem;
-      margin: 0;
+
+      &.finished {
+        padding: 0 var(--small-gap);
+
+        @include dark-transparency-bg;
+      }
     }
   }
 
   .buttons {
     align-items: center;
-    gap: 20px;
+    gap: var(--big-gap);
   }
 }

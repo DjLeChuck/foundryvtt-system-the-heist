@@ -1,7 +1,7 @@
 <form class="{{cssClass}}" autocomplete="off">
   {{#if editable}}
     <p class="sheet-edit">
-      <button type="button" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
     </p>

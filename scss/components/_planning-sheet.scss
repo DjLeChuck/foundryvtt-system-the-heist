@@ -4,7 +4,7 @@
     font-family: $f-masqualero-groove;
     color: $c-manhattan;
     font-size: 2rem;
-    padding: 20px;
+    padding: var(--big-gap);
 
     align-items: center;
     justify-content: center;
@@ -14,21 +14,6 @@
 
       .planning-wrapper {
         @include black-card-style;
-
-        .planning-image {
-          padding: $padding-sm;
-          max-height: 80%;
-
-          img {
-            max-height: 100px;
-            object-fit: contain;
-            width: auto;
-            height: auto;
-            min-width: 100%;
-            min-height: 100%;
-            border: none;
-          }
-        }
 
         div {
           @include magpies;
@@ -41,12 +26,12 @@
           input {
             color: $c-manhattan;
             width: 80%;
-            padding: 0 8px;
+            padding: 0 var(--small-gap);
           }
 
           select {
             width: 80%;
-            padding: 0 8px;
+            padding: 0 var(--small-gap);
             text-align: center;
             color: $c-manhattan;
 

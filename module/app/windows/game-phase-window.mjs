@@ -124,7 +124,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
       return 230;
     }
 
-    return 310;
+    return 300;
   }
 
   async #onTogglePause(e) {

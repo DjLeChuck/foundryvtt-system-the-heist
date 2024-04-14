@@ -1,18 +1,29 @@
-$c-white: #fff;
-$c-black: #000;
+:root {
+  --c-white: #fff;
+  --c-black: #000;
+  --c-dark: #191813;
+  --c-tan: #444;
+  --c-shadow: #887758;
+  --c-buff: #f4ca84;
+  --c-manhattan: #f4bb97;
+  --c-brown-rust: #d7714f;
+  --c-rajah: #f8b286;
+  --c-red: #ff0000;
+  --c-old-brick: #991b1b;
+  --c-gable-green: #162a33;
+  --c-astronaut: #225274;
+}
 
-$c-dark: #191813;
-$c-tan: #444;
-
-$c-shadow: #887758;
-$c-buff: #f4ca84;
-
-$c-manhattan: #f4bb97;
-$c-brown-rust: #d7714f;
-$c-rajah: #f8b286;
-
-$c-red: #ff0000;
-$c-old-brick: #991b1b;
-
-$c-gable-green: #162a33;
-$c-astronaut: #225274;
+$c-white: var(--c-white);
+$c-black: var(--c-black);
+$c-dark: var(--c-dark);
+$c-tan: var(--c-tan);
+$c-shadow: var(--c-shadow);
+$c-buff: var(--c-buff);
+$c-manhattan: var(--c-manhattan);
+$c-brown-rust: var(--c-brown-rust);
+$c-rajah: var(--c-rajah);
+$c-red: var(--c-red);
+$c-old-brick: var(--c-old-brick);
+$c-gable-green: var(--c-gable-green);
+$c-astronaut: var(--c-astronaut);

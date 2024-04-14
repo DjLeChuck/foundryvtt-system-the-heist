@@ -6,24 +6,28 @@
       {{/each}}
     </ul>
   </div>
-  <div class="phase-details">
-    <p class="duration align-center">{{localize "HEIST.GamePhaseWindow.Duration" duration=currentPhase.duration}}</p>
+  <div class="phase-details flexcol flex-group-center">
+    <p class="duration align-center flexshrink">
+      {{localize "HEIST.GamePhaseWindow.Duration" duration=currentPhase.duration}}
+    </p>
 
-    {{#if active}}
-      <p class="timer running">{{formattedTimeLeft timeLeft}}</p>
-    {{/if}}
-    {{#if (not active)}}
-      <h2 class="timer finished">
-        {{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}
-        {{#if isGM}}{{localize "HEIST.GamePhaseWindow.ChangePhase"}}{{/if}}
-      </h2>
-    {{/if}}
+    <div>
+      {{#if active}}
+        <p class="timer running">{{formattedTimeLeft timeLeft}}</p>
+      {{/if}}
+      {{#if (not active)}}
+        <h1 class="timer finished">
+          {{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}
+          {{#if isGM}}{{localize "HEIST.GamePhaseWindow.ChangePhase"}}{{/if}}
+        </h1>
+      {{/if}}
+    </div>
   </div>
   {{#if isGM}}
     <div class="buttons flex flexrow">
       {{#if hasNextPhase}}
         <div>
-          <button type="button" data-next>
+          <button type="button" class="action-btn" data-next>
             <i class="fa fa-forward"></i>
             {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
           </button>
@@ -31,7 +35,7 @@
       {{/if}}
       {{#if canPause}}
         <div>
-          <button type="button" data-pause{{#unless active}} disabled{{/unless}}>
+          <button type="button" class="action-btn" data-pause{{#unless active}} disabled{{/unless}}>
             {{#if paused}}
               <i class="fa fa-play"></i>
               {{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}
@@ -44,7 +48,7 @@
         </div>
       {{/if}}
       <div>
-        <button type="button" data-reset>
+        <button type="button" class="action-btn" data-reset>
           <i class="fa fa-rotate-left"></i>
           {{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}
         </button>

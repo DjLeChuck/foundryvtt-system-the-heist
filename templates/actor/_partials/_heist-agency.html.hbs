@@ -1,36 +1,39 @@
-<div class="agency-layout">
-  {{#if spade}}
-    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade canTest=canTest}}
-  {{/if}}
-  {{#unless spade}}
-    {{> (template "actor/_partials/_heist-empty-agent.html.hbs" type="spade")}}
-  {{/unless}}
-
-  {{#if heart}}
-    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart canTest=canTest}}
-  {{/if}}
-  {{#unless heart}}
-    {{> (template "actor/_partials/_heist-empty-agent.html.hbs" type="heart")}}
-  {{/unless}}
-
-  {{#if diamond}}
-    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond canTest=canTest}}
-  {{/if}}
-  {{#unless diamond}}
-    {{> (template "actor/_partials/_heist-empty-agent.html.hbs" type="diamond")}}
-  {{/unless}}
-
-  {{#if club}}
-    {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club canTest=canTest}}
-  {{/if}}
-  {{#unless club}}
-    {{> (template "actor/_partials/_heist-empty-agent.html.hbs" type="club")}}
-  {{/unless}}
-
+{{#if isGM}}
   {{#if jack}}
-    {{> (template "actor/_partials/_heist-jack.html.hbs") jack=jack canTest=canTest}}
+    {{> (template "actor/_partials/_heist-jack.html.hbs")}}
   {{/if}}
-  {{#unless jack}}
-    {{> (template "actor/_partials/_heist-empty-agent.html.hbs" type="joker")}}
-  {{/unless}}
+{{/if}}
+
+<div class="agent-container flexcol{{#if (not isGM)}} no-jack{{/if}}">
+  <div class="agent-row u-mt-small u-gap-small flexshrink">
+    {{#if spade}}
+      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade type="spade"}}
+    {{/if}}
+    {{#unless spade}}
+      <div class="agent type-spade"></div>
+    {{/unless}}
+
+    {{#if heart}}
+      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart type="heart"}}
+    {{/if}}
+    {{#unless heart}}
+      <div class="agent type-heart"></div>
+    {{/unless}}
+  </div>
+
+  <div class="agent-row u-mt-small u-gap-small flexshrink">
+    {{#if diamond}}
+      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond type="diamond"}}
+    {{/if}}
+    {{#unless diamond}}
+      <div class="agent type-diamond"></div>
+    {{/unless}}
+
+    {{#if club}}
+      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club type="club"}}
+    {{/if}}
+    {{#unless club}}
+      <div class="agent type-club"></div>
+    {{/unless}}
+  </div>
 </div>

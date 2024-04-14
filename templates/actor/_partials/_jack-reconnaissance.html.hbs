@@ -9,6 +9,7 @@
       <strong class="badge-value">{{length reconnaissanceHand.availableCards}}</strong>
     </span>
   </div>
+
   {{#each colors}}
     <div>
       <span class="badge">
@@ -18,12 +19,13 @@
       </span>
     </div>
   {{/each}}
-  {{#if agentsCompromised}}
-    <p class="grid-span-5 compromised">{{localize "HEIST.JackSheet.Reconnaissance.AgentsCompromised"}}</p>
-  {{/if}}
 </div>
 
-{{#if canDrawReconnaissance}}
+{{#if agentsCompromised}}
+  <h1 class="grid-span-5 compromised align-center">{{localize "HEIST.JackSheet.Reconnaissance.AgentsCompromised"}}</h1>
+{{/if}}
+
+{{#if (and canDrawReconnaissance (not agentsCompromised))}}
   <div class="flexrow">
     <button type="button" data-draw>{{localize "HEIST.Global.DrawCards"}}</button>
   </div>

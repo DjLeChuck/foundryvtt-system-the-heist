@@ -1,27 +1,27 @@
 <div class="flex flexcol small phase-details">
-  <h2 class="align-center">{{localize currentPhase.name}}</h2>
+  <h1 class="align-center flexshrink">{{localize currentPhase.name}}</h1>
 
-  <div>
+  <div class="flex flex-group-center">
     {{#if active}}
       <p class="timer">{{formattedTimeLeft timeLeft}}</p>
     {{/if}}
     {{#if (not active)}}
-      <p class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</p>
+      <h1 class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</h1>
     {{/if}}
   </div>
   {{#if isGM}}
     <div class="buttons flex flexrow">
       {{#if hasNextPhase}}
         <div>
-          <button type="button" data-next data-tooltip="{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}"
-                  class="flexshrink">
+          <button type="button" class="action-btn flexshrink" data-next
+                  data-tooltip="{{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}">
             <i class="fa fa-forward"></i>
           </button>
         </div>
       {{/if}}
       {{#if canPause}}
         <div>
-          <button type="button" data-pause{{#unless active}} disabled{{/unless}} class="flexshrink"
+          <button type="button" class="action-btn" data-pause{{#unless active}} disabled{{/unless}} class="flexshrink"
                   data-tooltip="{{ifThen paused (localize "HEIST.GamePhaseWindow.Buttons.Launch") (localize "HEIST.GamePhaseWindow.Buttons.Pause")}}">
             {{#if paused}}<i class="fa fa-play"></i>{{/if}}
             {{#unless paused}}<i class="fa fa-pause"></i>{{/unless}}
@@ -29,8 +29,8 @@
         </div>
       {{/if}}
       <div>
-        <button type="button" data-reset data-tooltip="{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}"
-                class="flexshrink">
+        <button type="button" class="action-btn flexshrink" data-reset
+                data-tooltip="{{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}">
           <i class="fa fa-rotate-left"></i>
         </button>
       </div>

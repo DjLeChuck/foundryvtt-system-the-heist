@@ -2,7 +2,6 @@
 @import "utils/typography";
 @import "utils/colors";
 @import "utils/mixins";
-@import "utils/variables";
 
 /* Global styles */
 @import "global/window";
@@ -16,6 +15,10 @@
 .heist {
   --form-field-height: 60px;
   --font-primary: "Masqualero", sans-serif;
+  --color-shadow-primary: #d7714f;
+  --small-gap: 8px;
+  --medium-gap: 12px;
+  --big-gap: 16px;
 
   @import "components/common";
 

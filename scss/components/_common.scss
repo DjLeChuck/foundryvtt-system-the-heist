@@ -1,8 +1,16 @@
 & {
   font-size: 1rem;
 
-  .u-mt-8 {
-    margin-top: 8px;
+  .u-mt-small {
+    margin-top: var(--small-gap);
+  }
+
+  .u-gap-small {
+    gap: var(--small-gap);
+  }
+
+  .u-strike {
+    text-decoration: line-through;
   }
 
   h1 {
@@ -25,6 +33,7 @@
     letter-spacing: 1px;
     color: $c-astronaut;
     border: none;
+    width: fit-content;
   }
 
   h2 {
@@ -35,8 +44,10 @@
   }
 
   .action-btn {
+    color: $c-gable-green;
     background-color: $c-manhattan;
-    border: none;
+    border: 1px solid $c-gable-green;
+    font-size: var(--font-size-16);
   }
 
   .sheet-edit {
@@ -44,11 +55,12 @@
     right: 30px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: var(--small-gap);
+  }
 
-    button {
-      background-color: $c-manhattan;
-      border: none;
-    }
+  .sheet-tabs {
+    border: none !important;
+
+    @include light-transparency-bg;
   }
 }

@@ -12,7 +12,7 @@ export class HeistActorSheet extends ActorSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
       width: 830,
-      height: 1050,
+      height: 935,
       template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
     });
@@ -83,7 +83,6 @@ export class HeistActorSheet extends ActorSheet {
     context.club = this.actor.club;
 
     context.isGM = game.user.isGM;
-    context.canTest = game[HEIST.SYSTEM_ID].agentTestWindow.canAskTest;
 
     await this.#preparePlanningContext(context);
 
