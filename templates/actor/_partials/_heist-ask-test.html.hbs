@@ -1,0 +1,23 @@
+<div class="flexcol">
+  <div class="flexrow">
+    <label for="agent">{{localize "HEIST.Global.AgentName"}}</label>
+    <select id="agent" data-agent>
+      {{#each agents}}
+        <option value="{{this.id}}">{{this.name}}</option>
+      {{/each}}
+    </select>
+  </div>
+  <div class="flexrow">
+    <p>{{localize "HEIST.Global.Difficulty"}}</p>
+    <div class="flexrow flex2">
+      <p>
+        <input type="radio" name="difficulty" id="difficulty-easy" value="easy" checked="checked" data-difficulty />
+        <label for="difficulty-easy">{{localize "HEIST.HeistSheet.EasyTest"}}</label>
+      </p>
+      <p>
+        <input type="radio" name="difficulty" id="difficulty-difficult" value="difficult" data-difficulty />
+        <label for="difficulty-difficult">{{localize "HEIST.HeistSheet.DifficultTest"}}</label>
+      </p>
+    </div>
+  </div>
+</div>

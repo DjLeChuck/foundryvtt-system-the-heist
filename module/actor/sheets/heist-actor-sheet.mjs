@@ -177,15 +177,33 @@ export class HeistActorSheet extends ActorSheet {
   async #onAskAgentTest(e) {
     e.preventDefault();
 
-    const dataset = e.currentTarget.dataset;
-    if (!dataset.difficulty || !dataset.agentId) {
-      ui.notifications.error('Cannot ask a test, missing difficulty and/or agentId!');
+    if (game[HEIST.SYSTEM_ID].agentTestWindow.isRunning) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.TestAlreadyRunning'));
 
       return;
     }
 
-    if (game[HEIST.SYSTEM_ID].agentTestWindow.isRunning) {
-      ui.notifications.error(game.i18n.localize('HEIST.Errors.TestAlreadyRunning'));
+    const agents = this.actor.agents.filter((agent) => !agent.isDead);
+
+    const dataset = await Dialog.prompt({
+      title: game.i18n.localize('HEIST.HeistSheet.AskTest'),
+      content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-ask-test.html.hbs`, {
+        agents,
+      }),
+      label: game.i18n.localize('HEIST.Global.Validate'),
+      callback: async (html) => {
+        return {
+          agentId: html[0].querySelector('[data-agent]').value,
+          difficulty: html[0].querySelector('[data-difficulty]:checked').value,
+        };
+      },
+      options: {
+        classes: [HEIST.SYSTEM_ID, 'dialog', 'ask-test'],
+      },
+    });
+
+    if (!dataset.difficulty || !dataset.agentId) {
+      ui.notifications.error('Cannot ask a test, missing difficulty and/or agentId!');
 
       return;
     }

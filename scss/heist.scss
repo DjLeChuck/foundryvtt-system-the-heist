@@ -15,7 +15,7 @@
 .heist {
   --form-field-height: 60px;
   --font-primary: "Masqualero", sans-serif;
-  --color-shadow-primary: #d7714f;
+  --color-shadow-primary: var(--c-brown-rust);
   --small-gap: 8px;
   --medium-gap: 12px;
   --big-gap: 16px;
@@ -25,6 +25,7 @@
   @import "components/cards-display";
   @import "components/agent-test-window";
   @import "components/game-phase-window";
+  @import "components/ask-test";
 
   // Actors
   @import "components/agent-sheet";
