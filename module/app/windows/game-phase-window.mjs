@@ -38,12 +38,18 @@ export class GamePhaseWindow extends WithSettingsWindow {
     return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`;
   }
 
+  get currentPhase() {
+    return this.#getCurrentPhase();
+  }
+
   get #currentPhaseIndex() {
     return this._getSetting('current');
   }
 
-  get currentPhase() {
-    return this.#getCurrentPhase();
+  get #nextPhase() {
+    const phase = this.phases[this.#currentPhaseIndex + 1];
+
+    return undefined === phase ? null : phase;
   }
 
   getData() {
@@ -57,7 +63,7 @@ export class GamePhaseWindow extends WithSettingsWindow {
       paused: this.#getPausedStatus(),
       active: 0 < timeLeft,
       canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
-      hasNextPhase: undefined !== this.phases[this.#currentPhaseIndex + 1],
+      hasNextPhase: null !== this.#nextPhase,
     };
   }
 

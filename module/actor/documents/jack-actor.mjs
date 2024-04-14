@@ -109,12 +109,7 @@ export class JackActor extends BasePlayerActor {
   }
 
   async #onChangeGamePhase(phase) {
-    if (HEIST.GAME_PHASE_RECONNAISSANCE === phase.id) {
-      await this.#throwHand(this.reconnaissanceHand);
-      await this.#recallDeck();
-    }
-
-    if (HEIST.GAME_PHASE_ACTION === phase.id) {
+    if ([HEIST.GAME_PHASE_RECONNAISSANCE, HEIST.GAME_PHASE_ACTION].includes(phase.id)) {
       await this.#recallDeck();
     }
 
