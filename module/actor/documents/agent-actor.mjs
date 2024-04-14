@@ -31,7 +31,7 @@ export class AgentActor extends BasePlayerActor {
   }
 
   get canUseFetish() {
-    return this.fetish && !this.fetish.isUsed;
+    return this.fetish && !this.system.fetishUsed;
   }
 
   get canLearnSkill() {
@@ -82,7 +82,7 @@ export class AgentActor extends BasePlayerActor {
       return;
     }
 
-    await this.fetish.update({ 'system.used': true });
+    await this.update({ 'system.fetishUsed': true });
   }
 
   async toggleFetish() {
@@ -92,7 +92,7 @@ export class AgentActor extends BasePlayerActor {
       return;
     }
 
-    await this.fetish.toggleUsage();
+    await this.update({ 'system.fetishUsed': !this.system.fetishUsed });
   }
 
   async setDecks() {

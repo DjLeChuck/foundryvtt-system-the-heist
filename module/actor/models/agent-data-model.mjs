@@ -10,6 +10,7 @@ export class AgentDataModel extends BasePlayerDataModel {
         required: false,
       }),
       dead: new fields.BooleanField(),
+      fetishUsed: new fields.BooleanField(),
     });
   }
 }
