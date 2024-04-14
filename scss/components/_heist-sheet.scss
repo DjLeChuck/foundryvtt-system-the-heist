@@ -67,6 +67,9 @@
   .agent-container {
     &.no-jack {
       height: 100%;
+    }
+
+    .no-jack {
       justify-content: center;
     }
 
