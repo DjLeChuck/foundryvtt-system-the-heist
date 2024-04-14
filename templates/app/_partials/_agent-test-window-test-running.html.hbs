@@ -1,4 +1,16 @@
-<h2>{{localize "HEIST.AgentTestWindow.TitleWithTest" name=agent.name}}</h2>
+{{#if test.isFinished}}
+  {{#if (not test.isSuccessful)}}
+    <h1 class="align-center">{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h1>
+  {{/if}}
+  {{#if test.isSuccessful}}
+    <h1 class="align-center">{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h1>
+    {{#if test.isBlackjack}}
+      <h2 class="align-center">{{localize "HEIST.Blackjack.ItsABlackjack"}}</h2>
+    {{/if}}
+  {{/if}}
+{{/if}}
+
+<h2 class="u-mt-8">{{localize "HEIST.Cards.HandName" name=jack.name}}</h2>
 
 <div class="grid {{ifThen isAdmin "grid-3col" "grid-2col"}} align-center cards-container">
   {{#each jack.cards}}
@@ -12,23 +24,31 @@
   {{/each}}
 </div>
 
-<p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=jack.score}}</p>
+<div class="flex flexrow flex-group-center">
+  <p class="score">{{localize "HEIST.AgentTestWindow.CurrentScore" value=jack.score}}</p>
 
+  {{#if isAdmin}}
+    <p class="score">{{localize "HEIST.AgentTestWindow.ScoreToBeat" value=jack.totalScore}}</p>
+  {{/if}}
+</div>
 {{#if isAdmin}}
-  <p>{{localize "HEIST.AgentTestWindow.TotalScore" value=jack.totalScore}}</p>
-
-  {{#unless test.isRevealed}}
-    <p>
-      <button type="button" data-reveal>{{localize "HEIST.AgentTestWindow.Reveal"}}</button>
-    </p>
-  {{/unless}}
-
-  {{#unless test.isFinished}}
-    <button type="button" data-finish>{{localize "HEIST.AgentTestWindow.Finish"}}</button>
-  {{/unless}}
+  <div class="actions-buttons">
+    {{#if (not test.isFinished)}}
+      {{#if (not test.isRevealed)}}
+        <button type="button" data-reveal>
+          <i class="fa-duotone fa-eye"></i>
+          {{localize "HEIST.AgentTestWindow.Reveal"}}
+        </button>
+      {{/if}}
+      <button type="button" data-finish>
+        <i class="fa-duotone fa-flag-checkered"></i>
+        {{localize "HEIST.AgentTestWindow.Finish"}}
+      </button>
+    {{/if}}
+  </div>
 {{/if}}
 
-<h2>{{localize "HEIST.AgentTestWindow.AgentHand"}}</h2>
+<h2 class="u-mt-8">{{localize "HEIST.Cards.HandName" name=agent.name}}</h2>
 
 <div class="grid grid-4col align-center cards-container">
   {{#each agent.cards}}
@@ -38,30 +58,20 @@
   {{/each}}
 </div>
 
-<p>{{localize "HEIST.AgentTestWindow.CurrentScore" value=agent.score}}</p>
+<p class="score align-center">{{localize "HEIST.AgentTestWindow.CurrentScore" value=agent.score}}</p>
 
 {{#if (and agent.isOwner (not test.isFinished))}}
-  <p class="grid grid-2col">
+  <div class="actions-buttons">
     <button type="button" data-draw{{#unless agent.canDraw}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}
       {{#unless agent.canUseFetish}} class="grid-span-2"{{/unless}}>
+      <i class="fa-duotone fa-cards"></i>
       {{localize "HEIST.AgentTestWindow.Draw"}}
     </button>
     {{#if agent.canUseFetish}}
       <button type="button" data-fetish>
+        <i class="fa fa-clover"></i>
         {{localize "HEIST.AgentTestWindow.UseFetish"}}
       </button>
     {{/if}}
-  </p>
-{{/if}}
-
-{{#if test.isFinished}}
-  {{#if (not test.isSuccessful)}}
-    <h2 class="align-center">{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h2>
-  {{/if}}
-  {{#if test.isSuccessful}}
-    <h2 class="align-center">{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h2>
-    {{#if test.isBlackjack}}
-      <h3 class="align-center">{{localize "HEIST.Blackjack.ItsABlackjack"}}</h3>
-    {{/if}}
-  {{/if}}
+  </div>
 {{/if}}

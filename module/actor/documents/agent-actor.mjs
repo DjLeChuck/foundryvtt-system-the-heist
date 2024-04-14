@@ -31,7 +31,11 @@ export class AgentActor extends BasePlayerActor {
   }
 
   get canUseFetish() {
-    return this.fetish && !this.system.fetishUsed;
+    return this.fetish && !this.fetishUsed;
+  }
+
+  get fetishUsed() {
+    return this.system.fetishUsed;
   }
 
   get canLearnSkill() {

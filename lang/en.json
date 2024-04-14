@@ -68,7 +68,7 @@
   "HEIST.AgentTestWindow.Finish": "Finish",
   "HEIST.AgentTestWindow.UseFetish": "Use fetish object",
   "HEIST.AgentTestWindow.CurrentScore": "Current score: {value}",
-  "HEIST.AgentTestWindow.TotalScore": "Total score: {value}",
+  "HEIST.AgentTestWindow.ScoreToBeat": "Score to beat: {value}",
   "HEIST.AgentTestWindow.NoCardLeft": "No card left",
   "HEIST.AgentTestWindow.Result.Title": "Test result",
   "HEIST.GamePhaseWindow.Title": "Game phases",

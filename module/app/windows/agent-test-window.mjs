@@ -15,8 +15,9 @@ export class AgentTestWindow extends WithSettingsWindow {
       title: game.i18n.localize('HEIST.AgentTestWindow.Title'),
       template: `systems/${HEIST.SYSTEM_ID}/templates/app/agent-test-window.html.hbs`,
       width: 750,
-      height: 800,
+      height: 850,
       settingsName: 'currentTest',
+      resizable: true,
     });
   }
 
@@ -132,6 +133,7 @@ export class AgentTestWindow extends WithSettingsWindow {
         isBlackjack: this.#isBlackjack,
       },
       jack: {
+        name: jack.name,
         cards: jackCards,
         score: CARDS.scoreForAgent(jackCards),
         totalScore: CARDS.scoreForJack(jackCards),
@@ -263,6 +265,8 @@ export class AgentTestWindow extends WithSettingsWindow {
 
   async #onFinishTest(e) {
     e.preventDefault();
+
+    await this.#revealTest();
 
     const jackScore = CARDS.scoreForJack(this.#jackCards);
     const agentScore = CARDS.scoreForJack(this.#agentCards);
