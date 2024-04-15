@@ -27,6 +27,34 @@
     }
   }
 
+  .card-suit {
+    max-width: 80px;
+    height: 100px;
+    background-color: var(--c-white);
+    border: 1px solid var(--c-tan);
+    border-radius: var(--small-gap);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+    .overflowed {
+      color: var(--c-red);
+    }
+  }
+
+  .compromised {
+    color: var(--c-old-brick);
+  }
+
+  .badge {
+    padding: 4px var(--small-gap);
+    background-color: var(--c-white);
+    border: 1px solid var(--c-tan);
+    border-radius: 4px;
+  }
+
   .agent-image {
     position: relative;
 

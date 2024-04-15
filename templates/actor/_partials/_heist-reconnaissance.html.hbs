@@ -1,37 +1,34 @@
 <div class="flexcol">
   <p>{{localize "HEIST.JackSheet.Reconnaissance.Explanations"}}</p>
 
-  <div class="grid grid-5col align-center">
-    <div>
-      <span class="badge">
-        <span>{{localize "HEIST.Cards.Drawn"}}</span>
-        <strong class="badge-value">{{length reconnaissanceHand.availableCards}}</strong>
-      </span>
-    </div>
-
-    {{#each colors}}
-      <div>
-        <span class="badge">
-          <span class="card-suit-{{@key}}">{{this.icon}}</span>
-          <span>{{this.label}}</span>
-          <strong class="badge-value{{#if this.isOverflowed}} overflowed{{/if}}">{{this.value}}</strong>
+  <div class="flexcol">
+    <div class="flexrow flex-evenly u-mt-small">
+      <div class="card-suit">
+        <span data-tooltip="{{localize "HEIST.Cards.Drawn"}}">
+          <i class="fa-duotone fa-cards"></i>
         </span>
+        <strong>{{length reconnaissanceHand.availableCards}}</strong>
       </div>
-    {{/each}}
+      {{#each colors}}
+        <div class="card-suit">
+          <span class="card-suit-{{@key}}">{{{this.icon}}}</span>
+          <strong{{#if this.isOverflowed}} class="overflowed"{{/if}}>{{this.value}}</strong>
+        </div>
+      {{/each}}
+    </div>
   </div>
 
   {{#if agentsCompromised}}
-    <h1 class="grid-span-5 compromised align-center">
+    <h1 class="compromised align-center u-mt-small">
       {{localize "HEIST.JackSheet.Reconnaissance.AgentsCompromised"}}
     </h1>
   {{/if}}
 
   {{#if (and canDrawReconnaissance (not agentsCompromised))}}
-    <div class="flexrow">
-      <button type="button" class="action-btn" data-draw-reconnaissance>
-        {{localize "HEIST.Global.DrawCards"}}
-      </button>
-    </div>
+    <button type="button" class="action-btn u-mt-small" data-draw-reconnaissance>
+      <i class="fa-duotone fa-cards"></i>
+      {{localize "HEIST.Global.DrawCards"}}
+    </button>
   {{/if}}
 
   <div class="grid grid-5col align-center cards-container">

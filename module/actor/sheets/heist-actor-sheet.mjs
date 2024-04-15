@@ -412,25 +412,25 @@ export class HeistActorSheet extends ActorSheet {
 
     context.colors = {
       hearts: {
-        icon: '♥️',
+        icon: '<i class="fa fa-heart"></i>',
         label: game.i18n.localize('HEIST.Global.Suit.Hearts'),
         value: 0,
         isOverflowed: false,
       },
       spades: {
-        icon: '♠️',
+        icon: '<i class="fa fa-spade"></i>',
         label: game.i18n.localize('HEIST.Global.Suit.Spades'),
         value: 0,
         isOverflowed: false,
       },
       diamonds: {
-        icon: '♦️',
+        icon: '<i class="fa fa-diamond"></i>',
         label: game.i18n.localize('HEIST.Global.Suit.Diamonds'),
         value: 0,
         isOverflowed: false,
       },
       clubs: {
-        icon: '♣️',
+        icon: '<i class="fa fa-club"></i>',
         label: game.i18n.localize('HEIST.Global.Suit.Clubs'),
         value: 0,
         isOverflowed: false,
