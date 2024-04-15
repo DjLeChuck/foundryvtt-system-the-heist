@@ -37,6 +37,18 @@
   flex: 2;
 }
 
+.flex-20 {
+  flex: 0 0 20%;
+}
+
+.flex-25 {
+  flex: 0 0 25%;
+}
+
+.flex-50 {
+  flex: 0 0 50%;
+}
+
 // Alignment styles.
 .align-left {
   justify-content: flex-start;

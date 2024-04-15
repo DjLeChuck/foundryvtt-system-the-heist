@@ -1,6 +1,6 @@
-<div class="grid grid-2col skills-list">
+<div class="flexrow skills-list">
   {{#each skills}}
-    <div class="flex flex-group-left">
+    <div class="flex flex-group-left flex-50">
       <span>{{this.name}}</span>
       <button type="button" class="action-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Edit"}}"
               data-edit-item data-id="{{this._id}}">

@@ -116,6 +116,13 @@
                 padding-left: 20px;
                 align-items: center;
 
+                div {
+                  span {
+                    margin-right: auto;
+                    margin-left: var(--small-gap);
+                  }
+                }
+
                 button {
                   margin-left: 4px;
                 }

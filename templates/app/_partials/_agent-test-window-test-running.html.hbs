@@ -5,14 +5,14 @@
   {{#if test.isSuccessful}}
     <h1 class="align-center">{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h1>
     {{#if test.isBlackjack}}
-      <h2 class="align-center">{{localize "HEIST.Blackjack.ItsABlackjack"}}</h2>
+      <h2>{{localize "HEIST.Blackjack.ItsABlackjack"}}</h2>
     {{/if}}
   {{/if}}
 {{/if}}
 
 <h2 class="u-mt-small">{{localize "HEIST.Cards.HandName" name=jack.name}}</h2>
 
-<div class="grid {{ifThen isAdmin "grid-3col" "grid-2col"}} align-center cards-container">
+<div class="flexrow align-center cards-container">
   {{#each jack.cards}}
     {{#if (or ../isAdmin (not this.excluded))}}
       <div>
@@ -50,9 +50,9 @@
 
 <h2 class="u-mt-small">{{localize "HEIST.Cards.HandName" name=agent.name}}</h2>
 
-<div class="grid grid-4col align-center cards-container">
+<div class="flexrow align-center cards-container">
   {{#each agent.cards}}
-    <div>
+    <div class="flex-25">
       <img src="{{this.front}}" alt="{{this.name}}" class="card" />
     </div>
   {{/each}}
@@ -63,8 +63,7 @@
 {{#if (and agent.isOwner (not test.isFinished))}}
   <div class="actions-buttons">
     <button type="button" class="action-btn" data-draw{{#unless agent.canDraw}} disabled
-            title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}
-      {{#unless agent.canUseFetish}} class="grid-span-2"{{/unless}}>
+            title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}>
       <i class="fa-duotone fa-cards"></i>
       {{localize "HEIST.AgentTestWindow.Draw"}}
     </button>

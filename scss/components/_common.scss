@@ -5,6 +5,10 @@
     margin-top: var(--small-gap);
   }
 
+  .u-m-auto {
+    margin: auto;
+  }
+
   .u-gap-small {
     gap: var(--small-gap);
   }
@@ -51,6 +55,7 @@
   }
 
   .sheet-edit {
+    z-index: 1;
     position: absolute;
     right: 30px;
     display: flex;

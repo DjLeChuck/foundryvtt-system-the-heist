@@ -31,9 +31,9 @@
     </button>
   {{/if}}
 
-  <div class="grid grid-5col align-center cards-container">
+  <div class="flexrow align-center cards-container u-mt-small">
     {{#each reconnaissanceHand.cards}}
-      <div>
+      <div class="flex-20">
         <img src="{{this.img}}" alt="{{this.name}}" class="card" />
       </div>
     {{/each}}
