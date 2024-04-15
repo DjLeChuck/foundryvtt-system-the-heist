@@ -1,49 +1,61 @@
 <div class="flexcol">
   <div>
-    <div class="align-center">_Le plan</div>
-    <div>
+    <h2 class="align-center">{{localize "HEIST.HeistSheet.Planning.Title"}}</h2>
+
+    <div class="plan-editor">
       {{editor planning.description target="system.plan" button=true editable=editable engine="prosemirror"}}
     </div>
   </div>
 
-  <div class="align-center">_Crédits</div>
-  <div class="flexrow flex-group-center">
-    <div>{{localize "HEIST.HeistSheet.Planning.Credit.Available"}} {{planning.credits.available}}</div>
-    <div>{{localize "HEIST.HeistSheet.Planning.Credit.Used"}} {{planning.credits.used}}</div>
-    <div>{{localize "HEIST.HeistSheet.Planning.Credit.Remaining"}} {{planning.credits.remaining}}</div>
+  <h2 class="align-center u-mt-small">{{localize "HEIST.HeistSheet.Planning.Credit.Label"}}</h2>
+
+  <div class="credits-usage flexrow flex-group-center">
+    <div class="flexcol">
+      <span class="credit-value">{{planning.credits.available}}</span>
+      <span class="credit-label">{{localize "HEIST.HeistSheet.Planning.Credit.Available"}}</span>
+    </div>
+    <div class="flexcol">
+      <span class="credit-value">{{planning.credits.used}}</span>
+      <span class="credit-label">{{localize "HEIST.HeistSheet.Planning.Credit.Used"}}</span>
+    </div>
+    <div class="flexcol">
+      <span class="credit-value">{{planning.credits.remaining}}</span>
+      <span class="credit-label">{{localize "HEIST.HeistSheet.Planning.Credit.Remaining"}}</span>
+    </div>
   </div>
 
   {{#if isGM}}
     <p>
-      <button type="button" data-add-planning-item>
+      <button type="button" class="action-btn" data-add-planning-item>
+        <i class="fa fa-add"></i>
         {{localize "HEIST.HeistSheet.Planning.AddItem"}}
       </button>
     </p>
   {{/if}}
-</div>
 
-<hr />
-
-<div class="grid grid-3col">
-  {{#each items}}
-    <div>
-      <div class="flexcol flex-group-center">
-        <p><strong>{{this.name}}</strong></p>
-        <p>
-          <u>{{localize "HEIST.PlanningItem.Cost"}}</u>
-          <strong>{{this.system.cost}} {{localize "HEIST.PlanningItem.Credits"}}</strong></p>
-      </div>
-
-      {{#if ../isGM}}
-        <div class="flexrow">
-          <button type="button" title="{{localize "HEIST.Global.Edit"}}" data-edit-item data-id="{{this._id}}">
-            <i class="fa fa-pencil"></i>
-          </button>
-          <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-item data-id="{{this._id}}">
-            <i class="fa fa-trash"></i>
-          </button>
+  <div class="planning-items flexrow flex-evenly u-mt-small">
+    {{#each items}}
+      <div class="flex-30 planning-item">
+        <div class="flexcol flex-group-center">
+          <p><strong>{{this.name}}</strong></p>
+          <p>
+            <u>{{localize "HEIST.PlanningItem.Cost"}}</u>
+            <strong>{{this.system.cost}} {{localize "HEIST.PlanningItem.Credits"}}</strong></p>
         </div>
-      {{/if}}
-    </div>
-  {{/each}}
+
+        {{#if ../isGM}}
+          <div class="flexrow">
+            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Edit"}}" data-edit-item
+                    data-id="{{this._id}}">
+              <i class="fa fa-pencil"></i>
+            </button>
+            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Delete"}}" data-remove-item
+                    data-id="{{this._id}}">
+              <i class="fa fa-trash"></i>
+            </button>
+          </div>
+        {{/if}}
+      </div>
+    {{/each}}
+  </div>
 </div>

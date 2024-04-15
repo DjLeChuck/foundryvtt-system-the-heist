@@ -349,6 +349,7 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
+    item.sheet.isLocked = false;
     await item.sheet.render(true);
   }
 

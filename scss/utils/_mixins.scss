@@ -48,3 +48,10 @@
 @mixin light-transparency-bg {
   box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6);
 }
+
+@mixin blue-box {
+  background-color: var(--c-astronaut);
+  color: var(--c-white);
+  box-shadow: inset 0 0 0 2px var(--c-rajah);
+  border: 4px solid transparent;
+}

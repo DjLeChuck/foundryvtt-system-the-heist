@@ -24,7 +24,7 @@
     </h1>
   {{/if}}
 
-  {{#if (and canDrawReconnaissance (not agentsCompromised))}}
+  {{#if canDrawReconnaissance}}
     <button type="button" class="action-btn u-mt-small" data-draw-reconnaissance>
       <i class="fa-duotone fa-cards"></i>
       {{localize "HEIST.Global.DrawCards"}}

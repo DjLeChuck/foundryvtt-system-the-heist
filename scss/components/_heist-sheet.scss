@@ -1,6 +1,6 @@
 &.heist-sheet {
   .window-content {
-    background: url("../images/ui/vault-low-angle.webp") no-repeat;
+    background: url("../images/ui/blueprint.webp") no-repeat;
 
     @include light-transparency-bg;
   }
@@ -142,6 +142,68 @@
           background-size: contain;
           object-fit: contain;
         }
+      }
+    }
+  }
+
+  .planning {
+    .plan-editor {
+      @include blue-box;
+
+      max-height: 13rem;
+      overflow-y: auto;
+
+      .editor {
+        height: 100%;
+        min-height: 13rem;
+
+        &.prosemirror {
+          border: 1px solid var(--c-brown-rust);
+          border-radius: 6px;
+          height: 100%;
+          padding: 0;
+
+          menu {
+            background: var(--c-brown-rust);
+          }
+        }
+
+        .editor-container {
+          .editor-content {
+            min-height: 8rem;
+          }
+        }
+
+        .editor-content {
+          background: none;
+          min-height: 13rem;
+          padding: 0 var(--small-gap);
+        }
+      }
+    }
+
+    .credits-usage {
+      border: 1px solid var(--c-gable-green);
+
+      @include light-transparency-bg;
+
+      .credit-value {
+        font-size: 2rem;
+      }
+
+      .credit-label {
+        border-top: 1px solid var(--c-gable-green);
+      }
+    }
+
+    .planning-items {
+      row-gap: var(--small-gap);
+
+      .planning-item {
+        border: 1px solid var(--c-gable-green);
+        padding: var(--small-gap);
+
+        @include light-transparency-bg;
       }
     }
   }
