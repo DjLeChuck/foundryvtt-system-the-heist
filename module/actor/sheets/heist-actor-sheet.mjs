@@ -199,9 +199,6 @@ export class HeistActorSheet extends ActorSheet {
           difficulty: html[0].querySelector('[data-difficulty]:checked').value,
         };
       },
-      options: {
-        classes: [HEIST.SYSTEM_ID, 'dialog', 'ask-test'],
-      },
     });
 
     if (!dataset.difficulty || !dataset.agentId) {
