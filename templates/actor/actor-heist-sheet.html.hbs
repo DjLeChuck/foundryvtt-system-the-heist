@@ -14,6 +14,9 @@
 
   <nav class="sheet-tabs tabs flexshrink" data-group="primary">
     <a class="item" data-tab="agency">{{localize "HEIST.HeistSheet.TheAgency"}}</a>
+    {{#if isGM}}
+      <a class="item" data-tab="reconnaissance">{{localize "HEIST.GamePhases.Phase2.Title"}}</a>
+    {{/if}}
     <a class="item" data-tab="planning">{{localize "HEIST.GamePhases.Phase3.Title"}}</a>
   </nav>
 
@@ -21,6 +24,11 @@
     <div class="tab" data-group="primary" data-tab="agency">
       {{> (template "actor/_partials/_heist-agency.html.hbs")}}
     </div>
+    {{#if isGM}}
+      <div class="tab" data-group="primary" data-tab="reconnaissance">
+        {{> (template "actor/_partials/_heist-reconnaissance.html.hbs")}}
+      </div>
+    {{/if}}
     <div class="tab" data-group="primary" data-tab="planning">
       {{> (template "actor/_partials/_heist-planning.html.hbs")}}
     </div>

@@ -24,6 +24,10 @@ export class JackActor extends BasePlayerActor {
     return game.cards.get(this.system.reconnaissanceHand);
   }
 
+  get canDraw() {
+    return this.deck?.availableCards.length > 0;
+  }
+
   get canAskTest() {
     return this.deck?.availableCards.length >= 3;
   }

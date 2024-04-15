@@ -71,6 +71,7 @@ export class HeistActorSheet extends ActorSheet {
     html.on('click', '[data-remove-actor]', this.#onRemoveActor.bind(this));
     html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
+    html.on('click', '[data-draw-reconnaissance]', this.#onDrawReconnaissanceCards.bind(this));
   }
 
   /** @override */
@@ -84,6 +85,7 @@ export class HeistActorSheet extends ActorSheet {
 
     context.isGM = game.user.isGM;
 
+    await this.#prepareReconnaissanceContext(context);
     await this.#preparePlanningContext(context);
 
     return context;
@@ -368,6 +370,90 @@ export class HeistActorSheet extends ActorSheet {
       content: `<p>${game.i18n.localize('AreYouSure')}</p>`,
       yes: () => item.delete(),
     });
+  }
+
+  async #onDrawReconnaissanceCards(e) {
+    e.preventDefault();
+
+    const jack = this.actor.jack;
+    let numberCardsOptions = '';
+
+    for (let i = 0; i <= Math.min(5, jack.deck.availableCards.length); i++) {
+      numberCardsOptions += `<option value="${i}">${i}</option>`;
+    }
+
+    await Dialog.prompt({
+      title: game.i18n.localize('HEIST.Global.DrawCards'),
+      content: `<p>
+  <label for="number-cards">${game.i18n.localize('HEIST.Cards.HowManyToDraw')}</label>
+  <select id="number-cards">${numberCardsOptions}</select>
+</p>`,
+      callback: async (html) => {
+        const nbCards = parseInt(html.find('#number-cards')[0]?.value || '0', 10);
+        if (0 === nbCards) {
+          return;
+        }
+
+        await jack.drawCards(jack.reconnaissanceHand, nbCards);
+
+        await ChatMessage.create({
+          content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
+        });
+      },
+      rejectClose: false,
+    });
+  }
+
+  async #prepareReconnaissanceContext(context) {
+    context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
+      && this.actor.jack.canDraw;
+    context.reconnaissanceHand = this.actor.jack?.reconnaissanceHand;
+    context.agentsCompromised = false;
+
+    context.colors = {
+      hearts: {
+        icon: '♥️',
+        label: game.i18n.localize('HEIST.Global.Suit.Hearts'),
+        value: 0,
+        isOverflowed: false,
+      },
+      spades: {
+        icon: '♠️',
+        label: game.i18n.localize('HEIST.Global.Suit.Spades'),
+        value: 0,
+        isOverflowed: false,
+      },
+      diamonds: {
+        icon: '♦️',
+        label: game.i18n.localize('HEIST.Global.Suit.Diamonds'),
+        value: 0,
+        isOverflowed: false,
+      },
+      clubs: {
+        icon: '♣️',
+        label: game.i18n.localize('HEIST.Global.Suit.Clubs'),
+        value: 0,
+        isOverflowed: false,
+      },
+    };
+
+    if (!context.reconnaissanceHand) {
+      return;
+    }
+
+    const handSize = context.reconnaissanceHand.availableCards.length;
+
+    for (const card of context.reconnaissanceHand.cards) {
+      ++context.colors[card.suit].value;
+
+      if (HEIST.RECONNAISSANCE_SUIT_OVERFLOW_LIMIT <= context.colors[card.suit].value) {
+        context.colors[card.suit].isOverflowed = true;
+
+        if (handSize >= HEIST.RECONNAISSANCE_HAND_TRIGGER_LIMIT) {
+          context.agentsCompromised = true;
+        }
+      }
+    }
   }
 
   async #preparePlanningContext(context) {
