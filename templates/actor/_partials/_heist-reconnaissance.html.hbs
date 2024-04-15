@@ -25,10 +25,17 @@
   {{/if}}
 
   {{#if canDrawReconnaissance}}
-    <button type="button" class="action-btn u-mt-small" data-draw-reconnaissance>
-      <i class="fa-duotone fa-cards"></i>
-      {{localize "HEIST.Global.DrawCards"}}
-    </button>
+    <div class="flexrow u-gap-small">
+      <button type="button" class="action-btn u-mt-small" data-draw-reconnaissance>
+        <i class="fa-duotone fa-cards"></i>
+        {{localize "HEIST.Global.DrawCards"}}
+      </button>
+      <button type="button" class="action-btn u-mt-small"{{#if (not agentsCompromised)}} disabled{{/if}}
+              data-next-phase>
+        <i class="fa-duotone fa-forward"></i>
+        {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
+      </button>
+    </div>
   {{/if}}
 
   <div class="flexrow align-center cards-container u-mt-small">

@@ -111,6 +111,10 @@ export class GamePhaseWindow extends WithSettingsWindow {
     this.#render();
   }
 
+  async activePreparationPhase() {
+    await this.#changePhase(3);
+  }
+
   static #width() {
     if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
       return 440;

@@ -72,6 +72,7 @@ export class HeistActorSheet extends ActorSheet {
     html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
     html.on('click', '[data-draw-reconnaissance]', this.#onDrawReconnaissanceCards.bind(this));
+    html.on('click', '[data-next-phase]', this.#onNextPhase.bind(this));
   }
 
   /** @override */
@@ -399,6 +400,21 @@ export class HeistActorSheet extends ActorSheet {
         });
       },
       rejectClose: false,
+    });
+  }
+
+  async #onNextPhase(e) {
+    e.preventDefault();
+
+    await Dialog.confirm({
+      title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.NextPhase'),
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
+<p>${game.i18n.format('HEIST.GamePhaseWindow.NextPhaseValidation.Message')}</p>`,
+      yes: () => {
+        const gamePhase = game[HEIST.SYSTEM_ID].gamePhaseWindow;
+
+        gamePhase.activePreparationPhase();
+      },
     });
   }
 
