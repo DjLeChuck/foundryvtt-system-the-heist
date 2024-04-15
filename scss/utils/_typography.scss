@@ -13,6 +13,8 @@
   src: url("../fonts/BodegaSans-Light.otf") format("opentype");
 }
 
-$f-masqualero-groove: "Masqualero Groove";
-$f-masqualero: "Masqualero";
-$f-bodega-sans: "Bodega Sans";
+:root {
+  --f-masqualero-groove: "Masqualero Groove";
+  --f-masqualero: "Masqualero";
+  --f-bodega-sans: "Bodega Sans";
+}

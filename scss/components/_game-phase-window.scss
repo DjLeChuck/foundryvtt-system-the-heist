@@ -1,7 +1,7 @@
 &.game-phase-window {
   .window-content {
     background: url("../images/ui/queen-card.webp") no-repeat center center;
-    color: $c-white;
+    color: var(--c-white);
 
     @include dark-transparency-bg;
   }
@@ -26,7 +26,7 @@
     margin: 0;
     padding: 0;
     overflow: auto;
-    border-bottom: 2px solid $c-brown-rust;
+    border-bottom: 2px solid var(--c-brown-rust);
 
     li {
       padding: 10px;
@@ -34,7 +34,7 @@
 
       &.active {
         font-weight: bold;
-        color: $c-brown-rust;
+        color: var(--c-brown-rust);
       }
     }
   }

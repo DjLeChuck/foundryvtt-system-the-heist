@@ -1,6 +1,6 @@
 &.agent-type-sheet {
   .window-content {
-    background: none $c-gable-green;
+    background: none var(--c-gable-green);
 
     .sheet-header {
       img {
@@ -14,29 +14,29 @@
       }
 
       .agent-type-name {
-        font-family: $f-masqualero-groove;
-        color: $c-manhattan;
+        font-family: var(--f-masqualero-groove);
+        color: var(--c-manhattan);
         font-size: 1.8rem;
       }
     }
 
     .sheet-body {
       margin-top: var(--big-gap);
-      background-color: $c-astronaut;
+      background-color: var(--c-astronaut);
       padding: 30px;
-      border: 2px solid $c-brown-rust;
-      color: $c-white;
+      border: 2px solid var(--c-brown-rust);
+      color: var(--c-white);
 
       .editor {
         height: 100%;
         min-height: 15rem;
 
         &.prosemirror {
-          border: 1px solid $c-brown-rust;
+          border: 1px solid var(--c-brown-rust);
           border-radius: 6px;
 
           menu {
-            background: $c-brown-rust;
+            background: var(--c-brown-rust);
           }
         }
 

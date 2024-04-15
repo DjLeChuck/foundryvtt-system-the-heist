@@ -3,7 +3,7 @@
 
   .main-title {
     @include goldy-gradient-text;
-    font-family: $f-masqualero-groove;
+    font-family: var(--f-masqualero-groove);
   }
 
   .sub-title {

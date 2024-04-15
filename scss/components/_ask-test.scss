@@ -9,9 +9,9 @@
     }
 
     .dialog-button {
-      color: $c-gable-green;
-      background-color: $c-manhattan !important;
-      border: 1px solid $c-gable-green !important;
+      color: var(--c-gable-green);
+      background-color: var(--c-manhattan) !important;
+      border: 1px solid var(--c-gable-green) !important;
       font-size: var(--font-size-16);
     }
   }

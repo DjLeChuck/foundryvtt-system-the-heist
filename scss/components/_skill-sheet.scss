@@ -1,8 +1,8 @@
 &.skill-sheet {
   .window-content {
-    background: none $c-gable-green;
-    font-family: $f-masqualero-groove;
-    color: $c-manhattan;
+    background: none var(--c-gable-green);
+    font-family: var(--f-masqualero-groove);
+    color: var(--c-manhattan);
     font-size: 2rem;
     padding: var(--big-gap);
 
@@ -24,7 +24,7 @@
           text-align: center;
 
           input {
-            color: $c-manhattan;
+            color: var(--c-manhattan);
             width: 80%;
           }
         }

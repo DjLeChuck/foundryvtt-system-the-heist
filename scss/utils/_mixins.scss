@@ -1,6 +1,6 @@
 @mixin goldy-gradient-bg {
-  background-color: $c-shadow;
-  background-image: linear-gradient(90deg, $c-shadow, $c-buff, $c-shadow);
+  background-color: var(--c-shadow);
+  background-image: linear-gradient(90deg, var(--c-shadow), var(--c-buff), var(--c-shadow));
 }
 
 @mixin goldy-gradient-text {
@@ -15,13 +15,13 @@
 }
 
 @mixin black-card-style {
-  border: 1px solid $c-manhattan;
+  border: 1px solid var(--c-manhattan);
   border-radius: 8px;
   display: flex;
   flex: 0 0 100%;
   height: 100%;
-  background: radial-gradient(circle, $c-tan 0%, $c-black 100%);
-  box-shadow: -5px -5px 15px 0px $c-manhattan;
+  background: radial-gradient(circle, var(--c-tan) 0%, var(--c-black) 100%);
+  box-shadow: -5px -5px 15px 0px var(--c-manhattan);
   padding: 0 2px;
 }
 

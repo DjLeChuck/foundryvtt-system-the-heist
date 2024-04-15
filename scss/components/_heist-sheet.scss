@@ -69,7 +69,7 @@
     }
 
     &.dead::before {
-      background: linear-gradient(0deg, transparent 0%, transparent 45%, $c-old-brick 100%);
+      background: linear-gradient(0deg, transparent 0%, transparent 45%, var(--c-old-brick) 100%);
     }
   }
 
@@ -83,7 +83,7 @@
   .jack {
     padding: var(--small-gap);
     padding-top: 0;
-    border: 2px solid $c-black;
+    border: 2px solid var(--c-black);
     position: relative;
 
     .jack-name {
@@ -115,7 +115,7 @@
 
         position: relative;
         padding: var(--small-gap);
-        border: 2px solid $c-black;
+        border: 2px solid var(--c-black);
 
         @include light-transparency-bg;
 
