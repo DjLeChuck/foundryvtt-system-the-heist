@@ -1,19 +1,24 @@
-<form class="{{cssClass}} {{actor.type}} flexcol" autocomplete="off">
-  <header class="sheet-header">
-    <div class="flex flexcol">
-      <div class="flexrow flex-group-center">
-        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
-        <div class="flex2">
-          <h1 class="charname">
-            <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
-          </h1>
-        </div>
-        <div>
-          {{#if deck}}
-            <p><u>{{localize "HEIST.Cards.Remaining"}}</u> <strong>{{length deck.availableCards}}</strong></p>
-          {{/if}}
-        </div>
-      </div>
+<form class="{{cssClass}}" autocomplete="off">
+  {{#if editable}}
+    <p class="sheet-edit">
+      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+        <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
+      </button>
+    </p>
+  {{/if}}
+
+  <div class="jack-wrapper flexcol">
+    <div class="jack-image">
+      <img src="{{actor.img}}"{{#if (and editable (not isLocked))}} data-edit="img"{{/if}} alt="" />
     </div>
-  </header>
+
+    <div class="flexshrink">
+      {{#if (and editable (not isLocked))}}
+        <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+      {{/if}}
+      {{#if (or (not editable) isLocked)}}
+        <p>{{actor.name}}</p>
+      {{/if}}
+    </div>
+  </div>
 </form>
