@@ -420,7 +420,7 @@ export class HeistActorSheet extends ActorSheet {
 
   async #prepareReconnaissanceContext(context) {
     context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
-      && this.actor.jack.canDraw;
+      && this.actor.jack?.canDraw;
     context.reconnaissanceHand = this.actor.jack?.reconnaissanceHand;
     context.agentsCompromised = false;
 
@@ -471,7 +471,7 @@ export class HeistActorSheet extends ActorSheet {
   }
 
   async #preparePlanningContext(context) {
-    const available = game.settings.get(HEIST.SYSTEM_ID, 'availableCreditsOnPlanningPhase');
+    const available = this.actor.availableCredits;
     const used = context.items.reduce((acc, item) => acc + item.system.cost, 0);
 
     context.planning = {

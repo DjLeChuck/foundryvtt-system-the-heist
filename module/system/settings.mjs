@@ -76,15 +76,6 @@ export function registerSettings() {
     requiresReload: true,
   });
 
-  game.settings.register(HEIST.SYSTEM_ID, 'availableCreditsOnPlanningPhase', {
-    name: 'HEIST.Settings.AvailableCreditsOnPlanningPhase.Title',
-    scope: 'world',
-    config: true,
-    default: 10,
-    type: Number,
-    requiresReload: true,
-  });
-
   for (const phase of HEIST.GAME_PHASES) {
     game.settings.register(HEIST.SYSTEM_ID, `phase${phase.number}Duration`, {
       name: `HEIST.Settings.Phase${phase.number}Duration.Title`,

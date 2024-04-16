@@ -62,4 +62,11 @@ export class HeistActor extends BaseActor {
   get agents() {
     return [this.club, this.heart, this.diamond, this.spade].filter(agent => null !== agent);
   }
+
+  /**
+   * @return {Number}
+   */
+  get availableCredits() {
+    return this.system.availableCredits;
+  }
 }

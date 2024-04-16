@@ -11,7 +11,6 @@
   "HEIST.Settings.UseGamePauseForPhaseTimeLeft.Title": "La pause du jeu contrôle le chronomètre de phase",
   "HEIST.Settings.UseGamePauseForPhaseTimeLeft.Hint": "Le chronomètre de phase de jeu ne s’écoule que lorsque le jeu n’est pas en pause.",
   "HEIST.Settings.AllowAgentsToSeeGamePhaseTimer.Title": "Autoriser les agents à afficher la fenêtre de phase de jeu",
-  "HEIST.Settings.AvailableCreditsOnPlanningPhase.Title": "Crédits disponibles pour la phase de Préparation",
   "HEIST.Settings.DisplayGamePhaseWindowOnLogin.Title": "Affiche la fenêtre de phase de jeu à la connexion",
   "HEIST.Settings.SmallGamePhaseWindow.Title": "Version miniature de la fenêtre de phase de jeu",
   "HEIST.Settings.SmallGamePhaseWindow.Hint": "Affiche le nom de la phase en cours et le temps restant pour tous, ainsi que des icônes de contrôle pour les MJs.",
