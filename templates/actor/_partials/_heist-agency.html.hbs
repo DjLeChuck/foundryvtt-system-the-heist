@@ -1,49 +1,49 @@
 <div class="flexcol agent-container{{#if (not isGM)}} no-jack{{/if}}">
-{{#if isGM}}
-  {{#if jack}}
-    {{> (template "actor/_partials/_heist-jack.html.hbs")}}
+  {{#if isGM}}
+    {{#if jack}}
+      {{> (template "actor/_partials/_heist-jack.html.hbs")}}
+    {{/if}}
   {{/if}}
-{{/if}}
-{{#if (not isGM)}}
-  <div class="flexshrink">
-    <button type="button" class="action-btn" data-open-agent-test>
-      <i class="fa-duotone fa-eye"></i>
-      {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
-    </button>
+  {{#if (not isGM)}}
+    <div class="flexshrink">
+      <button type="button" class="action-btn" data-open-agent-test>
+        <i class="fa-duotone fa-eye"></i>
+        {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
+      </button>
+    </div>
+  {{/if}}
+
+  <div class="flexcol{{#if (not isGM)}} no-jack{{/if}}">
+    <div class="agent-row u-mt-small u-gap-small flexshrink">
+      {{#if spade}}
+        {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade type="spade"}}
+      {{/if}}
+      {{#unless spade}}
+        <div class="agent type-spade"></div>
+      {{/unless}}
+
+      {{#if heart}}
+        {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart type="heart"}}
+      {{/if}}
+      {{#unless heart}}
+        <div class="agent type-heart"></div>
+      {{/unless}}
+    </div>
+
+    <div class="agent-row u-mt-small u-gap-small flexshrink">
+      {{#if diamond}}
+        {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond type="diamond"}}
+      {{/if}}
+      {{#unless diamond}}
+        <div class="agent type-diamond"></div>
+      {{/unless}}
+
+      {{#if club}}
+        {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club type="club"}}
+      {{/if}}
+      {{#unless club}}
+        <div class="agent type-club"></div>
+      {{/unless}}
+    </div>
   </div>
-{{/if}}
-
-<div class="flexcol{{#if (not isGM)}} no-jack{{/if}}">
-  <div class="agent-row u-mt-small u-gap-small flexshrink">
-    {{#if spade}}
-      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade type="spade"}}
-    {{/if}}
-    {{#unless spade}}
-      <div class="agent type-spade"></div>
-    {{/unless}}
-
-    {{#if heart}}
-      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart type="heart"}}
-    {{/if}}
-    {{#unless heart}}
-      <div class="agent type-heart"></div>
-    {{/unless}}
-  </div>
-
-  <div class="agent-row u-mt-small u-gap-small flexshrink">
-    {{#if diamond}}
-      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond type="diamond"}}
-    {{/if}}
-    {{#unless diamond}}
-      <div class="agent type-diamond"></div>
-    {{/unless}}
-
-    {{#if club}}
-      {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club type="club"}}
-    {{/if}}
-    {{#unless club}}
-      <div class="agent type-club"></div>
-    {{/unless}}
-  </div>
-</div>
 </div>

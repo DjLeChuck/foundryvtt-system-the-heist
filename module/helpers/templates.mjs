@@ -13,6 +13,7 @@ export const registerTemplates = function () {
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-fetish.html.hbs`,
 
     // The Heist actor
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-jokers.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agency.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agent.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-jack.html.hbs`,

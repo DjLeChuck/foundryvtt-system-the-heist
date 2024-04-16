@@ -1,6 +1,7 @@
 import * as HEIST from '../../const.mjs';
 import { AgentActor, JackActor } from '../documents/_module.mjs';
 import { PlanningItem } from '../../item/documents/_module.mjs';
+import { range, transformAsChoices } from '../../helpers/utils.mjs';
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -86,6 +87,7 @@ export class HeistActorSheet extends ActorSheet {
 
     context.isGM = game.user.isGM;
 
+    await this.#prepareJokersContext(context);
     await this.#prepareReconnaissanceContext(context);
     await this.#preparePlanningContext(context);
 
@@ -416,6 +418,30 @@ export class HeistActorSheet extends ActorSheet {
         gamePhase.activePreparationPhase();
       },
     });
+  }
+
+  async #prepareJokersContext(context) {
+    const nbPiles = range(0, 10);
+    const nbPilesChoices = transformAsChoices(nbPiles);
+
+    const recoJokerNbPiles = range(0, this.actor.system.jokerPhasesConfigurations.reconnaissance.numberOfPile);
+    const recoJokerChoices = transformAsChoices(recoJokerNbPiles);
+
+    const actionJokerNbPiles = range(0, this.actor.system.jokerPhasesConfigurations.action.numberOfPile);
+    const actionJokerChoices = transformAsChoices(actionJokerNbPiles);
+
+    context.jokers = {
+      reconnaissance: {
+        nbPiles: nbPilesChoices,
+        jokersPiles: recoJokerChoices,
+      },
+      action: {
+        nbPiles: nbPilesChoices,
+        jokersPiles: actionJokerChoices,
+      },
+    };
+
+    return context;
   }
 
   async #prepareReconnaissanceContext(context) {
