@@ -1,5 +1,14 @@
 import { BaseActor } from './base-actor.mjs';
 import * as HEIST from '../../const.mjs';
+import { getJokerData } from '../../helpers/cards.mjs';
+
+/**
+ * Joker’s configuration for a phase.
+ * @typedef {Object} JokerPhaseConfiguration
+ * @property {number} numberOfPile
+ * @property {number} firstJokerPile
+ * @property {number} secondJokerPile
+ */
 
 export class HeistActor extends BaseActor {
   constructor(docData, context = {}) {
@@ -212,6 +221,8 @@ export class HeistActor extends BaseActor {
   async #onChangeGamePhase(phase) {
     if ([HEIST.GAME_PHASE_RECONNAISSANCE, HEIST.GAME_PHASE_ACTION].includes(phase.id)) {
       await this.#recallDeck();
+      await this.#removeJokers();
+      await this.#injectJokers(phase);
     }
 
     this.render(false);
@@ -229,5 +240,65 @@ export class HeistActor extends BaseActor {
 
   async #recallDeck() {
     await this.deck?.recall({ chatNotification: false });
+  }
+
+  async #removeJokers() {
+    if (!this.jackDeck) {
+      return;
+    }
+
+    this.jackDeck.cards.forEach((card) => {
+      if ('jokers' === card.suit) {
+        card.delete();
+      }
+    });
+  }
+
+  async #injectJokers(phase) {
+    /** @var JokerPhaseConfiguration|null */
+    const config = this.system.jack.jokerPhasesConfigurations[phase.id] || null;
+    if (null === config || 0 === config.numberOfPile) {
+      return;
+    }
+
+    const positions = this.#calculateJokersPositions(this.jackDeck, config);
+    const jokers = [];
+
+    if (null !== positions.firstJoker) {
+      jokers.push(getJokerData(positions.firstJoker));
+    }
+
+    if (null !== positions.secondJoker) {
+      jokers.push(getJokerData(positions.secondJoker));
+    }
+
+    await this.jackDeck.createEmbeddedDocuments('Card', jokers, { renderSheet: false });
+  }
+
+  /**
+   * @param {Cards} deck
+   * @param {JokerPhaseConfiguration} config
+   * @return {{firstJoker: number|null, secondJoker: number|null}}
+   */
+  #calculateJokersPositions(deck, config) {
+    const availableCards = deck.availableCards.length;
+    const cardsPerPile = availableCards / config.numberOfPile;
+
+    const positions = {
+      firstJoker: null,
+      secondJoker: null,
+    };
+
+    if (0 < config.firstJokerPile) {
+      const offsetFirstJoker = (config.firstJokerPile - 1) * cardsPerPile;
+      positions.firstJoker = Math.floor(offsetFirstJoker + Math.random() * cardsPerPile);
+    }
+
+    if (0 < config.secondJokerPile) {
+      const offsetSecondJoker = (config.secondJokerPile - 1) * cardsPerPile;
+      positions.secondJoker = Math.floor(offsetSecondJoker + Math.random() * cardsPerPile);
+    }
+
+    return positions;
   }
 }

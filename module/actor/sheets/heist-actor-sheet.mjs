@@ -417,10 +417,10 @@ export class HeistActorSheet extends ActorSheet {
     const nbPiles = range(0, 10);
     const nbPilesChoices = transformAsChoices(nbPiles);
 
-    const recoJokerNbPiles = range(0, this.actor.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
+    const recoJokerNbPiles = range(1, this.actor.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
     const recoJokerChoices = transformAsChoices(recoJokerNbPiles);
 
-    const actionJokerNbPiles = range(0, this.actor.system.jack.jokerPhasesConfigurations.action.numberOfPile);
+    const actionJokerNbPiles = range(1, this.actor.system.jack.jokerPhasesConfigurations.action.numberOfPile);
     const actionJokerChoices = transformAsChoices(actionJokerNbPiles);
 
     context.jokers = {

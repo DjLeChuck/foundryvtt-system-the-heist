@@ -73,3 +73,20 @@ export function sortByValue(cards) {
     return getValueForJack(a) - getValueForJack(b);
   });
 }
+
+export function getJokerData(position) {
+  return {
+    name: 'Joker',
+    faces: [
+      {
+        name: 'Joker',
+        img: 'cards/dark-gold/joker.webp',
+      },
+    ],
+    type: 'base',
+    value: 0,
+    face: 0,
+    suit: 'jokers',
+    sort: position - 2, // -> index 0 and card already same position
+  };
+}
