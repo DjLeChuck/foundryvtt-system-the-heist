@@ -9,7 +9,7 @@ _(English version below)_
 ---
 
 Ce système est une implémentation non-officielle du jeu de rôle The Heist, conçu par Théo Rivière et Gabriel Durnerin et
-édité par [Antre Monde](https://antre-monde.com/).
+édité par [Antre Monde Éditions](https://antre-monde.com/).
 
 L’implémentation a été réalisée avec leur aimable autorisation.
 
@@ -34,7 +34,7 @@ Vous pouvez aussi proposer un fix via une pull request : https://github.com/DjLe
 _(English version)_
 
 This system is an unofficial implementation of the role-playing game The Heist, designed by Théo Rivière and Gabriel
-Durnerin and published by [Antre Monde](https://antre-monde.com/).
+Durnerin and published by [Antre Monde Éditions](https://antre-monde.com/).
 
 The implementation was made with their kind permission.
 
@@ -53,3 +53,8 @@ Alternatively, you can add it using its manifest link:
 Please open a ticket: https://github.com/DjLeChuck/foundryvtt-system-the-heist/issues
 
 You can also propose a fix via a pull request: https://github.com/DjLeChuck/foundryvtt-system-the-heist/pulls
+
+---
+
+Système créé avec l’aimable autorisation d’Antre Monde Édition. L’ensemble des contenus (illustrations, textes, etc.)
+sont la propriété exclusive d’Antre Monde Édition qui me permettent de les utiliser sans aucune limititation.
