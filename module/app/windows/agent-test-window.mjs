@@ -175,24 +175,46 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     const cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 3);
 
-    // Sort them by value and clone them
-    const jackCards = CARDS.simpleClone(CARDS.sortByValue(cards));
+    // Clone cards
+    const copyCards = CARDS.simpleClone(CARDS.sortByValue(cards));
+    const hasJoker = -1 !== copyCards.findIndex((card) => 'jokers' === card.suit);
+    const jackCards = [];
 
     switch (difficulty) {
       case 'easy':
-        // Hide "easy" card
-        jackCards[0].visible = false;
+        if (hasJoker) {
+          copyCards[1].visible = false;
 
-        // Exclude the last card
-        jackCards[2].excluded = true;
+          jackCards.push(copyCards[1]);
+          jackCards.push(copyCards[0]);
+        } else {
+          copyCards[0].visible = false;
+
+          jackCards.push(copyCards[0]);
+          jackCards.push(copyCards[1]);
+        }
+
+        copyCards[2].excluded = true;
+
+        jackCards.push(copyCards[2]);
 
         break;
       case 'difficult':
-        // Hide "difficult" card
-        jackCards[0].excluded = true;
+        copyCards[2].visible = false;
 
-        // Exclude the first card
-        jackCards[2].visible = false;
+        if (hasJoker) {
+          copyCards[1].excluded = true;
+
+          jackCards.push(copyCards[0]);
+          jackCards.push(copyCards[2]);
+          jackCards.push(copyCards[1]);
+        } else {
+          copyCards[0].excluded = true;
+
+          jackCards.push(copyCards[1]);
+          jackCards.push(copyCards[2]);
+          jackCards.push(copyCards[0]);
+        }
 
         break;
       default:

@@ -10,6 +10,7 @@ export const BLACKJACK_SCORE = 21;
  * @property {string} front
  * @property {boolean} visible
  * @property {boolean} excluded
+ * @property {string} suit
  */
 
 /**
@@ -25,6 +26,7 @@ export function simpleClone(cards) {
     back: card.back.img,
     visible: null !== card.face,
     excluded: false,
+    suit: card.suit,
   }));
 }
 
