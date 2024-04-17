@@ -105,7 +105,7 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   get #isBlackjack() {
-    return CARDS.BLACKJACK_SCORE === CARDS.scoreForAgent(this.#agentCards);
+    return CARDS.BLACKJACK_SCORE === CARDS.scoreForAgent(this.#agentCards, true);
   }
 
   getData() {
@@ -135,14 +135,14 @@ export class AgentTestWindow extends WithSettingsWindow {
       jack: {
         name: 'Jack',
         cards: jackCards,
-        score: !this.#isRevealed && CARDS.includesJoker(jackCards) ? '?' : CARDS.scoreForAgent(jackCards),
+        score: !this.#isRevealed && CARDS.includesJoker(jackCards) ? '?' : CARDS.scoreForAgent(jackCards, false),
         totalScore: CARDS.scoreForJack(jackCards),
       },
       agent: {
         name: agent.name,
         isOwner: agent.isOwner,
         cards: agentCards,
-        score: CARDS.scoreForAgent(agentCards),
+        score: CARDS.scoreForAgent(agentCards, true),
         canDraw: agent.canDraw,
         canUseFetish: agent.canUseFetish,
       },

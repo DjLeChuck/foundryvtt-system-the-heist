@@ -32,12 +32,28 @@ export function simpleClone(cards) {
 
 /**
  * @param {SimpleCard[]} cards
+ * @param {boolean} testAceAsOne
  * @returns number
  */
-export function scoreForAgent(cards) {
+export function scoreForAgent(cards, testAceAsOne) {
   const score = cards.reduce((acc, card) => {
-    return acc + _getValueForAgent(card);
+    return acc + _getValueForAgent(card, false);
   }, 0);
+
+  if (testAceAsOne) {
+    // Already a blackjack
+    if (21 === score) {
+      return score;
+    }
+
+    const scoreAcesAsOne = cards.reduce((acc, card) => {
+      return acc + _getValueForAgent(card, true);
+    }, 0);
+
+    if (21 === scoreAcesAsOne) {
+      return scoreAcesAsOne;
+    }
+  }
 
   return includesJoker(cards) ? score * 2 : score;
 }
@@ -99,8 +115,19 @@ function _getValueForJack(card) {
 
 /**
  * @param {SimpleCard} card
+ * @param {boolean} aceAsOne
  * @return number
  */
-function _getValueForAgent(card) {
-  return !card.excluded && card.visible ? card.value : 0;
+function _getValueForAgent(card, aceAsOne) {
+  // Excluded or not visible -> 0
+  if (card.excluded || !card.visible) {
+    return 0;
+  }
+
+  // 11, but count as 1 -> 1
+  if (aceAsOne && 11 === card.value) {
+    return 1;
+  }
+
+  return card.value;
 }
