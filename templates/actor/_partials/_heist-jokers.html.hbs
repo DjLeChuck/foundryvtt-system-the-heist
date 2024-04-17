@@ -17,9 +17,9 @@
 
     <p class="flexrow">
       <label for="reconnaissance-piles-{{actor.id}}">{{localize "HEIST.HeistSheet.Jokers.NumberOfPiles"}}</label>
-      <select name="system.jokerPhasesConfigurations.reconnaissance.numberOfPile"
+      <select name="system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile"
               id="reconnaissance-piles-{{actor.id}}">
-        {{selectOptions jokers.reconnaissance.nbPiles selected=actor.system.jokerPhasesConfigurations.reconnaissance.numberOfPile }}
+        {{selectOptions jokers.reconnaissance.nbPiles selected=actor.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile }}
       </select>
     </p>
 
@@ -27,9 +27,9 @@
       <label for="reconnaissance-first-joker-{{actor.id}}">
         {{localize "HEIST.HeistSheet.Jokers.FirstJokerPosition"}}
       </label>
-      <select name="system.jokerPhasesConfigurations.reconnaissance.firstJokerPile"
+      <select name="system.jack.jokerPhasesConfigurations.reconnaissance.firstJokerPile"
               id="reconnaissance-first-joker-{{actor.id}}">
-        {{selectOptions jokers.reconnaissance.jokersPiles selected=actor.system.jokerPhasesConfigurations.reconnaissance.firstJokerPile }}
+        {{selectOptions jokers.reconnaissance.jokersPiles selected=actor.system.jack.jokerPhasesConfigurations.reconnaissance.firstJokerPile }}
       </select>
     </p>
 
@@ -37,9 +37,9 @@
       <label for="reconnaissance-second-joker-{{actor.id}}">
         {{localize "HEIST.HeistSheet.Jokers.SecondJokerPosition"}}
       </label>
-      <select name="system.jokerPhasesConfigurations.reconnaissance.secondJokerPile"
+      <select name="system.jack.jokerPhasesConfigurations.reconnaissance.secondJokerPile"
               id="reconnaissance-second-joker-{{actor.id}}">
-        {{selectOptions jokers.reconnaissance.jokersPiles selected=actor.system.jokerPhasesConfigurations.reconnaissance.secondJokerPile }}
+        {{selectOptions jokers.reconnaissance.jokersPiles selected=actor.system.jack.jokerPhasesConfigurations.reconnaissance.secondJokerPile }}
       </select>
     </p>
   </div>
@@ -49,22 +49,22 @@
 
     <p class="flexrow">
       <label for="action-piles-{{actor.id}}">{{localize "HEIST.HeistSheet.Jokers.NumberOfPiles"}}</label>
-      <select name="system.jokerPhasesConfigurations.action.numberOfPile" id="action-piles-{{actor.id}}">
-        {{selectOptions jokers.action.nbPiles selected=actor.system.jokerPhasesConfigurations.action.numberOfPile}}
+      <select name="system.jack.jokerPhasesConfigurations.action.numberOfPile" id="action-piles-{{actor.id}}">
+        {{selectOptions jokers.action.nbPiles selected=actor.system.jack.jokerPhasesConfigurations.action.numberOfPile}}
       </select>
     </p>
 
     <p class="flexrow">
       <label for="action-first-joker-{{actor.id}}">{{localize "HEIST.HeistSheet.Jokers.FirstJokerPosition"}}</label>
-      <select name="system.jokerPhasesConfigurations.action.firstJokerPile" id="action-first-joker-{{actor.id}}">
-        {{selectOptions jokers.action.jokersPiles selected=actor.system.jokerPhasesConfigurations.action.firstJokerPile }}
+      <select name="system.jack.jokerPhasesConfigurations.action.firstJokerPile" id="action-first-joker-{{actor.id}}">
+        {{selectOptions jokers.action.jokersPiles selected=actor.system.jack.jokerPhasesConfigurations.action.firstJokerPile }}
       </select>
     </p>
 
     <p class="flexrow">
       <label for="action-second-joker-{{actor.id}}">{{localize "HEIST.HeistSheet.Jokers.SecondJokerPosition"}}</label>
-      <select name="system.jokerPhasesConfigurations.action.secondJokerPile" id="action-second-joker-{{actor.id}}">
-        {{selectOptions jokers.action.jokersPiles selected=actor.system.jokerPhasesConfigurations.action.secondJokerPile }}
+      <select name="system.jack.jokerPhasesConfigurations.action.secondJokerPile" id="action-second-joker-{{actor.id}}">
+        {{selectOptions jokers.action.jokersPiles selected=actor.system.jack.jokerPhasesConfigurations.action.secondJokerPile }}
       </select>
     </p>
   </div>

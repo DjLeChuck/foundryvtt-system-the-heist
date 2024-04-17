@@ -1,5 +1,5 @@
 import * as HEIST from '../../const.mjs';
-import { AgentActor, JackActor } from '../documents/_module.mjs';
+import { AgentActor } from '../documents/_module.mjs';
 import { PlanningItem } from '../../item/documents/_module.mjs';
 import { range, transformAsChoices } from '../../helpers/utils.mjs';
 
@@ -12,9 +12,9 @@ export class HeistActorSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
       width: 830,
       height: 935,
-      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
       tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
     });
   }
@@ -79,7 +79,7 @@ export class HeistActorSheet extends ActorSheet {
   /** @override */
   async getData() {
     const context = super.getData();
-    context.jack = this.actor.jack;
+    context.jackAvailableCards = this.actor.jackDeck?.availableCards.length;
     context.diamond = this.actor.diamond;
     context.heart = this.actor.heart;
     context.spade = this.actor.spade;
@@ -105,28 +105,22 @@ export class HeistActorSheet extends ActorSheet {
       return false;
     }
 
-    if (actor instanceof AgentActor) {
-      const agentType = actor.agentType;
-      if (null === agentType || !agentType.system?.type) {
-        return false;
-      }
-
-      if (null !== actor.agency) {
-        ui.notifications.error('Cet agent appartient déjà à une agence !');
-
-        return false;
-      }
-
-      await this.actor.update({ [`system.${agentType.system.type}`]: actor.id });
-    } else if (actor instanceof JackActor) {
-      if (null !== actor.agency) {
-        ui.notifications.error('Jack appartient déjà à une agence !');
-
-        return false;
-      }
-
-      await this.actor.update({ 'system.jack': actor.id });
+    if (!(actor instanceof AgentActor)) {
+      return false;
     }
+
+    const agentType = actor.agentType;
+    if (null === agentType || !agentType.system?.type) {
+      return false;
+    }
+
+    if (null !== actor.agency) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.AgentAlreadyInAgency'));
+
+      return false;
+    }
+
+    await this.actor.update({ [`system.${agentType.system.type}`]: actor.id });
 
     await actor.update({ 'system.agency': this.actor.id });
   }
@@ -210,7 +204,7 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
-    await game[HEIST.SYSTEM_ID].agentTestWindow.doAgentTest(dataset.difficulty, this.actor.jack.id, dataset.agentId);
+    await game[HEIST.SYSTEM_ID].agentTestWindow.doAgentTest(dataset.difficulty, this.actor.id, dataset.agentId);
 
     const actor = game.actors.get(dataset.agentId);
     if (actor) {
@@ -339,7 +333,7 @@ export class HeistActorSheet extends ActorSheet {
   async #onEditItem(e) {
     e.preventDefault();
 
-    const { id: itemId, type } = e.currentTarget.dataset;
+    const { id: itemId } = e.currentTarget.dataset;
     if (!itemId) {
       return;
     }
@@ -356,7 +350,7 @@ export class HeistActorSheet extends ActorSheet {
   async #onRemoveItem(e) {
     e.preventDefault();
 
-    const { id: itemId, type } = e.currentTarget.dataset;
+    const { id: itemId } = e.currentTarget.dataset;
     if (!itemId) {
       return;
     }
@@ -376,10 +370,9 @@ export class HeistActorSheet extends ActorSheet {
   async #onDrawReconnaissanceCards(e) {
     e.preventDefault();
 
-    const jack = this.actor.jack;
     let numberCardsOptions = '';
 
-    for (let i = 0; i <= Math.min(5, jack.deck.availableCards.length); i++) {
+    for (let i = 0; i <= Math.min(5, this.actor.jackDeck.availableCards.length); i++) {
       numberCardsOptions += `<option value="${i}">${i}</option>`;
     }
 
@@ -395,7 +388,7 @@ export class HeistActorSheet extends ActorSheet {
           return;
         }
 
-        await jack.drawCards(jack.reconnaissanceHand, nbCards);
+        await this.actor.jackDrawCards(this.actor.jackReconnaissanceHand, nbCards);
 
         await ChatMessage.create({
           content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
@@ -424,10 +417,10 @@ export class HeistActorSheet extends ActorSheet {
     const nbPiles = range(0, 10);
     const nbPilesChoices = transformAsChoices(nbPiles);
 
-    const recoJokerNbPiles = range(0, this.actor.system.jokerPhasesConfigurations.reconnaissance.numberOfPile);
+    const recoJokerNbPiles = range(0, this.actor.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
     const recoJokerChoices = transformAsChoices(recoJokerNbPiles);
 
-    const actionJokerNbPiles = range(0, this.actor.system.jokerPhasesConfigurations.action.numberOfPile);
+    const actionJokerNbPiles = range(0, this.actor.system.jack.jokerPhasesConfigurations.action.numberOfPile);
     const actionJokerChoices = transformAsChoices(actionJokerNbPiles);
 
     context.jokers = {
@@ -446,8 +439,8 @@ export class HeistActorSheet extends ActorSheet {
 
   async #prepareReconnaissanceContext(context) {
     context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
-      && this.actor.jack?.canDraw;
-    context.reconnaissanceHand = this.actor.jack?.reconnaissanceHand;
+      && this.actor.jackCanDraw;
+    context.reconnaissanceHand = this.actor.jackReconnaissanceHand;
     context.agentsCompromised = false;
 
     context.colors = {

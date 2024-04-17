@@ -1,14 +1,14 @@
-import { BaseActorSheet } from './base-actor-sheet.mjs';
 import * as HEIST from '../../const.mjs';
 import { AgentTypeItem } from '../../item/documents/_module.mjs';
 
-export class AgentActorSheet extends BaseActorSheet {
+export class AgentActorSheet extends ActorSheet {
   isLocked = true;
 
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'agent-sheet'],
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-agent-sheet.html.hbs`,
       width: 600,
       height: 935,
     });

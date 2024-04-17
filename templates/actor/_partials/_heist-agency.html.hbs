@@ -1,8 +1,6 @@
 <div class="flexcol agent-container{{#if (not isGM)}} no-jack{{/if}}">
   {{#if isGM}}
-    {{#if jack}}
-      {{> (template "actor/_partials/_heist-jack.html.hbs")}}
-    {{/if}}
+    {{> (template "actor/_partials/_heist-jack.html.hbs")}}
   {{/if}}
   {{#if (not isGM)}}
     <div class="flexshrink">

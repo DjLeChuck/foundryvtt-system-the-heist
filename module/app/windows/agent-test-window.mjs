@@ -22,20 +22,20 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   /**
-   * @returns {JackActor|null}
+   * @returns {HeistActor|null}
    */
-  get jack() {
-    const jackId = this._getSetting('jack');
-    if (!jackId) {
+  get agency() {
+    const agencyId = this._getSetting('agency');
+    if (!agencyId) {
       return null;
     }
 
-    const jack = game.actors.get(jackId);
-    if (!jack) {
+    const agency = game.actors.get(agencyId);
+    if (!agency) {
       return null;
     }
 
-    return jack;
+    return agency;
   }
 
   /**
@@ -59,7 +59,7 @@ export class AgentTestWindow extends WithSettingsWindow {
    * @returns {boolean}
    */
   get canAskTest() {
-    return game.user.isGM && !this.isRunning && (!this.jack || this.jack.canAskTest);
+    return game.user.isGM && !this.isRunning && (!this.agency || this.agency.jackCanAskTest);
   }
 
   /**
@@ -109,10 +109,10 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   getData() {
-    const jack = this.jack;
+    const agency = this.agency;
     const agent = this.agent;
 
-    if (null === jack || null === agent) {
+    if (null === agency || null === agent) {
       return {
         test: {
           isRunning: false,
@@ -133,7 +133,7 @@ export class AgentTestWindow extends WithSettingsWindow {
         isBlackjack: this.#isBlackjack,
       },
       jack: {
-        name: jack.name,
+        name: 'Jack',
         cards: jackCards,
         score: CARDS.scoreForAgent(jackCards),
         totalScore: CARDS.scoreForJack(jackCards),
@@ -167,13 +167,13 @@ export class AgentTestWindow extends WithSettingsWindow {
 
   /**
    * @param {String} difficulty
-   * @param {String} jackId
+   * @param {String} agencyId
    * @param {String} agentId
    */
-  async doAgentTest(difficulty, jackId, agentId) {
-    await this.#prepareTest(jackId, agentId);
+  async doAgentTest(difficulty, agencyId, agentId) {
+    await this.#prepareTest(agencyId, agentId);
 
-    const cards = await this.jack.drawCards(this.jack.testHand, 3);
+    const cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 3);
 
     // Sort them by value and clone them
     const jackCards = CARDS.simpleClone(CARDS.sortByValue(cards));
@@ -228,9 +228,9 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this.#finishTest(true, this.#testSuccessFetish);
   }
 
-  async #prepareTest(jack, agent) {
+  async #prepareTest(agency, agent) {
     await this._setSettings({
-      jack,
+      agency,
       agent,
       isRunning: true,
       isRevealed: false,
@@ -305,9 +305,9 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   async #clearHands() {
-    await this.jack?.throwTestHand();
+    await this.agency?.jackThrowTestHand();
 
-    for (const agent of this.jack.agency?.agents) {
+    for (const agent of this.agency?.agents) {
       await agent.throwHand();
     }
   }
@@ -367,10 +367,10 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
       request: HEIST.SOCKET_REQUESTS.REFRESH_AGENCY_SHEET,
-      agencyId: this.jack.agency.id,
+      agencyId: this.agency.id,
     });
 
-    this.jack.agency.render();
+    this.agency.render();
     this.render();
   }
 
@@ -382,7 +382,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     const testedAgent = this.agent;
     const recalls = [];
 
-    for (const agent of this.jack.agency?.agents) {
+    for (const agent of this.agency?.agents) {
       if (agent === testedAgent) {
         const number = await agent.recallHand();
 
@@ -410,26 +410,22 @@ export class AgentTestWindow extends WithSettingsWindow {
       }),
     });
 
-    this.#refreshJackAndAgentsSheet();
+    this.#refreshLinkedSheets();
   }
 
   #refreshViews() {
     this.render(true);
 
-    this.#refreshJackAndAgentsSheet();
+    this.#refreshLinkedSheets();
 
     game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.REFRESH_AGENT_TEST_WINDOW });
   }
 
-  #refreshJackAndAgentsSheet() {
-    if (this.jack?.sheet.rendered) {
-      this.jack?.sheet?.render(false, { focus: false });
-    }
-
-    for (const agent of this.jack.agency?.agents) {
+  #refreshLinkedSheets() {
+    for (const agent of this.agency?.agents) {
       agent?.sheet?.render(false, { focus: false });
     }
 
-    this.jack.agency?.sheet?.render(false, { focus: false });
+    this.agency?.sheet?.render(false, { focus: false });
   }
 }

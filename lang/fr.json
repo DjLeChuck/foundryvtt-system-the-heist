@@ -131,6 +131,7 @@
   "HEIST.Errors.NoFetishObject": "Vous ne disposez pas d’un objet fétiche !",
   "HEIST.Errors.TestAlreadyRunning": "Un test est déjà en cours !",
   "HEIST.Errors.ItemNotFound": "Objet introuvable.",
+  "HEIST.Errors.AgentAlreadyInAgency": "Cet agent appartient déjà à une agence !",
   "HEIST.ChatMessage.EasyTestAsked": "Un test facile a été demandé à {name} !",
   "HEIST.ChatMessage.DifficultTestAsked": "Un test difficile a été demandé à {name} !",
   "HEIST.ChatMessage.TestSuccessful": "{name} a réussi son test !",

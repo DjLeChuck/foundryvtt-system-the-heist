@@ -1,4 +1,4 @@
-import { AgentDataModel, JackDataModel } from './_module.mjs';
+import { AgentDataModel } from './_module.mjs';
 
 export class HeistDataModel extends foundry.abstract.DataModel {
   static defineSchema() {
@@ -22,7 +22,24 @@ export class HeistDataModel extends foundry.abstract.DataModel {
     });
 
     return {
-      jack: new fields.ForeignDocumentField(JackDataModel, { idOnly: true }),
+      jack: new fields.SchemaField({
+        deck: new fields.DocumentIdField({
+          required: false,
+        }),
+        pile: new fields.DocumentIdField({
+          required: false,
+        }),
+        testHand: new fields.DocumentIdField({
+          required: false,
+        }),
+        reconnaissanceHand: new fields.DocumentIdField({
+          required: false,
+        }),
+        jokerPhasesConfigurations: new fields.SchemaField({
+          reconnaissance: jokerPhaseConfiguration(),
+          action: jokerPhaseConfiguration(5, 2, 4),
+        }),
+      }),
       diamond: new fields.ForeignDocumentField(AgentDataModel, { idOnly: true }),
       heart: new fields.ForeignDocumentField(AgentDataModel, { idOnly: true }),
       spade: new fields.ForeignDocumentField(AgentDataModel, { idOnly: true }),
@@ -34,10 +51,6 @@ export class HeistDataModel extends foundry.abstract.DataModel {
         step: 1,
         integer: true,
         positive: true,
-      }),
-      jokerPhasesConfigurations: new fields.SchemaField({
-        reconnaissance: jokerPhaseConfiguration(),
-        action: jokerPhaseConfiguration(5, 2, 4),
       }),
     };
   }

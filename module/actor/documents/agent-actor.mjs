@@ -5,8 +5,41 @@ export class AgentActor extends BasePlayerActor {
   /**
    * @returns {Cards|null}
    */
+  get deck() {
+    if (!this.system.deck) {
+      return null;
+    }
+
+    return game.cards.get(this.system.deck);
+  }
+
+  /**
+   * @returns {Cards|null}
+   */
+  get pile() {
+    if (!this.system.pile) {
+      return null;
+    }
+
+    return game.cards.get(this.system.pile);
+  }
+
+  /**
+   * @returns {Cards|null}
+   */
   get hand() {
     return game.cards.get(this.system.hand);
+  }
+
+  /**
+   * @returns {HeistActor|null}
+   */
+  get agency() {
+    if (!this.system.agency) {
+      return null;
+    }
+
+    return game.actors.get(this.system.agency);
   }
 
   /**
@@ -100,8 +133,8 @@ export class AgentActor extends BasePlayerActor {
   }
 
   async setDecks() {
-    await this._deleteDecks();
-    await this._createDecks();
+    await this.#deleteDecks();
+    await this.#createDecks();
   }
 
   async recallHand() {
@@ -157,19 +190,15 @@ export class AgentActor extends BasePlayerActor {
     await this.#recallCards(this.deck, this.pile, this.deck.availableCards.length);
   }
 
-  _baseDeckId() {
-    if (null === this.agentType || !this.agentType.system?.deckId) {
-      ui.notifications.error(game.i18n.format('HEIST.Errors.DeckIdNotSet'));
+  async _onDelete(options, userId) {
+    await this.#deleteDecks();
 
-      return null;
-    }
-
-    return this.agentType.system.deckId;
+    super._onDelete(options, userId);
   }
 
-  async _createDecks() {
-    const deck = await this._createDeck();
-    const pile = await this._createPile();
+  async #createDecks() {
+    const deck = await this.#createDeck();
+    const pile = await this.#createPile();
     const hand = await Cards.create({
       name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
       type: 'hand',
@@ -181,21 +210,64 @@ export class AgentActor extends BasePlayerActor {
     });
 
     // Shuffle the cloned deck
-    await this._shuffleDeck(deck);
+    await this.#shuffleDeck(deck);
 
-    this._saveCreatedDecks({ deck: deck.id, hand: hand.id, pile: pile.id });
+    await this.#saveCreatedDecks({ deck: deck.id, hand: hand.id, pile: pile.id });
   }
 
-  async _saveCreatedDecks(decks) {
+  async #saveCreatedDecks(decks) {
     await this.update({
       system: { ...decks },
     });
   }
 
-  async _deleteDecks() {
-    await super._deleteDecks();
-
+  async #deleteDecks() {
+    await this.deck?.delete();
+    await this.pile?.delete();
     await this.hand?.delete();
+  }
+
+  #baseDeckId() {
+    if (null === this.agentType || !this.agentType.system?.deckId) {
+      ui.notifications.error(game.i18n.format('HEIST.Errors.DeckIdNotSet'));
+
+      return null;
+    }
+
+    return this.agentType.system.deckId;
+  }
+
+  #baseDeck() {
+    return game.packs.get(HEIST.COMPENDIUM_DECK_ID).getDocument(this.#baseDeckId());
+  }
+
+  async #createDeck() {
+    const baseDeck = await this.#baseDeck();
+
+    return await Cards.create(foundry.utils.mergeObject(baseDeck.toObject(false), {
+      name: game.i18n.format('HEIST.Cards.DeckName', { name: this.name }),
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
+      },
+    }));
+  }
+
+  async #createPile() {
+    return await Cards.create({
+      name: game.i18n.format('HEIST.Cards.PileName', { name: this.name }),
+      type: 'pile',
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
+      },
+    });
+  }
+
+  async #shuffleDeck(deck) {
+    await deck.shuffle({ chatNotification: false });
   }
 
   async #recallCards(from, to, number) {
@@ -204,6 +276,6 @@ export class AgentActor extends BasePlayerActor {
       chatNotification: false,
     });
 
-    await this._shuffleDeck(to);
+    await this.#shuffleDeck(to);
   }
 }

@@ -131,6 +131,7 @@
   "HEIST.ChatMessage.TestSuccessful": "{name} has passed the test!",
   "HEIST.ChatMessage.TestFailed": "Unfortunately, {name} did not pass the test.",
   "HEIST.ChatMessage.AgentUsedFetish": "He has used his fetish object.",
+  "HEIST.Errors.AgentAlreadyInAgency": "This agent already belongs to an agency!",
   "HEIST.ChatMessage.ScoreToBeat": "Score to beat:",
   "HEIST.ChatMessage.AgentScore": "Agent score:",
   "HEIST.ChatMessage.AgentHarmed": "Agent {name} has been harmed! He discards half his deck of cards ({count}).",

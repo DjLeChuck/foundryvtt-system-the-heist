@@ -12,7 +12,7 @@ export class CurrentTestDataModel extends foundry.abstract.DataModel {
     });
 
     return {
-      jack: new fields.DocumentIdField({
+      agency: new fields.DocumentIdField({
         readonly: false,
       }),
       jackCards: new fields.ArrayField(cardsSchema),

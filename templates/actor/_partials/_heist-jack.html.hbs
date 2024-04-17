@@ -1,13 +1,7 @@
 <div class="jack flexcol">
   <div class="flexrow">
     <div>
-      <h2 class="jack-name">{{jack.name}}</h2>
-    </div>
-    <div class="delete-btn">
-      <button type="button" class="action-btn" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
-              data-type="jack" data-id="{{jack.id}}">
-        <i class="fa fa-trash"></i>
-      </button>
+      <h2 class="jack-name">Jack</h2>
     </div>
   </div>
 
@@ -28,7 +22,7 @@
   <div class="align-center">
     <p>
       <u>{{localize "HEIST.Cards.Remaining"}}</u>
-      <strong>{{length jack.deck.availableCards}}</strong>
+      <strong>{{jackAvailableCards}}</strong>
     </p>
   </div>
 </div>
