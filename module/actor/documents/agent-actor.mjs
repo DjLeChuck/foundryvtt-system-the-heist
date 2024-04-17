@@ -1,7 +1,7 @@
-import { BasePlayerActor } from './base-player-actor.mjs';
+import { BaseActor } from './base-actor.mjs';
 import * as HEIST from '../../const.mjs';
 
-export class AgentActor extends BasePlayerActor {
+export class AgentActor extends BaseActor {
   /**
    * @returns {Cards|null}
    */

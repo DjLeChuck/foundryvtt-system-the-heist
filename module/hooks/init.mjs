@@ -15,7 +15,6 @@ export const Init = {
       game.system[HEIST.SYSTEM_ID] = {
         actorClasses: {
           agent: actor.documents.AgentActor,
-          jack: actor.documents.JackActor,
           heist: actor.documents.HeistActor,
         },
         itemClasses: {

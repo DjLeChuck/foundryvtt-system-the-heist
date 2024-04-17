@@ -1,6 +1,5 @@
 {
   "TYPES.Actor.agent": "Agent",
-  "TYPES.Actor.jack": "Jack",
   "TYPES.Actor.heist": "The Heist",
   "TYPES.Item.agentType": "Type d’agent",
   "TYPES.Item.fetish": "Objet fétiche",

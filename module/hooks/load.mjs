@@ -11,7 +11,6 @@ export const Load = {
 
     // Register custom Data Model
     CONFIG.Actor.dataModels.agent = actor.models.AgentDataModel;
-    CONFIG.Actor.dataModels.jack = actor.models.JackDataModel;
     CONFIG.Actor.dataModels.heist = actor.models.HeistDataModel;
     CONFIG.Item.dataModels.agentType = item.models.AgentTypeDataModel;
     CONFIG.Item.dataModels.fetish = item.models.FetishDataModel;
