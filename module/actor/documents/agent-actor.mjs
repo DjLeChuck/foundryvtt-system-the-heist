@@ -146,7 +146,7 @@ export class AgentActor extends BaseActor {
 
     await this.hand.pass(this.deck, ids, { chatNotification: false });
 
-    await this._shuffleDeck(this.deck);
+    await this.#shuffleDeck(this.deck);
 
     return ids.length;
   }

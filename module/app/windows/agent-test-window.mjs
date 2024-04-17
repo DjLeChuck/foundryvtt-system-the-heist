@@ -235,8 +235,8 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this._setSettings({ isSuccessful: true });
 
     await this.#revealTest();
-    await this.#finishTest(true, this.#testSuccessBlackjack);
     await this.#processBlackjack();
+    await this.#finishTest(true, this.#testSuccessBlackjack);
   }
 
   async handleAgentFetish() {
