@@ -31,29 +31,15 @@ export function simpleClone(cards) {
 }
 
 /**
- * @param {SimpleCard} card
- * @return number
- */
-export function getValueForJack(card) {
-  return !card.excluded ? card.value : 0;
-}
-
-/**
- * @param {SimpleCard} card
- * @return number
- */
-export function getValueForAgent(card) {
-  return !card.excluded && card.visible ? card.value : 0;
-}
-
-/**
  * @param {SimpleCard[]} cards
  * @returns number
  */
 export function scoreForAgent(cards) {
-  return cards.reduce((acc, card) => {
-    return acc + getValueForAgent(card);
+  const score = cards.reduce((acc, card) => {
+    return acc + _getValueForAgent(card);
   }, 0);
+
+  return includesJoker(cards) ? score * 2 : score;
 }
 
 /**
@@ -61,9 +47,11 @@ export function scoreForAgent(cards) {
  * @returns number
  */
 export function scoreForJack(cards) {
-  return cards.reduce((acc, card) => {
-    return acc + getValueForJack(card);
+  const score = cards.reduce((acc, card) => {
+    return acc + _getValueForJack(card);
   }, 0);
+
+  return includesJoker(cards) ? score * 2 : score;
 }
 
 /**
@@ -72,8 +60,16 @@ export function scoreForJack(cards) {
  */
 export function sortByValue(cards) {
   return cards.sort((a, b) => {
-    return getValueForJack(a) - getValueForJack(b);
+    return _getValueForJack(a) - _getValueForJack(b);
   });
+}
+
+/**
+ * @param {SimpleCard[]} cards
+ * @return {boolean}
+ */
+export function includesJoker(cards) {
+  return -1 !== cards.findIndex((card) => 'jokers' === card.suit);
 }
 
 export function getJokerData(position) {
@@ -91,4 +87,20 @@ export function getJokerData(position) {
     suit: 'jokers',
     sort: position - 2, // -> index 0 and card already same position
   };
+}
+
+/**
+ * @param {SimpleCard} card
+ * @return number
+ */
+function _getValueForJack(card) {
+  return !card.excluded ? card.value : 0;
+}
+
+/**
+ * @param {SimpleCard} card
+ * @return number
+ */
+function _getValueForAgent(card) {
+  return !card.excluded && card.visible ? card.value : 0;
 }

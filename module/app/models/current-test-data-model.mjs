@@ -9,6 +9,7 @@ export class CurrentTestDataModel extends foundry.abstract.DataModel {
       back: new fields.StringField({ required: true }),
       visible: new fields.BooleanField({ required: true }),
       excluded: new fields.BooleanField({ required: true }),
+      suit: new fields.StringField({ required: true }),
     });
 
     return {

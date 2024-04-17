@@ -135,7 +135,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       jack: {
         name: 'Jack',
         cards: jackCards,
-        score: CARDS.scoreForAgent(jackCards),
+        score: !this.#isRevealed && CARDS.includesJoker(jackCards) ? '?' : CARDS.scoreForAgent(jackCards),
         totalScore: CARDS.scoreForJack(jackCards),
       },
       agent: {
@@ -177,7 +177,7 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     // Clone cards
     const copyCards = CARDS.simpleClone(CARDS.sortByValue(cards));
-    const hasJoker = -1 !== copyCards.findIndex((card) => 'jokers' === card.suit);
+    const hasJoker = CARDS.includesJoker(copyCards);
     const jackCards = [];
 
     switch (difficulty) {
