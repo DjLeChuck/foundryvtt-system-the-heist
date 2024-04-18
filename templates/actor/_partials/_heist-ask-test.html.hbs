@@ -20,4 +20,28 @@
       </p>
     </div>
   </div>
+  {{#if hasFirstJoker}}
+    <div class="u-mb-small">
+      <fieldset>
+        <legend>{{localize "HEIST.AgentTestWindow.UseJoker"}}</legend>
+        <div class="flexrow">
+          <p>
+            <input type="radio" name="joker" id="joker-none" value="0" checked="checked" data-joker />
+            <label for="joker-none">{{localize "HEIST.AgentTestWindow.DontUseJoker"}}</label>
+          </p>
+          <p>
+            <input type="radio" name="joker" id="joker-one" value="1" data-joker />
+            <label for="joker-one">{{localize "HEIST.AgentTestWindow.TriggerJoker" number=1}}</label>
+          </p>
+          {{#if hasSecondJoker}}
+            <p>
+              <input type="radio" name="joker" id="joker-second" value="2" data-joker />
+              <label for="joker-second">{{localize "HEIST.AgentTestWindow.TriggerJoker" number=2}}</label>
+            </p>
+          {{/if}}
+        </div>
+      </fieldset>
+      <p></p>
+    </div>
+  {{/if}}
 </div>

@@ -169,11 +169,35 @@ export class AgentTestWindow extends WithSettingsWindow {
    * @param {String} difficulty
    * @param {String} agencyId
    * @param {String} agentId
+   * @param {number} jokerToUse
    */
-  async doAgentTest(difficulty, agencyId, agentId) {
+  async doAgentTest(difficulty, agencyId, agentId, jokerToUse) {
     await this.#prepareTest(agencyId, agentId);
 
-    const cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 3);
+    let cards;
+
+    if (0 !== jokerToUse) {
+      cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 2);
+
+      // The drawn cards already contains a Joker
+      if (CARDS.includesJoker(cards)) {
+        cards.push(...await this.agency.jackDrawCards(this.agency.jackTestHand, 1));
+      } else {
+        // -1 -> index 0
+        const joker = await this.agency.jackDrawJoker(this.agency.jackTestHand, jokerToUse - 1);
+
+        if (null === joker) {
+          // Error, no joker, add a new card
+          ui.notifications.error('No joker available!');
+
+          cards.push(...await this.agency.jackDrawCards(this.agency.jackTestHand, 1));
+        } else {
+          cards.push(joker);
+        }
+      }
+    } else {
+      cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 3);
+    }
 
     // Clone cards
     const copyCards = CARDS.simpleClone(CARDS.sortByValue(cards));

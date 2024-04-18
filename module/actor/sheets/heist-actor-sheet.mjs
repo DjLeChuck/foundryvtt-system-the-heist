@@ -80,6 +80,7 @@ export class HeistActorSheet extends ActorSheet {
   async getData() {
     const context = super.getData();
     context.jackAvailableCards = this.actor.jackDeck?.availableCards.length;
+    context.testRunning = game[HEIST.SYSTEM_ID].agentTestWindow.isRunning;
     context.diamond = this.actor.diamond;
     context.heart = this.actor.heart;
     context.spade = this.actor.spade;
@@ -183,17 +184,21 @@ export class HeistActorSheet extends ActorSheet {
     }
 
     const agents = this.actor.agents.filter((agent) => !agent.isDead);
+    const jackJokers = this.actor.jackJokers;
 
     const dataset = await Dialog.prompt({
       title: game.i18n.localize('HEIST.HeistSheet.AskTest'),
       content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-ask-test.html.hbs`, {
         agents,
+        hasFirstJoker: 0 < jackJokers.length,
+        hasSecondJoker: 2 === jackJokers.length,
       }),
       label: game.i18n.localize('HEIST.Global.Validate'),
       callback: async (html) => {
         return {
           agentId: html[0].querySelector('[data-agent]').value,
           difficulty: html[0].querySelector('[data-difficulty]:checked').value,
+          joker: parseInt((html[0].querySelector('[data-joker]:checked')?.value || '0'), 10),
         };
       },
     });
@@ -204,7 +209,12 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
-    await game[HEIST.SYSTEM_ID].agentTestWindow.doAgentTest(dataset.difficulty, this.actor.id, dataset.agentId);
+    await game[HEIST.SYSTEM_ID].agentTestWindow.doAgentTest(
+      dataset.difficulty,
+      this.actor.id,
+      dataset.agentId,
+      dataset.joker,
+    );
 
     const actor = game.actors.get(dataset.agentId);
     if (actor) {

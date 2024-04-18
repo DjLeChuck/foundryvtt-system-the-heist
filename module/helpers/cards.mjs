@@ -81,7 +81,7 @@ export function sortByValue(cards) {
 }
 
 /**
- * @param {SimpleCard[]} cards
+ * @param {Cards[]|SimpleCard[]} cards
  * @return {boolean}
  */
 export function includesJoker(cards) {

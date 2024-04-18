@@ -107,10 +107,17 @@ export class HeistActor extends BaseActor {
   }
 
   /**
-   * @return {Number}
+   * @return {number}
    */
   get availableCredits() {
     return this.system.availableCredits;
+  }
+
+  /**
+   * @return {Card[]}
+   */
+  get jackJokers() {
+    return this.jackDeck.availableCards.filter((card) => 'jokers' === card.suit);
   }
 
   /**
@@ -124,6 +131,24 @@ export class HeistActor extends BaseActor {
     this.render(false);
 
     return cards;
+  }
+
+  /**
+   * @param {Cards} hand
+   * @param {number} jokerNumber
+   * @returns {Promise<Card|null>}
+   */
+  async jackDrawJoker(hand, jokerNumber) {
+    const jokers = this.jackJokers;
+    if (!jokers[jokerNumber]) {
+      return null;
+    }
+
+    const card = await this.jackDeck.pass(hand, [jokers[jokerNumber].id], { chatNotification: false });
+
+    this.render(false);
+
+    return card[0];
   }
 
   async jackThrowTestHand() {
