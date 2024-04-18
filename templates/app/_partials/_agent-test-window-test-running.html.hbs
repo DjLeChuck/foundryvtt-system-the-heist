@@ -15,7 +15,7 @@
 <div class="flexrow align-center cards-container">
   {{#each jack.cards}}
     {{#if (or ../isAdmin (not this.excluded))}}
-      <div>
+      <div class="card-container{{#if this.excluded}} excluded{{/if}}">
         <img src="{{ifThen this.visible this.front this.back}}" alt="{{this.name}}"
              class="card{{#if this.excluded}} excluded{{/if}}"
           {{#if this.excluded}} data-tooltip="{{localize "HEIST.Cards.Excluded"}}"{{/if}} />

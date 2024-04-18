@@ -16,7 +16,7 @@
 
 @mixin black-card-style {
   border: 1px solid var(--c-manhattan);
-  border-radius: 8px;
+  border-radius: var(--small-gap);
   display: flex;
   flex: 0 0 100%;
   height: 100%;

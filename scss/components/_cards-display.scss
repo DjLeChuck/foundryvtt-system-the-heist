@@ -1,6 +1,16 @@
 .cards-container {
   min-height: 220px;
 
+  .card-container {
+    padding: var(--small-gap) 0;
+
+    &.excluded {
+      border-radius: var(--small-gap);
+
+      @include dark-transparency-bg;
+    }
+  }
+
   .card {
     height: 220px;
 
