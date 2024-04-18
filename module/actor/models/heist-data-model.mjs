@@ -52,6 +52,18 @@ export class HeistDataModel extends foundry.abstract.DataModel {
         integer: true,
         positive: true,
       }),
+      progression: new fields.SchemaField({
+        firstAgentTraining: new fields.BooleanField(),
+        secondAgentTraining: new fields.BooleanField(),
+        thirdAgentTraining: new fields.BooleanField(),
+        budgetAugmentation: new fields.NumberField({
+          max: 10,
+          step: 2,
+        }),
+        improvisation: new fields.BooleanField(),
+        network: new fields.BooleanField(),
+        rescue: new fields.BooleanField(),
+      }),
     };
   }
 }

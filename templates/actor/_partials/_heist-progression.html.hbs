@@ -1,0 +1,103 @@
+<div class="progression flexcol">
+  <div class="blue-box">
+    <h2>{{localize "HEIST.Global.Explanations"}}</h2>
+
+    <p>
+      À la fin de chaque scénario (quelle qu’en soit l’issue), les joueurs peuvent faire évoluer leur personnage ou
+      l’agence {{actor.name}}, afin de gagner en efficacité lors de leurs prochaines missions.
+    </p>
+    <p>
+      Pour cela, ils doivent choisir à l’unanimité une option parmi les suivantes.
+    </p>
+  </div>
+
+  <div class="white-box u-mt-small">
+    <h2>Entraînement des agents</h2>
+
+    <p>
+      Chaque joueur choisit une <strong>Compétence</strong> supplémentaire pour son agent qu’il ajoute à sa feuille de
+      personnage.
+    </p>
+
+    <div class="flexrow flex-group-center">
+      <p>
+        <input type="checkbox" id="training-1-{{actor.id}}" {{checked actor.system.progression.firstAgentTraining}}
+               name="system.progression.firstAgentTraining" />
+        <label for="training-1-{{actor.id}}">Entraînement #1</label>
+      </p>
+      <p>
+        <input type="checkbox" id="training-2-{{actor.id}}" {{checked actor.system.progression.secondAgentTraining}}
+               name="system.progression.secondAgentTraining" />
+        <label for="training-2-{{actor.id}}">Entraînement #2</label>
+      </p>
+      <p>
+        <input type="checkbox" id="training-3-{{actor.id}}" {{checked actor.system.progression.thirdAgentTraining}}
+               name="system.progression.thirdAgentTraining" />
+        <label for="training-3-{{actor.id}}">Entraînement #3</label>
+      </p>
+    </div>
+  </div>
+
+  <div class="flexrow u-gap-small">
+    <div class="white-box u-mt-small">
+      <h2>Augmentation de budget</h2>
+
+      <p>
+        Le nombre de <strong>Crédits</strong> disponibles pour toutes les prochaines missions augmente de
+        <select name="system.progression.budgetAugmentation">
+          {{selectOptions progression.creditsChoices selected=actor.system.progression.budgetAugmentation}}
+        </select> .
+      </p>
+    </div>
+    <div class="white-box u-mt-small">
+      <h2>Improvisation</h2>
+
+      <p>Les agents ont un second <strong>Joker</strong> à leur disposition pour toutes leurs futures missions.</p>
+      <p>
+        <input type="checkbox" id="improvisation-{{actor.id}}" {{checked actor.system.progression.improvisation}}
+               name="system.progression.improvisation" />
+        <label for="improvisation-{{actor.id}}">Acquérir</label>
+      </p>
+    </div>
+  </div>
+  <div class="flexrow u-gap-small">
+    <div class="white-box u-mt-small">
+      <h2>Réseau d’indics</h2>
+
+      <p>
+        Au début de chaque scénario, à la fin de la phase de <strong>Briefing</strong>, Jack donne aux agents une série
+        d’informations découvertes par les indics de l’agence.
+      </p>
+      <p>
+        <input type="checkbox" id="network-{{actor.id}}" {{checked actor.system.progression.network}}
+               name="system.progression.network" />
+        <label for="network-{{actor.id}}">Acquérir</label>
+      </p>
+    </div>
+
+    <div class="white-box u-mt-small">
+      <h2>Sauvetage</h2>
+
+      <p>
+        Si un <strong>Agent</strong> a été emprisonné, tué ou porté disparu, il est sauvé par l’agence {{actor.name}}
+        et peut revenir en jeu pour les prochaines missions.
+      </p>
+
+      <div class="flexrow">
+        <p>
+          <input type="checkbox" id="rescue-{{actor.id}}" {{checked actor.system.progression.rescue}}
+                 name="system.progression.rescue" />
+          <label for="rescue-{{actor.id}}">Acquérir</label>
+        </p>
+        {{#if actor.system.progression.rescue}}
+          <p>
+            <button type="button" class="action-btn">
+              <i class="fa-duotone fa-check"></i>
+              Utiliser
+            </button>
+          </p>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</div>

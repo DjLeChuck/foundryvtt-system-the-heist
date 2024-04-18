@@ -91,6 +91,7 @@ export class HeistActorSheet extends ActorSheet {
     await this.#prepareJokersContext(context);
     await this.#prepareReconnaissanceContext(context);
     await this.#preparePlanningContext(context);
+    await this.#prepareProgressionContext(context);
 
     return context;
   }
@@ -512,5 +513,13 @@ export class HeistActorSheet extends ActorSheet {
         remaining: available - used,
       },
     };
+  }
+
+  #prepareProgressionContext(context) {
+    context.progression = {
+      creditsChoices: transformAsChoices(range(0, 10, 2)),
+    };
+
+    return context;
   }
 }

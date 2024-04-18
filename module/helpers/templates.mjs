@@ -19,6 +19,7 @@ export const registerTemplates = function () {
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-jack.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-reconnaissance.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-planning.html.hbs`,
+    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-progression.html.hbs`,
 
     // Agent Test Window
     `systems/${HEIST.SYSTEM_ID}/templates/app/_partials/_agent-test-window-test-running.html.hbs`,

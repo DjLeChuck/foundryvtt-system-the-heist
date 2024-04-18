@@ -30,25 +30,7 @@
   .jokers {
     gap: var(--small-gap);
 
-    .explications {
-      padding: var(--small-gap);
-
-      @include blue-box;
-
-      h2 {
-        color: var(--c-white);
-        font-family: var(--f-masqualero-groove);
-        font-weight: normal;
-        margin: auto;
-        border: none;
-      }
-    }
-
     .configurations {
-      padding: var(--small-gap);
-
-      @include light-transparency-bg;
-
       select {
         height: 26px;
       }
@@ -109,9 +91,7 @@
   }
 
   .jack {
-    padding: var(--small-gap);
     padding-top: 0;
-    border: 2px solid var(--c-black);
     position: relative;
 
     .jack-name {
@@ -142,10 +122,6 @@
         min-height: 250px;
 
         position: relative;
-        padding: var(--small-gap);
-        border: 2px solid var(--c-black);
-
-        @include light-transparency-bg;
 
         &.type-spade {
           background: url("../images/ui/spade.webp") no-repeat center center;
@@ -211,10 +187,6 @@
     }
 
     .credits-usage {
-      border: 1px solid var(--c-gable-green);
-
-      @include light-transparency-bg;
-
       .credit-value {
         font-size: 2rem;
       }
@@ -233,6 +205,12 @@
 
         @include light-transparency-bg;
       }
+    }
+  }
+
+  .progression {
+    select {
+      height: 26px;
     }
   }
 }

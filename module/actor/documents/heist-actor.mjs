@@ -273,7 +273,7 @@ export class HeistActor extends BaseActor {
   }
 
   async #recallDeck() {
-    await this.deck?.recall({ chatNotification: false });
+    await this.jackDeck?.recall({ chatNotification: false });
   }
 
   async #removeJokers() {
