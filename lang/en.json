@@ -65,6 +65,7 @@
   "HEIST.AgentTestWindow.Draw": "Draw",
   "HEIST.AgentTestWindow.Finish": "Finish",
   "HEIST.AgentTestWindow.UseJoker": "Using a Joker",
+  "HEIST.AgentTestWindow.NextDrawHasJoker": "The next draw will already contain a Joker!",
   "HEIST.AgentTestWindow.DontUseJoker": "None",
   "HEIST.AgentTestWindow.TriggerJoker": "Joker #{number}",
   "HEIST.AgentTestWindow.UseFetish": "Use fetish object",

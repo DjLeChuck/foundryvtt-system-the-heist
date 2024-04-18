@@ -1,5 +1,6 @@
 import { BaseActor } from './base-actor.mjs';
 import * as HEIST from '../../const.mjs';
+import * as CARDS from '../../helpers/cards.mjs';
 import { getJokerData } from '../../helpers/cards.mjs';
 
 /**
@@ -153,6 +154,14 @@ export class HeistActor extends BaseActor {
 
   async jackThrowTestHand() {
     await this.#throwHand(this.jackTestHand);
+  }
+
+  async jackNextDrawHasJoker() {
+    const cards = this.jackDeck.cards.contents.sort(this.jackDeck.sortShuffled)
+      .filter((card) => !card.drawn)
+      .splice(0, 3);
+
+    return CARDS.includesJoker(cards);
   }
 
   /** @override */

@@ -65,6 +65,7 @@
   "HEIST.AgentTestWindow.Draw": "Piocher",
   "HEIST.AgentTestWindow.Finish": "Terminer",
   "HEIST.AgentTestWindow.UseJoker": "Utiliser un Joker",
+  "HEIST.AgentTestWindow.NextDrawHasJoker": "Le prochain tirage contiendra déjà un Joker !",
   "HEIST.AgentTestWindow.DontUseJoker": "Aucun",
   "HEIST.AgentTestWindow.TriggerJoker": "Joker #{number}",
   "HEIST.AgentTestWindow.UseFetish": "Utiliser l’objet fétiche",

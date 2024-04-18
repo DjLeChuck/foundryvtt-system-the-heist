@@ -190,6 +190,7 @@ export class HeistActorSheet extends ActorSheet {
       title: game.i18n.localize('HEIST.HeistSheet.AskTest'),
       content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-ask-test.html.hbs`, {
         agents,
+        nextDrawHasJoker: this.actor.jackNextDrawHasJoker(),
         hasFirstJoker: 0 < jackJokers.length,
         hasSecondJoker: 2 === jackJokers.length,
       }),
