@@ -62,8 +62,8 @@
 
 {{#if (and agent.isOwner (not test.isFinished))}}
   <div class="actions-buttons">
-    <button type="button" class="action-btn" data-draw{{#unless agent.canDraw}} disabled
-            title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}>
+    <button type="button" class="action-btn" data-draw
+      {{#unless agent.canDraw}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}>
       <i class="fa-duotone fa-cards"></i>
       {{localize "HEIST.AgentTestWindow.Draw"}}
     </button>

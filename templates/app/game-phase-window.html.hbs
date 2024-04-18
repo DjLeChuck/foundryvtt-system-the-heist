@@ -35,7 +35,7 @@
       {{/if}}
       {{#if canPause}}
         <div>
-          <button type="button" class="action-btn" data-pause{{#unless active}} disabled{{/unless}}>
+          <button type="button" class="action-btn" data-pause {{disabled (not active)}}>
             {{#if paused}}
               <i class="fa fa-play"></i>
               {{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}

@@ -30,8 +30,7 @@
         <i class="fa-duotone fa-cards"></i>
         {{localize "HEIST.Global.DrawCards"}}
       </button>
-      <button type="button" class="action-btn u-mt-small"{{#if (not agentsCompromised)}} disabled{{/if}}
-              data-next-phase>
+      <button type="button" class="action-btn u-mt-small" {{disabled (not agentsCompromised)}} data-next-phase>
         <i class="fa-duotone fa-forward"></i>
         {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
       </button>
