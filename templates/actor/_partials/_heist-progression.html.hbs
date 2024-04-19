@@ -2,98 +2,85 @@
   <div class="blue-box">
     <h2>{{localize "HEIST.Global.Explanations"}}</h2>
 
-    <p>
-      À la fin de chaque scénario (quelle qu’en soit l’issue), les joueurs peuvent faire évoluer leur personnage ou
-      l’agence {{actor.name}}, afin de gagner en efficacité lors de leurs prochaines missions.
-    </p>
-    <p>
-      Pour cela, ils doivent choisir à l’unanimité une option parmi les suivantes.
-    </p>
+    <p>{{localize "HEIST.HeistSheet.Progression.HowTo" name=actor.name}}</p>
+    <p>{{localize "HEIST.HeistSheet.Progression.ChooseOne"}}</p>
   </div>
 
   <div class="white-box u-mt-small">
-    <h2>Entraînement des agents</h2>
+    <h2>{{localize "HEIST.HeistSheet.Progression.Training.Title"}}</h2>
 
-    <p>
-      Chaque joueur choisit une <strong>Compétence</strong> supplémentaire pour son agent qu’il ajoute à sa feuille de
-      personnage.
-    </p>
+    <p>{{{localize "HEIST.HeistSheet.Progression.Training.Description"}}}</p>
 
     <div class="flexrow flex-group-center">
-      <p>
+      <p class="flex flex-group-center">
         <input type="checkbox" id="training-1-{{actor.id}}" {{checked actor.system.progression.firstAgentTraining}}
                name="system.progression.firstAgentTraining" />
-        <label for="training-1-{{actor.id}}">Entraînement #1</label>
+        <label for="training-1-{{actor.id}}">
+          {{localize "HEIST.HeistSheet.Progression.Training.TrainingNumber" number=1}}
+        </label>
       </p>
-      <p>
+      <p class="flex flex-group-center">
         <input type="checkbox" id="training-2-{{actor.id}}" {{checked actor.system.progression.secondAgentTraining}}
                name="system.progression.secondAgentTraining" />
-        <label for="training-2-{{actor.id}}">Entraînement #2</label>
+        <label for="training-2-{{actor.id}}">
+          {{localize "HEIST.HeistSheet.Progression.Training.TrainingNumber" number=2}}
+        </label>
       </p>
-      <p>
+      <p class="flex flex-group-center">
         <input type="checkbox" id="training-3-{{actor.id}}" {{checked actor.system.progression.thirdAgentTraining}}
                name="system.progression.thirdAgentTraining" />
-        <label for="training-3-{{actor.id}}">Entraînement #3</label>
+        <label for="training-3-{{actor.id}}">
+          {{localize "HEIST.HeistSheet.Progression.Training.TrainingNumber" number=3}}
+        </label>
       </p>
     </div>
   </div>
 
   <div class="flexrow u-gap-small">
     <div class="white-box u-mt-small">
-      <h2>Augmentation de budget</h2>
+      <h2>{{localize "HEIST.HeistSheet.Progression.Budget.Title"}}</h2>
 
-      <p>
-        Le nombre de <strong>Crédits</strong> disponibles pour toutes les prochaines missions augmente de
-        <select name="system.progression.budgetAugmentation">
-          {{selectOptions progression.creditsChoices selected=actor.system.progression.budgetAugmentation}}
-        </select> .
-      </p>
+      <p>{{{localize "HEIST.HeistSheet.Progression.Budget.Description" number=progression.budgetAugmentations}}}</p>
     </div>
     <div class="white-box u-mt-small">
-      <h2>Improvisation</h2>
+      <h2>{{localize "HEIST.HeistSheet.Progression.Improvisation.Title"}}</h2>
 
-      <p>Les agents ont un second <strong>Joker</strong> à leur disposition pour toutes leurs futures missions.</p>
-      <p>
+      <p>{{{localize "HEIST.HeistSheet.Progression.Improvisation.Description"}}}</p>
+      <p class="flex flex-group-center">
         <input type="checkbox" id="improvisation-{{actor.id}}" {{checked actor.system.progression.improvisation}}
                name="system.progression.improvisation" />
-        <label for="improvisation-{{actor.id}}">Acquérir</label>
+        <label for="improvisation-{{actor.id}}">{{localize "HEIST.Global.Acquire"}}</label>
       </p>
     </div>
   </div>
   <div class="flexrow u-gap-small">
     <div class="white-box u-mt-small">
-      <h2>Réseau d’indics</h2>
+      <h2>{{localize "HEIST.HeistSheet.Progression.Network.Title"}}</h2>
 
-      <p>
-        Au début de chaque scénario, à la fin de la phase de <strong>Briefing</strong>, Jack donne aux agents une série
-        d’informations découvertes par les indics de l’agence.
-      </p>
-      <p>
+      <p>{{{localize "HEIST.HeistSheet.Progression.Network.Description"}}}</p>
+      <p class="flex flex-group-center">
         <input type="checkbox" id="network-{{actor.id}}" {{checked actor.system.progression.network}}
                name="system.progression.network" />
-        <label for="network-{{actor.id}}">Acquérir</label>
+        <label for="network-{{actor.id}}">{{localize "HEIST.Global.Acquire"}}</label>
       </p>
     </div>
 
     <div class="white-box u-mt-small">
-      <h2>Sauvetage</h2>
+      <h2>{{localize "HEIST.HeistSheet.Progression.Rescue.Title"}}</h2>
 
-      <p>
-        Si un <strong>Agent</strong> a été emprisonné, tué ou porté disparu, il est sauvé par l’agence {{actor.name}}
-        et peut revenir en jeu pour les prochaines missions.
-      </p>
+      <p>{{{localize "HEIST.HeistSheet.Progression.Rescue.Description" name=actor.name}}}</p>
 
       <div class="flexrow">
-        <p>
+        <p class="flex flex-group-center">
           <input type="checkbox" id="rescue-{{actor.id}}" {{checked actor.system.progression.rescue}}
                  name="system.progression.rescue" />
-          <label for="rescue-{{actor.id}}">Acquérir</label>
+          <label for="rescue-{{actor.id}}">{{localize "HEIST.Global.Acquire"}}</label>
         </p>
         {{#if actor.system.progression.rescue}}
-          <p>
+          <p class="flex flex-group-center">
             <button type="button" class="action-btn">
-              <i class="fa-duotone fa-check"></i>
-              Utiliser
+              <i class="fa fa-check"></i>
+              {{localize "HEIST.Global.Use"}}
             </button>
           </p>
         {{/if}}

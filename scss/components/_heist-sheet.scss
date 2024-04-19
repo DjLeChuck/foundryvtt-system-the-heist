@@ -17,6 +17,10 @@
       margin-right: 0;
       object-fit: contain;
     }
+
+    input {
+      @include light-transparency-bg;
+    }
   }
 
   .sheet-body {

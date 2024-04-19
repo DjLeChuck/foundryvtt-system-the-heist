@@ -1,8 +1,7 @@
 <div class="flexcol agent-container{{#if (not isGM)}} no-jack{{/if}}">
   {{#if isGM}}
     {{> (template "actor/_partials/_heist-jack.html.hbs")}}
-  {{/if}}
-  {{#if (not isGM)}}
+  {{else}}
     <div class="flexshrink">
       <button type="button" class="action-btn" data-open-agent-test>
         <i class="fa-duotone fa-eye"></i>
@@ -15,33 +14,29 @@
     <div class="agent-row u-mt-small u-gap-small flexshrink">
       {{#if spade}}
         {{> (template "actor/_partials/_heist-agent.html.hbs") agent=spade type="spade"}}
-      {{/if}}
-      {{#unless spade}}
+      {{else}}
         <div class="agent type-spade"></div>
-      {{/unless}}
+      {{/if}}
 
       {{#if heart}}
         {{> (template "actor/_partials/_heist-agent.html.hbs") agent=heart type="heart"}}
-      {{/if}}
-      {{#unless heart}}
+      {{else}}
         <div class="agent type-heart"></div>
-      {{/unless}}
+      {{/if}}
     </div>
 
     <div class="agent-row u-mt-small u-gap-small flexshrink">
       {{#if diamond}}
         {{> (template "actor/_partials/_heist-agent.html.hbs") agent=diamond type="diamond"}}
-      {{/if}}
-      {{#unless diamond}}
+      {{else}}
         <div class="agent type-diamond"></div>
-      {{/unless}}
+      {{/if}}
 
       {{#if club}}
         {{> (template "actor/_partials/_heist-agent.html.hbs") agent=club type="club"}}
-      {{/if}}
-      {{#unless club}}
+      {{else}}
         <div class="agent type-club"></div>
-      {{/unless}}
+      {{/if}}
     </div>
   </div>
 </div>

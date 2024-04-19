@@ -51,16 +51,22 @@
         <div class="agent-skills">
           <p><strong>{{localize "HEIST.Agent.Skills"}}</strong></p>
 
-          {{#if isLocked}}{{> (template "actor/_partials/_agent-skills.html.hbs")}}{{/if}}
-          {{#if (not isLocked)}}{{> (template "actor/_partials/_agent-editable-skills.html.hbs")}}{{/if}}
+          {{#if isLocked}}
+            {{> (template "actor/_partials/_agent-skills.html.hbs")}}
+          {{else}}
+            {{> (template "actor/_partials/_agent-editable-skills.html.hbs")}}
+          {{/if}}
         </div>
         <div class="agent-fetish">
           <p><strong>{{localize "HEIST.Agent.FetishObject"}}</strong></p>
 
           {{#if fetish}}
             <p class="fetish-container align-center">
-              {{#if isLocked}}{{> (template "actor/_partials/_agent-fetish.html.hbs")}}{{/if}}
-              {{#if (not isLocked)}}{{> (template "actor/_partials/_agent-editable-fetish.html.hbs")}}{{/if}}
+              {{#if isLocked}}
+                {{> (template "actor/_partials/_agent-fetish.html.hbs")}}
+              {{else}}
+                {{> (template "actor/_partials/_agent-editable-fetish.html.hbs")}}
+              {{/if}}
             </p>
           {{/if}}
         </div>

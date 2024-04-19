@@ -12,8 +12,11 @@
       <img src="{{ui "magpie.webp"}}" alt="" />
     </div>
 
-    {{#if isLocked}}{{> (template "item/_partials/_planning-locked-infos.html.hbs")}}{{/if}}
-    {{#if (not isLocked)}}{{> (template "item/_partials/_planning-editable-infos.html.hbs")}}{{/if}}
+    {{#if isLocked}}
+      {{> (template "item/_partials/_planning-locked-infos.html.hbs")}}
+    {{else}}
+      {{> (template "item/_partials/_planning-editable-infos.html.hbs")}}
+    {{/if}}
 
     <div class="magpie reverse">
       <img src="{{ui "magpie.webp"}}" alt="" />

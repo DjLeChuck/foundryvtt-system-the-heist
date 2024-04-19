@@ -516,8 +516,17 @@ export class HeistActorSheet extends ActorSheet {
   }
 
   #prepareProgressionContext(context) {
+    const budgetOptions = HandlebarsHelpers.selectOptions(
+      transformAsChoices(range(0, 10, 2)),
+      {
+        hash: {
+          selected: context.actor.system.progression.budgetAugmentation,
+        },
+      },
+    );
+
     context.progression = {
-      creditsChoices: transformAsChoices(range(0, 10, 2)),
+      budgetAugmentations: `<select name="system.progression.budgetAugmentation">${budgetOptions}</select>`,
     };
 
     return context;

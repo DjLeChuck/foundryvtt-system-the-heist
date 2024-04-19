@@ -1,6 +1,6 @@
 <p>
   {{#each skills}}
     <span>{{this.name}}</span>
-    {{#unless @last}}|{{/unless}}
+    {{#if (not @last)}}|{{/if}}
   {{/each}}
 </p>

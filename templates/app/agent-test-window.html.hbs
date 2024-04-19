@@ -1,8 +1,7 @@
 <div>
   {{#if test.isRunning}}
     {{> (template "app/_partials/_agent-test-window-test-running.html.hbs")}}
-  {{/if}}
-  {{#unless test.isRunning}}
+  {{else}}
     {{> (template "app/_partials/_agent-test-window-no-test.html.hbs")}}
-  {{/unless}}
+  {{/if}}
 </div>

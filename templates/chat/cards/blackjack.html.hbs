@@ -6,10 +6,9 @@
       <li>
         {{#if this.tested}}
           {{localize "HEIST.Cards.RecallHand" name=this.agent}}
-        {{/if}}
-        {{#unless this.tested}}
+        {{else}}
           {{localize "HEIST.Cards.RecallFromPile" name=this.agent number=this.number}}
-        {{/unless}}
+        {{/if}}
       </li>
     {{/if}}
   {{/each}}

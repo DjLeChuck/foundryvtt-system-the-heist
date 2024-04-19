@@ -1,12 +1,11 @@
 {{#if test.isFinished}}
-  {{#if (not test.isSuccessful)}}
-    <h1 class="align-center">{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h1>
-  {{/if}}
   {{#if test.isSuccessful}}
     <h1 class="align-center">{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h1>
     {{#if test.isBlackjack}}
       <h2>{{localize "HEIST.Blackjack.ItsABlackjack"}}</h2>
     {{/if}}
+  {{else}}
+    <h1 class="align-center">{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h1>
   {{/if}}
 {{/if}}
 
@@ -63,7 +62,7 @@
 {{#if (and agent.isOwner (not test.isFinished))}}
   <div class="actions-buttons">
     <button type="button" class="action-btn" data-draw
-      {{#unless agent.canDraw}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/unless}}>
+      {{#if (not agent.canDraw)}} disabled title="{{localize "HEIST.AgentTestWindow.NoCardLeft"}}"{{/if}}>
       <i class="fa-duotone fa-cards"></i>
       {{localize "HEIST.AgentTestWindow.Draw"}}
     </button>

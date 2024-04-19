@@ -4,8 +4,7 @@
   <div class="flex flex-group-center">
     {{#if active}}
       <p class="timer">{{formattedTimeLeft timeLeft}}</p>
-    {{/if}}
-    {{#if (not active)}}
+    {{else}}
       <h1 class="timer finished">{{localize "HEIST.GamePhaseWindow.NoTimeLeft"}}</h1>
     {{/if}}
   </div>
@@ -23,8 +22,7 @@
         <div>
           <button type="button" class="action-btn" data-pause {{disabled (not active)}} class="flexshrink"
                   data-tooltip="{{ifThen paused (localize "HEIST.GamePhaseWindow.Buttons.Launch") (localize "HEIST.GamePhaseWindow.Buttons.Pause")}}">
-            {{#if paused}}<i class="fa fa-play"></i>{{/if}}
-            {{#unless paused}}<i class="fa fa-pause"></i>{{/unless}}
+            {{#if paused}}<i class="fa fa-play"></i>{{else}}<i class="fa fa-pause"></i>{{/if}}
           </button>
         </div>
       {{/if}}

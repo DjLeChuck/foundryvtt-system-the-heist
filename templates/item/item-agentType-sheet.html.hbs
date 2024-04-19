@@ -5,13 +5,12 @@
     {{#if editable}}
       <input class="agent-type-name" name="name" type="text" value="{{item.name}}"
              placeholder="{{localize "HEIST.Global.Name"}}" />
-    {{/if}}
-    {{#if (not editable)}}
+    {{else}}
       <p class="agent-type-name">{{item.name}}</p>
     {{/if}}
   </header>
 
-  <section class="sheet-body">
+  <section class="blue-box sheet-body">
     {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
   </section>
 </form>
