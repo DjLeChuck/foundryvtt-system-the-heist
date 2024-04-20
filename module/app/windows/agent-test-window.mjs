@@ -259,8 +259,8 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this._setSettings({ isSuccessful: true });
 
     await this.#revealTest();
-    await this.#processBlackjack();
     await this.#finishTest(true, this.#testSuccessBlackjack);
+    await this.#processBlackjack();
   }
 
   async handleAgentFetish() {
@@ -377,8 +377,6 @@ export class AgentTestWindow extends WithSettingsWindow {
       isRevealed: true,
       isRunning: false,
     });
-
-    await this.#clearHands();
 
     const messagePayload = Object.assign({}, payload, {
       agent: this.agent,

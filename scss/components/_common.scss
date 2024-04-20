@@ -1,4 +1,6 @@
 & {
+  @include hn-styles;
+
   font-size: 1rem;
 
   .u-mt-small {
@@ -15,36 +17,6 @@
 
   .u-strike {
     text-decoration: line-through;
-  }
-
-  h1 {
-    font-family: var(--f-bodega-sans);
-    letter-spacing: 1px;
-    color: var(--c-brown-rust);
-    border-bottom: none;
-    text-transform: uppercase;
-    font-weight: bold;
-
-    .main {
-      font-family: var(--f-masqualero-groove);
-      border-bottom: none;
-      @include goldy-gradient-text;
-    }
-  }
-
-  h2, h3 {
-    font-family: var(--f-bodega-sans);
-    letter-spacing: 1px;
-    color: var(--c-astronaut);
-    border: none;
-    width: fit-content;
-  }
-
-  h2 {
-    text-transform: uppercase;
-    font-weight: bold;
-    border-top: 1px solid var(--c-astronaut);
-    border-bottom: 1px solid var(--c-astronaut);
   }
 
   .action-btn {

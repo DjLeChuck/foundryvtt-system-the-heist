@@ -3,3 +3,14 @@
     object-fit: contain;
   }
 }
+
+.chat-message {
+  border: 2px solid var(--c-tan);
+
+  @include hn-styles;
+  @include light-transparency-bg;
+}
+
+.journal-sheet {
+  @include hn-styles;
+}

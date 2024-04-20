@@ -221,9 +221,9 @@ export class HeistActorSheet extends ActorSheet {
     const actor = game.actors.get(dataset.agentId);
     if (actor) {
       await ChatMessage.create({
-        content: `<p>${game.i18n.format(`HEIST.ChatMessage.${dataset.difficulty.titleCase()}TestAsked`, {
+        content: `<h3>${game.i18n.format(`HEIST.ChatMessage.${dataset.difficulty.titleCase()}TestAsked`, {
           name: actor.name,
-        })}</p>`,
+        })}</h3>`,
       });
     }
   }
@@ -251,10 +251,10 @@ export class HeistActorSheet extends ActorSheet {
         }
 
         await ChatMessage.create({
-          content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
+          content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
             count,
             name: agent.name,
-          })}</p>`,
+          })}</h3>`,
         });
       },
     });
@@ -280,9 +280,9 @@ export class HeistActorSheet extends ActorSheet {
         await agent.rescue();
 
         await ChatMessage.create({
-          content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentRescued', {
+          content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentRescued', {
             name: agent.name,
-          })}</p>`,
+          })}</h3>`,
         });
       },
     });
@@ -308,9 +308,9 @@ export class HeistActorSheet extends ActorSheet {
         await agent.kill();
 
         await ChatMessage.create({
-          content: `<p>${game.i18n.format('HEIST.ChatMessage.AgentKilled', {
+          content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentKilled', {
             name: agent.name,
-          })}</p>`,
+          })}</h3>`,
         });
       },
     });
