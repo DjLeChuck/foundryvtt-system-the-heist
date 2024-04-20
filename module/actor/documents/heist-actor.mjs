@@ -111,7 +111,25 @@ export class HeistActor extends BaseActor {
    * @return {number}
    */
   get availableCredits() {
-    return this.system.availableCredits;
+    return this.system.availableCredits + this.system.progression.budgetAugmentation;
+  }
+
+  get agentExtraSkills() {
+    let extraSkills = 0;
+
+    if (this.system.progression.firstAgentTraining) {
+      extraSkills += 2;
+    }
+
+    if (this.system.progression.secondJoker) {
+      extraSkills += 2;
+    }
+
+    if (this.system.progression.thirdAgentTraining) {
+      extraSkills += 2;
+    }
+
+    return extraSkills;
   }
 
   /**

@@ -202,13 +202,6 @@
 
     .planning-items {
       row-gap: var(--small-gap);
-
-      .planning-item {
-        border: 1px solid var(--c-gable-green);
-        padding: var(--small-gap);
-
-        @include light-transparency-bg;
-      }
     }
   }
 

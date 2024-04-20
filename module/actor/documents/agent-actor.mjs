@@ -72,8 +72,7 @@ export class AgentActor extends BaseActor {
   }
 
   get canLearnSkill() {
-    // @todo Gérer la progression « Entraînement des agents »
-    return 2 > this.skills.length;
+    return this.#maxSkills > this.skills.length;
   }
 
   get canDraw() {
@@ -92,6 +91,10 @@ export class AgentActor extends BaseActor {
    */
   get canBeTested() {
     return !this.isDead && this.canDraw;
+  }
+
+  get #maxSkills() {
+    return 2 + (this.agency?.agentExtraSkills || 0);
   }
 
   /**

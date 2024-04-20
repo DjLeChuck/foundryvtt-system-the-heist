@@ -107,13 +107,24 @@ export class AgentActorSheet extends ActorSheet {
 
   /** @override */
   async _onDropItemCreate(itemData) {
-    const items = await super._onDropItemCreate(itemData);
+    let items = itemData instanceof Array ? itemData : [itemData];
+    const toCreate = [];
 
-    if (items.length && items[0] instanceof AgentTypeItem) {
+    for (const item of items) {
+      const result = await this._onDropSingleItem(item);
+
+      if (result) {
+        toCreate.push(result);
+      }
+    }
+
+    const createdItems = this.actor.createEmbeddedDocuments('Item', toCreate);
+
+    if (createdItems.length && createdItems[0] instanceof AgentTypeItem) {
       await this.actor.setDecks();
     }
 
-    return items;
+    return createdItems;
   }
 
   async _onOpenCompendium(event) {
