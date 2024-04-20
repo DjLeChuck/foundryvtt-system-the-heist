@@ -1,5 +1,6 @@
 & {
   @include hn-styles;
+  @include boxes;
 
   font-size: 1rem;
 
@@ -44,26 +45,5 @@
     border: none !important;
 
     @include light-transparency-bg;
-  }
-
-  .white-box {
-    border: 2px solid var(--c-tan);
-    padding: var(--small-gap);
-
-    @include light-transparency-bg;
-  }
-
-  .blue-box {
-    padding: var(--small-gap);
-
-    @include blue-box;
-
-    h2 {
-      color: var(--c-white);
-      font-family: var(--f-masqualero-groove);
-      font-weight: normal;
-      margin: auto;
-      border: none;
-    }
   }
 }

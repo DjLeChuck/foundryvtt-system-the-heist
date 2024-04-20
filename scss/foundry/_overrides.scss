@@ -13,4 +13,33 @@
 
 .journal-sheet {
   @include hn-styles;
+  @include boxes;
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    margin: auto;
+  }
+
+  .journal-entry-content, .editor.prosemirror {
+    background-color: var(--c-white) !important;
+    background-image: none !important;
+
+    .journal-page-header {
+      h1 {
+        @include goldy-title;
+
+        margin: auto;
+        font-weight: normal;
+      }
+    }
+
+    ol {
+      li::marker {
+        font-weight: bold;
+      }
+    }
+  }
 }

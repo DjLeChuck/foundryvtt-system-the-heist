@@ -150,20 +150,26 @@
           background-size: contain;
           object-fit: contain;
         }
+
+        .agent-info {
+          p {
+            margin: 0.3em 0;
+          }
+        }
       }
     }
   }
 
   .planning {
     .plan-editor {
-      @include blue-box;
+      @include blue-box-bg;
 
       max-height: 13rem;
       overflow-y: auto;
 
       .editor {
         height: 100%;
-        min-height: 13rem;
+        min-height: 11rem;
 
         &.prosemirror {
           border: 1px solid var(--c-brown-rust);
@@ -184,7 +190,7 @@
 
         .editor-content {
           background: none;
-          min-height: 13rem;
+          min-height: 11rem;
           padding: 0 var(--small-gap);
         }
       }
