@@ -11,7 +11,7 @@
   @include light-transparency-bg;
 }
 
-.journal-sheet {
+.journal-sheet, .adventure {
   @include hn-styles;
   @include boxes;
 
