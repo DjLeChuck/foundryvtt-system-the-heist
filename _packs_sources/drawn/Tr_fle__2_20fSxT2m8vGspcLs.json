@@ -1,0 +1,181 @@
+{
+  "folder": "r8Y6pOsIWB2YK3e4",
+  "name": "Trèfle #2",
+  "type": "agent",
+  "_id": "20fSxT2m8vGspcLs",
+  "img": "systems/heist/images/media/drawn/club-2.webp",
+  "system": {
+    "description": "<p><em>Génie multidiplômé, programmatrice hors pair, elle s’est longtemps contentée de jobs bien en dessous de ses compétences pour de grandes entreprises high-tech. Elle ne s’épanouissait qu’au sein de son réseau de hackers, avec lequel elle menait des opérations sur son temps libre.</em></p><p><em>C’est quand elle a réussi à voler la plus grande banque de Londres sans sortir de chez elle qu’elle a été repérée par l’agence Heist.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Trèfle #2",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/club-2.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "xKew0ZttXdyXJP6x",
+      "name": "Informatique",
+      "type": "skill",
+      "_id": "lRJ6qQg93vLFZtHH",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.KI1gtzXO5AOBL3KX"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387706053,
+        "modifiedTime": 1713647398788,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!20fSxT2m8vGspcLs.lRJ6qQg93vLFZtHH"
+    },
+    {
+      "folder": "xKew0ZttXdyXJP6x",
+      "name": "Électronique",
+      "type": "skill",
+      "_id": "mwimQ69GUnaC9dhj",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.orarjkSUOZLCtNBq"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387694291,
+        "modifiedTime": 1713647402538,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!20fSxT2m8vGspcLs.mwimQ69GUnaC9dhj"
+    },
+    {
+      "name": "Trèfle",
+      "type": "agentType",
+      "_id": "MSDFHU80aWJV6lru",
+      "img": "systems/heist/images/ui/club.webp",
+      "system": {
+        "type": "club",
+        "deckId": "HeistDeckClub000",
+        "description": "<p>Observatrice et géniale, elle ou il est toujours dotée d'une intelligence hors norme. Les <strong>Trèfles</strong> sont des personnages aux multiples diplômes, qui mettent leur génie au service des phases de préparation et qui planifient les actions du groupe. Éléments indispensables d'une équipe d'agent, ils en sont souvent les cerveaux.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240472038,
+        "modifiedTime": 1713647581123,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentClub00"
+        }
+      },
+      "_key": "!actors.items!20fSxT2m8vGspcLs.MSDFHU80aWJV6lru"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646142690,
+    "modifiedTime": 1713647581123,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!20fSxT2m8vGspcLs"
+}

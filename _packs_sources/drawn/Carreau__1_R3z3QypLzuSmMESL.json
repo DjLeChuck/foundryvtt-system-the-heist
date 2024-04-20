@@ -1,0 +1,181 @@
+{
+  "folder": "XMLbcFU3ZyTJ5V1p",
+  "name": "Carreau #1",
+  "type": "agent",
+  "_id": "R3z3QypLzuSmMESL",
+  "img": "systems/heist/images/media/drawn/diamond-1.webp",
+  "system": {
+    "description": "<p><em>Même s’il a troqué son bleu de travail pour des chemises criardes, il est toujours l’ingénieur de génie que le gouvernement américain a licencié à la suite de l’explosion d’un prototype de véhicule qui a rasé une base militaire.</em></p><p><em>Il a gardé de cette époque une cicatrice sur son visage qui invite peu à la conversation.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Carreau #1",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/diamond-1.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "P1mauwdhTWIYJJFe",
+      "name": "Démolition",
+      "type": "skill",
+      "_id": "7aRN34FTpijiwgDT",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.xk0dbxB2lEelBc3o"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387582028,
+        "modifiedTime": 1713646973621,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!R3z3QypLzuSmMESL.7aRN34FTpijiwgDT"
+    },
+    {
+      "folder": "P1mauwdhTWIYJJFe",
+      "name": "Intimidation",
+      "type": "skill",
+      "_id": "GtAa3AUePPj2gBE1",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.HjKJkQZiAZPncV4l"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387597912,
+        "modifiedTime": 1713646974488,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!R3z3QypLzuSmMESL.GtAa3AUePPj2gBE1"
+    },
+    {
+      "name": "Carreau",
+      "type": "agentType",
+      "_id": "aDozdPU7ax4KD2uq",
+      "img": "systems/heist/images/ui/diamond.webp",
+      "system": {
+        "type": "diamond",
+        "deckId": "HeistDeckDiamond",
+        "description": "<p>Souvent professionnelle et impressionnante, elle ou il est toujours certaine de ses compétences techniques, que ce soit en démolition, en mécanique ou en pilotage. Les <strong>Carreaux</strong> sont des techniciens experts, qui savent aisément improviser et qui ont appris à ne pas se laisser faire. Ils possèdent parfois un passé sombre...</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240469874,
+        "modifiedTime": 1713647528340,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentDiamon"
+        }
+      },
+      "_key": "!actors.items!R3z3QypLzuSmMESL.aDozdPU7ax4KD2uq"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646110099,
+    "modifiedTime": 1713647528340,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!R3z3QypLzuSmMESL"
+}

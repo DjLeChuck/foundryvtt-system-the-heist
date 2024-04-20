@@ -1,0 +1,19 @@
+{
+  "name": "Pique",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "DDNvF2U7dcw8QrS3",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646020732,
+    "modifiedTime": 1713646020732,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!folders!DDNvF2U7dcw8QrS3"
+}

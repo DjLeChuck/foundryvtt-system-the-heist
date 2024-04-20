@@ -1,0 +1,181 @@
+{
+  "folder": "M7sJrP7sznQrhWVK",
+  "name": "Cœur #4",
+  "type": "agent",
+  "_id": "jI4XTC7KJhNBIUPe",
+  "img": "systems/heist/images/media/drawn/heart-4.webp",
+  "system": {
+    "description": "<p><em>Ancienne gouvernante pour la haute bourgeoisie londonienne, elle est très à cheval sur la bienséance et le respect des horaires.</em></p><p><em>Elle a décidé de proposer ses services à Heist pour s’affranchir du carcan rigide dans lequel elle a toujours vécu. Elle apprécie particulièrement le code de bonne conduite instauré par l’agence.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Cœur #4",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/heart-4.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "V8dVlw3qvmvr81Lv",
+      "name": "Étiquette / Protocole",
+      "type": "skill",
+      "_id": "IoKPX4syRJyAxmlC",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.Hc8PHcq6BgxW98sW"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387497382,
+        "modifiedTime": 1713646277556,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!jI4XTC7KJhNBIUPe.IoKPX4syRJyAxmlC"
+    },
+    {
+      "folder": "V8dVlw3qvmvr81Lv",
+      "name": "Persuasion",
+      "type": "skill",
+      "_id": "HFNDzrtMLIiv8L0y",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.cxUXs9YbB2muT1Xq"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387513680,
+        "modifiedTime": 1713646279820,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!jI4XTC7KJhNBIUPe.HFNDzrtMLIiv8L0y"
+    },
+    {
+      "name": "Cœur",
+      "type": "agentType",
+      "_id": "0Xh3kShMRK12awY1",
+      "img": "systems/heist/images/ui/heart.webp",
+      "system": {
+        "type": "heart",
+        "deckId": "HeistDeckHeart00",
+        "description": "<p>Charmeur et joueur, il ou elle est très sûr de son charme, toujours élégamment habillé. Les <strong>Cœurs</strong> sont des personnages sociaux par excellence, qui savent discuter, séduire ou imiter pour détourner l’attention, faire de sensationnelles diversions ou encore obtenir les faveurs d’une cible.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240464154,
+        "modifiedTime": 1713647551390,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentHeart0"
+        }
+      },
+      "_key": "!actors.items!jI4XTC7KJhNBIUPe.0Xh3kShMRK12awY1"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646099234,
+    "modifiedTime": 1713647551390,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!jI4XTC7KJhNBIUPe"
+}

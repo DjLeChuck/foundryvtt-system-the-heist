@@ -1,0 +1,181 @@
+{
+  "folder": "DDNvF2U7dcw8QrS3",
+  "name": "Pique #3",
+  "type": "agent",
+  "_id": "RoahVDfEj7wUgYbY",
+  "img": "systems/heist/images/media/drawn/spade-3.webp",
+  "system": {
+    "description": "<p><em>Ancien enfant des rues de Rome, il profitait de son physique de chat maigre et de ses doigts agiles pour voler les riches demeures de la capitale et les poches bien remplies des touristes… jusqu’à ce qu’il tombe sur un agent de Heist qui a vu en lui un grand potentiel.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Pique #3",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/spade-3.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "8TPHzgAPiy6DQmt0",
+      "name": "Contorsion",
+      "type": "skill",
+      "_id": "vhVD6CezuVfhgXYk",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.zDdO6B6bBdDu8ELQ"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387647098,
+        "modifiedTime": 1713647175474,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!RoahVDfEj7wUgYbY.vhVD6CezuVfhgXYk"
+    },
+    {
+      "folder": "V8dVlw3qvmvr81Lv",
+      "name": "Pickpocket",
+      "type": "skill",
+      "_id": "ZPnp05R2PVhxGZga",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 106250,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.WZPhWUkR7LUPDXQQ"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387519049,
+        "modifiedTime": 1713647322940,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!RoahVDfEj7wUgYbY.ZPnp05R2PVhxGZga"
+    },
+    {
+      "name": "Pique",
+      "type": "agentType",
+      "_id": "4XObpPWn6knk7WTz",
+      "img": "systems/heist/images/ui/spade.webp",
+      "system": {
+        "type": "spade",
+        "deckId": "HeistDeckSpade00",
+        "description": "<p>Aussi élégant que gracieux, il ou elle est immuablement dextre et discret. Les <strong>Piques</strong> sont capables de prouesses physiques impressionnantes tout en étant des cambrioleurs de profession. Ce sont souvent des monte-en-l'air qui sont au cœur des phases d'action de l'agence.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240467770,
+        "modifiedTime": 1713647559856,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentSpade0"
+        }
+      },
+      "_key": "!actors.items!RoahVDfEj7wUgYbY.4XObpPWn6knk7WTz"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646131190,
+    "modifiedTime": 1713647559856,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!RoahVDfEj7wUgYbY"
+}

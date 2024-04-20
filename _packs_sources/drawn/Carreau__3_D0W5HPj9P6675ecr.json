@@ -1,0 +1,181 @@
+{
+  "folder": "XMLbcFU3ZyTJ5V1p",
+  "name": "Carreau #3",
+  "type": "agent",
+  "_id": "D0W5HPj9P6675ecr",
+  "img": "systems/heist/images/media/drawn/diamond-3.webp",
+  "system": {
+    "description": "<p><em>Très fière de ses origines irlandaises, cette jeune rousse athlétique a coupé les ponts avec le milieu indépendantiste radical dans lequel elle a été élevée. Elle a rejoint Heist pour que ses talents en réparation et sa forme physique exceptionnelle puissent être utiles sans être moqués.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Carreau #3",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/diamond-3.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "P1mauwdhTWIYJJFe",
+      "name": "Endurance",
+      "type": "skill",
+      "_id": "5rw3lNUfS7duJOZb",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.wZ16YzEQXivqgbhP"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387586765,
+        "modifiedTime": 1713647049425,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!D0W5HPj9P6675ecr.5rw3lNUfS7duJOZb"
+    },
+    {
+      "folder": "P1mauwdhTWIYJJFe",
+      "name": "Réparation",
+      "type": "skill",
+      "_id": "rBFfidI451h0ADgA",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.xLoL5msECzPgtS4b"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387616110,
+        "modifiedTime": 1713647050392,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!D0W5HPj9P6675ecr.rBFfidI451h0ADgA"
+    },
+    {
+      "name": "Carreau",
+      "type": "agentType",
+      "_id": "WiUeSalgixReH5wK",
+      "img": "systems/heist/images/ui/diamond.webp",
+      "system": {
+        "type": "diamond",
+        "deckId": "HeistDeckDiamond",
+        "description": "<p>Souvent professionnelle et impressionnante, elle ou il est toujours certaine de ses compétences techniques, que ce soit en démolition, en mécanique ou en pilotage. Les <strong>Carreaux</strong> sont des techniciens experts, qui savent aisément improviser et qui ont appris à ne pas se laisser faire. Ils possèdent parfois un passé sombre...</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240469874,
+        "modifiedTime": 1713647534289,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentDiamon"
+        }
+      },
+      "_key": "!actors.items!D0W5HPj9P6675ecr.WiUeSalgixReH5wK"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646115503,
+    "modifiedTime": 1713647534289,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!D0W5HPj9P6675ecr"
+}

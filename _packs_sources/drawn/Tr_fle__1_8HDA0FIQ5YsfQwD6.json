@@ -1,0 +1,181 @@
+{
+  "folder": "r8Y6pOsIWB2YK3e4",
+  "name": "Trèfle #1",
+  "type": "agent",
+  "_id": "8HDA0FIQ5YsfQwD6",
+  "img": "systems/heist/images/media/drawn/club-1.webp",
+  "system": {
+    "description": "<p><em>Docteur en psychologie, praticien réputé au caractère froid, distant, ne laissant transparaître aucune émotion.</em></p><p><em>Il a longtemps travaillé pour la police comme profiler ou pour faire de l’analyse de scène de crime.</em></p><p><em>Sa capacité à retracer les actions de l’agence Heist et à repérer ses agents a fait de lui une cible à recruter prioritaire.</em></p><p><em>Le salaire proposé et le défi que cela représentait lui ont fait accepter la proposition instantanément.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Trèfle #1",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/club-1.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "xKew0ZttXdyXJP6x",
+      "name": "Psychologie",
+      "type": "skill",
+      "_id": "OV3JPygXkfEsWSSf",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.wJRF9pS6QAu5iXKd"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387722720,
+        "modifiedTime": 1713647368288,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!8HDA0FIQ5YsfQwD6.OV3JPygXkfEsWSSf"
+    },
+    {
+      "folder": "xKew0ZttXdyXJP6x",
+      "name": "Observation",
+      "type": "skill",
+      "_id": "VwEic14hZ1q72WYA",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.NTbFk2NWzNz5Gsyk"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387717805,
+        "modifiedTime": 1713647369038,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!8HDA0FIQ5YsfQwD6.VwEic14hZ1q72WYA"
+    },
+    {
+      "name": "Trèfle",
+      "type": "agentType",
+      "_id": "bXl3Go8p9e2EJQVw",
+      "img": "systems/heist/images/ui/club.webp",
+      "system": {
+        "type": "club",
+        "deckId": "HeistDeckClub000",
+        "description": "<p>Observatrice et géniale, elle ou il est toujours dotée d'une intelligence hors norme. Les <strong>Trèfles</strong> sont des personnages aux multiples diplômes, qui mettent leur génie au service des phases de préparation et qui planifient les actions du groupe. Éléments indispensables d'une équipe d'agent, ils en sont souvent les cerveaux.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240472038,
+        "modifiedTime": 1713647578976,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentClub00"
+        }
+      },
+      "_key": "!actors.items!8HDA0FIQ5YsfQwD6.bXl3Go8p9e2EJQVw"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646140112,
+    "modifiedTime": 1713647578976,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!8HDA0FIQ5YsfQwD6"
+}

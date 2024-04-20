@@ -1,0 +1,181 @@
+{
+  "folder": "M7sJrP7sznQrhWVK",
+  "name": "Cœur #3",
+  "type": "agent",
+  "_id": "CY8Pyy3At5nXFDTZ",
+  "img": "systems/heist/images/media/drawn/heart-3.webp",
+  "system": {
+    "description": "<p><em>Véritable star suivie par une immense communauté sur internet.</em></p><p><em>Heist l’a recruté malgré tout pour ses talents dans l’art de la persuasion. Il a accepté pour tromper l’ennui et prévoit un jour de poster des vidéos de ses exploits (sans l’accord de l’agence).</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Cœur #3",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/heart-3.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "V8dVlw3qvmvr81Lv",
+      "name": "Persuasion",
+      "type": "skill",
+      "_id": "ZzXScmzI7BDFIqLk",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.cxUXs9YbB2muT1Xq"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387513680,
+        "modifiedTime": 1713646248173,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!CY8Pyy3At5nXFDTZ.ZzXScmzI7BDFIqLk"
+    },
+    {
+      "folder": "V8dVlw3qvmvr81Lv",
+      "name": "Charme",
+      "type": "skill",
+      "_id": "vxapjaZBSVNjxfTr",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.XEmCTxVjfZ9xIoYA"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387481029,
+        "modifiedTime": 1713646249221,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!CY8Pyy3At5nXFDTZ.vxapjaZBSVNjxfTr"
+    },
+    {
+      "name": "Cœur",
+      "type": "agentType",
+      "_id": "STryy12rMuPvOIVm",
+      "img": "systems/heist/images/ui/heart.webp",
+      "system": {
+        "type": "heart",
+        "deckId": "HeistDeckHeart00",
+        "description": "<p>Charmeur et joueur, il ou elle est très sûr de son charme, toujours élégamment habillé. Les <strong>Cœurs</strong> sont des personnages sociaux par excellence, qui savent discuter, séduire ou imiter pour détourner l’attention, faire de sensationnelles diversions ou encore obtenir les faveurs d’une cible.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240464154,
+        "modifiedTime": 1713647549189,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentHeart0"
+        }
+      },
+      "_key": "!actors.items!CY8Pyy3At5nXFDTZ.STryy12rMuPvOIVm"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646096395,
+    "modifiedTime": 1713647549189,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!CY8Pyy3At5nXFDTZ"
+}

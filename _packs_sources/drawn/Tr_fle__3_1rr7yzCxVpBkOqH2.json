@@ -1,0 +1,181 @@
+{
+  "folder": "r8Y6pOsIWB2YK3e4",
+  "name": "Trèfle #3",
+  "type": "agent",
+  "_id": "1rr7yzCxVpBkOqH2",
+  "img": "systems/heist/images/media/drawn/club-3.webp",
+  "system": {
+    "description": "<p><em>La vie est un jeu pour ce stratège de génie qui, après des années consacrées à toutes les formes d’exercices ludiques, a découvert que la mise en place de plans exceptionnels pour des braquages spectaculaires était probablement le meilleur jeu qui soit.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Trèfle #3",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/club-3.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "xKew0ZttXdyXJP6x",
+      "name": "Observation",
+      "type": "skill",
+      "_id": "Sq3LlKTXTMXvcKDg",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.NTbFk2NWzNz5Gsyk"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387717805,
+        "modifiedTime": 1713647424305,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!1rr7yzCxVpBkOqH2.Sq3LlKTXTMXvcKDg"
+    },
+    {
+      "folder": "V8dVlw3qvmvr81Lv",
+      "name": "Jeu",
+      "type": "skill",
+      "_id": "WRoZBtvjNdaUyTL3",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 125000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.6fYu8x60a1BAmP8Y"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387508972,
+        "modifiedTime": 1713647427857,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!1rr7yzCxVpBkOqH2.WRoZBtvjNdaUyTL3"
+    },
+    {
+      "name": "Trèfle",
+      "type": "agentType",
+      "_id": "3Y5Z1FWUNAaM1urV",
+      "img": "systems/heist/images/ui/club.webp",
+      "system": {
+        "type": "club",
+        "deckId": "HeistDeckClub000",
+        "description": "<p>Observatrice et géniale, elle ou il est toujours dotée d'une intelligence hors norme. Les <strong>Trèfles</strong> sont des personnages aux multiples diplômes, qui mettent leur génie au service des phases de préparation et qui planifient les actions du groupe. Éléments indispensables d'une équipe d'agent, ils en sont souvent les cerveaux.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240472038,
+        "modifiedTime": 1713647583923,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentClub00"
+        }
+      },
+      "_key": "!actors.items!1rr7yzCxVpBkOqH2.3Y5Z1FWUNAaM1urV"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646144814,
+    "modifiedTime": 1713647583923,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!1rr7yzCxVpBkOqH2"
+}

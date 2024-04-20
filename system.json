@@ -72,6 +72,12 @@
       "label": "Objets fétiches",
       "type": "Item",
       "system": "heist"
+    },
+    {
+      "name": "drawn",
+      "label": "Pré-tirés",
+      "type": "Actor",
+      "system": "heist"
     }
   ],
   "socket": true,

@@ -1,0 +1,181 @@
+{
+  "folder": "XMLbcFU3ZyTJ5V1p",
+  "name": "Carreau #4",
+  "type": "agent",
+  "_id": "OP7oUEwYSzwEVWS9",
+  "img": "systems/heist/images/media/drawn/diamond-4.webp",
+  "system": {
+    "description": "<p><em>Ancien ouvrier puis contremaître dans la construction, sa vie a basculé quand il a pris la décision de détruire un bâtiment en chantier. Ses gestionnaires véreux étaient prêts à mentir sur les dangers qu’il représentait pour atteindre leurs objectifs. Heist l’a discrètement fait sortir de prison.</em></p>",
+    "dead": false,
+    "fetishUsed": false
+  },
+  "prototypeToken": {
+    "name": "Carreau #4",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/heist/images/media/drawn/diamond-4.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "folder": "P1mauwdhTWIYJJFe",
+      "name": "Démolition",
+      "type": "skill",
+      "_id": "W1kfT4Mpz31HPEvE",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.xk0dbxB2lEelBc3o"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387582028,
+        "modifiedTime": 1713647072373,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!OP7oUEwYSzwEVWS9.W1kfT4Mpz31HPEvE"
+    },
+    {
+      "folder": "P1mauwdhTWIYJJFe",
+      "name": "Réparation",
+      "type": "skill",
+      "_id": "XAdQWKrjoPdOUEEl",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {},
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.skills.Item.xLoL5msECzPgtS4b"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712387616110,
+        "modifiedTime": 1713647075938,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!actors.items!OP7oUEwYSzwEVWS9.XAdQWKrjoPdOUEEl"
+    },
+    {
+      "name": "Carreau",
+      "type": "agentType",
+      "_id": "PYc5Joir6V3Fozd6",
+      "img": "systems/heist/images/ui/diamond.webp",
+      "system": {
+        "type": "diamond",
+        "deckId": "HeistDeckDiamond",
+        "description": "<p>Souvent professionnelle et impressionnante, elle ou il est toujours certaine de ses compétences techniques, que ce soit en démolition, en mécanique ou en pilotage. Les <strong>Carreaux</strong> sont des techniciens experts, qui savent aisément improviser et qui ont appris à ne pas se laisser faire. Ils possèdent parfois un passé sombre...</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1695240469874,
+        "modifiedTime": 1713647537089,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.agent-types.Item.HeistAgentDiamon"
+        }
+      },
+      "_key": "!actors.items!OP7oUEwYSzwEVWS9.PYc5Joir6V3Fozd6"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713646118158,
+    "modifiedTime": 1713647537089,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!actors!OP7oUEwYSzwEVWS9"
+}
