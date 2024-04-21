@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!OP7oUEwYSzwEVWS9.PYc5Joir6V3Fozd6"
+    },
+    {
+      "name": "Un mètre ruban",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/tape-measure.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.lnbdBTtXge5ZC9ea"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388519984,
+        "modifiedTime": 1713728028048,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "FGLHDPuZGbGPZEID",
+      "sort": 1100000,
+      "_key": "!actors.items!OP7oUEwYSzwEVWS9.FGLHDPuZGbGPZEID"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646118158,
-    "modifiedTime": 1713647537089,
+    "modifiedTime": 1713728028048,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!OP7oUEwYSzwEVWS9"

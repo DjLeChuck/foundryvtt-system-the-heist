@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!CY8Pyy3At5nXFDTZ.STryy12rMuPvOIVm"
+    },
+    {
+      "name": "Un drone caméra miniature",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/camera-drone.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.xzR0UEW8lVJycDaL"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388546409,
+        "modifiedTime": 1713728083396,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "VNIuYbblX70tk5Pe",
+      "sort": 1300000,
+      "_key": "!actors.items!CY8Pyy3At5nXFDTZ.VNIuYbblX70tk5Pe"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646096395,
-    "modifiedTime": 1713647549189,
+    "modifiedTime": 1713728083396,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!CY8Pyy3At5nXFDTZ"

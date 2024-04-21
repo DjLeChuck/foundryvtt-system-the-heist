@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!1rr7yzCxVpBkOqH2.3Y5Z1FWUNAaM1urV"
+    },
+    {
+      "name": "Une montre",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/watch.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.sWU1DoGiDwR9Usse"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388560959,
+        "modifiedTime": 1713727942729,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "VmBswc46xUCHNBaE",
+      "sort": 300000,
+      "_key": "!actors.items!1rr7yzCxVpBkOqH2.VmBswc46xUCHNBaE"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646144814,
-    "modifiedTime": 1713647583923,
+    "modifiedTime": 1713727942729,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!1rr7yzCxVpBkOqH2"

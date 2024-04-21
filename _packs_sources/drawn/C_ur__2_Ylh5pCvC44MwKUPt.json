@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!Ylh5pCvC44MwKUPt.ySgYGbcgUDxYc1hj"
+    },
+    {
+      "name": "Un portefeuille contenant une dizaine de fausses pièces d’identité",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/wallet.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.O6PdwrFieW113Mpy"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388453501,
+        "modifiedTime": 1713728096089,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "vvLoOX20KRw0hCLV",
+      "sort": 800000,
+      "_key": "!actors.items!Ylh5pCvC44MwKUPt.vvLoOX20KRw0hCLV"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646092865,
-    "modifiedTime": 1713647546590,
+    "modifiedTime": 1713728096089,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!Ylh5pCvC44MwKUPt"

@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!R3z3QypLzuSmMESL.aDozdPU7ax4KD2uq"
+    },
+    {
+      "name": "Une boîte de cigares",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/cigar-box.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.urx62JaFp1s3uKYF"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388459959,
+        "modifiedTime": 1713728067083,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "KNnV1hhK3rWtnPbk",
+      "sort": 600000,
+      "_key": "!actors.items!R3z3QypLzuSmMESL.KNnV1hhK3rWtnPbk"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646110099,
-    "modifiedTime": 1713647528340,
+    "modifiedTime": 1713728067083,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!R3z3QypLzuSmMESL"

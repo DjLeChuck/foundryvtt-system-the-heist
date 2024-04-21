@@ -1,7 +1,7 @@
 {
   "name": "Un portefeuille",
   "type": "fetish",
-  "img": "systems/heist/images/logos/mini.webp",
+  "img": "systems/heist/images/media/fetishes/wallet.webp",
   "system": {
     "description": "",
     "used": false
@@ -20,7 +20,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1712388453501,
-    "modifiedTime": 1712389816536,
+    "modifiedTime": 1713727738069,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_id": "O6PdwrFieW113Mpy",

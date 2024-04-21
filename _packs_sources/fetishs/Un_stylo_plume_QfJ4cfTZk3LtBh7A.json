@@ -1,7 +1,7 @@
 {
   "name": "Un stylo plume",
   "type": "fetish",
-  "img": "systems/heist/images/logos/mini.webp",
+  "img": "systems/heist/images/media/fetishes/fountain-pen.webp",
   "system": {
     "description": "",
     "used": false
@@ -20,7 +20,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1712388523799,
-    "modifiedTime": 1712389816536,
+    "modifiedTime": 1713727757610,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_id": "QfJ4cfTZk3LtBh7A",

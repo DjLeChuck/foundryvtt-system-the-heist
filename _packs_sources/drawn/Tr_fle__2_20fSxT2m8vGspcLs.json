@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!20fSxT2m8vGspcLs.MSDFHU80aWJV6lru"
+    },
+    {
+      "name": "Une clé USB contenant ses programmes fétiches",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/usb-key.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.OGITVSnSfVbdw0B2"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388497937,
+        "modifiedTime": 1713727957115,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "RlcQusuNMw0Z5t8c",
+      "sort": 200000,
+      "_key": "!actors.items!20fSxT2m8vGspcLs.RlcQusuNMw0Z5t8c"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646142690,
-    "modifiedTime": 1713647581123,
+    "modifiedTime": 1713727957115,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!20fSxT2m8vGspcLs"

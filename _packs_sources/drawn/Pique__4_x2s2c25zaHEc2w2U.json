@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!x2s2c25zaHEc2w2U.BvZD4Hyv0IRWiuPJ"
+    },
+    {
+      "name": "Une paire de gants noirs rafistolés en cuir",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/black-gloves.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.9sdZf5N8HI8Rx0pD"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388503002,
+        "modifiedTime": 1713728002882,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "Cod98ntJAoKAtWRQ",
+      "sort": 100000,
+      "_key": "!actors.items!x2s2c25zaHEc2w2U.Cod98ntJAoKAtWRQ"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646133081,
-    "modifiedTime": 1713647564407,
+    "modifiedTime": 1713728002882,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!x2s2c25zaHEc2w2U"

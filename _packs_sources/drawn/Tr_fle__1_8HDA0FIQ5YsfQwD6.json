@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!8HDA0FIQ5YsfQwD6.bXl3Go8p9e2EJQVw"
+    },
+    {
+      "name": "Un carnet de notes regroupant toutes ses observations",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/notebook.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.oyNfLnT93isnInxR"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388493449,
+        "modifiedTime": 1713727975242,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "xe4yqF92GLpydUbu",
+      "sort": 1800000,
+      "_key": "!actors.items!8HDA0FIQ5YsfQwD6.xe4yqF92GLpydUbu"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646140112,
-    "modifiedTime": 1713647578976,
+    "modifiedTime": 1713727975242,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!8HDA0FIQ5YsfQwD6"

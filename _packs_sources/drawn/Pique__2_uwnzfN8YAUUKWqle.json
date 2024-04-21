@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!uwnzfN8YAUUKWqle.mgZKfcHhozQLEnaq"
+    },
+    {
+      "name": "Un bokken (sabre en bois)",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/bokken.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.D7NNXe1jkkBNdSw6"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388489096,
+        "modifiedTime": 1713728017581,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "kkEOovF1SG8eJckf",
+      "sort": 2100000,
+      "_key": "!actors.items!uwnzfN8YAUUKWqle.kkEOovF1SG8eJckf"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646128899,
-    "modifiedTime": 1713647557723,
+    "modifiedTime": 1713728017581,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!uwnzfN8YAUUKWqle"

@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!c4fx0d5tWPuuJ6tS.JLv9jsC2Erivia9A"
+    },
+    {
+      "name": "Un casque Bluetooth noir avec un tour en néon violet",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/bluetooth-headset.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.kwFFhXJU4EQTVYCG"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388511587,
+        "modifiedTime": 1713727931905,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "4TlhzynBxHsd3vIV",
+      "sort": 1600000,
+      "_key": "!actors.items!c4fx0d5tWPuuJ6tS.4TlhzynBxHsd3vIV"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646146585,
-    "modifiedTime": 1713647585990,
+    "modifiedTime": 1713727931905,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!c4fx0d5tWPuuJ6tS"

@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!jI4XTC7KJhNBIUPe.0Xh3kShMRK12awY1"
+    },
+    {
+      "name": "Un sac à main",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/handbag.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.ait7l3hQhhnoi44Z"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388528763,
+        "modifiedTime": 1713728073133,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "ibc03Syosfz0ql9B",
+      "sort": 900000,
+      "_key": "!actors.items!jI4XTC7KJhNBIUPe.ibc03Syosfz0ql9B"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646099234,
-    "modifiedTime": 1713647551390,
+    "modifiedTime": 1713728073133,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!jI4XTC7KJhNBIUPe"

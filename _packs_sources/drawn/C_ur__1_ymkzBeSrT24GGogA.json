@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!ymkzBeSrT24GGogA.KS9Ojpv8Z2Eg4lv4"
+    },
+    {
+      "name": "Un paquet de cartes de magicien",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/deck-cards.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.1k3CgcgnPObDpVO9"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388446087,
+        "modifiedTime": 1713728112887,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "xSAgnqKDVDSxKUn4",
+      "sort": 1200000,
+      "_key": "!actors.items!ymkzBeSrT24GGogA.xSAgnqKDVDSxKUn4"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646084163,
-    "modifiedTime": 1713647544489,
+    "modifiedTime": 1713728112887,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!ymkzBeSrT24GGogA"

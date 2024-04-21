@@ -1,7 +1,7 @@
 {
   "name": "Un casque Bluetooth",
   "type": "fetish",
-  "img": "systems/heist/images/logos/mini.webp",
+  "img": "systems/heist/images/media/fetishes/bluetooth-headset.webp",
   "system": {
     "description": "",
     "used": false
@@ -20,7 +20,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1712388511587,
-    "modifiedTime": 1712389816536,
+    "modifiedTime": 1713727694540,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_id": "kwFFhXJU4EQTVYCG",

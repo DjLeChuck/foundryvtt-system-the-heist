@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!RoahVDfEj7wUgYbY.4XObpPWn6knk7WTz"
+    },
+    {
+      "name": "Un briquet Zippo",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/zippo.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.DyBub66LSaQjbCuQ"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388515448,
+        "modifiedTime": 1713728010880,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "Dtm8BwfD32BUekqG",
+      "sort": 1700000,
+      "_key": "!actors.items!RoahVDfEj7wUgYbY.Dtm8BwfD32BUekqG"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646131190,
-    "modifiedTime": 1713647559856,
+    "modifiedTime": 1713728010880,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!RoahVDfEj7wUgYbY"

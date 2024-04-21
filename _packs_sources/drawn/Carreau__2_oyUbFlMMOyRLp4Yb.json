@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!oyUbFlMMOyRLp4Yb.YsRox9Zyaz0b6xCO"
+    },
+    {
+      "name": "Une clé anglaise",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/wrench.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.I1yGfPqkIgnnoqhQ"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388474956,
+        "modifiedTime": 1713728055216,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "NTkAoiqqqkF2hzEC",
+      "sort": 400000,
+      "_key": "!actors.items!oyUbFlMMOyRLp4Yb.NTkAoiqqqkF2hzEC"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646112916,
-    "modifiedTime": 1713647531239,
+    "modifiedTime": 1713728055216,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!oyUbFlMMOyRLp4Yb"

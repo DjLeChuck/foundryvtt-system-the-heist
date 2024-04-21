@@ -160,6 +160,36 @@
         }
       },
       "_key": "!actors.items!dwGnYZLrh8FF5ALO.dPB2EICMaFQxLv06"
+    },
+    {
+      "name": "Un passe-partout",
+      "type": "fetish",
+      "img": "systems/heist/images/media/fetishes/master-key.webp",
+      "system": {
+        "used": false
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.heist.fetishs.Item.zh2jUIhZNjMNEWHS"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1712388481485,
+        "modifiedTime": 1713728022966,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "LY4GXl64dGdFYjBj",
+      "sort": 1000000,
+      "_key": "!actors.items!dwGnYZLrh8FF5ALO.LY4GXl64dGdFYjBj"
     }
   ],
   "effects": [],
@@ -174,7 +204,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713646125694,
-    "modifiedTime": 1713647556039,
+    "modifiedTime": 1713728022966,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!actors!dwGnYZLrh8FF5ALO"

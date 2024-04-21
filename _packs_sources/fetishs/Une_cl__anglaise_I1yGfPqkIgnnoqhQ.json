@@ -1,7 +1,7 @@
 {
   "name": "Une clé anglaise",
   "type": "fetish",
-  "img": "systems/heist/images/logos/mini.webp",
+  "img": "systems/heist/images/media/fetishes/wrench.webp",
   "system": {
     "description": "",
     "used": false
@@ -20,7 +20,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1712388474956,
-    "modifiedTime": 1712389816536,
+    "modifiedTime": 1713727777419,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_id": "I1yGfPqkIgnnoqhQ",
