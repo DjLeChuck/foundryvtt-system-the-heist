@@ -41,5 +41,26 @@
         font-weight: bold;
       }
     }
+
+    .npc-portrait-wrapper {
+      filter: drop-shadow(0 0 15px var(--c-black));
+
+      .npc-portrait {
+        margin: var(--small-gap) auto;
+        background: var(--c-rajah);
+        border: 5px solid var(--c-rajah);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        width: fit-content;
+
+        img {
+          width: 200px;
+          height: 200px;
+          margin: auto;
+          object-fit: cover;
+          clip-path: inherit;
+          vertical-align: middle;
+        }
+      }
+    }
   }
 }
