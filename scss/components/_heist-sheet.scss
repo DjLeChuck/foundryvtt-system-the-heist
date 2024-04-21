@@ -83,7 +83,7 @@
     }
 
     &.dead::before {
-      background: linear-gradient(0deg, transparent 0%, transparent 45%, var(--c-old-brick) 100%);
+      background: linear-gradient(0deg, transparent 45%, var(--c-old-brick) 100%);
     }
   }
 
