@@ -1,0 +1,949 @@
+{
+  "name": "Irish Job",
+  "img": "systems/heist/images/media/scenario/irish-job/irish-job.webp",
+  "caption": "",
+  "sort": 0,
+  "description": "<h1>En quelques mots</h1><p>Irish Job est un scénario d’initiation à THE HEIST. Il a pour but de vous guider pas à pas dans votre premier casse.</p><p>Dans ce scénario, les agents vont devoir voler un célèbre tableau disparu à un important trafiquant d’art, le tout durant un tournoi de poker accueillant tout le gratin du marché noir londonien.</p>",
+  "actors": [],
+  "combats": [],
+  "items": [
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Plan du sous-sol",
+      "type": "planning",
+      "_id": "Dhb8tf7K72Ia7AZ4",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688093219,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Faux tableau (peu convaincant)",
+      "type": "planning",
+      "_id": "Yl3Qn0nmNBRDabNB",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688115349,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Faux tableau (résiste à une inspection rapide)",
+      "type": "planning",
+      "_id": "fh2qfWGxetKu32xM",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688138537,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Détails sur le déroulement du tournoi",
+      "type": "planning",
+      "_id": "kCDRsPyj6pVTKnuR",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688173462,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Liste des invités",
+      "type": "planning",
+      "_id": "gueje0bSl3A6xIGG",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688183994,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Invitation falsifiée",
+      "type": "planning",
+      "_id": "eZTDrP8XMIV7Xy2t",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688196167,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Déguisement",
+      "type": "planning",
+      "_id": "kjXrqooXavyR58MI",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688212715,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Registre des objets",
+      "type": "planning",
+      "_id": "IJZKleaahVwv8fH1",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688227242,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Camion pour se faire passer pour un chargement",
+      "type": "planning",
+      "_id": "IjPxAMf2HvDt4lgF",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 4
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688249033,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "tkuoYCUS5Eldy4Et",
+      "name": "Emplacement des caméras",
+      "type": "planning",
+      "_id": "h28HMvxIk5TX3RzS",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688264333,
+        "modifiedTime": 1713722105619,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "name": "Scénario",
+      "_id": "l76Fhe8Py52iYkcC",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Présentation",
+          "type": "text",
+          "_id": "t1VG07U89z417guR",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h1>En quelques mots</h1><p>Irish Job est un scénario d’initiation à THE HEIST. Il a pour but de vous guider pas à pas dans votre premier casse.</p><p>Dans ce scénario, les agents vont devoir voler un célèbre tableau disparu à un important trafiquant d’art, le tout durant un tournoi de poker accueillant tout le gratin du marché noir londonien.</p><h1>Matériel</h1><p>Le scénario Irish Job utilise 3 plans des lieux :</p><ul><li><p>@UUID[JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.NrflrWOQtc6xJFPm]{1 plan complet réservé au meneur} détaillant l’ensemble des secrets du lieu ;</p></li><li><p>@UUID[JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.GV92gpOBsZYU3Djl]{1 plan de départ} pour les joueurs présentant les lieux connus de tous. Il s’agit du plan d’évacuation incendie du bâtiment. On y voit la cave au sous-sol, l’ensemble du rez-de-chaussée et le premier étage du bâtiment ;</p></li><li><p>@UUID[JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.bEgURuhGIKx4AETD]{1 plan qui ajoute le bunker caché sous le bâtiment}. Il sera remis aux joueurs s’ils le découvrent, que ce soit par le monte-charge, l’escalier secret, la porte dissimulée à la cave, les caméras de surveillance ou l’achat du @UUID[Item.Dhb8tf7K72Ia7AZ4]{plan du sous-sol}.</p></li></ul><h1>Organisation du livret</h1><p>Le livret est découpé en 9 chapitres distincts.</p><h2>1. Briefing</h2><p>Il s’agit du briefing à lire ou à paraphraser aux joueurs au début de la séance en leur présentant le plan des lieux. Il détaille les zones connues ainsi que les objectifs des agents et les enjeux.</p><h2>2. Intrigue</h2><p>Ici sont décrites les grandes lignes du scénario, les motivations des personnages principaux que les joueurs vont rencontrer et ce qu’ils comptent faire si tout se passe comme prévu.</p><h2>3. Lieux</h2><p>Vous trouverez dans ce chapitre la présentation de l’ensemble des lieux où se déroule le scénario, pièce par pièce.</p><p>Pour chaque pièce, vous trouverez une description du décor et le détail des personnes présentes par défaut, ainsi que leur comportement.</p><p>Pour ce scénario, un encart détaille pour chaque pièce un ou plusieurs événements à mettre en scène durant la phase de Reconnaissance.</p><h2>4. Casting</h2><p>Vous trouverez ici une description détaillée de chacun des protagonistes majeurs de ce scénario.</p><h2>5. Déroulement du tournoi</h2><p>Un tournoi de poker a lieu durant ce scénario. Ce chapitre détaille son organisation et les événements qui s’y produisent pendant la phase d’Action.</p><h2>6. Événements Joker</h2><p>Vous trouverez dans ce chapitre les deux événements à mettre en scène lors de la pioche d’un Joker par le meneur pendant la phase d’Action.</p><h2>7. Liste d’achats</h2><p>Ici est présentée une liste non exhaustive d’éléments pouvant être achetés par les joueurs durant la phase de Préparation, avec des prix indicatifs.</p><h2>8. Pistes d’actions</h2><p>Le dernier chapitre détaille les points d’intérêts du scénario : failles dans la sécurité, personnages manipulables, points d’entrée, etc. Il s’agit d’autant de manières d’aborder la mission pour les agents, déjà prévues par le scénario. Cela vous permettra, au besoin, de donner des indices aux joueurs.</p><p>Naturellement, cela ne couvre pas l’ensemble des idées que vos joueurs ou vous-même pourrez avoir !</p><h2>9. Fin de partie</h2><p>Ici se trouvent les conclusions possibles au scénario, qu’elles soient positives ou négatives.</p><h1>Comment préparer ce scénario ?</h1><p>Regardez le plan des lieux réservé au meneur et lisez l’ensemble du scénario.</p><p>Le script n’est pas linéaire. Il s’agit d’un lieu dynamique avec des personnages qui agissent tous en parallèle. De ce fait, nous vous recommandons de relire plusieurs fois le scénario pour pouvoir vous l’approprier au mieux et pour bien saisir les ponts entre les différentes sections.</p><p>Plus vous serez familier avec les lieux et les personnages, plus il sera facile de prévoir le comportement des différents intervenants, et donc d’improviser.</p>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713648133565,
+            "modifiedTime": 1713722371821,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Briefing",
+          "type": "text",
+          "_id": "IxojqaNJqXnAmGo3",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<img src=\"systems/heist/images/media/scenario/irish-job/briefing.webp\" /><p style=\"text-align:right\"><em><strong>Londres, le samedi 7 avril 2018,</strong></em></p><p style=\"text-align:right\"><em><strong>midi planque Heist.</strong></em></p><p><em>Agents Trèfle, Pique, Carreau et Cœur, nous avons une nouvelle mission pour vous.</em></p><p><em>Notre client compte sur votre discré­tion et votre savoir-faire.</em></p><p></p><p><em>Pour cette affaire, je vous envoie à Londres. Vous allez devoir vous emparer d’un tableau du peintre d’origine irlandaise Francis Bacon. Il s’agit d’un autoportrait inédit, disparu lors de sa mort dans les années 1990 et qui circule sur le marché noir depuis. Il est estimé à près de 500 000 livres sterling. Cela faisait des années qu’il n’avait pas fait parler de lui, avant que nous ne recevions de nouvelles informations hier.</em></p><p><em>Il serait détenu par un certain Douglas O’Brien.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/irish-job/autoportrait-francis-bacon.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> <em>Autoportrait</em> de Francis Bacon, 1973, 35 x 30,5 cm.</p><p><em><strong>Lieu :</strong></em> Antique Emporium, Portobello, Londres.</p><p><em><strong>Délai :</strong></em> Ce soir, avant minuit.</p><p><em><strong>Victoire :</strong></em> Avant minuit, les agents sont loin des lieux, en possession du tableau.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Avant minuit, soit la police s’est emparée du tableau, soit O’Brien s’est enfui avec dans un camion.</p></div></div></div><p><em>Cet homme a commencé comme simple livreur pour la mafia irlandaise avant de monter sa propre affaire et d’être aujourd’hui à la tête d’un vaste réseau de vente d’antiquités et d’œuvres d’art au marché noir à Londres.</em></p><p><em>Il dispose de plusieurs entrepôts, mais nous pensons qu’il garde ses biens les moins légaux et les plus précieux près de lui.</em></p><p><em>Il opère depuis le premier bâtiment qu’il a acheté : The Antique Emporium, un antiquaire dans le très chic quartier de Portobello, la vitrine légale de ses trafics.</em></p><p><em>Il y a quelques années, O’Brien a acquis le pub attenant, The Griffin’s Head, et en a fait son quartier général. Son bureau est installé à l’étage.</em></p><p><em>Le bar, et en particulier sa salle « réser­ vée aux membres » à l’étage, sert de lieu de rencontre pour les clients du réseau de contrebande.</em></p><p></p><p><em>Nous ne savons pas où précisément se situe le tableau dans ce lieu. L’antiquaire dispose d’un large entrepôt, cela semble être un bon point de départ. De plus, O’Brien doit certainement détenir des registres dans son bureau, à l’étage du pub.</em></p><p><em>Notre informateur nous assure que le tableau aura disparu des lieux avant ce soir, minuit. Comment ? Nous n’en sommes pas sûrs, mais deux pistes sont apparues :</em></p><ul><li><p><em>un « événement exceptionnel » devrait avoir lieu ce soir au pub. Nous n’en connaissons pas la nature, mais cela mérite investigation ;</em></p></li><li><p><em>de plus, depuis ce matin, plusieurs camions ont été aperçus près du Grif­ fin’s Head, chargeant des caisses en bois et des meubles avant de dispa­ raître dans les docks. O’Brien et ses hommes semblent particulièrement nerveux. Ils se méfient de quelque chose et déménagent une partie de leur stock. Notre informateur nous a prévenus que les marchandises les plus précieuses, dont l’auto­ portrait, seront chargées dans plusieurs camions successifs durant la soirée.</em></p></li></ul><p></p><p><em>Il faut donc agir au plus vite. Vous avez jusqu’à ce soir, minuit.</em></p><p></p><p><em>Bonne chance.</em></p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713648515018,
+            "modifiedTime": 1713688339448,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Intrigue",
+          "type": "text",
+          "_id": "g4qb5TZkvv8tl5GV",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p><strong>Douglas O’Brien</strong> est un trafiquant d’art et d’antiquités respecté, doué en affaires et qui est, au Griffin’s Head, le roi dans son royaume.</p><p>Quand il a acheté le bloc contenant l’Antique Emporium et le pub, il y a découvert, dans le sous-sol attenant à la cave, un vieux bunker antiaérien de la Seconde Guerre mondiale qui n’apparaissait sur aucun plan. Il a sauté sur l’occasion pour en faire un entrepôt idéal et discret pour ses marchandises illégales… dont l’autoportrait que les personnages comptent emporter.</p><p>Il a aménagé trois accès vers ce bunker : dans son bureau, une trappe verrouillée donne sur un escalier qui y descend directement ; dans l’entrepôt, un monte-charge (dissimulé quand il n’est pas utilisé) permet de transférer les marchandises vers ou depuis la ruelle ou le magasin ; enfin, on peut y accéder depuis la cave du restaurant par une porte cachée, principalement utilisée en cas d’urgence.</p><p></p><p>Aujourd’hui, O’Brien doit se battre sur deux fronts.</p><p>D’un côté, il se pense en danger, et à juste titre. Plusieurs de ses « amis » dans la police lui ont clairement indiqué qu’un inspecteur zélé en a après lui et compte saisir une partie de ses biens les plus précieux.</p><p>Il a gardé cette information pour lui afin de ne pas inquiéter ses hommes ni laisser paraître son inquiétude. Il a pris les devants et fait venir des camions qui emportent son stock discrètement vers une planque temporaire dans les docks. Tout doit être parti avant la fin de la nuit : la police va intervenir d’une minute à l’autre, il le sait.</p><p>Gérer cette opération de transfert est déjà complexe, mais, comble de malchance, c’est ce soir qu’a lieu un événement d’importance dont O’Brien est l’hôte et l’organisateur depuis des années : le tournoi de poker du club. Cette année, le premier prix n’est autre que l’autoportrait de Bacon. Le club en question en profite pour inviter toutes les personnes qui comptent pour les affaires d’O’Brien, dans l’optique de flatter et réunir tous les gens d’influence de la ville, voire de l’Angleterre : pontes du réseau irlandais, trafiquants d’art, collectionneurs fortunés, directeurs de galerie, élus, policiers et fonctionnaires corrompus, etc. (voir plus loin @UUID[.lNIQSzBywUnu7vuv]{Déroulement du tournoi}).</p><p>Il se doit donc de faire bonne figure et d’accueillir tout ce beau monde sans rien laisser paraître.</p><p></p><p>C’est sans compter sur la présence au tournoi du capitaine de police <strong>Philip Atwood</strong> (voir plus loin @UUID[.oNZnxVed1IepVQ9v]{Casting}). Dissimulé sous une fausse identité et secondé de plusieurs agents infiltrés, celui-ci compte bien arrêter O’Brien ce soir, mettre sous scellés toute sa collection illégale et en profiter pour faire tomber quelques têtes corrompues par la même occasion.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713648868198,
+            "modifiedTime": 1713688342506,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Lieux",
+          "type": "text",
+          "_id": "Dcfd5JW7ht0ugZgu",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p><strong>Description des lieux quand les agents arrivent :</strong></p><p><em>À quelques pas de la très touristique Portobello Road se dresse, dans une petite rue à sens unique, un magasin d’antiquités, l’Antique Emporium, ins­tallé dans un vieux bâtiment au toit en dents de scie caractéristique des vieilles industries. À travers les vitres, les curieux peuvent voir des centaines d’antiquités diverses (meubles, accessoires, œuvres, décorations, etc.) qui se perdent dans ce qui semble être un véritable dédale.</em></p><p><em>Juste à côté, les touristes peuvent se désaltérer dans un petit pub irlandais avec un étage, le Griffin’s Head. Les belles fenêtres aux vitraux orange et vert permettent d’admirer le vieux comptoir en cuivre et les box en bois ouvragé.</em></p><p><em>La porte suivante s’ouvre sur un petit restaurant de fish &amp; chips à emporter, visiblement associé au pub, le Griffs&amp;Chips.</em></p><p><em>Le bloc de bâtiments laisse ensuite place à une ruelle en impasse, à peine assez large pour laisser passer un camion. Deux hommes surveillent l’entrée de l’impasse.</em></p><h2>Impasse</h2><p>L’impasse s’enfonce sur quelques dizaines de mètres. Les bâtiments à l’est et au nord sont des immeubles résidentiels de cinq étages, sans fenêtre sur cette ruelle.</p><ul><li><p>Deux gardes sont en permanence de faction à l’entrée. Ils discutent, fument, regardent leur téléphone.</p></li><li><p>Sur le mur ouest, une porte de service mène derrière le comptoir du <em>fish &amp; chips</em> ; elle est toujours ouverte ou presque pour évacuer une partie des odeurs de friture.</p></li><li><p>Une porte de service mène aux cuisines du pub. Les cuisiniers en sortent pour décharger les livraisons, sortir les poubelles jusque dans la rue ou faire une pause.</p></li><li><p>Une trappe au sol à côté de la porte de service des cuisines mène au sous-sol, dans la cave qui sert de réserve au restaurant et au bar. Elle est par défaut verrouillée par un gros cadenas.</p></li><li><p>Une grande porte de garage, ainsi qu’une porte de service à côté, mène à l’entrepôt. Un garde est assis devant.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un camion s’enfonce dans la ruelle en marche arrière, effectuant une manœuvre délicate. Le chauffeur salue les deux gardes.</p><p>Quand le camion arrive au bout de la ruelle, la porte de l’entrepôt s’ouvre. Un homme sort de l’arrière du camion. Quatre gardes sortent de l’entrepôt et aident le chauffeur à charger des caisses et des meubles dans le camion.</p><p>Quand vous le souhaitez, le camion repart.</p><p>Si l’on écoute la conversation avec les gardes, le chauffeur indique qu’il revient d’ici quelques heures, mais que, d’ici là, d’autres camions arrivent pour charger.</p></div><p></p><div class=\"blue-box\"><h1>Routine des chargements de camion</h1><p>Toutes les heures, un camion arrive.</p><ul><li><p>Il salue les gardes à l’entrée de la ruelle.</p></li><li><p>Il se gare en marche arrière.</p></li><li><p>Un homme sort de l’arrière du camion et y retourne à la fin du chargement.</p></li><li><p>Les hommes dans l’entrepôt sortent et chargent le camion pendant environ 30 minutes.</p></li><li><p>Le camion repart en saluant les gardes.</p></li></ul><p>Tous les camions viennent de la même société de logistique, Newtown Freight.</p><p>En plus du chauffeur, il y a un garde dans chaque camion, sur la banquette avant tant que le camion roule, à l’arrière quand il est en cours de chargement.</p></div><p></p><div class=\"blue-box\"><h1>Les chargements de marchandises</h1><p>Les camions vident en premier l’entrepôt pendant la journée (et donc pendant la reconnaissance).</p><p>Les stocks du bunker ne sont vidés qu’à partir du soir.</p><p>Le portrait ne partira dans un camion que si O’Brien se retrouve obligé de fuir avec.</p></div><p></p><h2>Magasin - The Antique Emporium</h2><ul><li><p>Ouvert tous les jours de 10 heures à 18 heures, sauf les lundis et mardis.</p></li><li><p>Le magasin vend tout type d’antiquités : meubles, peintures, accessoires, luminaires, statues, vases, etc. Le tout dans une ambiance assez poussiéreuse, datée. La première impression ressentie quand on y entre est d’être dans un lieu foutraque.</p></li><li><p>À l’intérieur, un parcours de circulation fait faire le tour de l’ensemble du magasin. Difficile de comprendre l’organisation, mais tout est accessible. Les éléments sont numérotés (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#le-systeme-de-classement-des-antiquites]{Le Système de classement des antiquités}).</p></li><li><p>Le bâtiment est très en hauteur. Le plafond est à 6 mètres sur le côté le plus haut, à l’est, et descend en pente jusqu’à la hauteur de 5 mètres sur le côté ouest.</p></li><li><p>De grandes vitres sur le toit en dents de scie éclairent agréablement le lieu poussiéreux.</p></li><li><p>On croise parfois un chat noir farouche, Bagheera.</p></li><li><p>Au fond du magasin, à l’est, en levant les yeux, on repère clairement une grande baie vitrée délavée, qui commence à environ 3 mètres de hauteur. Aussi vieille que le bâtiment, elle est trop opaque pour parfaitement voir au travers. Avec une vue acérée, on peut deviner qu’il s’agit d’un bureau, derrière (celui d’O’Brien).</p></li><li><p>Sur le mur est, il y a une large porte coulissante vers l’entrepôt, qui est verrouillée par une serrure.</p></li><li><p>Deux personnes travaillent dans cette boutique : <strong>Miss Garrett</strong>, la patronne, se trouve toujours derrière le comptoir ; <strong>Leon Fergil</strong>, employé aigri, se déplace dans le magasin.</p></li><li><p>Derrière le comptoir, il n’y a aucun élément informatique, mais un registre qui répertorie tous les éléments présents au magasin et dans l’entrepôt (mais pas dans le bunker).</p></li><li><p>Dans les allées, quelques touristes et clients regardent les produits.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Fergil sort de l’entrepôt par la porte coulissante, la referme derrière lui et surprend des clients qui touchent à des produits exposés : « <em>Si on touche, on paie !</em> »</p><p>Bagheera sort de nulle part en sautant à proximité d’un agent avant de disparaître derrière un meuble.</p></div><p></p><div class=\"blue-box\"><h1>Le système de classement des antiquités</h1><p>Les objets possédés par le maga­sin et O’Brien sont soigneusement répertoriés, y compris l’autoportrait de Bacon.</p><p>Tous les objets sont étiquetés avec 3 lettres, 1 lettre, 2 chiffres : « ANT-B-28 » par exemple.</p><p>Les 3 premières lettres corres­pondent au bâtiment de stockage :</p><ul><li><p>ANT pour le magasin ;</p></li><li><p>STO pour l’entrepôt ;</p></li><li><p>BUN pour le bunker.</p></li></ul><p>La lettre seule correspond à l’étagère ou l’allée où est rangé l’ob­jet et le chiffre à son emplacement précis dans cette étagère ou allée.</p><p>Les registres trouvables dans le magasin et l’entrepôt ne font état que de références en STO et ANT-.</p><p>Le registre dans le bureau d’O’Brien, lui, liste tous les élé­ments, y compris ceux du bunker.</p></div><p></p><h2>Entrepôt</h2><ul><li><p>Quatre gardes circulent en permanence pour entreposer des caisses et des meubles devant la porte côté impasse ou pour charger le camion quand il est là.</p></li><li><p>Le plafond varie entre 5 et 6 mètres de hauteur, en dents de scie.</p></li><li><p>Comme dans le magasin, de grandes vitres sur le toit éclairent le lieu. Elles sont mal entretenues, un peu opacifiées par la crasse, mais on peut voir à travers.</p></li><li><p>À l’ouest, le plafond est plus bas (environ 2,5 mètres) en raison d’une pièce à l’étage : c’est là que se situe en hauteur le bureau d’O’Brien, dont on voit une des grandes baies vitrées délavées, similaire à celle du côté du magasin.</p></li><li><p>Une grande porte fermée par une porte coulissante, verrouillée, mène au magasin. Parfois, Fergil passe de l’entrepôt au magasin.</p></li><li><p>L’entrepôt est organisé (plus que le magasin en tout cas) avec des rayonnages. Les meubles sont encastrés de manière à prendre le moins de place possible.</p></li><li><p>Le rangement se fait selon le système de classement des antiquités expliqué ci-contre.</p></li><li><p>Il y a un petit chariot élévateur qui permet d’aller chercher et de déplacer des marchandises en hauteur.</p></li><li><p>Caché derrière une série de rayons, un monte-charge descend dans le bunker. C’est une plaque de métal au sol, rien ne laisse présager son utilisation à moins de l’inspecter.<br />Un boîtier électronique est fixé sur le mur à proximité. En utilisant une clé spécifique, il enclenche le monte-charge. Il existe 3 exemplaires de cette clé, possédés par le responsable de la sécurité (Murphy), par O’Brien et par un des gardes qui s’occupent des chargements.</p></li><li><p>Un digicode dans le coin au nord-ouest ouvre une porte dissimulée. Celle-ci donne sur un escalier en colimaçon qui monte vers le bureau d’O’Brien et descend vers le bunker.</p></li><li><p>Près de la porte vers la ruelle, un petit cabanon technique sert de poste de sécurité. À l’intérieur, il y a en permanence un garde qui surveille une série d’écrans, où retransmettent les caméras de sécurité. Il n’en sort que pour aider à charger le camion.</p></li><li><p>Le compteur électrique général (et donc les fusibles de tout le bâtiment) se trouve dans le poste de sécurité.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Les hommes chargent le camion. Quand celui-ci repart, ils retournent chercher d’autres caisses au sous-sol en utilisant le monte-charge, pour les installer près de la porte de garage.</p><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><p></p><h2>Fish &amp; Chips - Griffs&amp;Chips</h2><ul><li><p>Ouvert tous les jours de 10 heures à 23 heures.</p></li><li><p>Le menu est unique et dépend du poisson du jour.</p></li><li><p>Tout est cuisiné dans les cuisines du pub.</p></li><li><p>Une porte battante dans le mur du fond mène à la cuisine.</p></li><li><p>Il y a un banc et quelques chaises pour patienter, mais rien n’invite à rester.</p></li><li><p>L’ensemble est plutôt poisseux.</p></li><li><p>Un employé se tient derrière le comptoir : <strong>Liam Sullivan</strong>.</p></li></ul><h2>Cuisine</h2><ul><li><p>Le cuistot, <strong>Marc Dunstal</strong>, commence son service à 11 heures pour le finir à 23 heures.</p></li><li><p>Au coup de feu, il est aidé par un commis, <strong>Luke Perk</strong>. Il est seul le reste du temps.</p></li><li><p>En prévision du tournoi de ce soir, et en fonction de l’heure qu’il est, des renforts sont présents (à la plonge ou au service). Dunstal et Perk ne connaissent pas tous les extras personnellement.</p></li><li><p>Le menu est sommaire : <em>fish &amp; chips</em>, <em>stew</em> ou <em>Guinness pie</em>.</p></li><li><p>L’équipement est simple mais bien entretenu et fonctionnel. La cuisine est toujours propre, Dunstal y veille.</p></li><li><p>Une porte mène derrière le comptoir du pub, une autre au restaurant Griffs&amp;Chips et une troisième dans l’impasse.</p></li><li><p>Un escalier monte à l’étage.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><p></p><h2>Irish pub - The Griffin’s Head</h2><ul><li><p>Le pub ouvre à 10 heures et ferme à 1 heure du matin.</p></li><li><p>La belle porte en bois donne sur un vieux pub avec un très beau comptoir en cuivre, des tables en bois et des box anciens. Une musique rock/folk est diffusée.</p></li><li><p>Il y a toujours une barista derrière le comptoir, <strong>Sally Sullivan</strong>.</p></li><li><p>Le soir, elle est aidée par un serveur en extra.</p></li><li><p>Il y a toujours une à deux tables occupées. Le midi et le soir, le lieu est plus rempli (une quinzaine de personnes).</p></li><li><p>La moitié des clients sont des membres de la bande d’O’Brien, de simples travailleurs ou des hommes de main. L’autre moitié est constituée de gens de passage ou de touristes inconscients des magouilles du patron.</p></li><li><p>L’escalier est barré par une simple corde et un panneau « <em>members only</em> ».</p></li><li><p>L’homme au comptoir est <strong>Donn Murphy</strong>. Il est également chargé de filtrer les passages vers l’étage. Il n’y a pas de carte de membre, il est simplement briefé sur les personnes bienvenues ou non. Parfois, c’est O’Brien qui se charge de les lui indiquer, mais, le plus souvent, c’est <strong>Ethan Byrne</strong>, le responsable de la salle de jeu. Les habitués reçoivent simplement un hochement de tête pour monter. De nouveaux venus se présentent parfois, chaperonnés par un ancien. Murphy prend alors le temps de scruter l’individu, de le fouiller éventuellement et d’en parler à Byrne en cas de doute.</p></li><li><p>Les clients habitués parlent discrètement du tournoi à venir et du premier prix.</p></li><li><p>Murphy a sur lui la liste des participants au tournoi (un papier collé sur un porte-document). Il consulte régulièrement la liste.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un croupier (en uniforme) arrive au comptoir, demandant des rensei­gnements pour le tournoi. Murphy le fait monter à l’étage et le renvoie vers Byrne.</p><p>Murphy passe aux toilettes ; il laisse son porte-document sur le comptoir en faisant signe à Sullivan de le garder à l’œil.</p><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><p></p><h2>Club - Salle de jeu</h2><ul><li><p>La salle est ouverte aux membres, le soir seulement.</p></li><li><p>En journée, rien ne s’y passe, si ce n’est la préparation des tables de jeu pour le tournoi.</p></li><li><p>Un tournoi de poker privé est organisé ce soir. Une affiche reprend la composition des tables et le prix final qui sera « une œuvre exceptionnelle », sans préciser de quoi il s’agit.</p></li><li><p>Huit tables de poker sont installées. Huit croupiers ont été embauchés pour l’occasion ; ils arrivent aux alentours de 17 heures pour préparer les tables.</p></li><li><p>Ethan Byrne est responsable de la salle de jeu et du bar.</p></li><li><p>Le soir, assis près de la porte du bureau sur une chaise, <strong>Hugh « Huge » Kavanagh</strong> sert de videur. Il est armé, mais n’est pas là durant la journée.</p></li><li><p>Deux serveurs sont prévus pour le tournoi, en plus des croupiers.</p></li><li><p>Une porte mène au bureau d’O’Brien. Elle est toujours verrouillée (il est le seul à posséder la clé), sauf s’il est à l’intérieur.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un croupier appelle, il ne pourra pas venir ce soir, ce qui met Byrne très en colère.</p><p>O’Brien passe par là saluer tout le monde (voir ci-dessous @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><p></p><h2>Bureau</h2><ul><li><p>La pièce est au-dessus d’une partie de l’entrepôt.</p></li><li><p>Le plafond est le même que celui du magasin et de l’entrepôt (dents de scie du toit industriel), mais sans vitre ici.</p></li><li><p>Les murs à l’est et à l’ouest sont d’immenses baies vitrées à carreaux datant de l’époque industrielle du magasin.<br />Les vitres sont un peu opaques, mais permettent de distinguer s’il y a de l’activité dans le magasin d’un côté et dans l’entrepôt de l’autre.</p></li><li><p>La pièce est aménagée avec des objets provenant du commerce d’O’Brien : table, bibliothèque, chaises, tableaux, téléphone, tapis couvrant tout le sol… chaque élément est une pièce de collection. Seul l’ordinateur est de dernier cri.</p></li><li><p>Au mur, un tableau de Turner est présent, un original.</p></li><li><p>Derrière le tableau se trouve un coffre-fort à molettes. À l’intérieur, il y a de l’argent liquide, des documents légaux, la clé de la trappe de l’escalier, le certificat d’authenticité de l’autoportrait de Bacon et le registre de toutes les pièces entreposées dans le bâtiment, y compris dans le bunker. La référence de l’autoportrait est BUN-D-28.</p></li><li><p>Un escalier métallique en colimaçon descend au rez-de-chaussée, puis au sous-sol. C’est O’Brien qui l’a fait ajouter quand il a découvert l’existence du bunker à l’achat du magasin. Cet ajout est absent des plans et inconnu des autorités.<br />La trappe d’accès à l’escalier est dissimulée sous un tapis, invisible sans une inspection. Elle s’ouvre avec une clé qu’il garde sur lui et dont un double est entreposé dans le coffre-fort.</p></li><li><p>Sur sa table, des documents papier sont étalés, mais n’ont aucun intérêt (paperasse légale et comptable).</p></li></ul><p></p><div class=\"blue-box\"><h1>Pendant la reconnaissance, le chemin d’O’Brien</h1><p>O’Brien est dans son bureau au début de la phase de Reconnaissance, puis se déplace en suivant les étapes suivantes :</p><ul><li><p>Il sort du bureau et entre dans la salle de jeu où il salue Byrne, vérifiant avec lui si tout est prêt pour le soir même ;</p></li><li><p>Il descend par l’escalier vers le rez-de-chaussée du pub. Il salue et discute chaleureusement avec Murphy et Sally Sullivan, les encourageant à faire du bon boulot ce soir pour le tournoi : il compte sur eux. C’est probable­ment ici qu’il a le plus de chances d’être vu par les agents, ce moment peut donc avoir lieu quand l’un d’eux visite le pub ;</p></li><li><p>O’Brien passe ensuite en cuisine pour tenir le même type de discours à Dunstal et sort dans l’impasse. Si Fergil s’y trouve, il le réprimande genti­ment pour son laxisme ;</p></li><li><p>Après cela, il rejoint l’équipe qui charge un camion, vérifiant avec sérieux si tout se passe comme convenu et les encourageant pour les derniers char­gements à venir dans la journée ;</p></li><li><p>Il entre enfin dans l’entrepôt et utilise le monte-charge pour descendre dans le bunker ;</p></li><li><p>Pour finir, il utilise l’escalier « secret » pour retourner dans son bureau.</p></li></ul><p>O’Brien est parfaitement avenant et salue chaleureusement tous ses employés sur son chemin. En revanche, dès qu’il ne se pense pas observé, il semble soucieux, vérifiant constamment son téléphone et manipulant ses clés nerveusement.</p></div><p>En revanche, l’ordinateur permet d’accéder au système de surveillance du bâtiment et de le manipuler : caméras et alarmes du magasin, de l’entrepôt et du bunker.</p><h2>Cave</h2><ul><li><p>La salle est entièrement en béton. Le plafond est voûté du côté de la ruelle. Des tubes néon éclairent la pièce d’une lumière jaune.</p></li><li><p>Les fûts de bière et les stocks de nourriture du bar ainsi que du <em>fish &amp; chips</em> sont entreposés sur des étagères.</p></li><li><p>Dans le coin sud-ouest, une observation des lieux permet de repérer un rail au sol qui disparaît sous une étagère ; il n’y en a pas ailleurs dans la cave. L’étagère en question peut être déplacée pour dévoiler une ouverture dans le mur, donnant sur le bunker secret.<br />Le passage s’ouvre avec un digicode dissimulé à proximité de l’étagère.</p></li></ul><h2>Bunker</h2><ul><li><p>Il s’agit d’un petit abri pour se protéger des bombardements, construit par les propriétaires de l’ancienne usine dans les années 1940 et jamais ajouté au cadastre.</p></li><li><p>Il sert désormais de lieu de stockage pour les marchandises illégales d’O’Brien. Il y a des dizaines de tableaux, des meubles ouvragés et des centaines de caisses en bois avec des dizaines d’objets dans chacune.</p></li><li><p>Tout est inventorié sur le même système que dans l’entrepôt, avec le préfixe BUN.</p></li><li><p>L’autoportrait est au bon emplacement (BUN-D-28). Le trouver sans connaître le registre prend 90 minutes (temps nécessaire pour ouvrir une caisse ou déballer un tableau, regarder et passer à la suite).</p></li><li><p>Un monte-charge mène à l’entrepôt, un escalier en colimaçon au bureau d’O’Brien, et une porte à la cave.</p></li></ul>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.l76Fhe8Py52iYkcC.JournalEntryPage.Dcfd5JW7ht0ugZgu"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713649027428,
+            "modifiedTime": 1713688348100,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Casting",
+          "type": "text",
+          "_id": "oNZnxVed1IepVQ9v",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Douglas O’Brien</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/irish-job/douglas-o-brien.webp\" /></div></div><p>O’Brien est un homme de 50 ans, en pleine forme, toujours élégamment habillé. Il cultive la loyauté de ses employés en étant toujours très prévenant et chaleureux, prenant des nouvelles de toutes et tous quand il le peut.</p><p>C’est également un homme redoutable, sans pitié ni remords quand il faut prendre des décisions fermes.</p><p>Il connaît tout le gratin plus ou moins légal de Londres et s’y est fait une place de choix en entretenant ses relations et en exploitant les petits secrets de chacun.</p><p>Depuis deux jours, il se pense en danger suite à plusieurs observations de ses hommes et de ses clients : il est surveillé.</p><p>Il a doublement raison : d’un côté l’agence Heist veut s’emparer d’une pièce de très grande valeur, de l’autre la police londonienne prévoit un grand coup de filet pour arrêter son trafic. C’est elle qui surveille ses allées et venues et tourne autour du pub.</p><h2>Miss Garett</h2><p>Il s’agit d’une vieille dame directe, coquette, toujours un porte-cigarette allumé à la main. Elle connaît par cœur son magasin, l’Antique Emporium. Elle travaille avec O’Brien depuis toujours et sait tout de ses activités. C’est la propriétaire du chat Bagheera.</p><h2>Leon Fergil</h2><p>Cet homme de 40 ans est le neveu de Miss Garrett. À l’âge de 20 ans, pour se faire un peu d’argent, il avait prévu de travailler quelques mois à l’Antique Emporium ; il y est coincé depuis. Il n’aide les clients qu’avec beaucoup de grommellements et ronchonnements. Il est plus souvent derrière le comptoir qu’en rayon, lisant le journal en maugréant. Il aimerait en savoir plus sur les affaires d’O’Brien, mais sa tante le met de côté, soit qu’elle le pense trop bête pour comprendre, ou pour son propre bien.</p><p>Il devient doux et sirupeux en présence d’O’Brien.</p><p>C’est lui qui va dans l’entrepôt s’il y a besoin de réceptionner ou déplacer des marchandises pour le magasin. Il sait comment accéder au sous-sol, aidant parfois les hommes d’O’Brien à descendre ou remonter des objets spéciaux.</p><h2>Donn Murphy</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/irish-job/donn-murphy.webp\" /></div></div><p>Le responsable de la sécurité du pub, la quarantaine est bien bâti : 1 m 60 pour 85 kg, principalement de muscles. Coincé dans une chemise trop serrée et une casquette des années 1920 sur la tête, il passe ses journées accoudé au comptoir, sirotant une Guinness. Il surveille tout le monde d’un œil (habitués et nouveaux venus), sans en avoir trop l’air. Il réagit immédiatement s’il faut rappeler à l’ordre un client ou le jeter dehors. C’est également lui qui filtre les entrées au club.</p><p>Pour le tournoi, O’Brien lui a fourni une liste détaillée des invités. Il ne les connaît pas tous et garde en main la liste sur un porte-document.</p><h2>Sally Sullivan</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/irish-job/sally-sullivan.webp\" /></div></div><p>Il s’agit de la serveuse habituelle du pub. Elle sait bien que tout ce qui se trame ici est peu légal, mais elle est très fière de ses origines et très loyale à O’Brien.</p><p>Elle se fait rarement embêter par les habitués à qui elle rabaisse le caquet sans souci si le discours ou le comportement commencent à dépasser les bornes.</p><p>Grande sœur de Liam, elle est souvent embarrassée par le manque de discernement et de maturité de ce dernier, mais tient à le protéger.</p><h2>Liam Sullivan</h2><p>Du haut de ses 17 ans, le petit frère de Sally est très enthousiaste et un peu naïf à la fois. Serveur au Griffs&amp;Chips et fan de football, il ne connaît pas grand-chose des affaires d’O’Brien et ne cherche pas à en savoir plus.</p><p>Il est très facilement influençable et se fait vite réprimander par Dunstal s’il passe trop de temps à discuter avec les clients au lieu de les servir.</p><h2>Marc Dunstal</h2><p>C’est le chef cuistot du Griffin’s Head depuis 15 ans. Il a une cinquantaine d’années, les cheveux rares, le tablier gras et la bedaine visible. C’est un gros travailleur qui ne supporte pas les flemmards, d’où les tensions avec Perk, son commis.</p><p>Il sait tout des affaires d’O’Brien, étant lui-même un de ses anciens hommes de main.</p><h2>Luke Perk</h2><p>Cet homme de 20 ans est passionné de voitures et de jolies filles. Il ne travaille comme commis de cuisine que parce que son père le menace de le virer de chez lui s’il n’apporte pas de quoi payer un loyer. Il trouve toutes les excuses possibles pour sortir des cuisines pendant son service (s’occuper des poubelles, aller chercher des réserves dans la cave, etc.) et en profiter pour fumer une cigarette dans l’impasse. Il déteste Dunstal et fait tout pour travailler le moins possible.</p><h2>Ethan Byrne</h2><p>Il s’agit du responsable du club. C’est un grand maigre à la musculature nerveuse. Il est toujours habillé en chemise blanche boutonnée jusqu’en haut, la moustache fine parfaitement entretenue. Ancien malfrat, habitué des bagarres de rue et boxeur amateur, mais également très poli et respectueux, il a trouvé sa place ici il y a une dizaine d’années et a toute la confiance d’O’Brien.</p><h2>Hugh « Huge » Kavanagh</h2><p>Le videur du club est un homme de main d’O’Brien ; il fait office d’agent de sécurité pendant le tournoi. C’est une immense armoire à glace. Il n’est pas très malin, parfois soupe au lait, mais sait retrouver son calme si O’Brien ou Byrne lui en donnent l’ordre.</p><h2>Philip Atwood</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/irish-job/philip-atwood.webp\" /></div></div><p>Le capitaine de police incorruptible de 35 ans veut faire tomber O’Brien et tout son réseau. Il a prévu de faire de l’opération de ce soir le plus grand coup de filet de l’histoire de la police londonienne. Il compte bien arrêter O’Brien et inculper toutes les personnes sur place de complicité ou de corruption.</p><p>Pour cela, il a infiltré lui-même le tournoi, se faisant passer pour un des participants (sous l’identité de <strong>Vlad Kasim</strong>, un homme d’affaires russe qu’O’Brien ne connaît pas et n’a même jamais vu). Il a aussi placé un agent comme croupier (qui demande des renseignements au comptoir pendant la Reconnaissance) et un autre comme serveur.</p><p>Au rez-de-chaussée, pendant la soirée, cinq agents de police en civil viendront commander à manger, attendant le signal.</p><p>Au moment voulu, des voitures de police arrivent pour bloquer la rue et Atwood et ses hommes arrêtent toutes les personnes présentes sur place.</p>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.l76Fhe8Py52iYkcC.JournalEntryPage.oNZnxVed1IepVQ9v"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713684875596,
+            "modifiedTime": 1713688351672,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Déroulement du tournoi",
+          "type": "text",
+          "_id": "lNIQSzBywUnu7vuv",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Ce soir, à 20 h 30, le tournoi de poker annuel du club a lieu. Chaque participant a reçu une invitation.</p><p>Il arrive que les invités donnent leur invitation à un de leur proche pour qu’il profite du jeu. O’Brien en est alors informé en avance, en général.</p><p>C’est un événement de charité dont le prix d’entrée est de 15 000 livres sterling, ouvert seulement aux invités, dont les gains sont reversés à une organisation d’aide aux enfants démunis.</p><p>Pour ajouter un enjeu, O’Brien offre toujours au gagnant une pièce de valeur de sa collection. Cette année, il s’agit de l’autoportrait de Francis Bacon, estimé à 500 000 livres.</p><p>À partir de 17 heures, les croupiers préparent les tables et sont briefés par Byrne.</p><p>L’un d’entre eux est en réalité un agent de police de l’équipe d’Atwood, de même que l’un des serveurs employés en extra pour la soirée.</p><p>50 joueurs sont prévus ce soir, répartis sur 8 tables. On joue au Texas hold’em no-limit, en tournoi à élimination.</p><p>Trois invités ne se présenteront pas :</p><ul><li><p>Rudolph Mac Allister, un trafiquant d’art d’Édimbourg, est malade depuis plusieurs jours. O’Brien le sait, tout comme Murphy (son nom est annoté sur sa liste) ;</p></li><li><p>Lucie Leclerc, une richissime collectionneuse française, cliente régulière d’O’Brien, n’a prévenu que ce matin qu’elle ne viendrait pas (son nom est annoté sur la liste) ;</p></li><li><p>Vlad Kasim, un homme d’affaires russe qu’O’Brien n’a jamais rencontré. Ce dernier lui a servi d’intermédiaire pour acquérir plusieurs pièces de collection de l’époque des tsars. La police l’a arrêté en toute discrétion à son arrivée à Londres hier soir. L’agent Atwood va prendre sa place pendant le tournoi.</p></li></ul><p>À partir de 19 h 30, les premiers participants sont reçus par Murphy au bar. Celui-ci vérifie le nom sur la liste et le carton d’invitation avant de laisser monter. À l’étage, O’Brien accueille personnellement chaque invité. Il connaît tout le monde, à quelques exceptions près (compagnes et compagnons ou personnes avec qui il n’interagit qu’à distance, par exemple).</p><p>En observant les participants, on peut noter la tension palpable de certains, en particulier les regards échangés entre le faux Kasim, un des croupiers et un des serveurs, ou les coups d’œil réguliers qu’ils portent à leur montre.</p><h2>Parcours du tableau durant la soirée</h2><p>À 20 h 15, O’Brien entre dans son bureau, ouvre la trappe, descend les escaliers. Dans le bunker, il prend le tableau et remonte au club par le même chemin.</p><p>À 20 h 30, O’Brien fait un discours, remerciant chacun pour sa présence, souhaitant bonne chance à tous et toutes, puis il présente le prix pour le vainqueur d’un geste théâtral, sous les murmures impressionnés de l’assemblée.</p><p>À 20 h 45, O’Brien retourne dans le bunker avec le tableau pour le ranger, en passant par le bureau.</p><p>À 23 h 30, si rien n’est venu l’interrompre, le tournoi se termine. O’Brien fait patienter le vainqueur, descend par le même chemin et remonte avec le tableau. Il félicite publiquement le gagnant et l’invite dans son bureau pour lui remettre le certificat d’authenticité en privé.</p>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.l76Fhe8Py52iYkcC.JournalEntryPage.lNIQSzBywUnu7vuv"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713687737912,
+            "modifiedTime": 1713688354498,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Événements Joker",
+          "type": "text",
+          "_id": "a0ysgGOpAEAJ72Gm",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Joker 1</h2><p>Un camion arrive dans la ruelle pour charger une partie du stock.</p><p>Les quatre gardes dans l’entrepôt ainsi que celui chargé de la surveillance des écrans de sécurité sortent aider au chargement.</p><p>Le camion repart au bout d’une quinzaine de minutes.</p><h2>Joker 2</h2><p>La police tente d’arrêter toutes les personnes sur place : les agents en couverture pendant le tournoi et plusieurs agents de police en civil au rez-de-chaussée annoncent à tout le monde qu’ils sont en état d’arrestation au moment où cinq voitures de police arrivent, toutes sirènes hurlantes, et encerclent le bâtiment.</p><p>C’est la panique dans l’entrepôt !</p><p>O’Brien (avec Kavanagh si possible) quitte immédiatement le tournoi pour se réfugier dans son bureau et vider son coffre-fort. Ensuite, il descend dans le bunker par l’escalier secret, prend quelques pièces de valeur (dont l’autoportrait de Bacon), puis tente de fuir en camion, quitte à défoncer le barrage de police si nécessaire. Il est pris en chasse par l’agent Atwood lui-même et deux de ses policiers.</p><p>Les personnages se font arrêter par les forces de l’ordre, à moins qu’ils ne trouvent un moyen de les convaincre ou de leur fausser compagnie.</p><p>Ce plan de la police ne doit pas être révélé aux joueurs à l’avance, à moins que ceux-ci se penchent clairement sur les personnes suspectes : laissez entrevoir la tension des agents infiltrés pendant la soirée, au rez-de-chaussée comme à l’étage, s’ils sont observés des personnages.</p>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713687874046,
+            "modifiedTime": 1713688359715,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Liste d’achats",
+          "type": "text",
+          "_id": "IPhEQrmy3QOSyS7E",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Pour aider vos joueurs pendant la phase de Préparation, voici quelques éléments que vous pouvez leur suggérer, pour donner des pistes :</p><ul><li><p>@UUID[Item.Dhb8tf7K72Ia7AZ4]{Un plan du sous-sol} (la partie « officielle ») (2 $) ;</p></li><li><p>Un faux du tableau</p><ul><li><p>@UUID[Item.Yl3Qn0nmNBRDabNB]{Peu convaincant} : 1 $ ;</p></li><li><p>@UUID[Item.fh2qfWGxetKu32xM]{D’une qualité qui résiste à une inspection rapide} : 2 $ ;</p></li></ul></li><li><p>@UUID[Item.kCDRsPyj6pVTKnuR]{Des détails sur le déroulement du tournoi} (1 $) ;</p></li><li><p>@UUID[Item.gueje0bSl3A6xIGG]{La liste des invités} (2 $) ;</p></li><li><p>@UUID[Item.eZTDrP8XMIV7Xy2t]{Une invitation falsifiée} (2 $) ;</p></li><li><p>@UUID[Item.kjXrqooXavyR58MI]{Un déguisement de croupier, serveur, cuistot, camionneur, etc.} (2 $) ;</p></li><li><p>@UUID[Item.IJZKleaahVwv8fH1]{Le registre des objets} (hors bunker) (2 $) ;</p></li><li><p>@UUID[Item.IjPxAMf2HvDt4lgF]{Un camion pour se faire passer pour un chargement} (4 $) ;</p></li><li><p>@UUID[Item.h28HMvxIk5TX3RzS]{L’emplacement des caméras} (2 $).</p></li></ul>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713687924642,
+            "modifiedTime": 1713688793491,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Pistes d’actions",
+          "type": "text",
+          "_id": "xoirsWQFDitc7ofQ",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Voici quelques points d’intérêt prévus par le scénario. Si les joueurs viennent avec de nouvelles idées, tant mieux !</p><h3>Soutirer des informations</h3><p>Murphy est nerveux et peut lâcher involontairement des remarques.</p><p>En cuisine également, le stress monte et peut laisser passer des pistes.</p><p>La personne qui parle le plus facilement est Liam Sullivan, le vendeur du Griffs&amp;Chips, simple à manipuler et à se mettre dans la poche.</p><h3>Grimper sur le toit de l’Antique Emporium et ouvrir une vitre du toit</h3><p>Attention au chat et aux caméras ! C’est un bon moyen d’accéder direc­tement au bureau en découpant la vitre de la baie vitrée.</p><h3>Se faire passer pour un extra en cuisine ou au service, ou pour un croupier</h3><p>Il faudra probablement un bon costume et un peu de tchatche pour justifier sa présence ou convaincre.</p><h3>Accéder au bunker</h3><p>En fouillant la cave, l’entrepôt ou le bureau.</p><h3>Participer au tournoi, voire gagner le tournoi</h3><p>À la place d’un des invités absents ou en enlevant un joueur à son arrivée, par exemple.</p><p>Un très bon déguisement sera sans doute nécessaire pour tromper la vigilance d’O’Brien qui salue les invités et les connaît presque tous.</p><p>De même, il faudra justifier l’absence de carton d’invitation auprès de Murphy, en voler un ou en faire un faux.</p><p>Gagner le tournoi est peu probable (<em>a priori</em> le tournoi sera interrompu par la police), mais cela, les joueurs ne le savent pas. En théorie, cela permettrait de partir avec le tableau sans aucun souci…</p><h3>Détourner un camion</h3><p>Attention : il y a le chauffeur et un garde à l’intérieur.</p><p>Il faudra passer la vigilance des gardes de la ruelle et de l’entrepôt.</p><p>Au contraire, un camion peut être utilisé comme cheval de Troie pour réaliser une attaque éclair.</p><h3>Détourner les caméras de sécurité</h3><p>Depuis le câblage d’une caméra, l’ordinateur d’O’Brien ou le poste de sécurité.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713688370107,
+            "modifiedTime": 1713688468608,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1000000,
+          "name": "Fin de partie",
+          "type": "text",
+          "_id": "yXCIJ7fJfoTdlh6b",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le scénario prend fin quand les agents quittent les lieux.</p><p><strong>S’ils disposent du tableau</strong> (et qu’ils n’ont pas fait trop de grabuge, ou, à défaut, si rien ne peut les relier à Heist), Jack les félicite et les recontactera pour une nouvelle mission prochainement.</p><p><strong>S’ils ne disposent pas du tableau</strong>, Jack est mécontent. Des moyens considérables ont été mis en place pour ce contrat qui se révèle être un échec cuisant.</p><p>La mission prend également fin si le paquet du meneur vient à s’épuiser. Les événements suivent alors leur cours en fonction de ce qui s’est passé jusque-là :</p><ul><li><p>Soit l’équipe de police parvient à arrêter tout le monde, le tableau devient alors une pièce à conviction (et peut-être le sujet d’une autre mission dans laquelle les agents doivent voler le commissariat…) ;</p></li><li><p>Soit le transport du tableau a bien lieu ; il est emporté près des quais pour un court transit, avant d’être stocké dans un lieu que vous pourrez déterminer si vous décidez que l’agence n’en a pas fini avec cet autoportrait.</p></li></ul><img src=\"systems/heist/images/media/scenario/irish-job/irish-job.webp\" />",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713688480580,
+            "modifiedTime": 1713688525481,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "folder": "gahqMK40hULiQ75J",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.l76Fhe8Py52iYkcC"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713648106792,
+        "modifiedTime": 1713722130093,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "gahqMK40hULiQ75J",
+      "name": "Aides de jeu",
+      "_id": "CucGDBJm3523b4bK",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Plans - MJ",
+          "type": "image",
+          "_id": "NrflrWOQtc6xJFPm",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/irish-job/plans-gm.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.NrflrWOQtc6xJFPm"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713722153835,
+            "modifiedTime": 1713722170397,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Plans - Agents",
+          "type": "image",
+          "_id": "GV92gpOBsZYU3Djl",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/irish-job/plans-agent.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.GV92gpOBsZYU3Djl"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713722178144,
+            "modifiedTime": 1713722182610,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Plans - Agents (officiel)",
+          "type": "image",
+          "_id": "bEgURuhGIKx4AETD",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/irish-job/plans-agent-official.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.bEgURuhGIKx4AETD"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713722201900,
+            "modifiedTime": 1713722205837,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Carton d’invitation",
+          "type": "image",
+          "_id": "YVuLRJY91Iz2UiQF",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/irish-job/invitation-card.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713722226709,
+            "modifiedTime": 1713722235611,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Affiche du tournoi",
+          "type": "image",
+          "_id": "HGOcK9Ojr8oUavmb",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/irish-job/tournament-poster.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713722273369,
+            "modifiedTime": 1713722279656,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Disposition des tables",
+          "type": "image",
+          "_id": "7BIvopowaXKUiOuR",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/irish-job/table-layout.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1713722287133,
+            "modifiedTime": 1713722292443,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713722136976,
+        "modifiedTime": 1713722136976,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "scenes": [],
+  "tables": [],
+  "macros": [],
+  "cards": [],
+  "playlists": [],
+  "folders": [
+    {
+      "name": "Irish Job - Liste d’achats",
+      "sorting": "a",
+      "folder": null,
+      "type": "Item",
+      "_id": "tkuoYCUS5Eldy4Et",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713688043755,
+        "modifiedTime": 1713722105666,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Irish Job",
+      "sorting": "a",
+      "folder": null,
+      "type": "JournalEntry",
+      "_id": "gahqMK40hULiQ75J",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.gahqMK40hULiQ75J"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713722121012,
+        "modifiedTime": 1713722121012,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "_id": "ZYppNsE7BcShTDB6",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713648034444,
+    "modifiedTime": 1713722431987,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!adventures!ZYppNsE7BcShTDB6"
+}

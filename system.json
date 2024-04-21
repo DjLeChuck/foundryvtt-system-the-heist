@@ -78,6 +78,12 @@
       "label": "Pré-tirés",
       "type": "Actor",
       "system": "heist"
+    },
+    {
+      "name": "scenarios",
+      "label": "Scénarios",
+      "type": "Adventure",
+      "system": "heist"
     }
   ],
   "socket": true,
