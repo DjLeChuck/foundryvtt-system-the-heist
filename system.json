@@ -68,7 +68,7 @@
       "system": "heist"
     },
     {
-      "name": "fetishs",
+      "name": "fetishes",
       "label": "Objets fétiches",
       "type": "Item",
       "system": "heist"
@@ -83,6 +83,12 @@
       "name": "scenarios",
       "label": "Scénarios",
       "type": "Adventure",
+      "system": "heist"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "type": "Macro",
       "system": "heist"
     }
   ],

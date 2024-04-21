@@ -1,0 +1,11 @@
+{
+  "label": "Macros",
+  "entries": {
+    "Fenêtre des phases de jeu": {
+      "name": "Game phases window"
+    },
+    "Fenêtre des tests d’agent": {
+      "name": "Agent test window"
+    }
+  }
+}

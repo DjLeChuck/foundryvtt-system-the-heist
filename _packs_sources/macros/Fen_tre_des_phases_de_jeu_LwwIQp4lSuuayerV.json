@@ -1,0 +1,27 @@
+{
+  "name": "Fenêtre des phases de jeu",
+  "type": "script",
+  "scope": "global",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/tools/navigation/hourglass-grey.webp",
+  "command": "game.heist.gamePhaseWindow.render(true);",
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1694210033881,
+    "modifiedTime": 1713728364684,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_id": "LwwIQp4lSuuayerV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "_key": "!macros!LwwIQp4lSuuayerV"
+}
