@@ -53,7 +53,13 @@
       "name": "card-decks",
       "label": "Decks de cartes",
       "type": "Cards",
-      "system": "heist"
+      "system": "heist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
     },
     {
       "name": "agent-types",
@@ -83,7 +89,13 @@
       "name": "scenarios",
       "label": "Scénarios",
       "type": "Adventure",
-      "system": "heist"
+      "system": "heist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
     },
     {
       "name": "macros",
