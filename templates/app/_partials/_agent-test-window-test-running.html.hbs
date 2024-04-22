@@ -1,15 +1,15 @@
 {{#if test.isFinished}}
   {{#if test.isSuccessful}}
-    <h1 class="align-center">{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h1>
+    <h1>{{localize "HEIST.ChatMessage.TestSuccessful" name=agent.name}}</h1>
     {{#if test.isBlackjack}}
       <h2>{{localize "HEIST.Blackjack.ItsABlackjack"}}</h2>
     {{/if}}
   {{else}}
-    <h1 class="align-center">{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h1>
+    <h1>{{localize "HEIST.ChatMessage.TestFailed" name=agent.name}}</h1>
   {{/if}}
 {{/if}}
 
-<h2 class="u-mt-small">{{localize "HEIST.Cards.HandName" name=jack.name}}</h2>
+<h2>{{localize "HEIST.Cards.HandName" name=jack.name}}</h2>
 
 <div class="flexrow align-center cards-container">
   {{#each jack.cards}}
@@ -47,7 +47,7 @@
   </div>
 {{/if}}
 
-<h2 class="u-mt-small">{{localize "HEIST.Cards.HandName" name=agent.name}}</h2>
+<h2>{{localize "HEIST.Cards.HandName" name=agent.name}}</h2>
 
 <div class="flexrow align-center cards-container">
   {{#each agent.cards}}

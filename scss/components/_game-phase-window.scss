@@ -28,6 +28,8 @@
     overflow: auto;
     border-bottom: 2px solid var(--c-brown-rust);
 
+    @include dark-transparency-bg;
+
     li {
       padding: 10px;
       display: inline;

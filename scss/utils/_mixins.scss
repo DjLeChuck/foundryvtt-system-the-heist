@@ -71,6 +71,8 @@
     border-bottom: none;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
+    margin: var(--small-gap) auto;
   }
 
   h2 {
@@ -82,6 +84,7 @@
     text-transform: uppercase;
     border-top: 1px solid var(--c-astronaut);
     border-bottom: 1px solid var(--c-astronaut);
+    margin: var(--small-gap) auto;
   }
 
   h3 {
@@ -109,7 +112,6 @@
       color: var(--c-white);
       font-family: var(--f-masqualero-groove);
       font-weight: normal;
-      text-align: center;
       border: none;
     }
 
