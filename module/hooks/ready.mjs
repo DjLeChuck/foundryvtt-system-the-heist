@@ -14,6 +14,13 @@ export const Ready = {
         game[HEIST.SYSTEM_ID].gamePhaseWindow.render(true);
       }
 
+      if (!game.settings.get(HEIST.SYSTEM_ID, 'systemHowToShown')) {
+        game.settings.set(HEIST.SYSTEM_ID, 'systemHowToShown', true);
+
+        const howto = await game.packs.get('heist.system-presentation').getDocument('SystemHowTo00000');
+        howto.sheet.render(true);
+      }
+
       SocketListener.activate();
     });
   },

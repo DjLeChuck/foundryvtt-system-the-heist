@@ -8,6 +8,13 @@ export function autoRegisterBabel() {
 }
 
 export function registerSettings() {
+  game.settings.register(HEIST.SYSTEM_ID, 'systemHowToShown', {
+    scope: 'world',
+    config: false,
+    default: false,
+    type: Boolean,
+  });
+
   game.settings.register(HEIST.SYSTEM_ID, 'autoRegisterBabel', {
     name: 'HEIST.Settings.AutoRegisterBabele.Title',
     hint: 'HEIST.Settings.AutoRegisterBabele.Hint',

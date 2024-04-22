@@ -35,7 +35,7 @@
         "modifiedTime": 1713735303943,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
-      "_key": "!journal.pages!oBuicNg1G3MsH9TL.1myplMlagRDtiX39"
+      "_key": "!journal.pages!SystemHowTo00000.1myplMlagRDtiX39"
     },
     {
       "sort": 200000,
@@ -71,7 +71,7 @@
         "modifiedTime": 1713777597312,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
-      "_key": "!journal.pages!oBuicNg1G3MsH9TL.C66gp0BBzXubqnEu"
+      "_key": "!journal.pages!SystemHowTo00000.C66gp0BBzXubqnEu"
     },
     {
       "sort": 300000,
@@ -107,7 +107,7 @@
         "modifiedTime": 1713780219333,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
-      "_key": "!journal.pages!oBuicNg1G3MsH9TL.OkfE8CIvjKu4LqDu"
+      "_key": "!journal.pages!SystemHowTo00000.OkfE8CIvjKu4LqDu"
     },
     {
       "sort": 400000,
@@ -142,7 +142,7 @@
         "modifiedTime": 1713779542046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
-      "_key": "!journal.pages!oBuicNg1G3MsH9TL.nkFCfYvAOPUPulef"
+      "_key": "!journal.pages!SystemHowTo00000.nkFCfYvAOPUPulef"
     },
     {
       "sort": 500000,
@@ -177,7 +177,7 @@
         "modifiedTime": 1713782554123,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
-      "_key": "!journal.pages!oBuicNg1G3MsH9TL.0hm2LjTEYstWkdFO"
+      "_key": "!journal.pages!SystemHowTo00000.0hm2LjTEYstWkdFO"
     }
   ],
   "folder": null,
@@ -192,11 +192,11 @@
     "modifiedTime": 1713782649752,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
-  "_id": "oBuicNg1G3MsH9TL",
+  "_id": "SystemHowTo00000",
   "sort": 0,
   "ownership": {
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
   },
-  "_key": "!journal!oBuicNg1G3MsH9TL"
+  "_key": "!journal!SystemHowTo00000"
 }
