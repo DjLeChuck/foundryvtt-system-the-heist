@@ -90,6 +90,12 @@
       "label": "Macros",
       "type": "Macro",
       "system": "heist"
+    },
+    {
+      "name": "system-presentation",
+      "label": "Présentation du système",
+      "type": "JournalEntry",
+      "system": "heist"
     }
   ],
   "socket": true,

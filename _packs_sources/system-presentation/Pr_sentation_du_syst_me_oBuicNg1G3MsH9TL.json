@@ -1,0 +1,202 @@
+{
+  "name": "Présentation du système",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Avant-propos",
+      "type": "text",
+      "_id": "1myplMlagRDtiX39",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Bienvenue sur le système non-officiel de The Heist pour FoundryVTT !</p><p>Tout d’abord, un grand merci à Gabriel Durnerin et Théo rivière sans qui ce jeu n’existerait tout simplement pas !</p><p>Ensuite, il convient de remercier Antre Mondes Éditions qui a donné son autorisation pour que cette implémentation du système puisse exploiter au maximum le contenu proposé pour The Heist : charte graphiques, fonts, images, textes, musiques… Un grand merci à eux, il est rare de voir un éditeur aussi permissif sur ses produits et c’est tout à leur honneur !</p><img src=\"systems/heist/images/logos/full-transparent.webp\" class=\"u-no-border centered\" />",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713734936377,
+        "modifiedTime": 1713735303943,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!journal.pages!oBuicNg1G3MsH9TL.1myplMlagRDtiX39"
+    },
+    {
+      "sort": 200000,
+      "name": "Fenêtre de phases de jeu",
+      "type": "text",
+      "_id": "C66gp0BBzXubqnEu",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>La fenêtre de phases de jeu sert au MJ à gérer la phase de jeu en cours.</p><h2>Fonctionnalités</h2><img src=\"systems/heist/images/howto/game-phase-window.webp\" height=\"250\" /><ol><li><p>Liste des différentes phases, l’active en orange ;</p></li><li><p>Rappel de la durée de la phase en cours ;</p></li><li><p>Temps restant sur la phase en cours ;</p></li><li><p>Bouton permettant de passer à la phase suivante ;</p></li><li><p>Bouton permettant de lancer le décompte de temps de la phase</p><ul><li><p>Ce bouton n’apparaît pas si l’option « <em>La pause du jeu contrôle le chronomètre de phase</em> ».</p></li></ul></li><li><p>Bouton permettant de réinitialiser les phases de jeu.</p><ul><li><p><strong>Attention</strong> cela renverra en phase 1, pas au début de la phase en cours !</p></li></ul></li></ol><h2>Version miniature</h2><p>Une version miniature est activable via l’option « <em>Version miniature de la fenêtre de phase de jeu</em> » :</p><img src=\"systems/heist/images/howto/game-phase-window-small.webp\" height=\"200\" /><ol><li><p>Nom de la phase active ;</p></li><li><p>Temps restant sur la phase en cours ;</p></li><li><p>Bouton permettant de passer à la phase suivante ;</p></li><li><p>Bouton permettant de lancer le décompte de temps de la phase</p><ul><li><p>Ce bouton n’apparaît pas si l’option « <em>La pause du jeu contrôle le chronomètre de phase</em> »</p></li></ul></li><li><p>Bouton permettant de réinitialiser les phases de jeu.</p><ul><li><p><strong>Attention</strong> cela renverra en phase 1, pas au début de la phase en cours !</p></li></ul></li></ol><h2>Comment l’afficher ?</h2><p>Il est possible d’accéder à cette fenêtre de plusieurs façons :</p><ul><li><p>Ouverture automatique au lancement de la partie si l’option « <em>Affiche la fenêtre de phase de jeu à la connexion</em> » est activée ;</p></li><li><p>En utilisant la macro @UUID[Compendium.heist.macros.Macro.LwwIQp4lSuuayerV]{Fenêtre des phases de jeu} (disponible dans le compendium « <em>Macros</em> ») ;</p></li><li><p>Cliquer sur le bouton dans la barre d’outils (accessible uniquement si une scène est active).</p><img src=\"systems/heist/images/howto/game-phase-window-toolbar.webp\" width=\"300\" /><p></p></li></ul><div class=\"orange-box u-mt-small\"><p><strong>À noter</strong></p><p>Les joueurs ne voient pas les différents boutons d’actions, ils sont réservés au MJ.</p><p>De plus, il est possible d’empêcher les joueurs d’afficher cette fenêtre via une option du système.</p></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713735332656,
+        "modifiedTime": 1713777597312,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!journal.pages!oBuicNg1G3MsH9TL.C66gp0BBzXubqnEu"
+    },
+    {
+      "sort": 300000,
+      "name": "Fenêtre de test d’agent",
+      "type": "text",
+      "_id": "OkfE8CIvjKu4LqDu",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>La fenêtre de test d’agent sert à réaliser des tests auprès des agents.</p><h2>Fonctionnalités</h2><img src=\"systems/heist/images/howto/agent-test-window.webp\" width=\"500\" /><ol><li><p>La main de Jack ;</p><ul><li><p>La carte de droite n’est visible que par le MJ et représente toujours la carte exclue du test.</p></li><li><p>Sur un test simple, la carte de gauche est masquée et celle du milieu est visible.</p></li><li><p>Sur un test difficile, c’est l’inverse.</p></li><li><p>Le « <em>Score actuel</em> » indique le score des cartes visibles.</p></li><li><p>Le « <em>Score à battre</em> » n’est visible que par le MJ et indique le score total que l’agent doit égaler ou surpasser.</p></li></ul></li><li><p>Bouton permettant au MJ de révéler sa seconde carte ;</p></li><li><p>Bouton permettant au MJ de terminer le test en cours ;</p><ul><li><p>L’agent ne peut pas terminer le test lui-même, il doit indiquer au MJ quand est-ce qu’il souhaite s’arrêter.</p></li></ul></li><li><p>La main de l’agent ;</p><ul><li><p>L’ensemble des cartes de l’agents sont affichées à chaque fois qu’il pioche.</p></li><li><p>Le « <em>Score actuel</em> » indique le score de ses cartes.</p></li></ul></li><li><p>Bouton permettant à l’agent de piocher ;</p></li><li><p>Bouton permettant à l’agent d’utiliser son objet fétiche</p><ul><li><p>Ce bouton n’est disponible que si l’agent dispose d’un objet fétiche et qu’il n’a pas déjà été utilisé.</p></li></ul></li></ol><h2>Comment l’afficher ?</h2><p>Il est possible d’accéder à cette fenêtre de plusieurs façons :</p><ul><li><p>Ouverture automatique lorsqu’un test est lancé par le MJ ;</p></li><li><p>En cliquant sur le bouton « <em>Afficher la fenêtre de test d’agent</em> » disponible sur la fiche d’aceteur « <em>The Heist</em> » ;</p></li><li><p>En utilisant la macro @UUID[Compendium.heist.macros.Macro.afNS6Qn1dVdaDRYc]{Fenêtre des tests d’agent} (disponible dans le compendium « <em>Macros</em> ») ;</p></li><li><p>Cliquer sur le bouton dans la barre d’outils (accessible uniquement si une scène est active).</p><img src=\"systems/heist/images/howto/agent-test-window-toolbar.webp\" width=\"300\" /></li></ul><div class=\"orange-box u-mt-small\"><p><strong>À noter</strong></p><p>Pour les agents, l’As peut compter pour 11 ou 1. Cette possibilité est automatiquement prise en compte dans le cas où le tirage permet à l’agent d’atteindre un score de 21.</p><p>Dans tous les cas, si le score de l’agent est de 21, le test se terminera de lui-même et l’effet du Blackjack entrera alors en jeu : l’agent testé récupérera toutes les cartes qu’il vient de jouer et tous les agents (celui testé compris) récupéreront 2 cartes de leur défausse.</p></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713773622318,
+        "modifiedTime": 1713780219333,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!journal.pages!oBuicNg1G3MsH9TL.OkfE8CIvjKu4LqDu"
+    },
+    {
+      "sort": 400000,
+      "name": "Acteur « Agent »",
+      "type": "text",
+      "_id": "nkFCfYvAOPUPulef",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>La fiche des joueurs est créée via le type d’acteur « <em>Agent</em> ».</p><h2>Fonctionnalités</h2><p>La fiche dispose de deux affichages : un mode lecture seule et un mode modification.</p><h3>Affichage en mode lecture seule</h3><img src=\"systems/heist/images/howto/agent-sheet-read.webp\" width=\"500\" /><ol><li><p>Bouton permettant de passer la fiche en mode modification ;</p></li><li><p>Bouton permettant d’affiche la fiche de l’agence à laquelle l’agent appartient ;</p><ul><li><p>Ce bouton n’est visible que si l’agent appartient à une agence.</p></li></ul></li><li><p>Type de l’agent ;</p><ul><li><p>Il s’agit d’une des couleurs : @UUID[Compendium.heist.agent-types.Item.HeistAgentDiamon]{Carreau}, @UUID[Compendium.heist.agent-types.Item.HeistAgentHeart0]{Cœur}, @UUID[Compendium.heist.agent-types.Item.HeistAgentSpade0]{Pique} ou @UUID[Compendium.heist.agent-types.Item.HeistAgentClub00]{Trèfle}.</p></li><li><p>Pour la mettre en place, il suffit de glisser / déposer la couleur souhaitée sur la fiche depuis la liste ci-dessus ou le compendium « <em>Types d’agent</em> ».</p></li></ul></li><li><p>Image de l’agent ;</p></li><li><p>Compétences de l’agent ;</p><ul><li><p>Un ensemble de compétences est disponible dans le compendium « <em>Compétences</em> », mais il est tout à fait possible d’en inventer en accord avec le MJ.</p></li><li><p>Bien qu’elles soient rangées par couleur, elles ne sont pas restrictifs. Un agent Cœur peut très bien choisir une compétence rangée dans la couleur Pique.</p></li><li><p>L’agent connait 2 compétences de base et pourra en ajouter des supplémentaires si son agence progresse en ce sens.</p></li></ul></li><li><p>Objet fétiche de l’agent ;</p><ul><li><p>Un ensemble d’objets est disponible dans le compendium « <em>Objets fétiches</em> », mais il est tout à fait possible d’en inventer en accord avec le MJ.</p></li></ul></li><li><p>Histoire de l’agent.</p></li></ol><h3>Affichage en mode modification</h3><img src=\"systems/heist/images/howto/agent-sheet-write.webp\" width=\"500\" /><ol><li><p>Bouton permettant de passer la fiche en mode lecture seule ;</p></li><li><p>Bouton permettant d’affiche la fiche de l’agence à laquelle l’agent appartient ;</p><ul><li><p>Ce bouton n’est visible que si l’agent appartient à une agence.</p></li></ul></li><li><p>Bouton permettant de changer l’image de l’agent ;</p></li><li><p>Bouton permettant de ressusciter l’agent s’il est mort ;</p><ul><li><p>Ce bouton n’est visible que si l’agent est mort.</p></li><li><p>En plus de ce bouton, un overlay rouge est ajouté sur son image (visible ci-dessus).</p></li></ul></li><li><p>Champ permettant de renommer l’agent ;</p></li><li><p>Bouton permettant d’éditer une compétence ;</p></li><li><p>Bouton permettant de supprimer une compétence ;</p></li><li><p>Bouton permettant d’indiquer l’objet fétiche comme utilisé / inutilisé ;</p></li><li><p>Bouton permettant d’éditer l’objet fétiche ;</p></li><li><p>Bouton permettant de supprimer l’objet fétiche ;</p></li><li><p>Éditeur riche permettant d’éditer l’histoire de l’agent.</p></li></ol>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713776900489,
+        "modifiedTime": 1713779542046,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!journal.pages!oBuicNg1G3MsH9TL.nkFCfYvAOPUPulef"
+    },
+    {
+      "sort": 500000,
+      "name": "Acteur « The Heist »",
+      "type": "text",
+      "_id": "0hm2LjTEYstWkdFO",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Le regroupement des joueurs au sein d’une agence est géré via la fiche de type « <em>The Heist</em> ».</p><h2>Fonctionnalités</h2><p>La fiche est découpée en plusieurs onglets, chacun donnant accès à des fonctionnalités spécifiques.</p><h3>Jokers</h3><img src=\"systems/heist/images/howto/heist-jokers.webp\" width=\"500\" /><ol><li><p>Image de l’agence ;</p><ul><li><p>Cliquer dessus permet de la modifier.</p></li></ul></li><li><p>Champ pour modifier le nom de l’agence ;</p></li><li><p>Liste des onglets de navigation de la fiche ;</p></li><li><p>Configuration des Jokers pour la phase de <strong>Reconnaissance</strong> ;</p></li><li><p>Configuration des Jokers pour la phase d’<strong>Action</strong>.</p></li></ol><p>La configuration par défaut des Jokers est celle des règles :</p><ul><li><p>Aucun Joker en phase de Reconnaissance ;</p></li><li><p>2 Jokers en phase d’Action : paquet séparé en 5 piles avec un Joker dans la 2ème et le second dans la 4e.</p></li></ul><div class=\"orange-box\"><p><strong>À noter</strong></p><p>Cet onglet n’est visible que par le MJ.</p></div><h3>L’agence</h3><img src=\"systems/heist/images/howto/heist-agency.webp\" width=\"500\" /><ol><li><p>Bouton permettant au MJ de lancer un test sur un agent ;</p></li><li><p>Bouton permettant d’afficher la fenêtre de test d’agent ;</p></li><li><p>Bouton permettant au MJ de supprimer un agent de l’agence ;</p></li><li><p>Image d’un agent ;</p><ul><li><p>Cliquer dessus permet d’afficher la fiche de l’agent.</p></li></ul></li><li><p>Bouton permettant au MJ de blesser un agent ;</p><ul><li><p>L’agent défaussera automatiquement la moitié de sa pioche (arrondie au supérieur).</p></li></ul></li><li><p>Bouton permettant au MJ de sauver un agent ;</p><ul><li><p>L’agent sera épuisé et défaussera automatiquement l’ensemble de sa pioche.</p></li></ul></li><li><p>Bouton permettant au MJ de tuer un agent.</p><ul><li><p>L’agent sera alors hors jeu et ne pourra continuer à être joué que si l’agence utilise la progression « <em>Sauvetage</em> ».</p></li></ul></li></ol><h3>Reconnaissance</h3><img src=\"systems/heist/images/howto/heist-reconnaissance.webp\" width=\"500\" /><ol><li><p>Affiche le nombre de cartes piochées ainsi que leur regroupement par couleur ;</p></li><li><p>Bouton permettant de piocher 1 à 5 cartes ;</p></li><li><p>Bouton permettant de passer à la phase suivante ;</p><ul><li><p>Ce bouton n’est actif qu’à partir du moment où au moins 10 cartes sont piochées et qu’au moins 5 d’entres elles sont de la même couleur.</p></li></ul></li><li><p>Affichage des cartes déjà piochées.</p></li></ol><div class=\"orange-box\"><p><strong>À noter</strong></p><p>Cet onglet n’est visible que par le MJ.</p></div><h3>Préparation</h3><img src=\"systems/heist/images/howto/heist-planning.webp\" width=\"500\" /><ol><li><p>Éditeur riche permettant d’éditer le plan prévu par les agents ;</p></li><li><p>Crédits dont disposent les agents pour établir leur plan ;</p><ul><li><p>Il n’y a pas de vérification quant au nombre de crédits utilisés par rapport au nombre de crédits disponibles. Il ne s’agit que d’un affichage à caractère informatif.</p></li></ul></li><li><p>Bouton permettant d’ajouter un objet ;</p></li><li><p>Bouton permettant de modifier un objet ;</p></li><li><p>Bouton permettant de supprimer un objet.</p></li></ol><div class=\"orange-box\"><p><strong>À noter</strong></p><p>Seul le MJ est autorisé à gérer les objets selon ce que décident les agents.</p></div><h3>Progression</h3><img src=\"systems/heist/images/howto/heist-progression.webp\" width=\"500\" /><ol><li><p>L’entraînement des agents peut être sélectionné jusqu’à 3 fois ;</p><ul><li><p>Pour chaque entraînement, tous les agents de l’agence pourront aller ajouter une compétence supplémentaire sur leur fiche.</p></li></ul></li><li><p>L’augmentation du budget va permettre d’acheter plus d’objet pour la phase de <strong>Préparation</strong> ;</p></li><li><p>L’improvisation permettra aux agents d’avoir un second Joker pour se sortir de situations compliquées ;</p><ul><li><p>Il n’y a aucun automatisme dans le système sur l’utilisation de Joker par les agents. Charge aux joueurs de gérer le déclenchement quand ils le souhaitent.</p></li></ul></li><li><p>Le réseau d’indics permettra aux agents d’obtenir des informations supplémentaire au début de chaque scénario ;</p></li><li><p>Le sauvetage permet de remettre en jeu un agent, qu’importe ce qui lui est arrivé.</p><ul><li><p>Une fois acquis, un bouton permet d’utiliser cette progression. Une fois ce bouton cliqué la progression sera retirée et pourra être à nouveau choisie pour une future progression de l’agence.</p></li></ul></li></ol>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1713779551688,
+        "modifiedTime": 1713782554123,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_key": "!journal.pages!oBuicNg1G3MsH9TL.0hm2LjTEYstWkdFO"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1713734929343,
+    "modifiedTime": 1713782649752,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_id": "oBuicNg1G3MsH9TL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "_key": "!journal!oBuicNg1G3MsH9TL"
+}
