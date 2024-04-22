@@ -74,6 +74,7 @@ export class HeistActorSheet extends ActorSheet {
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
     html.on('click', '[data-draw-reconnaissance]', this.#onDrawReconnaissanceCards.bind(this));
     html.on('click', '[data-next-phase]', this.#onNextPhase.bind(this));
+    html.on('click', '[data-use-rescue]', this.#onUseRescue.bind(this));
   }
 
   /** @override */
@@ -423,6 +424,12 @@ export class HeistActorSheet extends ActorSheet {
         gamePhase.activePreparationPhase();
       },
     });
+  }
+
+  async #onUseRescue(e) {
+    e.preventDefault();
+
+    await this.actor.update({ 'system.progression.rescue': false });
   }
 
   async #prepareJokersContext(context) {
