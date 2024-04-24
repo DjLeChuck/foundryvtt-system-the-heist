@@ -76,4 +76,4 @@ jobs:
                 uses: djlechuck/foundryvtt-publish-package-action@v1
                 with:
                     token: ${{ secrets.FOUNDRYVTT_RELEASE_TOKEN }}
-                    manifest: 'https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/module.json'
+                    manifest: 'https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/system.json'
