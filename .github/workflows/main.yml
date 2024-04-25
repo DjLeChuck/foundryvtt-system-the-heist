@@ -53,10 +53,12 @@ jobs:
                       README.md                            \
                       CHANGELOG.md                         \
                       LICENSE                              \
-                      templates                            \
                       assets/                              \
+                      fonts/                               \
+                      images/                              \
+                      lang/                                \
                       packs/                               \
-                      lang/
+                      templates/
 
             -   name: Update release with files
                 id: create_version_release
