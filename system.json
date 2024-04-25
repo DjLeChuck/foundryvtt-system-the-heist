@@ -31,10 +31,10 @@
     }
   ],
   "esmodules": [
-    "assets/js/heist.js"
+    "assets/heist.js"
   ],
   "styles": [
-    "assets/css/heist.css"
+    "assets/heist.css"
   ],
   "languages": [
     {
@@ -119,11 +119,11 @@
   "media": [
     {
       "type": "setup",
-      "url": "systems/heist/assets/system-background.webp",
-      "thumbnail": "systems/heist/assets/system-background.webp"
+      "url": "systems/heist/images/system-background.webp",
+      "thumbnail": "systems/heist/images/system-background.webp"
     }
   ],
   "license": "./LICENSE",
   "readme": "./README.md",
-  "background": "systems/heist/assets/system-background.webp"
+  "background": "systems/heist/images/system-background.webp"
 }
