@@ -23,6 +23,12 @@ export class SocketListener {
         case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_FETISH:
           await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentFetish();
           break;
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_CREATE_DECKS:
+          await game.actors.get(payload.actor)?.createDecks();
+          break;
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_DELETE_DECKS:
+          await game.actors.get(payload.actor)?.deleteDecks();
+          break;
         default:
           throw new Error(`Unknown socket request ${request}`);
       }

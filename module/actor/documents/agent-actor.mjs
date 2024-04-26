@@ -148,8 +148,8 @@ export class AgentActor extends BaseActor {
   }
 
   async setDecks() {
-    await this.#deleteDecks();
-    await this.#createDecks();
+    await this.deleteDecks();
+    await this.createDecks();
   }
 
   async recallHand() {
@@ -206,12 +206,21 @@ export class AgentActor extends BaseActor {
   }
 
   async _onDelete(options, userId) {
-    await this.#deleteDecks();
+    await this.deleteDecks();
 
     super._onDelete(options, userId);
   }
 
-  async #createDecks() {
+  async createDecks() {
+    if (!game.user.isGM) {
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+        request: HEIST.SOCKET_REQUESTS.GM_HANDLE_CREATE_DECKS,
+        actor: this.id,
+      });
+
+      return;
+    }
+
     const deck = await this.#createDeck();
     const pile = await this.#createPile();
     const hand = await Cards.create({
@@ -230,16 +239,23 @@ export class AgentActor extends BaseActor {
     await this.#saveCreatedDecks({ deck: deck.id, hand: hand.id, pile: pile.id });
   }
 
+  async deleteDecks() {
+    if (game.user.isGM) {
+      await this.deck?.delete();
+      await this.pile?.delete();
+      await this.hand?.delete();
+    } else {
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+        request: HEIST.SOCKET_REQUESTS.GM_HANDLE_DELETE_DECKS,
+        actor: this.id,
+      });
+    }
+  }
+
   async #saveCreatedDecks(decks) {
     await this.update({
       system: { ...decks },
     });
-  }
-
-  async #deleteDecks() {
-    await this.deck?.delete();
-    await this.pile?.delete();
-    await this.hand?.delete();
   }
 
   #baseDeckId() {

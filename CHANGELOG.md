@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Handle deck managment by non-GM
+
 ## [1.0.1] - 2024-04-26
 
 ### Fixed
