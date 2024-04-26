@@ -150,6 +150,8 @@
   "HEIST.Errors.TestAlreadyRunning": "A test is already running!",
   "HEIST.Errors.ItemNotFound": "Item not found.",
   "HEIST.Errors.AgentAlreadyInAgency": "This agent already belongs to an agency!",
+  "HEIST.Errors.CreateDeckRequireActiveGM": "Creating agent decks requires a GM to be logged in.",
+  "HEIST.Errors.DeleteDeckRequireActiveGM": "Deleting agent decks requires a GM to be logged in.",
   "HEIST.ChatMessage.EasyTestAsked": "An easy test has been asked to {name}!",
   "HEIST.ChatMessage.DifficultTestAsked": "A difficult test has been asked to {name}!",
   "HEIST.ChatMessage.TestSuccessful": "{name} has passed the test!",

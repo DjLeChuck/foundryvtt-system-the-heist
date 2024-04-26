@@ -4,7 +4,7 @@
 
 ### Fixed
 
-- Handle deck managment by non-GM
+- Decks cannot be managed by non GM
 
 ## [1.0.1] - 2024-04-26
 

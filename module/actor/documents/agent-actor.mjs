@@ -213,6 +213,12 @@ export class AgentActor extends BaseActor {
 
   async createDecks() {
     if (!game.user.isGM) {
+      if (!game.users.activeGM) {
+        ui.notifications.error(game.i18n.localize('HEIST.Errors.CreateDeckRequireActiveGM'));
+
+        return;
+      }
+
       game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
         request: HEIST.SOCKET_REQUESTS.GM_HANDLE_CREATE_DECKS,
         actor: this.id,
@@ -245,6 +251,12 @@ export class AgentActor extends BaseActor {
       await this.pile?.delete();
       await this.hand?.delete();
     } else {
+      if (!game.users.activeGM) {
+        ui.notifications.error(game.i18n.localize('HEIST.Errors.DeleteDeckRequireActiveGM'));
+
+        return;
+      }
+
       game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
         request: HEIST.SOCKET_REQUESTS.GM_HANDLE_DELETE_DECKS,
         actor: this.id,
