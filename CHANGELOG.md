@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Hook when game phase window toggle pause state
+
 ## [1.0.2] - 2024-04-26
 
 ### Fixed

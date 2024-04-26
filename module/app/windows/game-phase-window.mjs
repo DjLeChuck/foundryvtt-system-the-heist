@@ -42,6 +42,10 @@ export class GamePhaseWindow extends WithSettingsWindow {
     return this.#getCurrentPhase();
   }
 
+  get isPaused() {
+    return this.paused;
+  }
+
   get #currentPhaseIndex() {
     return this._getSetting('current');
   }
@@ -95,6 +99,8 @@ export class GamePhaseWindow extends WithSettingsWindow {
     await this._setSettings({ paused });
 
     this.#updateTimeLeftInterval();
+
+    Hooks.callAll(`${HEIST.SYSTEM_ID}.changeGamePhasePause`, this.isPaused);
   }
 
   async togglePause() {
@@ -107,6 +113,8 @@ export class GamePhaseWindow extends WithSettingsWindow {
     await this._setSettings({ paused: this.paused });
 
     this.#updateTimeLeftInterval();
+
+    Hooks.callAll(`${HEIST.SYSTEM_ID}.changeGamePhasePause`, this.isPaused);
 
     this.#render();
   }
