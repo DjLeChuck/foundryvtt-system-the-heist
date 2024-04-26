@@ -97,6 +97,18 @@ export class AgentActor extends BaseActor {
     return 2 + (this.agency?.agentExtraSkills || 0);
   }
 
+  async _onCreate(data, options, userId) {
+    super._onCreate(data, options, userId);
+
+    if (userId !== game.user.id) {
+      return;
+    }
+
+    if (null !== this.agentType) {
+      await this.setDecks();
+    }
+  }
+
   /**
    * @param {number} number
    * @returns {Promise<Card[]>}
