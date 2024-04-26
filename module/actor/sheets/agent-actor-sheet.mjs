@@ -118,7 +118,7 @@ export class AgentActorSheet extends ActorSheet {
       }
     }
 
-    const createdItems = this.actor.createEmbeddedDocuments('Item', toCreate);
+    const createdItems = await this.actor.createEmbeddedDocuments('Item', toCreate);
 
     if (createdItems.length && createdItems[0] instanceof AgentTypeItem) {
       await this.actor.setDecks();
