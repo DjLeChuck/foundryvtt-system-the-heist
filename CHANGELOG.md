@@ -2,11 +2,11 @@
 
 ## [Unreleased]
 
+## [11.0.0] - 2024-04-27
+
 ### Added
 
 - Hook when game phase window toggle pause state
-
-## [1.0.2] - 2024-04-26
 
 ### Fixed
 
@@ -23,7 +23,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/1.0.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.0...main
+
+[11.0.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/1.0.1...11.0.0
 
 [1.0.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/1.0.0...1.0.1
 
