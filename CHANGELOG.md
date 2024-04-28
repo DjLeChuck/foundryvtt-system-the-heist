@@ -6,6 +6,10 @@
 
 - Macro to reset current agent test
 
+### Modified
+
+- Fix some typo and portrait location in Irish Job scenario
+
 ### Fixed
 
 - Check agent existence when asking a test
