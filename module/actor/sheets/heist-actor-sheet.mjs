@@ -185,7 +185,7 @@ export class HeistActorSheet extends ActorSheet {
       return;
     }
 
-    const agents = this.actor.agents.filter((agent) => !agent.isDead);
+    const agents = this.actor.agents.filter((agent) => !agent?.isDead);
     const jackJokers = this.actor.jackJokers;
 
     const dataset = await Dialog.prompt({

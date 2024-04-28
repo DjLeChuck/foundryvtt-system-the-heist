@@ -6,6 +6,10 @@
 
 - Macro to reset current agent test
 
+### Fixed
+
+- Check agent existence when asking a test
+
 ## [11.0.0] - 2024-04-27
 
 ### Added
