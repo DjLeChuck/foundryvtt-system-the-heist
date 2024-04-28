@@ -46,7 +46,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.1...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.2...main
+
+[11.0.2]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.1...11.0.2
 
 [11.0.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.0...11.0.1
 
