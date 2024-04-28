@@ -7,6 +7,7 @@
 ### Fixed
 
 - Handle settings modification by agent on test window
+- Remove Jack Jokers on each phase
 
 ## [11.0.1] - 2024-04-28
 

@@ -174,7 +174,7 @@ export class HeistActor extends BaseActor {
     await this.#throwHand(this.jackTestHand);
   }
 
-  async jackNextDrawHasJoker() {
+  jackNextDrawHasJoker() {
     const cards = this.jackDeck.cards.contents.sort(this.jackDeck.sortShuffled)
       .filter((card) => !card.drawn)
       .splice(0, 3);
@@ -271,9 +271,10 @@ export class HeistActor extends BaseActor {
   }
 
   async #onChangeGamePhase(phase) {
+    await this.#removeJokers();
+
     if ([HEIST.GAME_PHASE_RECONNAISSANCE, HEIST.GAME_PHASE_ACTION].includes(phase.id)) {
       await this.#recallDeck();
-      await this.#removeJokers();
       await this.#injectJokers(phase);
     }
 
