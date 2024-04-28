@@ -6,6 +6,9 @@
     },
     "Fenêtre des tests d’agent": {
       "name": "Agent test window"
+    },
+    "Réinitialiser le test d’agent en cours": {
+      "name": "Reset current agent test"
     }
   }
 }

@@ -77,6 +77,7 @@
   "HEIST.AgentTestWindow.NoCardLeft": "Plus de carte disponible",
   "HEIST.AgentTestWindow.Result.Title": "Résultat du test",
   "HEIST.AgentTestWindow.DisplayWindow": "Afficher la fenêtre de test d’agent",
+  "HEIST.AgentTestWindow.Reinitialization": "Réinitialisation du test en cours effectuée.",
   "HEIST.GamePhaseWindow.Title": "Phases de jeu",
   "HEIST.GamePhaseWindow.Duration": "Durée : {duration} minutes",
   "HEIST.GamePhaseWindow.NoTimeLeft": "Phase terminée !",

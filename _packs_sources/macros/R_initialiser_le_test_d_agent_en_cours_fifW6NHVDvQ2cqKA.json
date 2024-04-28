@@ -1,0 +1,25 @@
+{
+  "name": "Réinitialiser le test d’agent en cours",
+  "type": "script",
+  "_id": "fifW6NHVDvQ2cqKA",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/tools/hand/hammer-backing-steel.webp",
+  "scope": "global",
+  "command": "game.settings.set('heist', 'currentTest', {});\n\nui.notifications.info(game.i18n.localize('HEIST.AgentTestWindow.Reinitialization'));",
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1714293760641,
+    "modifiedTime": 1714294161787,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!fifW6NHVDvQ2cqKA"
+}

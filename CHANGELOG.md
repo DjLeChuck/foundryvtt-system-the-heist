@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Macro to reset current agent test
+
 ## [11.0.0] - 2024-04-27
 
 ### Added
