@@ -81,7 +81,7 @@ export class HeistActorSheet extends ActorSheet {
   async getData() {
     const context = super.getData();
     context.jackAvailableCards = this.actor.jackDeck?.availableCards.length;
-    context.testRunning = game[HEIST.SYSTEM_ID].agentTestWindow.isRunning;
+    context.canAskTest = game[HEIST.SYSTEM_ID].agentTestWindow.canAskTest;
     context.diamond = this.actor.diamond;
     context.heart = this.actor.heart;
     context.spade = this.actor.spade;

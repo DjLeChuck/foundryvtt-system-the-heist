@@ -354,7 +354,7 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this.agency?.jackThrowTestHand();
 
     for (const agent of this.agency?.agents) {
-      await agent.throwHand();
+      await agent?.throwHand();
     }
   }
 
@@ -427,6 +427,10 @@ export class AgentTestWindow extends WithSettingsWindow {
     const recalls = [];
 
     for (const agent of this.agency?.agents) {
+      if (!agent) {
+        continue;
+      }
+
       if (agent === testedAgent) {
         const number = await agent.recallHand();
 

@@ -149,6 +149,7 @@
   "HEIST.Errors.AlreadyMaxSkills": "Impossible to add the skill, you’ve reached the max!",
   "HEIST.Errors.NoFetishObject": "You don’t have a fetish object!",
   "HEIST.Errors.TestAlreadyRunning": "A test is already running!",
+  "HEIST.Errors.TestAlreadyRunningOrNoCardLeft": "A test is already running, or Jack is out of cards!",
   "HEIST.Errors.ItemNotFound": "Item not found.",
   "HEIST.Errors.AgentAlreadyInAgency": "This agent already belongs to an agency!",
   "HEIST.Errors.CreateDeckRequireActiveGM": "Creating agent decks requires a GM to be logged in.",

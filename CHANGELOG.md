@@ -5,6 +5,7 @@
 ### Added
 
 - Macro to reset current agent test
+- Block ask test button if Jack has no card left
 
 ### Modified
 
@@ -13,6 +14,7 @@
 ### Fixed
 
 - Check agent existence when asking a test
+- Check agent existence when throwing hands
 
 ## [11.0.0] - 2024-04-27
 

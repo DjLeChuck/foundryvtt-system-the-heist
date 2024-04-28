@@ -149,6 +149,7 @@
   "HEIST.Errors.AlreadyMaxSkills": "Impossible d’ajouter la compétence, vous avez atteint le max !",
   "HEIST.Errors.NoFetishObject": "Vous ne disposez pas d’un objet fétiche !",
   "HEIST.Errors.TestAlreadyRunning": "Un test est déjà en cours !",
+  "HEIST.Errors.TestAlreadyRunningOrNoCardLeft": "Un test est déjà en cours, ou Jack n’a plus de carte !",
   "HEIST.Errors.ItemNotFound": "Objet introuvable.",
   "HEIST.Errors.AgentAlreadyInAgency": "Cet agent appartient déjà à une agence !",
   "HEIST.Errors.CreateDeckRequireActiveGM": "Créer les decks d’agent requiert qu’un MJ soit connecté.",

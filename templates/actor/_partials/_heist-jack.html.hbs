@@ -8,7 +8,7 @@
   <div class="flexrow u-gap-small">
     <div>
       <button type="button" class="action-btn" data-ask-agent-test
-        {{# if testRunning}} disabled data-tooltip="{{localize "HEIST.Errors.TestAlreadyRunning"}}"{{/if}}>
+        {{# if (not canAskTest)}} disabled data-tooltip="{{localize "HEIST.Errors.TestAlreadyRunning"}}"{{/if}}>
         <i class="fa-duotone fa-cards"></i>
         {{localize "HEIST.HeistSheet.AskTest"}}
       </button>
