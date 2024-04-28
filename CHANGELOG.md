@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.0.1] - 2024-04-28
+
 ### Added
 
 - Macro to reset current agent test
@@ -37,7 +39,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.1...main
+
+[11.0.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.0...11.0.1
 
 [11.0.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/1.0.1...11.0.0
 
