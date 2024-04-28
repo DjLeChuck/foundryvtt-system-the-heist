@@ -12,9 +12,20 @@ export class WithSettingsWindow extends Application {
   }
 
   async _setSettings(settings) {
-    await game.settings.set(HEIST.SYSTEM_ID, this.options.settingsName, foundry.utils.mergeObject(
-      this._getSettings(),
-      settings,
-    ));
+    if (!game.user.isGM) {
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+        request: HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_SETTINGS,
+        name: this.options.settingsName,
+        settings: foundry.utils.mergeObject(
+          this._getSettings(),
+          settings,
+        ),
+      });
+    } else {
+      await game.settings.set(HEIST.SYSTEM_ID, this.options.settingsName, foundry.utils.mergeObject(
+        this._getSettings(),
+        settings,
+      ));
+    }
   }
 }

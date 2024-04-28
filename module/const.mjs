@@ -61,4 +61,5 @@ export const SOCKET_REQUESTS = {
   GM_HANDLE_AGENT_TEST_FETISH: 'gmHandleAgentTestFetish',
   GM_HANDLE_CREATE_DECKS: 'gmHandleCreateDecks',
   GM_HANDLE_DELETE_DECKS: 'gmHandleDeleteDecks',
+  GM_HANDLE_SET_SETTINGS: 'gmHandleSetSettings',
 };

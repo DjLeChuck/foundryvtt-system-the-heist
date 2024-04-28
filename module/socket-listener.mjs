@@ -29,6 +29,11 @@ export class SocketListener {
         case HEIST.SOCKET_REQUESTS.GM_HANDLE_DELETE_DECKS:
           await game.actors.get(payload.actor)?.deleteDecks();
           break;
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_SETTINGS:
+          if (game.user === game.users.activeGM) {
+            await game.settings.set(HEIST.SYSTEM_ID, payload.name, payload.settings);
+          }
+          break;
         default:
           throw new Error(`Unknown socket request ${request}`);
       }

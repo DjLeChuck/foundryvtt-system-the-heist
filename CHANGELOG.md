@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [11.0.2] - 2024-04-28
+
+### Fixed
+
+- Handle settings modification by agent on test window
+
 ## [11.0.1] - 2024-04-28
 
 ### Added
