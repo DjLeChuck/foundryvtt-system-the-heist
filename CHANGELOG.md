@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.1.1] - 2024-04-29
+
 ### Modified
 
 - Macro compendium hidden to players
@@ -67,7 +69,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.1...main
+
+[11.1.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.0...11.1.1
 
 [11.1.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.2...11.1.0
 
