@@ -17,22 +17,14 @@ export class SocketListener {
           game.actors.get(payload.agencyId)?.render();
           break;
         // Proxy user actions to GM
-        case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_BLACKJACK:
-          await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentBlackjack();
-          break;
         case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_FETISH:
           await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentFetish();
           break;
-        case HEIST.SOCKET_REQUESTS.GM_HANDLE_CREATE_DECKS:
-          await game.actors.get(payload.actor)?.createDecks();
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_DECKS:
+          await game.actors.get(payload.actor)?.setDecks();
           break;
-        case HEIST.SOCKET_REQUESTS.GM_HANDLE_DELETE_DECKS:
-          await game.actors.get(payload.actor)?.deleteDecks();
-          break;
-        case HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_SETTINGS:
-          if (game.user === game.users.activeGM) {
-            await game.settings.set(HEIST.SYSTEM_ID, payload.name, payload.settings);
-          }
+        case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_DRAW:
+          await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentDraw(payload.cards);
           break;
         default:
           throw new Error(`Unknown socket request ${request}`);

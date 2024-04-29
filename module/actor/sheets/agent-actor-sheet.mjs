@@ -89,6 +89,12 @@ export class AgentActorSheet extends ActorSheet {
    */
   async _onDropSingleItem(itemData) {
     if ('agentType' === itemData.type && null !== this.actor.agentType) {
+      if (!game.users.activeGM) {
+        ui.notifications.error(game.i18n.localize('HEIST.Errors.ChangeAgentTypeRequireActiveGM'));
+
+        return false;
+      }
+
       await this.actor.agentType.delete();
     }
 
@@ -121,7 +127,14 @@ export class AgentActorSheet extends ActorSheet {
     const createdItems = await this.actor.createEmbeddedDocuments('Item', toCreate);
 
     if (createdItems.length && createdItems[0] instanceof AgentTypeItem) {
-      await this.actor.setDecks();
+      if (game.user.isGM) {
+        await this.actor.setDecks();
+      } else {
+        game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+          request: HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_DECKS,
+          actor: this.actor.id,
+        });
+      }
     }
 
     return createdItems;

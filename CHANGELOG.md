@@ -9,7 +9,8 @@
 
 ### Fixed
 
-- Agents can use the rescue progression button on Heist sheet
+- Agents cannot use the rescue progression button on Heist sheet
+- Infinite loop in agent deck creation when changing agent type
 
 ## [11.0.2] - 2024-04-28
 

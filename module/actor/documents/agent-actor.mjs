@@ -148,8 +148,12 @@ export class AgentActor extends BaseActor {
   }
 
   async setDecks() {
-    await this.deleteDecks();
-    await this.createDecks();
+    if (game.user !== game.users.activeGM) {
+      return;
+    }
+
+    await this.#deleteDecks();
+    await this.#createDecks();
   }
 
   async recallHand() {
@@ -206,24 +210,13 @@ export class AgentActor extends BaseActor {
   }
 
   async _onDelete(options, userId) {
-    await this.deleteDecks();
+    await this.#deleteDecks();
 
     super._onDelete(options, userId);
   }
 
-  async createDecks() {
-    if (!game.user.isGM) {
-      if (!game.users.activeGM) {
-        ui.notifications.error(game.i18n.localize('HEIST.Errors.CreateDeckRequireActiveGM'));
-
-        return;
-      }
-
-      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
-        request: HEIST.SOCKET_REQUESTS.GM_HANDLE_CREATE_DECKS,
-        actor: this.id,
-      });
-
+  async #createDecks() {
+    if (!game.users.activeGM) {
       return;
     }
 
@@ -245,23 +238,14 @@ export class AgentActor extends BaseActor {
     await this.#saveCreatedDecks({ deck: deck.id, hand: hand.id, pile: pile.id });
   }
 
-  async deleteDecks() {
-    if (game.user.isGM) {
-      await this.deck?.delete();
-      await this.pile?.delete();
-      await this.hand?.delete();
-    } else {
-      if (!game.users.activeGM) {
-        ui.notifications.error(game.i18n.localize('HEIST.Errors.DeleteDeckRequireActiveGM'));
-
-        return;
-      }
-
-      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
-        request: HEIST.SOCKET_REQUESTS.GM_HANDLE_DELETE_DECKS,
-        actor: this.id,
-      });
+  async #deleteDecks() {
+    if (!game.users.activeGM) {
+      return;
     }
+
+    await this.deck?.delete();
+    await this.pile?.delete();
+    await this.hand?.delete();
   }
 
   async #saveCreatedDecks(decks) {

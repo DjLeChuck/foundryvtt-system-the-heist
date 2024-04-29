@@ -251,11 +251,21 @@ export class AgentTestWindow extends WithSettingsWindow {
     game.socket.emit(`system.${HEIST.SYSTEM_ID}`, { request: HEIST.SOCKET_REQUESTS.SHOW_AGENT_TEST_WINDOW });
   }
 
-  async handleAgentBlackjack() {
+  async handleAgentDraw(cards) {
     if (game.user !== game.users.activeGM) {
       return;
     }
 
+    await this._setSettings({ agentCards: [...this.#agentCards, ...CARDS.simpleClone(cards)] });
+
+    this.#refreshViews();
+
+    if (this.#isBlackjack) {
+      await this.#handleAgentBlackjack();
+    }
+  }
+
+  async #handleAgentBlackjack() {
     await this._setSettings({ isSuccessful: true });
 
     await this.#revealTest();
@@ -272,6 +282,8 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     await this.#revealTest();
     await this.#finishTest(true, this.#testSuccessFetish);
+
+    await this.#refreshViews();
   }
 
   async #prepareTest(agency, agent) {
@@ -294,18 +306,13 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     const cards = await this.agent.drawCards(1);
 
-    await this._setSettings({ agentCards: [...this.#agentCards, ...CARDS.simpleClone(cards)] });
-
-    this.#refreshViews();
-
-    if (this.#isBlackjack) {
-      if (game.user.isGM) {
-        await this.handleAgentBlackjack();
-      } else {
-        game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
-          request: HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_TEST_BLACKJACK,
-        });
-      }
+    if (game.user.isGM) {
+      await this.handleAgentDraw(cards);
+    } else {
+      game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+        cards,
+        request: HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_DRAW,
+      });
     }
   }
 
@@ -328,8 +335,6 @@ export class AgentTestWindow extends WithSettingsWindow {
     e.preventDefault();
 
     await this.agent.useFetish();
-
-    this.#refreshViews();
 
     if (game.user.isGM) {
       await this.handleAgentFetish();

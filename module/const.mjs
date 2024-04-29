@@ -57,9 +57,7 @@ export const SOCKET_REQUESTS = {
   SHOW_AGENT_TEST_WINDOW: 'showAgentTestWindow',
   REFRESH_AGENCY_SHEET: 'refreshAgencySheet',
   // Proxy user actions to GM
-  GM_HANDLE_AGENT_TEST_BLACKJACK: 'gmHandleAgentTestBlackjack',
   GM_HANDLE_AGENT_TEST_FETISH: 'gmHandleAgentTestFetish',
-  GM_HANDLE_CREATE_DECKS: 'gmHandleCreateDecks',
-  GM_HANDLE_DELETE_DECKS: 'gmHandleDeleteDecks',
-  GM_HANDLE_SET_SETTINGS: 'gmHandleSetSettings',
+  GM_HANDLE_SET_DECKS: 'gmHandleSetDecks',
+  GM_HANDLE_AGENT_DRAW: 'gmHandleAgentDraw',
 };
