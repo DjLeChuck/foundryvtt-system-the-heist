@@ -6,6 +6,10 @@
 
 - Macro compendium hidden to players
 
+### Fixed
+
+- Duration of the first phase on first launch
+
 ## [11.1.0] - 2024-04-29
 
 ### Added

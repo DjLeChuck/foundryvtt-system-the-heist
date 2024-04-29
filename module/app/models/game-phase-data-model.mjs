@@ -1,3 +1,5 @@
+import * as HEIST from '../../const.mjs';
+
 export class GamePhaseDataModel extends foundry.abstract.DataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
@@ -10,7 +12,7 @@ export class GamePhaseDataModel extends foundry.abstract.DataModel {
         initial: true,
       }),
       timeLeft: new fields.NumberField({
-        initial: 10,
+        initial: HEIST.GAME_PHASES[0].defaultDuration * 60,
       }),
     };
   }
