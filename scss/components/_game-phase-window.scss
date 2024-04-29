@@ -46,15 +46,15 @@
       font-size: 1.3rem;
     }
 
+    .finished {
+      padding: 0 var(--small-gap);
+
+      @include dark-transparency-bg;
+    }
+
     .timer {
       text-align: center;
       font-size: 3rem;
-
-      &.finished {
-        padding: 0 var(--small-gap);
-
-        @include dark-transparency-bg;
-      }
     }
   }
 

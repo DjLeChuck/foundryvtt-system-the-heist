@@ -5,6 +5,7 @@
 ### Modified
 
 - Macro compendium hidden to players
+- Reduce size of the text when phase timer finished
 
 ### Fixed
 
