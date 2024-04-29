@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Modified
+
+- Macro compendium hidden to players
+
 ## [11.1.0] - 2024-04-29
 
 ### Added

@@ -101,7 +101,13 @@
       "name": "macros",
       "label": "Macros",
       "type": "Macro",
-      "system": "heist"
+      "system": "heist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
     },
     {
       "name": "system-presentation",
