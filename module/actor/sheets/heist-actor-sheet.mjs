@@ -60,6 +60,7 @@ export class HeistActorSheet extends ActorSheet {
     html.on('click', '[data-open-sheet]', this.#onOpenSheet.bind(this));
     html.on('click', '[data-add-planning-item]', this.#onAddPlanningItem.bind(this));
     html.on('click', '[data-open-agent-test]', this.#onOpenAgentTest.bind(this));
+    html.on('click', '[data-use-rescue]', this.#onUseRescue.bind(this));
 
     if (!game.user.isGM) {
       return;
@@ -74,7 +75,6 @@ export class HeistActorSheet extends ActorSheet {
     html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
     html.on('click', '[data-draw-reconnaissance]', this.#onDrawReconnaissanceCards.bind(this));
     html.on('click', '[data-next-phase]', this.#onNextPhase.bind(this));
-    html.on('click', '[data-use-rescue]', this.#onUseRescue.bind(this));
   }
 
   /** @override */

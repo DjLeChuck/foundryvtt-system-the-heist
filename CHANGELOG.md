@@ -7,6 +7,10 @@
 - [Irish Job] Scene of the plan for agents
 - [Irish Job] Image page in journal for each NPC portrait
 
+### Fixed
+
+- Agents can use the rescue progression button on Heist sheet
+
 ## [11.0.2] - 2024-04-28
 
 ### Fixed
