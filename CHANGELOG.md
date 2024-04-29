@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.1.0] - 2024-04-29
+
 ### Added
 
 - [Irish Job] Scene of the plan for agents
@@ -56,7 +58,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.2...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.0...main
+
+[11.1.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.2...11.1.0
 
 [11.0.2]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.0.1...11.0.2
 
