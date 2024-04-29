@@ -1,0 +1,19 @@
+{
+  "name": "Irish Job",
+  "sorting": "a",
+  "folder": null,
+  "type": "Macro",
+  "_id": "UfuRi7jSksP47Tb0",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1714376576210,
+    "modifiedTime": 1714376576210,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!folders!UfuRi7jSksP47Tb0"
+}

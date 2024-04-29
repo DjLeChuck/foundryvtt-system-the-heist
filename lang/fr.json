@@ -154,6 +154,7 @@
   "HEIST.Errors.AgentAlreadyInAgency": "Cet agent appartient déjà à une agence !",
   "HEIST.Errors.CreateDeckRequireActiveGM": "Créer les decks d’agent requiert qu’un MJ soit connecté.",
   "HEIST.Errors.DeleteDeckRequireActiveGM": "Supprimer les decks d’agent requiert qu’un MJ soit connecté.",
+  "HEIST.Errors.TileNotFound": "Tuile introuvable !",
   "HEIST.ChatMessage.EasyTestAsked": "Un test facile a été demandé à {name} !",
   "HEIST.ChatMessage.DifficultTestAsked": "Un test difficile a été demandé à {name} !",
   "HEIST.ChatMessage.TestSuccessful": "{name} a réussi son test !",

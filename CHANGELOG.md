@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Added
+
+- [Irish Job] Scene of the plan for agents
+- [Irish Job] Image page in journal for each NPC portrait
+
 ## [11.0.2] - 2024-04-28
 
 ### Fixed
@@ -18,7 +23,7 @@
 
 ### Modified
 
-- Fix some typo and portrait location in Irish Job scenario
+- [Irish Job] Fix some typo and portrait location
 
 ### Fixed
 
