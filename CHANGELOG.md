@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.2.0] - 2024-05-03
+
 ### Added
 
 - New NPC actor type
@@ -75,7 +77,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.1...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.2.0...main
+
+[11.2.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.1...11.2.0
 
 [11.1.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.0...11.1.1
 
