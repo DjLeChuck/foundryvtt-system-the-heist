@@ -1,0 +1,52 @@
+&.npc-sheet {
+  .window-content {
+    background: none var(--c-gable-green);
+
+    .sheet-header {
+      img {
+        object-fit: contain;
+        border: none;
+      }
+
+      input {
+        padding: 30px var(--small-gap);
+        width: 80%;
+      }
+
+      .npc-name {
+        font-family: var(--f-masqualero-groove);
+        color: var(--c-manhattan);
+        font-size: 1.8rem;
+      }
+    }
+
+    .sheet-body {
+      margin-top: var(--big-gap);
+
+      .editor {
+        height: 100%;
+        min-height: 15rem;
+
+        &.prosemirror {
+          border: 1px solid var(--c-brown-rust);
+          border-radius: 6px;
+
+          menu {
+            background: var(--c-brown-rust);
+          }
+        }
+
+        .editor-container {
+          .editor-content {
+            min-height: 8rem;
+          }
+        }
+
+        .editor-content {
+          background: none;
+          min-height: 15rem;
+        }
+      }
+    }
+  }
+}

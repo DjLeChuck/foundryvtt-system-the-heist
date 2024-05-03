@@ -2,13 +2,15 @@
   "Actor": {
     "types": [
       "agent",
-      "heist"
+      "heist",
+      "npc"
     ],
     "htmlFields": [
       "description"
     ],
     "agent": {},
-    "heist": {}
+    "heist": {},
+    "npc": {}
   },
   "Item": {
     "types": [

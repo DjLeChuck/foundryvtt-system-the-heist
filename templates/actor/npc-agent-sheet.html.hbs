@@ -1,0 +1,12 @@
+<form class="{{cssClass}} flex flexcol" autocomplete="off">
+  <header class="sheet-header flexshrink">
+    <img src="{{actor.img}}"{{#if editable}} data-edit="img"{{/if}} title="{{actor.name}}" />
+
+    <input class="npc-name" name="name" type="text" value="{{actor.name}}"
+           placeholder="{{localize "HEIST.Global.Name"}}" />
+  </header>
+
+  <section class="blue-box sheet-body">
+    {{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}
+  </section>
+</form>

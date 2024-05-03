@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- New NPC actor type
+
 ## [11.1.1] - 2024-04-29
 
 ### Modified

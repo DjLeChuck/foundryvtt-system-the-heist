@@ -1,6 +1,7 @@
 {
   "TYPES.Actor.agent": "Agent",
   "TYPES.Actor.heist": "The Heist",
+  "TYPES.Actor.npc": "PNJ",
   "TYPES.Item.agentType": "Type d’agent",
   "TYPES.Item.fetish": "Objet fétiche",
   "TYPES.Item.planning": "Objet de planification",
