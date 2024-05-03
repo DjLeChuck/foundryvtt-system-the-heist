@@ -5,6 +5,7 @@
 ### Added
 
 - New NPC actor type
+- [Irish Job] Add NPC actors
 
 ## [11.1.1] - 2024-04-29
 

@@ -4,7 +4,987 @@
   "caption": "",
   "sort": 0,
   "description": "<h1>En quelques mots</h1><p>Irish Job est un scénario d’initiation à THE HEIST. Il a pour but de vous guider pas à pas dans votre premier casse.</p><p>Dans ce scénario, les agents vont devoir voler un célèbre tableau disparu à un important trafiquant d’art, le tout durant un tournoi de poker accueillant tout le gratin du marché noir londonien.</p>",
-  "actors": [],
+  "actors": [
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Douglas O’Brien",
+      "type": "npc",
+      "_id": "m64xfB8GhfeLOhgx",
+      "img": "systems/heist/images/media/scenario/irish-job/douglas-o-brien.webp",
+      "system": {
+        "description": "<p>O’Brien est un homme de 50 ans, en pleine forme, toujours élégamment habillé. Il cultive la loyauté de ses employés en étant toujours très prévenant et chaleureux, prenant des nouvelles de toutes et tous quand il le peut.</p><p>C’est également un homme redoutable, sans pitié ni remords quand il faut prendre des décisions fermes.</p><p>Il connaît tout le gratin plus ou moins légal de Londres et s’y est fait une place de choix en entretenant ses relations et en exploitant les petits secrets de chacun.</p><p>Depuis deux jours, il se pense en danger suite à plusieurs observations de ses hommes et de ses clients : il est surveillé.</p><p>Il a doublement raison : d’un côté l’agence Heist veut s’emparer d’une pièce de très grande valeur, de l’autre la police londonienne prévoit un grand coup de filet pour arrêter son trafic. C’est elle qui surveille ses allées et venues et tourne autour du pub.</p>"
+      },
+      "prototypeToken": {
+        "name": "Douglas O’Brien",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/irish-job/douglas-o-brien.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764317126,
+        "modifiedTime": 1714764351256,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Miss Garett",
+      "type": "npc",
+      "_id": "T8fKInwlfbcbahcE",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Il s’agit d’une vieille dame directe, coquette, toujours un porte-cigarette allumé à la main. Elle connaît par cœur son magasin, l’Antique Emporium. Elle travaille avec O’Brien depuis toujours et sait tout de ses activités. C’est la propriétaire du chat Bagheera.</p>"
+      },
+      "prototypeToken": {
+        "name": "Miss Garett",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764372228,
+        "modifiedTime": 1714764382697,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Leon Fergil",
+      "type": "npc",
+      "_id": "Nms9fDiayegxq6BN",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Cet homme de 40 ans est le neveu de Miss Garrett. À l’âge de 20 ans, pour se faire un peu d’argent, il avait prévu de travailler quelques mois à l’Antique Emporium ; il y est coincé depuis. Il n’aide les clients qu’avec beaucoup de grommellements et ronchonnements. Il est plus souvent derrière le comptoir qu’en rayon, lisant le journal en maugréant. Il aimerait en savoir plus sur les affaires d’O’Brien, mais sa tante le met de côté, soit qu’elle le pense trop bête pour comprendre, ou pour son propre bien.</p><p>Il devient doux et sirupeux en présence d’O’Brien.</p><p>C’est lui qui va dans l’entrepôt s’il y a besoin de réceptionner ou déplacer des marchandises pour le magasin. Il sait comment accéder au sous-sol, aidant parfois les hommes d’O’Brien à descendre ou remonter des objets spéciaux.</p>"
+      },
+      "prototypeToken": {
+        "name": "Leon Fergil",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764395109,
+        "modifiedTime": 1714764408309,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Donn Murphy",
+      "type": "npc",
+      "_id": "rDY5lDYSfwjkWii1",
+      "img": "systems/heist/images/media/scenario/irish-job/donn-murphy.webp",
+      "system": {
+        "description": "<p>Le responsable de la sécurité du pub, la quarantaine est bien bâti : 1 m 60 pour 85 kg, principalement de muscles. Coincé dans une chemise trop serrée et une casquette des années 1920 sur la tête, il passe ses journées accoudé au comptoir, sirotant une Guinness. Il surveille tout le monde d’un œil (habitués et nouveaux venus), sans en avoir trop l’air. Il réagit immédiatement s’il faut rappeler à l’ordre un client ou le jeter dehors. C’est également lui qui filtre les entrées au club.</p><p>Pour le tournoi, O’Brien lui a fourni une liste détaillée des invités. Il ne les connaît pas tous et garde en main la liste sur un porte-document.</p>"
+      },
+      "prototypeToken": {
+        "name": "Donn Murphy",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/irish-job/donn-murphy.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764416341,
+        "modifiedTime": 1714764429998,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Sally Sullivan",
+      "type": "npc",
+      "_id": "QtsVMx5uMbohnaht",
+      "img": "systems/heist/images/media/scenario/irish-job/sally-sullivan.webp",
+      "system": {
+        "description": "<p>Il s’agit de la serveuse habituelle du pub. Elle sait bien que tout ce qui se trame ici est peu légal, mais elle est très fière de ses origines et très loyale à O’Brien.</p><p>Elle se fait rarement embêter par les habitués à qui elle rabaisse le caquet sans souci si le discours ou le comportement commencent à dépasser les bornes.</p><p>Grande sœur de Liam, elle est souvent embarrassée par le manque de discernement et de maturité de ce dernier, mais tient à le protéger.</p>"
+      },
+      "prototypeToken": {
+        "name": "Sally Sullivan",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/irish-job/sally-sullivan.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764440177,
+        "modifiedTime": 1714764460818,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Liam Sullivan",
+      "type": "npc",
+      "_id": "9vI0y54rLRZ5HwLK",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Du haut de ses 17 ans, le petit frère de Sally est très enthousiaste et un peu naïf à la fois. Serveur au Griffs&amp;Chips et fan de football, il ne connaît pas grand-chose des affaires d’O’Brien et ne cherche pas à en savoir plus.</p><p>Il est très facilement influençable et se fait vite réprimander par Dunstal s’il passe trop de temps à discuter avec les clients au lieu de les servir.</p>"
+      },
+      "prototypeToken": {
+        "name": "Liam Sullivan",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764482285,
+        "modifiedTime": 1714764490482,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Marc Dunstal",
+      "type": "npc",
+      "_id": "8z2P1HlAI8jE9vZs",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>C’est le chef cuistot du Griffin’s Head depuis 15 ans. Il a une cinquantaine d’années, les cheveux rares, le tablier gras et la bedaine visible. C’est un gros travailleur qui ne supporte pas les flemmards, d’où les tensions avec Perk, son commis.</p><p>Il sait tout des affaires d’O’Brien, étant lui-même un de ses anciens hommes de main.</p>"
+      },
+      "prototypeToken": {
+        "name": "Marc Dunstal",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764519321,
+        "modifiedTime": 1714764528350,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Luke Perk",
+      "type": "npc",
+      "_id": "ECFyQt1FVZ5r1HvR",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Cet homme de 20 ans est passionné de voitures et de jolies filles. Il ne travaille comme commis de cuisine que parce que son père le menace de le virer de chez lui s’il n’apporte pas de quoi payer un loyer. Il trouve toutes les excuses possibles pour sortir des cuisines pendant son service (s’occuper des poubelles, aller chercher des réserves dans la cave, etc.) et en profiter pour fumer une cigarette dans l’impasse. Il déteste Dunstal et fait tout pour travailler le moins possible.</p>"
+      },
+      "prototypeToken": {
+        "name": "Luke Perk",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764535286,
+        "modifiedTime": 1714764540636,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Ethan Byrne",
+      "type": "npc",
+      "_id": "nwRZJlxWB4ZaDbhE",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Il s’agit du responsable du club. C’est un grand maigre à la musculature nerveuse. Il est toujours habillé en chemise blanche boutonnée jusqu’en haut, la moustache fine parfaitement entretenue. Ancien malfrat, habitué des bagarres de rue et boxeur amateur, mais également très poli et respectueux, il a trouvé sa place ici il y a une dizaine d’années et a toute la confiance d’O’Brien.</p>"
+      },
+      "prototypeToken": {
+        "name": "Ethan Byrne",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764548941,
+        "modifiedTime": 1714764554132,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Hugh « Huge » Kavanagh",
+      "type": "npc",
+      "_id": "nAOT2xMIj0AwRsNs",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Le videur du club est un homme de main d’O’Brien ; il fait office d’agent de sécurité pendant le tournoi. C’est une immense armoire à glace. Il n’est pas très malin, parfois soupe au lait, mais sait retrouver son calme si O’Brien ou Byrne lui en donnent l’ordre.</p>"
+      },
+      "prototypeToken": {
+        "name": "Hugh « Huge » Kavanagh",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764564900,
+        "modifiedTime": 1714764571687,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VUmn3wYPbEojaRRZ",
+      "name": "Philip Atwood",
+      "type": "npc",
+      "_id": "OxgYOeTJApdBbcg2",
+      "img": "systems/heist/images/media/scenario/irish-job/philip-atwood.webp",
+      "system": {
+        "description": "<p>Le capitaine de police incorruptible de 35 ans veut faire tomber O’Brien et tout son réseau. Il a prévu de faire de l’opération de ce soir le plus grand coup de filet de l’histoire de la police londonienne. Il compte bien arrêter O’Brien et inculper toutes les personnes sur place de complicité ou de corruption.</p><p>Pour cela, il a infiltré lui-même le tournoi, se faisant passer pour un des participants (sous l’identité de <strong>Vlad Kasim</strong>, un homme d’affaires russe qu’O’Brien ne connaît pas et n’a même jamais vu). Il a aussi placé un agent comme croupier (qui demande des renseignements au comptoir pendant la Reconnaissance) et un autre comme serveur.</p><p>Au rez-de-chaussée, pendant la soirée, cinq agents de police en civil viendront commander à manger, attendant le signal.</p><p>Au moment voulu, des voitures de police arrivent pour bloquer la rue et Atwood et ses hommes arrêtent toutes les personnes présentes sur place.</p>"
+      },
+      "prototypeToken": {
+        "name": "Philip Atwood",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/irish-job/philip-atwood.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764579592,
+        "modifiedTime": 1714764607476,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
   "combats": [],
   "items": [
     {
@@ -639,7 +1619,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1713648106792,
-        "modifiedTime": 1714295503151,
+        "modifiedTime": 1714376806963,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -1078,7 +2058,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1713722136976,
-        "modifiedTime": 1714295503151,
+        "modifiedTime": 1714375786179,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
@@ -1176,17 +2156,13 @@
         "default": 2,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.dEs4kB0RtUkXO7JS"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1714375287620,
-        "modifiedTime": 1714375368556,
+        "modifiedTime": 1714376850366,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
@@ -1246,17 +2222,35 @@
       "_id": "PKrH05lLZzpCyzse",
       "sort": 0,
       "color": null,
-      "flags": {
-        "core": {
-          "sourceId": "Folder.PKrH05lLZzpCyzse"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1714375240440,
         "modifiedTime": 1714375240440,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Irish Job",
+      "sorting": "a",
+      "folder": null,
+      "type": "Actor",
+      "_id": "VUmn3wYPbEojaRRZ",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.VUmn3wYPbEojaRRZ"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1714764269763,
+        "modifiedTime": 1714764269763,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
@@ -1269,7 +2263,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713648034444,
-    "modifiedTime": 1714376936341,
+    "modifiedTime": 1714764650721,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!ZYppNsE7BcShTDB6"
