@@ -6,6 +6,7 @@
 
 - New NPC actor type
 - [Irish Job] Add NPC actors
+- Quick action buttons on Heist sheet
 
 ## [11.1.1] - 2024-04-29
 

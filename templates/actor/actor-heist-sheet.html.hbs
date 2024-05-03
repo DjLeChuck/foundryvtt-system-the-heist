@@ -7,6 +7,19 @@
         <h1>
           <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
         </h1>
+
+        <div class="flexshrink flexrow quick-actions">
+          {{#if isGM}}
+            <button type="button" class="action-btn flexshrink" data-ask-agent-test
+              {{# if (not canAskTest)}} disabled{{/if}} data-tooltip="{{localize "HEIST.HeistSheet.AskTest"}}">
+              <i class="fa-duotone fa-cards"></i>
+            </button>
+          {{/if}}
+          <button type="button" class="action-btn flexshrink" data-open-agent-test
+                  data-tooltip="{{localize "HEIST.AgentTestWindow.DisplayWindow"}}">
+            <i class="fa-duotone fa-eye"></i>
+          </button>
+        </div>
       </div>
     </div>
   </header>

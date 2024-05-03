@@ -21,6 +21,11 @@
     input {
       @include light-transparency-bg;
     }
+
+    .quick-actions {
+      flex-wrap: nowrap;
+      gap: var(--small-gap);
+    }
   }
 
   .sheet-body {
