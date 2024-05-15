@@ -1,19 +1,13 @@
-# IDE
-.idea/
-.vs/
-
-# Node Modules
-node_modules/
-npm-debug.log
-
+# App
 assets/
 packs/
+!lang/packs
 
-###> yarn ###
+# Yarn
 .pnp.*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-###< yarn ###
