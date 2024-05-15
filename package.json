@@ -1,8 +1,6 @@
 {
   "name": "heist",
   "type": "module",
-  "version": "1.0.0",
-  "description": "CSS compiler for the system The Heist",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
