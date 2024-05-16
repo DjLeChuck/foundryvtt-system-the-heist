@@ -2104,7 +2104,566 @@
       "globalLight": true,
       "globalLightThreshold": null,
       "darkness": 0,
-      "drawings": [],
+      "drawings": [
+        {
+          "_id": "qSM7iGC7iNkXzGpm",
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 209,
+            "height": 120,
+            "radius": null,
+            "points": []
+          },
+          "x": 1684.626039480307,
+          "y": 1146.7590088293246,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Bureau d’O’Brien",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 395,
+            "height": 123,
+            "radius": null,
+            "points": []
+          },
+          "x": 1744,
+          "y": 1628,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Club - Salle de jeu",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "nZ24XrNygpYiw6Og"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 113,
+            "height": 116,
+            "radius": null,
+            "points": []
+          },
+          "x": 2228.166054339229,
+          "y": 1628.346569477807,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Bar",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "d9nbf9s3UzrVh11y"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 126,
+            "height": 81,
+            "radius": null,
+            "points": []
+          },
+          "x": 2238.8303206668024,
+          "y": 1482.2274343834115,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "WC",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "7xj3FvrZ9g3WUsho"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 298,
+            "height": 232,
+            "radius": null,
+            "points": []
+          },
+          "x": 1296.7833916278375,
+          "y": 2382.6462099166497,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Antique Emporium",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "9NamKldddLaI8EXn"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 211,
+            "height": 146,
+            "radius": null,
+            "points": []
+          },
+          "x": 2471.4296015444875,
+          "y": 2419.0830320666805,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Impasse",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "tMfb0Eeh8erZdMm9"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 297,
+            "height": 125,
+            "radius": null,
+            "points": []
+          },
+          "x": 1898.9169679333195,
+          "y": 2191.2346549889544,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Entrepôt",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "O54QR3tXAglU8JEj"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 301,
+            "height": 116,
+            "radius": null,
+            "points": []
+          },
+          "x": 1706,
+          "y": 2684,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Griffin’s Head",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "2MPxSodNheNxW2m9"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 113,
+            "height": 116,
+            "radius": null,
+            "points": []
+          },
+          "x": 2056.0866472665175,
+          "y": 2683.588425484042,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Bar",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "L397JXD0TzqTv9Km"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 126,
+            "height": 81,
+            "radius": null,
+            "points": []
+          },
+          "x": 2068.0794266609746,
+          "y": 2424.5342660454035,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "WC",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "lPoJKZsOxLPR5mA5"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 126,
+            "height": 81,
+            "radius": null,
+            "points": []
+          },
+          "x": 2068.382672505523,
+          "y": 2521.018046616792,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "WC",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "v3dNuHjKFqcIJbIi"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 171,
+            "height": 109,
+            "radius": null,
+            "points": []
+          },
+          "x": 2214.1877259499897,
+          "y": 2557.7220213777864,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Cuisine",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "CVxaddhWvtLFchsa"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 237,
+            "height": 169,
+            "radius": null,
+            "points": []
+          },
+          "x": 2187,
+          "y": 2819,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Griffs& Chips",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "99HVuXruSPHvCtz8"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 196,
+            "height": 100,
+            "radius": null,
+            "points": []
+          },
+          "x": 1873,
+          "y": 3684,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Bunker",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "5fpUjo3xnY9GenJY"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 196,
+            "height": 100,
+            "radius": null,
+            "points": []
+          },
+          "x": 2296,
+          "y": 3684,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#000000",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Cave",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ROaYjTKj6FdOPDND"
+        },
+        {
+          "_id": "BSbd98UJwA1vOGYU",
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 301,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 1000,
+          "y": 1600,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Escalier secret",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 301,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 1000,
+          "y": 1700,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Monte-charge",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "n3PwWjGxmbzJJFZg"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 301,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 1000,
+          "y": 1800,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Caméra",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "1lamlhY7mFoyVDnt"
+        }
+      ],
       "tokens": [],
       "lights": [],
       "notes": [],
@@ -2144,6 +2703,853 @@
             "volume": 0
           },
           "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/3d-stairs.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1661,
+          "y": 1057,
+          "width": 86.9,
+          "height": 86.9,
+          "overhead": false,
+          "_id": "gZCA2xgOgkLd96P4",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/3d-stairs.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1665,
+          "y": 2073,
+          "width": 86.9,
+          "height": 86.9,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "Z9tcEwQOPgNhhAq9"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/3d-stairs.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1659,
+          "y": 3160,
+          "width": 86.9,
+          "height": 86.9,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "w5kS1Ay8Towm5i4h"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/elevator.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2173,
+          "y": 2073,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "UJGl9lv5GX8L9lvF"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/elevator.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2158,
+          "y": 3160,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "8QWDztVDwZzEPqoE"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1547,
+          "y": 2074,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "inNMlIuBA6RdQj7a"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1546,
+          "y": 2382,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "6GEtNE75Wlnc1kUR"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1784,
+          "y": 2074,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "R2IRfSIUckAAfFfc"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2312,
+          "y": 2167,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "ZhgrEyhdKEOR9twP"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2308,
+          "y": 2317,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "w85GGRtAVzQE0sWd"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1665,
+          "y": 2432,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "bNTYxC43237KCr7S"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2620,
+          "y": 2074,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "HHIoRP4f6RrJt4k8"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2429,
+          "y": 2956,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "yxsEF3X9jYmZRbNO"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2617,
+          "y": 2956,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "YwR4V5m4kqn3fQOq"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1914,
+          "y": 3161,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "rNCdDS3Is3nG851v"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1658,
+          "y": 3636,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "VMfv8OwRXqnbbMKY"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2158,
+          "y": 3636,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "73UYw77ZrYwN9p6l"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1656,
+          "y": 4176,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "rxSjY5FLG4BozGc2"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2158,
+          "y": 4176,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "jxa3YgLVA7WCelka"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2425,
+          "y": 4176,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "x5aPGSMgPTpMGiHi"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2283,
+          "y": 3889,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "TPKmcm75fasHs1zf"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2283,
+          "y": 3439,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "27LWTVyWZZVYiFdk"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/3d-stairs.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 865,
+          "y": 1600,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "64TNZuXCiLTht5io"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/cctv-camera.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 865,
+          "y": 1800,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "b66zVUOHwoXUCr78"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/elevator.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 865,
+          "y": 1700,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "FpEdWSKc1ZxTBpCA"
         }
       ],
       "walls": [],
@@ -2156,17 +3562,24 @@
         "default": 2,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {},
+      "flags": {
+        "exportSource": {
+          "world": "the-heist",
+          "system": "heist",
+          "coreVersion": "11.315",
+          "systemVersion": "11.2.0"
+        }
+      },
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1714375287620,
-        "modifiedTime": 1714376850366,
+        "modifiedTime": 1715884999970,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
-      "thumb": "worlds/the-heist/assets/scenes/dEs4kB0RtUkXO7JS-thumb.webp",
+      "thumb": "systems/heist/images/thumbs/scenes/dEs4kB0RtUkXO7JS-thumb.webp",
       "fogOverlay": null,
       "fogExploredColor": null,
       "fogUnexploredColor": null,
@@ -2240,11 +3653,7 @@
       "_id": "VUmn3wYPbEojaRRZ",
       "sort": 0,
       "color": null,
-      "flags": {
-        "core": {
-          "sourceId": "Folder.VUmn3wYPbEojaRRZ"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
@@ -2263,7 +3672,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713648034444,
-    "modifiedTime": 1714764650721,
+    "modifiedTime": 1715885441356,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!ZYppNsE7BcShTDB6"

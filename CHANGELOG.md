@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+### Added
+
+- [Irish Job] Tiles to show agents their findings
+
+
+### Fixed
+
+- [Irish Job] Thumb for the scene in scenes panel 
+
 ## [11.2.0] - 2024-05-03
 
 ### Added
