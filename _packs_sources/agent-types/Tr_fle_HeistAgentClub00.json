@@ -18,10 +18,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.319",
     "createdTime": 1695240472038,
     "modifiedTime": 1712594203001,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "flags": {},
   "_key": "!items!HeistAgentClub00"

@@ -18,10 +18,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.319",
     "createdTime": 1712388550586,
     "modifiedTime": 1713727805745,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "DnDXHt0Abucm13FG",
   "sort": 0,

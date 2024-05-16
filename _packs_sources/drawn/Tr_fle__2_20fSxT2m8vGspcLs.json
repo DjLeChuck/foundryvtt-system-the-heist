@@ -21,7 +21,12 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -56,7 +61,10 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
     },
     "sight": {
       "enabled": false,
@@ -66,11 +74,29 @@
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0
+      "contrast": 0,
+      "color": null
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "locked": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -94,10 +120,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1712387706053,
         "modifiedTime": 1713647398788,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": "Compendium.heist.skills.Item.KI1gtzXO5AOBL3KX",
+        "duplicateSource": null
       },
       "_key": "!actors.items!20fSxT2m8vGspcLs.lRJ6qQg93vLFZtHH"
     },
@@ -122,10 +150,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1712387694291,
         "modifiedTime": 1713647402538,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": "Compendium.heist.skills.Item.orarjkSUOZLCtNBq",
+        "duplicateSource": null
       },
       "_key": "!actors.items!20fSxT2m8vGspcLs.mwimQ69GUnaC9dhj"
     },
@@ -149,10 +179,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1695240472038,
         "modifiedTime": 1713647581123,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": "Compendium.heist.agent-types.Item.HeistAgentClub00",
+        "duplicateSource": null
       },
       "flags": {
         "core": {
@@ -182,10 +214,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1712388497937,
         "modifiedTime": 1713727957115,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": "Compendium.heist.fetishes.Item.OGITVSnSfVbdw0B2",
+        "duplicateSource": null
       },
       "_id": "RlcQusuNMw0Z5t8c",
       "sort": 200000,
@@ -202,10 +236,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.319",
     "createdTime": 1713646142690,
     "modifiedTime": 1713727957115,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!actors!20fSxT2m8vGspcLs"
 }

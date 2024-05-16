@@ -30,10 +30,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1713734936377,
         "modifiedTime": 1713735303943,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!SystemHowTo00000.1myplMlagRDtiX39"
     },
@@ -66,10 +68,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1713735332656,
         "modifiedTime": 1713777597312,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!SystemHowTo00000.C66gp0BBzXubqnEu"
     },
@@ -102,10 +106,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1713773622318,
         "modifiedTime": 1713780219333,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!SystemHowTo00000.OkfE8CIvjKu4LqDu"
     },
@@ -137,10 +143,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1713776900489,
         "modifiedTime": 1713894081706,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!SystemHowTo00000.nkFCfYvAOPUPulef"
     },
@@ -172,10 +180,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.319",
         "createdTime": 1713779551688,
         "modifiedTime": 1713782554123,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!SystemHowTo00000.0hm2LjTEYstWkdFO"
     }
@@ -187,10 +197,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.319",
     "createdTime": 1713734929343,
     "modifiedTime": 1713894081706,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "SystemHowTo00000",
   "sort": 0,
