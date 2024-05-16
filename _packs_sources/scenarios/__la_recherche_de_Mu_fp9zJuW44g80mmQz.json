@@ -1,0 +1,1402 @@
+{
+  "name": "À la recherche de Mu",
+  "img": "systems/heist/images/media/scenario/mu/mu.webp",
+  "caption": "",
+  "sort": 0,
+  "description": "<p>Dans les tréfonds gelés de l’Antarctique, une découverte sans précédent vient d’avoir lieu. Un monument millénaire a été mis au jour près de la base Concordia. Au cœur de cette zone internationale où aucune vie n’a jamais régné, les pays, mais surtout de grosses entreprises, se bousculent pour savoir qui aura l’honneur d’ouvrir en premier la porte de ce mythique bâtiment. Bien sûr, les bas-reliefs qui le couvrent laissent penser à un tombeau et ses gravures mystérieuses annoncent de nombreux pièges, et même une malédiction.</p><p>L’employeur de Heist a décidé que les agents seraient les premiers à mettre le pied dans cette tombe. Quelque chose y attend depuis toujours et offrira gloire et richesse à quiconque l’aura en sa possession : une carte avec les coordonnées d’une civilisation perdue.</p>",
+  "actors": [
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Moïra Lefort",
+      "type": "npc",
+      "_id": "n96CIbvldwHAsl5X",
+      "img": "systems/heist/images/media/scenario/mu/moira-lefort.webp",
+      "system": {
+        "description": "<p>Cette archéologue atypique se prend pour l’Indiana Jones des temps modernes. Passionnée de légendes, elle ne ménage pas ses efforts pour prouver qu’elle a eu raison de persévérer. Si elle bénéficie du soutien de nombreux mécènes, elle n’est pour autant pas appréciée des entreprises qui se sont installées sur son campement. Et elle leur rend bien ! D’autant qu’elle se doute qu’ils lui voleront la vedette à la première occasion !</p><p>Avec son tempérament ardent, il suffit d’une étincelle pour mettre le feu aux poudres entre Lefort et l’un de ses mécènes. En revanche, si les agents lui proposent de les coiffer en poteau en les accompagnant, elle se fera une joie de les aider à décoder l’énigme de la porte.</p>"
+      },
+      "prototypeToken": {
+        "name": "Moïra Lefort",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/mu/moira-lefort.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891596069,
+        "modifiedTime": 1715893774262,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Nicolas Clerodière",
+      "type": "npc",
+      "_id": "N0yJo4LG8aVYoorv",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>L’assistant de Lefort sert principalement à la cadrer. D’un tempérament plutôt doux, il n’hésite pourtant pas à hausser la voix lorsqu’il considère qu’elle va trop loin, tout comme il peut prendre sa défense sans hésiter. Il est de tous les secrets de l’archéologue, mais a une peur viscérale de ce qui pourrait se trouver dans la tombe, et particulièrement de la malédiction.</p><p>Clerodière est d’avis qu’il faudrait laisser à d’autres le soin d’explorer la structure, mais n’apprécie pas du tout l’intrusion des trois entreprises dans leurs recherches. Les agents pourraient être une bonne solution pour lui.</p>"
+      },
+      "prototypeToken": {
+        "name": "Nicolas Clerodière",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891614664,
+        "modifiedTime": 1715891622017,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Manuel Mooney",
+      "type": "npc",
+      "_id": "PhhxEzs4iZSlLKRU",
+      "img": "systems/heist/images/media/scenario/mu/manuel-mooney.webp",
+      "system": {
+        "description": "<p>Ce scientifique appartient au service R&amp;D de Hemera Genetics. S’il a assurément l’intention de mener sa mission à bien avec rigueur, il semble évident qu’il n’est pas du tout heureux d’être en Antarctique. En effet, en fouillant son casier, il est possible d’y trouver une photo de sa femme et de ses deux enfants. À l’arrière, on peut lire : « Désolée pour notre dernière dispute. J’ai si peur pour toi ! S’il te plaît, ne prends aucun risque et reviens-nous sain et sauf ! »</p><p>Il est toujours accompagné d’un assistant très effacé qui prend note de tout ce que Manuel dit ou fait.</p>"
+      },
+      "prototypeToken": {
+        "name": "Manuel Mooney",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/mu/manuel-mooney.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891631241,
+        "modifiedTime": 1715893769070,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Miki Manami",
+      "type": "npc",
+      "_id": "Tl1WxCSOu8bWc9Hp",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Cette experte technique japonaise travaille pour Kaneda Technologies. Elle semble toujours ailleurs, mais c’est parce qu’elle porte des lunettes à réalité augmentée sur lesquelles défilent constamment des informations. Elle aurait d’ailleurs préféré utiliser cette interface pour contrôler ses drones, mais ici, tout ne fonctionne qu’en circuit fermé. C’est pourquoi elle passe par une console dans son module pour ces opérations.</p><p>L’utilisation de ce matériel dépassé a tendance à l’exaspérer. S’il s’avère qu’il devait, en plus, dysfonctionner, elle sortirait immédiatement de ses gonds et toute personne sur son passage en ferait les frais.</p>"
+      },
+      "prototypeToken": {
+        "name": "Miki Manami",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891658890,
+        "modifiedTime": 1715891686352,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Samuel Niakaté",
+      "type": "npc",
+      "_id": "GcByVwaWzceM3lzO",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Samuel Niakaté est le conseiller technique d’U-Sigma. Véritable génie dans son domaine, il est pourtant quelque peu éclipsé par la réputation de son père, considéré comme le plus brillant esprit de son temps. Il aurait pu laisser d’autres membres de son entreprise venir étudier la tombe, mais quelque chose l’y attire irrésistiblement. D’ailleurs, bien qu’il ait l’habitude de régions plutôt tempérées, il semble assez peu sensible au froid, même extrême, de l’Antarctique.</p><p>Lui aussi passionné par la légende de Mu, il ne paraît pas être ici motivé par un esprit de compétition. Il peut donc être amené à prêter son matériel si cela lui est demandé avec les formes.</p>"
+      },
+      "prototypeToken": {
+        "name": "Samuel Niakaté",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891696007,
+        "modifiedTime": 1715891704028,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Androïdes U-Sigma",
+      "type": "npc",
+      "_id": "G4CrKHFXUq3c2qz5",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Les deux androïdes qui accompagnent Niakaté sont très en avance sur leur temps. Il s’agit de robots bipèdes à taille humaine, mais il est impossible de les confondre avec d’autres membres du campement, car ce sont de véritables machines. Ils sont là pour faire la surveillance et apporter leur aide au scientifique, en portant son matériel ou en exécutant des tâches simples. Ils ne parlent pas et ne sont pas équipés d’armes.</p>"
+      },
+      "prototypeToken": {
+        "name": "Androïdes U-Sigma",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891716161,
+        "modifiedTime": 1715891720495,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "yTtU5xh8gVjObvHy",
+      "name": "Le personnel de sécurité",
+      "type": "npc",
+      "_id": "t9EbiPfWUIlZ5k6H",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Chez Hemera Genetics, un seul membre de la sécurité s’occupe de surveiller tout le module : <strong>Aaron Seamans</strong>. Il n’est pas très bavard et se contente de faire son travail, rien de plus. Si on lui propose une somme assez élevée, il est prêt à détourner le regard quelques minutes. Il lui arrive de faire des tours à pied pour se dégourdir, car il n’aime pas rester immobile par ce froid. Il n’a pas directement accès aux caméras du module, car elles envoient directement leurs informations à la station Concordia.</p><p>Les deux agents mandatés par Kaneda Technologies s’appellent <strong>Gamo Tetsu</strong> et <strong>Niwa Kantsuke</strong>. Si le premier est plutôt taciturne (il ne parle que le japonais), voire désagréable, le second, âgé, parle assez bien anglais, et même un peu français. Kantsuke peut expliquer à qui veut l’entendre qu’il s’agit de sa dernière mission et qu’il a hâte de pouvoir mieux profiter de ses petits-enfants. Les deux agents alternent leurs positions régulièrement : l’un surveille la zone quand l’autre part en motoneige jusqu’à la station pour ramener du matériel, et inversement. Ils ont accès aux images des caméras sur leur smartphone, mais ne les regardent généralement pas.</p>"
+      },
+      "prototypeToken": {
+        "name": "Le personnel de sécurité",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [ ],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [ ],
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891728625,
+        "modifiedTime": 1715891755480,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "combats": [ ],
+  "items": [
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Brouilleur électronique",
+      "type": "planning",
+      "_id": "MjV0fNwglpDxaj4o",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890911379,
+        "modifiedTime": 1715890914107,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Lunettes à vision nocturne",
+      "type": "planning",
+      "_id": "HmxQ0Tu2k7C08lPj",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890922161,
+        "modifiedTime": 1715890924588,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Matériel d’excavation",
+      "type": "planning",
+      "_id": "lsg9DetjDHoc2nTd",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890900666,
+        "modifiedTime": 1715890903225,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Radar à micro-ondes (pour voir à travers les murs)",
+      "type": "planning",
+      "_id": "rwMCzPMAZkIOaRTp",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 4
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890933065,
+        "modifiedTime": 1715890936989,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Système antibruit (sur zone courte)",
+      "type": "planning",
+      "_id": "AnHb0z6CHbnqB8y8",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 4
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890945821,
+        "modifiedTime": 1715890948940,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Système de chauffage portable rapide",
+      "type": "planning",
+      "_id": "GnpMu6LZCakeI6Hn",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890891410,
+        "modifiedTime": 1715890891410,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "J0ZDPqxzsMtaFCvX",
+      "name": "Tenues grand froid dernière technologie",
+      "type": "planning",
+      "_id": "gm5u7k5KI1J55941",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [ ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890872197,
+        "modifiedTime": 1715890872197,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "folder": "VEwWBu0oyxzoZl80",
+      "name": "Scénario",
+      "_id": "YIrfnNOiFlr5v79E",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Présentation",
+          "type": "text",
+          "_id": "hjBoCdEP2hZcel3w",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h1>En quelques mots</h1><p>Dans les tréfonds gelés de l’Antarctique, une découverte sans précédent vient d’avoir lieu. Un monument millénaire a été mis au jour près de la base Concordia. Au cœur de cette zone internationale où aucune vie n’a jamais régné, les pays, mais surtout de grosses entreprises, se bousculent pour savoir qui aura l’honneur d’ouvrir en premier la porte de ce mythique bâtiment. Bien sûr, les bas-reliefs qui le couvrent laissent penser à un tombeau et ses gravures mystérieuses annoncent de nombreux pièges, et même une malédiction.</p><p>L’employeur de Heist a décidé que les agents seraient les premiers à mettre le pied dans cette tombe. Quelque chose y attend depuis toujours et offrira gloire et richesse à quiconque l’aura en sa possession : une carte avec les coordonnées d’une civilisation perdue.</p><h1>Matériel</h1><p>Le scénario <em>À la recherche de Mu</em> utilise 4 plans des lieux :</p><ul><li><p>1 plan complet du campement réservé au meneur, avec le détail des différents modules ;</p></li><li><p>1 plan de la tombe réservé au meneur, avec ses secrets, ses pièges et le nom de la technologie qui permet de les identifier (indiquée entre parenthèses) ;</p></li><li><p>1 plan de départ du campement pour les joueurs ;</p></li><li><p>1 plan de départ de la tombe pour les joueurs.</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario s’inspire à la fois des grandes histoires d’aventure telles que les racontent <em>Indiana Jones</em> ou <em>Tomb Raider</em>, mais aussi du roman <em>La Nuit des temps</em> de Barjavel, avec les mystères que peut enfermer la glace. Meneur, je vous invite à tenter de retranscrire cet esprit de découverte, de pièges et de trésors dans cette aventure aux accents mythologiques.</p><p>Le scénario n’a pas pour objectif de mettre les agents face à des dangers mortels. Le mal d’or et les pièges (voir plus loin @UUID[.QHsqHdU0ZEVn8dzf]{Événements Joker}) ont pour but de créer de la tension, de les laisser sur leurs gardes de bout en bout. Seuls des actes véritablement inconsidérés doivent amener à des conséquences dramatiques.</p><h2>Condition atmosphériques</h2><p>Il est primordial de garder à l’esprit que les conditions atmosphériques dans lesquelles a lieu la mission sont extrêmes : durant le mois de juillet 2033, les températures sont d’environ -40 °C en journée et peuvent descendre jusqu’à -70 °C la nuit. Tout le monde se déplace donc en combinaison grand froid, à l’aide de raquettes ou sur des motoneiges. Dans les modules, les températures atteignent difficilement les 10 °C. L’équipe va retourner à la station vers 16 heures puisque le soleil commence à se coucher vers 16 h 30.</p>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715888562540,
+            "modifiedTime": 1715891423682,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Briefing",
+          "type": "text",
+          "_id": "jg8VpSInnhEcz7CP",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p style=\"text-align:right\"><em><strong>Antarctique, le mardi 19 juillet 2033,</strong></em></p><p style=\"text-align:right\"><em><strong>midi - Station Concordia</strong></em></p><p><em>Agents, je sais que le chemin a été long jusqu’en Antarctique et je vous remercie de vos efforts.</em></p><p><em>Hier soir, l’archéologue française Moïra Lefort a fait une découverte à laquelle personne ne croyait. En creusant, elle a révélé au monde un bâtiment enterré sous la glace depuis des milliers d’années… et tout porte à croire qu’il s’agit d’un tombeau.</em></p><p><em>Pour le trouver, Moïra a suivi d’anciens écrits que personne ne prenait au sérieux. Sa trouvaille change absolument tout pour la communauté scientifique, mais aussi pour certaines grosses entreprises.</em></p><p></p><p><em>Vous l’avez sûrement constaté, tout le monde se rue vers la station Concordia, zone de civilisation la plus proche de la découverte, et un campement se monte aux abords de l’édifice enfoui. Une chance pour nous, nous sommes en hiver et le froid mortel ne permet pas aux nouveaux venus d’agir aussi vite qu’ils le souhaiteraient. Ils ont réussi à dégager la porte du monument, mais elle n’a pas encore été ouverte. Chacun se dispute cet honneur et c’est notre chance !</em></p><p><em>Notre commanditaire souhaite que vous accédiez à l’intérieur de la tombe et récupériez ce qu’elle renferme selon les légendes : une carte avec les coordonnées du continent perdu de Mu.</em></p><p><em>Faites bien attention, car les écrits indiquent aussi que des pièges protègent ce trésor. Moïra, grâce à son matériel, a déjà déterminé le positionnement grossier des pièces du tombeau, mais il manque encore beaucoup d’éléments. Votre préparation sera donc primordiale afin de ne pas être repérés – la discrétion prime –, mais aussi pour votre propre survie ! Heureusement pour vous, les trois grandes entreprises qui convoitent la découverte bénéficient des dernières technologies de pointe. Les utiliser à leur insu vous permettra d’organiser votre exploration.</em></p><p><em>Vous avez la journée pour faire votre reconnaissance et vous préparer. Vous devrez agir à la tombée de la nuit.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/mu/carte-mu.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Carte avec coordonnées de Mu.</p><p><em><strong>Lieu :</strong></em> Tombe antique au cœur de l’Antarctique.</p><p><em><strong>Délai :</strong></em> Cette nuit.</p><p><em><strong>Victoire :</strong></em> Les agents rejoignent la station Concordia avec la carte, dans l’idéal sans avoir été repérés par les entreprises ou les chercheurs sur place.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Les agents sont morts, ont été arrêtés par les équipes de recherche ou ne parviennent pas à s’emparer de la carte.</p></div></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715888854426,
+            "modifiedTime": 1715889341641,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Intrigue",
+          "type": "text",
+          "_id": "jXi9qLIRBBolrT2J",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p><strong>Moïra Lefort</strong> est très mal considérée au sein de la communauté scientifique. Forte tête avec une dégaine de bikeuse, cette archéologue ne suit en rien les règles de la profession. Son rêve : découvrir des trésors liés à des civilisations légendaires. L’Eldorado, l’Atlantide, le continent de Mu… voilà ses objectifs ! Et elle s’acharne à les suivre, malgré les nombreuses moqueries qu’elle subit.</p><p>Soutenue par des mécènes avides de richesses et de technologies mythiques, elle s’est procuré des écrits antiques et codés qu’elle a réussi à décrypter après des mois de recherches et d’étude. Elle a ensuite engagé une équipe pour creuser aux coordonnées indiquées, en plein Antarctique, jusqu’à enfin faire la découverte de sa carrière.</p><p>Sauf que Lefort a fait appel à beaucoup de soutiens pour en arriver là… Ce sont principalement de grandes firmes technologiques qui ont parié sur elle, au même titre que le commanditaire de Heist. Aucun d’entre eux n’est prêt à partager le gâteau, évidemment, et nous voilà lancés dans une course à celui qui sera le premier à récupérer le butin que renferme la tombe.</p><p></p><p>En plus de l’agence Heist, trois entreprises sont en lice :</p><ul><li><p>Hemera Genetics, une société américaine, est spécialisée dans la recherche sur les matériaux organiques ;</p></li><li><p>Kaneda Technologies, située au Japon, travaille sur les solutions informatiques de pointe ;</p></li><li><p>Enfin, U-Sigma, qui fait parler d’elle depuis peu en Afrique du Sud, développe des éléments de robotique très poussés.</p></li></ul><p>Chacune a envoyé une équipe scientifique, doublée de personnel de sécurité. Toutes ces personnes sont mal préparées au froid polaire et ne pourront pas agir de nuit, lorsque les températures sont trop basses. En revanche, chaque groupe a ramené avec lui ses meilleurs atouts pour analyser ce que contient la tombe. En fouillant le campement, les agents pourraient maximiser leurs chances de découverte… et de survie.</p><div class=\"blue-box\"><h1>Le continent perdu de Mu</h1><p>À l’image de l’Eldorado ou de l’Atlantide, le continent perdu de Mu est un lieu mythique qui aurait disparu, avec sa civilisation, il y a des milliers d’années. La raison ? Ce peuple aurait évolué trop vite. Ses technologies très avancées l’auraient alors poussé à la décadence jusqu’à l’amener à son extinction. Depuis, l’île de Mu serait engloutie sous les eaux de l’océan Pacifique, mais recèlerait encore des trésors technologiques incroyables</p></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715889357065,
+            "modifiedTime": 1715889467172,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Lieux",
+          "type": "text",
+          "_id": "3jPgqUIfvkhewo45",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<img src=\"systems/heist/images/media/scenario/mu/concordia-qr-code.webp\" class=\" centered\" width=\"300\" /><p style=\"text-align:center\"><a href=\"https://fr.wikipedia.org/wiki/Base_antarctique_Concordia\">Base Antarctique Concordia</a></p><h2>Le campement</h2><p>Le campement qui entoure la tombe se trouve à quelques kilomètres au sud-ouest de la station Concordia. Pour y accéder, les équipes utilisent des motoneiges. Il a été monté à la vavite et les modules qui le constituent ne protègent pas assez du froid pour y passer la nuit sans danger. Ils ressemblent à de grands conteneurs faits dans un métal très épais et aménagés différemment selon le propriétaire.</p><p>Le campement se sépare en quatre zones, trois appartiennent aux entreprises venues « superviser » l’ouverture de la tombe, la quatrième est le campement d’origine, monté par Lefort et son équipe.</p><h3>Module Hemera Genetics</h3><p>Hemera Genetics, corporation pharmaceutique et d’ingénierie médicale, est particulièrement connue pour travailler sur la régénérescence cellulaire et la manipulation génétique. En somme, cette société cherche à créer des clones, des surhommes et voudrait découvrir les secrets de l’immortalité. Le peuple de Mu étant réputé pour son incroyable longévité, fouiller ces ruines pourrait offrir des avancées fulgurantes aux recherches de l’entreprise.</p><p></p><p>À l’avant du conteneur se trouve une zone juste couverte d’une bâche protégeant trois motoneiges et du gros matériel d’excavation. Trois combinaisons Hazmat sont remisées dans un vestiaire hermétique. Une caméra est tournée vers l’extérieur et capte en partie l’entrée de la tombe ; elle semble souffrir des conditions météorologiques extrêmes.</p><p></p><p>Le module d’Hemera Genetics renferme un peu de matériel scientifique et médical. Sur la gauche de l’entrée, une caméra surveille les entrées et sorties. Toute la moitié avant de la structure sert de « zone de vie » pour l’équipe. On y trouve une table avec trois chaises, des casiers (dont celui de <strong>Manuel Mooney</strong>) contenant divers objets : badges de la station Concordia, effets personnels, pistolet pour la personne responsable de la sécurité. Une tenue grand froid de secours est accrochée à un portemanteau et une étagère recèle des rations militaires ainsi que du matériel d’excavation et d’escalade : harnais, cordes, piolets et pieds de biche.</p><p></p><p>Vers le fond de l’unique pièce, contre les trois parois, se trouvent des établis avec des systèmes d’analyse. L’un d’eux, portatif, sert en particulier à repérer toute matière d’origine organique à distance. Cela peut être utile pour sonder de l’extérieur la tombe et voir où se trouvent la dépouille (s’il y en a bien une), une éventuelle carte (si elle est faite de papier ou de papyrus) et tout autre élément intéressant de ce type. Pour l’utiliser, il faut diriger l’appareil (de la taille d’une petite caméra) vers la zone à scanner. Les éléments organiques apparaissent en rouge sur l’écran.</p><p>Dans une armoire à pharmacie fermée à clé, il est possible de récupérer des médicaments et des substances aux effets somnifères ou hallucinogènes.</p><p>Dans un petit réfrigérateur, quatre flacons luminescents portent une étiquette avec une croix verte. Non loin, un injecteur adapté permet de s’inoculer la substance dans le bras. En cherchant dans les documents présents sur les établis, il est possible de comprendre qu’il s’agit d’échantillons prototypes de « nods », censés renforcer les capacités de quiconque les utilise. Si un agent s’injecte le contenu de l’un des flacons, il peut récupérer deux cartes au hasard dans sa défausse et les mettre sur le dessus de son paquet sans les regarder ; à la place, il peut récupérer seulement une carte qu’il choisit. Ces nods auront aussi une grande utilité dans la suite de l’aventure (voir plus loin @UUID[.3jPgqUIfvkhewo45#reserve]{Réserve} et @UUID[.QHsqHdU0ZEVn8dzf#joker-2-le-mal-dor]{Joker 2 – Le mal d’or}).</p><h3>Module Kaneda Technologies</h3><p>Kaneda Technologies est une entreprise gigantesque qui finance de nombreuses autres sociétés et des projets de tout type, allant de la domotique à la sécurité en passant par la cybernétique.</p><p></p><p>Dans l’entrée du module, trois vestiaires sont attribués respectivement à la spécialiste technique <strong>Miki Manami</strong> et aux deux membres de la sécurité. Il est possible de trouver dans les casiers de ces deux derniers un fusil d’assaut et des matraques électriques. De plus, dans les affaires personnelles de l’un des gardes, on peut trouver une carte un peu kitsch, portant la mention dactylographiée en anglais « Bientôt la retraite ! ». Le reste est en japonais, écrit à la main. Des tenues grand froid en surplus sont entreposées dans un coin. Une caméra surveille cette zone.</p><p></p><p>Dans la deuxième partie du module se trouvent des placards avec des rations (mais pas de matériel d’exploration). Une table avec deux chaises permet de se restaurer et de faire une pause. Ensuite, tout un arsenal technologique a été déployé. Des drones de diverses tailles peuvent être manipulés grâce à des consoles qui ressemblent beaucoup à des bornes d’arcade miniatures. Deux ont l’air d’être pleinement actifs, deux autres servent uniquement en secours. Partout, tout est écrit en japonais, parfois seulement en anglais.</p><p>L’un des deux drones actifs permet de scanner la tombe et d’en déterminer plus précisément la structure. Au-delà des murs et des gros éléments de mobilier, ce sont des portes et des zones cachées qui pourraient bien apparaître grâce à ce radar hi-tech. Les autres sont dévolus à l’exploration.</p><p>Les drones sont remisés dans le module la nuit, car leurs circuits électroniques supportent mal le froid extrême. Certains restent toutefois actifs et en surveillance. Ils peuvent donner l’alerte et être contrôlés à distance depuis la station Concordia.</p><h3>Module U-Sigma</h3><p>U-Sigma est une société émergente qui a fait de la robotique de dernière génération sa spécialité. À cet effet, elle est dirigée par un jeune prodige des sciences qui a décidé de faire lui-même le déplacement : <strong>Samuel Niakaté</strong>.</p><p></p><p>Le module est plus petit que les deux précédents, mais plus confortable. Au fond à droite, dans une grande armoire, un mannequin soutient un exo­ squelette. Celui-ci semble comporter tout ce qu’il faut pour grimper, sauter ou creuser, comme le démontrent les divers outils rangés dans ses avantbras. Toutefois, aucune arme, dissimulée ou non, ne l’équipe.</p><p>Sur une table, de nombreux documents sont éparpillés : copies de textes légendaires, notes personnelles, élucubrations sur ce que peut contenir la tombe… Niakaté semble lui aussi passionné par le sujet. Près d’un bord, un petit drone permet de scanner la tombe de l’extérieur et d’analyser les éléments métalliques qui s’y trouvent. Ce peut être un bon moyen de repérer d’éventuels pièges.</p><p>À droite de la table, un cube de métal de la taille d’un tabouret est en fait un androïde de renfort replié. Ce robot peut être activé grâce à une console portable que Niakaté détient sur lui. Ici, il est en mode surveillance et peut alerter son propriétaire de toute intrusion.</p><p></p><p>Une autre petite table montre les restes d’un repas en solitaire. Un ordinateur portable avec liaison satellite permet d’effectuer des recherches et d’échanger avec l’extérieur. Le manuel d’utilisation de l’exosquelette peut être trouvé dans un répertoire, sous réserve de disposer des compétences et du temps nécessaires.</p><p></p><p>Pas de tenue grand froid ni de matériel d’exploration dans ce module, l’exosquelette semblant remplir toutes ces fonctions.</p><p>Aucun matériel de surveillance n’est apparent, mis à part l’androïde. À l’extérieur, un autre automate, déplié et bien actif, fait office de personnel de sécurité.</p><h3>Module de Moïra Lefort</h3><p>Lefort est présente sur place depuis plusieurs semaines maintenant. Son module est donc un peu plus implanté que les autres, même s’il n’est toujours pas possible d’y passer la nuit. Une grosse partie de son équipe, des ouvriers principalement, a quitté le campement après la découverte de la tombe. Seule une pelleteuse subsiste à l’arrière de son conteneur, souvenir du chantier des jours précédents.</p><p></p><p>À l’intérieur de l’abri, c’est un joyeux chaos : déchets de repas précédents sur une grande table, matériel éparpillé un peu partout… Cela reste tout de même bien vide depuis le départ de l’équipe.</p><p>Sur un bureau dans le fond se trouvent les notes de Lefort ; son journal de bord, en quelque sorte. Il est possible d’y lire ses avancées dans sa quête de Mu et d’y comprendre la véritable passion qui l’habite. L’entrée la plus récente indique qu’elle a enfin réussi à décrypter les symboles sur la porte de la tombe qui forment une énigme, mais qu’elle se garde bien d’en discuter avec les nouveaux arrivants, car il s’agit d’un moyen de l’ouvrir.</p><p>En fouillant avec précision, il est possible de trouver un double fond à l’un des tiroirs du bureau. Il renferme une feuille sur laquelle est inscrite l’explication de l’énigme évoquée dans le carnet : le sésame pour accéder à la tombe !</p><p></p><p>Le module ne bénéficie d’aucun système de surveillance, mais l’assistant de Lefort, <strong>Nicolas Clerodière</strong>, seul autre occupant du lieu, y fait régulièrement des allers-retours.</p><h2>La tombe</h2><h3>Porte d’entrée</h3><p>Il faut descendre de très nombreuses marches avant d’atteindre l’entrée de la tombe. La pierre inconnue qui compose cette porte n’a pas souffert des températures extrêmes de l’Antarctique et semble scellée hermétiquement. Des bas-reliefs la parent de représentations d’un peuple antique et disparu. Des indices laissent effectivement penser que cette civilisation bénéficiait de grandes connaissances techniques.</p><p>De nombreux symboles du soleil et de la lune dans ses diverses phases sont présents sur les montants de la porte. Si les agents ont eu l’occasion de découvrir les notes dissimulées de Lefort, ils savent que, pour ouvrir la porte, il suffit d’appuyer sur les phases de la lune dans l’ordre, en partant de la nouvelle lune pour y retourner. Sinon, il faudra être très observateur pour constater que ces symboles sont amovibles, et chanceux pour trouver le bon point de départ.</p><p>Enfin, une scène en particulier semble mettre en garde contre la présence d’un mal qui rôderait à l’intérieur de ce tombeau.</p><h3>Antichambre</h3><p>La porte s’ouvre silencieusement sur une grande salle qui forme l’antichambre de la tombe. La magnificence de cette première pièce a de quoi laisser bouche bée. Neuf statues en obsidienne y représentent des déités aux caractéristiques très différentes : de la femme au visage humain, arborant un enfant au creux de l’un de ses bras et portant au-dessus de son autre paume ouverte un flocon de neige, à l’entité dont la tête forme un agencement complexe d’engrenages. De nouveaux bas-reliefs et des symboles couvrant les murs racontent les légendes et les bienfaits liés à ces êtres majestueux. Sans l’expertise de Lefort, il est cependant impossible d’en comprendre les détails.</p><h3>Réserve</h3><p>La cloison qui permet d’accéder à la réserve peut être déplacée par qui a assez de force. Toutefois, il s’agit d’une curiosité bien malvenue : dans cette zone ont été laissés à l’abandon tout le mobilier et les objets ayant permis la fabrication du tombeau. Certes, ils offrent un regard intéressant sur les techniques de fabrication d’un tel monument, mais on y trouve aussi les corps momifiés et pêle-mêle des malheureux morts durant cette entreprise ! Certains l’ont été par accident ; les autres avaient contracté un mal mystérieux (celui évoqué sur la porte d’entrée). D’ailleurs, en dépit des milliers d’années écoulés, leur peau semble encore irradier légèrement.</p><p></p><p>Si les agents ne prennent pas garde, ils peuvent à leur tour être les victimes de cette maladie d’un autre temps : malgré leur combinaison, certains, les plus exposés, sont pris de vertiges et commencent à avoir très chaud, et leur peau prend petit à petit une teinte légèrement dorée. Or, dans les conditions météorologiques actuelles, impossible de se déshabiller sans prendre le risque de mourir d’hypothermie !</p><p>Tant qu’il est impacté par ce mal mystérieux, un agent qui tente une action demandant des efforts physiques est susceptible de défausser une carte de sa pioche avant le test, à la discrétion du meneur. L’usage des nods peut être un bon moyen de lutter contre cette affliction.</p><p>Bien entendu, si la réserve est rapidement refermée après ouverture et si des précautions sont prises, les agents s’en tirent sains et saufs, et cela peut s’arrêter là – pour le moment (voir plus loin @UUID[.QHsqHdU0ZEVn8dzf#joker-2-le-mal-dor]{Joker 2 – Le mal d’or}).</p><h3>Chambre funéraire</h3><p>Après un nouvel escalier, on accède à la chambre funéraire, cœur de la structure. Face à l’entrée, quelques marches descendantes permettent d’atteindre une zone centrale où reposent quatre sarcophages d’obsidienne. Ils sont magnifiquement décorés et incrustés de pierres précieuses. Il semble qu’il s’agisse des corps de trois femmes et d’un homme, d’importances équivalentes.</p><p>Deux portes fermées flanquent l’entrée, à droite et à gauche (une troisième est dissimulée dans le mur de l’autre côté de la pièce).</p><p>Il est tout à fait possible d’allumer les braseros disséminés partout dans la salle pour contempler la magnificence du lieu.</p><h3>Salles au trésor</h3><p>Les deux salles qui se trouvent à l’entrée de la chambre funéraire contiennent des trophées liés aux personnalités inhumées dans ce tombeau. Bien qu’aucun or en tant que tel ne soit visible, des bibelots en pierre ou métal précieux sont entreposés. Inutile de dire que ces éléments ont une valeur inestimable, qu’elle soit pécuniaire ou historique. Toutefois, aucune carte n’y est trouvable.</p><p></p><p>La troisième salle attend derrière une porte dissimulée dans le mur du fond de la chambre funéraire. Les agents ont probablement déjà pu la repérer grâce aux technologiques des factions sur place ; sinon, il leur faudra faire preuve d’observation : un petit mécanisme caché permet d’accéder à ce lieu gardé secret.</p><p></p><p>Cette pièce renferme des ouvrages aux inscriptions illisibles, mais dont certains dessins peuvent évoquer des plans de fabrication ou des études scientifiques. Au centre, une sculpture mécanique qui fait penser à un automate représente un serpent, la gueule ouverte, semblant absorber la lumière. Si les agents sont atteints du mal contracté dans la réserve, s’approcher de la statue est une torture : les symptômes sont exacerbés.</p><p>Sur la droite de la pièce, un lutrin majestueux porte une carte géographique déroulée, semblant représenter Mu et indiquer son emplacement. Il s’agit de l’objectif des agents ! Attention toutefois à ce qu’ils y prennent grand soin, car l’objet, fait d’un papyrus très ancien, est extrêmement fragile.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.YIrfnNOiFlr5v79E.JournalEntryPage.3jPgqUIfvkhewo45"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715889674688,
+            "modifiedTime": 1715892007291,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Casting",
+          "type": "text",
+          "_id": "1M511OO0K8cxHabl",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Moïra Lefort</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/moira-lefort.webp\" /></div></div><p>Cette archéologue atypique se prend pour l’Indiana Jones des temps modernes. Passionnée de légendes, elle ne ménage pas ses efforts pour prouver qu’elle a eu raison de persévérer. Si elle bénéficie du soutien de nombreux mécènes, elle n’est pour autant pas appréciée des entreprises qui se sont installées sur son campement. Et elle leur rend bien ! D’autant qu’elle se doute qu’ils lui voleront la vedette à la première occasion !</p><p>Avec son tempérament ardent, il suffit d’une étincelle pour mettre le feu aux poudres entre Lefort et l’un de ses mécènes. En revanche, si les agents lui proposent de les coiffer en poteau en les accompagnant, elle se fera une joie de les aider à décoder l’énigme de la porte.</p><h2>Nicolas Clerodière</h2><p>L’assistant de Lefort sert principalement à la cadrer. D’un tempérament plutôt doux, il n’hésite pourtant pas à hausser la voix lorsqu’il considère qu’elle va trop loin, tout comme il peut prendre sa défense sans hésiter. Il est de tous les secrets de l’archéologue, mais a une peur viscérale de ce qui pourrait se trouver dans la tombe, et particulièrement de la malédiction.</p><p>Clerodière est d’avis qu’il faudrait laisser à d’autres le soin d’explorer la structure, mais n’apprécie pas du tout l’intrusion des trois entreprises dans leurs recherches. Les agents pourraient être une bonne solution pour lui.</p><h2>Manuel Mooney</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/manuel-mooney.webp\" /></div></div><p>Ce scientifique appartient au service R&amp;D de Hemera Genetics. S’il a assurément l’intention de mener sa mission à bien avec rigueur, il semble évident qu’il n’est pas du tout heureux d’être en Antarctique. En effet, en fouillant son casier, il est possible d’y trouver une photo de sa femme et de ses deux enfants. À l’arrière, on peut lire : « Désolée pour notre dernière dispute. J’ai si peur pour toi ! S’il te plaît, ne prends aucun risque et reviens-nous sain et sauf ! »</p><p>Il est toujours accompagné d’un assistant très effacé qui prend note de tout ce que Manuel dit ou fait.</p><h2>Miki Manami</h2><p>Cette experte technique japonaise travaille pour Kaneda Technologies. Elle semble toujours ailleurs, mais c’est parce qu’elle porte des lunettes à réalité augmentée sur lesquelles défilent constamment des informations. Elle aurait d’ailleurs préféré utiliser cette interface pour contrôler ses drones, mais ici, tout ne fonctionne qu’en circuit fermé. C’est pourquoi elle passe par une console dans son module pour ces opérations.</p><p>L’utilisation de ce matériel dépassé a tendance à l’exaspérer. S’il s’avère qu’il devait, en plus, dysfonctionner, elle sortirait immédiatement de ses gonds et toute personne sur son passage en ferait les frais.</p><h2>Samuel Niakaté</h2><p>Samuel Niakaté est le conseiller technique d’U-Sigma. Véritable génie dans son domaine, il est pourtant quelque peu éclipsé par la réputation de son père, considéré comme le plus brillant esprit de son temps. Il aurait pu laisser d’autres membres de son entreprise venir étudier la tombe, mais quelque chose l’y attire irrésistiblement. D’ailleurs, bien qu’il ait l’habitude de régions plutôt tempérées, il semble assez peu sensible au froid, même extrême, de l’Antarctique.</p><p>Lui aussi passionné par la légende de Mu, il ne paraît pas être ici motivé par un esprit de compétition. Il peut donc être amené à prêter son matériel si cela lui est demandé avec les formes.</p><h2>Androïdes U-Sigma</h2><p>Les deux androïdes qui accompagnent Niakaté sont très en avance sur leur temps. Il s’agit de robots bipèdes à taille humaine, mais il est impossible de les confondre avec d’autres membres du campement, car ce sont de véritables machines. Ils sont là pour faire la surveillance et apporter leur aide au scientifique, en portant son matériel ou en exécutant des tâches simples. Ils ne parlent pas et ne sont pas équipés d’armes.</p><h2>Le personnel de sécurité</h2><p>Chez Hemera Genetics, un seul membre de la sécurité s’occupe de surveiller tout le module : <strong>Aaron Seamans</strong>. Il n’est pas très bavard et se contente de faire son travail, rien de plus. Si on lui propose une somme assez élevée, il est prêt à détourner le regard quelques minutes. Il lui arrive de faire des tours à pied pour se dégourdir, car il n’aime pas rester immobile par ce froid. Il n’a pas directement accès aux caméras du module, car elles envoient directement leurs informations à la station Concordia.</p><p>Les deux agents mandatés par Kaneda Technologies s’appellent <strong>Gamo Tetsu</strong> et <strong>Niwa Kantsuke</strong>. Si le premier est plutôt taciturne (il ne parle que le japonais), voire désagréable, le second, âgé, parle assez bien anglais, et même un peu français. Kantsuke peut expliquer à qui veut l’entendre qu’il s’agit de sa dernière mission et qu’il a hâte de pouvoir mieux profiter de ses petits-enfants. Les deux agents alternent leurs positions régulièrement : l’un surveille la zone quand l’autre part en motoneige jusqu’à la station pour ramener du matériel, et inversement. Ils ont accès aux images des caméras sur leur smartphone, mais ne les regardent généralement pas.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715890425902,
+            "modifiedTime": 1715893891249,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Événements Joker",
+          "type": "text",
+          "_id": "QHsqHdU0ZEVn8dzf",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Joker 1 - Piège !</h2><p>Trois pièges sont dissimulés dans le tombeau. C’est à vous, meneur, de déterminer lequel est le plus susceptible de se déclencher en fonction de la progression des agents au sein de l’édifice. Peut-être ont-ils pu les prévoir grâce à des technologies utilisées précédemment ?</p><p></p><p><strong>Piège 1 :</strong> La porte d’entrée se referme rapidement et ne peut pas être ouverte à mains nues. Trois solutions pour sortir :</p><ul><li><p>Déployer des moyens que les agents ont apportés avec eux (s’ils se sont équipés pour de l’excavation, par exemple), mais cela risque de ne pas être discret ;</p></li><li><p>Utiliser les outils se trouvant dans la réserve, au risque de se voir inoculer le mal des corps momifiés ;</p></li><li><p>Trouver la zone cachée qui permet de désactiver le piège.</p></li></ul><p></p><p><strong>Piège 2 :</strong> Un énorme rocher sphérique se met à dégringoler dans l’escalier qui mène à la chambre funéraire. Les agents vont devoir faire preuve de dextérité pour éviter d’être écrasés. Deuxième inconvénient, la roche va bloquer l’accès à la salle principale de la tombe. Les solutions pour continuer d’explorer sont les mêmes que pour le piège 1.</p><p></p><p><strong>Piège 3 :</strong> Le plafond de la chambre funéraire se met à descendre. Le seul moyen d’éviter d’être écrabouillé est d’aller s’allonger près des sarcophages. Encore faut-il ensuite trouver les mécanismes permettant de faire remonter la structure de pierre…</p><h2>Joker 2 - Le mal d’or</h2><p>Qu’ils aient ouvert la réserve ou non, un étrange brouillard doré commence à s’insinuer dans la tombe à partir de celle-ci (par un interstice, le cas échéant). Il évolue en nappe et peut être esquivé si les agents s’éclairent suffisamment pour le voir. Si l’un d’eux est touché, les mêmes symptômes commencent à se faire sentir (voir plus tôt @UUID[.3jPgqUIfvkhewo45#reserve]{Réserve}) : vertiges, chaleur insoutenable et reflets dorés sur la peau. Un porteur de la maladie n’a plus qu’une envie : fuir ce lieu et se libérer de ce mal.</p><p>Les nods de soins trouvés dans le module de Hemera Genetics peuvent soigner le mal d’or. Sinon, les effets se dissiperont lorsque les agents seront ressortis de l’édifice. Cependant, tant qu’ils restent explorer l’intérieur, les infectés sont susceptibles de défausser une carte de leur pioche lors d’actions demandant des efforts, à la discrétion du meneur.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.YIrfnNOiFlr5v79E.JournalEntryPage.QHsqHdU0ZEVn8dzf"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715890618693,
+            "modifiedTime": 1715892054533,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Liste d’achats",
+          "type": "text",
+          "_id": "80zyNLHW0En7aKdS",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Pour aider vos joueurs pendant la phase de Préparation, qui se passe au sein de la station Concordia, voici quelques éléments que vous pouvez leur suggérer, pour donner des pistes :</p><ul><li><p>@UUID[Item.gm5u7k5KI1J55941]{Des tenues grand froid dernière technologie} (1 $ par agent) ;</p></li><li><p>@UUID[Item.GnpMu6LZCakeI6Hn]{Un système de chauffage portable rapide} (1 $) ;</p></li><li><p>@UUID[Item.lsg9DetjDHoc2nTd]{Du matériel d’excavation} (2 $) ;</p></li><li><p>@UUID[Item.MjV0fNwglpDxaj4o]{Un brouilleur électronique} (3 $) ;</p></li><li><p>@UUID[Item.HmxQ0Tu2k7C08lPj]{Des lunettes à vision nocturne} (2 $) ;</p></li><li><p>@UUID[Item.rwMCzPMAZkIOaRTp]{Un radar à micro-ondes (pour voir à travers les murs)} (4 $) ;</p></li><li><p>@UUID[Item.AnHb0z6CHbnqB8y8]{Un système antibruit (sur zone courte)} (4 $).</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715890771213,
+            "modifiedTime": 1715891080196,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Pistes d’actions",
+          "type": "text",
+          "_id": "h5hlxFIKMx3CBdsh",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Voici quelques points d’intérêt prévus par le scénario. Si les joueurs viennent avec de nouvelles idées, tant mieux !</p><h3>S’infiltrer dans les modules pour emprunter les technologies qu’ils contiennent</h3><p>Pas forcément le plus facile, mais faisable. Pour cela, il faut réussir à contourner le personnel de sécurité et les systèmes de surveillance. Les machines peuvent toutes être utilisées depuis l’intérieur d’un module. Dans ce cas, le test devient difficile. L’utilisation de somnifères est possible, il y en a des très puissants dans le module de Hemera Genetics.</p><h3>Créer une diversion</h3><p>Tout le monde est un peu sous pression. Il peut donc être assez simple de provoquer une dispute entre les différentes factions sur place.</p><p>La pelleteuse peut aussi être utilisée afin d’attirer le regard des équipes, surtout si elle commence à se diriger, sans personne à son bord, vers les escaliers qui descendent jusqu’à la tombe.</p><p>Enfin, l’utilisation d’hallucinogènes est possible (il y en a dans le module de Hemera Genetics), mais peut-être dangereuse pour les victimes, étant donné les conditions climatiques…</p><h3>Se faire passer pour du personnel de la station Concordia ou d’un autre organisme</h3><p>Le personnel de la station Corcordia est assez inoffensif pour les entreprises sur place, car il n’a pas d’intérêt à essayer de les doubler dans la découverte qui se prépare. Toutefois, il peut être présent en tant qu’observateur ou pour des raisons scientifiques : pour récupérer des carottes de glace près de l’entrée par exemple.</p><p>Ce peut être un moyen d’échanger avec les factions et d’agir dans le campement de façon neutre.</p><h3>Trouver des alliés</h3><p>Lefort est prête à aider les agents s’ils lui promettent d’être la première à accéder à la tombe. Elle facilite alors l’ouverture de l’entrée du monument. Attention toutefois : il faudra à la fois l’empêcher de se défaire de sa combinaison si le mal d’or la gagne et lui dissimuler la découverte de la carte.</p><p>Clerodière, au contraire, peut apporter son soutien contre la promesse que sa responsable ne sera pas présente lors de l’ouverture.</p><p>Niakaté est prompt à partager ses informations, pour peu que l’échange soit réciproque. Il semble être dans une démarche plus scientifique que mercantile. Pour autant, s’il ne souhaite pas avoir l’original de la carte, il pourrait en exiger une copie. Utiliser l’un de ses androïdes pourrait être le moyen le plus sûr d’entrer dans la tombe… jusqu’à ce qu’il soit « désactivé » par l’un des pièges. En revanche, le chercheur ne prêtera pas son exosquelette.</p><p>Mooney, Seamans ou Kantsuke peuvent être des alliés temporaires pour peu que les agents réussissent à appuyer sur leur corde sensible. Toutefois, aucun des trois ne les laissera volontairement prendre de l’avance sur l’ouverture de la tombe.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715891102363,
+            "modifiedTime": 1715891187532,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Fin de partie",
+          "type": "text",
+          "_id": "VNvbeozcOQDfnkAr",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le scénario prend fin lorsque les agents s’échappent de la tombe et retournent à la station Concordia. Si le paquet de cartes du meneur arrive à son terme, l’alerte a été donnée : l’intrusion dans le monument a été repérée et toutes les factions en lice sont en train de revenir au campement.</p><p><strong>Si les agents disposent de la carte sans que personne ait repéré leur intrusion</strong>, c’est un succès total. Jack les félicite et les recontactera pour une mission future.</p><p><strong>Si les agents ont récupéré la carte, mais que leur intrusion est remarquée</strong>, c’est un succès plus mitigé. Jack les félicite tout de même, mais il sait que ce genre d’événement peut provoquer des guerres.</p><p><strong>Si les agents ne disposent pas de la carte</strong>, c’est un échec. Jack est mécontent, même si des biens inestimables lui sont rapportés en échange.</p><p><strong>Si l’un (ou plusieurs) des membres de l’équipe a été gravement blessé, est mort ou a été intercepté par l’une des factions présentes sur place</strong>, c’est un échec cuisant. L’avenir des agents est incertain. Une chose est sûre, pourtant : ils ne seront plus recrutés.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1715891193835,
+            "modifiedTime": 1715891276364,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715888545270,
+        "modifiedTime": 1715891454274,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "folder": "c5rinT00DOCvFZJW",
+      "name": "Plan 1",
+      "_id": "AAO1lNbogdPKjArV",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/mu/plan-1.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1715894495322,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [ ],
+      "tokens": [ ],
+      "lights": [ ],
+      "notes": [ ],
+      "sounds": [ ],
+      "templates": [ ],
+      "tiles": [ ],
+      "walls": [ ],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715894495323,
+        "modifiedTime": 1715894555786,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "systems/heist/images/thumbs/scenes/AAO1lNbogdPKjArV-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "c5rinT00DOCvFZJW",
+      "name": "Plan 2",
+      "_id": "5BDLvlo8hp1OThre",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/mu/plan-2.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1715894536462,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [ ],
+      "tokens": [ ],
+      "lights": [ ],
+      "notes": [ ],
+      "sounds": [ ],
+      "templates": [ ],
+      "tiles": [ ],
+      "walls": [ ],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715894536463,
+        "modifiedTime": 1715894551274,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "systems/heist/images/thumbs/scenes/5BDLvlo8hp1OThre-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    }
+  ],
+  "tables": [ ],
+  "macros": [ ],
+  "cards": [ ],
+  "playlists": [ ],
+  "folders": [
+    {
+      "name": "À la recherche de Mu",
+      "sorting": "a",
+      "folder": null,
+      "type": "Actor",
+      "_id": "yTtU5xh8gVjObvHy",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.yTtU5xh8gVjObvHy"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715891580657,
+        "modifiedTime": 1715891580657,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "À la recherche de Mu - Liste d’achats",
+      "sorting": "a",
+      "folder": null,
+      "type": "Item",
+      "_id": "J0ZDPqxzsMtaFCvX",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.J0ZDPqxzsMtaFCvX"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715890852275,
+        "modifiedTime": 1715894001364,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "À la recherche de Mu",
+      "sorting": "a",
+      "folder": null,
+      "type": "JournalEntry",
+      "_id": "VEwWBu0oyxzoZl80",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.VEwWBu0oyxzoZl80"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715888538278,
+        "modifiedTime": 1715888538278,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "À la recherche de Mu",
+      "sorting": "a",
+      "folder": null,
+      "type": "Scene",
+      "_id": "c5rinT00DOCvFZJW",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.c5rinT00DOCvFZJW"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715894485060,
+        "modifiedTime": 1715894485060,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "_id": "fp9zJuW44g80mmQz",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715888513316,
+    "modifiedTime": 1715894581610,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!adventures!fp9zJuW44g80mmQz"
+}

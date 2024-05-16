@@ -5,6 +5,7 @@
 ### Added
 
 - [Irish Job] Tiles to show agents their findings
+- Adventure compendium for the scenario "À la recherche de Mu"
 
 ### Fixed
 
