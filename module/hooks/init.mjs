@@ -5,6 +5,7 @@ import * as HEIST from '../const.mjs';
 import * as app from '../app/_module.mjs';
 import * as actor from '../actor/_module.mjs';
 import * as item from '../item/_module.mjs';
+import { Tools } from '../helpers/tools.mjs';
 
 export const Init = {
   listen() {
@@ -40,6 +41,7 @@ export const Init = {
       game[HEIST.SYSTEM_ID] = {
         agentTestWindow: new app.windows.AgentTestWindow(),
         gamePhaseWindow: new app.windows.GamePhaseWindow(),
+        tools: new Tools(),
       };
     });
   },
