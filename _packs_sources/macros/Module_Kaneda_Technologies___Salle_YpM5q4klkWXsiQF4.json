@@ -1,0 +1,25 @@
+{
+  "folder": "orTUO51jJ2yAmJPL",
+  "name": "Module Kaneda Technologies - Salle",
+  "type": "script",
+  "_id": "YpM5q4klkWXsiQF4",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "const tiles = [\n  'ageM3F4T8ziLBuks',\n  'q4Ssac3kMwT1DJfp',\n  'a24B5QnOf8syq0vk',\n  '3BpbFKjZbEdWaQiL',\n  'OUqmZdkWTM1SKMUR',\n  '2d2mD046qeofa6fr',\n  'n4CzxTWFnFbal4ev',\n  'q7F4kGZF1gLnk4Lx',\n];\nconst drawings = [\n  'GwkzevkfdzhSfJS8',\n  'MUxGAK8lSPyNSb6z',\n  'S7UmtWBrOoY8qMh5',\n  'pUyRE4mp64XWUhvM',\n  'jV8uY852Hmh78LWV',\n  'v1qj7I2tqvmeXnxR',\n  'stnEDL7FvFN7rbja',\n  'LQpDrGUCyjt7afvq',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715982856136,
+    "modifiedTime": 1715982995334,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!YpM5q4klkWXsiQF4"
+}

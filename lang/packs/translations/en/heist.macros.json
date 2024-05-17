@@ -1,9 +1,6 @@
 {
   "label": "Macros",
   "entries": {
-    "Afficher / Masquer le bunker": {
-      "name": "Show / Hide the Bunker"
-    },
     "Fenêtre des phases de jeu": {
       "name": "Game phases window"
     },

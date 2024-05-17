@@ -1,0 +1,25 @@
+{
+  "folder": "orTUO51jJ2yAmJPL",
+  "name": "Module Moïra Lefort",
+  "type": "script",
+  "_id": "zv2CS2UhYyfbA3kD",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "const tiles = [\n  'NnkauBfPk25yWmfm',\n  'XDhcS99T02pDyaMV',\n];\nconst drawings = [\n  'idTMRkrBvNRPvzxG',\n  'MABn3MTyjlghrzPG',\n  '28mDt2iIaZ9OI1xL',\n  'ToQEECGGn8aq25ie',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1715982243402,
+    "modifiedTime": 1715982352140,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!zv2CS2UhYyfbA3kD"
+}
