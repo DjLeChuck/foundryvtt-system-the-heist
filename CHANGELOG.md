@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.3.0] - 2024-05-18
+
 ### Added
 
 - [Irish Job] Tiles to show agents their findings
@@ -86,7 +88,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.2.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.0...main
+
+[11.3.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.2.0...11.3.0
 
 [11.2.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.1.1...11.2.0
 
