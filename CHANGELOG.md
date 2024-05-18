@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.3.1] - 2024-05-18
+
 ### Fixed
 
 - Some drawn images are inverted
@@ -92,7 +94,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.1...main
+
+[11.3.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.0...11.3.1
 
 [11.3.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.2.0...11.3.0
 
