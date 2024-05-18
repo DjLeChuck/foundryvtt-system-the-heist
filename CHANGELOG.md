@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Some drawn images are inverted
+
 ## [11.3.0] - 2024-05-18
 
 ### Added
