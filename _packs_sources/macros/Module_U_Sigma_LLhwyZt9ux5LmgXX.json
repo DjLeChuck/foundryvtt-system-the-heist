@@ -1,5 +1,5 @@
 {
-  "folder": "orTUO51jJ2yAmJPL",
+  "folder": "ChH6scfaAacLibKR",
   "name": "Module U-Sigma",
   "type": "script",
   "_id": "LLhwyZt9ux5LmgXX",
@@ -7,7 +7,7 @@
   "img": "icons/commodities/tech/blueprint.webp",
   "scope": "global",
   "command": "const tiles = [\n  'Siy8EjoXMc2zgIxy',\n  '3TyvIiPCAWfNbcaU',\n];\nconst drawings = [\n  'ADyjhYWCxkBceCEU',\n  'E8VBPuXqDzpxOdzo',\n  'eOIymo2mpBRUzl85',\n  's3uHnHwWF3MJNdlh',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
-  "sort": 0,
+  "sort": 106250,
   "ownership": {
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
@@ -18,7 +18,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715982674752,
-    "modifiedTime": 1715982743852,
+    "modifiedTime": 1716031968417,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!macros!LLhwyZt9ux5LmgXX"

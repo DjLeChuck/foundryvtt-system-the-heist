@@ -1,0 +1,25 @@
+{
+  "folder": "u1TxdXOLJbLTaVbi",
+  "name": "Zone cachée - Piège 2",
+  "type": "script",
+  "_id": "FMx0KieYoL1hQVob",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "const drawings = [\n  'FLYmCw9XzMN335lj',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716032171253,
+    "modifiedTime": 1716032200308,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!FMx0KieYoL1hQVob"
+}

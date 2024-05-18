@@ -2,7 +2,7 @@ export class Tools {
   toggleMapArea({ tiles, drawings }) {
     if (tiles?.length) {
       tiles.forEach((id) => {
-        const t = game.scenes.current.tiles.get(id);
+        const t = canvas.scene.tiles.get(id);
         if (t) {
           t.update({ hidden: !t.hidden });
         }
@@ -11,7 +11,7 @@ export class Tools {
 
     if (drawings?.length) {
       drawings.forEach((id) => {
-        const d = game.scenes.current.drawings.get(id);
+        const d = canvas.scene.drawings.get(id);
         if (d) {
           d.update({ hidden: !d.hidden });
         }

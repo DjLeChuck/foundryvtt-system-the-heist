@@ -1,0 +1,25 @@
+{
+  "folder": "u1TxdXOLJbLTaVbi",
+  "name": "Salle trésor - Droite",
+  "type": "script",
+  "_id": "TKQVysDDrRUlYYVu",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "const tiles = [\n  '6xEye8MsiLhTs3Ff',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716032310340,
+    "modifiedTime": 1716032412112,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!TKQVysDDrRUlYYVu"
+}

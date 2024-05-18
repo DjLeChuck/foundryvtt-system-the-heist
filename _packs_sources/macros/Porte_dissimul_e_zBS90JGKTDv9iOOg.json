@@ -1,0 +1,25 @@
+{
+  "folder": "u1TxdXOLJbLTaVbi",
+  "name": "Porte dissimulée",
+  "type": "script",
+  "_id": "zBS90JGKTDv9iOOg",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "const drawings = [\n  '63AtDN3YMGSaFP75',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716032336980,
+    "modifiedTime": 1716032375680,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!zBS90JGKTDv9iOOg"
+}

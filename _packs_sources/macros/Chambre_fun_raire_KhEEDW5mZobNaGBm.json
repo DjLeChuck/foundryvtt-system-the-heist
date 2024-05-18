@@ -1,0 +1,25 @@
+{
+  "folder": "u1TxdXOLJbLTaVbi",
+  "name": "Chambre funéraire",
+  "type": "script",
+  "_id": "KhEEDW5mZobNaGBm",
+  "author": "2Ix5Tl3gxkKU6taP",
+  "img": "icons/commodities/tech/blueprint.webp",
+  "scope": "global",
+  "command": "const tiles = [\n  'ocNXSvYFIZtEyGAo',\n];\nconst drawings = [\n  'ZBFonNvBfm4jcKLr',\n  '5ZuNrgxlYDW75C0v',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716032035764,
+    "modifiedTime": 1716032069314,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!macros!KhEEDW5mZobNaGBm"
+}
