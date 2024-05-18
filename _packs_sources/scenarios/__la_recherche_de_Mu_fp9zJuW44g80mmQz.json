@@ -277,7 +277,7 @@
       "name": "Miki Manami",
       "type": "npc",
       "_id": "Tl1WxCSOu8bWc9Hp",
-      "img": "systems/heist/images/logos/mini.webp",
+      "img": "systems/heist/images/media/scenario/mu/miki-manami.webp",
       "system": {
         "description": "<p>Cette experte technique japonaise travaille pour Kaneda Technologies. Elle semble toujours ailleurs, mais c’est parce qu’elle porte des lunettes à réalité augmentée sur lesquelles défilent constamment des informations. Elle aurait d’ailleurs préféré utiliser cette interface pour contrôler ses drones, mais ici, tout ne fonctionne qu’en circuit fermé. C’est pourquoi elle passe par une console dans son module pour ces opérations.</p><p>L’utilisation de ce matériel dépassé a tendance à l’exaspérer. S’il s’avère qu’il devait, en plus, dysfonctionner, elle sortirait immédiatement de ses gonds et toute personne sur son passage en ferait les frais.</p>"
       },
@@ -288,7 +288,7 @@
         "appendNumber": false,
         "prependAdjective": false,
         "texture": {
-          "src": "systems/heist/images/logos/mini.webp",
+          "src": "systems/heist/images/media/scenario/mu/miki-manami.webp",
           "scaleX": 1,
           "scaleY": 1,
           "offsetX": 0,
@@ -357,7 +357,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891658890,
-        "modifiedTime": 1715891686352,
+        "modifiedTime": 1716033094658,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -366,7 +366,7 @@
       "name": "Samuel Niakaté",
       "type": "npc",
       "_id": "GcByVwaWzceM3lzO",
-      "img": "systems/heist/images/logos/mini.webp",
+      "img": "systems/heist/images/media/scenario/mu/samuel-niakate.webp",
       "system": {
         "description": "<p>Samuel Niakaté est le conseiller technique d’U-Sigma. Véritable génie dans son domaine, il est pourtant quelque peu éclipsé par la réputation de son père, considéré comme le plus brillant esprit de son temps. Il aurait pu laisser d’autres membres de son entreprise venir étudier la tombe, mais quelque chose l’y attire irrésistiblement. D’ailleurs, bien qu’il ait l’habitude de régions plutôt tempérées, il semble assez peu sensible au froid, même extrême, de l’Antarctique.</p><p>Lui aussi passionné par la légende de Mu, il ne paraît pas être ici motivé par un esprit de compétition. Il peut donc être amené à prêter son matériel si cela lui est demandé avec les formes.</p>"
       },
@@ -377,7 +377,7 @@
         "appendNumber": false,
         "prependAdjective": false,
         "texture": {
-          "src": "systems/heist/images/logos/mini.webp",
+          "src": "systems/heist/images/media/scenario/mu/samuel-niakate.webp",
           "scaleX": 1,
           "scaleY": 1,
           "offsetX": 0,
@@ -446,7 +446,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891696007,
-        "modifiedTime": 1715891704028,
+        "modifiedTime": 1716033102084,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -963,7 +963,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<h2>Moïra Lefort</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/moira-lefort.webp\" /></div></div><p>Cette archéologue atypique se prend pour l’Indiana Jones des temps modernes. Passionnée de légendes, elle ne ménage pas ses efforts pour prouver qu’elle a eu raison de persévérer. Si elle bénéficie du soutien de nombreux mécènes, elle n’est pour autant pas appréciée des entreprises qui se sont installées sur son campement. Et elle leur rend bien ! D’autant qu’elle se doute qu’ils lui voleront la vedette à la première occasion !</p><p>Avec son tempérament ardent, il suffit d’une étincelle pour mettre le feu aux poudres entre Lefort et l’un de ses mécènes. En revanche, si les agents lui proposent de les coiffer en poteau en les accompagnant, elle se fera une joie de les aider à décoder l’énigme de la porte.</p><h2>Nicolas Clerodière</h2><p>L’assistant de Lefort sert principalement à la cadrer. D’un tempérament plutôt doux, il n’hésite pourtant pas à hausser la voix lorsqu’il considère qu’elle va trop loin, tout comme il peut prendre sa défense sans hésiter. Il est de tous les secrets de l’archéologue, mais a une peur viscérale de ce qui pourrait se trouver dans la tombe, et particulièrement de la malédiction.</p><p>Clerodière est d’avis qu’il faudrait laisser à d’autres le soin d’explorer la structure, mais n’apprécie pas du tout l’intrusion des trois entreprises dans leurs recherches. Les agents pourraient être une bonne solution pour lui.</p><h2>Manuel Mooney</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/manuel-mooney.webp\" /></div></div><p>Ce scientifique appartient au service R&amp;D de Hemera Genetics. S’il a assurément l’intention de mener sa mission à bien avec rigueur, il semble évident qu’il n’est pas du tout heureux d’être en Antarctique. En effet, en fouillant son casier, il est possible d’y trouver une photo de sa femme et de ses deux enfants. À l’arrière, on peut lire : « Désolée pour notre dernière dispute. J’ai si peur pour toi ! S’il te plaît, ne prends aucun risque et reviens-nous sain et sauf ! »</p><p>Il est toujours accompagné d’un assistant très effacé qui prend note de tout ce que Manuel dit ou fait.</p><h2>Miki Manami</h2><p>Cette experte technique japonaise travaille pour Kaneda Technologies. Elle semble toujours ailleurs, mais c’est parce qu’elle porte des lunettes à réalité augmentée sur lesquelles défilent constamment des informations. Elle aurait d’ailleurs préféré utiliser cette interface pour contrôler ses drones, mais ici, tout ne fonctionne qu’en circuit fermé. C’est pourquoi elle passe par une console dans son module pour ces opérations.</p><p>L’utilisation de ce matériel dépassé a tendance à l’exaspérer. S’il s’avère qu’il devait, en plus, dysfonctionner, elle sortirait immédiatement de ses gonds et toute personne sur son passage en ferait les frais.</p><h2>Samuel Niakaté</h2><p>Samuel Niakaté est le conseiller technique d’U-Sigma. Véritable génie dans son domaine, il est pourtant quelque peu éclipsé par la réputation de son père, considéré comme le plus brillant esprit de son temps. Il aurait pu laisser d’autres membres de son entreprise venir étudier la tombe, mais quelque chose l’y attire irrésistiblement. D’ailleurs, bien qu’il ait l’habitude de régions plutôt tempérées, il semble assez peu sensible au froid, même extrême, de l’Antarctique.</p><p>Lui aussi passionné par la légende de Mu, il ne paraît pas être ici motivé par un esprit de compétition. Il peut donc être amené à prêter son matériel si cela lui est demandé avec les formes.</p><h2>Androïdes U-Sigma</h2><p>Les deux androïdes qui accompagnent Niakaté sont très en avance sur leur temps. Il s’agit de robots bipèdes à taille humaine, mais il est impossible de les confondre avec d’autres membres du campement, car ce sont de véritables machines. Ils sont là pour faire la surveillance et apporter leur aide au scientifique, en portant son matériel ou en exécutant des tâches simples. Ils ne parlent pas et ne sont pas équipés d’armes.</p><h2>Le personnel de sécurité</h2><p>Chez Hemera Genetics, un seul membre de la sécurité s’occupe de surveiller tout le module : <strong>Aaron Seamans</strong>. Il n’est pas très bavard et se contente de faire son travail, rien de plus. Si on lui propose une somme assez élevée, il est prêt à détourner le regard quelques minutes. Il lui arrive de faire des tours à pied pour se dégourdir, car il n’aime pas rester immobile par ce froid. Il n’a pas directement accès aux caméras du module, car elles envoient directement leurs informations à la station Concordia.</p><p>Les deux agents mandatés par Kaneda Technologies s’appellent <strong>Gamo Tetsu</strong> et <strong>Niwa Kantsuke</strong>. Si le premier est plutôt taciturne (il ne parle que le japonais), voire désagréable, le second, âgé, parle assez bien anglais, et même un peu français. Kantsuke peut expliquer à qui veut l’entendre qu’il s’agit de sa dernière mission et qu’il a hâte de pouvoir mieux profiter de ses petits-enfants. Les deux agents alternent leurs positions régulièrement : l’un surveille la zone quand l’autre part en motoneige jusqu’à la station pour ramener du matériel, et inversement. Ils ont accès aux images des caméras sur leur smartphone, mais ne les regardent généralement pas.</p>"
+            "content": "<h2>Moïra Lefort</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/moira-lefort.webp\" /></div></div><p>Cette archéologue atypique se prend pour l’Indiana Jones des temps modernes. Passionnée de légendes, elle ne ménage pas ses efforts pour prouver qu’elle a eu raison de persévérer. Si elle bénéficie du soutien de nombreux mécènes, elle n’est pour autant pas appréciée des entreprises qui se sont installées sur son campement. Et elle leur rend bien ! D’autant qu’elle se doute qu’ils lui voleront la vedette à la première occasion !</p><p>Avec son tempérament ardent, il suffit d’une étincelle pour mettre le feu aux poudres entre Lefort et l’un de ses mécènes. En revanche, si les agents lui proposent de les coiffer en poteau en les accompagnant, elle se fera une joie de les aider à décoder l’énigme de la porte.</p><h2>Nicolas Clerodière</h2><p>L’assistant de Lefort sert principalement à la cadrer. D’un tempérament plutôt doux, il n’hésite pourtant pas à hausser la voix lorsqu’il considère qu’elle va trop loin, tout comme il peut prendre sa défense sans hésiter. Il est de tous les secrets de l’archéologue, mais a une peur viscérale de ce qui pourrait se trouver dans la tombe, et particulièrement de la malédiction.</p><p>Clerodière est d’avis qu’il faudrait laisser à d’autres le soin d’explorer la structure, mais n’apprécie pas du tout l’intrusion des trois entreprises dans leurs recherches. Les agents pourraient être une bonne solution pour lui.</p><h2>Manuel Mooney</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/manuel-mooney.webp\" /></div></div><p>Ce scientifique appartient au service R&amp;D de Hemera Genetics. S’il a assurément l’intention de mener sa mission à bien avec rigueur, il semble évident qu’il n’est pas du tout heureux d’être en Antarctique. En effet, en fouillant son casier, il est possible d’y trouver une photo de sa femme et de ses deux enfants. À l’arrière, on peut lire : « Désolée pour notre dernière dispute. J’ai si peur pour toi ! S’il te plaît, ne prends aucun risque et reviens-nous sain et sauf ! »</p><p>Il est toujours accompagné d’un assistant très effacé qui prend note de tout ce que Manuel dit ou fait.</p><h2>Miki Manami</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/miki-manami.webp\" /></div></div><p>Cette experte technique japonaise travaille pour Kaneda Technologies. Elle semble toujours ailleurs, mais c’est parce qu’elle porte des lunettes à réalité augmentée sur lesquelles défilent constamment des informations. Elle aurait d’ailleurs préféré utiliser cette interface pour contrôler ses drones, mais ici, tout ne fonctionne qu’en circuit fermé. C’est pourquoi elle passe par une console dans son module pour ces opérations.</p><p>L’utilisation de ce matériel dépassé a tendance à l’exaspérer. S’il s’avère qu’il devait, en plus, dysfonctionner, elle sortirait immédiatement de ses gonds et toute personne sur son passage en ferait les frais.</p><h2>Samuel Niakaté</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/mu/samuel-niakate.webp\" /></div></div><p>Samuel Niakaté est le conseiller technique d’U-Sigma. Véritable génie dans son domaine, il est pourtant quelque peu éclipsé par la réputation de son père, considéré comme le plus brillant esprit de son temps. Il aurait pu laisser d’autres membres de son entreprise venir étudier la tombe, mais quelque chose l’y attire irrésistiblement. D’ailleurs, bien qu’il ait l’habitude de régions plutôt tempérées, il semble assez peu sensible au froid, même extrême, de l’Antarctique.</p><p>Lui aussi passionné par la légende de Mu, il ne paraît pas être ici motivé par un esprit de compétition. Il peut donc être amené à prêter son matériel si cela lui est demandé avec les formes.</p><h2>Androïdes U-Sigma</h2><p>Les deux androïdes qui accompagnent Niakaté sont très en avance sur leur temps. Il s’agit de robots bipèdes à taille humaine, mais il est impossible de les confondre avec d’autres membres du campement, car ce sont de véritables machines. Ils sont là pour faire la surveillance et apporter leur aide au scientifique, en portant son matériel ou en exécutant des tâches simples. Ils ne parlent pas et ne sont pas équipés d’armes.</p><h2>Le personnel de sécurité</h2><p>Chez Hemera Genetics, un seul membre de la sécurité s’occupe de surveiller tout le module : <strong>Aaron Seamans</strong>. Il n’est pas très bavard et se contente de faire son travail, rien de plus. Si on lui propose une somme assez élevée, il est prêt à détourner le regard quelques minutes. Il lui arrive de faire des tours à pied pour se dégourdir, car il n’aime pas rester immobile par ce froid. Il n’a pas directement accès aux caméras du module, car elles envoient directement leurs informations à la station Concordia.</p><p>Les deux agents mandatés par Kaneda Technologies s’appellent <strong>Gamo Tetsu</strong> et <strong>Niwa Kantsuke</strong>. Si le premier est plutôt taciturne (il ne parle que le japonais), voire désagréable, le second, âgé, parle assez bien anglais, et même un peu français. Kantsuke peut expliquer à qui veut l’entendre qu’il s’agit de sa dernière mission et qu’il a hâte de pouvoir mieux profiter de ses petits-enfants. Les deux agents alternent leurs positions régulièrement : l’un surveille la zone quand l’autre part en motoneige jusqu’à la station pour ramener du matériel, et inversement. Ils ont accès aux images des caméras sur leur smartphone, mais ne les regardent généralement pas.</p>"
           },
           "video": {
             "controls": true,
@@ -981,7 +981,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715890425902,
-            "modifiedTime": 1715893891249,
+            "modifiedTime": 1716033150247,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -1133,7 +1133,308 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715888545270,
-        "modifiedTime": 1715983833628,
+        "modifiedTime": 1716032678872,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "VEwWBu0oyxzoZl80",
+      "name": "Aides de jeu",
+      "_id": "sQ2vxMCUiY2N3hbN",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Plan du campement - MJ",
+          "type": "image",
+          "_id": "N8SDWFZ9zTH1dSmx",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/camp-gm.jpg",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033390620,
+            "modifiedTime": 1716033395155,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Plan de la tombe - MJ",
+          "type": "image",
+          "_id": "E5iSdMhaeVlITbUV",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/tomb-gm.jpg",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033406060,
+            "modifiedTime": 1716033418758,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Plan du campement - Agents",
+          "type": "image",
+          "_id": "VHAMESKXSXdy61CW",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/plan-1.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033553474,
+            "modifiedTime": 1716033561934,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Plan de la tombe - Agents",
+          "type": "image",
+          "_id": "gWiJLisIiPRm9R2F",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/plan-2.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033575224,
+            "modifiedTime": 1716033579856,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "PNJ - Moïra Lefort",
+          "type": "image",
+          "_id": "EH4hcQPpeXbqpZYw",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/moira-lefort.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033611494,
+            "modifiedTime": 1716033635694,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "PNJ - Manuel Mooney",
+          "type": "image",
+          "_id": "Guaw4PcPmF07d3qo",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/manuel-mooney.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033624679,
+            "modifiedTime": 1716033638692,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "PNJ - Miki Manami",
+          "type": "image",
+          "_id": "sAgWIjNVTtd2Fbio",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/miki-manami.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033648862,
+            "modifiedTime": 1716033652922,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "PNJ - Samuel Niakaté",
+          "type": "image",
+          "_id": "bGplxP3iVoL0nkMI",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/mu/samuel-niakate.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716033664709,
+            "modifiedTime": 1716033669674,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716033185937,
+        "modifiedTime": 1716033185937,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
@@ -6452,17 +6753,13 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.5BDLvlo8hp1OThre"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715894536463,
-        "modifiedTime": 1716028291220,
+        "modifiedTime": 1716032712965,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
@@ -6522,7 +6819,11 @@
       "_id": "VEwWBu0oyxzoZl80",
       "sort": 0,
       "color": null,
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Folder.VEwWBu0oyxzoZl80"
+        }
+      },
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
@@ -6559,7 +6860,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715888513316,
-    "modifiedTime": 1716032730472,
+    "modifiedTime": 1716033697520,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!fp9zJuW44g80mmQz"
