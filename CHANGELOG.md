@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.4.0] - 2024-05-19
+
 ### Added
 
 - Agents can view there hand and pile
@@ -108,7 +110,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.1...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.0...main
+
+[11.4.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.1...11.4.0
 
 [11.3.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.0...11.3.1
 
