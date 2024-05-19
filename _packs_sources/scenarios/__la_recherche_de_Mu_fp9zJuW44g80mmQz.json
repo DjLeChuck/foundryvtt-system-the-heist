@@ -90,7 +90,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891596069,
-        "modifiedTime": 1715893774262,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -179,7 +179,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891614664,
-        "modifiedTime": 1715891622017,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -268,7 +268,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891631241,
-        "modifiedTime": 1715893769070,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -357,7 +357,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891658890,
-        "modifiedTime": 1716033094658,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -446,7 +446,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891696007,
-        "modifiedTime": 1716033102084,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -535,7 +535,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891716161,
-        "modifiedTime": 1715891720495,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -624,7 +624,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891728625,
-        "modifiedTime": 1715891755480,
+        "modifiedTime": 1716102136046,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
@@ -652,7 +652,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890911379,
-        "modifiedTime": 1715890914107,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -677,7 +677,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890922161,
-        "modifiedTime": 1715890924588,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -702,7 +702,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890900666,
-        "modifiedTime": 1715890903225,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -727,7 +727,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890933065,
-        "modifiedTime": 1715890936989,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -752,7 +752,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890945821,
-        "modifiedTime": 1715890948940,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -777,7 +777,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890891410,
-        "modifiedTime": 1715890891410,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -802,7 +802,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890872197,
-        "modifiedTime": 1715890872197,
+        "modifiedTime": 1716102136057,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
@@ -928,7 +928,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<img src=\"systems/heist/images/media/scenario/mu/concordia-qr-code.webp\" class=\" centered\" width=\"300\" /><p style=\"text-align:center\"><a href=\"https://fr.wikipedia.org/wiki/Base_antarctique_Concordia\">Base Antarctique Concordia</a></p><h2>Le campement</h2><p>Le campement qui entoure la tombe se trouve à quelques kilomètres au sud-ouest de la station Concordia. Pour y accéder, les équipes utilisent des motoneiges. Il a été monté à la vavite et les modules qui le constituent ne protègent pas assez du froid pour y passer la nuit sans danger. Ils ressemblent à de grands conteneurs faits dans un métal très épais et aménagés différemment selon le propriétaire.</p><p>Le campement se sépare en quatre zones, trois appartiennent aux entreprises venues « superviser » l’ouverture de la tombe, la quatrième est le campement d’origine, monté par Lefort et son équipe.</p><h3>Module Hemera Genetics</h3><p>Hemera Genetics, corporation pharmaceutique et d’ingénierie médicale, est particulièrement connue pour travailler sur la régénérescence cellulaire et la manipulation génétique. En somme, cette société cherche à créer des clones, des surhommes et voudrait découvrir les secrets de l’immortalité. Le peuple de Mu étant réputé pour son incroyable longévité, fouiller ces ruines pourrait offrir des avancées fulgurantes aux recherches de l’entreprise.</p><p></p><p>À l’avant du conteneur se trouve une zone juste couverte d’une bâche protégeant trois motoneiges et du gros matériel d’excavation. Trois combinaisons Hazmat sont remisées dans un vestiaire hermétique. Une caméra est tournée vers l’extérieur et capte en partie l’entrée de la tombe ; elle semble souffrir des conditions météorologiques extrêmes.</p><p></p><p>Le module d’Hemera Genetics renferme un peu de matériel scientifique et médical. Sur la gauche de l’entrée, une caméra surveille les entrées et sorties. Toute la moitié avant de la structure sert de « zone de vie » pour l’équipe. On y trouve une table avec trois chaises, des casiers (dont celui de <strong>Manuel Mooney</strong>) contenant divers objets : badges de la station Concordia, effets personnels, pistolet pour la personne responsable de la sécurité. Une tenue grand froid de secours est accrochée à un portemanteau et une étagère recèle des rations militaires ainsi que du matériel d’excavation et d’escalade : harnais, cordes, piolets et pieds de biche.</p><p></p><p>Vers le fond de l’unique pièce, contre les trois parois, se trouvent des établis avec des systèmes d’analyse. L’un d’eux, portatif, sert en particulier à repérer toute matière d’origine organique à distance. Cela peut être utile pour sonder de l’extérieur la tombe et voir où se trouvent la dépouille (s’il y en a bien une), une éventuelle carte (si elle est faite de papier ou de papyrus) et tout autre élément intéressant de ce type. Pour l’utiliser, il faut diriger l’appareil (de la taille d’une petite caméra) vers la zone à scanner. Les éléments organiques apparaissent en rouge sur l’écran.</p><p>Dans une armoire à pharmacie fermée à clé, il est possible de récupérer des médicaments et des substances aux effets somnifères ou hallucinogènes.</p><p>Dans un petit réfrigérateur, quatre flacons luminescents portent une étiquette avec une croix verte. Non loin, un injecteur adapté permet de s’inoculer la substance dans le bras. En cherchant dans les documents présents sur les établis, il est possible de comprendre qu’il s’agit d’échantillons prototypes de « nods », censés renforcer les capacités de quiconque les utilise. Si un agent s’injecte le contenu de l’un des flacons, il peut récupérer deux cartes au hasard dans sa défausse et les mettre sur le dessus de son paquet sans les regarder ; à la place, il peut récupérer seulement une carte qu’il choisit. Ces nods auront aussi une grande utilité dans la suite de l’aventure (voir plus loin @UUID[.3jPgqUIfvkhewo45#reserve]{Réserve} et @UUID[.QHsqHdU0ZEVn8dzf#joker-2-le-mal-dor]{Joker 2 – Le mal d’or}).</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.aXBO0ZISiK7hxTIA]{Module Hemera Genetics - Entrée} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.NjNQPn2jdDGcy4rU]{Module Hemera Genetics - Salle}.</p></li></ul></div><h3>Module Kaneda Technologies</h3><p>Kaneda Technologies est une entreprise gigantesque qui finance de nombreuses autres sociétés et des projets de tout type, allant de la domotique à la sécurité en passant par la cybernétique.</p><p></p><p>Dans l’entrée du module, trois vestiaires sont attribués respectivement à la spécialiste technique <strong>Miki Manami</strong> et aux deux membres de la sécurité. Il est possible de trouver dans les casiers de ces deux derniers un fusil d’assaut et des matraques électriques. De plus, dans les affaires personnelles de l’un des gardes, on peut trouver une carte un peu kitsch, portant la mention dactylographiée en anglais « Bientôt la retraite ! ». Le reste est en japonais, écrit à la main. Des tenues grand froid en surplus sont entreposées dans un coin. Une caméra surveille cette zone.</p><p></p><p>Dans la deuxième partie du module se trouvent des placards avec des rations (mais pas de matériel d’exploration). Une table avec deux chaises permet de se restaurer et de faire une pause. Ensuite, tout un arsenal technologique a été déployé. Des drones de diverses tailles peuvent être manipulés grâce à des consoles qui ressemblent beaucoup à des bornes d’arcade miniatures. Deux ont l’air d’être pleinement actifs, deux autres servent uniquement en secours. Partout, tout est écrit en japonais, parfois seulement en anglais.</p><p>L’un des deux drones actifs permet de scanner la tombe et d’en déterminer plus précisément la structure. Au-delà des murs et des gros éléments de mobilier, ce sont des portes et des zones cachées qui pourraient bien apparaître grâce à ce radar hi-tech. Les autres sont dévolus à l’exploration.</p><p>Les drones sont remisés dans le module la nuit, car leurs circuits électroniques supportent mal le froid extrême. Certains restent toutefois actifs et en surveillance. Ils peuvent donner l’alerte et être contrôlés à distance depuis la station Concordia.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.fwcWPVfKrrbvN4e4]{Module Kaneda Technologies - Entrée} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.YpM5q4klkWXsiQF4]{Module Kaneda Technologies - Salle}.</p></li></ul></div><h3>Module U-Sigma</h3><p>U-Sigma est une société émergente qui a fait de la robotique de dernière génération sa spécialité. À cet effet, elle est dirigée par un jeune prodige des sciences qui a décidé de faire lui-même le déplacement : <strong>Samuel Niakaté</strong>.</p><p></p><p>Le module est plus petit que les deux précédents, mais plus confortable. Au fond à droite, dans une grande armoire, un mannequin soutient un exo­ squelette. Celui-ci semble comporter tout ce qu’il faut pour grimper, sauter ou creuser, comme le démontrent les divers outils rangés dans ses avantbras. Toutefois, aucune arme, dissimulée ou non, ne l’équipe.</p><p>Sur une table, de nombreux documents sont éparpillés : copies de textes légendaires, notes personnelles, élucubrations sur ce que peut contenir la tombe… Niakaté semble lui aussi passionné par le sujet. Près d’un bord, un petit drone permet de scanner la tombe de l’extérieur et d’analyser les éléments métalliques qui s’y trouvent. Ce peut être un bon moyen de repérer d’éventuels pièges.</p><p>À droite de la table, un cube de métal de la taille d’un tabouret est en fait un androïde de renfort replié. Ce robot peut être activé grâce à une console portable que Niakaté détient sur lui. Ici, il est en mode surveillance et peut alerter son propriétaire de toute intrusion.</p><p></p><p>Une autre petite table montre les restes d’un repas en solitaire. Un ordinateur portable avec liaison satellite permet d’effectuer des recherches et d’échanger avec l’extérieur. Le manuel d’utilisation de l’exosquelette peut être trouvé dans un répertoire, sous réserve de disposer des compétences et du temps nécessaires.</p><p></p><p>Pas de tenue grand froid ni de matériel d’exploration dans ce module, l’exosquelette semblant remplir toutes ces fonctions.</p><p>Aucun matériel de surveillance n’est apparent, mis à part l’androïde. À l’extérieur, un autre automate, déplié et bien actif, fait office de personnel de sécurité.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant la macro suivante :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.LLhwyZt9ux5LmgXX]{Module U-Sigma}.</p></li></ul></div><h3>Module de Moïra Lefort</h3><p>Lefort est présente sur place depuis plusieurs semaines maintenant. Son module est donc un peu plus implanté que les autres, même s’il n’est toujours pas possible d’y passer la nuit. Une grosse partie de son équipe, des ouvriers principalement, a quitté le campement après la découverte de la tombe. Seule une pelleteuse subsiste à l’arrière de son conteneur, souvenir du chantier des jours précédents.</p><p></p><p>À l’intérieur de l’abri, c’est un joyeux chaos : déchets de repas précédents sur une grande table, matériel éparpillé un peu partout… Cela reste tout de même bien vide depuis le départ de l’équipe.</p><p>Sur un bureau dans le fond se trouvent les notes de Lefort ; son journal de bord, en quelque sorte. Il est possible d’y lire ses avancées dans sa quête de Mu et d’y comprendre la véritable passion qui l’habite. L’entrée la plus récente indique qu’elle a enfin réussi à décrypter les symboles sur la porte de la tombe qui forment une énigme, mais qu’elle se garde bien d’en discuter avec les nouveaux arrivants, car il s’agit d’un moyen de l’ouvrir.</p><p>En fouillant avec précision, il est possible de trouver un double fond à l’un des tiroirs du bureau. Il renferme une feuille sur laquelle est inscrite l’explication de l’énigme évoquée dans le carnet : le sésame pour accéder à la tombe !</p><p></p><p>Le module ne bénéficie d’aucun système de surveillance, mais l’assistant de Lefort, <strong>Nicolas Clerodière</strong>, seul autre occupant du lieu, y fait régulièrement des allers-retours.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant la macro suivante :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.zv2CS2UhYyfbA3kD]{Module Moïra Lefort}.</p></li></ul></div><h2>La tombe</h2><h3>Porte d’entrée</h3><p>Il faut descendre de très nombreuses marches avant d’atteindre l’entrée de la tombe. La pierre inconnue qui compose cette porte n’a pas souffert des températures extrêmes de l’Antarctique et semble scellée hermétiquement. Des bas-reliefs la parent de représentations d’un peuple antique et disparu. Des indices laissent effectivement penser que cette civilisation bénéficiait de grandes connaissances techniques.</p><p>De nombreux symboles du soleil et de la lune dans ses diverses phases sont présents sur les montants de la porte. Si les agents ont eu l’occasion de découvrir les notes dissimulées de Lefort, ils savent que, pour ouvrir la porte, il suffit d’appuyer sur les phases de la lune dans l’ordre, en partant de la nouvelle lune pour y retourner. Sinon, il faudra être très observateur pour constater que ces symboles sont amovibles, et chanceux pour trouver le bon point de départ.</p><p>Enfin, une scène en particulier semble mettre en garde contre la présence d’un mal qui rôderait à l’intérieur de ce tombeau.</p><h3>Antichambre</h3><p>La porte s’ouvre silencieusement sur une grande salle qui forme l’antichambre de la tombe. La magnificence de cette première pièce a de quoi laisser bouche bée. Neuf statues en obsidienne y représentent des déités aux caractéristiques très différentes : de la femme au visage humain, arborant un enfant au creux de l’un de ses bras et portant au-dessus de son autre paume ouverte un flocon de neige, à l’entité dont la tête forme un agencement complexe d’engrenages. De nouveaux bas-reliefs et des symboles couvrant les murs racontent les légendes et les bienfaits liés à ces êtres majestueux. Sans l’expertise de Lefort, il est cependant impossible d’en comprendre les détails.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.5BDLvlo8hp1OThre]{Plan 2}, vous pouvez afficher le contenu de la pièce à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.Bi3fqhPIRUzg6MbE]{Antichambre} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.FuDGvaJWVrBwJlQr]{Zone cachée - Piège 1} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.FMx0KieYoL1hQVob]{Zone cachée - Piège 2}.</p></li></ul></div><h3>Réserve</h3><p>La cloison qui permet d’accéder à la réserve peut être déplacée par qui a assez de force. Toutefois, il s’agit d’une curiosité bien malvenue : dans cette zone ont été laissés à l’abandon tout le mobilier et les objets ayant permis la fabrication du tombeau. Certes, ils offrent un regard intéressant sur les techniques de fabrication d’un tel monument, mais on y trouve aussi les corps momifiés et pêle-mêle des malheureux morts durant cette entreprise ! Certains l’ont été par accident ; les autres avaient contracté un mal mystérieux (celui évoqué sur la porte d’entrée). D’ailleurs, en dépit des milliers d’années écoulés, leur peau semble encore irradier légèrement.</p><p></p><p>Si les agents ne prennent pas garde, ils peuvent à leur tour être les victimes de cette maladie d’un autre temps : malgré leur combinaison, certains, les plus exposés, sont pris de vertiges et commencent à avoir très chaud, et leur peau prend petit à petit une teinte légèrement dorée. Or, dans les conditions météorologiques actuelles, impossible de se déshabiller sans prendre le risque de mourir d’hypothermie !</p><p>Tant qu’il est impacté par ce mal mystérieux, un agent qui tente une action demandant des efforts physiques est susceptible de défausser une carte de sa pioche avant le test, à la discrétion du meneur. L’usage des nods peut être un bon moyen de lutter contre cette affliction.</p><p>Bien entendu, si la réserve est rapidement refermée après ouverture et si des précautions sont prises, les agents s’en tirent sains et saufs, et cela peut s’arrêter là – pour le moment (voir plus loin @UUID[.QHsqHdU0ZEVn8dzf#joker-2-le-mal-dor]{Joker 2 – Le mal d’or}).</p><h3>Chambre funéraire</h3><p>Après un nouvel escalier, on accède à la chambre funéraire, cœur de la structure. Face à l’entrée, quelques marches descendantes permettent d’atteindre une zone centrale où reposent quatre sarcophages d’obsidienne. Ils sont magnifiquement décorés et incrustés de pierres précieuses. Il semble qu’il s’agisse des corps de trois femmes et d’un homme, d’importances équivalentes.</p><p>Deux portes fermées flanquent l’entrée, à droite et à gauche (une troisième est dissimulée dans le mur de l’autre côté de la pièce).</p><p>Il est tout à fait possible d’allumer les braseros disséminés partout dans la salle pour contempler la magnificence du lieu.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.5BDLvlo8hp1OThre]{Plan 2}, vous pouvez afficher le contenu de la pièce à vos joueurs en utilisant la macro suivante :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.KhEEDW5mZobNaGBm]{Chambre funéraire}.</p></li></ul></div><h3>Salles au trésor</h3><p>Les deux salles qui se trouvent à l’entrée de la chambre funéraire contiennent des trophées liés aux personnalités inhumées dans ce tombeau. Bien qu’aucun or en tant que tel ne soit visible, des bibelots en pierre ou métal précieux sont entreposés. Inutile de dire que ces éléments ont une valeur inestimable, qu’elle soit pécuniaire ou historique. Toutefois, aucune carte n’y est trouvable.</p><p></p><p>La troisième salle attend derrière une porte dissimulée dans le mur du fond de la chambre funéraire. Les agents ont probablement déjà pu la repérer grâce aux technologiques des factions sur place ; sinon, il leur faudra faire preuve d’observation : un petit mécanisme caché permet d’accéder à ce lieu gardé secret.</p><p></p><p>Cette pièce renferme des ouvrages aux inscriptions illisibles, mais dont certains dessins peuvent évoquer des plans de fabrication ou des études scientifiques. Au centre, une sculpture mécanique qui fait penser à un automate représente un serpent, la gueule ouverte, semblant absorber la lumière. Si les agents sont atteints du mal contracté dans la réserve, s’approcher de la statue est une torture : les symptômes sont exacerbés.</p><p>Sur la droite de la pièce, un lutrin majestueux porte une carte géographique déroulée, semblant représenter Mu et indiquer son emplacement. Il s’agit de l’objectif des agents ! Attention toutefois à ce qu’ils y prennent grand soin, car l’objet, fait d’un papyrus très ancien, est extrêmement fragile.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.5BDLvlo8hp1OThre]{Plan 2}, vous pouvez afficher le contenu de la pièce à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Compendium.heist.macros.Macro.sNBhbvR7u3UIlOX5]{Salle trésor - Gauche} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.TKQVysDDrRUlYYVu]{Salle trésor - Droite} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.zBS90JGKTDv9iOOg]{Porte dissimulée} ;</p></li><li><p>@UUID[Compendium.heist.macros.Macro.ZyWPLCQjbmgBwhVJ]{Salle trésor - Haut}.</p></li></ul></div>",
+            "content": "<img src=\"systems/heist/images/media/scenario/mu/concordia-qr-code.webp\" class=\" centered\" width=\"300\" /><p style=\"text-align:center\"><a href=\"https://fr.wikipedia.org/wiki/Base_antarctique_Concordia\">Base Antarctique Concordia</a></p><h2>Le campement</h2><p>Le campement qui entoure la tombe se trouve à quelques kilomètres au sud-ouest de la station Concordia. Pour y accéder, les équipes utilisent des motoneiges. Il a été monté à la vavite et les modules qui le constituent ne protègent pas assez du froid pour y passer la nuit sans danger. Ils ressemblent à de grands conteneurs faits dans un métal très épais et aménagés différemment selon le propriétaire.</p><p>Le campement se sépare en quatre zones, trois appartiennent aux entreprises venues « superviser » l’ouverture de la tombe, la quatrième est le campement d’origine, monté par Lefort et son équipe.</p><h3>Module Hemera Genetics</h3><p>Hemera Genetics, corporation pharmaceutique et d’ingénierie médicale, est particulièrement connue pour travailler sur la régénérescence cellulaire et la manipulation génétique. En somme, cette société cherche à créer des clones, des surhommes et voudrait découvrir les secrets de l’immortalité. Le peuple de Mu étant réputé pour son incroyable longévité, fouiller ces ruines pourrait offrir des avancées fulgurantes aux recherches de l’entreprise.</p><p></p><p>À l’avant du conteneur se trouve une zone juste couverte d’une bâche protégeant trois motoneiges et du gros matériel d’excavation. Trois combinaisons Hazmat sont remisées dans un vestiaire hermétique. Une caméra est tournée vers l’extérieur et capte en partie l’entrée de la tombe ; elle semble souffrir des conditions météorologiques extrêmes.</p><p></p><p>Le module d’Hemera Genetics renferme un peu de matériel scientifique et médical. Sur la gauche de l’entrée, une caméra surveille les entrées et sorties. Toute la moitié avant de la structure sert de « zone de vie » pour l’équipe. On y trouve une table avec trois chaises, des casiers (dont celui de <strong>Manuel Mooney</strong>) contenant divers objets : badges de la station Concordia, effets personnels, pistolet pour la personne responsable de la sécurité. Une tenue grand froid de secours est accrochée à un portemanteau et une étagère recèle des rations militaires ainsi que du matériel d’excavation et d’escalade : harnais, cordes, piolets et pieds de biche.</p><p></p><p>Vers le fond de l’unique pièce, contre les trois parois, se trouvent des établis avec des systèmes d’analyse. L’un d’eux, portatif, sert en particulier à repérer toute matière d’origine organique à distance. Cela peut être utile pour sonder de l’extérieur la tombe et voir où se trouvent la dépouille (s’il y en a bien une), une éventuelle carte (si elle est faite de papier ou de papyrus) et tout autre élément intéressant de ce type. Pour l’utiliser, il faut diriger l’appareil (de la taille d’une petite caméra) vers la zone à scanner. Les éléments organiques apparaissent en rouge sur l’écran.</p><p>Dans une armoire à pharmacie fermée à clé, il est possible de récupérer des médicaments et des substances aux effets somnifères ou hallucinogènes.</p><p>Dans un petit réfrigérateur, quatre flacons luminescents portent une étiquette avec une croix verte. Non loin, un injecteur adapté permet de s’inoculer la substance dans le bras. En cherchant dans les documents présents sur les établis, il est possible de comprendre qu’il s’agit d’échantillons prototypes de « nods », censés renforcer les capacités de quiconque les utilise. Si un agent s’injecte le contenu de l’un des flacons, il peut récupérer deux cartes au hasard dans sa défausse et les mettre sur le dessus de son paquet sans les regarder ; à la place, il peut récupérer seulement une carte qu’il choisit. Ces nods auront aussi une grande utilité dans la suite de l’aventure (voir plus loin @UUID[.3jPgqUIfvkhewo45#reserve]{Réserve} et @UUID[.QHsqHdU0ZEVn8dzf#joker-2-le-mal-dor]{Joker 2 – Le mal d’or}).</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.aXBO0ZISiK7hxTIA]{Module Hemera Genetics - Entrée} ;</p></li><li><p>@UUID[Macro.NjNQPn2jdDGcy4rU]{Module Hemera Genetics - Salle}.</p></li></ul></div><h3>Module Kaneda Technologies</h3><p>Kaneda Technologies est une entreprise gigantesque qui finance de nombreuses autres sociétés et des projets de tout type, allant de la domotique à la sécurité en passant par la cybernétique.</p><p></p><p>Dans l’entrée du module, trois vestiaires sont attribués respectivement à la spécialiste technique <strong>Miki Manami</strong> et aux deux membres de la sécurité. Il est possible de trouver dans les casiers de ces deux derniers un fusil d’assaut et des matraques électriques. De plus, dans les affaires personnelles de l’un des gardes, on peut trouver une carte un peu kitsch, portant la mention dactylographiée en anglais « Bientôt la retraite ! ». Le reste est en japonais, écrit à la main. Des tenues grand froid en surplus sont entreposées dans un coin. Une caméra surveille cette zone.</p><p></p><p>Dans la deuxième partie du module se trouvent des placards avec des rations (mais pas de matériel d’exploration). Une table avec deux chaises permet de se restaurer et de faire une pause. Ensuite, tout un arsenal technologique a été déployé. Des drones de diverses tailles peuvent être manipulés grâce à des consoles qui ressemblent beaucoup à des bornes d’arcade miniatures. Deux ont l’air d’être pleinement actifs, deux autres servent uniquement en secours. Partout, tout est écrit en japonais, parfois seulement en anglais.</p><p>L’un des deux drones actifs permet de scanner la tombe et d’en déterminer plus précisément la structure. Au-delà des murs et des gros éléments de mobilier, ce sont des portes et des zones cachées qui pourraient bien apparaître grâce à ce radar hi-tech. Les autres sont dévolus à l’exploration.</p><p>Les drones sont remisés dans le module la nuit, car leurs circuits électroniques supportent mal le froid extrême. Certains restent toutefois actifs et en surveillance. Ils peuvent donner l’alerte et être contrôlés à distance depuis la station Concordia.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.fwcWPVfKrrbvN4e4]{Module Kaneda Technologies - Entrée} ;</p></li><li><p>@UUID[Macro.YpM5q4klkWXsiQF4]{Module Kaneda Technologies - Salle}.</p></li></ul></div><h3>Module U-Sigma</h3><p>U-Sigma est une société émergente qui a fait de la robotique de dernière génération sa spécialité. À cet effet, elle est dirigée par un jeune prodige des sciences qui a décidé de faire lui-même le déplacement : <strong>Samuel Niakaté</strong>.</p><p></p><p>Le module est plus petit que les deux précédents, mais plus confortable. Au fond à droite, dans une grande armoire, un mannequin soutient un exo­ squelette. Celui-ci semble comporter tout ce qu’il faut pour grimper, sauter ou creuser, comme le démontrent les divers outils rangés dans ses avantbras. Toutefois, aucune arme, dissimulée ou non, ne l’équipe.</p><p>Sur une table, de nombreux documents sont éparpillés : copies de textes légendaires, notes personnelles, élucubrations sur ce que peut contenir la tombe… Niakaté semble lui aussi passionné par le sujet. Près d’un bord, un petit drone permet de scanner la tombe de l’extérieur et d’analyser les éléments métalliques qui s’y trouvent. Ce peut être un bon moyen de repérer d’éventuels pièges.</p><p>À droite de la table, un cube de métal de la taille d’un tabouret est en fait un androïde de renfort replié. Ce robot peut être activé grâce à une console portable que Niakaté détient sur lui. Ici, il est en mode surveillance et peut alerter son propriétaire de toute intrusion.</p><p></p><p>Une autre petite table montre les restes d’un repas en solitaire. Un ordinateur portable avec liaison satellite permet d’effectuer des recherches et d’échanger avec l’extérieur. Le manuel d’utilisation de l’exosquelette peut être trouvé dans un répertoire, sous réserve de disposer des compétences et du temps nécessaires.</p><p></p><p>Pas de tenue grand froid ni de matériel d’exploration dans ce module, l’exosquelette semblant remplir toutes ces fonctions.</p><p>Aucun matériel de surveillance n’est apparent, mis à part l’androïde. À l’extérieur, un autre automate, déplié et bien actif, fait office de personnel de sécurité.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant la macro suivante :</p><ul><li><p>@UUID[Macro.LLhwyZt9ux5LmgXX]{Module U-Sigma}.</p></li></ul></div><h3>Module de Moïra Lefort</h3><p>Lefort est présente sur place depuis plusieurs semaines maintenant. Son module est donc un peu plus implanté que les autres, même s’il n’est toujours pas possible d’y passer la nuit. Une grosse partie de son équipe, des ouvriers principalement, a quitté le campement après la découverte de la tombe. Seule une pelleteuse subsiste à l’arrière de son conteneur, souvenir du chantier des jours précédents.</p><p></p><p>À l’intérieur de l’abri, c’est un joyeux chaos : déchets de repas précédents sur une grande table, matériel éparpillé un peu partout… Cela reste tout de même bien vide depuis le départ de l’équipe.</p><p>Sur un bureau dans le fond se trouvent les notes de Lefort ; son journal de bord, en quelque sorte. Il est possible d’y lire ses avancées dans sa quête de Mu et d’y comprendre la véritable passion qui l’habite. L’entrée la plus récente indique qu’elle a enfin réussi à décrypter les symboles sur la porte de la tombe qui forment une énigme, mais qu’elle se garde bien d’en discuter avec les nouveaux arrivants, car il s’agit d’un moyen de l’ouvrir.</p><p>En fouillant avec précision, il est possible de trouver un double fond à l’un des tiroirs du bureau. Il renferme une feuille sur laquelle est inscrite l’explication de l’énigme évoquée dans le carnet : le sésame pour accéder à la tombe !</p><p></p><p>Le module ne bénéficie d’aucun système de surveillance, mais l’assistant de Lefort, <strong>Nicolas Clerodière</strong>, seul autre occupant du lieu, y fait régulièrement des allers-retours.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.AAO1lNbogdPKjArV]{Plan 1}, vous pouvez afficher le contenu du module à vos joueurs en utilisant la macro suivante :</p><ul><li><p>@UUID[Macro.zv2CS2UhYyfbA3kD]{Module Moïra Lefort}.</p></li></ul></div><h2>La tombe</h2><h3>Porte d’entrée</h3><p>Il faut descendre de très nombreuses marches avant d’atteindre l’entrée de la tombe. La pierre inconnue qui compose cette porte n’a pas souffert des températures extrêmes de l’Antarctique et semble scellée hermétiquement. Des bas-reliefs la parent de représentations d’un peuple antique et disparu. Des indices laissent effectivement penser que cette civilisation bénéficiait de grandes connaissances techniques.</p><p>De nombreux symboles du soleil et de la lune dans ses diverses phases sont présents sur les montants de la porte. Si les agents ont eu l’occasion de découvrir les notes dissimulées de Lefort, ils savent que, pour ouvrir la porte, il suffit d’appuyer sur les phases de la lune dans l’ordre, en partant de la nouvelle lune pour y retourner. Sinon, il faudra être très observateur pour constater que ces symboles sont amovibles, et chanceux pour trouver le bon point de départ.</p><p>Enfin, une scène en particulier semble mettre en garde contre la présence d’un mal qui rôderait à l’intérieur de ce tombeau.</p><h3>Antichambre</h3><p>La porte s’ouvre silencieusement sur une grande salle qui forme l’antichambre de la tombe. La magnificence de cette première pièce a de quoi laisser bouche bée. Neuf statues en obsidienne y représentent des déités aux caractéristiques très différentes : de la femme au visage humain, arborant un enfant au creux de l’un de ses bras et portant au-dessus de son autre paume ouverte un flocon de neige, à l’entité dont la tête forme un agencement complexe d’engrenages. De nouveaux bas-reliefs et des symboles couvrant les murs racontent les légendes et les bienfaits liés à ces êtres majestueux. Sans l’expertise de Lefort, il est cependant impossible d’en comprendre les détails.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.5BDLvlo8hp1OThre]{Plan 2}, vous pouvez afficher le contenu de la pièce à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.Bi3fqhPIRUzg6MbE]{Antichambre} ;</p></li><li><p>@UUID[Macro.FuDGvaJWVrBwJlQr]{Zone cachée - Piège 1} ;</p></li><li><p>@UUID[Macro.FMx0KieYoL1hQVob]{Zone cachée - Piège 2}.</p></li></ul></div><h3>Réserve</h3><p>La cloison qui permet d’accéder à la réserve peut être déplacée par qui a assez de force. Toutefois, il s’agit d’une curiosité bien malvenue : dans cette zone ont été laissés à l’abandon tout le mobilier et les objets ayant permis la fabrication du tombeau. Certes, ils offrent un regard intéressant sur les techniques de fabrication d’un tel monument, mais on y trouve aussi les corps momifiés et pêle-mêle des malheureux morts durant cette entreprise ! Certains l’ont été par accident ; les autres avaient contracté un mal mystérieux (celui évoqué sur la porte d’entrée). D’ailleurs, en dépit des milliers d’années écoulés, leur peau semble encore irradier légèrement.</p><p></p><p>Si les agents ne prennent pas garde, ils peuvent à leur tour être les victimes de cette maladie d’un autre temps : malgré leur combinaison, certains, les plus exposés, sont pris de vertiges et commencent à avoir très chaud, et leur peau prend petit à petit une teinte légèrement dorée. Or, dans les conditions météorologiques actuelles, impossible de se déshabiller sans prendre le risque de mourir d’hypothermie !</p><p>Tant qu’il est impacté par ce mal mystérieux, un agent qui tente une action demandant des efforts physiques est susceptible de défausser une carte de sa pioche avant le test, à la discrétion du meneur. L’usage des nods peut être un bon moyen de lutter contre cette affliction.</p><p>Bien entendu, si la réserve est rapidement refermée après ouverture et si des précautions sont prises, les agents s’en tirent sains et saufs, et cela peut s’arrêter là – pour le moment (voir plus loin @UUID[.QHsqHdU0ZEVn8dzf#joker-2-le-mal-dor]{Joker 2 – Le mal d’or}).</p><h3>Chambre funéraire</h3><p>Après un nouvel escalier, on accède à la chambre funéraire, cœur de la structure. Face à l’entrée, quelques marches descendantes permettent d’atteindre une zone centrale où reposent quatre sarcophages d’obsidienne. Ils sont magnifiquement décorés et incrustés de pierres précieuses. Il semble qu’il s’agisse des corps de trois femmes et d’un homme, d’importances équivalentes.</p><p>Deux portes fermées flanquent l’entrée, à droite et à gauche (une troisième est dissimulée dans le mur de l’autre côté de la pièce).</p><p>Il est tout à fait possible d’allumer les braseros disséminés partout dans la salle pour contempler la magnificence du lieu.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.5BDLvlo8hp1OThre]{Plan 2}, vous pouvez afficher le contenu de la pièce à vos joueurs en utilisant la macro suivante :</p><ul><li><p>@UUID[Macro.KhEEDW5mZobNaGBm]{Chambre funéraire}.</p></li></ul></div><h3>Salles au trésor</h3><p>Les deux salles qui se trouvent à l’entrée de la chambre funéraire contiennent des trophées liés aux personnalités inhumées dans ce tombeau. Bien qu’aucun or en tant que tel ne soit visible, des bibelots en pierre ou métal précieux sont entreposés. Inutile de dire que ces éléments ont une valeur inestimable, qu’elle soit pécuniaire ou historique. Toutefois, aucune carte n’y est trouvable.</p><p></p><p>La troisième salle attend derrière une porte dissimulée dans le mur du fond de la chambre funéraire. Les agents ont probablement déjà pu la repérer grâce aux technologiques des factions sur place ; sinon, il leur faudra faire preuve d’observation : un petit mécanisme caché permet d’accéder à ce lieu gardé secret.</p><p></p><p>Cette pièce renferme des ouvrages aux inscriptions illisibles, mais dont certains dessins peuvent évoquer des plans de fabrication ou des études scientifiques. Au centre, une sculpture mécanique qui fait penser à un automate représente un serpent, la gueule ouverte, semblant absorber la lumière. Si les agents sont atteints du mal contracté dans la réserve, s’approcher de la statue est une torture : les symptômes sont exacerbés.</p><p>Sur la droite de la pièce, un lutrin majestueux porte une carte géographique déroulée, semblant représenter Mu et indiquer son emplacement. Il s’agit de l’objectif des agents ! Attention toutefois à ce qu’ils y prennent grand soin, car l’objet, fait d’un papyrus très ancien, est extrêmement fragile.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.5BDLvlo8hp1OThre]{Plan 2}, vous pouvez afficher le contenu de la pièce à vos joueurs en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.sNBhbvR7u3UIlOX5]{Salle trésor - Gauche} ;</p></li><li><p>@UUID[Macro.TKQVysDDrRUlYYVu]{Salle trésor - Droite} ;</p></li><li><p>@UUID[Macro.zBS90JGKTDv9iOOg]{Porte dissimulée} ;</p></li><li><p>@UUID[Macro.ZyWPLCQjbmgBwhVJ]{Salle trésor - Haut}.</p></li></ul></div>",
             "markdown": ""
           },
           "video": {
@@ -947,7 +947,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715889674688,
-            "modifiedTime": 1716032678872,
+            "modifiedTime": 1716102276815,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -1133,7 +1133,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715888545270,
-        "modifiedTime": 1716032678872,
+        "modifiedTime": 1716102136065,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -1434,7 +1434,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1716033185937,
-        "modifiedTime": 1716033185937,
+        "modifiedTime": 1716102136065,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
@@ -5113,7 +5113,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715894495323,
-        "modifiedTime": 1716025289206,
+        "modifiedTime": 1716102136093,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
@@ -6759,7 +6759,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715894536463,
-        "modifiedTime": 1716032712965,
+        "modifiedTime": 1716102136093,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
@@ -6771,7 +6771,400 @@
     }
   ],
   "tables": [],
-  "macros": [],
+  "macros": [
+    {
+      "folder": "ChH6scfaAacLibKR",
+      "name": "Module U-Sigma",
+      "type": "script",
+      "_id": "LLhwyZt9ux5LmgXX",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'Siy8EjoXMc2zgIxy',\n  '3TyvIiPCAWfNbcaU',\n];\nconst drawings = [\n  'ADyjhYWCxkBceCEU',\n  'E8VBPuXqDzpxOdzo',\n  'eOIymo2mpBRUzl85',\n  's3uHnHwWF3MJNdlh',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.LLhwyZt9ux5LmgXX"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715982674752,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "ChH6scfaAacLibKR",
+      "name": "Module Hemera Genetics - Salle",
+      "type": "script",
+      "_id": "NjNQPn2jdDGcy4rU",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'SYuBwMrnAZQilsea',\n  '7iZ783rN3Ra1OAak',\n  'q1xFAaNBqRgZ3Mba',\n  '48urzVkr9EF8P6cy',\n  '6XErDne61g9IQxwj',\n  'jA7AhvJySSFQPeM8',\n];\nconst drawings = [\n  '5evyu4Wway0lk9i4',\n  'lyNnYg6NHUUcX2mr',\n  'Hiv670GumM5ZrdbI',\n  'QTiodbzbUfRdOv0K',\n  'mAc73Ze9FznuAenN',\n  'BJrc3vzUSvnFaMbB',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.NjNQPn2jdDGcy4rU"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715981679772,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "ChH6scfaAacLibKR",
+      "name": "Module Kaneda Technologies - Salle",
+      "type": "script",
+      "_id": "YpM5q4klkWXsiQF4",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'ageM3F4T8ziLBuks',\n  'q4Ssac3kMwT1DJfp',\n  'a24B5QnOf8syq0vk',\n  '3BpbFKjZbEdWaQiL',\n  'OUqmZdkWTM1SKMUR',\n  '2d2mD046qeofa6fr',\n  'n4CzxTWFnFbal4ev',\n  'q7F4kGZF1gLnk4Lx',\n];\nconst drawings = [\n  'GwkzevkfdzhSfJS8',\n  'MUxGAK8lSPyNSb6z',\n  'S7UmtWBrOoY8qMh5',\n  'pUyRE4mp64XWUhvM',\n  'jV8uY852Hmh78LWV',\n  'v1qj7I2tqvmeXnxR',\n  'stnEDL7FvFN7rbja',\n  'LQpDrGUCyjt7afvq',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.YpM5q4klkWXsiQF4"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715982856136,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "ChH6scfaAacLibKR",
+      "name": "Module Hemera Genetics - Entrée",
+      "type": "script",
+      "_id": "aXBO0ZISiK7hxTIA",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'QmhBnNGmGf0luc9V',\n  '06j59n2nDjxr53AF',\n  'LByGa5nONcNdtgKt',\n];\nconst drawings = [\n  'tVy7V7ND1ToYxIpf',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.aXBO0ZISiK7hxTIA"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715981118500,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "ChH6scfaAacLibKR",
+      "name": "Module Kaneda Technologies - Entrée",
+      "type": "script",
+      "_id": "fwcWPVfKrrbvN4e4",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'o72RMtlsPFnRigBF',\n];\nconst drawings = [\n  'Q65aRCTxEvyS6jbJ',\n  'VSM6BJvMnJYajMKE',\n  'xEnEXlDcyW9y13SD',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.fwcWPVfKrrbvN4e4"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715982788926,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "ChH6scfaAacLibKR",
+      "name": "Module Moïra Lefort",
+      "type": "script",
+      "_id": "zv2CS2UhYyfbA3kD",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'NnkauBfPk25yWmfm',\n  'XDhcS99T02pDyaMV',\n];\nconst drawings = [\n  'idTMRkrBvNRPvzxG',\n  'MABn3MTyjlghrzPG',\n  '28mDt2iIaZ9OI1xL',\n  'ToQEECGGn8aq25ie',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.zv2CS2UhYyfbA3kD"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715982243402,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Antichambre",
+      "type": "script",
+      "_id": "Bi3fqhPIRUzg6MbE",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  'eX8Y4hCZeHafRRpA',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.Bi3fqhPIRUzg6MbE"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716031976644,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Zone cachée - Piège 2",
+      "type": "script",
+      "_id": "FMx0KieYoL1hQVob",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  'FLYmCw9XzMN335lj',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.FMx0KieYoL1hQVob"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032171253,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Zone cachée - Piège 1",
+      "type": "script",
+      "_id": "FuDGvaJWVrBwJlQr",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  '02CUp7IoSlsj7gUm',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.FuDGvaJWVrBwJlQr"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032134194,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Chambre funéraire",
+      "type": "script",
+      "_id": "KhEEDW5mZobNaGBm",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'ocNXSvYFIZtEyGAo',\n];\nconst drawings = [\n  'ZBFonNvBfm4jcKLr',\n  '5ZuNrgxlYDW75C0v',\n];\n\ngame.heist.tools.toggleMapArea({ tiles, drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.KhEEDW5mZobNaGBm"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032035764,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Salle trésor - Droite",
+      "type": "script",
+      "_id": "TKQVysDDrRUlYYVu",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  '6xEye8MsiLhTs3Ff',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.TKQVysDDrRUlYYVu"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032310340,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Salle trésor - Haut",
+      "type": "script",
+      "_id": "ZyWPLCQjbmgBwhVJ",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'VqiX8oKWem1yGaLs',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.ZyWPLCQjbmgBwhVJ"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032320551,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Salle trésor - Gauche",
+      "type": "script",
+      "_id": "sNBhbvR7u3UIlOX5",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'iVUvYL7QdPQ4mW4F',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.sNBhbvR7u3UIlOX5"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032298222,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    },
+    {
+      "folder": "u1TxdXOLJbLTaVbi",
+      "name": "Porte dissimulée",
+      "type": "script",
+      "_id": "zBS90JGKTDv9iOOg",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  '63AtDN3YMGSaFP75',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.zBS90JGKTDv9iOOg"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716032336980,
+        "modifiedTime": 1716102136032,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "sort": 0
+    }
+  ],
   "cards": [],
   "playlists": [],
   "folders": [
@@ -6789,7 +7182,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715891580657,
-        "modifiedTime": 1715891580657,
+        "modifiedTime": 1716102136126,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -6807,7 +7200,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890852275,
-        "modifiedTime": 1715894001364,
+        "modifiedTime": 1716102136126,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -6819,17 +7212,13 @@
       "_id": "VEwWBu0oyxzoZl80",
       "sort": 0,
       "color": null,
-      "flags": {
-        "core": {
-          "sourceId": "Folder.VEwWBu0oyxzoZl80"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715888538278,
-        "modifiedTime": 1715888538278,
+        "modifiedTime": 1716102136126,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -6847,8 +7236,66 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715894485060,
-        "modifiedTime": 1715894485060,
+        "modifiedTime": 1716102136126,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "À la recherche de Mu",
+      "sorting": "a",
+      "folder": null,
+      "type": "Macro",
+      "_id": "orTUO51jJ2yAmJPL",
+      "sort": 100000,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.orTUO51jJ2yAmJPL"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1715981085455,
+        "modifiedTime": 1716102136040,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Plan 1",
+      "sorting": "a",
+      "folder": "orTUO51jJ2yAmJPL",
+      "type": "Macro",
+      "_id": "ChH6scfaAacLibKR",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Plan 2",
+      "sorting": "a",
+      "folder": "orTUO51jJ2yAmJPL",
+      "type": "Macro",
+      "_id": "u1TxdXOLJbLTaVbi",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     }
   ],
@@ -6860,7 +7307,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715888513316,
-    "modifiedTime": 1716033697520,
+    "modifiedTime": 1716102319723,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!fp9zJuW44g80mmQz"

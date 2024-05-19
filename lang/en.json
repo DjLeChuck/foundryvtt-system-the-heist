@@ -154,7 +154,6 @@
   "HEIST.Errors.ItemNotFound": "Item not found.",
   "HEIST.Errors.AgentAlreadyInAgency": "This agent already belongs to an agency!",
   "HEIST.Errors.ChangeAgentTypeRequireActiveGM": "Changing an agent's type requires a GM to be logged in.",
-  "HEIST.Errors.TileNotFound": "Tile not found!",
   "HEIST.ChatMessage.EasyTestAsked": "An easy test has been asked to {name}!",
   "HEIST.ChatMessage.DifficultTestAsked": "A difficult test has been asked to {name}!",
   "HEIST.ChatMessage.TestSuccessful": "{name} has passed the test!",

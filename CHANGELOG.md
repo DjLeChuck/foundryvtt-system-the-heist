@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Move adventures specifics macros into their respective compendium
+
 ## [11.3.1] - 2024-05-18
 
 ### Fixed
