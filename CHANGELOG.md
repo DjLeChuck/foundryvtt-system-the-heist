@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Agents can view there hand and pile
+
 ### Changed
 
 - Move adventures specifics macros into their respective compendium

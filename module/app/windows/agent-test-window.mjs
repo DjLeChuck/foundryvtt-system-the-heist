@@ -154,7 +154,6 @@ export class AgentTestWindow extends WithSettingsWindow {
 
     if (agent?.isOwner) {
       html.on('click', '[data-draw]', this.#onDraw.bind(this));
-      html.on('click', '[data-finish]', this.#onFinishTest.bind(this));
       html.on('click', '[data-fetish]', this.#onUseFetish.bind(this));
     }
 
@@ -162,6 +161,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       return;
     }
 
+    html.on('click', '[data-finish]', this.#onFinishTest.bind(this));
     html.on('click', '[data-reveal]', this.#onRevealTest.bind(this));
   }
 
@@ -418,6 +418,8 @@ export class AgentTestWindow extends WithSettingsWindow {
       request: HEIST.SOCKET_REQUESTS.REFRESH_AGENCY_SHEET,
       agencyId: this.agency.id,
     });
+
+    await this.#clearHands();
 
     this.agency.render();
     this.render();

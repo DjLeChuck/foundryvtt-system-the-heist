@@ -224,27 +224,23 @@ export class HeistActor extends BaseActor {
     });
   }
 
+  async #createHand(nameKey) {
+    await Cards.create({
+      name: game.i18n.format(nameKey, { name: this.name }),
+      type: 'hand',
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
+      },
+    });
+  }
+
   async #createDecks() {
     const deck = await this.#createDeck();
     const pile = await this.#createPile();
-    const testHand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.TestHandName', { name: this.name }),
-      type: 'hand',
-      flags: {
-        [HEIST.SYSTEM_ID]: {
-          generated: true,
-        },
-      },
-    });
-    const reconnaissanceHand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.RecognitionHandName', { name: this.name }),
-      type: 'hand',
-      flags: {
-        [HEIST.SYSTEM_ID]: {
-          generated: true,
-        },
-      },
-    });
+    const testHand = await this.#createHand('HEIST.Cards.TestHandName');
+    const reconnaissanceHand = await this.#createHand('HEIST.Cards.RecognitionHandName');
 
     // Shuffle the cloned deck
     await this.#shuffleDeck(deck);

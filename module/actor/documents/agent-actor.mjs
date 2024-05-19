@@ -209,6 +209,14 @@ export class AgentActor extends BaseActor {
     await this.#recallCards(this.deck, this.pile, this.deck.availableCards.length);
   }
 
+  async _onUpdate(data, options, userId) {
+    super._onUpdate(data, options, userId);
+
+    if (data.ownership && game.user === game.users.activeGM) {
+      await this.#setCardsOwnership(data.ownership);
+    }
+  }
+
   async _onDelete(options, userId) {
     await this.#deleteDecks();
 
@@ -222,15 +230,7 @@ export class AgentActor extends BaseActor {
 
     const deck = await this.#createDeck();
     const pile = await this.#createPile();
-    const hand = await Cards.create({
-      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
-      type: 'hand',
-      flags: {
-        [HEIST.SYSTEM_ID]: {
-          generated: true,
-        },
-      },
-    });
+    const hand = await this.#createHand();
 
     // Shuffle the cloned deck
     await this.#shuffleDeck(deck);
@@ -291,6 +291,23 @@ export class AgentActor extends BaseActor {
         },
       },
     });
+  }
+
+  async #createHand() {
+    return await Cards.create({
+      name: game.i18n.format('HEIST.Cards.HandName', { name: this.name }),
+      type: 'hand',
+      flags: {
+        [HEIST.SYSTEM_ID]: {
+          generated: true,
+        },
+      },
+    });
+  }
+
+  async #setCardsOwnership(ownership) {
+    this.hand?.update({ ownership }, { diff: false, recursive: false });
+    this.pile?.update({ ownership }, { diff: false, recursive: false });
   }
 
   async #shuffleDeck(deck) {
