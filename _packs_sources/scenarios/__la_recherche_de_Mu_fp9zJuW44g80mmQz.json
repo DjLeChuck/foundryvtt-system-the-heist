@@ -825,7 +825,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<h1>En quelques mots</h1><p>Dans les tréfonds gelés de l’Antarctique, une découverte sans précédent vient d’avoir lieu. Un monument millénaire a été mis au jour près de la base Concordia. Au cœur de cette zone internationale où aucune vie n’a jamais régné, les pays, mais surtout de grosses entreprises, se bousculent pour savoir qui aura l’honneur d’ouvrir en premier la porte de ce mythique bâtiment. Bien sûr, les bas-reliefs qui le couvrent laissent penser à un tombeau et ses gravures mystérieuses annoncent de nombreux pièges, et même une malédiction.</p><p>L’employeur de Heist a décidé que les agents seraient les premiers à mettre le pied dans cette tombe. Quelque chose y attend depuis toujours et offrira gloire et richesse à quiconque l’aura en sa possession : une carte avec les coordonnées d’une civilisation perdue.</p><h1>Matériel</h1><p>Le scénario <em>À la recherche de Mu</em> utilise 4 plans des lieux :</p><ul><li><p>1 plan complet du campement réservé au meneur, avec le détail des différents modules ;</p></li><li><p>1 plan de la tombe réservé au meneur, avec ses secrets, ses pièges et le nom de la technologie qui permet de les identifier (indiquée entre parenthèses) ;</p></li><li><p>1 plan de départ du campement pour les joueurs ;</p></li><li><p>1 plan de départ de la tombe pour les joueurs.</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario s’inspire à la fois des grandes histoires d’aventure telles que les racontent <em>Indiana Jones</em> ou <em>Tomb Raider</em>, mais aussi du roman <em>La Nuit des temps</em> de Barjavel, avec les mystères que peut enfermer la glace. Meneur, je vous invite à tenter de retranscrire cet esprit de découverte, de pièges et de trésors dans cette aventure aux accents mythologiques.</p><p>Le scénario n’a pas pour objectif de mettre les agents face à des dangers mortels. Le mal d’or et les pièges (voir plus loin @UUID[.QHsqHdU0ZEVn8dzf]{Événements Joker}) ont pour but de créer de la tension, de les laisser sur leurs gardes de bout en bout. Seuls des actes véritablement inconsidérés doivent amener à des conséquences dramatiques.</p><h2>Condition atmosphériques</h2><p>Il est primordial de garder à l’esprit que les conditions atmosphériques dans lesquelles a lieu la mission sont extrêmes : durant le mois de juillet 2033, les températures sont d’environ -40 °C en journée et peuvent descendre jusqu’à -70 °C la nuit. Tout le monde se déplace donc en combinaison grand froid, à l’aide de raquettes ou sur des motoneiges. Dans les modules, les températures atteignent difficilement les 10 °C. L’équipe va retourner à la station vers 16 heures puisque le soleil commence à se coucher vers 16 h 30.</p>",
+            "content": "<h1>En quelques mots</h1><p>Dans les tréfonds gelés de l’Antarctique, une découverte sans précédent vient d’avoir lieu. Un monument millénaire a été mis au jour près de la base Concordia. Au cœur de cette zone internationale où aucune vie n’a jamais régné, les pays, mais surtout de grosses entreprises, se bousculent pour savoir qui aura l’honneur d’ouvrir en premier la porte de ce mythique bâtiment. Bien sûr, les bas-reliefs qui le couvrent laissent penser à un tombeau et ses gravures mystérieuses annoncent de nombreux pièges, et même une malédiction.</p><p>L’employeur de Heist a décidé que les agents seraient les premiers à mettre le pied dans cette tombe. Quelque chose y attend depuis toujours et offrira gloire et richesse à quiconque l’aura en sa possession : une carte avec les coordonnées d’une civilisation perdue.</p><h1>Matériel</h1><p>Le scénario <em>À la recherche de Mu</em> utilise 4 plans des lieux :</p><ul><li><p>@UUID[JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.N8SDWFZ9zTH1dSmx]{1 plan complet du campement réservé au meneur}, avec le détail des différents modules ;</p></li><li><p>@UUID[JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.E5iSdMhaeVlITbUV]{1 plan de la tombe réservé au meneur}, avec ses secrets, ses pièges et le nom de la technologie qui permet de les identifier (indiquée entre parenthèses) ;</p></li><li><p>@UUID[JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.VHAMESKXSXdy61CW]{1 plan de départ du campement} pour les joueurs ;</p><ul><li><p>Ce plan est également disponible sous la forme d’une scène afin que les joueurs puisse dessiner dessus : @UUID[Scene.AAO1lNbogdPKjArV]{Campement}</p></li><li><p>Cette scène comporte également des tuiles et dessins masqués par défaut permettant de révélever son contenu au fil du jeu.</p></li></ul></li><li><p>@UUID[JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.gWiJLisIiPRm9R2F]{1 plan de départ de la tombe} pour les joueurs.</p><ul><li><p>Ce plan est également disponible sous la forme d’une scène afin que les joueurs puisse dessiner dessus : @UUID[Scene.5BDLvlo8hp1OThre]{Tombe}</p></li><li><p>Cette scène comporte également des tuiles et dessins masqués par défaut permettant de révélever son contenu au fil du jeu.</p></li></ul></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario s’inspire à la fois des grandes histoires d’aventure telles que les racontent <em>Indiana Jones</em> ou <em>Tomb Raider</em>, mais aussi du roman <em>La Nuit des temps</em> de Barjavel, avec les mystères que peut enfermer la glace. Meneur, je vous invite à tenter de retranscrire cet esprit de découverte, de pièges et de trésors dans cette aventure aux accents mythologiques.</p><p>Le scénario n’a pas pour objectif de mettre les agents face à des dangers mortels. Le mal d’or et les pièges (voir plus loin @UUID[.QHsqHdU0ZEVn8dzf]{Événements Joker}) ont pour but de créer de la tension, de les laisser sur leurs gardes de bout en bout. Seuls des actes véritablement inconsidérés doivent amener à des conséquences dramatiques.</p><h2>Condition atmosphériques</h2><p>Il est primordial de garder à l’esprit que les conditions atmosphériques dans lesquelles a lieu la mission sont extrêmes : durant le mois de juillet 2033, les températures sont d’environ -40 °C en journée et peuvent descendre jusqu’à -70 °C la nuit. Tout le monde se déplace donc en combinaison grand froid, à l’aide de raquettes ou sur des motoneiges. Dans les modules, les températures atteignent difficilement les 10 °C. L’équipe va retourner à la station vers 16 heures puisque le soleil commence à se coucher vers 16 h 30.</p>",
             "markdown": ""
           },
           "video": {
@@ -860,7 +860,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:right\"><em><strong>Antarctique, le mardi 19 juillet 2033,</strong></em></p><p style=\"text-align:right\"><em><strong>midi - Station Concordia</strong></em></p><p><em>Agents, je sais que le chemin a été long jusqu’en Antarctique et je vous remercie de vos efforts.</em></p><p><em>Hier soir, l’archéologue française Moïra Lefort a fait une découverte à laquelle personne ne croyait. En creusant, elle a révélé au monde un bâtiment enterré sous la glace depuis des milliers d’années… et tout porte à croire qu’il s’agit d’un tombeau.</em></p><p><em>Pour le trouver, Moïra a suivi d’anciens écrits que personne ne prenait au sérieux. Sa trouvaille change absolument tout pour la communauté scientifique, mais aussi pour certaines grosses entreprises.</em></p><p></p><p><em>Vous l’avez sûrement constaté, tout le monde se rue vers la station Concordia, zone de civilisation la plus proche de la découverte, et un campement se monte aux abords de l’édifice enfoui. Une chance pour nous, nous sommes en hiver et le froid mortel ne permet pas aux nouveaux venus d’agir aussi vite qu’ils le souhaiteraient. Ils ont réussi à dégager la porte du monument, mais elle n’a pas encore été ouverte. Chacun se dispute cet honneur et c’est notre chance !</em></p><p><em>Notre commanditaire souhaite que vous accédiez à l’intérieur de la tombe et récupériez ce qu’elle renferme selon les légendes : une carte avec les coordonnées du continent perdu de Mu.</em></p><p><em>Faites bien attention, car les écrits indiquent aussi que des pièges protègent ce trésor. Moïra, grâce à son matériel, a déjà déterminé le positionnement grossier des pièces du tombeau, mais il manque encore beaucoup d’éléments. Votre préparation sera donc primordiale afin de ne pas être repérés – la discrétion prime –, mais aussi pour votre propre survie ! Heureusement pour vous, les trois grandes entreprises qui convoitent la découverte bénéficient des dernières technologies de pointe. Les utiliser à leur insu vous permettra d’organiser votre exploration.</em></p><p><em>Vous avez la journée pour faire votre reconnaissance et vous préparer. Vous devrez agir à la tombée de la nuit.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/mu/carte-mu.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Carte avec coordonnées de Mu.</p><p><em><strong>Lieu :</strong></em> Tombe antique au cœur de l’Antarctique.</p><p><em><strong>Délai :</strong></em> Cette nuit.</p><p><em><strong>Victoire :</strong></em> Les agents rejoignent la station Concordia avec la carte, dans l’idéal sans avoir été repérés par les entreprises ou les chercheurs sur place.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Les agents sont morts, ont été arrêtés par les équipes de recherche ou ne parviennent pas à s’emparer de la carte.</p></div></div></div>"
+            "content": "<p style=\"text-align:right\"><em><strong>Antarctique,</strong></em></p><p style=\"text-align:right\"><em><strong>mardi 19 juillet 2033, midi</strong></em></p><p style=\"text-align:right\"><em><strong>- Station Concordia</strong></em></p><p><em>Agents, je sais que le chemin a été long jusqu’en Antarctique et je vous remercie de vos efforts.</em></p><p></p><p><em>Hier soir, l’archéologue française Moïra Lefort a fait une découverte à laquelle personne ne croyait. En creusant, elle a révélé au monde un bâtiment enterré sous la glace depuis des milliers d’années… et tout porte à croire qu’il s’agit d’un tombeau.</em></p><p><em>Pour le trouver, Moïra a suivi d’anciens écrits que personne ne prenait au sérieux. Sa trouvaille change absolument tout pour la communauté scientifique, mais aussi pour certaines grosses entreprises.</em></p><p></p><p><em>Vous l’avez sûrement constaté, tout le monde se rue vers la station Concordia, zone de civilisation la plus proche de la découverte, et un campement se monte aux abords de l’édifice enfoui. Une chance pour nous, nous sommes en hiver et le froid mortel ne permet pas aux nouveaux venus d’agir aussi vite qu’ils le souhaiteraient. Ils ont réussi à dégager la porte du monument, mais elle n’a pas encore été ouverte. Chacun se dispute cet honneur et c’est notre chance !</em></p><p><em>Notre commanditaire souhaite que vous accédiez à l’intérieur de la tombe et récupériez ce qu’elle renferme selon les légendes : une carte avec les coordonnées du continent perdu de Mu.</em></p><p><em>Faites bien attention, car les écrits indiquent aussi que des pièges protègent ce trésor. Moïra, grâce à son matériel, a déjà déterminé le positionnement grossier des pièces du tombeau, mais il manque encore beaucoup d’éléments. Votre préparation sera donc primordiale afin de ne pas être repérés – la discrétion prime –, mais aussi pour votre propre survie ! Heureusement pour vous, les trois grandes entreprises qui convoitent la découverte bénéficient des dernières technologies de pointe. Les utiliser à leur insu vous permettra d’organiser votre exploration.</em></p><p><em>Vous avez la journée pour faire votre reconnaissance et vous préparer. Vous devrez agir à la tombée de la nuit.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/mu/carte-mu.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Carte avec coordonnées de Mu.</p><p><em><strong>Lieu :</strong></em> Tombe antique au cœur de l’Antarctique.</p><p><em><strong>Délai :</strong></em> Cette nuit.</p><p><em><strong>Victoire :</strong></em> Les agents rejoignent la station Concordia avec la carte, dans l’idéal sans avoir été repérés par les entreprises ou les chercheurs sur place.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Les agents sont morts, ont été arrêtés par les équipes de recherche ou ne parviennent pas à s’emparer de la carte.</p></div></div></div>"
           },
           "video": {
             "controls": true,
@@ -878,7 +878,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715888854426,
-            "modifiedTime": 1715889341641,
+            "modifiedTime": 1716104116693,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -947,7 +947,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715889674688,
-            "modifiedTime": 1716102276815,
+            "modifiedTime": 1716137023397,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -981,7 +981,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715890425902,
-            "modifiedTime": 1716033150247,
+            "modifiedTime": 1716124982434,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -1099,7 +1099,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p>Le scénario prend fin lorsque les agents s’échappent de la tombe et retournent à la station Concordia. Si le paquet de cartes du meneur arrive à son terme, l’alerte a été donnée : l’intrusion dans le monument a été repérée et toutes les factions en lice sont en train de revenir au campement.</p><p><strong>Si les agents disposent de la carte sans que personne ait repéré leur intrusion</strong>, c’est un succès total. Jack les félicite et les recontactera pour une mission future.</p><p><strong>Si les agents ont récupéré la carte, mais que leur intrusion est remarquée</strong>, c’est un succès plus mitigé. Jack les félicite tout de même, mais il sait que ce genre d’événement peut provoquer des guerres.</p><p><strong>Si les agents ne disposent pas de la carte</strong>, c’est un échec. Jack est mécontent, même si des biens inestimables lui sont rapportés en échange.</p><p><strong>Si l’un (ou plusieurs) des membres de l’équipe a été gravement blessé, est mort ou a été intercepté par l’une des factions présentes sur place</strong>, c’est un échec cuisant. L’avenir des agents est incertain. Une chose est sûre, pourtant : ils ne seront plus recrutés.</p>"
+            "content": "<p>Le scénario prend fin lorsque les agents s’échappent de la tombe et retournent à la station Concordia. Si le paquet de cartes du meneur arrive à son terme, l’alerte a été donnée : l’intrusion dans le monument a été repérée et toutes les factions en lice sont en train de revenir au campement.</p><p><strong>Si les agents disposent de la carte sans que personne ait repéré leur intrusion</strong>, c’est un succès total. Jack les félicite et les recontactera pour une mission future.</p><p><strong>Si les agents ont récupéré la carte, mais que leur intrusion est remarquée</strong>, c’est un succès plus mitigé. Jack les félicite tout de même, mais il sait que ce genre d’événement peut provoquer des guerres.</p><p><strong>Si les agents ne disposent pas de la carte</strong>, c’est un échec. Jack est mécontent, même si des biens inestimables lui sont rapportés en échange.</p><p><strong>Si l’un (ou plusieurs) des membres de l’équipe a été gravement blessé, est mort ou a été intercepté par l’une des factions présentes sur place</strong>, c’est un échec cuisant. L’avenir des agents est incertain. Une chose est sûre, pourtant : ils ne seront plus recrutés.</p><img src=\"systems/heist/images/media/scenario/mu/mu.webp\" />"
           },
           "video": {
             "controls": true,
@@ -1117,7 +1117,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715891193835,
-            "modifiedTime": 1715891276364,
+            "modifiedTime": 1716127114003,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         }
@@ -1133,7 +1133,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715888545270,
-        "modifiedTime": 1716102136065,
+        "modifiedTime": 1716127114003,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -1167,7 +1167,11 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {},
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.N8SDWFZ9zTH1dSmx"
+            }
+          },
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1202,7 +1206,11 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {},
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.E5iSdMhaeVlITbUV"
+            }
+          },
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1237,7 +1245,11 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {},
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.VHAMESKXSXdy61CW"
+            }
+          },
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1272,7 +1284,11 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {},
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.gWiJLisIiPRm9R2F"
+            }
+          },
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1442,7 +1458,7 @@
   "scenes": [
     {
       "folder": "c5rinT00DOCvFZJW",
-      "name": "Plan 1",
+      "name": "Campement",
       "_id": "AAO1lNbogdPKjArV",
       "active": false,
       "navigation": true,
@@ -5107,13 +5123,17 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Scene.AAO1lNbogdPKjArV"
+        }
+      },
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715894495323,
-        "modifiedTime": 1716102136093,
+        "modifiedTime": 1716129536688,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
@@ -5125,7 +5145,7 @@
     },
     {
       "folder": "c5rinT00DOCvFZJW",
-      "name": "Plan 2",
+      "name": "Tombe",
       "_id": "5BDLvlo8hp1OThre",
       "active": false,
       "navigation": true,
@@ -6753,13 +6773,17 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Scene.5BDLvlo8hp1OThre"
+        }
+      },
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715894536463,
-        "modifiedTime": 1716102136093,
+        "modifiedTime": 1716129543811,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
@@ -6787,7 +6811,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.LLhwyZt9ux5LmgXX"
+          "sourceId": "Compendium.heist.macros.Macro.LLhwyZt9ux5LmgXX"
         }
       },
       "_stats": {
@@ -6815,7 +6839,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.NjNQPn2jdDGcy4rU"
+          "sourceId": "Compendium.heist.macros.Macro.NjNQPn2jdDGcy4rU"
         }
       },
       "_stats": {
@@ -6843,7 +6867,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.YpM5q4klkWXsiQF4"
+          "sourceId": "Compendium.heist.macros.Macro.YpM5q4klkWXsiQF4"
         }
       },
       "_stats": {
@@ -6871,7 +6895,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.aXBO0ZISiK7hxTIA"
+          "sourceId": "Compendium.heist.macros.Macro.aXBO0ZISiK7hxTIA"
         }
       },
       "_stats": {
@@ -6899,7 +6923,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.fwcWPVfKrrbvN4e4"
+          "sourceId": "Compendium.heist.macros.Macro.fwcWPVfKrrbvN4e4"
         }
       },
       "_stats": {
@@ -6927,7 +6951,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.zv2CS2UhYyfbA3kD"
+          "sourceId": "Compendium.heist.macros.Macro.zv2CS2UhYyfbA3kD"
         }
       },
       "_stats": {
@@ -6955,7 +6979,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.Bi3fqhPIRUzg6MbE"
+          "sourceId": "Compendium.heist.macros.Macro.Bi3fqhPIRUzg6MbE"
         }
       },
       "_stats": {
@@ -6983,7 +7007,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.FMx0KieYoL1hQVob"
+          "sourceId": "Compendium.heist.macros.Macro.FMx0KieYoL1hQVob"
         }
       },
       "_stats": {
@@ -7011,7 +7035,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.FuDGvaJWVrBwJlQr"
+          "sourceId": "Compendium.heist.macros.Macro.FuDGvaJWVrBwJlQr"
         }
       },
       "_stats": {
@@ -7039,7 +7063,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.KhEEDW5mZobNaGBm"
+          "sourceId": "Compendium.heist.macros.Macro.KhEEDW5mZobNaGBm"
         }
       },
       "_stats": {
@@ -7067,7 +7091,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.TKQVysDDrRUlYYVu"
+          "sourceId": "Compendium.heist.macros.Macro.TKQVysDDrRUlYYVu"
         }
       },
       "_stats": {
@@ -7095,7 +7119,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.ZyWPLCQjbmgBwhVJ"
+          "sourceId": "Compendium.heist.macros.Macro.ZyWPLCQjbmgBwhVJ"
         }
       },
       "_stats": {
@@ -7123,7 +7147,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.sNBhbvR7u3UIlOX5"
+          "sourceId": "Compendium.heist.macros.Macro.sNBhbvR7u3UIlOX5"
         }
       },
       "_stats": {
@@ -7151,7 +7175,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Macro.zBS90JGKTDv9iOOg"
+          "sourceId": "Compendium.heist.macros.Macro.zBS90JGKTDv9iOOg"
         }
       },
       "_stats": {
@@ -7307,7 +7331,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715888513316,
-    "modifiedTime": 1716102319723,
+    "modifiedTime": 1716137577065,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!fp9zJuW44g80mmQz"

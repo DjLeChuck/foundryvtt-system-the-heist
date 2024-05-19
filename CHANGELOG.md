@@ -5,10 +5,16 @@
 ### Added
 
 - Agents can view there hand and pile
+- Links to documents in scenario journals (actors, scenes, macros)
+- Adventure compendium for the scenario "Voici leur histoire"
 
 ### Changed
 
 - Move adventures specifics macros into their respective compendium
+
+### Fixed
+
+- [Irish Job] Typo on one NPC name
 
 ## [11.3.1] - 2024-05-18
 

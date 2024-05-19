@@ -1,0 +1,3751 @@
+{
+  "name": "Voici leur histoire",
+  "img": "systems/heist/images/media/scenario/voici-leur-histoire/voici-leur-histoire-banner.webp",
+  "caption": "",
+  "sort": 0,
+  "description": "<p>Années 1990, petite ville de Flagstaff en Arizona. Un procès injuste est sur le point d’avoir lieu. Pour rétablir la justice, l’équipe de Heist n’est pas engagée seulement pour opérer un vol, mais aussi pour remplacer l’objet escamoté par un autre au sein des pièces à conviction.</p><p>Accusé à tort de braquage et d’agression sur agent de police, Jonas Carmichael, le prévenu, est un militant pour les droits des Afro-Américains ; de fausses preuves ont été produites contre lui par le shérif de la ville, Al Fletcher, raciste notoire et membre du Ku Klux Klan (KKK).</p><p>Un mystérieux mécène souhaite que Carmichael soit innocenté. Aux agents de jouer.</p>",
+  "actors": [
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Jonas Carmichael",
+      "type": "npc",
+      "_id": "qGOzdlm9nNwBtcOZ",
+      "img": "systems/heist/images/media/scenario/voici-leur-histoire/jonas-carmichael.webp",
+      "system": {
+        "description": "<p>Le protagoniste de cette histoire est un quarantenaire sportif, ancien militaire. C’est une masse de muscles. Coach de l’équipe de football des Meteor de Flagstaff, il est apprécié par la majorité de la population, WASP ou non, et joue un rôle important au sein de la communauté afroaméricaine. Récemment divorcé, sans enfant, il s’est installé dans la petite ville pour son climat et les loyers modérés des résidences que l’ancien maire a fait construire. Malheureusement, Carmichael a vite compris que le Ku Klux Klan agissait presque en toute impunité en ville et fustigeait l’arrivée de membres de sa communauté. Plusieurs commerces ont été vandalisés, certaines personnes racisées ont été agressées, plusieurs résidences ont été taguées d’horribles mots et des cambriolages ont même eu lieu en pleine journée.</p><p>Doté d’un grand sens de la justice, croyant et leader né, Carmichael a décidé de ne pas se laisser faire et de protéger les siens du Klan en alertant les médias et en montant une association de défense des droits des personnes afro-américaines. Son travail acharné de plusieurs mois a porté ses fruits et le maire Flaherty, comme le shérif Fletcher, est maintenant dans le collimateur des médias nationaux.</p><p>Voyant que le colosse avait une portée au sein de la ville, mais aussi à l’extérieur, les membres du KKK ont décidé de salir sa réputation en le faisant passer pour un cambrioleur de bas étage et en produisant une vidéo de surveillance avec un « faux Carmichael » en action, pris en flagrant délit de vandalisme et de vol de nombreux bijoux. Qui plus est, cette simagrée est en plus une arnaque à l’assurance, visant à permettre au maire de gagner une somme d’argent non négligeable.</p><p>Carmichael a été arrêté au petit matin. Le maire Flaherty a produit un témoignage contre lui et le shérif Fletcher, présent sur les lieux du cambriolage en réponse à un appel, affirme que l’accusé lui a tiré dessus avant de s’enfuir.</p><p>Tout joue contre l’homme et personne ne semble vouloir l’aider. Digne, il essaie de résister, mais son avocat ne s’est malencontreusement pas encore présenté. En effet, le jeune Timothy Flanagan subit actuellement les pressions du procureur Flaherty. Il est absente et ne se présentera qu’au dernier moment lors du procès sans avoir pu travailler le dossier (quand les agents auront fini leur mission).</p>"
+      },
+      "prototypeToken": {
+        "name": "Jonas Carmichael",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/jonas-carmichael.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125132116,
+        "modifiedTime": 1716125514728,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Al Fletcher",
+      "type": "npc",
+      "_id": "w4Vb41iUyPFXUfjT",
+      "img": "systems/heist/images/media/scenario/voici-leur-histoire/al-fletcher.webp",
+      "system": {
+        "description": "<p>Ce shérif d’une cinquantaine d’années est un paroissien très pieux, membre du Klan comme son père l’était avant lui. Aussi sûr de lui que bête, il est aveuglé par son sentiment d’impunité et cite la Bible comme s’il s’agissait d’un texte de loi, considérant que les personnes qui ne sont pas des hommes et qui ne sont pas blanches sont inférieures.</p><p>Dans la petite ville, ce personnage est plus craint que respecté et ses réélections sont souvent sujettes à contestation. Pourtant, l’appui du juge, du procureur et du maire lui permet d’être perçu comme indispensable à la communauté.</p><p>Stressé par le procès d’aujourd’hui, le shérif fait les cent pas dans le tribunal et attend fébrilement son rendez-vous avec le procureur Flaherty. Il s’énerve sur ses adjoints et va régulièrement voir Carmichael pour l’insulter ou le menacer. Ayant mal lu le rapport balistique qu’il a pourtant lui-même fait produire et qu’il doit faire signer au procureur lors de leur rencontre à 12 h 30, il fait croire qu’il a été blessé lors de l’interpellation, mais boite de la mauvaise jambe. Il compte absolument sur la preuve vidéo pour appuyer son témoignage, car il sait que la juge Hargitay ne l’aime pas et ne prononcera pas Carmichael coupable sur sa simple parole.</p><p>Il est à noter que certains de ses adjoints ne l’apprécient vraiment pas, tout comme certains huissiers du tribunal. La plupart supputent qu’il ment sur sa blessure et connaissent son implication au sein du Klan. En trouvant les bons leviers, il est possible de les faire parler afin de trouver de l’aide et faire tomber le shérif.</p>"
+      },
+      "prototypeToken": {
+        "name": "Al Fletcher",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/al-fletcher.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125160094,
+        "modifiedTime": 1716125514728,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Victor Adams",
+      "type": "npc",
+      "_id": "w0HmfDKKOm4jFg1f",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Adjoint du shérif et frère de Rupert, l’huissier responsable de la zone des prévenus, cet homme est une force de la nature d’origine irlandaise. Il dissimule constamment ses cheveux châtain-roux qui le font complexer sous une casquette New York assez reconnaissable. Servile, il obéit au doigt et à l’œil au shérif Fletcher, agissant envers lui comme s’il s’agissait de son propre père.</p><p>C’est lui qui apparaît sur la vidéosurveillance du cambriolage, à la place du prévenu, revêtant la veste du coach et portant une cagoule sous son éternelle casquette. Il n’a pas vraiment conscience de ce qu’il risque de provoquer par la création de cette fausse preuve et de ce qu’il encourt si la vérité éclate. Il a agi pour plaire à son chef et, même s’il est mis en avant qu’il est seul à courir tous les risques, il reste muet comme une tombe sur le sujet.</p>"
+      },
+      "prototypeToken": {
+        "name": "Victor Adams",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125465772,
+        "modifiedTime": 1716125514728,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Eliott Flaherty",
+      "type": "npc",
+      "_id": "6fU8cRiUgBYi4mAu",
+      "img": "systems/heist/images/media/scenario/voici-leur-histoire/eliott-flaherty.webp",
+      "system": {
+        "description": "<p>Le procureur Flaherty, frère du maire, est l’opposé du shérif. D’un naturel discret mais implacable et intelligent, il arrive presque toujours à ses fins. C’est lui le cerveau derrière l’arrestation de Carmichael et l’arnaque à l’assurance.</p><p>L’homme est cependant très soucieux de son image et nie catégoriquement toute implication au sein du Klan, alors qu’il en est l’un des chefs.</p><p>Il considère son rendez-vous secret avec le shérif comme quelque chose de risqué et hésite encore à signer le rapport balistique qu’il juge un peu trop grossier. Pour se protéger, Flaherty n’hésitera pas à accuser Adams, Fletcher, voire son propre frère. Il a des dossiers sur ces deux derniers dans son bureau, dans un tiroir fermé par une clé qu’il est le seul à posséder.</p>"
+      },
+      "prototypeToken": {
+        "name": "Eliott Flaherty",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/eliott-flaherty.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125524162,
+        "modifiedTime": 1716125534593,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Guilbert Flaherty",
+      "type": "npc",
+      "_id": "RpOidl1FDFqyVZGp",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Le frère du procureur est un homme d’une soixantaine d’années, républicain, membre de la NRA et du Klan. Pour lui, l’Amérique blanche doit être forte et il a été élu maire à quelques voix seulement devant son prédécesseur.</p><p>Il aime le pouvoir, mais s’inquiète peu de la vie de sa cité et de ses administrés. Il est perçu par la plupart des habitants comme un cowboy arriéré. Il ne se présente qu’à partir de 13 h 30 au tribunal, à peine une demi-heure avant la tenue du procès.</p><p>Aimant beaucoup parler de lui, il adore s’adresser aux journalistes. Toutefois, il s’exprime mal et peut même évoquer quelques contre-vérités s’il est poussé dans ses retranchements.</p>"
+      },
+      "prototypeToken": {
+        "name": "Guilbert Flaherty",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125541130,
+        "modifiedTime": 1716125564771,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Marishka Hargitay",
+      "type": "npc",
+      "_id": "duIwBNcATrNkoOEk",
+      "img": "systems/heist/images/media/scenario/voici-leur-histoire/marishka-hargitay.webp",
+      "system": {
+        "description": "<p>Détachée de la capitale de l’État pour le procès de Carmichael en raison de l’état de santé du juge Marsh, la juge Hargitay est une femme qui incarne la justice, au tempérament plus que sévère, mais toujours avec un sens aigu de la loi. Sa grande silhouette est visible dans les allées du tribunal, de 8 heures à 9 heures, avant le début des premières audiences.</p><p>Personne ne le sait, pas même les agents, mais le juge Marsh refera son apparition pour un twist scénaristique aux alentours de 13 heures, malgré une bronchite aiguë, et à la demande du procureur Flaherty (voir plus loin « Twist »). La juge Hargitay insistera pour conserver son rôle de présidente de la cour, mais sera forcée d’abandonner sous les menaces à peine voilées du shérif et du procureur.</p>"
+      },
+      "prototypeToken": {
+        "name": "Marishka Hargitay",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/marishka-hargitay.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125573476,
+        "modifiedTime": 1716125587011,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Janet Son",
+      "type": "npc",
+      "_id": "d8jipGGfbXWyLNJr",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Responsable du bureau des preuves au tribunal, l’adjointe Son est vue par ses collègues comme un rouage inutile. Profondément altruiste et confiante dans la justice de son pays, elle a été placée ici par Fletcher pour ne pas faire trop de vagues. Sa mère, gravement malade, est actuellement à l’hôpital et Son est dans un état d’angoisse constant quant à la santé de celle-ci. Détestant son poste, elle n’hésitera pas à l’abandonner au moindre appel de l’hôpital, laissant le bureau des preuves sans surveillance.</p>"
+      },
+      "prototypeToken": {
+        "name": "Janet Son",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125594603,
+        "modifiedTime": 1716125600877,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Charles Andrews",
+      "type": "npc",
+      "_id": "Mt4YMHVnTbcTFxYY",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Responsable de l’accueil du tribunal, il est chargé de répartir les arrivants dans les différentes zones.</p><p>Régulièrement dans la lune, il effectue les contrôles de manière machinale, sans réellement regarder les documents qui lui sont montrés. C’est à son bureau d’accueil que l’on peut obtenir le formulaire A36.</p>"
+      },
+      "prototypeToken": {
+        "name": "Charles Andrews",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125607012,
+        "modifiedTime": 1716125615662,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Agents du poste de sécurité",
+      "type": "npc",
+      "_id": "KNkqjsqRKDLA49M1",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Matt Dalton, l’huissier responsable de la vidéosurveillance, est un tire-auflanc qui passe son temps à la machine à café de la salle de repos. Il a une très forte tendance à oublier son badge magnétique ainsi que ses clés làbas et est aussi crédule que tête en l’air. Lorsqu’il s’absente, il demande à un autre huissier du tribunal, Bob Douglas, de le relayer. Ce vétéran de l’armée très à cheval sur les procédures ne supporte pas l’attitude de son collègue, d’autant plus qu’il connaît encore moins bien que lui la technologie présente dans le poste de sécurité.</p><p>Si les agents n’ont pas avancé dans leur casse, Dalton oublie son badge et ses clés à la machine à café aux alentours de 11 heures. Entre midi et 14 heures, il est remplacé par Douglas.</p>"
+      },
+      "prototypeToken": {
+        "name": "Agents du poste de sécurité",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125625950,
+        "modifiedTime": 1716125632129,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Rupert Adams",
+      "type": "npc",
+      "_id": "CL1dmOaNQj75fd5O",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>L’huissier qui s’occupe de la zone des prévenus est le frère de Victor, l’adjoint du shérif. Il surveille chaque passage et apprécie le pouvoir que lui confère le fait d’appuyer sur le bouton pour déverrouiller la porte blindée.</p><p>Il ne l’ouvre que sur présentation du formulaire A36, ou pour les adjoints du shérif et les membres du tribunal, ainsi que pour les ouvriers entre 8 heures et midi.</p>"
+      },
+      "prototypeToken": {
+        "name": "Rupert Adams",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125638113,
+        "modifiedTime": 1716125643325,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Sean MacGregor",
+      "type": "npc",
+      "_id": "uOis3ujR76JEvj2v",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>C’est un beau gosse, flambeur, toujours optimiste, qui aime beaucoup draguer ses collègues et qui a beaucoup de « conquêtes » à son actif au sein du tribunal. De prime abord sympathique, il est cependant lui aussi membre du Klan. Persuader MacGregor de laisser des agents circuler en paix est facile si un personnage tente de le séduire… Il ne se sépare jamais de son jeu de clés, mais lui subtiliser peut être assez aisé si un bel homme ou une belle femme occupe son attention.</p>"
+      },
+      "prototypeToken": {
+        "name": "Sean MacGregor",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125649271,
+        "modifiedTime": 1716125656276,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "GN3l3HWCXGetIXqZ",
+      "name": "Willie Thorn",
+      "type": "npc",
+      "_id": "isJXKo2V1w8UaRgB",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Ce vieil homme responsable de l’entretien est présent dans les couloirs du tribunal depuis sa création dans les années 1970. D’un naturel très affable, il peut être trouvé un peu n’importe où, à n’importe quel moment. Il a accès à chacune des zones grâce à son passe-partout. En plus de s’occuper de l’entretien, il veille aussi à la maintenance de la chaudière et de l’électricité. Véritable mémoire vivante du tribunal, il est extrêmement volubile et ne cesse presque jamais de raconter les histoires des différents procès qui ont eu lieu ici, importants ou non. Son grand âge et ses longs discours le rendent parfois distrait. Un agent habile peut lui dérober son passe-partout, seule clé permettant d’entrer dans chaque salle du tribunal.</p>"
+      },
+      "prototypeToken": {
+        "name": "Willie Thorn",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125662769,
+        "modifiedTime": 1716125668884,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "combats": [],
+  "items": [
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Uniformes d’adjoints du shérif ou d’huissiers",
+      "type": "planning",
+      "_id": "NlYQrUVHd1fFcdM9",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125842983,
+        "modifiedTime": 1716125847031,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Uniformes d’ouvriers BatimCo",
+      "type": "planning",
+      "_id": "1j1R0Li0FVYGh9WX",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125855267,
+        "modifiedTime": 1716125855267,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Costumes de personnel Securitexx",
+      "type": "planning",
+      "_id": "pObEpsMWdcDEladC",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125866901,
+        "modifiedTime": 1716125869695,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Formulaire A36 signé",
+      "type": "planning",
+      "_id": "b4tCVCZEsQibJoK9",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125877736,
+        "modifiedTime": 1716125880664,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Formulaire G40 signé",
+      "type": "planning",
+      "_id": "iP633wvcWuba2LFZ",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 5
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125888608,
+        "modifiedTime": 1716125891480,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Informations sur un adjoint du shérif",
+      "type": "planning",
+      "_id": "eX2pYQHDvQgPqEb2",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125901300,
+        "modifiedTime": 1716125901300,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Informations sur un huissier du tribunal",
+      "type": "planning",
+      "_id": "AI884lh5povQ9cjO",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125907796,
+        "modifiedTime": 1716125907796,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Informations sur le shérif Fletcher",
+      "type": "planning",
+      "_id": "RFh5CHAeBZPeQdRp",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125914897,
+        "modifiedTime": 1716125918093,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NQvPkIhmyHCM8p8g",
+      "name": "Informations sur le procureur Flaherty",
+      "type": "planning",
+      "_id": "sBGsalzGm01kZdg1",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125925268,
+        "modifiedTime": 1716125927634,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "folder": "pKDGJcR04HCOHAZu",
+      "name": "Scénario",
+      "_id": "jkqoh8mC00Mcay5z",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Présentation",
+          "type": "text",
+          "_id": "ZOaNEJZjeKahtEen",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h1>En quelques mots</h1><p>Années 1990, petite ville de Flagstaff en Arizona. Un procès injuste est sur le point d’avoir lieu. Pour rétablir la justice, l’équipe de Heist n’est pas engagée seulement pour opérer un vol, mais aussi pour remplacer l’objet escamoté par un autre au sein des pièces à conviction.</p><p>Accusé à tort de braquage et d’agression sur agent de police, Jonas Carmichael, le prévenu, est un militant pour les droits des Afro-Américains ; de fausses preuves ont été produites contre lui par le shérif de la ville, Al Fletcher, raciste notoire et membre du Ku Klux Klan (KKK).</p><p>Un mystérieux mécène souhaite que Carmichael soit innocenté. Aux agents de jouer.</p><h1>Matériel</h1><p>Le scénario <em>Voici leur histoire</em> utilise 2 plans des lieux :</p><ul><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.I8By8xl7Vcj5ITxJ]{1 plan complet du tribunal réservé au meneur} détaillant les différentes zones, joint à ce scénario ;</p></li><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.rZ2PutyHx19eBiPP]{1 plan de départ pour les joueurs} présentant les principales pièces du tribunal.</p><ul><li><p>Ce plan est également disponible sous la forme d’une scène afin que les joueurs puisse dessiner dessus : @UUID[Scene.UVoRCBi5X6LGVpyP]{Tribunal}</p></li><li><p>Cette scène comporte également des tuiles et dessins masqués par défaut permettant de révélever son contenu au fil du jeu.</p></li></ul></li></ul><p>Plusieurs aides de jeu ont également été créées par <em>Fourmi1</em> :</p><ul><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.QnwGrSiXX2YcrjG0]{Compte-Rendu de Procès - Jonas Carmichael}</p></li><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.qFt3F6fJHtNBfnt4]{Bavures d’Al Fletcher}</p></li><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.6OelTvIcybx00GJl]{Pot-de-vin de Guilbert Flaherty}</p></li><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.VZZhUYoLspgLIDHq]{Formulaire A36}</p></li><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.a3KsUx7CMhF87JMa]{Formulaire G40}</p></li><li><p>@UUID[JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.4R0MFkEJ5CgEcp5k]{Registre de demandes d’accès aux pièces à conviction}</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario s’inspire à la fois des séries et films de procès des années 1990-2000, comme <em>New York Police judiciaire</em> ou encore <em>Erin Brockovich, seule contre tous</em>. En parallèle, vous pouvez y mettre des influences des <em>James Bond</em> avec Pierce Brosnan, notamment en termes d’accessoires et de style.</p><p>Ce casse traite aussi de sujets sensibles comme le racisme et l’appartenance à un groupe extrémiste violent. Il est donc conseillé de prévenir les joueurs avant de débuter. Sur ce sujet, vous pouvez vous inspirer de la série <em>The Watchmen</em> de HBO ou du film <em>BlacKkKlansman</em> de Spike Lee.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716103551825,
+            "modifiedTime": 1716137549808,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Briefing",
+          "type": "text",
+          "_id": "7iBJHCk5gF8Kv5vz",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p style=\"text-align:right\"><em><strong>Flagstaff, Arizona,</strong></em></p><p style=\"text-align:right\"><em><strong>jeudi 20 juillet 1995, midi,</strong></em></p><p style=\"text-align:right\"><em><strong>- Planque de Heist.</strong></em></p><p><em>Agents, j’ai une mission pour vous.</em></p><p></p><p><em>Un des mécènes de Heist souhaite que nous intervenions pour rétablir la justice lors d’un procès qui se tient ici, dans la petite ville de Flagstaff en Arizona. En effet, Jonas Carmichael, coach des Meteor de Flagstaff et militant pour les droits des Afro-Américains, est accusé à tort d’avoir cambriolé la propriété de monsieur Guilbert Flaherty, maire de la ville et frère aîné du procureur Eliott Flaherty.</em></p><p><em>Le shérif Al Fletcher a rapidement conclu à la culpabilité de Carmichael, à la suite de la découverte d’une preuve soi-disant indiscutable, une vidéo de caméra de surveillance. Vous vous en doutez, la silhouette du présumé coupable est à peine identifiable et seul le même modèle de veste que celui du coach peut être reconnu sur cet enregistrement de mauvaise qualité. Le shérif, le maire et le procureur, membres notoires du Ku Klux Klan, veulent faire de ce procès un exemple envers la communauté afro-américaine.</em></p><p><em>Nous savons que Fletcher et le procureur Flaherty se donneront rendez-vous quelque part dans le tribunal juste avant le début du procès afin de produire de nouvelles fausses preuves de dernière minute. Il semblerait par ailleurs que le cambriolage de la maison du maire soit une arnaque à l’assurance.</em></p><p></p><p><em>Voici vos objectifs :</em></p><ul><li><p><em><strong>1.</strong> À l’aide du caméscope mis à votre disposition pour cette mission, filmez la rencontre entre Fletcher et le procureur Flaherty, et éventuellement modifiez les fausses preuves ;</em></p></li><li><p><em><strong>2.</strong> Découvrez où sont conservées les pièces à conviction du procès ;</em></p></li><li><p><em><strong>3.</strong> Remplacez la cassette de vidéo­ surveillance de la maison du maire par celle de l’échange entre le shérif et le procureur. Évidemment, tout cela doit être terminé avant le début du procès puisque cette preuve sera la première présentée.</em></p></li><li><p><em>Si vous le souhaitez, vous pourrez assister au procès pour savourer votre victoire.</em></p></li></ul><p></p><p><em>Le début de la séance devrait avoir lieu à 14 heures, mais vu le nombre d’affaires en cours de jugement, un retard est tout à fait probable.</em></p><p><em>Nous avons de la chance, le juge siégeant habituellement au tribunal, John Marsh, est souffrant. C’est donc la juge venue de la grande ville de Phoenix, Marishka Hargitay, qui lutte activement contre le Klan, qui sera présente lors du procès. Elle n’appréciera pas cette tentative de manipulation.</em></p><p><em>Attention à vous, les accès d’un tribunal ne sont pas faciles, surtout lors d’un procès aussi sensible. Vous devez être discrets ou particulièrement convaincants pour vous y infiltrer. Si vous êtes repérés ou démasqués, toute la mission sera un échec, car le procès risque d’être reporté.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div><p><em><strong>Cible :</strong></em> La cassette de vidéosurveillance et éventuellement les fausses preuves identifiées lors de la rencontre entre Fletcher et le procureur Flaherty.</p><p><em><strong>Lieu :</strong></em> Tribunal de Flagstaff, petite ville d’Arizona (48 000 habitants).</p><p><em><strong>Délai :</strong></em> Le tribunal ouvre à 8 heures du matin. Le procès, sauf retard, devrait avoir lieu à 14 heures. La rencontre entre le shérif et le procureur aura lieu entre ces deux horaires.</p><p><em><strong>Victoire :</strong></em> La cassette de vidéosurveillance de la demeure du maire (preuve importante du procès Carmichael) est échangée avec la vidéo de la rencontre entre le shérif et le procureur et diffusée au cours du procès.</p><p><em><strong>Twist :</strong></em> Une heure avant le début du procès, les agents voient que le juge John Marsh insiste pour présider la séance du procès Carmichael. Malgré les protestations de Hargitay, il risque de réussir à reprendre son poste avec l’appui du shérif et du procureur.</p><p><em><strong>Défaite (à garder secret) :</strong></em> La rencontre n’est pas filmée et/ou la preuve n’est pas échangée, ou les agents sont démasqués.</p></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716103693373,
+            "modifiedTime": 1716104191757,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Intrigue",
+          "type": "text",
+          "_id": "vuGHCFnlfyUTZ43i",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le maire <strong>@UUID[Actor.RpOidl1FDFqyVZGp]{Guilbert Flaherty}</strong> a été élu il y a quelques mois à la tête de Flagstaff. Quelques années avant son arrivée au pouvoir, son prédécesseur progressiste, Elias Sutter, avait fait construire des résidences à loyer modéré, et plusieurs membres de la communauté afro-américaine s’y étaient installés, dont <strong>@UUID[Actor.qGOzdlm9nNwBtcOZ]{Jonas Carmichael}</strong>, nouveau coach de l’équipe de football du lycée, les Meteor de Flagstaff.</p><p>Célibataire et sans enfant, Carmichael s’est vite rendu compte que sa communauté était violemment rejetée, notamment à cause de la présence séculaire du KKK parmi les élites locales. Il a commencé à élever la voix et à organiser des groupes de parole et des manifestations.</p><p>Bien évidemment, cela a fortement déplu aux frères Flaherty, Guilbert et <strong>@UUID[Actor.6fU8cRiUgBYi4mAu]{Eliott}</strong>, ainsi qu’au shérif <strong>@UUID[Actor.w4Vb41iUyPFXUfjT]{Al Fletcher}</strong>, eux-mêmes membres du Klan. Ils ont décidé de prendre le coach pour cible tout en profitant d’une arnaque à l’assurance. Faire d’une pierre deux coups, c’était leur idée. Ils ont donc organisé un cambriolage de nuit chez le maire, en embauchant une personne pour se faire passer pour Carmichael : le cambrioleur, masqué par une cagoule et portant une casquette New York, était vêtu de la même veste bleu et blanc de coach, très reconnaissable, que l’accusé avait l’habitude de porter constamment (veste qu’ils ont dérobée au préalable dans les vestiaires du lycée ; évidemment, la plainte de Carmichael pour vol a été ignorée). La personne embauchée pour le cambriolage n’est connue que de Fletcher et est en vérité un de ses adjoints, <strong>@UUID[Actor.w0HmfDKKOm4jFg1f]{Victor Adams}</strong> (présent au tribunal le jour du procès), une masse de muscles d’origine irlandaise qui n’a pour seul point commun avec le prévenu que sa stature.</p><p>Dès le lendemain (c’est-à-dire aujourd’hui), Fletcher arrête Carmichael pour cambriolage et tentative de meurtre. Ce dernier doit passer en comparution immédiate sans jury (comme on sait si bien les faire dans les petites villes des États-Unis de l’époque) dans l’après-midi et risque 25 ans de prison ferme.</p><p>Malheureusement pour les comploteurs, c’est la juge <strong>@UUID[Actor.duIwBNcATrNkoOEk]{Marishka Hargitay}</strong> qui a finalement la charge du dossier, car le juge John Marsh, résident de la ville et président du tribunal, est souffrant. Hargitay, sévère mais juste, est fermement opposée aux agissements du Klan. Fletcher et le procureur Flaherty ont donc prévu de se voir avant le procès pour préparer leurs arguments, et afin de produire de nouvelles fausses preuves si la vidéo ne suffit pas.</p><p>À ce titre, Fletcher fait semblant de boiter, car, selon sa version et le faux rapport balistique qu’il va faire signer par le procureur, Carmichael lui a tiré dessus juste avant son interpellation avec un pistolet de calibre .38 qui aurait mystérieusement disparu. Personne n’y croit, même pas ses adjoints présents au tribunal, mais ils ne le diront pas. Par ailleurs, si on lit attentivement le faux rapport balistique, le shérif boite de la mauvaise jambe…</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716104197771,
+            "modifiedTime": 1716126627065,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Lieux",
+          "type": "text",
+          "_id": "jnMMJ7HweWCYcDhN",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le petit tribunal de Flagstaff en Arizona, niché au cœur de la ville historique, se dresse modestement au centre de la place principale. Son architecture reflète le charme traditionnel du sud des États-Unis, avec des colonnes blanches élancées soutenant un toit en pente douce.</p><p>À première vue, le tribunal semble être un bâtiment humble, mais, lorsque l’on s’approche, on peut remarquer les détails délicats ciselés dans les colonnes et les ornements simples mais élégants qui encadrent les fenêtres. La façade en briques rouges dégage une aura d’autorité tranquille, symbolisant la fonction essentielle de cet établissement au sein de la communauté de 48 000 habitants.</p><p></p><p>À l’intérieur, le tribunal respire l’histoire et la tradition. Les planchers de bois poli craquent sous les pas, tandis que les bancs patinés par le temps remplissent les trois salles d’audience. Un drapeau américain flotte fièrement au-dessus de la porte d’entrée, rappelant avec ferveur une certaine loyauté envers le pays et ses amendements.</p><p>Partout, les murs sont ornés de portraits des anciens juges et des figures importantes de l’histoire locale, ajoutant une touche de respect pour ceux qui ont précédé le juge Marsh. Le mobilier est simple mais fonctionnel, avec des bureaux pour le personnel et des salles sécurisées pour les avocats et les témoins. Trois entrées permettent d’accéder au bâtiment : celle du hall (la principale), l’entrée des prévenus et l’entrée du personnel.</p><p></p><p>Dans l’ensemble, le tribunal de Flagstaff paraît incarner un esprit de justice. Mais le juge de la cour, John Marsh, comme de nombreux notables de la ville, est membre du Ku Klux Klan, un regroupement de suprémacistes blancs violents qui ne supportent pas l’installation de membres de la communauté afro-américaine en ville.</p><p></p><p>Attention, ce scénario se déroulant en Arizona en 1995, les huissiers du tribunal, comme les adjoints du shérif, sont armés.</p><h2>Hall d’entrée</h2><p>Le tribunal possède une toute petite entrée à l’est surveillée par un adjoint du shérif et dotée d’un accueil très sobre où patiente un huissier (armé, comme de juste), <strong>@UUID[Actor.Mt4YMHVnTbcTFxYY]{Charles Andrews}</strong>, attaché directement au tribunal. Il est impossible d’y entrer sans déposer une pièce d’identité, à moins d’être membre du système judiciaire américain ou adjoint du shérif. Une caméra de surveillance balaie l’entrée du hall. À partir de cette salle se déploient trois accès vers les zones principales du tribunal. Une seule peut être empruntée par le public (en face de l’entrée) ; les autres ne sont autorisées qu’aux employés du tribunal, aux avocats ou encore aux adjoints du shérif.</p><h2>Entrée des prévenus</h2><p>Sur la façade nord-ouest du bâtiment s’ouvre l’entrée des prévenus. Elle est protégée par un sas grillagé ainsi que par deux portes à code ; une caméra de surveillance directement connectée au poste de sécurité du tribunal est pointée dessus. C’est par là que passent les détenus qui sont ensuite envoyés en cellule pour attente de jugement.</p><h2>Entrée du personnel</h2><p>Dans le coin sud-est du tribunal se trouve l’entrée réservée au personnel. C’est une petite porte métallique disposant d’un lecteur de carte magnétique. Seuls ceux qui disposent d’une carte nominative peuvent normalement l’ouvrir. À l’instar des deux autres entrées, une caméra reliée au poste de sécurité surveille les différents passages.</p><h2>Zone publique</h2><h3>Couloir principal</h3><p>Partant du hall d’entrée, un long couloir, presque dénudé, au parquet en bois, s’étire jusqu’à l’extrême sud du bâtiment. Seuls quelques bancs posés le long de la façade ouest et au pied d’une grande baie vitrée au sud marquent des zones d’attente. Quelques avocats patientent ou discutent avec des prévenus ou des témoins, soit dans le couloir, soit dans une des six petites salles qui le jouxtent. On peut également y croiser des adjoints du shérif, des huissiers, mais aussi et surtout des prévenus qui transitent vers ou depuis les trois cours de justice. Les entrées de chaque cour sont étroitement surveillées par un huissier, agent du ministère de la Justice n’appartenant pas au bureau du shérif… même si la plupart suivent ses ordres.</p><p>Au nord du couloir principal s’élève une épaisse porte donnant dans la zone des prévenus. Seuls les membres du personnel et, bien entendu, les prévenus accompagnés ainsi que les avocats sont habilités à y entrer.</p><h3>Trois cours de justice</h3><p>C’est ici que se tiennent les procès, présidés par le juge Marsh ou par des membres de l’administration judiciaire lorsqu’il s’agit d’affaires courantes liées à la circulation ou aux impôts (retrait de permis de conduire, amendes impayées, etc.). Indifféremment, dans ces trois grandes cours peuvent se dérouler des affaires liées à des crimes ou à des délits. Elles sont utilisées en fonction de la disponibilité des lieux, l’édifice étant ouvert de 8 heures à 20 heures. Il est à noter que le tribunal de Flagstaff regroupe la très grande majorité des affaires du comté et donc, aujourd’hui même, il est difficile de savoir dans quelle salle aura lieu le procès de Carmichael sans avoir accès à des documents spécifiques ou sans interroger les membres du personnel.</p><p>Chaque cour possède quatre entrées. La principale, à l’ouest, est utilisée par le public des différents procès. La deuxième, au nord-est, est dévolue aux membres de la cour. Celle au sud-est est à disposition des huissiers et du personnel du tribunal. Enfin, au sud ou au nord-ouest, la dernière porte qui ouvre sur une salle sécurisée ou une zone d’attente est réservée aux prévenus et au personnel accompagnant.</p><p>D’aspect, ces grandes salles censées représenter toute la justice américaine ressemblent plus à des pièces quasiment vides. On y compte quelques rangées de bancs, un box pour les prévenus (sur la partie nord ou sud), un box pour le jury et les huissiers (le long du mur nord ou sud) et un très grand et large bureau à l’est pour la cour. Évidemment, le drapeau américain est érigé en symbole d’égalité et de justice. Un téléviseur muni d’un magnétoscope et monté sur un meuble à roulettes peut être déplacé au centre de la cour pour présenter les preuves visuelles. Il est à noter qu’aucune de ces salles ne dispose de fenêtres ni d’autres entrées que celles indiquées.</p><p>Entrer dans ces salles, lors d’un procès, est facile avec un peu d’aplomb. Les séances étant ouvertes aux journalistes, mais aussi aux familles et proches, il suffit de bien se comporter ou de quelques mots pour passer.</p><div class=\"orange-box\"><p>Si vous utilisez la scène @UUID[Scene.UVoRCBi5X6LGVpyP]{Tribunal}, vous pouvez afficher les différentes cours en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.QfS2tcFVXy2lMLal]{Cour 1} ;</p></li><li><p>@UUID[Macro.4m1q6RwIxOgbNtRH]{Cour 2} ;</p></li><li><p>@UUID[Macro.5a81uJ8qWjG84h1s]{Cour 3}.</p></li></ul></div><h2>Zone réservée au personnel</h2><p>Derrière les cours de justice, la zone du personnel du tribunal longe la façade est du bâtiment. On y accède par l’entrée du personnel ou par la porte sud du hall. Là se trouvent le bureau du juge Marsh et du procureur, le bureau des preuves, le poste de sécurité, plusieurs salles de délibération des jurés, une salle de maintenance et une salle de repos.</p><h3>Bureau du juge Marsh et du procureur Flaherty</h3><p>Ce bureau commun au juge Marsh et au procureur dispose d’une seule entrée qui peut être ouverte avec le passe-partout de <strong>@UUID[Actor.isJXKo2V1w8UaRgB]{Willie Thorn}</strong>, l’agent de maintenance, ou avec les clés que détiennent les deux hommes. Deux bureaux s’y font face ainsi que plusieurs casiers de rangement. En fouillant, on peut trouver des choses intéressantes.</p><ul><li><p>Dans le bureau du procureur Flaherty, dans un tiroir fermé à clé, un dossier recense les bavures de Fletcher couvertes par le juge Marsh et un dossier sur le maire Flaherty et les pots-de-vin reçus lors de transactions immobilières.</p></li><li><p>Dans le bureau du juge Marsh, dans un tiroir aussi fermé à clé, se trouve un compte rendu anti­daté du procès de Carmichael avec pour jugement « coupable, peine de 25 ans de prison ferme au pénitencier de Montero ». Évidemment, ce document est parfaitement illégal : les témoignages de Fletcher et du maire y sont déjà exposés alors que le procès n’a pas encore eu lieu. La rédaction doit remonter à plusieurs jours, car le juge est absent depuis la veille.</p></li></ul><h3>Bureau des preuves</h3><p>Étroitement surveillé par l’adjointe <strong>@UUID[Actor.d8jipGGfbXWyLNJr]{Janet Son}</strong>, membre du bureau du shérif, le bureau des preuves appartient à la fois au comté et au ministère de la Justice. Il contient l’ensemble des éléments mis à disposition par le système policier lors des procès. Sur des étagères numérotées, des boîtes étiquetées renferment des dizaines de documents, bandes vidéo ou audio et autres preuves matérielles en attente d’être dévoilées lors des procès du jour ou à venir.</p><p>C’est ici que se trouve la cassette de vidéosurveillance de la maison du maire Flaherty qui sera montrée au procès aux environs de 14 heures. Elle se situe dans la boîte C09, tout en haut d’une étagère, scellée dans un sac plastique numéroté P-11071992.</p><p>L’adjointe Son est positionnée derrière un guichet protégé par une vitre blindée. On ne peut pas entrer dans la salle sans passer devant elle. Elle procure les preuves aux huissiers sur présentation d’un formulaire G40 qui doit être généralement signé par le procureur ou le juge. Elle fait aussi signer un registre avec les numéros de preuve, les identités et les horaires de dépôt et de remise des preuves.</p><p></p><p>Si des agents réussissent à pénétrer dans le bureau directement, il faut jouer d’inventivité ou avoir beaucoup d’intuition pour comprendre le système de classement et retrouver la cassette. Un ordinateur (des années 1990) permet de retrouver les preuves au bon endroit, mais le matériel est peu et généralement mal utilisé.</p><p>Une personne suffisamment souple pourrait utiliser la gaine d’aération du tribunal allant du nord au sud. Par chance, une grille donne directement sur le bureau des preuves. Il ne faut pas oublier que, si des agents mettent en jeu l’état de santé de la mère de l’agente Son, celle-ci peut abandonner son poste, au détriment de tout professionnalisme.</p><h3>Poste de sécurité</h3><p>Pièce récemment aménagée pour sécuriser le tribunal et dotée des dernières technologies (des années 1990) en matière de vidéosurveillance, ce lieu est un joyau technologique mis entre les mains d’incompétents. En son sein, plusieurs écrans retransmettent en direct les flux de six caméras (les trois entrées extérieures, le couloir principal, la zone des prévenus et la zone du personnel) ; l’ensemble est enregistré, puis effacé au bout de 48 heures sur des serveurs dernier cri. La fourniture du système a été assurée par la société Securitexx, qui se charge également de la maintenance. Malheureusement, <strong>Matt Dalton</strong>, l’huissier responsable de la vidéosurveillance, n’est pas doué avec l’informatique. Lorsqu’il s’absente, il est relayé par un autre huissier du tribunal, <strong>Bob Douglas</strong>, qui connaît encore moins bien la technologie présente dans le poste de sécurité.</p><p></p><p>Ce lieu est desservi par deux portes. La première donne sur la zone du personnel et est généralement fermée à clé ; lorsque Dalton s’occupe de la surveillance, il a tendance à la laisser ouverte. La seconde donne sur le bureau des preuves, c’est l’unique moyen d’y accéder. Entrer dans le poste de sécurité peut paraître ardu, mais l’étourderie de Dalton et un peu d’observation permettent de s’y engouffrer pendant quelques minutes. De même, mentir à l’huissier est facile et les agents peuvent, par exemple, se faire passer pour des techniciens de Securitexx.</p><h3>Salle de maintenance</h3><p>Autre lieu d’intérêt pour les agents : la salle de maintenance. On y trouve les compteurs électriques, un générateur de secours, mais aussi la vieille chaudière à gaz et un ensemble d’outils et d’ustensiles destinés au personnel de maintenance. Entrer dans cette salle permet de couper le courant ou encore de saboter la chaudière. Cependant, y pénétrer est difficile et il est nécessaire de disposer de la clé d’un adjoint du shérif, d’un huissier ou d’un membre du personnel de maintenance.</p><h2>Zone des prévenus</h2><p>Toute l’aile nord du bâtiment abrite la zone des prévenus. Il ne s’agit pas que d’une prison temporaire, c’est aussi un lieu d’attente où avocats et accusés, ainsi que les membres du personnel ou les adjoints du shérif peuvent se reposer et circuler. Vers l’est et le nord, on distingue de nombreuses salles fermant à clé de l’extérieur qui font office à la fois de cellule, de salle d’attente et de lieu de rendez-vous entre avocat, procureur et prévenu.</p><p>Tout à l’ouest, une grande salle de conférence est régulièrement utilisée par le shérif, le procureur ou le juge lorsqu’il convient de faire des annonces au public ou à la presse.</p><h3>Couloir de la zone des prévenus</h3><p>Cette partie du bâtiment est formellement interdite au public ; il faut montrer patte blanche et être un prévenu, un membre du personnel judiciaire, un adjoint du shérif ou invité pour pénétrer dans ce lieu. Depuis le hall, on y accède par une portée blindée, qui donne sur le guichet de <strong>@UUID[Actor.CL1dmOaNQj75fd5O]{Rupert Adams}</strong>. Cet huissier patibulaire se comporte comme un véritable cerbère et fait son travail avec beaucoup de zèle. Pour accéder à la zone des prévenus, il faut en effet présenter une série de formulaires, notamment le A36 qui ne peut être obtenu qu’auprès d’Andrews, dans le hall d’entrée, ou trouvé dans le bureau du juge Marsh. Ce formulaire doit être signé par un agent du tribunal, le juge, le shérif ou le procureur. Fort heureusement, Adams est aussi très obséquieux envers les adjoints du shérif et les membres du bureau du procureur, car il est luimême membre du Klan. Quiconque se comporte avec assez d’aplomb peut convaincre l’homme de le laisser passer.</p><p>Actuellement la salle de conférence est en travaux. Elle doit être déplacée sous peu et Adams a reçu l’ordre de laisser passer les ouvriers le matin et le midi (on peut en voir plusieurs circuler).</p><p>L’entrée située à l’ouest est un autre moyen d’accéder au couloir de la zone des prévenus, mais il faut alors passer le sas et ses deux portes grillagées surveillées par une caméra. Les fenêtres sont par ailleurs toutes munies de barreaux ou trop petites pour permettre à quiconque de passer.</p><h3>Cellules</h3><p>Tout le long des façades est et nord s’alignent plusieurs pièces qui ne peuvent qu’être ouvertes ou fermées du couloir. Surnommées « cellules », elles servent bien entendu de prisons temporaires, mais aussi de salles de rendez-vous pour les prévenus et les avocats ou le procureur. Carmichael est actuellement enfermé dans la cellule la plus à l’ouest, la toute dernière, en face de la salle de conférence en travaux. Les autres cellules sont occupées par du menu fretin, des fraudeurs, des fauteurs de troubles récidivistes ou encore des personnes aux trop nombreuses amendes impayées… Le pauvre coach passe pour un véritable danger public dans ce petit tribunal.</p><p>D’aspect, les cellules sont simples, dotées d’un lit, d’une table avec deux chaises et d’un espace toilette. Elles donnent sur le couloir par une porte à barreaux de fer qu’on ne peut ouvrir qu’avec une clé détenue par un huissier. Le système de maintenance situé derrière le guichet de la zone des détenus peut également déclencher l’ouverture automatique des portes, mais de l’ensemble des cellules (impossible d’en ouvrir une seule). La gaine d’aération qui remonte le long de la zone réservée au personnel passe aussi au-dessus des cellules, en formant un coin pour se prolonger vers l’ouest. Néanmoins, il n’y a pas de grille qui donne sur le plafond des cellules.</p><p>C’est l’huissier <strong>@UUID[Actor.uOis3ujR76JEvj2v]{Sean MacGregor}</strong> qui se charge aujourd’hui de la surveillance des prévenus et qui détient les clés des cellules.</p><h3>Salle de conférence</h3><p>Cette salle est actuellement en travaux et devrait être déplacée ailleurs dans le tribunal pour des raisons de logistique. C’est une grande pièce qui servait autrefois pour les conférences de presse ou les réunions du personnel. Toutefois, située dans la zone des prévenus, elle n’était, pour le juge Marsh, pas à sa place. Actuellement, six ouvriers du bâtiment employés par BatimCo y travaillent et doivent la transformer en une suite de trois cellules. Ils montent pour le moment des cloisons et démolissent l’entrée nord de la salle.</p><p>Les ouvriers ont une dérogation spéciale pour passer le guichet de la zone des prévenus et faire des allers-retours le matin et le midi. Malgré son œil acéré, Adams ne différencie pas les ouvriers et emprunter une de leurs tenues peut permettre de passer discrètement. Attention cependant, les ouvriers n’ont pas le droit de travailler dans le tribunal l’après-midi !</p><p>C’est ici que le shérif et le procureur doivent se rencontrer. L’entrevue aura lieu entre 12 h 30 et 13 heures, au milieu des outils, du matériel et des plaques murales (voir plus loin @UUID[.Q43Iurv9MOwY3HsG#entrevue-secrete]{Entrevue secrète}).</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716104308949,
+            "modifiedTime": 1716137080774,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Casting",
+          "type": "text",
+          "_id": "tTMfnysVwBiyjy12",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Jonas Carmichael</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/voici-leur-histoire/jonas-carmichael.webp\" /></div></div><p>Le protagoniste de cette histoire est un quarantenaire sportif, ancien militaire. C’est une masse de muscles. Coach de l’équipe de football des Meteor de Flagstaff, il est apprécié par la majorité de la population, WASP ou non, et joue un rôle important au sein de la communauté afroaméricaine. Récemment divorcé, sans enfant, il s’est installé dans la petite ville pour son climat et les loyers modérés des résidences que l’ancien maire a fait construire. Malheureusement, Carmichael a vite compris que le Ku Klux Klan agissait presque en toute impunité en ville et fustigeait l’arrivée de membres de sa communauté. Plusieurs commerces ont été vandalisés, certaines personnes racisées ont été agressées, plusieurs résidences ont été taguées d’horribles mots et des cambriolages ont même eu lieu en pleine journée.</p><p>Doté d’un grand sens de la justice, croyant et leader né, Carmichael a décidé de ne pas se laisser faire et de protéger les siens du Klan en alertant les médias et en montant une association de défense des droits des personnes afro-américaines. Son travail acharné de plusieurs mois a porté ses fruits et le maire Flaherty, comme le shérif Fletcher, est maintenant dans le collimateur des médias nationaux.</p><p>Voyant que le colosse avait une portée au sein de la ville, mais aussi à l’extérieur, les membres du KKK ont décidé de salir sa réputation en le faisant passer pour un cambrioleur de bas étage et en produisant une vidéo de surveillance avec un « faux Carmichael » en action, pris en flagrant délit de vandalisme et de vol de nombreux bijoux. Qui plus est, cette simagrée est en plus une arnaque à l’assurance, visant à permettre au maire de gagner une somme d’argent non négligeable.</p><p>Carmichael a été arrêté au petit matin. Le maire Flaherty a produit un témoignage contre lui et le shérif Fletcher, présent sur les lieux du cambriolage en réponse à un appel, affirme que l’accusé lui a tiré dessus avant de s’enfuir.</p><p>Tout joue contre l’homme et personne ne semble vouloir l’aider. Digne, il essaie de résister, mais son avocat ne s’est malencontreusement pas encore présenté. En effet, le jeune Timothy Flanagan subit actuellement les pressions du procureur Flaherty. Il est absente et ne se présentera qu’au dernier moment lors du procès sans avoir pu travailler le dossier (quand les agents auront fini leur mission).</p><h2>Al Fletcher</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/voici-leur-histoire/al-fletcher.webp\" /></div></div><p>Ce shérif d’une cinquantaine d’années est un paroissien très pieux, membre du Klan comme son père l’était avant lui. Aussi sûr de lui que bête, il est aveuglé par son sentiment d’impunité et cite la Bible comme s’il s’agissait d’un texte de loi, considérant que les personnes qui ne sont pas des hommes et qui ne sont pas blanches sont inférieures.</p><p>Dans la petite ville, ce personnage est plus craint que respecté et ses réélections sont souvent sujettes à contestation. Pourtant, l’appui du juge, du procureur et du maire lui permet d’être perçu comme indispensable à la communauté.</p><p>Stressé par le procès d’aujourd’hui, le shérif fait les cent pas dans le tribunal et attend fébrilement son rendez-vous avec le procureur Flaherty. Il s’énerve sur ses adjoints et va régulièrement voir Carmichael pour l’insulter ou le menacer. Ayant mal lu le rapport balistique qu’il a pourtant lui-même fait produire et qu’il doit faire signer au procureur lors de leur rencontre à 12 h 30, il fait croire qu’il a été blessé lors de l’interpellation, mais boite de la mauvaise jambe. Il compte absolument sur la preuve vidéo pour appuyer son témoignage, car il sait que la juge Hargitay ne l’aime pas et ne prononcera pas Carmichael coupable sur sa simple parole.</p><p>Il est à noter que certains de ses adjoints ne l’apprécient vraiment pas, tout comme certains huissiers du tribunal. La plupart supputent qu’il ment sur sa blessure et connaissent son implication au sein du Klan. En trouvant les bons leviers, il est possible de les faire parler afin de trouver de l’aide et faire tomber le shérif.</p><h2>Victor Adams</h2><p>Adjoint du shérif et frère de Rupert, l’huissier responsable de la zone des prévenus, cet homme est une force de la nature d’origine irlandaise. Il dissimule constamment ses cheveux châtain-roux qui le font complexer sous une casquette New York assez reconnaissable. Servile, il obéit au doigt et à l’œil au shérif Fletcher, agissant envers lui comme s’il s’agissait de son propre père.</p><p>C’est lui qui apparaît sur la vidéosurveillance du cambriolage, à la place du prévenu, revêtant la veste du coach et portant une cagoule sous son éternelle casquette. Il n’a pas vraiment conscience de ce qu’il risque de provoquer par la création de cette fausse preuve et de ce qu’il encourt si la vérité éclate. Il a agi pour plaire à son chef et, même s’il est mis en avant qu’il est seul à courir tous les risques, il reste muet comme une tombe sur le sujet.</p><h2>Eliott Flaherty</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/voici-leur-histoire/eliott-flaherty.webp\" /></div></div><p>Le procureur Flaherty, frère du maire, est l’opposé du shérif. D’un naturel discret mais implacable et intelligent, il arrive presque toujours à ses fins. C’est lui le cerveau derrière l’arrestation de Carmichael et l’arnaque à l’assurance.</p><p>L’homme est cependant très soucieux de son image et nie catégoriquement toute implication au sein du Klan, alors qu’il en est l’un des chefs.</p><p>Il considère son rendez-vous secret avec le shérif comme quelque chose de risqué et hésite encore à signer le rapport balistique qu’il juge un peu trop grossier. Pour se protéger, Flaherty n’hésitera pas à accuser Adams, Fletcher, voire son propre frère. Il a des dossiers sur ces deux derniers dans son bureau, dans un tiroir fermé par une clé qu’il est le seul à posséder.</p><h2>Guilbert Flaherty</h2><p>Le frère du procureur est un homme d’une soixantaine d’années, républicain, membre de la NRA et du Klan. Pour lui, l’Amérique blanche doit être forte et il a été élu maire à quelques voix seulement devant son prédécesseur.</p><p>Il aime le pouvoir, mais s’inquiète peu de la vie de sa cité et de ses administrés. Il est perçu par la plupart des habitants comme un cowboy arriéré. Il ne se présente qu’à partir de 13 h 30 au tribunal, à peine une demi-heure avant la tenue du procès.</p><p>Aimant beaucoup parler de lui, il adore s’adresser aux journalistes. Toutefois, il s’exprime mal et peut même évoquer quelques contre-vérités s’il est poussé dans ses retranchements.</p><h2>Marishka Hargitay</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/voici-leur-histoire/marishka-hargitay.webp\" /></div></div><p>Détachée de la capitale de l’État pour le procès de Carmichael en raison de l’état de santé du juge Marsh, la juge Hargitay est une femme qui incarne la justice, au tempérament plus que sévère, mais toujours avec un sens aigu de la loi. Sa grande silhouette est visible dans les allées du tribunal, de 8 heures à 9 heures, avant le début des premières audiences.</p><p>Personne ne le sait, pas même les agents, mais le juge Marsh refera son apparition pour un twist scénaristique aux alentours de 13 heures, malgré une bronchite aiguë, et à la demande du procureur Flaherty (voir plus loin @UUID[.Q43Iurv9MOwY3HsG#twist]{Twist}). La juge Hargitay insistera pour conserver son rôle de présidente de la cour, mais sera forcée d’abandonner sous les menaces à peine voilées du shérif et du procureur.</p><h2>Janet Son</h2><p>Responsable du bureau des preuves au tribunal, l’adjointe Son est vue par ses collègues comme un rouage inutile. Profondément altruiste et confiante dans la justice de son pays, elle a été placée ici par Fletcher pour ne pas faire trop de vagues. Sa mère, gravement malade, est actuellement à l’hôpital et Son est dans un état d’angoisse constant quant à la santé de celle-ci. Détestant son poste, elle n’hésitera pas à l’abandonner au moindre appel de l’hôpital, laissant le bureau des preuves sans surveillance.</p><h2>Charles Andrews</h2><p>Responsable de l’accueil du tribunal, il est chargé de répartir les arrivants dans les différentes zones.</p><p>Régulièrement dans la lune, il effectue les contrôles de manière machinale, sans réellement regarder les documents qui lui sont montrés. C’est à son bureau d’accueil que l’on peut obtenir le formulaire A36.</p><h2>Agents du poste de sécurité</h2><p>Matt Dalton, l’huissier responsable de la vidéosurveillance, est un tire-auflanc qui passe son temps à la machine à café de la salle de repos. Il a une très forte tendance à oublier son badge magnétique ainsi que ses clés làbas et est aussi crédule que tête en l’air. Lorsqu’il s’absente, il demande à un autre huissier du tribunal, Bob Douglas, de le relayer. Ce vétéran de l’armée très à cheval sur les procédures ne supporte pas l’attitude de son collègue, d’autant plus qu’il connaît encore moins bien que lui la technologie présente dans le poste de sécurité.</p><p>Si les agents n’ont pas avancé dans leur casse, Dalton oublie son badge et ses clés à la machine à café aux alentours de 11 heures. Entre midi et 14 heures, il est remplacé par Douglas.</p><h2>Rupert Adams</h2><p>L’huissier qui s’occupe de la zone des prévenus est le frère de Victor, l’adjoint du shérif. Il surveille chaque passage et apprécie le pouvoir que lui confère le fait d’appuyer sur le bouton pour déverrouiller la porte blindée.</p><p>Il ne l’ouvre que sur présentation du formulaire A36, ou pour les adjoints du shérif et les membres du tribunal, ainsi que pour les ouvriers entre 8 heures et midi.</p><h2>Sean MacGregor</h2><p>C’est un beau gosse, flambeur, toujours optimiste, qui aime beaucoup draguer ses collègues et qui a beaucoup de « conquêtes » à son actif au sein du tribunal. De prime abord sympathique, il est cependant lui aussi membre du Klan. Persuader MacGregor de laisser des agents circuler en paix est facile si un personnage tente de le séduire… Il ne se sépare jamais de son jeu de clés, mais lui subtiliser peut être assez aisé si un bel homme ou une belle femme occupe son attention.</p><h2>Willie Thorn</h2><p>Ce vieil homme responsable de l’entretien est présent dans les couloirs du tribunal depuis sa création dans les années 1970. D’un naturel très affable, il peut être trouvé un peu n’importe où, à n’importe quel moment. Il a accès à chacune des zones grâce à son passe-partout. En plus de s’occuper de l’entretien, il veille aussi à la maintenance de la chaudière et de l’électricité. Véritable mémoire vivante du tribunal, il est extrêmement volubile et ne cesse presque jamais de raconter les histoires des différents procès qui ont eu lieu ici, importants ou non. Son grand âge et ses longs discours le rendent parfois distrait. Un agent habile peut lui dérober son passe-partout, seule clé permettant d’entrer dans chaque salle du tribunal.</p>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716124964012,
+            "modifiedTime": 1716126515280,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Événements",
+          "type": "text",
+          "_id": "Q43Iurv9MOwY3HsG",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Entrevue secrète</h2><p>Le procureur Flaherty et le shérif Flechter ont prévu de se rencontrer dans la salle de conférence, à 12 h 30. Au cours de cette entrevue, le ton monte entre les deux hommes, qui finissent par s’insulter. D’un côté, le shérif traite Flaherty de lâche, indigne d’être membre du Klan ; de l’autre, le procureur hurle que les actions débiles de Flechter mettent en danger l’organisation.</p><p>L’entrevue dure 30 minutes. À cette occasion, le nom de Victor Adams peut être entendu, sans que son rôle précis soit évoqué.</p><h2>Joker 1</h2><p>Des journalistes de CNN, un média national, viennent couvrir le procès et posent de nombreuses questions. Ils souhaitent absolument interviewer Carmichael et soulèvent rapidement l’absence de son avocat. Cela va provoquer un véritable remous au sein du tribunal, en particulier chez le shérif et le procureur. Fletcher va finir par s’énerver publiquement ; il sera conduit dans la salle de repos du personnel pour se calmer.</p><h2>Joker 2</h2><p>Des manifestants de la communauté afro-américaine provoquent du vacarme à l’extérieur du tribunal, avec des mégaphones et des pancartes, créant de fortes tensions au sein du personnel de sécurité du tribunal. Son et d’autres adjoints du shérif quittent leur poste pour disperser la foule.</p><h2>Twist</h2><p>Cet événement a lieu à une heure fixe : à 13 h 30.</p><p>Appelé au secours par le procureur Flaherty, son ami le juge Marsh sort de l’hôpital durant la matinée et se présente au tribunal pour reprendre le dossier. La juge Hargitay refuse catégoriquement que son confrère préside, vu son état, mais celui-ci va mobiliser Flaherty et Fletcher pour intimider la magistrate.</p><p>Attention cependant, si les agents ont dérobé les conclusions du juge Marsh ou ont ouvert son tiroir de façon visible, il ne va pas avoir d’autre choix que d’exposer de vraies conclusions et va être contraint de jouer un véritable procès face à la presse, notamment nationale (voir plus loin @UUID[.aKG9sfhdIkzxqXTU]{Fin de partie}).</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716125725336,
+            "modifiedTime": 1716126557254,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Liste d’achats",
+          "type": "text",
+          "_id": "jfls5ABudX3wMs0a",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Pour aider vos joueurs pendant la phase de Préparation, voici quelques éléments que vous pouvez leur sug­ gérer, pour donner des pistes.</p><p>D’office, un caméscope produisant des cassettes du même modèle que celles de vidéosurveillance est confié aux agents pour leur mission.</p><p>Ensuite, ils peuvent, par exemple, se procurer :</p><ul><li><p>@UUID[Item.NlYQrUVHd1fFcdM9]{Des uniformes d’adjoints du shérif ou d’huissiers} ;</p></li><li><p>@UUID[Item.1j1R0Li0FVYGh9WX]{Des uniformes d’ouvriers BatimCo} ;</p></li><li><p>@UUID[Item.pObEpsMWdcDEladC]{Des costumes de personnel Securitexx} ;</p></li><li><p>@UUID[Item.b4tCVCZEsQibJoK9]{Un formulaire A36 signé} ;</p></li><li><p>@UUID[Item.iP633wvcWuba2LFZ]{Un formulaire G40 signé} ;</p></li><li><p>@UUID[Item.eX2pYQHDvQgPqEb2]{Des informations sur un adjoint du shérif} ;</p></li><li><p>@UUID[Item.AI884lh5povQ9cjO]{Des informations sur un huissier du tribunal} ;</p></li><li><p>@UUID[Item.RFh5CHAeBZPeQdRp]{Des informations sur le shérif Fletcher} ;</p></li><li><p>@UUID[Item.sBGsalzGm01kZdg1]{Des informations sur le procureur Flaherty}.</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716125811131,
+            "modifiedTime": 1716126234978,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Pistes d’actions",
+          "type": "text",
+          "_id": "wdVn7nC5iVaZ8fDM",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Voici quelques points d’intérêt prévus par le scénario. Si les joueurs viennent avec de nouvelles idées, tant mieux !</p><h3>Saboter le système de caméra surveillance</h3><p>Les agents devraient rapidement voir que le tribunal est protégé par un système de vidéosurveillance dernier cri. Évidemment, ils ne doivent pas apparaître sur les bandes. Durant la phase de Reconnaissance, ils peuvent se rendre compte que c’est la société Securitexx qui se charge de la maintenance des appareils et faire croire à une intervention.</p><h3>Contacter Janet Son</h3><p>Le meilleur moyen pour être tranquille durant quelques dizaines de minutes au sein du bureau des preuves est de faire croire à l’agente Son qu’un appel urgent de l’hôpital lui a été adressé. La jeune femme désertera quasiment instantanément son poste, le laissant sans surveillance.</p><h3>Se faire passer pour l’avocat de Carmichael</h3><p>Même en Arizona, toute personne a droit à un avocat et l’absence de Flanagan au tribunal est une occasion rêvée pour un agent de s’infiltrer. Le jeune homme est un avocat inconnu des services du tribunal. Si les agents veulent pénétrer dans la zone des prévenus ou rencontrer Carmichael, c’est un excellent moyen.</p><h3>Accéder à la salle de maintenance</h3><p>Accessible uniquement grâce au passe-partout du personnel de maintenance, cette salle permet aux agents de couper l’électricité de certaines zones spécifiques, mais aussi de faire surchauffer la chaudière si besoin. Attention cependant à ne pas reporter le procès, car c’est le seul moment où Heist peut agir.</p><p>Depuis la zone de maintenance, on peut également accéder à une large gaine d’aération traversant le bâtiment du sud au nord puis tournant vers l’ouest. Ce conduit donne sur le bureau des preuves, mais aussi sur la zone des prévenus (quoiqu’il n’y présente pas de grille).</p><h3>Dérober, voler, faucher</h3><p>De très nombreux objets tels que le passe-partout, les clés des adjoints et des huissiers, les passes du personnel ainsi que les formulaires A36 ou G40, et bien entendu la cassette de vidéosurveillance peuvent et doivent être volés lors de ce casse.</p><h3>Se déguiser et y aller au culot</h3><p>Flagstaff est une petite ville où les gens connaissent mal les personnes de l’extérieur. Cependant, le retentissement du procès amène son lot de visiteurs, journalistes, militants et avocats. Il est facile de se faire passer pour l’un d’entre eux. De même, le tribunal comme le bureau du shérif ont pu renforcer la sécurité : se déguiser en nouvel adjoint ou huissier est tout à fait possible. Enfin, entre 8 heures et midi, les ouvriers travaillant dans la salle de conférence ont accès à la zone des prévenus. La majorité est constituée de journaliers très mal payés qui ne se connaissent parfois pas. Qu’un ou plusieurs nouveaux ouvriers débarquent n’étonne personne dans le bâtiment.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716126252212,
+            "modifiedTime": 1716126343070,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Fin de partie",
+          "type": "text",
+          "_id": "aKG9sfhdIkzxqXTU",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le scénario prend fin lorsque les agents sont partis ou que le procès débute : si le paquet du meneur vient à s’épuiser, les portes de la cour se ferment, il n’est plus temps d’agir.</p><p><strong>Si les agents ont réussi à échanger les cassettes et à dérober la fausse preuve</strong> (le rapport balistique), c’est une réussite totale. Le procès retentit de manière nationale, Fletcher comme les Flaherty sont renvoyés de leur poste et mis en examen. Jack est satisfait et les recontactera pour une prochaine mission.</p><p><strong>Si les agents ont échangé la cassette, sans falsifier ou faire disparaître la preuve</strong>, ou s’ils ont réussi à faire en sorte que Marsh mène un vrai procès, c’est une réussite. Carmichael est considéré comme innocent, mais les véritables coupables ne sont pas mis en danger.</p><p><strong>Si les agents ont réussi à voler la cassette de vidéosurveillance, mais n’ont pas obtenu la preuve impliquant le shérif et le procureur</strong>, le tournant du procès est incertain. En fonction de leurs autres actions – récupération ou modification du rapport balistique, pression de la presse sur Marsh, vol du compte rendu du procès, etc. –, Carmichael peut être déclaré innocent ou bien soumis à une peine bien moins importante que celle prévue. À vous, meneur, de juger en fonction des actions de vos agents.</p><p><strong>Si les agents ont la preuve de l’implication du shérif et du procureur dans l’histoire, mais n’ont pas pu récupérer la cassette</strong>, c’est un échec. Toutefois, leur commanditaire a de quoi faire pression sur ces deux hommes de loi. Il peut aussi obtenir un renvoi en appel en procurant ces preuves à d’autres représentants de la justice ou aux médias.</p><p><strong>Si les agents n’ont ni récupéré la cassette ni obtenu les images des échanges entre le shérif et le procureur</strong>, c’est un échec cuisant. Carmichael écope de 25 ans de prison et sera assassiné en cellule. Les agents ne seront plus recrutés à l’avenir.</p><img src=\"systems/heist/images/media/scenario/voici-leur-histoire/voici-leur-histoire.webp\" />",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716126349422,
+            "modifiedTime": 1716127135380,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716103533817,
+        "modifiedTime": 1716127135380,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pKDGJcR04HCOHAZu",
+      "name": "Aides de jeu",
+      "_id": "8i0PB5O3QcHNmDGb",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Plan du tribunal - MJ",
+          "type": "image",
+          "_id": "I8By8xl7Vcj5ITxJ",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/court-gm.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.I8By8xl7Vcj5ITxJ"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716127205064,
+            "modifiedTime": 1716127738127,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Plan du tribunal - Agents",
+          "type": "image",
+          "_id": "rZ2PutyHx19eBiPP",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/court.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.rZ2PutyHx19eBiPP"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716127230200,
+            "modifiedTime": 1716127747768,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "PNJ - Jonas Carmichael",
+          "type": "image",
+          "_id": "56AC59zhcUjIpDEE",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/jonas-carmichael.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716127271699,
+            "modifiedTime": 1716127276087,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "PNJ - Al Fletcher",
+          "type": "image",
+          "_id": "NTDHRAo33AIFMYkX",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/al-fletcher.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716127290294,
+            "modifiedTime": 1716127294220,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "PNJ - Eliott Flaherty",
+          "type": "image",
+          "_id": "tWpiXNhQFRwArUTH",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/eliott-flaherty.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716127307981,
+            "modifiedTime": 1716127311416,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "PNJ - Marishka Hargitay",
+          "type": "image",
+          "_id": "L7xQaTVhoQoBIyaj",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/marishka-hargitay.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716127325460,
+            "modifiedTime": 1716127336576,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 250000,
+          "name": "Compte-Rendu de Procès - Jonas Carmichael",
+          "type": "pdf",
+          "_id": "QnwGrSiXX2YcrjG0",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/cr-proces-jonas-carmichael.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.QnwGrSiXX2YcrjG0"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716128398337,
+            "modifiedTime": 1716128572925,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 275000,
+          "name": "Bavures d’Al Fletcher",
+          "type": "pdf",
+          "_id": "qFt3F6fJHtNBfnt4",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/dossier-bavures-al-fletcher.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.qFt3F6fJHtNBfnt4"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716128588424,
+            "modifiedTime": 1716128664497,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 287500,
+          "name": "Pot-de-vin de Guilbert Flaherty",
+          "type": "pdf",
+          "_id": "6OelTvIcybx00GJl",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/dossier-pot-de-vin-guilbert-flaherty.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.6OelTvIcybx00GJl"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716128644040,
+            "modifiedTime": 1716128657222,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 289063,
+          "name": "Formulaire A36",
+          "type": "pdf",
+          "_id": "VZZhUYoLspgLIDHq",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/formulaire-a36.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.VZZhUYoLspgLIDHq"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716128681540,
+            "modifiedTime": 1716128701308,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 290625,
+          "name": "Formulaire G40",
+          "type": "pdf",
+          "_id": "a3KsUx7CMhF87JMa",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/formulaire-g40.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.a3KsUx7CMhF87JMa"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716128694101,
+            "modifiedTime": 1716128699790,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 295313,
+          "name": "Registre de demandes d’accès aux pièces à conviction",
+          "type": "pdf",
+          "_id": "4R0MFkEJ5CgEcp5k",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/voici-leur-histoire/registre-acces-preuves.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8i0PB5O3QcHNmDGb.JournalEntryPage.4R0MFkEJ5CgEcp5k"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716128713866,
+            "modifiedTime": 1716128722508,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716127180732,
+        "modifiedTime": 1716128722508,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "folder": "Aj15MRnu4tKXKkFD",
+      "name": "Tribunal",
+      "_id": "UVoRCBi5X6LGVpyP",
+      "active": true,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/voici-leur-histoire/court.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1716129655379,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 151,
+            "height": 141,
+            "radius": null,
+            "points": []
+          },
+          "x": 1205,
+          "y": 1500.9398676975168,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Jonas Carmichael",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "E2R4WhCf83fF1ngC"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 135,
+            "height": 88,
+            "radius": null,
+            "points": []
+          },
+          "x": 1788.3094037801702,
+          "y": 1531.0931125429763,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cellules",
+          "fontFamily": "Masqualero",
+          "fontSize": 36,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "PZVm7BTcLOCpo8pp"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 210,
+            "height": 87,
+            "radius": null,
+            "points": []
+          },
+          "x": 1811,
+          "y": 1751,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Couloir",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "NEQ50fW163lVOQbj"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 210,
+            "height": 87,
+            "radius": null,
+            "points": []
+          },
+          "x": 2483,
+          "y": 2008,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cellules",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ps3LLEokUFQEw5oI"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 152,
+            "height": 221,
+            "radius": null,
+            "points": []
+          },
+          "x": 1226.3123178694218,
+          "y": 1945.534437285119,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Salle de conférence",
+          "fontFamily": "Masqualero",
+          "fontSize": 40,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "vtq796lq0V3MefFs"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 272,
+            "height": 164,
+            "radius": null,
+            "points": []
+          },
+          "x": 882.7751425806589,
+          "y": 1730.755028516132,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Entrée des preuves",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "jvpHp1hlGcdw4MrL"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 100,
+            "height": 92,
+            "radius": null,
+            "points": []
+          },
+          "x": 2292.060132302483,
+          "y": 2155.063046391735,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Guichet",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "RDsNZxPX602nVuJ4"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 148,
+            "height": 67,
+            "radius": null,
+            "points": []
+          },
+          "x": 2223.123178694218,
+          "y": 2391.906887457024,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Accueil",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "yow6NEIGcJ027y7g"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 116,
+            "height": 130,
+            "radius": null,
+            "points": []
+          },
+          "x": 2377.0271520619904,
+          "y": 2344.2192053264453,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Hall",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "zuY1MYcBOXWTppuM"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 379,
+            "height": 92,
+            "radius": null,
+            "points": []
+          },
+          "x": 2612.2172343516404,
+          "y": 2353.386832467701,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Entrée principale",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "GpTN0YTPgzLyhXK4"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 210,
+            "height": 87,
+            "radius": null,
+            "points": []
+          },
+          "x": 2062,
+          "y": 2670,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cour 1",
+          "fontFamily": "Masqualero",
+          "fontSize": 40,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "Bn0ILXB0MGxorwqW"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 182,
+            "height": 220,
+            "radius": null,
+            "points": []
+          },
+          "x": 2513.4054304123983,
+          "y": 2550.063046391735,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Bureau du juge et du procureur",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "QV0aHdKD56Dm828M"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 136,
+            "height": 104,
+            "radius": null,
+            "points": []
+          },
+          "x": 2558.71774828182,
+          "y": 2928.8438410652893,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Bureau des preuves",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "orPmNMp9L7ml44og"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 268,
+            "height": 232,
+            "radius": null,
+            "points": []
+          },
+          "x": 2784.588891294795,
+          "y": 2989.1956236279075,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Zone réservée au personnel",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "Rk4bhdjgMMlMt1bR"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 309,
+            "height": 96,
+            "radius": null,
+            "points": []
+          },
+          "x": 1171.1571735080224,
+          "y": 3351.769666472785,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Zone publique",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "D07sBhvqdHhRZPND"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 210,
+            "height": 87,
+            "radius": null,
+            "points": []
+          },
+          "x": 2127,
+          "y": 3310,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cour 2",
+          "fontFamily": "Masqualero",
+          "fontSize": 40,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "A384tcd9ZUm87RHM"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 210,
+            "height": 87,
+            "radius": null,
+            "points": []
+          },
+          "x": 2061,
+          "y": 3952,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cour 3",
+          "fontFamily": "Masqualero",
+          "fontSize": 40,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "cCEZlS0l7qMZ4NLn"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 149,
+            "height": 178,
+            "radius": null,
+            "points": []
+          },
+          "x": 2547.4025163231468,
+          "y": 3827.7478144330616,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Salle de repos",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "isuNbg8D1mmIDAGq"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 124,
+            "height": 171,
+            "radius": null,
+            "points": []
+          },
+          "x": 2570.131843269629,
+          "y": 3489.6592163481437,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Salle de maintenance",
+          "fontFamily": "Masqualero",
+          "fontSize": 26,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "3RZHqV4Nio3EqY5b"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 135,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2563.8498951338934,
+          "y": 3062.4249475669467,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Sécurité",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "VDuFeKOBPf2E8uhc"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 135,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2564,
+          "y": 3155,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Jurés",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "GV0GlIej0O9TcBVz"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 135,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2564.838260279272,
+          "y": 3248.4989513389355,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Jurés",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "tjcqwWpQ8aPwLjTX"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 135,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2565.5317585806715,
+          "y": 3367.20503357311,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Jurés",
+          "fontFamily": "Masqualero",
+          "fontSize": 30,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "lJhRAHn5lZD3JGj4"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 116,
+            "height": 216,
+            "radius": null,
+            "points": []
+          },
+          "x": 1597.2748427008405,
+          "y": 2929.6532508493,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Couloir principal",
+          "fontFamily": "Masqualero",
+          "fontSize": 36,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "8iVORDsGjo3mS3Ri"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 439,
+            "height": 95,
+            "radius": null,
+            "points": []
+          },
+          "x": 2591.5797708913487,
+          "y": 4084.4665492042805,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Entrée du personnel",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "cnraNWpoaALwXLP2"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 210,
+            "height": 87,
+            "radius": null,
+            "points": []
+          },
+          "x": 2065.762159185154,
+          "y": 1972.5517827238098,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Maintenance",
+          "fontFamily": "Masqualero",
+          "fontSize": 36,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "nSsRw1MULifBxgs3"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 256,
+            "height": 137,
+            "radius": null,
+            "points": []
+          },
+          "x": 2786.775142580658,
+          "y": 1991.2934552904153,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Zone des prévenus",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "DAveCug04agRLTU1"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 550,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 2528.38991782592,
+          "y": 1276.1677466181145,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Caméra de surveillance",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "S4rsbpCEUpxj8ufV"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1118,
+          "y": 1798,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 120,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "KDehNIeewvY8kUyo"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2739,
+          "y": 2026,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 285,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "Ip0nxarEa9XlEbwF"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2549,
+          "y": 2367,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 285,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "ZKKkwcAkerGPCHPQ"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2735,
+          "y": 3109,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 270,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "8g1Ubu7Et10fXqmV"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2530,
+          "y": 4102,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 285,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "OP2Wp9a622gvayPr"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1483,
+          "y": 3386,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 120,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "3ezZsBN4srftYGRD"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1287,
+          "y": 1846,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 225,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "9M6YBAYOjkGv43Av"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2453,
+          "y": 1804,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "w6f8fK2IvmvdV5VR"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2361,
+          "y": 2336,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 15,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "DF6Vu2gdYAiYJVcZ"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera-invert.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2388,
+          "y": 2929,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 225,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "5aaFX6icqNJxqvAE"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2424,
+          "y": 4030,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 15,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "muFSplJ9EdmeqVXl"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2461,
+          "y": 1264,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "DQkRY1lxHR9N7uYd"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/voici-leur-histoire/court-1.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1862,
+          "y": 2502,
+          "width": 560,
+          "height": 402.7,
+          "overhead": false,
+          "_id": "EB2nHmYuTcp8XlLK",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/voici-leur-histoire/court-1.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1929,
+          "y": 3141,
+          "width": 560,
+          "height": 402.7,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "3AU51LLgCJzAdjjX"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/voici-leur-histoire/court-3.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1864,
+          "y": 3819,
+          "width": 560,
+          "height": 403,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "5Dj2mfmU0Fcct1Lm"
+        }
+      ],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Scene.UVoRCBi5X6LGVpyP"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716129655381,
+        "modifiedTime": 1716136766848,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "systems/heist/images/thumbs/scenes/UVoRCBi5X6LGVpyP-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    }
+  ],
+  "tables": [],
+  "macros": [
+    {
+      "folder": "HxjzB5TudDp2Ti1c",
+      "name": "Cour 1",
+      "type": "script",
+      "_id": "QfS2tcFVXy2lMLal",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'EB2nHmYuTcp8XlLK',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.QfS2tcFVXy2lMLal"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716136879778,
+        "modifiedTime": 1716136907010,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "HxjzB5TudDp2Ti1c",
+      "name": "Cour 2",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  '3AU51LLgCJzAdjjX',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.4m1q6RwIxOgbNtRH"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716136879778,
+        "modifiedTime": 1716136932913,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "4m1q6RwIxOgbNtRH"
+    },
+    {
+      "folder": "HxjzB5TudDp2Ti1c",
+      "name": "Cour 3",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  '5Dj2mfmU0Fcct1Lm',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.5a81uJ8qWjG84h1s"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716136879778,
+        "modifiedTime": 1716136939691,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "5a81uJ8qWjG84h1s"
+    }
+  ],
+  "cards": [],
+  "playlists": [],
+  "folders": [
+    {
+      "name": "Voici leur histoire",
+      "sorting": "a",
+      "folder": null,
+      "type": "JournalEntry",
+      "_id": "pKDGJcR04HCOHAZu",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716103529409,
+        "modifiedTime": 1716103529409,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Voici leur histoire",
+      "sorting": "a",
+      "folder": null,
+      "type": "Actor",
+      "_id": "GN3l3HWCXGetIXqZ",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125121810,
+        "modifiedTime": 1716125121810,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Voici leur histoire - Liste d’achats",
+      "sorting": "a",
+      "folder": null,
+      "type": "Item",
+      "_id": "NQvPkIhmyHCM8p8g",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716125824208,
+        "modifiedTime": 1716125824208,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Voici leur histoire",
+      "sorting": "a",
+      "folder": null,
+      "type": "Scene",
+      "_id": "Aj15MRnu4tKXKkFD",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716129229554,
+        "modifiedTime": 1716129229554,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Voici leur histoire",
+      "sorting": "a",
+      "folder": null,
+      "type": "Macro",
+      "_id": "HxjzB5TudDp2Ti1c",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.HxjzB5TudDp2Ti1c"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716136865160,
+        "modifiedTime": 1716136865160,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "_id": "LioRnQEZYxxYwLaR",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716103409833,
+    "modifiedTime": 1716137581604,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!adventures!LioRnQEZYxxYwLaR"
+}
