@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [11.4.1] - 2024-05-20
+
 ### Fixed
 
 - Cannot create agency character
@@ -114,7 +116,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.1...main
+
+[11.4.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.0...11.4.1
 
 [11.4.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.3.1...11.4.0
 
