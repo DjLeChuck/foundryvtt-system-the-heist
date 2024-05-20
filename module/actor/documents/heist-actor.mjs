@@ -225,7 +225,7 @@ export class HeistActor extends BaseActor {
   }
 
   async #createHand(nameKey) {
-    await Cards.create({
+    return await Cards.create({
       name: game.i18n.format(nameKey, { name: this.name }),
       type: 'hand',
       flags: {

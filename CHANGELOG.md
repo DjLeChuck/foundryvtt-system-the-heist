@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Cannot create agency character
+
 ## [11.4.0] - 2024-05-19
 
 ### Added
