@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [11.5.0] - 2024-05-26
+
+### Added
+
+- Adventure compendium for the first "Santa" scenario "Entrez sans sonner"
+
 ## [11.4.1] - 2024-05-20
 
 ### Fixed
@@ -116,7 +122,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.1...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.5.0...main
+
+[11.5.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.1...11.5.0
 
 [11.4.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.0...11.4.1
 

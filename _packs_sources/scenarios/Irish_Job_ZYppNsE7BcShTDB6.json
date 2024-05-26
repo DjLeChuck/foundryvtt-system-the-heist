@@ -1290,7 +1290,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<img src=\"systems/heist/images/media/scenario/irish-job/briefing.webp\" /><p style=\"text-align:right\"><em><strong>Londres,</strong></em></p><p style=\"text-align:right\"><em><strong>samedi 7 avril 2018, midi</strong></em></p><p style=\"text-align:right\"><em><strong>- Planque de Heist.</strong></em></p><p><em>Agents Trèfle, Pique, Carreau et Cœur, nous avons une nouvelle mission pour vous.</em></p><p><em>Notre client compte sur votre discrétion et votre savoir-faire.</em></p><p></p><p><em>Pour cette affaire, je vous envoie à Londres. Vous allez devoir vous emparer d’un tableau du peintre d’origine irlandaise Francis Bacon. Il s’agit d’un autoportrait inédit, disparu lors de sa mort dans les années 1990 et qui circule sur le marché noir depuis. Il est estimé à près de 500 000 livres sterling. Cela faisait des années qu’il n’avait pas fait parler de lui, avant que nous ne recevions de nouvelles informations hier.</em></p><p><em>Il serait détenu par un certain Douglas O’Brien.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/irish-job/autoportrait-francis-bacon.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> <em>Autoportrait</em> de Francis Bacon, 1973, 35 x 30,5 cm.</p><p><em><strong>Lieu :</strong></em> Antique Emporium, Portobello, Londres.</p><p><em><strong>Délai :</strong></em> Ce soir, avant minuit.</p><p><em><strong>Victoire :</strong></em> Avant minuit, les agents sont loin des lieux, en possession du tableau.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Avant minuit, soit la police s’est emparée du tableau, soit O’Brien s’est enfui avec dans un camion.</p></div></div></div><p><em>Cet homme a commencé comme simple livreur pour la mafia irlandaise avant de monter sa propre affaire et d’être aujourd’hui à la tête d’un vaste réseau de vente d’antiquités et d’œuvres d’art au marché noir à Londres.</em></p><p><em>Il dispose de plusieurs entrepôts, mais nous pensons qu’il garde ses biens les moins légaux et les plus précieux près de lui.</em></p><p><em>Il opère depuis le premier bâtiment qu’il a acheté : The Antique Emporium, un antiquaire dans le très chic quartier de Portobello, la vitrine légale de ses trafics.</em></p><p><em>Il y a quelques années, O’Brien a acquis le pub attenant, The Griffin’s Head, et en a fait son quartier général. Son bureau est installé à l’étage.</em></p><p><em>Le bar, et en particulier sa salle « réservée aux membres » à l’étage, sert de lieu de rencontre pour les clients du réseau de contrebande.</em></p><p></p><p><em>Nous ne savons pas où précisément se situe le tableau dans ce lieu. L’antiquaire dispose d’un large entrepôt, cela semble être un bon point de départ. De plus, O’Brien doit certainement détenir des registres dans son bureau, à l’étage du pub.</em></p><p><em>Notre informateur nous assure que le tableau aura disparu des lieux avant ce soir, minuit. Comment ? Nous n’en sommes pas sûrs, mais deux pistes sont apparues :</em></p><ul><li><p><em>un « événement exceptionnel » devrait avoir lieu ce soir au pub. Nous n’en connaissons pas la nature, mais cela mérite investigation ;</em></p></li><li><p><em>de plus, depuis ce matin, plusieurs camions ont été aperçus près du Griffin’s Head, chargeant des caisses en bois et des meubles avant de disparaître dans les docks. O’Brien et ses hommes semblent particulièrement nerveux. Ils se méfient de quelque chose et déménagent une partie de leur stock. Notre informateur nous a prévenus que les marchandises les plus précieuses, dont l’autoportrait, seront chargées dans plusieurs camions successifs durant la soirée.</em></p></li></ul><p></p><p><em>Il faut donc agir au plus vite. Vous avez jusqu’à ce soir, minuit.</em></p><p></p><p><em>Bonne chance.</em></p>",
+            "content": "<img src=\"systems/heist/images/media/scenario/irish-job/briefing.webp\" /><p style=\"text-align:right\"><em><strong>Londres,</strong></em></p><p style=\"text-align:right\"><em><strong>samedi 7 avril 2018,</strong></em></p><p style=\"text-align:right\"><em><strong>midi - Planque de Heist</strong></em></p><p><em>Agents Trèfle, Pique, Carreau et Cœur, nous avons une nouvelle mission pour vous.</em></p><p><em>Notre client compte sur votre discrétion et votre savoir-faire.</em></p><p></p><p><em>Pour cette affaire, je vous envoie à Londres. Vous allez devoir vous emparer d’un tableau du peintre d’origine irlandaise Francis Bacon. Il s’agit d’un autoportrait inédit, disparu lors de sa mort dans les années 1990 et qui circule sur le marché noir depuis. Il est estimé à près de 500 000 livres sterling. Cela faisait des années qu’il n’avait pas fait parler de lui, avant que nous ne recevions de nouvelles informations hier.</em></p><p><em>Il serait détenu par un certain Douglas O’Brien.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/irish-job/autoportrait-francis-bacon.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> <em>Autoportrait</em> de Francis Bacon, 1973, 35 x 30,5 cm.</p><p><em><strong>Lieu :</strong></em> Antique Emporium, Portobello, Londres.</p><p><em><strong>Délai :</strong></em> Ce soir, avant minuit.</p><p><em><strong>Victoire :</strong></em> Avant minuit, les agents sont loin des lieux, en possession du tableau.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Avant minuit, soit la police s’est emparée du tableau, soit O’Brien s’est enfui avec dans un camion.</p></div></div></div><p><em>Cet homme a commencé comme simple livreur pour la mafia irlandaise avant de monter sa propre affaire et d’être aujourd’hui à la tête d’un vaste réseau de vente d’antiquités et d’œuvres d’art au marché noir à Londres.</em></p><p><em>Il dispose de plusieurs entrepôts, mais nous pensons qu’il garde ses biens les moins légaux et les plus précieux près de lui.</em></p><p><em>Il opère depuis le premier bâtiment qu’il a acheté : The Antique Emporium, un antiquaire dans le très chic quartier de Portobello, la vitrine légale de ses trafics.</em></p><p><em>Il y a quelques années, O’Brien a acquis le pub attenant, The Griffin’s Head, et en a fait son quartier général. Son bureau est installé à l’étage.</em></p><p><em>Le bar, et en particulier sa salle « réservée aux membres » à l’étage, sert de lieu de rencontre pour les clients du réseau de contrebande.</em></p><p></p><p><em>Nous ne savons pas où précisément se situe le tableau dans ce lieu. L’antiquaire dispose d’un large entrepôt, cela semble être un bon point de départ. De plus, O’Brien doit certainement détenir des registres dans son bureau, à l’étage du pub.</em></p><p><em>Notre informateur nous assure que le tableau aura disparu des lieux avant ce soir, minuit. Comment ? Nous n’en sommes pas sûrs, mais deux pistes sont apparues :</em></p><ul><li><p><em>un « événement exceptionnel » devrait avoir lieu ce soir au pub. Nous n’en connaissons pas la nature, mais cela mérite investigation ;</em></p></li><li><p><em>de plus, depuis ce matin, plusieurs camions ont été aperçus près du Griffin’s Head, chargeant des caisses en bois et des meubles avant de disparaître dans les docks. O’Brien et ses hommes semblent particulièrement nerveux. Ils se méfient de quelque chose et déménagent une partie de leur stock. Notre informateur nous a prévenus que les marchandises les plus précieuses, dont l’autoportrait, seront chargées dans plusieurs camions successifs durant la soirée.</em></p></li></ul><p></p><p><em>Il faut donc agir au plus vite. Vous avez jusqu’à ce soir, minuit.</em></p><p></p><p><em>Bonne chance.</em></p>",
             "markdown": ""
           },
           "video": {
@@ -1309,7 +1309,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1713648515018,
-            "modifiedTime": 1716103818208,
+            "modifiedTime": 1716313251339,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -1620,7 +1620,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1713648106792,
-        "modifiedTime": 1716127022180,
+        "modifiedTime": 1716137500521,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -1759,11 +1759,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.YVuLRJY91Iz2UiQF"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1798,11 +1794,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.HGOcK9Ojr8oUavmb"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1837,11 +1829,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.7BIvopowaXKUiOuR"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1875,11 +1863,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.qmd7pEO48msA4wCV"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1913,11 +1897,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.CucGDBJm3523b4bK.JournalEntryPage.9ehN6DNwYh4TgA09"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -3676,7 +3656,7 @@
   "playlists": [],
   "folders": [
     {
-      "name": "Irish Job - Liste d’achats",
+      "name": "Irish Job",
       "sorting": "a",
       "folder": null,
       "type": "Item",
@@ -3689,7 +3669,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1713688043755,
-        "modifiedTime": 1716102133578,
+        "modifiedTime": 1716315561127,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -3778,7 +3758,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1713648034444,
-    "modifiedTime": 1716137579431,
+    "modifiedTime": 1716315576418,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!ZYppNsE7BcShTDB6"

@@ -860,7 +860,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:right\"><em><strong>Antarctique,</strong></em></p><p style=\"text-align:right\"><em><strong>mardi 19 juillet 2033, midi</strong></em></p><p style=\"text-align:right\"><em><strong>- Station Concordia</strong></em></p><p><em>Agents, je sais que le chemin a été long jusqu’en Antarctique et je vous remercie de vos efforts.</em></p><p></p><p><em>Hier soir, l’archéologue française Moïra Lefort a fait une découverte à laquelle personne ne croyait. En creusant, elle a révélé au monde un bâtiment enterré sous la glace depuis des milliers d’années… et tout porte à croire qu’il s’agit d’un tombeau.</em></p><p><em>Pour le trouver, Moïra a suivi d’anciens écrits que personne ne prenait au sérieux. Sa trouvaille change absolument tout pour la communauté scientifique, mais aussi pour certaines grosses entreprises.</em></p><p></p><p><em>Vous l’avez sûrement constaté, tout le monde se rue vers la station Concordia, zone de civilisation la plus proche de la découverte, et un campement se monte aux abords de l’édifice enfoui. Une chance pour nous, nous sommes en hiver et le froid mortel ne permet pas aux nouveaux venus d’agir aussi vite qu’ils le souhaiteraient. Ils ont réussi à dégager la porte du monument, mais elle n’a pas encore été ouverte. Chacun se dispute cet honneur et c’est notre chance !</em></p><p><em>Notre commanditaire souhaite que vous accédiez à l’intérieur de la tombe et récupériez ce qu’elle renferme selon les légendes : une carte avec les coordonnées du continent perdu de Mu.</em></p><p><em>Faites bien attention, car les écrits indiquent aussi que des pièges protègent ce trésor. Moïra, grâce à son matériel, a déjà déterminé le positionnement grossier des pièces du tombeau, mais il manque encore beaucoup d’éléments. Votre préparation sera donc primordiale afin de ne pas être repérés – la discrétion prime –, mais aussi pour votre propre survie ! Heureusement pour vous, les trois grandes entreprises qui convoitent la découverte bénéficient des dernières technologies de pointe. Les utiliser à leur insu vous permettra d’organiser votre exploration.</em></p><p><em>Vous avez la journée pour faire votre reconnaissance et vous préparer. Vous devrez agir à la tombée de la nuit.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/mu/carte-mu.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Carte avec coordonnées de Mu.</p><p><em><strong>Lieu :</strong></em> Tombe antique au cœur de l’Antarctique.</p><p><em><strong>Délai :</strong></em> Cette nuit.</p><p><em><strong>Victoire :</strong></em> Les agents rejoignent la station Concordia avec la carte, dans l’idéal sans avoir été repérés par les entreprises ou les chercheurs sur place.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Les agents sont morts, ont été arrêtés par les équipes de recherche ou ne parviennent pas à s’emparer de la carte.</p></div></div></div>"
+            "content": "<p style=\"text-align:right\"><em><strong>Antarctique,</strong></em></p><p style=\"text-align:right\"><em><strong>mardi 19 juillet 2033,</strong></em></p><p style=\"text-align:right\"><em><strong>midi - Station Concordia</strong></em></p><p><em>Agents, je sais que le chemin a été long jusqu’en Antarctique et je vous remercie de vos efforts.</em></p><p></p><p><em>Hier soir, l’archéologue française Moïra Lefort a fait une découverte à laquelle personne ne croyait. En creusant, elle a révélé au monde un bâtiment enterré sous la glace depuis des milliers d’années… et tout porte à croire qu’il s’agit d’un tombeau.</em></p><p><em>Pour le trouver, Moïra a suivi d’anciens écrits que personne ne prenait au sérieux. Sa trouvaille change absolument tout pour la communauté scientifique, mais aussi pour certaines grosses entreprises.</em></p><p></p><p><em>Vous l’avez sûrement constaté, tout le monde se rue vers la station Concordia, zone de civilisation la plus proche de la découverte, et un campement se monte aux abords de l’édifice enfoui. Une chance pour nous, nous sommes en hiver et le froid mortel ne permet pas aux nouveaux venus d’agir aussi vite qu’ils le souhaiteraient. Ils ont réussi à dégager la porte du monument, mais elle n’a pas encore été ouverte. Chacun se dispute cet honneur et c’est notre chance !</em></p><p><em>Notre commanditaire souhaite que vous accédiez à l’intérieur de la tombe et récupériez ce qu’elle renferme selon les légendes : une carte avec les coordonnées du continent perdu de Mu.</em></p><p><em>Faites bien attention, car les écrits indiquent aussi que des pièges protègent ce trésor. Moïra, grâce à son matériel, a déjà déterminé le positionnement grossier des pièces du tombeau, mais il manque encore beaucoup d’éléments. Votre préparation sera donc primordiale afin de ne pas être repérés – la discrétion prime –, mais aussi pour votre propre survie ! Heureusement pour vous, les trois grandes entreprises qui convoitent la découverte bénéficient des dernières technologies de pointe. Les utiliser à leur insu vous permettra d’organiser votre exploration.</em></p><p><em>Vous avez la journée pour faire votre reconnaissance et vous préparer. Vous devrez agir à la tombée de la nuit.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/mu/carte-mu.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Carte avec coordonnées de Mu.</p><p><em><strong>Lieu :</strong></em> Tombe antique au cœur de l’Antarctique.</p><p><em><strong>Délai :</strong></em> Cette nuit.</p><p><em><strong>Victoire :</strong></em> Les agents rejoignent la station Concordia avec la carte, dans l’idéal sans avoir été repérés par les entreprises ou les chercheurs sur place.</p><p><em><strong>Défaite (à garder secret) :</strong></em> Les agents sont morts, ont été arrêtés par les équipes de recherche ou ne parviennent pas à s’emparer de la carte.</p></div></div></div>"
           },
           "video": {
             "controls": true,
@@ -878,7 +878,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715888854426,
-            "modifiedTime": 1716104116693,
+            "modifiedTime": 1716313553559,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -981,7 +981,7 @@
             "systemVersion": "#{VERSION}#",
             "coreVersion": "11.315",
             "createdTime": 1715890425902,
-            "modifiedTime": 1716124982434,
+            "modifiedTime": 1716314387608,
             "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
@@ -1133,7 +1133,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715888545270,
-        "modifiedTime": 1716127114003,
+        "modifiedTime": 1716137023397,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -1167,11 +1167,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.N8SDWFZ9zTH1dSmx"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1206,11 +1202,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.E5iSdMhaeVlITbUV"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1245,11 +1237,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.VHAMESKXSXdy61CW"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -1284,11 +1272,7 @@
             "default": -1,
             "2Ix5Tl3gxkKU6taP": 3
           },
-          "flags": {
-            "core": {
-              "sourceId": "JournalEntry.sQ2vxMCUiY2N3hbN.JournalEntryPage.gWiJLisIiPRm9R2F"
-            }
-          },
+          "flags": {},
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
@@ -5123,11 +5107,7 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.AAO1lNbogdPKjArV"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
@@ -6773,11 +6753,7 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.5BDLvlo8hp1OThre"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
@@ -7211,7 +7187,7 @@
       }
     },
     {
-      "name": "À la recherche de Mu - Liste d’achats",
+      "name": "À la recherche de Mu",
       "sorting": "a",
       "folder": null,
       "type": "Item",
@@ -7224,7 +7200,7 @@
         "systemVersion": "#{VERSION}#",
         "coreVersion": "11.315",
         "createdTime": 1715890852275,
-        "modifiedTime": 1716102136126,
+        "modifiedTime": 1716315558029,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
@@ -7331,7 +7307,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1715888513316,
-    "modifiedTime": 1716137577065,
+    "modifiedTime": 1716315568294,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!fp9zJuW44g80mmQz"

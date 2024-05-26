@@ -1,0 +1,3219 @@
+{
+  "name": "1. Entrez sans sonner",
+  "img": "systems/heist/images/media/scenario/entrez-sans-sonner/entrez-sans-sonner-cropped.webp",
+  "caption": "",
+  "sort": 100000,
+  "description": "<p>Heist se trouve en mauvaise posture, car une agence concurrente émerge depuis quelque temps et débauche des agents pour ses propres casses.</p><p>Heist décide de confier à l’équipe des joueurs la mission d’en apprendre un maximum sur ce sérieux adversaire et de récupérer un moyen de prendre contact avec son dirigeant. Mais pour cela, ils vont devoir cambrioler la demeure d’une autre équipe de braqueurs, tout aussi doués qu’eux !</p>",
+  "actors": [
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Benjamin Locke et Aleks Nowak",
+      "type": "npc",
+      "_id": "Qla5VJqA4A9FqWGg",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Ce sont les deux ouvriers qui s’occupent en ce moment du chantier attenant à l’immeuble. Ils ne sont présents que pendant la phase de Reconnaissance et n’interviendront pas durant le casse. Ils sont facilement dérangés par la présence de l’équipe et se montrent rapidement suspicieux si un agent masculin les interroge. Ils n’hésitent pas à avoir un comportement déplacé vis-à-vis d’une personne féminine, allant jusqu’à siffler une agente qui passe devant le chantier. Il est possible de se les mettre dans la poche en les charmant ou en les baratinant. Ils peuvent alors faire « visiter » le chantier à un ou plusieurs personnages et leur permettre de remarquer un trou servant à faire passer des canalisations et menant aux caves de l’immeuble.</p>"
+      },
+      "prototypeToken": {
+        "name": "Benjamin Locke et Aleks Nowak",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315118020,
+        "modifiedTime": 1716315124113,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Cynthia Mercier",
+      "type": "npc",
+      "_id": "5VODLPBcG65nIDrw",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>C’est la copine de Jérémie Renaud. Elle vit dans le même appartement que lui, mais s’absente en journée pour aller à l’université. Elle peut être un obstacle pour les agents, car elle rentre dans l’appartement de Renaud le soir à 19 heures et reste jusqu’à 7 heures le lendemain. Elle peut être un risque de découverte si elle n’est pas occupée ou envoyée ailleurs et que les agents sont présents dans l’appartement en même temps qu’elle. Un faux SMS de Renaud, une urgence dans son travail (elle est serveuse dans un bar, le Geppeto, une de ses fiches de paie peut être trouvée dans le Penthouse) ou toute autre excuse maligne peut la maintenir loin de l’action. Les agents peuvent la croiser pendant la reconnaissance (elle ne travaille pas ce jour-là). Elle se montre rapidement amicale si un bon prétexte de discussion est trouvé. Elle vide alors son sac sur sa relation avec Renaud (qui se passe très mal), sur son envie de déménager et sur une anecdote absurde à propos de ses nouveaux voisins qui doivent organiser des soirées « particulières », car elle a croisé « une brune très tatouée » avec des cordes de bondage et un bâillon-boule.</p>"
+      },
+      "prototypeToken": {
+        "name": "Cynthia Mercier",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716314978483,
+        "modifiedTime": 1716314986550,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Eliot Landgren (ancien Cœur)",
+      "type": "npc",
+      "_id": "gZ1wqC6RydbxVIg7",
+      "img": "systems/heist/images/media/scenario/entrez-sans-sonner/eliot-landgren.webp",
+      "system": {
+        "description": "<p>Landgren est un ancien joueur professionnel de casino. Il a changé de carrière après le décès de son épouse dans un accident de voiture suspect, qu’il pense lié à la mafia albanaise. Il rejoint Heist en 2015 et participe à plusieurs missions avec grand succès. Beau parleur et joueur hors pair, c’est un homme d’une cinquantaine d’années, assez grand et avec un léger embonpoint. Il boîte un petit peu, mais sa condition physique lui permet tout de même de se battre au besoin.</p>"
+      },
+      "prototypeToken": {
+        "name": "Eliot Landgren (ancien Cœur)",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/eliot-landgren.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315071637,
+        "modifiedTime": 1716315081407,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Fanny Peeters (ancienne Pique)",
+      "type": "npc",
+      "_id": "VwlRhyRG8YJwNdWC",
+      "img": "systems/heist/images/media/scenario/entrez-sans-sonner/fanny-peeters.webp",
+      "system": {
+        "description": "<p>Peeters naît dans une famille aisée belge néerlandophone. Son enfance est plutôt simple jusqu’à la séparation de ses parents lorsqu’elle a 13 ans. Elle se plonge alors corps et âme dans l’équitation qui occupe tout son temps libre. Après une blessure, elle abandonne tout espoir de professionnalisation dans le domaine et commence des études de médecine. En dernière année, elle quitte soudainement l’université pour changer complètement de carrière et devenir travailleuse du sexe. Tant en ligne que dans la vraie vie, sa nouvelle carrière lui apporte enfin une satisfaction jusqu’à présent inassouvie. Elle pratique en parallèle la <em>pole dance</em> et le jujitsu brésilien qui lui donnent une condition physique et une souplesse bien au-dessus de la moyenne. Elle est autant capable de se battre que de se faufiler dans les endroits les plus complexes.</p>"
+      },
+      "prototypeToken": {
+        "name": "Fanny Peeters (ancienne Pique)",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/fanny-peeters.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315051316,
+        "modifiedTime": 1716315062849,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Guy Vandenbroucke",
+      "type": "npc",
+      "_id": "YfjwS6a7dL7Khv6E",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Il est gardien au musée Magritte et a été enlevé le matin même par les agents de Santa pour que Landgren prenne sa place. Les personnages peuvent le retrouver dans un placard de l’appartement du 1<sup>er</sup> étage. Il est sonné, car il a été torturé par Markov pour obtenir un maximum d’informations sur la sécurité du musée. Il a été maintenu en vie pour pallier un imprévu, mais il est prévu qu’il soit éliminé à l’issue du casse. Les joueurs peuvent lui poser des questions auxquelles il répond de manière plus ou moins précise. Il connaît le nom et le rôle des agents dissidents et affirme étrangement avoir entendu la chanson <em>Jingle Bells</em> de nombreuses fois, se demandant s’il a été torturé jusqu’à Noël. Il attend des agents qu’ils le libèrent, mais ceux-ci doivent s’assurer qu’il ne comprenne pas qu’eux-mêmes sont également des cambrioleurs.</p>"
+      },
+      "prototypeToken": {
+        "name": "Guy Vandenbroucke",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315130006,
+        "modifiedTime": 1716315136483,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Jean et Emma Grandmaison",
+      "type": "npc",
+      "_id": "mxPjDOadP2YpLkmX",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Jean Grandmaison est un petit aristocrate belge qui a fait fortune dans l’informatique. Il possède plusieurs appartements à Bruxelles qu’il loue ou met à disposition sur HerBnB. Ce n’est pas directement lui qui traite avec les voyageurs, mais sa fille, Emma, 24 ans. Dans tous les cas, si les agents choisissent de les contacter par l’inter­ médiaire du site, toutes les conversations se font par message, l’entrée dans le logement étant autonome.</p>"
+      },
+      "prototypeToken": {
+        "name": "Jean et Emma Grandmaison",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716314994451,
+        "modifiedTime": 1716314999474,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Jeanine Laurent",
+      "type": "npc",
+      "_id": "Z8T5n490jxkhQh7U",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Cette vieille dame de 85 ans vit dans son appartement, dont elle est propriétaire, depuis les années 1970. Elle perd un peu la tête et ne reconnaît plus vraiment les visages. Les PJ peuvent en abuser en se faisant passer pour un membre de sa famille (elle espère toujours des visites de ses petits-enfants) pour utiliser son appartement en tant que lieu de planque. Ils peuvent également sans mal prendre le contrôle de son appartement par la force, mais c’est contraire aux idéologies de l’agence (pensez à le rappeler à vos joueurs le cas échéant). Elle propose des biscuits un peu trop anciens et du thé aux agents. Elle est très bavarde et ne manque pas de se plaindre de ses voisins, notamment des nouveaux occupants qui font beaucoup de bruit avec leur horrible chien.</p>"
+      },
+      "prototypeToken": {
+        "name": "Jeanine Laurent",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716314917748,
+        "modifiedTime": 1716314934640,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Jérémie Renaud",
+      "type": "npc",
+      "_id": "TxoKiEr5u51NE5aY",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Il habite tout en haut de l’immeuble dans un magnifique penthouse qui occupe tout l’étage. Il a fait fortune il y a quelques années en achetant (et revendant) des cryptomonnaies. Son appartement est grand et décoré avec un goût douteux. Le bureau est la pièce la plus importante selon lui et il y passe tout son temps, en partie à jouer à <em>League of Legends</em> ou à regarder des vidéos, éclairé par les néons de son ordinateur haut de gamme. Si les agents tentent de pénétrer son appartement, ils sont reçus par une alarme qui reste facilement détectable et désactivable. Les PJ peuvent aisément suivre la journée de Renaud en se connectant et en suivant son <em>stream</em>, car il passe sa journée entière en live sous le pseudonyme Miréno. Il ne sera pas une grande menace pour des agents discrets, ne se levant qu’occasionnellement pour chercher à boire et à manger ou pour aller aux toilettes. Si les agents décident de le neutraliser, attention à ne pas se faire repérer par la webcam !</p>"
+      },
+      "prototypeToken": {
+        "name": "Jérémie Renaud",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716314962564,
+        "modifiedTime": 1716314970101,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Saima Zaman (ancienne Trèfle)",
+      "type": "npc",
+      "_id": "Bczlh3xBBLiybh6v",
+      "img": "systems/heist/images/media/scenario/entrez-sans-sonner/saima-zaman.webp",
+      "system": {
+        "description": "<p>Petit génie du hacking, Saima commence sa carrière sur Internet dès ses 16 ans sous le pseudonyme bUfFY_2319. Elle gagne rapidement en popularité, particulièrement en faisant trembler le forum 4chan où elle divulgue l’identité de comptes pratiquant le harcèlement. Elle forme ensuite un groupe spécialisé dans la recherche et la révélation de consommateurs de pédo­pornographie qu’elle continue d’entretenir aujourd’hui. Ses motivations pour rejoindre Heist semblent avant tout financières, car elle injecte tout l’argent gagné dans son organisation. Elle est capable d’infiltrer les réseaux les plus complexes et d’obtenir des informations très précises sur ses cibles.</p>"
+      },
+      "prototypeToken": {
+        "name": "Saima Zaman (ancienne Trèfle)",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/saima-zaman.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315087760,
+        "modifiedTime": 1716315096083,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Samir Alami",
+      "type": "npc",
+      "_id": "vuA5Rz2t3zfqMN4y",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>C’est le gérant de la supérette. Cet homme d’une quarantaine d’années a toujours travaillé ici. Il peut parfois faire semblant de ne pas savoir bien parler français, lorsqu’il n’a pas envie de faire la conversation, mais c’est faux. Attention pour les agents à ne pas transmettre d’informations importantes devant lui en pensant qu’il ne les comprend pas : il est obsédé par l’argent et peut faire chanter les personnages s’il apprend des choses ou pense avoir des moyens de pression.</p>"
+      },
+      "prototypeToken": {
+        "name": "Samir Alami",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315004872,
+        "modifiedTime": 1716315016363,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "esHPYaBUpC3Z2WtN",
+      "name": "Youri Markov (ancien Carreau)",
+      "type": "npc",
+      "_id": "rD4cQnYj31yoCw5p",
+      "img": "systems/heist/images/media/scenario/entrez-sans-sonner/youri-markov.webp",
+      "system": {
+        "description": "<p>Après une enfance dans une famille pauvre en Russie, Youri Markov quitte le pays à l’adolescence. Aujourd’hui âgé de 35 ans, il a participé à de nombreuses compétitions de MMA avant de faire « profil bas » et de rejoindre plusieurs organisations en parallèle d’une carrière de videur. Il est recruté par Heist qui use de sa carrure gigantesque et de sa force incroyable. Il est accompagné de son bull-terrier de combat : Babayaga.</p>"
+      },
+      "prototypeToken": {
+        "name": "Youri Markov (ancien Carreau)",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/youri-markov.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315103726,
+        "modifiedTime": 1716315111086,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "combats": [],
+  "items": [
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Camion de chantier et des costumes d’ouvriers",
+      "type": "planning",
+      "_id": "FJUVSOmuqPuE9Fwi",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315609668,
+        "modifiedTime": 1716315612057,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Copie de l’objet de contact pour remplacer ce dernier par un faux",
+      "type": "planning",
+      "_id": "Gh5cXLjjARB1OlFY",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315632891,
+        "modifiedTime": 1716315635175,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "De quoi brouiller les caméras de l’appartement cible",
+      "type": "planning",
+      "_id": "GTXpiPx8ILIZ6LfA",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315663496,
+        "modifiedTime": 1716315666360,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "De quoi endormir ou occuper le chien de Markov",
+      "type": "planning",
+      "_id": "d0ya7LxLHBjU5ENq",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315643475,
+        "modifiedTime": 1716315643475,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "De quoi soudoyer le gérant de la supérette",
+      "type": "planning",
+      "_id": "w1s3vrKdlAsASWte",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315622121,
+        "modifiedTime": 1716315622121,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Descriptif de l’objet à récupérer",
+      "type": "planning",
+      "_id": "CnFNANhd4j7Wdrsc",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315747487,
+        "modifiedTime": 1716315747487,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Matériel d’écoute pour prévoir le départ des agents dissidents",
+      "type": "planning",
+      "_id": "JUhYQvdHJAIy71jg",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315675510,
+        "modifiedTime": 1716315675510,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Matériel de pointe pour crocheter les portes des appartements",
+      "type": "planning",
+      "_id": "RWTb6orgw9UcBNtB",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315653869,
+        "modifiedTime": 1716315656185,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Matériel pour grimper et passer par le penthouse",
+      "type": "planning",
+      "_id": "ecIs6mNs6BWYNF2G",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315604610,
+        "modifiedTime": 1716315604610,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "Z0Sk2GpAzdzPqCwd",
+      "name": "Réservation du HerBnB de l’immeuble",
+      "type": "planning",
+      "_id": "T4rNU4rFJNwFUX0I",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315595552,
+        "modifiedTime": 1716315598109,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "folder": "nJx9qaGGEtnYNn9W",
+      "name": "Scénario",
+      "_id": "5twWdBpVxLcFOU7u",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Présentation",
+          "type": "text",
+          "_id": "rjKtcEvtL1rzMl9d",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h1>En quelques mots</h1><p>Heist se trouve en mauvaise posture, car une agence concurrente émerge depuis quelque temps et débauche des agents pour ses propres casses.</p><p>Heist décide de confier à l’équipe des joueurs la mission d’en apprendre un maximum sur ce sérieux adversaire et de récupérer un moyen de prendre contact avec son dirigeant. Mais pour cela, ils vont devoir cambrioler la demeure d’une autre équipe de braqueurs, tout aussi doués qu’eux !</p><h1>Matériel</h1><p>Le scénario <em>Entrez sans sonner</em> utilise 2 plans :</p><ul><li><p>1 plan complet de l’appartement du 1er étage de l’immeuble détaillant l’ensemble des secrets du lieu, joint à ce scénario ;</p></li><li><p>1 plan de départ pour les joueurs présentant l’appartement du 1er étage loué récemment par l’équipe concurrente. Il s’agit du plan fourni par l’agence de location.</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario est le premier acte de la campagne « Santa ». Il peut être joué indépendamment, mais prend encore plus d’intérêt si le groupe joue ensuite les scénarios suivants. Les joueurs incarnent alors les mêmes agents au cours de trois scénarios.</p><p>Une particularité de ce scénario est qu’il se passe à Bruxelles, mais qu’il est possible pour le meneur de changer librement la ville. Si vous pensez que votre groupe s’amusera plus facilement à Lyon, Paris, Copenhague ou Tokyo, n’hésitez pas à appliquer les changements nécessaires.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716312984758,
+            "modifiedTime": 1716312984758,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Briefing",
+          "type": "text",
+          "_id": "jiEP29offv6NEdU8",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p style=\"text-align:right\"><em><strong>Bruxelles,</strong></em></p><p style=\"text-align:right\"><em><strong>vendredi 21 septembre 2018,</strong></em></p><p style=\"text-align:right\"><em><strong>10 heures - Planque de Heist</strong></em></p><p><em>Agents, l’heure est plus grave qu’à l’ac­ coutumée. Pour la première fois depuis fort longtemps, je peux vous révéler le commanditaire de la mission dont je vais vous parler dans un instant. En effet, ce commanditaire, c’est nous-mêmes, Heist.</em></p><p></p><p><em>Nous avons remarqué depuis quelque temps des anomalies dans la gestion de nos agents. Bien que je ne puisse pas rentrer dans les détails, l’organisation a dû faire face à des… problèmes. Des agents ne répondent plus à l’appel, des casses ne correspondent pas à notre niveau d’exigence, du matériel dispa­ raît… Ces situations ne sont pas acceptables.</em></p><p><em>Fort logiquement, nous avons enquêté pour réussir à comprendre les raisons de ces avaries ; nous devons agir très rapi­ dement afin que la réputation de Heist ne soit pas plus entachée. Encore une fois, il est, comme d’habitude, primordial qu’absolument aucune information ne sorte du cadre de cette mission et que vos traces soient particulièrement couvertes.</em></p><p><em>Nos soupçons se dirigent vers une potentielle agence concurrente ; des indi­ vidus isolés n’auraient définitivement pas assez de moyens pour arriver à ce niveau de qualité. Nous devons remonter la source pour comprendre le fonction­ nement de cette agence et, idéalement, vous infiltrer dans cette dernière.</em></p><p><em>Cela fait plusieurs semaines que nous élaborons un plan afin de comprendre ce qu’il se passe. Nous n’avons pu récupérer que peu d’informations, signe que cette agence excelle également dans le fait de cacher ses traces. Nous avons néan­ moins une piste solide et nous sommes passés par un de nos intermédiaires pour monter un casse de toute pièce. Le musée Magritte de Bruxelles reçoit cette semaine </em>L’Homme au chapeau melon<em>, une peinture provenant d’une collection privée qui sera exposée pendant deux mois. Après avoir manifesté notre volon­ té de voir cette œuvre volée, nous avons été contactés par un organisme qui semble être cette agence dissidente, qui nous a proposé de faire le travail. Dans le but de les démasquer, nous avons engagé cette équipe de quatre agents pour com­ mettre le larcin.</em></p><p><em>Nous avons réussi à la localiser dans un appartement d’un immeuble d’habi­ tation à Bruxelles, où ils préparent leur coup. Nous leur avons fait parvenir un faux briefing qui insistait sur la tem­ poralité de l’affaire ; nous savons donc pour sûr qu’ils vont opérer ce soir. Vous devez consacrer la journée à votre recon­ naissance avant d’infiltrer leur apparte­ ment pendant leur casse. Votre mission consiste à trouver dans cet appartement un objet ayant servi à la mise en contact entre cette équipe et l’agence dissidente. Il vous faut localiser, comprendre et voler cet objet.</em></p><p></p><p><em>Attention, vous n’avez pas affaire à des amateurs, mais à des agents ayant déjà participé à plusieurs affaires. La pru­ dence et la discrétion sont de mise.</em></p><p></p><p><em>Agents, la réputation de Heist est entre vos mains et nous comptons sur vous.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div><p><em><strong>Cible (à garder secret) :</strong></em> Clé USB avec informations.</p><p><em><strong>Lieu :</strong></em> Immeuble d’habitation.</p><p><em><strong>Délai :</strong></em> Une journée + une nuit.</p><p><em><strong>Victoire :</strong></em> Récupération de la clé, idéalement sans être repérés par l’équipe adverse (remplacement par une copie possible).</p><p><em><strong>Défaite (à garder secret) :</strong></em> Les anciens agents s’enfuient avec la clé ou neu­ tralisent l’équipe.</p></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716313115643,
+            "modifiedTime": 1716313685469,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Intrigue",
+          "type": "text",
+          "_id": "ZUCBe5OpuzhENpkK",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Devant plusieurs affaires liées à ce qui semble être une agence concurrente recrutant d’anciens ou actuels agents de Heist, celle-ci est inquiète. Les personnages sont engagés par Heist elle-même afin d’en apprendre le plus possible sur ce rival. Un élément spécifique est désigné comme la cible (même si tout est bon à récupérer) : une clé USB que l’on sait être l’objet utilisé pour leur recrutement.</p><p>Grâce à son réseau, Heist fomente alors un coup monté : commander un casse factice à ces concurrents pour récupérer un maximum d’informations. L’objectif pour ces derniers est de voler un tableau au musée Magritte de Bruxelles, mais ce n’est qu’un leurre. La mission des joueurs est de profiter de ce moment pour récupérer le plus de renseignements possible.</p><div class=\"blue-box\"><h1>La clé USB</h1><div><p>C’est l’objet utilisé par l’agence dissidente pour contacter et recruter de nou­veaux agents. La clé est remise au leader d’une future équipe qui doit alors suivre ses instructions et constituer un groupe compétent.</p><p>C’est une clé USB d’apparence ridicule, car elle ressemble à un père Noël. Une fois insérée dans un ordinateur connecté à Internet, elle renvoie directe­ment vers un écran noir avec un logo au centre. Le logo est composé d’un visage de père Noël à l’air bienveillant et du mot SANTA en majuscules et en blanc et rouge. L’ouverture de cette page s’accompagne de la diffusion d’une version ins­trumentale de la chanson <em>Jingle Bells</em> (n’hésitez pas à la diffuser si les PJ décident de brancher la clé). Au centre de la page, un champ vide demande l’insertion d’un mot de passe (il n’est pas possible pour les personnages de trouver ce mot de passe, et trois tentatives ratées entraînent la fermeture de la page).</p></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716313664655,
+            "modifiedTime": 1716313759283,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Lieux",
+          "type": "text",
+          "_id": "tjXJgasq5qgg2aU1",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>L’action de ce scénario est particulièrement ramassée puisque tout se déroule dans un immeuble d’habitation, divisé en plusieurs appartements. Les PJ vont pouvoir explorer cet immeuble et plusieurs de ses logements ainsi que le chantier et la supérette adjacents.</p><h2>Immeuble</h2><p>Le bâtiment est tout ce qu’il y a de plus simple et n’offre ni une architecture riche ni une esthétique marquée. C’est une ancienne maison des années 1930 qui a été entièrement rénovée et transformée en immeuble de rapport. Il n’y a pas d’ascenseur, mais un grand escalier en bois permet d’accéder aux différents étages. Il y a un bloc de boîtes aux lettres dans l’entrée ; un coup d’œil sur ces dernières donne aux agents le pseudonyme de <em>streamer</em> de l’habitant du dernier étage : Miréno. La porte d’entrée est fermée à l’aide d’un digicode basique (et facilement hackable), mais peut aussi s’ouvrir à l’aide d’un puissant coup d’épaule. Dans tous les cas, elle produit un bruit retentissant dans tout l’immeuble, car elle est un peu gonflée et frotte contre son cadre. Les résidents en ont l’habitude (une entreprise est intervenue à plusieurs reprises pour corriger le problème au fil des mois, sans succès) et ne sont plus surpris par le bruit, en témoigne la présence d’une feuille plastifiée indiquant sur la porte : « <em>Comme vous pouvez le constater, la porte continue de faire beaucoup de bruit. Le syndic a bien conscience du problème et a prévenu un réparateur. L’intervention est programmée pour le 24 septembre.</em> »</p><h2>Chantier</h2><p>C’est pour l’instant un grand terrain vague. Il y avait un immeuble ici, mais il a été détruit dans le but de construire un hôtel. Le chantier avance tout doucement. Il y a actuellement deux ouvriers qui viennent tous les jours, saufle weekend, pour finir la destruction et déblayer ce qui peut l’être : <strong>@UUID[Actor.Qla5VJqA4A9FqWGg]{Benjamin Locke et Aleks Nowak}</strong>. De nombreux outils sont présents lorsque les ouvriers sont là, mais ils sont retirés pendant le weekend. Un trou, non visible depuis la rue, permet d’accéder au réseau de canalisations. Ce réseau étant relié à l’immeuble, des agents assez souples pourraient se servir de ce trou pour y pénétrer.</p><h2><em>Night Shop</em></h2><p>Une épicerie de quartier assez classique borde l’immeuble, avec son alcool derrière le comptoir et ses produits hors de prix. Le rayon nourriture pour animaux est vide de croquettes pour chien. Si un personnage en fait la remarque, le gérant <strong>@UUID[Actor.vuA5Rz2t3zfqMN4y]{Samir Alami}</strong> évoquera un nouveau client qui a acheté tout son stock. C’est aussi un relais colis et de nombreux cartons empilés occupent l’espace. La réserve du magasin est reliée au local poubelle de l’immeuble, ce qui permet un accès facilité à celui-ci. Les PJ peuvent soudoyer le gérant avec une petite somme d’argent pour utiliser cet accès ou s’infiltrer discrètement en détournant son attention.</p><h2>Appartement du rez-de-chaussée</h2><p>C’est ici qu’habite <strong>@UUID[Actor.Z8T5n490jxkhQh7U]{Jeanine Laurent}</strong>, une vieille dame de 85 ans atteinte d’une légère démence. Elle vit seule depuis le décès de son mari, René, il y a 21 ans. Son appartement occupe tout l’espace de l’étage. Les agents peuvent facilement profiter de sa gentillesse pour visiter son logement (elle ouvrira même la porte de l’immeuble s’ils sonnent avec une bonne excuse), car elle cherche de la compagnie. Ils peuvent également facilement se faire passer pour des membres de sa famille, car elle ne les reconnaît plus vraiment. Son appartement sent fort la friture et la térébenthine.</p><h2>Appartement du 1<sup>er</sup> étage</h2><p>C’est l’appartement occupé par les agents dissidents depuis une semaine. Il s’agit d’un logement meublé, plutôt grand et composé de 2 chambres et 1 bureau qui peut servir aussi de chambre. <strong>@UUID[Actor.rD4cQnYj31yoCw5p]{Youri Markov}</strong> et <strong>@UUID[Actor.gZ1wqC6RydbxVIg7]{Eliot Landgren}</strong> disposent chacun d’une chambre individuelle, tandis que <strong>@UUID[Actor.Bczlh3xBBLiybh6v]{Saima Zaman}</strong> et <strong>@UUID[Actor.VwlRhyRG8YJwNdWC]{Fanny Peeters}</strong> dorment dans une chambre commune.</p><p>L’appartement a été sécurisé afin de servir de camp de base pour les agents, même si la possibilité d’être les victimes d’une attaque leur paraît faible. La porte d’entrée reste un gros point faible : cette dernière peut facilement être crochetée ou détruite par les agents. En écoutant à la porte (ou en tentant de sonner) pendant la phase de Reconnaissance, les agents entendent d’abord des aboiements puis des cris en russe. Personne ne les laisse entrer ici, mais la porte s’entrouvre sur l’un des agents dissidents qui cherche, méfiant, à comprendre pourquoi ils souhaitent s’introduire chez eux. Un agent attentif peut remarquer les deux caméras installées dans l’entrée et pointant sur la porte palière. Ces dernières sont faciles à neutraliser pour Trèfle ou à contourner en passant par une fenêtre ou le plafond.</p><p>Les agents sont également accueillis (quelle que soit leur manière d’entrer dans l’appartement) par Babayaga, la chienne de Markov, qui est la seule à occuper les lieux à partir de 18 heures. Elle est particulièrement dangereuse et agressive, mais elle peut être distraite par de la nourriture ou être assommée.</p><p></p><p>L’appartement est dans un très grand désordre ; chercher directement l’objet de la mission sans objectif clair se soldera inévitablement par un échec. Les agents trouvent néanmoins de nombreux objets et documents expliquant le plan des dissidents pour récupérer le tableau. Ces derniers font souvent des références plus ou moins subtiles à Noël. Le musée est appelé « l’usine à cadeaux » et le tableau est décrit comme « le présent pour les enfants sages ».</p><p>Une fouille attentive laisse voir des traces sur le plancher du couloir principal qui mènent au dressing, au sud-est de l’appartement, comme si on avait tiré quelque chose sur le sol. Les suivre amène les agents à découvrir <strong>@UUID[Actor.YfjwS6a7dL7Khv6E]{Guy Vandenbroucke}</strong> dans un placard, attaché à une chaise, un bâillon-boule dans la bouche. Il est en piteux état et a été visiblement tor­turé. Il s’agit d’un des gardiens du musée Magritte qui a été enlevé et séquestré afin d’obtenir un maximum d’informations sur le musée. Le libérer (et le rassurer) est un bon moyen d’en apprendre un peu plus (voir plus loin).</p><p>La chambre de Markov est un lieu consacré à son entraînement et à son maintien en forme. Il n’y a rien à trouver ici, si ce n’est une télécommande ornée d’un pentacle et d’un seul bouton. Le presser calme instantanément Babayaga.</p><p>La chambre partagée par Zaman et Peeters est dans un désordre impressionnant. On peut y trouver autant de câbles que de cordes, montrant des occupations très différentes pour les deux femmes.</p><p>La chambre de Landgren est verrouillée. La clé est cachée dans le compartiment congélateur du frigo de la cuisine. La porte peut aussi être forcée ou détruite. Une fois à l’intérieur, c’est clairement la pièce la mieux rangée. Elle contient la plupart des plans ainsi qu’un petit ordinateur portable, posé sur un bureau. À côté de cet ordinateur se trouve la <strong>clé USB en forme de père Noël</strong> qui a servi pour la prise de contact.</p><div class=\"orange-box\"><p>Vous pouvez afficher les différentes éléments en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.0Sp5sv35NrYbOWmP]{Caméras} ;</p></li><li><p>@UUID[Macro.7dwV6uN4PSsINp92]{Chambre de Markov} ;</p></li><li><p>@UUID[Macro.bdlKSBofXBfRqdlH]{Chambre de Zaman et Peeters} ;</p></li><li><p>@UUID[Macro.ZBe0tJ3zPj5R9UhX]{Salle à manger / Salon} ;</p></li><li><p>@UUID[Macro.53GK8AmyjAPubDSC]{Traces} ;</p></li><li><p>@UUID[Macro.9xPuIfmv7pCXUWOH]{Chambre de Landgren}</p></li></ul></div><h2>Appartement du 2<sup>e</sup> étage</h2><p>Il s’agit d’un logement de tourisme saisonnier HerBnB assez classique, avec son lot de décoration venant de magasins bon marché et de meubles préfabriqués. Les agents ne trouveront rien en fouillant ici (sauf des restes de nourriture dans le réfrigérateur, mais qui ne devraient pas spécialement leur servir). S’ils souhaitent louer cet appartement, ils en ont très rapidement la possibilité : le propriétaire est <strong>@UUID[Actor.mxPjDOadP2YpLkmX]{Jean Grandmaison}</strong>, mais c’est sa fille <strong>Emma</strong> qui gère les réservations. Celle-ci leur répond par message que le logement est libre pour toute la semaine à venir. L’entrée dans les lieux se fait de manière autonome : une réservation leur donne accès au code de l’immeuble (3005) et à celui de la boîte à clé collée au mur adjacent à la porte du logement (2803). Cette boîte est assez fragile et peut facilement être forcée pour récupérer la clé si les agents l’ont repérée. Le HerBnB est juste au-dessus de l’appartement cible et peut servir de camp de base pour les agents. La connexion Internet y est très bonne et le plancher du séjour peut être découpé pour descendre directement chez la cible.</p><h2>Penthouse</h2><p>Le dernier étage est occupé par un magnifique appartement agencé avec une absence de bon goût notable. Beaucoup de néons et d’objets chers sont présents et la décoration est surchargée, dans un style clairement « nouveau riche ». Il s’agit du logement de <strong>@UUID[Actor.TxoKiEr5u51NE5aY]{Jérémie Renaud}</strong>. Les agents pourraient être tentés de dérober les cadres contenant de très rares cartes Pokémon, mais cela serait contre les principes de Heist. Une armoire dans la chambre contient des armes à feu. La cuisine est très mal rangée et de nombreux restes de fast-food y sont éparpillés. L’immense balcon, recouvert de plantes et de mobilier de jardin, occupe la totalité du toit de l’immeuble. On y accède par un escalier dans le séjour.</p><p></p><p>En soirée, le logement est également occupé par <strong>@UUID[Actor.5VODLPBcG65nIDrw]{Cynthia Mercier}</strong>, la petite amie de Renaud. Celle-ci est également présente dans l’immeuble toute la journée du vendredi durant la reconnaissance (voir plus loin).</p><h2>Caves, local poubelle et local à vélo</h2><p>Le niveau de sous-sol est une zone commune à tous les appartements et est divisé en plusieurs espaces. Chaque logement dispose d’une cave, mais ces dernières ne contiennent rien de très pertinent pour les agents. Une inspection du local poubelle révèle des sacs vides de nourriture pour animaux, de nombreuses canettes de boisson énergisante et des emballages de ramen instantanées. Il y a également les cartons de deux caméras de sécurité bon marché. Les agents ont aussi accès ici aux différents vannes et compteurs d’eau et de gaz qui alimentent chaque appartement, ainsi qu’au tableau électrique des espaces communs. Le local à vélo est vide. Les agents peuvent très facilement se cacher ici et ne seront pas dérangés, sauf s’ils sont trop bruyants.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716313784623,
+            "modifiedTime": 1716734731919,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Casting",
+          "type": "text",
+          "_id": "wEVFRaCe22wo0Nja",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>L’immeuble est divisé en plusieurs appartements qui sont, pour la plupart, occupés.</p><h2>Jeanine Laurent</h2><p>Cette vieille dame de 85 ans vit dans son appartement, dont elle est propriétaire, depuis les années 1970. Elle perd un peu la tête et ne reconnaît plus vraiment les visages. Les PJ peuvent en abuser en se faisant passer pour un membre de sa famille (elle espère toujours des visites de ses petits-enfants) pour utiliser son appartement en tant que lieu de planque. Ils peuvent également sans mal prendre le contrôle de son appartement par la force, mais c’est contraire aux idéologies de l’agence (pensez à le rappeler à vos joueurs le cas échéant). Elle propose des biscuits un peu trop anciens et du thé aux agents. Elle est très bavarde et ne manque pas de se plaindre de ses voisins, notamment des nouveaux occupants qui font beaucoup de bruit avec leur horrible chien.</p><h2>Jérémie Renaud</h2><p>Il habite tout en haut de l’immeuble dans un magnifique penthouse qui occupe tout l’étage. Il a fait fortune il y a quelques années en achetant (et revendant) des cryptomonnaies. Son appartement est grand et décoré avec un goût douteux. Le bureau est la pièce la plus importante selon lui et il y passe tout son temps, en partie à jouer à <em>League of Legends</em> ou à regarder des vidéos, éclairé par les néons de son ordinateur haut de gamme. Si les agents tentent de pénétrer son appartement, ils sont reçus par une alarme qui reste facilement détectable et désactivable. Les PJ peuvent aisément suivre la journée de Renaud en se connectant et en suivant son <em>stream</em>, car il passe sa journée entière en live sous le pseudonyme Miréno. Il ne sera pas une grande menace pour des agents discrets, ne se levant qu’occasionnellement pour chercher à boire et à manger ou pour aller aux toilettes. Si les agents décident de le neutraliser, attention à ne pas se faire repérer par la webcam !</p><h2>Cynthia Mercier</h2><p>C’est la copine de Jérémie Renaud. Elle vit dans le même appartement que lui, mais s’absente en journée pour aller à l’université. Elle peut être un obstacle pour les agents, car elle rentre dans l’appartement de Renaud le soir à 19 heures et reste jusqu’à 7 heures le lendemain. Elle peut être un risque de découverte si elle n’est pas occupée ou envoyée ailleurs et que les agents sont présents dans l’appartement en même temps qu’elle. Un faux SMS de Renaud, une urgence dans son travail (elle est serveuse dans un bar, le Geppeto, une de ses fiches de paie peut être trouvée dans le Penthouse) ou toute autre excuse maligne peut la maintenir loin de l’action. Les agents peuvent la croiser pendant la reconnaissance (elle ne travaille pas ce jour-là). Elle se montre rapidement amicale si un bon prétexte de discussion est trouvé. Elle vide alors son sac sur sa relation avec Renaud (qui se passe très mal), sur son envie de déménager et sur une anecdote absurde à propos de ses nouveaux voisins qui doivent organiser des soirées « particulières », car elle a croisé « une brune très tatouée » avec des cordes de bondage et un bâillon-boule.</p><h2>Jean et Emma Grandmaison</h2><p>Jean Grandmaison est un petit aristocrate belge qui a fait fortune dans l’informatique. Il possède plusieurs appartements à Bruxelles qu’il loue ou met à disposition sur HerBnB. Ce n’est pas directement lui qui traite avec les voyageurs, mais sa fille, Emma, 24 ans. Dans tous les cas, si les agents choisissent de les contacter par l’inter­ médiaire du site, toutes les conversations se font par message, l’entrée dans le logement étant autonome.</p><h2>Samir Alami</h2><p>C’est le gérant de la supérette. Cet homme d’une quarantaine d’années a toujours travaillé ici. Il peut parfois faire semblant de ne pas savoir bien parler français, lorsqu’il n’a pas envie de faire la conversation, mais c’est faux. Attention pour les agents à ne pas transmettre d’informations impor­ tantes devant lui en pensant qu’il ne les comprend pas : il est obsédé par l’argent et peut faire chanter les personnages s’il apprend des choses ou pense avoir des moyens de pression.</p><h2>Fanny Peeters (ancienne Pique)</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/entrez-sans-sonner/fanny-peeters.webp\" /></div></div><p>Peeters naît dans une famille aisée belge néerlandophone. Son enfance est plutôt simple jusqu’à la séparation de ses parents lorsqu’elle a 13 ans. Elle se plonge alors corps et âme dans l’équitation qui occupe tout son temps libre. Après une blessure, elle abandonne tout espoir de professionnalisation dans le domaine et commence des études de médecine. En dernière année, elle quitte soudainement l’université pour changer complètement de carrière et devenir travailleuse du sexe. Tant en ligne que dans la vraie vie, sa nouvelle carrière lui apporte enfin une satisfaction jusqu’à présent inassouvie. Elle pratique en parallèle la <em>pole dance</em> et le jujitsu brésilien qui lui donnent une condition physique et une souplesse bien au-dessus de la moyenne. Elle est autant capable de se battre que de se faufiler dans les endroits les plus complexes.</p><h2>Eliot Landgren (ancien Cœur)</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/entrez-sans-sonner/eliot-landgren.webp\" /></div></div><p>Landgren est un ancien joueur professionnel de casino. Il a changé de carrière après le décès de son épouse dans un accident de voiture suspect, qu’il pense lié à la mafia albanaise. Il rejoint Heist en 2015 et participe à plusieurs missions avec grand succès. Beau parleur et joueur hors pair, c’est un homme d’une cinquantaine d’années, assez grand et avec un léger embonpoint. Il boîte un petit peu, mais sa condition physique lui permet tout de même de se battre au besoin.</p><h2>Saima Zaman (ancienne Trèfle)</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/entrez-sans-sonner/saima-zaman.webp\" /></div></div><p>Petit génie du hacking, Saima commence sa carrière sur Internet dès ses 16 ans sous le pseudonyme bUfFY_2319. Elle gagne rapidement en popularité, particulièrement en faisant trembler le forum 4chan où elle divulgue l’identité de comptes pratiquant le harcèlement. Elle forme ensuite un groupe spécialisé dans la recherche et la révélation de consommateurs de pédo­pornographie qu’elle continue d’entretenir aujourd’hui. Ses motivations pour rejoindre Heist semblent avant tout financières, car elle injecte tout l’argent gagné dans son organisation. Elle est capable d’infiltrer les réseaux les plus complexes et d’obtenir des informations très précises sur ses cibles.</p><h2>Youri Markov (ancien Carreau)</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/entrez-sans-sonner/youri-markov.webp\" /></div></div><p>Après une enfance dans une famille pauvre en Russie, Youri Markov quitte le pays à l’adolescence. Aujourd’hui âgé de 35 ans, il a participé à de nombreuses compétitions de MMA avant de faire « profil bas » et de rejoindre plusieurs organisations en parallèle d’une carrière de videur. Il est recruté par Heist qui use de sa carrure gigantesque et de sa force incroyable. Il est accompagné de son bull-terrier de combat : Babayaga.</p><h2>Benjamin Locke et Aleks Nowak</h2><p>Ce sont les deux ouvriers qui s’occupent en ce moment du chantier attenant à l’immeuble. Ils ne sont présents que pendant la phase de Reconnaissance et n’interviendront pas durant le casse. Ils sont facilement dérangés par la présence de l’équipe et se montrent rapidement suspicieux si un agent masculin les interroge. Ils n’hésitent pas à avoir un comportement déplacé vis-à-vis d’une personne féminine, allant jusqu’à siffler une agente qui passe devant le chantier. Il est possible de se les mettre dans la poche en les charmant ou en les baratinant. Ils peuvent alors faire « visiter » le chantier à un ou plusieurs personnages et leur permettre de remarquer un trou servant à faire passer des canalisations et menant aux caves de l’immeuble.</p><h2>Guy Vandenbroucke</h2><p>Il est gardien au musée Magritte et a été enlevé le matin même par les agents de Santa pour que Landgren prenne sa place. Les personnages peuvent le retrouver dans un placard de l’appartement du 1<sup>er</sup> étage. Il est sonné, car il a été torturé par Markov pour obtenir un maximum d’informations sur la sécurité du musée. Il a été maintenu en vie pour pallier un imprévu, mais il est prévu qu’il soit éliminé à l’issue du casse. Les joueurs peuvent lui poser des questions auxquelles il répond de manière plus ou moins précise. Il connaît le nom et le rôle des agents dissidents et affirme étrangement avoir entendu la chanson <em>Jingle Bells</em> de nombreuses fois, se demandant s’il a été torturé jusqu’à Noël. Il attend des agents qu’ils le libèrent, mais ceux-ci doivent s’assurer qu’il ne comprenne pas qu’eux-mêmes sont également des cambrioleurs.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716314175776,
+            "modifiedTime": 1716315140086,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Événements Joker",
+          "type": "text",
+          "_id": "KUNIVDNBXYPYIC3Y",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Joker 1</h2><p>Une odeur de brûlé commence à se propager dans tout l’immeuble. Jeanine Laurent s’est endormie devant sa friteuse alors qu’elle cuisinait et cela a déclenché un incendie. Les alarmes de certains appartements finissent par se déclencher, braquant toute l’attention sur l’immeuble, mais offrant aussi une fenêtre d’évacuation.</p><p></p><p>Si les agents ne réagissent pas rapidement, l’incendie se propage aux étages, mais ils peuvent se rendre chez la vieile dame pour empêcher cela. Attention, tenter d’éteindre un incendie d’huile avec de l’eau déclenche une explosion ! Une couverture antifeu ou un extincteur adapté (présent dans le hall de l’immeuble) fera l’affaire.</p><h2>Joker 2</h2><p>Le bruit caractéristique de la porte d’entrée de l’immeuble retentit et des voix s’élèvent. L’équipe dissidente revient de son casse, bredouille. En fonction du degré d’avancement des joueurs, vous pouvez faire revenir une équipe réduite, sans Markov ou sans Markov et Peeters (s’ils sont très en retard). Après une dispute dans le hall de l’immeuble qui continue dans l’escalier et jusque sur le palier devant la porte, les dissidents vont rentrer dans leur appartement. Les PJ peuvent alors se cacher, leur tendre un piège ou s’enfuir, en fonction de leur préparation.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716314645822,
+            "modifiedTime": 1716314676230,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Liste d’achats",
+          "type": "text",
+          "_id": "XkbwMl3Z1rfmuWcw",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Pour aider vos joueurs pendant la phase de Préparation, voici quelques éléments que vous pouvez leur sug­ gérer, pour donner des pistes :</p><ul><li><p>@UUID[Item.T4rNU4rFJNwFUX0I]{La réservation du HerBnB de l’immeuble} (2 $) ;</p></li><li><p>@UUID[Item.ecIs6mNs6BWYNF2G]{Du matériel pour grimper et passer par le penthouse} (1 $) ;</p></li><li><p>@UUID[Item.FJUVSOmuqPuE9Fwi]{Un camion de chantier et des costumes d’ouvriers} (2 $) ;</p></li><li><p>@UUID[Item.w1s3vrKdlAsASWte]{De quoi soudoyer le gérant de la supérette} (1 $) ;</p></li><li><p>@UUID[Item.CnFNANhd4j7Wdrsc]{Le descriptif de l’objet à récupérer} (1 $) ;</p></li><li><p>@UUID[Item.Gh5cXLjjARB1OlFY]{Une copie de l’objet de contact pour remplacer ce dernier par un faux} (2 $) ;</p></li><li><p>@UUID[Item.d0ya7LxLHBjU5ENq]{De quoi endormir ou occuper le chien de Markov} (1 $) ;</p></li><li><p>@UUID[Item.RWTb6orgw9UcBNtB]{Du matériel de pointe pour crocheter les portes des appartements} (2 $) ;</p></li><li><p>@UUID[Item.GTXpiPx8ILIZ6LfA]{De quoi brouiller les caméras de l’appartement cible} (2 $) ;</p></li><li><p>@UUID[Item.JUhYQvdHJAIy71jg]{Du matériel d’écoute pour prévoir le départ des agents dissidents} (1 $).</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716314682024,
+            "modifiedTime": 1716315781050,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Pistes d’actions",
+          "type": "text",
+          "_id": "NudJC0IBppU6NWBw",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Voici quelques points d’intérêts officiellement prévus par le scénario. Si les joueurs viennent avec de nouvelles idées, tant mieux !</p><ul><li><p><strong>Louer le HerBnB</strong> de l’immeuble et utiliser l’endroit comme un QG.</p></li><li><p><strong>Grimper la façade de l’immeuble</strong> ou passer par le penthouse.</p></li><li><p><strong>Se faire passer pour des ouvriers</strong> et se cacher dans la cave.</p></li><li><p><strong>Utiliser le trou de canalisation</strong> du chantier pour pénétrer dans l’immeuble.</p></li><li><p><strong>Passer un accord avec la supérette</strong> pour utiliser sa réserve.</p></li><li><p><strong>Se faire passer pour le proprio</strong> ou l’agence de l’appartement cible.</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716314735642,
+            "modifiedTime": 1716314790420,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Fin de partie",
+          "type": "text",
+          "_id": "tGexhmMZTECKkx7v",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le scénario prend fin quand les agents quittent les lieux. Le départ peut se faire de plusieurs manières :</p><ul><li><p>Utiliser une voiture ou un camion, mais il n’y a pas d’espace pour se garer devant l’immeuble. Ils peuvent se garer devant ou dans le chantier, mais leur véhicule risque alors de subir une tentative de vol ou être détérioré si personne ne le surveille. Il faudra un véhicule sécurisé ou que quelqu’un fasse régulièrement le guet ;</p></li><li><p>Des vélos bien sécurisés ne seront pas volés et permettront un départ rapide ;</p></li><li><p>Si la nuit n’est pas trop avancée, il y a une station de métro proche de l’immeuble et les rames circulent jusqu’à minuit ;</p></li><li><p>Le penthouse permet une évacuation par hélicoptère (pour les agents les plus dépensiers) ou par les toits.</p></li></ul><p><strong>Si les agents arrivent à récupérer la clé USB</strong> et à s’enfuir sans que les informations de leur casse soient transmises à l’agence concurrente, Jack les félicite. Avoir été « légèrement » repéré peut être considéré comme acceptable si leurs traces ont bien été couvertes.</p><p><strong>Si le paquet du meneur arrive à son terme</strong>, toute l’équipe des agents renégats rentre de sa mission et surprend le groupe, quel que soit l’endroit où il est. Une dernière action pourra peut-être leur permettre de s’enfuir, mais rien n’est moins sûr.</p><p><strong>Si la mission des agents se conclut par un échec</strong>, Jack est mécontent, et Heist très déçue de l’issue de leur tentative. Une équipe annexe est alors engagée pour récupérer l’objet servant au contact des agents renégats.</p><img src=\"systems/heist/images/media/scenario/entrez-sans-sonner/entrez-sans-sonner.webp\" />"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716314799549,
+            "modifiedTime": 1716314851297,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716311955204,
+        "modifiedTime": 1716315781050,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "nJx9qaGGEtnYNn9W",
+      "name": "Aides de jeu",
+      "_id": "pDZmlPadzZD6yh8m",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Plan de l’appartement - MJ",
+          "type": "image",
+          "_id": "hVyEah6qnyjrzqGR",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/appartment-plan-gm.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716726342097,
+            "modifiedTime": 1716726400404,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Plan de l’appartement - Agents",
+          "type": "image",
+          "_id": "UOsTTvzjqMYMKSb7",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/appartment-plan-agent.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716726878051,
+            "modifiedTime": 1716726890220,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Préparation des agents dissidents",
+          "type": "pdf",
+          "_id": "0Dnsyh4MtAjgTPs0",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/preparation-agents-dissidents.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716732691997,
+            "modifiedTime": 1716732696676,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Écran clé USB - Image",
+          "type": "image",
+          "_id": "KYV3f1fC4DyHN7Hf",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/logo-usb.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716732750790,
+            "modifiedTime": 1716732757942,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Écran USB - Vidéo",
+          "type": "text",
+          "_id": "pRX8SryfjdKhoxWv",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<video controls autoplay width=\"580\"><source src=\"/systems/heist/images/media/scenario/entrez-sans-sonner/logo-usb.webm\" type=\"video/webm\"></source></video>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716732978311,
+            "modifiedTime": 1716733106009,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "PNJ - Eliot Landgren (ancien Cœur)",
+          "type": "image",
+          "_id": "LqUaHB8m89ld0x6t",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/eliot-landgren.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716734078447,
+            "modifiedTime": 1716734094320,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "PNJ - Fanny Peeters (ancienne Pique)",
+          "type": "image",
+          "_id": "lQOlMEL4S2SPDYFt",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/fanny-peeters.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716734105691,
+            "modifiedTime": 1716734110526,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "PNJ - Saima Zaman (ancienne Trèfle)",
+          "type": "image",
+          "_id": "U37t6U3RkOnII7u6",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/saima-zaman.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716734121731,
+            "modifiedTime": 1716734125913,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "PNJ - Youri Markov (ancien Carreau)",
+          "type": "image",
+          "_id": "JkM8vNLZXMEhrgyj",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/entrez-sans-sonner/youri-markov.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1716734135647,
+            "modifiedTime": 1716734139576,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716316137544,
+        "modifiedTime": 1716734139576,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "folder": "OlgEabTRex20bVtY",
+      "name": "Appartement",
+      "_id": "6h4oMlUhdaJAfsVK",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/entrez-sans-sonner/appartment-plan-agent.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1716726917323,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 241,
+            "height": 157,
+            "radius": null,
+            "points": []
+          },
+          "x": 1039.4567119525786,
+          "y": 1627.9351568803138,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Chambre de Markov",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "s6BUZca8SrbQ9iWF"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 230,
+            "height": 231,
+            "radius": null,
+            "points": []
+          },
+          "x": 2610.643007035944,
+          "y": 2229.963896976667,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Chambre de Zaman et Peeters",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "TmlazkE65zASOhRd"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 190,
+            "height": 100,
+            "radius": null,
+            "points": []
+          },
+          "x": 1194.9401745279215,
+          "y": 2726.119650944157,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cuisine",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "7nwvhCMNW41WFvpv"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 359,
+            "height": 146,
+            "radius": null,
+            "points": []
+          },
+          "x": 1515.8412665097871,
+          "y": 2723.1526202835353,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Clé de la chambre de Landgren",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "19eeITDEpeV4sbSE"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 284,
+            "height": 152,
+            "radius": null,
+            "points": []
+          },
+          "x": 1238,
+          "y": 3037,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Documents sur le casse",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "kF5MF9vFpi4qinHK"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 299,
+            "height": 70,
+            "radius": null,
+            "points": []
+          },
+          "x": 1244.5582002947801,
+          "y": 3249.8297148489373,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Salle à manger",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "O9hN0sIbJDLVWioW"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 264,
+            "height": 64,
+            "radius": null,
+            "points": []
+          },
+          "x": 1198.2536097729371,
+          "y": 3493.2020363210167,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Salon",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "GcuBSvcfNtOLgEfl"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 226,
+            "height": 91,
+            "radius": null,
+            "points": []
+          },
+          "x": 2549,
+          "y": 3196,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Dressing",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "2PCgvUi15qtTaHGJ"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 338,
+            "height": 141,
+            "radius": null,
+            "points": []
+          },
+          "x": 2517.0598254720785,
+          "y": 3570.754584905008,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Guy Vandenbroucke",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "eVhpCmQYFoUkcAyX"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 292,
+            "height": 152,
+            "radius": null,
+            "points": []
+          },
+          "x": 2139.9962471889994,
+          "y": 3103.5992433803567,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Chambre de Landgren",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "93DOzJ20jNyFcNTB"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 182,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2113.1845744910356,
+          "y": 3496.147060888156,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Clé USB",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "h92UVuecuOH5pMNo"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 226,
+            "height": 119,
+            "radius": null,
+            "points": []
+          },
+          "x": 1998.4371179245827,
+          "y": 2792.6825330195743,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Porte verrouillée",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "1Is9NPTZLeFqxHCM"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 170,
+            "height": 92,
+            "radius": null,
+            "points": []
+          },
+          "x": 2080.4248915112275,
+          "y": 2665.8021839637313,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Traces",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "k3jenG9haBQPOYyN"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 550,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 2500.634581133517,
+          "y": 1274.8035366389963,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Caméra de surveillance",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "I5Fjbj4icHtGgmTz"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2199,
+          "y": 1738,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 225,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "HQNzxrW1XWWoZfMi"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera-invert.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1994,
+          "y": 1618,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 165,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "E8L9WhyHL2mFQqKf"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2436,
+          "y": 1263,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "d6oXq7EtLdaxjKSE"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/entrez-sans-sonner/markov-bedroom.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 914,
+          "y": 1744,
+          "width": 605.7,
+          "height": 820,
+          "overhead": false,
+          "_id": "E6TrnMFqaIPgJION",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/entrez-sans-sonner/zaman-peeters-bedroom.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 2677,
+          "y": 1805,
+          "width": 283.1,
+          "height": 396.9,
+          "overhead": false,
+          "_id": "GyOqmV1smiD8gH0M",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/entrez-sans-sonner/traces.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 2192,
+          "y": 2798,
+          "width": 328.6,
+          "height": 114.3,
+          "overhead": false,
+          "_id": "92qQFRcFJCrNgCyU",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/entrez-sans-sonner/dining-room.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1027,
+          "y": 2970,
+          "width": 823,
+          "height": 857,
+          "overhead": false,
+          "_id": "FHcbFuSx5YVnYDZS",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/media/scenario/entrez-sans-sonner/landgren-bedroom.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 2003,
+          "y": 3322,
+          "width": 451.4,
+          "height": 560,
+          "overhead": false,
+          "_id": "MKDpTzTCF26DMuZR",
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {}
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1768,
+          "y": 2657,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 45,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "LOz96Is3Q1QMZbXC"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2162,
+          "y": 2738,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "HvCVXvRDLsZXIiYj"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2075,
+          "y": 2909,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "SwNQyS9vOUQut5bI"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2059,
+          "y": 3523,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 270,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "iJb7c9r7O1XJR8Cp"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2812,
+          "y": 3696,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 150,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "elMfj7T9WjCeWP3H"
+        }
+      ],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716726917325,
+        "modifiedTime": 1716733916595,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "systems/heist/images/thumbs/scenes/6h4oMlUhdaJAfsVK-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    }
+  ],
+  "tables": [],
+  "macros": [
+    {
+      "folder": "vfNOkO5Mb57v5tO9",
+      "name": "Chambre de Markov",
+      "type": "script",
+      "_id": "7dwV6uN4PSsINp92",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'E6TrnMFqaIPgJION',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.7dwV6uN4PSsINp92"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733248408,
+        "modifiedTime": 1716733464642,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "vfNOkO5Mb57v5tO9",
+      "name": "Chambre de Zaman et Peeters",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'GyOqmV1smiD8gH0M',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.bdlKSBofXBfRqdlH"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733248408,
+        "modifiedTime": 1716733487931,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "bdlKSBofXBfRqdlH"
+    },
+    {
+      "folder": "vfNOkO5Mb57v5tO9",
+      "name": "Salle à manger / Salon",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'FHcbFuSx5YVnYDZS',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.ZBe0tJ3zPj5R9UhX"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733248408,
+        "modifiedTime": 1716734007885,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "ZBe0tJ3zPj5R9UhX"
+    },
+    {
+      "folder": "vfNOkO5Mb57v5tO9",
+      "name": "Traces",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  '92qQFRcFJCrNgCyU',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.53GK8AmyjAPubDSC"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733248408,
+        "modifiedTime": 1716733531601,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "53GK8AmyjAPubDSC"
+    },
+    {
+      "folder": "vfNOkO5Mb57v5tO9",
+      "name": "Chambre de Landgren",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'MKDpTzTCF26DMuZR',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.9xPuIfmv7pCXUWOH"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733248408,
+        "modifiedTime": 1716733549301,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "9xPuIfmv7pCXUWOH"
+    },
+    {
+      "folder": "vfNOkO5Mb57v5tO9",
+      "name": "Caméras",
+      "type": "script",
+      "_id": "0Sp5sv35NrYbOWmP",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const tiles = [\n  'E8L9WhyHL2mFQqKf',\n  'HQNzxrW1XWWoZfMi',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.0Sp5sv35NrYbOWmP"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733890096,
+        "modifiedTime": 1716733915926,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "cards": [],
+  "playlists": [],
+  "folders": [
+    {
+      "name": "1. Entrez sans sonner",
+      "sorting": "a",
+      "folder": "NGHvquppNxSwZpTx",
+      "type": "Scene",
+      "_id": "OlgEabTRex20bVtY",
+      "sort": 100000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716726906608,
+        "modifiedTime": 1716733277382,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Scene",
+      "_id": "NGHvquppNxSwZpTx",
+      "sort": 500000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733271459,
+        "modifiedTime": 1716733273565,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "1. Entrez sans sonner",
+      "sorting": "a",
+      "folder": "e2rYH8n0xr40c115",
+      "type": "Actor",
+      "_id": "esHPYaBUpC3Z2WtN",
+      "sort": 100000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716314898649,
+        "modifiedTime": 1716733287865,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Actor",
+      "_id": "e2rYH8n0xr40c115",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733282379,
+        "modifiedTime": 1716733282379,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "1. Entrez sans sonner",
+      "sorting": "a",
+      "folder": "QnTSLXoaV2ZYKfAP",
+      "type": "Item",
+      "_id": "Z0Sk2GpAzdzPqCwd",
+      "sort": 100000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716315588173,
+        "modifiedTime": 1716733294198,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Item",
+      "_id": "QnTSLXoaV2ZYKfAP",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733291957,
+        "modifiedTime": 1716733291957,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "1. Entrez sans sonner",
+      "sorting": "a",
+      "folder": "InWjQF95PQLinHYx",
+      "type": "JournalEntry",
+      "_id": "nJx9qaGGEtnYNn9W",
+      "sort": 100000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716311948605,
+        "modifiedTime": 1716733300433,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "JournalEntry",
+      "_id": "InWjQF95PQLinHYx",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733297303,
+        "modifiedTime": 1716733297303,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "1. Entrez sans sonner",
+      "sorting": "a",
+      "folder": "vZS1OS74aGcx7Jb3",
+      "type": "Macro",
+      "_id": "vfNOkO5Mb57v5tO9",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733232660,
+        "modifiedTime": 1716733232660,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Macro",
+      "_id": "vZS1OS74aGcx7Jb3",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733224414,
+        "modifiedTime": 1716733224414,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "_id": "ANCWlTT87Rv8KJc5",
+  "folder": "DCBDpIUcIcYj2d9m",
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716312641337,
+    "modifiedTime": 1716734770164,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!adventures!ANCWlTT87Rv8KJc5"
+}
