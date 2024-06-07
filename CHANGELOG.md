@@ -6,6 +6,10 @@
 
 - [Irish Job] Fix multiple typo and rearrange some texts.
 
+### Fixed
+
+- Heist sheet not refreshing for agents on some actions
+
 ## [11.5.0] - 2024-05-26
 
 ### Added

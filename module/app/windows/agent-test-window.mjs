@@ -271,6 +271,8 @@ export class AgentTestWindow extends WithSettingsWindow {
     await this.#revealTest();
     await this.#finishTest(true, this.#testSuccessBlackjack);
     await this.#processBlackjack();
+
+    this.#refreshViews();
   }
 
   async handleAgentFetish() {
@@ -329,6 +331,8 @@ export class AgentTestWindow extends WithSettingsWindow {
       agentScore,
       scoreToBeat: jackScore,
     });
+
+    this.#refreshViews();
   }
 
   async #onUseFetish(e) {
