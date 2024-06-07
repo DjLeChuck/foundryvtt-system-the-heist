@@ -260,6 +260,10 @@ export class HeistActor extends BaseActor {
   }
 
   async #deleteDecks() {
+    if (!game.users.activeGM) {
+      return;
+    }
+
     await this.jackDeck?.delete();
     await this.jackPile?.delete();
     await this.jackTestHand?.delete();
