@@ -306,8 +306,15 @@ export class AgentActor extends BaseActor {
   }
 
   async #setCardsOwnership(ownership) {
-    this.hand?.update({ ownership }, { diff: false, recursive: false });
-    this.pile?.update({ ownership }, { diff: false, recursive: false });
+    // Get only entries for owners, and set them to observer
+    const filteredOwnerships = Object.fromEntries(
+      Object.entries(ownership)
+        .filter(([_, value]) => value === CONST.DOCUMENT_OWNERSHIP_LEVELS.OWNER)
+        .map(([key, value]) => [key, CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER])
+    );
+
+    this.hand?.update({ ownership: filteredOwnerships }, { diff: false, recursive: false });
+    this.pile?.update({ ownership: filteredOwnerships }, { diff: false, recursive: false });
   }
 
   async #shuffleDeck(deck) {

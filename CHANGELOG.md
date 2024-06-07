@@ -14,6 +14,7 @@
 
 - Heist sheet not refreshing for agents on some actions
 - Do not execute deck deletion for Heist sheet on non GM
+- Agent should only view their cards stacks
 
 ## [11.5.0] - 2024-05-26
 
