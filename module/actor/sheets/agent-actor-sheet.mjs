@@ -29,6 +29,7 @@ export class AgentActorSheet extends ActorSheet {
 
     context.isLocked = this.isLocked;
     context.enrichedDescription = await TextEditor.enrichHTML(context.actor.system.description, { async: true });
+    context.hasDeck = null !== this.actor.deck;
     context.remainingCards = this.actor.deck?.availableCards.length;
 
     return context;

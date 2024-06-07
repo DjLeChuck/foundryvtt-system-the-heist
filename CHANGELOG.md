@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Display remaining cards on agent sheet
+
 ### Changed
 
 - [Irish Job] Fix multiple typo and rearrange some texts.

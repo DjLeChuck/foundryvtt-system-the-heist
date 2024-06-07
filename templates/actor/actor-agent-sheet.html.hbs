@@ -70,6 +70,12 @@
             </p>
           {{/if}}
         </div>
+        {{#if hasDeck}}
+          <div>
+            <p><strong>{{localize "HEIST.Cards.Remaining"}}</strong></p>
+            <p>{{remainingCards}}</p>
+          </div>
+        {{/if}}
         <div class="agent-story">
           <p><strong>{{localize "HEIST.Agent.Story"}}</strong></p>
 
