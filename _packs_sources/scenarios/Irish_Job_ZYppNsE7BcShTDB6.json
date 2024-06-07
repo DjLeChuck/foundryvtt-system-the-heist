@@ -26,7 +26,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -61,7 +66,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -71,27 +79,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764317126,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -115,7 +143,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -150,7 +183,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -160,27 +196,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764372228,
-        "modifiedTime": 1716126947862,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -204,7 +260,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -239,7 +300,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -249,27 +313,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764395109,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -293,7 +377,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -328,7 +417,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -338,27 +430,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764416341,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -382,7 +494,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -417,7 +534,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -427,27 +547,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764440177,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -471,7 +611,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -506,7 +651,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -516,27 +664,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764482285,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -560,7 +728,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -595,7 +768,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -605,27 +781,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764519321,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -649,7 +845,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -684,7 +885,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -694,27 +898,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764535286,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -738,7 +962,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -773,7 +1002,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -783,27 +1015,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764548941,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -827,7 +1079,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -862,7 +1119,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -872,27 +1132,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764564900,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -916,7 +1196,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -951,7 +1236,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -961,27 +1249,47 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764579592,
-        "modifiedTime": 1716102133470,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832489,
+        "modifiedTime": 1717778832489,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     }
   ],
@@ -1000,16 +1308,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688093219,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1025,16 +1336,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688115349,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1050,16 +1364,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688138537,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1075,16 +1392,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688173462,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1100,16 +1420,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688183994,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1125,16 +1448,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688196167,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1150,16 +1476,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688212715,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1175,16 +1504,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688227242,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1200,16 +1532,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688249033,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1225,16 +1560,19 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688264333,
-        "modifiedTime": 1716102133489,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832502,
+        "modifiedTime": 1717778832502,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     }
   ],
@@ -1270,12 +1608,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713648133565,
-            "modifiedTime": 1716137500521,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1305,12 +1645,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713648515018,
-            "modifiedTime": 1716313251339,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1339,12 +1681,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713648868198,
-            "modifiedTime": 1716126780126,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1359,7 +1703,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p><strong>Description des lieux quand les agents arrivent :</strong></p><p><em>À quelques pas de la très touristique Portobello Road se dresse, dans une petite rue à sens unique, un magasin d’antiquités, l’Antique Emporium, installé dans un vieux bâtiment au toit en dents de scie caractéristique des vieilles industries. À travers les vitres, les curieux peuvent voir des centaines d’antiquités diverses (meubles, accessoires, œuvres, décorations, etc.) qui se perdent dans ce qui semble être un véritable dédale.</em></p><p><em>Juste à côté, les touristes peuvent se désaltérer dans un petit pub irlandais avec un étage, le Griffin’s Head. Les belles fenêtres aux vitraux orange et vert permettent d’admirer le vieux comptoir en cuivre et les box en bois ouvragé.</em></p><p><em>La porte suivante s’ouvre sur un petit restaurant de fish &amp; chips à emporter, visiblement associé au pub, le Griffs&amp;Chips.</em></p><p><em>Le bloc de bâtiments laisse ensuite place à une ruelle en impasse, à peine assez large pour laisser passer un camion. Deux hommes surveillent l’entrée de l’impasse.</em></p><h2>Impasse</h2><p>L’impasse s’enfonce sur quelques dizaines de mètres. Les bâtiments à l’est et au nord sont des immeubles résidentiels de cinq étages, sans fenêtre sur cette ruelle.</p><ul><li><p>Deux gardes sont en permanence de faction à l’entrée. Ils discutent, fument, regardent leur téléphone.</p></li><li><p>Sur le mur ouest, une porte de service mène derrière le comptoir du <em>fish &amp; chips</em> ; elle est toujours ouverte ou presque pour évacuer une partie des odeurs de friture.</p></li><li><p>Une porte de service mène aux cuisines du pub. Les cuisiniers en sortent pour décharger les livraisons, sortir les poubelles jusque dans la rue ou faire une pause.</p></li><li><p>Une trappe au sol à côté de la porte de service des cuisines mène au sous-sol, dans la cave qui sert de réserve au restaurant et au bar. Elle est par défaut verrouillée par un gros cadenas.</p></li><li><p>Une grande porte de garage, ainsi qu’une porte de service à côté, mène à l’entrepôt. Un garde est assis devant.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un camion s’enfonce dans la ruelle en marche arrière, effectuant une manœuvre délicate. Le chauffeur salue les deux gardes.</p><p>Quand le camion arrive au bout de la ruelle, la porte de l’entrepôt s’ouvre. Un homme sort de l’arrière du camion. Quatre gardes sortent de l’entrepôt et aident le chauffeur à charger des caisses et des meubles dans le camion.</p><p>Quand vous le souhaitez, le camion repart.</p><p>Si l’on écoute la conversation avec les gardes, le chauffeur indique qu’il revient d’ici quelques heures, mais que, d’ici là, d’autres camions arrivent pour charger.</p></div><p></p><div class=\"blue-box\"><h1>Routine des chargements de camion</h1><p>Toutes les heures, un camion arrive.</p><ul><li><p>Il salue les gardes à l’entrée de la ruelle.</p></li><li><p>Il se gare en marche arrière.</p></li><li><p>Un homme sort de l’arrière du camion et y retourne à la fin du chargement.</p></li><li><p>Les hommes dans l’entrepôt sortent et chargent le camion pendant environ 30 minutes.</p></li><li><p>Le camion repart en saluant les gardes.</p></li></ul><p>Tous les camions viennent de la même société de logistique, Newtown Freight.</p><p>En plus du chauffeur, il y a un garde dans chaque camion, sur la banquette avant tant que le camion roule, à l’arrière quand il est en cours de chargement.</p></div><p></p><div class=\"blue-box\"><h1>Les chargements de marchandises</h1><p>Les camions vident en premier l’entrepôt pendant la journée (et donc pendant la reconnaissance).</p><p>Les stocks du bunker ne sont vidés qu’à partir du soir.</p><p>Le portrait ne partira dans un camion que si O’Brien se retrouve obligé de fuir avec.</p></div><h2>Magasin - The Antique Emporium</h2><ul><li><p>Ouvert tous les jours de 10 heures à 18 heures, sauf les lundis et mardis.</p></li><li><p>Le magasin vend tout type d’antiquités : meubles, peintures, accessoires, luminaires, statues, vases, etc. Le tout dans une ambiance assez poussiéreuse, datée. La première impression ressentie quand on y entre est d’être dans un lieu foutraque.</p></li><li><p>À l’intérieur, un parcours de circulation fait faire le tour de l’ensemble du magasin. Difficile de comprendre l’organisation, mais tout est accessible. Les éléments sont numérotés (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#le-systeme-de-classement-des-antiquites]{Le Système de classement des antiquités}).</p></li><li><p>Le bâtiment est très en hauteur. Le plafond est à 6 mètres sur le côté le plus haut, à l’est, et descend en pente jusqu’à la hauteur de 5 mètres sur le côté ouest.</p></li><li><p>De grandes vitres sur le toit en dents de scie éclairent agréablement le lieu poussiéreux.</p></li><li><p>On croise parfois un chat noir farouche, Bagheera.</p></li><li><p>Au fond du magasin, à l’est, en levant les yeux, on repère clairement une grande baie vitrée délavée, qui commence à environ 3 mètres de hauteur. Aussi vieille que le bâtiment, elle est trop opaque pour parfaitement voir au travers. Avec une vue acérée, on peut deviner qu’il s’agit d’un bureau, derrière (celui d’O’Brien).</p></li><li><p>Sur le mur est, il y a une large porte coulissante vers l’entrepôt, qui est verrouillée par une serrure.</p></li><li><p>Deux personnes travaillent dans cette boutique : <strong>@UUID[Actor.T8fKInwlfbcbahcE]{Miss Garrett}</strong>, la patronne, se trouve toujours derrière le comptoir ; <strong>@UUID[Actor.Nms9fDiayegxq6BN]{Leon Fergil}</strong>, employé aigri, se déplace dans le magasin.</p></li><li><p>Derrière le comptoir, il n’y a aucun élément informatique, mais un registre qui répertorie tous les éléments présents au magasin et dans l’entrepôt (mais pas dans le bunker).</p></li><li><p>Dans les allées, quelques touristes et clients regardent les produits.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Fergil sort de l’entrepôt par la porte coulissante, la referme derrière lui et surprend des clients qui touchent à des produits exposés : « <em>Si on touche, on paie !</em> »</p><p>Bagheera sort de nulle part en sautant à proximité d’un agent avant de disparaître derrière un meuble.</p></div><p></p><div class=\"blue-box\"><h1>Le système de classement des antiquités</h1><p>Les objets possédés par le magasin et O’Brien sont soigneusement répertoriés, y compris l’autoportrait de Bacon.</p><p>Tous les objets sont étiquetés avec 3 lettres, 1 lettre, 2 chiffres : « ANT-B-28 » par exemple.</p><p>Les 3 premières lettres correspondent au bâtiment de stockage :</p><ul><li><p>ANT pour le magasin ;</p></li><li><p>STO pour l’entrepôt ;</p></li><li><p>BUN pour le bunker.</p></li></ul><p>La lettre seule correspond à l’étagère ou l’allée où est rangé l’objet et le chiffre à son emplacement précis dans cette étagère ou allée.</p><p>Les registres trouvables dans le magasin et l’entrepôt ne font état que de références en STO et ANT-.</p><p>Le registre dans le bureau d’O’Brien, lui, liste tous les éléments, y compris ceux du bunker.</p></div><h2>Entrepôt</h2><ul><li><p>Quatre gardes circulent en permanence pour entreposer des caisses et des meubles devant la porte côté impasse ou pour charger le camion quand il est là.</p></li><li><p>Le plafond varie entre 5 et 6 mètres de hauteur, en dents de scie.</p></li><li><p>Comme dans le magasin, de grandes vitres sur le toit éclairent le lieu. Elles sont mal entretenues, un peu opacifiées par la crasse, mais on peut voir à travers.</p></li><li><p>À l’ouest, le plafond est plus bas (environ 2,5 mètres) en raison d’une pièce à l’étage : c’est là que se situe en hauteur le bureau d’O’Brien, dont on voit une des grandes baies vitrées délavées, similaire à celle du côté du magasin.</p></li><li><p>Une grande porte fermée par une porte coulissante, verrouillée, mène au magasin. Parfois, Fergil passe de l’entrepôt au magasin.</p></li><li><p>L’entrepôt est organisé (plus que le magasin en tout cas) avec des rayonnages. Les meubles sont encastrés de manière à prendre le moins de place possible.</p></li><li><p>Le rangement se fait selon le système de classement des antiquités expliqué ci-contre.</p></li><li><p>Il y a un petit chariot élévateur qui permet d’aller chercher et de déplacer des marchandises en hauteur.</p></li><li><p>Caché derrière une série de rayons, un monte-charge descend dans le bunker. C’est une plaque de métal au sol, rien ne laisse présager son utilisation à moins de l’inspecter.<br />Un boîtier électronique est fixé sur le mur à proximité. En utilisant une clé spécifique, il enclenche le monte-charge. Il existe 3 exemplaires de cette clé, possédés par le responsable de la sécurité (Murphy), par O’Brien et par un des gardes qui s’occupent des chargements.</p></li><li><p>Un digicode dans le coin au nord-ouest ouvre une porte dissimulée. Celle-ci donne sur un escalier en colimaçon qui monte vers le bureau d’O’Brien et descend vers le bunker.</p></li><li><p>Près de la porte vers la ruelle, un petit cabanon technique sert de poste de sécurité. À l’intérieur, il y a en permanence un garde qui surveille une série d’écrans, où retransmettent les caméras de sécurité. Il n’en sort que pour aider à charger le camion.</p></li><li><p>Le compteur électrique général (et donc les fusibles de tout le bâtiment) se trouve dans le poste de sécurité.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Les hommes chargent le camion. Quand celui-ci repart, ils retournent chercher d’autres caisses au sous-sol en utilisant le monte-charge, pour les installer près de la porte de garage.</p><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Fish &amp; Chips - Griffs&amp;Chips</h2><ul><li><p>Ouvert tous les jours de 10 heures à 23 heures.</p></li><li><p>Le menu est unique et dépend du poisson du jour.</p></li><li><p>Tout est cuisiné dans les cuisines du pub.</p></li><li><p>Une porte battante dans le mur du fond mène à la cuisine.</p></li><li><p>Il y a un banc et quelques chaises pour patienter, mais rien n’invite à rester.</p></li><li><p>L’ensemble est plutôt poisseux.</p></li><li><p>Un employé se tient derrière le comptoir : <strong>@UUID[Actor.9vI0y54rLRZ5HwLK]{Liam Sullivan}</strong>.</p></li></ul><h2>Cuisine</h2><ul><li><p>Le cuistot, <strong>@UUID[Actor.8z2P1HlAI8jE9vZs]{Marc Dunstal}</strong>, commence son service à 11 heures pour le finir à 23 heures.</p></li><li><p>Au coup de feu, il est aidé par un commis, <strong>@UUID[Actor.ECFyQt1FVZ5r1HvR]{Luke Perk}</strong>. Il est seul le reste du temps.</p></li><li><p>En prévision du tournoi de ce soir, et en fonction de l’heure qu’il est, des renforts sont présents (à la plonge ou au service). Dunstal et Perk ne connaissent pas tous les extras personnellement.</p></li><li><p>Le menu est sommaire : <em>fish &amp; chips</em>, <em>stew</em> ou <em>Guinness pie</em>.</p></li><li><p>L’équipement est simple mais bien entretenu et fonctionnel. La cuisine est toujours propre, Dunstal y veille.</p></li><li><p>Une porte mène derrière le comptoir du pub, une autre au restaurant Griffs&amp;Chips et une troisième dans l’impasse.</p></li><li><p>Un escalier monte à l’étage.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Irish pub - The Griffin’s Head</h2><ul><li><p>Le pub ouvre à 10 heures et ferme à 1 heure du matin.</p></li><li><p>La belle porte en bois donne sur un vieux pub avec un très beau comptoir en cuivre, des tables en bois et des box anciens. Une musique rock/folk est diffusée.</p></li><li><p>Il y a toujours une barista derrière le comptoir, <strong>@UUID[Actor.QtsVMx5uMbohnaht]{Sally Sullivan}</strong>.</p></li><li><p>Le soir, elle est aidée par un serveur en extra.</p></li><li><p>Il y a toujours une à deux tables occupées. Le midi et le soir, le lieu est plus rempli (une quinzaine de personnes).</p></li><li><p>La moitié des clients sont des membres de la bande d’O’Brien, de simples travailleurs ou des hommes de main. L’autre moitié est constituée de gens de passage ou de touristes inconscients des magouilles du patron.</p></li><li><p>L’escalier est barré par une simple corde et un panneau « <em>members only</em> ».</p></li><li><p>L’homme au comptoir est <strong>@UUID[Actor.rDY5lDYSfwjkWii1]{Donn Murphy}</strong>. Il est également chargé de filtrer les passages vers l’étage. Il n’y a pas de carte de membre, il est simplement briefé sur les personnes bienvenues ou non. Parfois, c’est O’Brien qui se charge de les lui indiquer, mais, le plus souvent, c’est <strong>@UUID[Actor.nwRZJlxWB4ZaDbhE]{Ethan Byrne}</strong>, le responsable de la salle de jeu. Les habitués reçoivent simplement un hochement de tête pour monter. De nouveaux venus se présentent parfois, chaperonnés par un ancien. Murphy prend alors le temps de scruter l’individu, de le fouiller éventuellement et d’en parler à Byrne en cas de doute.</p></li><li><p>Les clients habitués parlent discrètement du tournoi à venir et du premier prix.</p></li><li><p>Murphy a sur lui la liste des participants au tournoi (un papier collé sur un porte-document). Il consulte régulièrement la liste.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un croupier (en uniforme) arrive au comptoir, demandant des renseignements pour le tournoi. Murphy le fait monter à l’étage et le renvoie vers Byrne.</p><p>Murphy passe aux toilettes ; il laisse son porte-document sur le comptoir en faisant signe à Sullivan de le garder à l’œil.</p><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Club - Salle de jeu</h2><ul><li><p>La salle est ouverte aux membres, le soir seulement.</p></li><li><p>En journée, rien ne s’y passe, si ce n’est la préparation des tables de jeu pour le tournoi.</p></li><li><p>Un tournoi de poker privé est organisé ce soir. Une affiche reprend la composition des tables et le prix final qui sera « une œuvre exceptionnelle », sans préciser de quoi il s’agit.</p></li><li><p>Huit tables de poker sont installées. Huit croupiers ont été embauchés pour l’occasion ; ils arrivent aux alentours de 17 heures pour préparer les tables.</p></li><li><p>Ethan Byrne est responsable de la salle de jeu et du bar.</p></li><li><p>Le soir, assis près de la porte du bureau sur une chaise, <strong>@UUID[Actor.nAOT2xMIj0AwRsNs]{Hugh « Huge » Kavanagh}</strong> sert de videur. Il est armé, mais n’est pas là durant la journée.</p></li><li><p>Deux serveurs sont prévus pour le tournoi, en plus des croupiers.</p></li><li><p>Une porte mène au bureau d’O’Brien. Elle est toujours verrouillée (il est le seul à posséder la clé), sauf s’il est à l’intérieur.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un croupier appelle, il ne pourra pas venir ce soir, ce qui met Byrne très en colère.</p><p>O’Brien passe par là saluer tout le monde (voir ci-dessous @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Bureau</h2><ul><li><p>La pièce est au-dessus d’une partie de l’entrepôt.</p></li><li><p>Le plafond est le même que celui du magasin et de l’entrepôt (dents de scie du toit industriel), mais sans vitre ici.</p></li><li><p>Les murs à l’est et à l’ouest sont d’immenses baies vitrées à carreaux datant de l’époque industrielle du magasin.<br />Les vitres sont un peu opaques, mais permettent de distinguer s’il y a de l’activité dans le magasin d’un côté et dans l’entrepôt de l’autre.</p></li><li><p>La pièce est aménagée avec des objets provenant du commerce d’O’Brien : table, bibliothèque, chaises, tableaux, téléphone, tapis couvrant tout le sol… chaque élément est une pièce de collection. Seul l’ordinateur est de dernier cri.</p></li><li><p>Au mur, un tableau de Turner est présent, un original.</p></li><li><p>Derrière le tableau se trouve un coffre-fort à molettes. À l’intérieur, il y a de l’argent liquide, des documents légaux, la clé de la trappe de l’escalier, le certificat d’authenticité de l’autoportrait de Bacon et le registre de toutes les pièces entreposées dans le bâtiment, y compris dans le bunker. La référence de l’autoportrait est BUN-D-07.</p></li><li><p>Un escalier métallique en colimaçon descend au rez-de-chaussée, puis au sous-sol. C’est O’Brien qui l’a fait ajouter quand il a découvert l’existence du bunker à l’achat du magasin. Cet ajout est absent des plans et inconnu des autorités.<br />La trappe d’accès à l’escalier est dissimulée sous un tapis, invisible sans une inspection. Elle s’ouvre avec une clé qu’il garde sur lui et dont un double est entreposé dans le coffre-fort.</p></li><li><p>Sur sa table, des documents papier sont étalés, mais n’ont aucun intérêt (paperasse légale et comptable).</p></li></ul><p></p><div class=\"blue-box\"><h1>Pendant la reconnaissance, le chemin d’O’Brien</h1><p>O’Brien est dans son bureau au début de la phase de Reconnaissance, puis se déplace en suivant les étapes suivantes :</p><ul><li><p>Il sort du bureau et entre dans la salle de jeu où il salue Byrne, vérifiant avec lui si tout est prêt pour le soir même ;</p></li><li><p>Il descend par l’escalier vers le rez-de-chaussée du pub. Il salue et discute chaleureusement avec Murphy et Sally Sullivan, les encourageant à faire du bon boulot ce soir pour le tournoi : il compte sur eux. C’est probablement ici qu’il a le plus de chances d’être vu par les agents, ce moment peut donc avoir lieu quand l’un d’eux visite le pub ;</p></li><li><p>O’Brien passe ensuite en cuisine pour tenir le même type de discours à Dunstal et sort dans l’impasse. Si Fergil s’y trouve, il le réprimande gentiment pour son laxisme ;</p></li><li><p>Après cela, il rejoint l’équipe qui charge un camion, vérifiant avec sérieux si tout se passe comme convenu et les encourageant pour les derniers chargements à venir dans la journée ;</p></li><li><p>Il entre enfin dans l’entrepôt et utilise le monte-charge pour descendre dans le bunker ;</p></li><li><p>Pour finir, il utilise l’escalier « secret » pour retourner dans son bureau.</p></li></ul><p>O’Brien est parfaitement avenant et salue chaleureusement tous ses employés sur son chemin. En revanche, dès qu’il ne se pense pas observé, il semble soucieux, vérifiant constamment son téléphone et manipulant ses clés nerveusement.</p></div><p>En revanche, l’ordinateur permet d’accéder au système de surveillance du bâtiment et de le manipuler : caméras et alarmes du magasin, de l’entrepôt et du bunker.</p><h2>Cave</h2><ul><li><p>La salle est entièrement en béton. Le plafond est voûté du côté de la ruelle. Des tubes néon éclairent la pièce d’une lumière jaune.</p></li><li><p>Les fûts de bière et les stocks de nourriture du bar ainsi que du <em>fish &amp; chips</em> sont entreposés sur des étagères.</p></li><li><p>Dans le coin sud-ouest, une observation des lieux permet de repérer un rail au sol qui disparaît sous une étagère ; il n’y en a pas ailleurs dans la cave. L’étagère en question peut être déplacée pour dévoiler une ouverture dans le mur, donnant sur le bunker secret.<br />Le passage s’ouvre avec un digicode dissimulé à proximité de l’étagère.</p></li></ul><h2>Bunker</h2><ul><li><p>Il s’agit d’un petit abri pour se protéger des bombardements, construit par les propriétaires de l’ancienne usine dans les années 1940 et jamais ajouté au cadastre.</p></li><li><p>Il sert désormais de lieu de stockage pour les marchandises illégales d’O’Brien. Il y a des dizaines de tableaux, des meubles ouvragés et des centaines de caisses en bois avec des dizaines d’objets dans chacune.</p></li><li><p>Tout est inventorié sur le même système que dans l’entrepôt, avec le préfixe BUN.</p></li><li><p>L’autoportrait est au bon emplacement (BUN-D-07). Le trouver sans connaître le registre prend 90 minutes (temps nécessaire pour ouvrir une caisse ou déballer un tableau, regarder et passer à la suite).</p></li><li><p>Un monte-charge mène à l’entrepôt, un escalier en colimaçon au bureau d’O’Brien, et une porte à la cave.</p></li></ul><div class=\"orange-box\"><p>Vous pouvez afficher la tuile du bunker à vos joueurs en utilisant la macro @UUID[Macro.O8PF6IzmSOlYZP0y]{Bunker}.</p></div>",
+            "content": "<p><strong>Description des lieux quand les agents arrivent :</strong></p><p><em>À quelques pas de la très touristique Portobello Road se dresse, dans une petite rue à sens unique, un magasin d’antiquités, l’Antique Emporium, installé dans un vieux bâtiment au toit en dents de scie caractéristique des vieilles industries. À travers les vitres, les curieux peuvent voir des centaines d’antiquités diverses (meubles, accessoires, œuvres, décorations, etc.) qui se perdent dans ce qui semble être un véritable dédale.</em></p><p><em>Juste à côté, les touristes peuvent se désaltérer dans un petit pub irlandais avec un étage, le Griffin’s Head. Les belles fenêtres aux vitraux orange et vert permettent d’admirer le vieux comptoir en cuivre et les box en bois ouvragé.</em></p><p><em>La porte suivante s’ouvre sur un petit restaurant de fish &amp; chips à emporter, visiblement associé au pub, le Griffs&amp;Chips.</em></p><p><em>Le bloc de bâtiments laisse ensuite place à une ruelle en impasse, à peine assez large pour laisser passer un camion. Deux hommes surveillent l’entrée de l’impasse.</em></p><h2>Impasse</h2><p>L’impasse s’enfonce sur quelques dizaines de mètres. Les bâtiments à l’est et au nord sont des immeubles résidentiels de cinq étages, sans fenêtre sur cette ruelle.</p><ul><li><p>Deux gardes sont en permanence de faction à l’entrée. Ils discutent, fument, regardent leur téléphone.</p></li><li><p>Sur le mur ouest, une porte de service mène derrière le comptoir du <em>fish &amp; chips</em> ; elle est toujours ouverte ou presque pour évacuer une partie des odeurs de friture.</p></li><li><p>Une porte de service mène aux cuisines du pub. Les cuisiniers en sortent pour décharger les livraisons, sortir les poubelles jusque dans la rue ou faire une pause.</p></li><li><p>Une trappe au sol à côté de la porte de service des cuisines mène au sous-sol, dans la cave qui sert de réserve au restaurant et au bar. Elle est par défaut verrouillée par un gros cadenas.</p></li><li><p>Une grande porte de garage, ainsi qu’une porte de service à côté, mène à l’entrepôt. Un garde est assis devant.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un camion s’enfonce dans la ruelle en marche arrière, effectuant une manœuvre délicate. Le chauffeur salue les deux gardes.</p><p>Quand le camion arrive au bout de la ruelle, la porte de l’entrepôt s’ouvre. Un homme sort de l’arrière du camion. Quatre gardes sortent de l’entrepôt et aident le chauffeur à charger des caisses et des meubles dans le camion.</p><p>Quand vous le souhaitez, le camion repart.</p><p>Si l’on écoute la conversation avec les gardes, le chauffeur indique qu’il revient d’ici quelques heures, mais que, d’ici là, d’autres camions arrivent pour charger.</p></div><p></p><div class=\"blue-box\"><h1>Routine des chargements de camion</h1><p>Toutes les heures, un camion arrive.</p><ul><li><p>Il salue les gardes à l’entrée de la ruelle.</p></li><li><p>Il se gare en marche arrière.</p></li><li><p>Un homme sort de l’arrière du camion et y retourne à la fin du chargement.</p></li><li><p>Les hommes dans l’entrepôt sortent et chargent le camion pendant environ 30 minutes.</p></li><li><p>Le camion repart en saluant les gardes.</p></li></ul><p>Tous les camions viennent de la même société de logistique, Newtown Freight.</p><p>En plus du chauffeur, il y a un garde dans chaque camion, sur la banquette avant tant que le camion roule, à l’arrière quand il est en cours de chargement.</p></div><p></p><div class=\"blue-box\"><h1>Les chargements de marchandises</h1><p>Les camions vident en premier l’entrepôt pendant la journée (et donc pendant la reconnaissance).</p><p>Les stocks du bunker ne sont vidés qu’à partir du soir.</p><p>Le portrait ne partira dans un camion que si O’Brien se retrouve obligé de fuir avec.</p></div><h2>Magasin - The Antique Emporium</h2><ul><li><p>Ouvert tous les jours de 10 heures à 18 heures, sauf les lundis et mardis.</p></li><li><p>Le magasin vend tout type d’antiquités : meubles, peintures, accessoires, luminaires, statues, vases, etc. Le tout dans une ambiance assez poussiéreuse, datée. La première impression ressentie quand on y entre est d’être dans un lieu foutraque.</p></li><li><p>À l’intérieur, un parcours de circulation fait faire le tour de l’ensemble du magasin. Difficile de comprendre l’organisation, mais tout est accessible. Les éléments sont numérotés (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#le-systeme-de-classement-des-antiquites]{Le Système de classement des antiquités}).</p></li><li><p>Le bâtiment est très en hauteur. Le plafond est à 6 mètres sur le côté le plus haut, à l’est, et descend en pente jusqu’à la hauteur de 5 mètres sur le côté ouest.</p></li><li><p>De grandes vitres sur le toit en dents de scie éclairent agréablement le lieu poussiéreux.</p></li><li><p>On croise parfois un chat noir farouche, Bagheera.</p></li><li><p>Au fond du magasin, à l’est, en levant les yeux, on repère clairement une grande baie vitrée délavée, qui commence à environ 3 mètres de hauteur. Aussi vieille que le bâtiment, elle est trop opaque pour parfaitement voir au travers. Avec une vue acérée, on peut deviner qu’il s’agit d’un bureau, derrière (celui d’O’Brien).</p></li><li><p>Sur le mur est, il y a une large porte coulissante vers l’entrepôt, qui est verrouillée par une serrure.</p></li><li><p>Deux personnes travaillent dans cette boutique : <strong>@UUID[Actor.T8fKInwlfbcbahcE]{Miss Garrett}</strong>, la patronne, se trouve toujours derrière le comptoir ; <strong>@UUID[Actor.Nms9fDiayegxq6BN]{Leon Fergil}</strong>, employé aigri, se déplace dans le magasin.</p></li><li><p>Derrière le comptoir, il n’y a aucun élément informatique, mais un registre qui répertorie tous les éléments présents au magasin et dans l’entrepôt (mais pas dans le bunker).</p></li><li><p>Dans les allées, quelques touristes et clients regardent les produits.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Fergil sort de l’entrepôt par la porte coulissante, la referme derrière lui et surprend des clients qui touchent à des produits exposés : « <em>Si on touche, on paie !</em> »</p><p>Bagheera sort de nulle part en sautant à proximité d’un agent avant de disparaître derrière un meuble.</p></div><p></p><div class=\"blue-box\"><h1>Le système de classement des antiquités</h1><p>Les objets possédés par le magasin et O’Brien sont soigneusement répertoriés, y compris l’autoportrait de Bacon.</p><p>Tous les objets sont étiquetés avec 3 lettres, 1 lettre, 2 chiffres : « ANT-B-28 » par exemple.</p><p>Les 3 premières lettres correspondent au bâtiment de stockage :</p><ul><li><p>ANT pour le magasin ;</p></li><li><p>STO pour l’entrepôt ;</p></li><li><p>BUN pour le bunker.</p></li></ul><p>La lettre seule correspond à l’étagère ou l’allée où est rangé l’objet et le chiffre à son emplacement précis dans cette étagère ou allée.</p><p>Les registres trouvables dans le magasin et l’entrepôt ne font état que de références en STO et ANT-.</p><p>Le registre dans le bureau d’O’Brien, lui, liste tous les éléments, y compris ceux du bunker.</p></div><h2>Entrepôt</h2><ul><li><p>Quatre gardes circulent en permanence pour entreposer des caisses et des meubles devant la porte côté impasse ou pour charger le camion quand il est là.</p></li><li><p>Le plafond varie entre 5 et 6 mètres de hauteur, en dents de scie.</p></li><li><p>Comme dans le magasin, de grandes vitres sur le toit éclairent le lieu. Elles sont mal entretenues, un peu opacifiées par la crasse, mais on peut voir à travers.</p></li><li><p>À l’ouest, le plafond est plus bas (environ 2,5 mètres) en raison d’une pièce à l’étage : c’est là que se situe en hauteur le bureau d’O’Brien, dont on voit une des grandes baies vitrées délavées, similaire à celle du côté du magasin.</p></li><li><p>Une grande porte fermée par une porte coulissante, verrouillée, mène au magasin. Parfois, Fergil passe de l’entrepôt au magasin.</p></li><li><p>L’entrepôt est organisé (plus que le magasin en tout cas) avec des rayonnages. Les meubles sont encastrés de manière à prendre le moins de place possible.</p></li><li><p>Le rangement se fait selon le système de classement des antiquités expliqué ci-dessus.</p></li><li><p>Il y a un petit chariot élévateur qui permet d’aller chercher et de déplacer des marchandises en hauteur.</p></li><li><p>Caché derrière une série de rayons, un monte-charge descend dans le bunker. C’est une plaque de métal au sol, rien ne laisse présager son utilisation à moins de l’inspecter.<br />Un boîtier électronique est fixé sur le mur à proximité. En utilisant une clé spécifique, il enclenche le monte-charge. Il existe 3 exemplaires de cette clé, possédés par le responsable de la sécurité (Murphy), par O’Brien et par un des gardes qui s’occupent des chargements.</p></li><li><p>Un digicode dans le coin au nord-ouest ouvre une porte dissimulée. Celle-ci donne sur un escalier en colimaçon qui monte vers le bureau d’O’Brien et descend vers le bunker.</p></li><li><p>Près de la porte vers la ruelle, un petit cabanon technique sert de poste de sécurité. À l’intérieur, il y a en permanence un garde qui surveille une série d’écrans, où retransmettent les caméras de sécurité. Il n’en sort que pour aider à charger le camion.</p></li><li><p>Le compteur électrique général (et donc les fusibles de tout le bâtiment) se trouve dans le poste de sécurité.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Les hommes chargent le camion. Quand celui-ci repart, ils retournent chercher d’autres caisses au sous-sol en utilisant le monte-charge, pour les installer près de la porte de garage.</p><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Fish &amp; Chips - Griffs&amp;Chips</h2><ul><li><p>Ouvert tous les jours de 10 heures à 23 heures.</p></li><li><p>Le menu est unique et dépend du poisson du jour.</p></li><li><p>Tout est cuisiné dans les cuisines du pub.</p></li><li><p>Une porte battante dans le mur du fond mène à la cuisine.</p></li><li><p>Il y a un banc et quelques chaises pour patienter, mais rien n’invite à rester.</p></li><li><p>L’ensemble est plutôt poisseux.</p></li><li><p>Un employé se tient derrière le comptoir : <strong>@UUID[Actor.9vI0y54rLRZ5HwLK]{Liam Sullivan}</strong>.</p></li></ul><h2>Cuisine</h2><ul><li><p>Le cuistot, <strong>@UUID[Actor.8z2P1HlAI8jE9vZs]{Marc Dunstal}</strong>, commence son service à 11 heures pour le finir à 23 heures.</p></li><li><p>Au coup de feu, il est aidé par un commis, <strong>@UUID[Actor.ECFyQt1FVZ5r1HvR]{Luke Perk}</strong>. Il est seul le reste du temps.</p></li><li><p>En prévision du tournoi de ce soir, et en fonction de l’heure qu’il est, des renforts sont présents (à la plonge ou au service). Dunstal et Perk ne connaissent pas tous les extras personnellement.</p></li><li><p>Le menu est sommaire : <em>fish &amp; chips</em>, <em>stew</em> ou <em>Guinness pie</em>.</p></li><li><p>L’équipement est simple mais bien entretenu et fonctionnel. La cuisine est toujours propre, Dunstal y veille.</p></li><li><p>Une porte mène derrière le comptoir du pub, une autre au restaurant Griffs&amp;Chips et une troisième dans l’impasse.</p></li><li><p>Un escalier monte à l’étage.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Irish pub - The Griffin’s Head</h2><ul><li><p>Le pub ouvre à 10 heures et ferme à 1 heure du matin.</p></li><li><p>La belle porte en bois donne sur un vieux pub avec un très beau comptoir en cuivre, des tables en bois et des box anciens. Une musique rock/folk est diffusée.</p></li><li><p>Il y a toujours une barista derrière le comptoir, <strong>@UUID[Actor.QtsVMx5uMbohnaht]{Sally Sullivan}</strong>.</p></li><li><p>Le soir, elle est aidée par un serveur en extra.</p></li><li><p>Il y a toujours une à deux tables occupées. Le midi et le soir, le lieu est plus rempli (une quinzaine de personnes).</p></li><li><p>La moitié des clients sont des membres de la bande d’O’Brien, de simples travailleurs ou des hommes de main. L’autre moitié est constituée de gens de passage ou de touristes inconscients des magouilles du patron.</p></li><li><p>L’escalier est barré par une simple corde et un panneau « <em>members only</em> ».</p></li><li><p>L’homme au comptoir est <strong>@UUID[Actor.rDY5lDYSfwjkWii1]{Donn Murphy}</strong>. Il est également chargé de filtrer les passages vers l’étage. Il n’y a pas de carte de membre, il est simplement briefé sur les personnes bienvenues ou non. Parfois, c’est O’Brien qui se charge de les lui indiquer, mais, le plus souvent, c’est <strong>@UUID[Actor.nwRZJlxWB4ZaDbhE]{Ethan Byrne}</strong>, le responsable de la salle de jeu. Les habitués reçoivent simplement un hochement de tête pour monter. De nouveaux venus se présentent parfois, chaperonnés par un ancien. Murphy prend alors le temps de scruter l’individu, de le fouiller éventuellement et d’en parler à Byrne en cas de doute.</p></li><li><p>Les clients habitués parlent discrètement du tournoi à venir et du premier prix.</p></li><li><p>Murphy a sur lui la liste des participants au tournoi (un papier collé sur un porte-document). Il consulte régulièrement la liste.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un croupier (en uniforme) arrive au comptoir, demandant des renseignements pour le tournoi. Murphy le fait monter à l’étage et le renvoie vers Byrne.</p><p>Murphy passe aux toilettes ; il laisse son porte-document sur le comptoir en faisant signe à Sullivan de le garder à l’œil.</p><p>O’Brien passe par là saluer tout le monde (voir plus loin @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Club - Salle de jeu</h2><ul><li><p>La salle est ouverte aux membres, le soir seulement.</p></li><li><p>En journée, rien ne s’y passe, si ce n’est la préparation des tables de jeu pour le tournoi.</p></li><li><p>Un tournoi de poker privé est organisé ce soir. Une affiche reprend la composition des tables et le prix final qui sera « une œuvre exceptionnelle », sans préciser de quoi il s’agit.</p></li><li><p>Huit tables de poker sont installées. Huit croupiers ont été embauchés pour l’occasion ; ils arrivent aux alentours de 17 heures pour préparer les tables.</p></li><li><p>Ethan Byrne est responsable de la salle de jeu et du bar.</p></li><li><p>Le soir, assis près de la porte du bureau sur une chaise, <strong>@UUID[Actor.nAOT2xMIj0AwRsNs]{Hugh « Huge » Kavanagh}</strong> sert de videur. Il est armé, mais n’est pas là durant la journée.</p></li><li><p>Deux serveurs sont prévus pour le tournoi, en plus des croupiers.</p></li><li><p>Une porte mène au bureau d’O’Brien. Elle est toujours verrouillée (il est le seul à posséder la clé), sauf s’il est à l’intérieur.</p></li></ul><div class=\"blue-box\"><h1>Pendant la reconnaissance</h1><p>Un croupier appelle, il ne pourra pas venir ce soir, ce qui met Byrne très en colère.</p><p>O’Brien passe par là saluer tout le monde (voir ci-dessous @UUID[.Dcfd5JW7ht0ugZgu#bureau]{Bureau}).</p></div><h2>Bureau</h2><ul><li><p>La pièce est au-dessus d’une partie de l’entrepôt.</p></li><li><p>Le plafond est le même que celui du magasin et de l’entrepôt (dents de scie du toit industriel), mais sans vitre ici.</p></li><li><p>Les murs à l’est et à l’ouest sont d’immenses baies vitrées à carreaux datant de l’époque industrielle du magasin.<br />Les vitres sont un peu opaques, mais permettent de distinguer s’il y a de l’activité dans le magasin d’un côté et dans l’entrepôt de l’autre.</p></li><li><p>La pièce est aménagée avec des objets provenant du commerce d’O’Brien : table, bibliothèque, chaises, tableaux, téléphone, tapis couvrant tout le sol… chaque élément est une pièce de collection. Seul l’ordinateur est de dernier cri.</p></li><li><p>Au mur, un tableau de Turner est présent, un original.</p></li><li><p>Derrière le tableau se trouve un coffre-fort à molettes. À l’intérieur, il y a de l’argent liquide, des documents légaux, la clé de la trappe de l’escalier, le certificat d’authenticité de l’autoportrait de Bacon et le registre de toutes les pièces entreposées dans le bâtiment, y compris dans le bunker. La référence de l’autoportrait est BUN-D-07.</p></li><li><p>Un escalier métallique en colimaçon descend au rez-de-chaussée, puis au sous-sol. C’est O’Brien qui l’a fait ajouter quand il a découvert l’existence du bunker à l’achat du magasin. Cet ajout est absent des plans et inconnu des autorités.<br />La trappe d’accès à l’escalier est dissimulée sous un tapis, invisible sans une inspection. Elle s’ouvre avec une clé qu’il garde sur lui et dont un double est entreposé dans le coffre-fort.</p></li><li><p>Sur sa table, des documents papier sont étalés, mais n’ont aucun intérêt (paperasse légale et comptable).</p></li></ul><p>En revanche, l’ordinateur permet d’accéder au système de surveillance du bâtiment et de le manipuler : caméras et alarmes du magasin, de l’entrepôt et du bunker.</p><div class=\"blue-box\"><h1>Pendant la reconnaissance, le chemin d’O’Brien</h1><p>O’Brien est dans son bureau au début de la phase de Reconnaissance, puis se déplace en suivant les étapes suivantes :</p><ul><li><p>Il sort du bureau et entre dans la salle de jeu où il salue Byrne, vérifiant avec lui si tout est prêt pour le soir même ;</p></li><li><p>Il descend par l’escalier vers le rez-de-chaussée du pub. Il salue et discute chaleureusement avec Murphy et Sally Sullivan, les encourageant à faire du bon boulot ce soir pour le tournoi : il compte sur eux. C’est probablement ici qu’il a le plus de chances d’être vu par les agents, ce moment peut donc avoir lieu quand l’un d’eux visite le pub ;</p></li><li><p>O’Brien passe ensuite en cuisine pour tenir le même type de discours à Dunstal et sort dans l’impasse. Si Fergil s’y trouve, il le réprimande gentiment pour son laxisme ;</p></li><li><p>Après cela, il rejoint l’équipe qui charge un camion, vérifiant avec sérieux si tout se passe comme convenu et les encourageant pour les derniers chargements à venir dans la journée ;</p></li><li><p>Il entre enfin dans l’entrepôt et utilise le monte-charge pour descendre dans le bunker ;</p></li><li><p>Pour finir, il utilise l’escalier « secret » pour retourner dans son bureau.</p></li></ul><p>O’Brien est parfaitement avenant et salue chaleureusement tous ses employés sur son chemin. En revanche, dès qu’il ne se pense pas observé, il semble soucieux, vérifiant constamment son téléphone et manipulant ses clés nerveusement.</p></div><h2>Cave</h2><ul><li><p>La salle est entièrement en béton. Le plafond est voûté du côté de la ruelle. Des tubes néon éclairent la pièce d’une lumière jaune.</p></li><li><p>Les fûts de bière et les stocks de nourriture du bar ainsi que du <em>fish &amp; chips</em> sont entreposés sur des étagères.</p></li><li><p>Dans le coin sud-ouest, une observation des lieux permet de repérer un rail au sol qui disparaît sous une étagère ; il n’y en a pas ailleurs dans la cave. L’étagère en question peut être déplacée pour dévoiler une ouverture dans le mur, donnant sur le bunker secret.<br />Le passage s’ouvre avec un digicode dissimulé à proximité de l’étagère.</p></li></ul><h2>Bunker</h2><ul><li><p>Il s’agit d’un petit abri pour se protéger des bombardements, construit par les propriétaires de l’ancienne usine dans les années 1940 et jamais ajouté au cadastre.</p></li><li><p>Il sert désormais de lieu de stockage pour les marchandises illégales d’O’Brien. Il y a des dizaines de tableaux, des meubles ouvragés et des centaines de caisses en bois avec des dizaines d’objets dans chacune.</p></li><li><p>Tout est inventorié sur le même système que dans l’entrepôt, avec le préfixe BUN.</p></li><li><p>L’autoportrait est au bon emplacement (BUN-D-07). Le trouver sans connaître le registre prend 90 minutes (temps nécessaire pour ouvrir une caisse ou déballer un tableau, regarder et passer à la suite).</p></li><li><p>Un monte-charge mène à l’entrepôt, un escalier en colimaçon au bureau d’O’Brien, et une porte à la cave.</p></li></ul><div class=\"orange-box\"><p>Vous pouvez afficher la tuile du bunker à vos joueurs en utilisant la macro @UUID[Macro.O8PF6IzmSOlYZP0y]{Bunker}.</p></div>",
             "markdown": ""
           },
           "video": {
@@ -1378,12 +1722,14 @@
             }
           },
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713649027428,
-            "modifiedTime": 1716734313532,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": 1717779242525,
+            "lastModifiedBy": "cpuhGyMSNBNDCEjd"
           }
         },
         {
@@ -1417,12 +1763,14 @@
             }
           },
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713684875596,
-            "modifiedTime": 1716127022180,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1456,12 +1804,14 @@
             }
           },
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713687737912,
-            "modifiedTime": 1713688354498,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1491,12 +1841,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713687874046,
-            "modifiedTime": 1713688359715,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1526,12 +1878,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713687924642,
-            "modifiedTime": 1713688793491,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1560,12 +1914,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713688370107,
-            "modifiedTime": 1713778532133,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1595,12 +1951,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713688480580,
-            "modifiedTime": 1715891239365,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         }
       ],
@@ -1608,7 +1966,8 @@
       "sort": 100000,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {
         "core": {
@@ -1616,12 +1975,14 @@
         }
       },
       "_stats": {
+        "compendiumSource": "JournalEntry.l76Fhe8Py52iYkcC",
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713648106792,
-        "modifiedTime": 1716734313532,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832514,
+        "modifiedTime": 1717778832514,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     },
     {
@@ -1656,12 +2017,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713722153835,
-            "modifiedTime": 1713722170397,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1691,12 +2054,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713722178144,
-            "modifiedTime": 1713722182610,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1726,12 +2091,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713722201900,
-            "modifiedTime": 1713722205837,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1761,12 +2128,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713722226709,
-            "modifiedTime": 1713722235611,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1796,12 +2165,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713722273369,
-            "modifiedTime": 1713722279656,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1831,12 +2202,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713722287133,
-            "modifiedTime": 1713722292443,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1851,7 +2224,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<table><tbody><tr><td data-colwidth=\"363\"><p style=\"text-align:center\"><em><strong>Description</strong></em></p></td><td data-colwidth=\"86\"><p style=\"text-align:center\"><em><strong>Poids</strong></em></p></td><td data-colwidth=\"97\"><p style=\"text-align:center\"><em><strong>Référence</strong></em></p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Baromètre de marin du XVIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,70 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Commode Louis XV</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">67 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre de poche du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe terrestre Prusse</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Miroir Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,88 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Secrétaire du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tapis persan antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,47 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lampe à pétrole Tiffany</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fauteuil bergère du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,59 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à bijoux en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,98 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tableau de maître du XVIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,57 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture en bronze</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Service à thé en argent sterling</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Chandelier en cristal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,31 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Éventail en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,21 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre-bracelet Rolex Vintage</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,09 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffre-fort antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">9,94 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lustre en cristal de Murano</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,60 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manteau de cheminée en marbre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">34,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Horloge de pendule</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau en chêne massif</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">65,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-12</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bougeoir en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,80 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-13</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Robe de bal Victorienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-14</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à cigare en bois de santal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,52 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-15</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de vases émaillés</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,25 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-16</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Masque africain ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Armoire en bois de cerisier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">37,89 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paravent japonais ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,64 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau ministre en acajou</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">87,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Guitare Stratocaster des années 1950</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,58 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boussole de marin ancienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe oculaire de médecine du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,06 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Peinture sur éventail chinois</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,53 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Samovar en argent russe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,68 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Broche en diamant</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,32 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Landau Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,71 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture maya précolombienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,19 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à musique en bois de rose</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,15 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sabre de cavalerie napoléonienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Encrier en cristal taillé</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,37 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à jeux du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,36 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre en gousset en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,76 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de jumelles en nacre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-08</p></td></tr></tbody></table>"
+            "content": "<section class=\"secret\" id=\"secret-Yduhy2K1LkaozudW\"><p>Il s’agit du registre <strong>incomplet</strong> qui n’inclut <strong>pas</strong> les articles se trouvant dans le bunker.</p></section><table><tbody><tr><td data-colwidth=\"363\"><p style=\"text-align:center\"><em><strong>Description</strong></em></p></td><td data-colwidth=\"86\"><p style=\"text-align:center\"><em><strong>Poids</strong></em></p></td><td data-colwidth=\"97\"><p style=\"text-align:center\"><em><strong>Référence</strong></em></p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Baromètre de marin du XVIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,70 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Commode Louis XV</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">67 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre de poche du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe terrestre Prusse</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Miroir Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,88 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Secrétaire du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tapis persan antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,47 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lampe à pétrole Tiffany</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fauteuil bergère du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,59 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à bijoux en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,98 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tableau de maître du XVIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,57 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture en bronze</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Service à thé en argent sterling</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Chandelier en cristal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,31 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Éventail en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,21 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre-bracelet Rolex Vintage</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,09 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffre-fort antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">9,94 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lustre en cristal de Murano</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,60 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manteau de cheminée en marbre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">34,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Horloge de pendule</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau en chêne massif</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">65,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-12</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bougeoir en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,80 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-13</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Robe de bal Victorienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-14</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à cigare en bois de santal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,52 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-15</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de vases émaillés</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,25 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-16</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Masque africain ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Armoire en bois de cerisier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">37,89 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paravent japonais ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,64 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau ministre en acajou</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">87,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Guitare Stratocaster des années 1950</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,58 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boussole de marin ancienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe oculaire de médecine du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,06 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Peinture sur éventail chinois</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,53 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Samovar en argent russe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,68 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Broche en diamant</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,32 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Landau Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,71 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture maya précolombienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,19 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à musique en bois de rose</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,15 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sabre de cavalerie napoléonienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Encrier en cristal taillé</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,37 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à jeux du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,36 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre en gousset en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,76 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de jumelles en nacre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-08</p></td></tr></tbody></table>"
           },
           "video": {
             "controls": true,
@@ -1861,21 +2234,23 @@
           "system": {},
           "ownership": {
             "default": -1,
-            "2Ix5Tl3gxkKU6taP": 3
+            "cpuhGyMSNBNDCEjd": 2
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713989270602,
-            "modifiedTime": 1713990185249,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": 1717779131933,
+            "lastModifiedBy": "cpuhGyMSNBNDCEjd"
           }
         },
         {
           "sort": 800000,
-          "name": "Registre du bunker",
+          "name": "Registre du magasin",
           "type": "text",
           "_id": "9ehN6DNwYh4TgA09",
           "title": {
@@ -1885,7 +2260,8 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<table><tbody><tr><td data-colwidth=\"363\"><p style=\"text-align:center\"><em><strong>Description</strong></em></p></td><td data-colwidth=\"86\"><p style=\"text-align:center\"><em><strong>Poids</strong></em></p></td><td data-colwidth=\"97\"><p style=\"text-align:center\"><em><strong>Référence</strong></em></p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Baromètre de marin du XVIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,70 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Commode Louis XV</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">67 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre de poche du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe terrestre Prusse</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Miroir Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,88 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Secrétaire du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tapis persan antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,47 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lampe à pétrole Tiffany</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fauteuil bergère du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,59 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à bijoux en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,98 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tableau de maître du XVIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,57 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture en bronze</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Service à thé en argent sterling</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Chandelier en cristal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,31 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Éventail en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,21 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre-bracelet Rolex Vintage</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,09 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffre-fort antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">9,94 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lustre en cristal de Murano</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,60 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manteau de cheminée en marbre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">34,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Horloge de pendule</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau en chêne massif</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">65,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-12</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bougeoir en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,80 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-13</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Robe de bal Victorienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-14</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à cigare en bois de santal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,52 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-15</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de vases émaillés</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,25 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-16</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Masque africain ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Armoire en bois de cerisier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">37,89 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paravent japonais ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,64 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau ministre en acajou</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">87,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Guitare Stratocaster des années 1950</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,58 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boussole de marin ancienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe oculaire de médecine du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,06 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Peinture sur éventail chinois</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,53 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Samovar en argent russe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,68 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Broche en diamant</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,32 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Landau Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,71 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture maya précolombienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,19 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à musique en bois de rose</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,15 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sabre de cavalerie napoléonienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Encrier en cristal taillé</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,37 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à jeux du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,36 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre en gousset en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,76 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de jumelles en nacre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Jeu d’échec en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Shofar ancien en corne de Bélier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manuscrits de la Mer morte</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,43 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tapisserie de Bayeux</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">La femme enceinte de Amedeo M.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,03 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Casque de Sutton Hoo</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,97 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sphinge de Gizeh</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,59 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">La sirène de Velluto de Tamara de L.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lampe de la Genie</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tiare de l’Impératrice Eugénie</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,44 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Spectre du roi d’Éthiopie</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,66 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manuscrits orignaux d’Ernest H.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,69 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Le portrait de Hébuterne de M.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Icône du Christ du Xe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture africaine tribale</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,61 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fourrures de loutre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Poteries Aztèques</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Autoportrait Francis B.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Statuette Africaine en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,37 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fiole de venin de Cobra Royal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,06 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Céramique de l’Empire Shang</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,88 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">La main coupée Frida K.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,90 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fossiles de Sauropodes</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,65 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-12</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Instrument de musique Mésopotamien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,19 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Défenses d’Éléphant d’Inde</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">15,64 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Mousquet de la révolution Française</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,32 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Couteau rituel Inca</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,57 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fourrures de vison</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,21 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Ornements de Séthi Ier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,08 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Vase Ming</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,45 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-08</p></td></tr></tbody></table>"
+            "content": "<section class=\"secret\" id=\"secret-jvP4MgP8V6Hx9zuf\"><p>Il s’agit du registre <strong>complet</strong> incluant les articles se trouvant dans le bunker.</p></section><table><tbody><tr><td data-colwidth=\"363\"><p style=\"text-align:center\"><em><strong>Description</strong></em></p></td><td data-colwidth=\"86\"><p style=\"text-align:center\"><em><strong>Poids</strong></em></p></td><td data-colwidth=\"97\"><p style=\"text-align:center\"><em><strong>Référence</strong></em></p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Baromètre de marin du XVIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,70 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Commode Louis XV</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">67 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre de poche du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe terrestre Prusse</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Miroir Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,88 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Secrétaire du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tapis persan antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,47 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lampe à pétrole Tiffany</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fauteuil bergère du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,59 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à bijoux en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,98 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tableau de maître du XVIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,57 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture en bronze</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Service à thé en argent sterling</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,05 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Chandelier en cristal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,31 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Éventail en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,21 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre-bracelet Rolex Vintage</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,09 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffre-fort antique</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">9,94 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lustre en cristal de Murano</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,60 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manteau de cheminée en marbre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">34,56 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Horloge de pendule</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau en chêne massif</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">65,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-12</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bougeoir en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,80 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-13</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Robe de bal Victorienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-14</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à cigare en bois de santal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,52 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-15</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de vases émaillés</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,25 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">ANT-B-16</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Masque africain ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,41 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Armoire en bois de cerisier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">37,89 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paravent japonais ancien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">8,64 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Bureau ministre en acajou</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">87,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Guitare Stratocaster des années 1950</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,58 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boussole de marin ancienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,62 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Globe oculaire de médecine du XIXe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,06 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Peinture sur éventail chinois</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,53 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Samovar en argent russe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,68 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Broche en diamant</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,32 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-A-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Landau Victorien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,71 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture maya précolombienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,19 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Boîte à musique en bois de rose</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,15 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sabre de cavalerie napoléonienne</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Encrier en cristal taillé</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,37 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Coffret à jeux du XVIIIe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,36 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Montre en gousset en argent</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,76 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Paire de jumelles en nacre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,11 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">STO-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Jeu d’échec en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Shofar ancien en corne de Bélier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manuscrits de la Mer morte</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,43 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tapisserie de Bayeux</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,63 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">La femme enceinte de Amedeo M.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,03 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Casque de Sutton Hoo</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,97 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sphinge de Gizeh</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,59 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">La sirène de Velluto de Tamara de L.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Lampe de la Genie</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Tiare de l’Impératrice Eugénie</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,44 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Spectre du roi d’Éthiopie</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,66 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-A-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Manuscrits orignaux d’Ernest H.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,69 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-01</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Le portrait de Hébuterne de M.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Icône du Christ du Xe</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,73 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Sculpture africaine tribale</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,61 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fourrures de loutre</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">3,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Poteries Aztèques</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">5,02 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Autoportrait Francis B.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,54 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Statuette Africaine en ivoire</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,37 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-08</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fiole de venin de Cobra Royal</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,06 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-09</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Céramique de l’Empire Shang</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,88 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-10</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">La main coupée Frida K.</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,90 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-11</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fossiles de Sauropodes</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,65 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-B-12</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Instrument de musique Mésopotamien</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">4,19 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-02</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Défenses d’Éléphant d’Inde</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">15,64 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-03</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Mousquet de la révolution Française</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,32 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-04</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Couteau rituel Inca</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">0,57 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-05</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Fourrures de vison</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">2,21 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-06</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Ornements de Séthi Ier</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">1,08 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-07</p></td></tr><tr><td data-colwidth=\"363\"><p style=\"text-align:center\">Vase Ming</p></td><td data-colwidth=\"86\"><p style=\"text-align:center\">6,45 kg</p></td><td data-colwidth=\"97\"><p style=\"text-align:center\">BUN-C-08</p></td></tr></tbody></table>",
+            "markdown": ""
           },
           "video": {
             "controls": true,
@@ -1899,12 +2275,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1713990362809,
-            "modifiedTime": 1713990781713,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": 1717778998447,
+            "lastModifiedBy": "cpuhGyMSNBNDCEjd"
           }
         },
         {
@@ -1934,12 +2312,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1714375548714,
-            "modifiedTime": 1714375564977,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -1969,12 +2349,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1714375638482,
-            "modifiedTime": 1714375642418,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -2004,12 +2386,14 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1714375689049,
-            "modifiedTime": 1714375722942,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         },
         {
@@ -2039,28 +2423,32 @@
           },
           "flags": {},
           "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.325",
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
-            "createdTime": 1714375780315,
-            "modifiedTime": 1714375786179,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
           }
         }
       ],
       "sort": 0,
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713722136976,
-        "modifiedTime": 1716102133500,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832514,
+        "modifiedTime": 1717779145584,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       }
     }
   ],
@@ -2079,7 +2467,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 4,
       "width": 2516,
@@ -2097,14 +2490,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 1,
-        "units": ""
+        "units": "",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1714375287618,
-      "globalLight": true,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [
         {
           "_id": "qSM7iGC7iNkXzGpm",
@@ -2118,7 +2508,6 @@
           },
           "x": 1684.626039480307,
           "y": 1146.7590088293246,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2135,7 +2524,10 @@
           "hidden": true,
           "locked": false,
           "flags": {},
-          "texture": null
+          "texture": null,
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2148,7 +2540,6 @@
           },
           "x": 1744,
           "y": 1628,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2166,7 +2557,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "nZ24XrNygpYiw6Og"
+          "_id": "nZ24XrNygpYiw6Og",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2179,7 +2573,6 @@
           },
           "x": 2228.166054339229,
           "y": 1628.346569477807,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2197,7 +2590,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "d9nbf9s3UzrVh11y"
+          "_id": "d9nbf9s3UzrVh11y",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2210,7 +2606,6 @@
           },
           "x": 2238.8303206668024,
           "y": 1482.2274343834115,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2228,7 +2623,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "7xj3FvrZ9g3WUsho"
+          "_id": "7xj3FvrZ9g3WUsho",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2241,7 +2639,6 @@
           },
           "x": 1296.7833916278375,
           "y": 2382.6462099166497,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2259,7 +2656,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "9NamKldddLaI8EXn"
+          "_id": "9NamKldddLaI8EXn",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2272,7 +2672,6 @@
           },
           "x": 2471.4296015444875,
           "y": 2419.0830320666805,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2290,7 +2689,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "tMfb0Eeh8erZdMm9"
+          "_id": "tMfb0Eeh8erZdMm9",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2303,7 +2705,6 @@
           },
           "x": 1898.9169679333195,
           "y": 2191.2346549889544,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2321,7 +2722,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "O54QR3tXAglU8JEj"
+          "_id": "O54QR3tXAglU8JEj",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2334,7 +2738,6 @@
           },
           "x": 1706,
           "y": 2684,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2352,7 +2755,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "2MPxSodNheNxW2m9"
+          "_id": "2MPxSodNheNxW2m9",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2365,7 +2771,6 @@
           },
           "x": 2056.0866472665175,
           "y": 2683.588425484042,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2383,7 +2788,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "L397JXD0TzqTv9Km"
+          "_id": "L397JXD0TzqTv9Km",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2396,7 +2804,6 @@
           },
           "x": 2068.0794266609746,
           "y": 2424.5342660454035,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2414,7 +2821,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "lPoJKZsOxLPR5mA5"
+          "_id": "lPoJKZsOxLPR5mA5",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2427,7 +2837,6 @@
           },
           "x": 2068.382672505523,
           "y": 2521.018046616792,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2445,7 +2854,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "v3dNuHjKFqcIJbIi"
+          "_id": "v3dNuHjKFqcIJbIi",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2458,7 +2870,6 @@
           },
           "x": 2214.1877259499897,
           "y": 2557.7220213777864,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2476,7 +2887,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "CVxaddhWvtLFchsa"
+          "_id": "CVxaddhWvtLFchsa",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2489,7 +2903,6 @@
           },
           "x": 2187,
           "y": 2819,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2507,7 +2920,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "99HVuXruSPHvCtz8"
+          "_id": "99HVuXruSPHvCtz8",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2520,7 +2936,6 @@
           },
           "x": 1873,
           "y": 3684,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2538,7 +2953,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "5fpUjo3xnY9GenJY"
+          "_id": "5fpUjo3xnY9GenJY",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2551,7 +2969,6 @@
           },
           "x": 2296,
           "y": 3684,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
@@ -2569,7 +2986,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "ROaYjTKj6FdOPDND"
+          "_id": "ROaYjTKj6FdOPDND",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "_id": "BSbd98UJwA1vOGYU",
@@ -2583,14 +3003,13 @@
           },
           "x": 1000,
           "y": 1600,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Escalier secret",
           "fontFamily": "Masqualero",
@@ -2600,7 +3019,10 @@
           "hidden": true,
           "locked": false,
           "flags": {},
-          "texture": null
+          "texture": null,
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2613,14 +3035,13 @@
           },
           "x": 1000,
           "y": 1700,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Monte-charge",
           "fontFamily": "Masqualero",
@@ -2631,7 +3052,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "n3PwWjGxmbzJJFZg"
+          "_id": "n3PwWjGxmbzJJFZg",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2644,14 +3068,13 @@
           },
           "x": 1000,
           "y": 1800,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Caméra",
           "fontFamily": "Masqualero",
@@ -2662,7 +3085,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "1lamlhY7mFoyVDnt"
+          "_id": "1lamlhY7mFoyVDnt",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         }
       ],
       "tokens": [],
@@ -2679,31 +3105,37 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1500,
           "y": 3067,
           "width": 900,
           "height": 1280,
-          "overhead": false,
           "_id": "QHDV2ijhdnbeXJbK",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
             "mode": 0,
-            "alpha": 0,
-            "radius": null
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2712,31 +3144,38 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 1661,
           "y": 1057,
           "width": 86.9,
           "height": 86.9,
-          "overhead": false,
           "_id": "gZCA2xgOgkLd96P4",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2745,23 +3184,24 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 1665,
           "y": 2073,
           "width": 86.9,
           "height": 86.9,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2769,7 +3209,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "Z9tcEwQOPgNhhAq9"
+          "_id": "Z9tcEwQOPgNhhAq9",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2778,23 +3224,24 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 1659,
           "y": 3160,
           "width": 86.9,
           "height": 86.9,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2802,7 +3249,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "w5kS1Ay8Towm5i4h"
+          "_id": "w5kS1Ay8Towm5i4h",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2812,23 +3265,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2173,
           "y": 2073,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2836,7 +3289,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "UJGl9lv5GX8L9lvF"
+          "_id": "UJGl9lv5GX8L9lvF",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2846,23 +3305,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2158,
           "y": 3160,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2870,7 +3329,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "8QWDztVDwZzEPqoE"
+          "_id": "8QWDztVDwZzEPqoE",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2880,23 +3345,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1593,
           "y": 2076,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 330,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2904,7 +3369,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "inNMlIuBA6RdQj7a"
+          "_id": "inNMlIuBA6RdQj7a",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2914,23 +3385,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1597,
           "y": 2408,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2938,7 +3409,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "6GEtNE75Wlnc1kUR"
+          "_id": "6GEtNE75Wlnc1kUR",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2948,23 +3425,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1772,
           "y": 2068,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2972,7 +3449,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "R2IRfSIUckAAfFfc"
+          "_id": "R2IRfSIUckAAfFfc",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2982,23 +3465,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2341,
           "y": 2152,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 105,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3006,7 +3489,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "ZhgrEyhdKEOR9twP"
+          "_id": "ZhgrEyhdKEOR9twP",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3016,23 +3505,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2344,
           "y": 2361,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 60,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3040,7 +3529,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "w85GGRtAVzQE0sWd"
+          "_id": "w85GGRtAVzQE0sWd",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3050,23 +3545,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1653,
           "y": 2428,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3074,7 +3569,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "bNTYxC43237KCr7S"
+          "_id": "bNTYxC43237KCr7S",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3084,23 +3585,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2662,
           "y": 2063,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 105,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3108,7 +3609,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "HHIoRP4f6RrJt4k8"
+          "_id": "HHIoRP4f6RrJt4k8",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3118,23 +3625,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2418,
           "y": 2989,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3142,7 +3649,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "yxsEF3X9jYmZRbNO"
+          "_id": "yxsEF3X9jYmZRbNO",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3152,23 +3665,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2670,
           "y": 2986,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3176,7 +3689,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "YwR4V5m4kqn3fQOq"
+          "_id": "YwR4V5m4kqn3fQOq",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3186,23 +3705,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1926,
           "y": 3150,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 90,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3210,7 +3729,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "rNCdDS3Is3nG851v"
+          "_id": "rNCdDS3Is3nG851v",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3220,23 +3745,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1653,
           "y": 3638,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3244,7 +3769,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "VMfv8OwRXqnbbMKY"
+          "_id": "VMfv8OwRXqnbbMKY",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3254,23 +3785,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2204,
           "y": 3653,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3278,7 +3809,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "73UYw77ZrYwN9p6l"
+          "_id": "73UYw77ZrYwN9p6l",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3288,23 +3825,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1649,
           "y": 4208,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 165,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3312,7 +3849,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "rxSjY5FLG4BozGc2"
+          "_id": "rxSjY5FLG4BozGc2",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3322,23 +3865,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2201,
           "y": 4211,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 75,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3346,7 +3889,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "jxa3YgLVA7WCelka"
+          "_id": "jxa3YgLVA7WCelka",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3356,23 +3905,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2466,
           "y": 4215,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 60,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3380,7 +3929,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "x5aPGSMgPTpMGiHi"
+          "_id": "x5aPGSMgPTpMGiHi",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3390,23 +3945,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2280,
           "y": 3889,
           "width": 0,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3414,7 +3969,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "TPKmcm75fasHs1zf"
+          "_id": "TPKmcm75fasHs1zf",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3424,23 +3985,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2275,
           "y": 3437,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3448,7 +4009,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "27LWTVyWZZVYiFdk"
+          "_id": "27LWTVyWZZVYiFdk",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3458,23 +4025,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 865,
           "y": 1600,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3482,7 +4049,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "64TNZuXCiLTht5io"
+          "_id": "64TNZuXCiLTht5io",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3492,23 +4065,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 865,
           "y": 1800,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3516,7 +4089,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "b66zVUOHwoXUCr78"
+          "_id": "b66zVUOHwoXUCr78",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3526,23 +4105,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 865,
           "y": 1700,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3550,7 +4129,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "FpEdWSKc1ZxTBpCA"
+          "_id": "FpEdWSKc1ZxTBpCA",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3560,23 +4145,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1669,
           "y": 2362,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 270,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3584,7 +4169,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "YsPEMg3jhZAnmQXi"
+          "_id": "YsPEMg3jhZAnmQXi",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         }
       ],
       "walls": [],
@@ -3595,7 +4186,8 @@
       "sort": 0,
       "ownership": {
         "default": 2,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {
         "exportSource": {
@@ -3606,19 +4198,62 @@
         }
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714375287620,
-        "modifiedTime": 1716102185762,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832541,
+        "modifiedTime": 1717778832541,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       },
       "foreground": null,
       "thumb": "systems/heist/images/thumbs/scenes/dEs4kB0RtUkXO7JS-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": true,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1714375287618,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     }
   ],
   "tables": [],
@@ -3628,13 +4263,14 @@
       "name": "Bunker",
       "type": "script",
       "_id": "O8PF6IzmSOlYZP0y",
-      "author": "2Ix5Tl3gxkKU6taP",
+      "author": "cpuhGyMSNBNDCEjd",
       "img": "icons/commodities/tech/blueprint.webp",
       "scope": "global",
       "command": "const tiles = [\n  'QHDV2ijhdnbeXJbK',\n];\n\ngame.heist.tools.toggleMapArea({ tiles });",
       "ownership": {
         "default": 0,
-        "2Ix5Tl3gxkKU6taP": 3
+        "2Ix5Tl3gxkKU6taP": 3,
+        "cpuhGyMSNBNDCEjd": 3
       },
       "flags": {
         "core": {
@@ -3642,12 +4278,14 @@
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.heist.macros.Macro.O8PF6IzmSOlYZP0y",
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714376586678,
-        "modifiedTime": 1716102170905,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "createdTime": 1717778832557,
+        "modifiedTime": 1717778832557,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
       },
       "sort": 0
     }
@@ -3665,13 +4303,16 @@
       "color": null,
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713688043755,
-        "modifiedTime": 1716315561127,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "createdTime": 1717778832560,
+        "modifiedTime": 1717778832560,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
+      },
+      "description": ""
     },
     {
       "name": "Irish Job",
@@ -3683,13 +4324,16 @@
       "color": null,
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1713722121012,
-        "modifiedTime": 1716102133578,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "createdTime": 1717778832560,
+        "modifiedTime": 1717778832560,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
+      },
+      "description": ""
     },
     {
       "name": "Irish Job",
@@ -3701,13 +4345,16 @@
       "color": null,
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714375240440,
-        "modifiedTime": 1716733273565,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "createdTime": 1717778832560,
+        "modifiedTime": 1717778832560,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
+      },
+      "description": ""
     },
     {
       "name": "Irish Job",
@@ -3719,13 +4366,16 @@
       "color": null,
       "flags": {},
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714764269763,
-        "modifiedTime": 1716102133578,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "createdTime": 1717778832560,
+        "modifiedTime": 1717778832560,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
+      },
+      "description": ""
     },
     {
       "name": "Irish Job",
@@ -3741,13 +4391,16 @@
         }
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.325",
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
-        "createdTime": 1714376576210,
-        "modifiedTime": 1716102133463,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "createdTime": 1717778832560,
+        "modifiedTime": 1717778832560,
+        "lastModifiedBy": "cpuhGyMSNBNDCEjd"
+      },
+      "description": ""
     }
   ],
   "_id": "ZYppNsE7BcShTDB6",
@@ -3756,10 +4409,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.325",
     "createdTime": 1713648034444,
-    "modifiedTime": 1716735330671,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "modifiedTime": 1717780182657,
+    "lastModifiedBy": "cpuhGyMSNBNDCEjd",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!adventures!ZYppNsE7BcShTDB6"
 }

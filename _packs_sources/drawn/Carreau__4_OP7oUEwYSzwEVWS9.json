@@ -81,7 +81,6 @@
     "flags": {},
     "randomImg": false,
     "hexagonalShape": 0,
-    "locked": false,
     "occludable": {
       "radius": 0
     },
@@ -120,7 +119,7 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.319",
+        "coreVersion": "12.325",
         "createdTime": 1712387582028,
         "modifiedTime": 1713647072373,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
@@ -150,7 +149,7 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.319",
+        "coreVersion": "12.325",
         "createdTime": 1712387616110,
         "modifiedTime": 1713647075938,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
@@ -179,7 +178,7 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.319",
+        "coreVersion": "12.325",
         "createdTime": 1695240469874,
         "modifiedTime": 1713647537089,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
@@ -214,7 +213,7 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.319",
+        "coreVersion": "12.325",
         "createdTime": 1712388519984,
         "modifiedTime": 1713728028048,
         "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
@@ -236,7 +235,7 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.319",
+    "coreVersion": "12.325",
     "createdTime": 1713646118158,
     "modifiedTime": 1713728028048,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP",

@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- [Irish Job] Fix multiple typo and rearrange some texts.
+
 ## [11.5.0] - 2024-05-26
 
 ### Added

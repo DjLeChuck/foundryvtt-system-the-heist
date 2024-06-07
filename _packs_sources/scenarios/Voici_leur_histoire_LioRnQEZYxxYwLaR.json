@@ -26,7 +26,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -61,7 +66,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -71,11 +79,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -88,10 +113,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125132116,
         "modifiedTime": 1716125514728,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -115,7 +142,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -150,7 +182,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -160,11 +195,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -177,10 +229,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125160094,
         "modifiedTime": 1716125514728,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -204,7 +258,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -239,7 +298,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -249,11 +311,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -266,10 +345,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125465772,
         "modifiedTime": 1716125514728,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -293,7 +374,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -328,7 +414,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -338,11 +427,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -355,10 +461,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125524162,
         "modifiedTime": 1716125534593,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -382,7 +490,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -417,7 +530,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -427,11 +543,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -444,10 +577,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125541130,
         "modifiedTime": 1716125564771,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -471,7 +606,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -506,7 +646,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -516,11 +659,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -533,10 +693,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125573476,
         "modifiedTime": 1716125587011,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -560,7 +722,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -595,7 +762,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -605,11 +775,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -622,10 +809,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125594603,
         "modifiedTime": 1716125600877,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -649,7 +838,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -684,7 +878,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -694,11 +891,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -711,10 +925,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125607012,
         "modifiedTime": 1716125615662,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -738,7 +954,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -773,7 +994,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -783,11 +1007,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -800,10 +1041,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125625950,
         "modifiedTime": 1716125632129,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -827,7 +1070,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -862,7 +1110,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -872,11 +1123,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -889,10 +1157,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125638113,
         "modifiedTime": 1716125643325,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -916,7 +1186,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -951,7 +1226,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -961,11 +1239,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -978,10 +1273,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125649271,
         "modifiedTime": 1716125656276,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1005,7 +1302,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -1040,7 +1342,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -1050,11 +1355,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -1067,10 +1389,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125662769,
         "modifiedTime": 1716125668884,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -1095,10 +1419,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125842983,
         "modifiedTime": 1716125847031,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1120,10 +1446,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125855267,
         "modifiedTime": 1716125855267,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1145,10 +1473,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125866901,
         "modifiedTime": 1716125869695,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1170,10 +1500,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125877736,
         "modifiedTime": 1716125880664,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1195,10 +1527,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125888608,
         "modifiedTime": 1716125891480,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1220,10 +1554,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125901300,
         "modifiedTime": 1716125901300,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1245,10 +1581,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125907796,
         "modifiedTime": 1716125907796,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1270,10 +1608,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125914897,
         "modifiedTime": 1716125918093,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1295,10 +1635,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125925268,
         "modifiedTime": 1716125927634,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -1336,10 +1678,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716103551825,
             "modifiedTime": 1716137549808,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1370,10 +1714,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716103693373,
             "modifiedTime": 1716313235274,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1404,10 +1750,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716104197771,
             "modifiedTime": 1716126627065,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1438,10 +1786,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716104308949,
             "modifiedTime": 1716734431584,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1473,10 +1823,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716124964012,
             "modifiedTime": 1716126515280,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1507,10 +1859,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716125725336,
             "modifiedTime": 1716126557254,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1541,10 +1895,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716125811131,
             "modifiedTime": 1716126234978,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1575,10 +1931,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716126252212,
             "modifiedTime": 1716126343070,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1610,10 +1968,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716126349422,
             "modifiedTime": 1716127135380,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -1626,10 +1986,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716103533817,
         "modifiedTime": 1716734431584,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1666,10 +2028,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716127205064,
             "modifiedTime": 1716127738127,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1701,10 +2065,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716127230200,
             "modifiedTime": 1716127747768,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1736,10 +2102,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716127271699,
             "modifiedTime": 1716127276087,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1771,10 +2139,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716127290294,
             "modifiedTime": 1716127294220,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1806,10 +2176,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716127307981,
             "modifiedTime": 1716127311416,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1841,10 +2213,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716127325460,
             "modifiedTime": 1716127336576,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1874,10 +2248,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716128398337,
             "modifiedTime": 1716128572925,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1907,10 +2283,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716128588424,
             "modifiedTime": 1716128664497,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1940,10 +2318,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716128644040,
             "modifiedTime": 1716128657222,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1973,10 +2353,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716128681540,
             "modifiedTime": 1716128701308,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -2006,10 +2388,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716128694101,
             "modifiedTime": 1716128699790,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -2039,10 +2423,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.325",
             "createdTime": 1716128713866,
             "modifiedTime": 1716128722508,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -2055,10 +2441,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716127180732,
         "modifiedTime": 1716128722508,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -2077,7 +2465,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 4,
       "width": 2516,
@@ -2095,14 +2488,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 1,
-        "units": ""
+        "units": "",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1716129655379,
-      "globalLight": true,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2115,14 +2505,13 @@
           },
           "x": 1205,
           "y": 1500.9398676975168,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Jonas Carmichael",
           "fontFamily": "Masqualero",
@@ -2133,7 +2522,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "E2R4WhCf83fF1ngC"
+          "_id": "E2R4WhCf83fF1ngC",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2146,14 +2538,13 @@
           },
           "x": 1788.3094037801702,
           "y": 1531.0931125429763,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Cellules",
           "fontFamily": "Masqualero",
@@ -2164,7 +2555,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "PZVm7BTcLOCpo8pp"
+          "_id": "PZVm7BTcLOCpo8pp",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2177,14 +2571,13 @@
           },
           "x": 1811,
           "y": 1751,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Couloir",
           "fontFamily": "Masqualero",
@@ -2195,7 +2588,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "NEQ50fW163lVOQbj"
+          "_id": "NEQ50fW163lVOQbj",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2208,14 +2604,13 @@
           },
           "x": 2483,
           "y": 2008,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Cellules",
           "fontFamily": "Masqualero",
@@ -2226,7 +2621,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "ps3LLEokUFQEw5oI"
+          "_id": "ps3LLEokUFQEw5oI",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2239,14 +2637,13 @@
           },
           "x": 1226.3123178694218,
           "y": 1945.534437285119,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Salle de conférence",
           "fontFamily": "Masqualero",
@@ -2257,7 +2654,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "vtq796lq0V3MefFs"
+          "_id": "vtq796lq0V3MefFs",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2270,14 +2670,13 @@
           },
           "x": 882.7751425806589,
           "y": 1730.755028516132,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Entrée des preuves",
           "fontFamily": "Masqualero",
@@ -2288,7 +2687,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "jvpHp1hlGcdw4MrL"
+          "_id": "jvpHp1hlGcdw4MrL",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2301,14 +2703,13 @@
           },
           "x": 2292.060132302483,
           "y": 2155.063046391735,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Guichet",
           "fontFamily": "Masqualero",
@@ -2319,7 +2720,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "RDsNZxPX602nVuJ4"
+          "_id": "RDsNZxPX602nVuJ4",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2332,14 +2736,13 @@
           },
           "x": 2223.123178694218,
           "y": 2391.906887457024,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Accueil",
           "fontFamily": "Masqualero",
@@ -2350,7 +2753,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "yow6NEIGcJ027y7g"
+          "_id": "yow6NEIGcJ027y7g",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2363,14 +2769,13 @@
           },
           "x": 2377.0271520619904,
           "y": 2344.2192053264453,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Hall",
           "fontFamily": "Masqualero",
@@ -2381,7 +2786,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "zuY1MYcBOXWTppuM"
+          "_id": "zuY1MYcBOXWTppuM",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2394,14 +2802,13 @@
           },
           "x": 2612.2172343516404,
           "y": 2353.386832467701,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Entrée principale",
           "fontFamily": "Masqualero",
@@ -2412,7 +2819,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "GpTN0YTPgzLyhXK4"
+          "_id": "GpTN0YTPgzLyhXK4",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2425,14 +2835,13 @@
           },
           "x": 2062,
           "y": 2670,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Cour 1",
           "fontFamily": "Masqualero",
@@ -2443,7 +2852,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "Bn0ILXB0MGxorwqW"
+          "_id": "Bn0ILXB0MGxorwqW",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2456,14 +2868,13 @@
           },
           "x": 2513.4054304123983,
           "y": 2550.063046391735,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Bureau du juge et du procureur",
           "fontFamily": "Masqualero",
@@ -2474,7 +2885,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "QV0aHdKD56Dm828M"
+          "_id": "QV0aHdKD56Dm828M",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2487,14 +2901,13 @@
           },
           "x": 2558.71774828182,
           "y": 2928.8438410652893,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Bureau des preuves",
           "fontFamily": "Masqualero",
@@ -2505,7 +2918,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "orPmNMp9L7ml44og"
+          "_id": "orPmNMp9L7ml44og",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2518,14 +2934,13 @@
           },
           "x": 2784.588891294795,
           "y": 2989.1956236279075,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Zone réservée au personnel",
           "fontFamily": "Masqualero",
@@ -2536,7 +2951,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "Rk4bhdjgMMlMt1bR"
+          "_id": "Rk4bhdjgMMlMt1bR",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2549,14 +2967,13 @@
           },
           "x": 1171.1571735080224,
           "y": 3351.769666472785,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Zone publique",
           "fontFamily": "Masqualero",
@@ -2567,7 +2984,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "D07sBhvqdHhRZPND"
+          "_id": "D07sBhvqdHhRZPND",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2580,14 +3000,13 @@
           },
           "x": 2127,
           "y": 3310,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Cour 2",
           "fontFamily": "Masqualero",
@@ -2598,7 +3017,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "A384tcd9ZUm87RHM"
+          "_id": "A384tcd9ZUm87RHM",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2611,14 +3033,13 @@
           },
           "x": 2061,
           "y": 3952,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Cour 3",
           "fontFamily": "Masqualero",
@@ -2629,7 +3050,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "cCEZlS0l7qMZ4NLn"
+          "_id": "cCEZlS0l7qMZ4NLn",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2642,14 +3066,13 @@
           },
           "x": 2547.4025163231468,
           "y": 3827.7478144330616,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Salle de repos",
           "fontFamily": "Masqualero",
@@ -2660,7 +3083,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "isuNbg8D1mmIDAGq"
+          "_id": "isuNbg8D1mmIDAGq",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2673,14 +3099,13 @@
           },
           "x": 2570.131843269629,
           "y": 3489.6592163481437,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Salle de maintenance",
           "fontFamily": "Masqualero",
@@ -2691,7 +3116,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "3RZHqV4Nio3EqY5b"
+          "_id": "3RZHqV4Nio3EqY5b",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2704,14 +3132,13 @@
           },
           "x": 2563.8498951338934,
           "y": 3062.4249475669467,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Sécurité",
           "fontFamily": "Masqualero",
@@ -2722,7 +3149,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "VDuFeKOBPf2E8uhc"
+          "_id": "VDuFeKOBPf2E8uhc",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2735,14 +3165,13 @@
           },
           "x": 2564,
           "y": 3155,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Jurés",
           "fontFamily": "Masqualero",
@@ -2753,7 +3182,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "GV0GlIej0O9TcBVz"
+          "_id": "GV0GlIej0O9TcBVz",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2766,14 +3198,13 @@
           },
           "x": 2564.838260279272,
           "y": 3248.4989513389355,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Jurés",
           "fontFamily": "Masqualero",
@@ -2784,7 +3215,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "tjcqwWpQ8aPwLjTX"
+          "_id": "tjcqwWpQ8aPwLjTX",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2797,14 +3231,13 @@
           },
           "x": 2565.5317585806715,
           "y": 3367.20503357311,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Jurés",
           "fontFamily": "Masqualero",
@@ -2815,7 +3248,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "lJhRAHn5lZD3JGj4"
+          "_id": "lJhRAHn5lZD3JGj4",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2828,14 +3264,13 @@
           },
           "x": 1597.2748427008405,
           "y": 2929.6532508493,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Couloir principal",
           "fontFamily": "Masqualero",
@@ -2846,7 +3281,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "8iVORDsGjo3mS3Ri"
+          "_id": "8iVORDsGjo3mS3Ri",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2859,14 +3297,13 @@
           },
           "x": 2591.5797708913487,
           "y": 4084.4665492042805,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Entrée du personnel",
           "fontFamily": "Masqualero",
@@ -2877,7 +3314,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "cnraNWpoaALwXLP2"
+          "_id": "cnraNWpoaALwXLP2",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2890,14 +3330,13 @@
           },
           "x": 2065.762159185154,
           "y": 1972.5517827238098,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Maintenance",
           "fontFamily": "Masqualero",
@@ -2908,7 +3347,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "nSsRw1MULifBxgs3"
+          "_id": "nSsRw1MULifBxgs3",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2921,14 +3363,13 @@
           },
           "x": 2786.775142580658,
           "y": 1991.2934552904153,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Zone des prévenus",
           "fontFamily": "Masqualero",
@@ -2939,7 +3380,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "DAveCug04agRLTU1"
+          "_id": "DAveCug04agRLTU1",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2952,14 +3396,13 @@
           },
           "x": 2528.38991782592,
           "y": 1276.1677466181145,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Caméra de surveillance",
           "fontFamily": "Masqualero",
@@ -2970,7 +3413,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "S4rsbpCEUpxj8ufV"
+          "_id": "S4rsbpCEUpxj8ufV",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         }
       ],
       "tokens": [],
@@ -2987,23 +3433,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1118,
           "y": 1798,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 120,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3011,7 +3457,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "KDehNIeewvY8kUyo"
+          "_id": "KDehNIeewvY8kUyo",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3021,23 +3473,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2739,
           "y": 2026,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 285,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3045,7 +3497,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "Ip0nxarEa9XlEbwF"
+          "_id": "Ip0nxarEa9XlEbwF",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3055,23 +3513,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2549,
           "y": 2367,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 285,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3079,7 +3537,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "ZKKkwcAkerGPCHPQ"
+          "_id": "ZKKkwcAkerGPCHPQ",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3089,23 +3553,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2735,
           "y": 3109,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 270,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3113,7 +3577,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "8g1Ubu7Et10fXqmV"
+          "_id": "8g1Ubu7Et10fXqmV",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3123,23 +3593,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2530,
           "y": 4102,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 285,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3147,7 +3617,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "OP2Wp9a622gvayPr"
+          "_id": "OP2Wp9a622gvayPr",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3157,23 +3633,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1483,
           "y": 3386,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 120,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3181,7 +3657,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "3ezZsBN4srftYGRD"
+          "_id": "3ezZsBN4srftYGRD",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3191,23 +3673,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1287,
           "y": 1846,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 225,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3215,7 +3697,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "9M6YBAYOjkGv43Av"
+          "_id": "9M6YBAYOjkGv43Av",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3225,23 +3713,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2453,
           "y": 1804,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3249,7 +3737,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "w6f8fK2IvmvdV5VR"
+          "_id": "w6f8fK2IvmvdV5VR",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3259,23 +3753,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2361,
           "y": 2336,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 15,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3283,7 +3777,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "DF6Vu2gdYAiYJVcZ"
+          "_id": "DF6Vu2gdYAiYJVcZ",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3293,23 +3793,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2388,
           "y": 2929,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 225,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3317,7 +3817,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "5aaFX6icqNJxqvAE"
+          "_id": "5aaFX6icqNJxqvAE",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3327,23 +3833,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2424,
           "y": 4030,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 15,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3351,7 +3857,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "muFSplJ9EdmeqVXl"
+          "_id": "muFSplJ9EdmeqVXl",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3361,23 +3873,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2461,
           "y": 1264,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3385,7 +3897,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "DQkRY1lxHR9N7uYd"
+          "_id": "DQkRY1lxHR9N7uYd",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3394,31 +3912,38 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 1862,
           "y": 2502,
           "width": 560,
           "height": 402.7,
-          "overhead": false,
           "_id": "EB2nHmYuTcp8XlLK",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3427,23 +3952,24 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 1929,
           "y": 3141,
           "width": 560,
           "height": 402.7,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3451,7 +3977,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "3AU51LLgCJzAdjjX"
+          "_id": "3AU51LLgCJzAdjjX",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -3461,23 +3993,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1864,
           "y": 3819,
           "width": 560,
           "height": 403,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -3485,7 +4017,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "5Dj2mfmU0Fcct1Lm"
+          "_id": "5Dj2mfmU0Fcct1Lm",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         }
       ],
       "walls": [],
@@ -3502,17 +4040,60 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716129655381,
         "modifiedTime": 1716137090291,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "systems/heist/images/thumbs/scenes/UVoRCBi5X6LGVpyP-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "thumb": "worlds/the-heist/assets/scenes/UVoRCBi5X6LGVpyP-thumb.webp",
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": true,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1716129655379,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     }
   ],
   "tables": [],
@@ -3535,10 +4116,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716136879778,
         "modifiedTime": 1716136907010,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -3558,10 +4141,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716136879778,
         "modifiedTime": 1716136932913,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "4m1q6RwIxOgbNtRH"
     },
@@ -3582,10 +4167,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716136879778,
         "modifiedTime": 1716136939691,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "5a81uJ8qWjG84h1s"
     }
@@ -3605,11 +4192,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716103529409,
         "modifiedTime": 1716103529409,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Voici leur histoire",
@@ -3623,11 +4213,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125121810,
         "modifiedTime": 1716125121810,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Voici leur histoire",
@@ -3641,11 +4234,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716125824208,
         "modifiedTime": 1716315564178,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Voici leur histoire",
@@ -3659,11 +4255,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716129229554,
         "modifiedTime": 1716733273565,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Voici leur histoire",
@@ -3677,11 +4276,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.325",
         "createdTime": 1716136865160,
         "modifiedTime": 1716136865160,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     }
   ],
   "_id": "LioRnQEZYxxYwLaR",
@@ -3690,10 +4292,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.325",
     "createdTime": 1716103409833,
     "modifiedTime": 1716735332781,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!adventures!LioRnQEZYxxYwLaR"
 }
