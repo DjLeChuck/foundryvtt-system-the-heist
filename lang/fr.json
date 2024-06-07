@@ -25,7 +25,7 @@
   "HEIST.Settings.Phase4Duration.Title": "Durée de la phase « Action »",
   "HEIST.Settings.Phase4Duration.Hint": "90 minutes par défaut",
   "HEIST.Settings.Phase5Duration.Title": "Durée de la phase « Progression »",
-  "HEIST.Settings.Phase5Duration.Hint": "90 minutes par défaut",
+  "HEIST.Settings.Phase5Duration.Hint": "10 minutes par défaut",
   "HEIST.Global.TheHeist": "The Heist",
   "HEIST.Global.Add": "Ajouter",
   "HEIST.Global.Edit": "Éditer",
