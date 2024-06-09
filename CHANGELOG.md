@@ -2,8 +2,11 @@
 
 ## [Unreleased]
 
+## [12.0.0] - 2024-06-09
+
 ### Added
 
+- Support for FoundryVTT 12
 - Display remaining cards on agent sheet
 - Adventure compendium for the scenario "Vol sous la Manche"
 
@@ -137,7 +140,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.5.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.0.0...main
+
+[12.0.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.5.0...12.0.0
 
 [11.5.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.4.1...11.5.0
 
