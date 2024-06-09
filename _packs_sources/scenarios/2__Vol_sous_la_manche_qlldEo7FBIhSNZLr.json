@@ -1,0 +1,4762 @@
+{
+  "name": "2. Vol sous la manche",
+  "img": "systems/heist/images/media/scenario/vol-sous-manche/vol-sous-manche.webp",
+  "caption": "",
+  "sort": 200000,
+  "description": "<p>Santa, une mystérieuse organisation concurrente de Heist, recrute de nouveaux agents. Chargés de se faire passer pour des rené­gats et découvrir qui se cache derrière ce nom, les personnages doivent passer un test : voler une statuette égyptienne dans un Eurostar transformé en musée le temps d’un voyage sous la Manche.</p><p>Ils vont vite découvrir qu’ils ne sont pas les seuls agents à qui Santa a confié cette mission : un groupe concurrent poursuit le même objectif…</p><p></p><p>La phase de Reconnaissance se passe sur les quais de la gare du Nord, à Paris, alors que l’aménagement du train est sur le point de se terminer.</p><p></p><p>La phase d’Action commence à l’embarquement, pour ensuite se dérouler dans le train jusque dans le tunnel sous la Manche où le groupe concurrent a prévu un arrêt d’urgence.</p>",
+  "actors": [
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Laurence Bernard Dortuivon",
+      "type": "npc",
+      "_id": "ilaBBvAeibMfE4ym",
+      "img": "systems/heist/images/media/scenario/vol-sous-manche/laurence-bertrand-dortuivon.webp",
+      "system": {
+        "description": "<p>À 55 ans, cette historienne d’art, commissaire d’exposition au Louvre depuis 15 ans, est prête à tout pour prendre la place de son supérieur, Julien Baget, qu’elle méprise au plus haut point. Elle considère qu’elle a dû lutter pour grimper les échelons un à un depuis le début de sa carrière, contrairement à lui à qui tout a toujours souri sans effort.</p><p>Elle est à l’origine de l’idée de ce train et de toute l’opération, et elle fait en sorte que tout le monde soit bien au courant : la presse, les politiques, etc.</p><p>Très sûre d’elle, autoritaire, elle ne veut rien savoir des détails et exige la perfection de la part de ses collaborateurs, sans toujours prendre le temps d’expliciter ce que cela peut signifier à ses yeux.</p><p>Elle a beaucoup à gagner (ou à perdre) pendant ce voyage et est donc très stressée, mais s’assure de ne rien laisser paraître. Si les choses devaient mal tourner, elle ferait tout pour déporter la responsabilité du fiasco sur Baget.</p>"
+      },
+      "prototypeToken": {
+        "name": "Laurence Bernard Dortuivon",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/laurence-bertrand-dortuivon.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.ilaBBvAeibMfE4ym"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954093059,
+        "modifiedTime": 1717954128844,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Mathis Lehase",
+      "type": "npc",
+      "_id": "ANzLHPGsuQ61UJAv",
+      "img": "systems/heist/images/media/scenario/vol-sous-manche/mathis-lehase.webp",
+      "system": {
+        "description": "<p>À 35 ans, il est l’assistant servile de Bernard Dortuivon. Il lui voue un véritable culte (tous ses choix sont parfaits et il s’en veut de ne pas y avoir pensé avant), mais est également terrorisé par ses accès de colère. Par mimétisme, il transfère ses ordres à ses subalternes sur le même ton.</p><p>Il fait preuve d’un zèle exceptionnel pour la satisfaire, mais devient vite maladroit ou confus en situation de stress. Il voue lui aussi une haine peu justifiée à Baget, par pure loyauté.</p>"
+      },
+      "prototypeToken": {
+        "name": "Mathis Lehase",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/mathis-lehase.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.ANzLHPGsuQ61UJAv"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954192543,
+        "modifiedTime": 1717954214339,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Julien Baget",
+      "type": "npc",
+      "_id": "TmlgDJBEuyhhf511",
+      "img": "systems/heist/images/media/scenario/vol-sous-manche/julien-baget.webp",
+      "system": {
+        "description": "<p>Devenir directeur du Louvre à seulement 45 ans est un accomplissement en soi. Pourtant, cela semble n’être qu’une première étape dans le parcours fulgurant de ce bureaucrate à qui tout réussit depuis toujours. Il est pressenti pour devenir ministre de la Culture dans un futur remaniement, mais… chut ! Tout cela n’est que rumeurs…</p><p>Assez nonchalant, il semble ne jamais être affecté par la pression ou le stress. Il manie l’art relationnel avec un brio remarquable : il connaît toutes et tous et arrive à nouer un contact fin, précis et sincère (du moins en apparence) avec une facilité déconcertante. </p>"
+      },
+      "prototypeToken": {
+        "name": "Julien Baget",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/julien-baget.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.TmlgDJBEuyhhf511"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954224383,
+        "modifiedTime": 1717954234473,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Jean-Michel Engels",
+      "type": "npc",
+      "_id": "FOXTYJURW14TQeoW",
+      "img": "systems/heist/images/media/scenario/vol-sous-manche/jean-michel-engels.webp",
+      "system": {
+        "description": "<p>Ce chef étoilé de 61 ans est une star nationale depuis sa participation à une émission de télé-réalité.</p><p>Il tient ici la voiture-bar VIP et souhaite profiter de la vitrine que lui offre cette opération pour trouver de futurs clients très prestigieux. En effet, plus les affaires fonctionnent, plus il voit que, dans le domaine de la haute gastronomie, un très gros contrat peut rapporter énormément.</p><p>C’est lui qui a élaboré l’ensemble des recettes proposées à bord, bien qu’il n’ait rien préparé lui-même. Il est très attentif à ce que le service et la nourriture soient irréprochables. Toujours souriant, il peut se révéler imbuvable en coulisses : il sait jouer de son image et de son influence pour mener à la baguette tout son personnel, jonglant entre menaces et remarques cinglantes.</p>"
+      },
+      "prototypeToken": {
+        "name": "Jean-Michel Engels",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/jean-michel-engels.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.FOXTYJURW14TQeoW"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954244270,
+        "modifiedTime": 1717954258467,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "James Polden",
+      "type": "npc",
+      "_id": "BGOviwJFsmQccLDn",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Ce chauffeur de train de 36 ans tient un compte X/Insta plutôt bien suivi sur son travail. Il tire de son succès (relatif ) sur les réseaux une immense fierté et une raison d’être. Chaque post réussi lui donne l’impression de pouvoir faire la pluie et le beau temps dans le petit monde ferroviaire anglo-français. En pratique, les communicants d’Eurostar voient cela d’un bon œil et s’accommodent de son comportement de plus en plus prétentieux tant que ses posts spontanés offrent une image sympathique à la compagnie sans frais.</p>"
+      },
+      "prototypeToken": {
+        "name": "James Polden",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.BGOviwJFsmQccLDn"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954274549,
+        "modifiedTime": 1717954279065,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Juliette Galandon",
+      "type": "npc",
+      "_id": "Rm4rSsH8jU3zK7DW",
+      "img": "systems/heist/images/media/scenario/vol-sous-manche/juliette-galandon.webp",
+      "system": {
+        "description": "<p>Chroniqueuse montante de la radio publique française et pigiste pour plusieurs magazines culturels prestigieux, Juliette Galandon est une figure qui compte dans le monde des arts. Son sens de l’analyse aiguiséetsonécriturefineettranchantene sont pas les seules raisons de son succès. Elle sait aussi s’imposer quand il le faut pour se trouver au bon endroit au bon moment et, autant que faire se peut, en exclusivité. Si certains confrères doivent en pâtir, tant pis.</p><p>Elle a aussi su négocier à plusieurs reprises des virages qui ne lui ont pas fait que des amis, dénonçant chaque fois les dérives du monde de la culture.</p><p>Elle a réussi à se faire inviter pour ce voyage, mais préférerait trouver de la matière sur les dessous politiques, financiers et humains d’une telle opération de communication.</p>"
+      },
+      "prototypeToken": {
+        "name": "Juliette Galadon",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/juliette-galandon.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.Rm4rSsH8jU3zK7DW"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954286284,
+        "modifiedTime": 1717954469829,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Hearth",
+      "type": "npc",
+      "_id": "IBRD1HC5dmehXw6f",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Cet homme de 55 ans, petit et rondouillard, doté d’une superbe moustache blanche, est habillé d’un costume sur mesure impeccable. Il respire la joie de vivre et la bonne humeur. Il est capable de sympathiser avec n’importe qui en un rien de temps et de devenir immédiatement, aux yeux de parfaits inconnus, quelqu’un de fiable à qui ils peuvent tout confier.</p>"
+      },
+      "prototypeToken": {
+        "name": "Hearth",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.IBRD1HC5dmehXw6f"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954336822,
+        "modifiedTime": 1717954341515,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Spade",
+      "type": "npc",
+      "_id": "swmYUIdRFz8wU6pa",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>De taille moyenne, entre deux âges, les cheveux noirs coiffés en chignon, habillée dans un tailleur gris banal, cette femme a l’art de passer inaperçue dans n’importe quel contexte. Elle devient en un instant une vague silhouette, une figurante de la vie quotidienne qu’aucun témoin n’est capable de décrire, voire de se rappeler.</p>"
+      },
+      "prototypeToken": {
+        "name": "Spade",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.swmYUIdRFz8wU6pa"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954347722,
+        "modifiedTime": 1717954351859,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Diamond",
+      "type": "npc",
+      "_id": "Rl46A4V26mGwZe73",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Trapu, les cheveux noirs longs et ondulés, il a en permanence l’attitude et le look d’un All Black prêt à démarrer le haka. Il dispose d’une force physique impressionnante qui le rend capable de s’occuper à lui seul de plusieurs agents de sécurité simultanément sans broncher, laissant le champ libre à ses collègues.</p>"
+      },
+      "prototypeToken": {
+        "name": "Diamond",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.Rl46A4V26mGwZe73"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954357132,
+        "modifiedTime": 1717954360836,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "RGkfQELDVbRSYmvO",
+      "name": "Club",
+      "type": "npc",
+      "_id": "iuf95dnFdaHLyWS9",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>La petite vingtaine, très apprêtée, toujours serviable et souriante, cette jeune femme cache derrière ses (fausses) lunettes des talents de hackeuse hors du commun, qu’elle marie avec de solides connaissances en électronique et en ingénierie mécanique, ce qui fait de ce train son terrain de jeu rêvé.</p>"
+      },
+      "prototypeToken": {
+        "name": "Club",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.iuf95dnFdaHLyWS9"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954370397,
+        "modifiedTime": 1717954372449,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "combats": [],
+  "items": [
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Accès au réseau interne de navigation et de communication",
+      "type": "planning",
+      "_id": "gUMfSfoeJbXtWr2T",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953156789,
+        "modifiedTime": 1717953161037,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Badge d’employé ou conducteur Eurostar",
+      "type": "planning",
+      "_id": "ASOGCaoZW5vA49MG",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953132415,
+        "modifiedTime": 1717953135185,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Copie de la statuette (bonne qualité)",
+      "type": "planning",
+      "_id": "Tb57XrnYqh3IFR52",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953102501,
+        "modifiedTime": 1717953399112,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Copie de la statuette (mauvaise qualité)",
+      "type": "planning",
+      "_id": "jbWBEqhXRNPMFZUY",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953079656,
+        "modifiedTime": 1717953079656,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Copie de la statuette (moyenne qualité)",
+      "type": "planning",
+      "_id": "khmyd7hODAZHOL5n",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953090102,
+        "modifiedTime": 1717953391046,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Gadget permettant d’arrêter le train",
+      "type": "planning",
+      "_id": "Qzt1k42DmC5G7C0F",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953175829,
+        "modifiedTime": 1717953178567,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Informations sur l’équipe adverse",
+      "type": "planning",
+      "_id": "nxwKEuv8eniyPhg4",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953018943,
+        "modifiedTime": 1717953040945,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Liste des personnes invitées",
+      "type": "planning",
+      "_id": "K7sY9Y2h0JGkCYTF",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717952991185,
+        "modifiedTime": 1717952994271,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "bah6vZjInBuB9BHA",
+      "name": "Uniformes de personnel de service",
+      "type": "planning",
+      "_id": "Lq59nWOGEmOI3DOe",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717953055416,
+        "modifiedTime": 1717953057784,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "folder": "hAjaAqGzVLXKM7Hk",
+      "name": "Scénario",
+      "_id": "ALNin3t7jQ5BpHyA",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Présentation",
+          "type": "text",
+          "_id": "cvKJXz3smA8nzndW",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h1>En quelques mots</h1><p>Santa, une mystérieuse organisation concurrente de Heist, recrute de nouveaux agents. Chargés de se faire passer pour des rené­gats et découvrir qui se cache derrière ce nom, les personnages doivent passer un test : voler une statuette égyptienne dans un Eurostar transformé en musée le temps d’un voyage sous la Manche.</p><p>Ils vont vite découvrir qu’ils ne sont pas les seuls agents à qui Santa a confié cette mission : un groupe concurrent poursuit le même objectif…</p><p></p><p>La phase de Reconnaissance se passe sur les quais de la gare du Nord, à Paris, alors que l’aménagement du train est sur le point de se terminer.</p><p></p><p>La phase d’Action commence à l’embarquement, pour ensuite se dérouler dans le train jusque dans le tunnel sous la Manche où le groupe concurrent a prévu un arrêt d’urgence.</p><h1>Matériel</h1><p>Le scénario <em>Vol sous la Manche</em> utilise 3 plans des lieux :</p><ul><li><p>1 plan complet du train réservé au meneur détaillant les différentes voitures de l’Eurostar, joint à ce scénario ;</p></li><li><p>2 plans de départ pour les joueurs tirés d’une brochure de présentation de l’Eurostar à l’occasion de l’exposition. On y distingue d’une part les voitures 1 à 8, d’autre part les voitures 9 à 16.</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Note :</span></span> Heist n’a pas fourni de plan de la gare du Nord ou du tunnel sous la Manche ; toutefois, les agents peuvent trouver ces précieuses informations par eux-mêmes afin de préparer au mieux leur casse.</p><p>Plusieurs aides de jeu ont également été créées par <em>Fourmi1</em> :</p><ul><li><p>@UUID[Playlist.Z1tdEdVvXmvod4Um.PlaylistSound.5GvngZ6sLFsejSWY]{Briefing Santa}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.UZO4czSabYl1D9na]{Plan de Gare du Nord}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.9IMgQtCzgESTI20s]{Œuvres}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.pdoBAAlYDB39i1iO]{Liste des journalistes}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.vQlgFmxHcaKHQJ8I]{Liste des invités « VIP »}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.YPTTLUhB3WLWlYD9]{Carton d’invitation du Louvres}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.ITktbeUT12EJ6wKC]{Brochure}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.WIuKwkXqybDKaQ9w]{Billets de train}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.WiE5FeU3oW0nYGKF]{Badge du Louvre}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.EdwYhpcszx7VLhTN]{Badge SNCF - Personnel de wagon}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.7V4uYF3mj0ce53fr]{Badge SNCF - Conducteur}</p></li><li><p>@UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.5PJTk2dgbNaBqEJV]{Accréditation de presse}</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario est le deuxième acte de la campagne « Santa ».</p><p></p><p>Il est possible de le jouer sans l’intégrer à la campagne en modifiant les éléments du briefing qui sont directement liés au premier acte.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717947849565,
+            "modifiedTime": 1717957563447,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Briefing",
+          "type": "text",
+          "_id": "N29ASiGyCfsNgs3u",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p style=\"text-align:right\"><em><strong>Paris, gare du Nord,</strong></em></p><p style=\"text-align:right\"><em><strong>mardi 20 novembre 2018,</strong></em></p><p style=\"text-align:right\"><em><strong>10 heures – Planque de Heist</strong></em></p><p><em>Agents, suite à votre opération à Bruxelles, nous avons pu entrer en contact sous couvert avec cette nouvelle organisation. Le donneur d’ordre se fait appeler Santa. Il dispose de moyens exceptionnels et représente une menace réelle pour Heist, mais également pour toute la profession : il semble prêt à tout, sans limites morales, sans style. Nous avons pu vous faire passer pour des agents dissidents prêts à le rejoindre par appât du gain et goût de la nouveauté. Santa ne sait pas qui vous êtes, ni d’ail­ leurs combien vous êtes (et même si vous formez une équipe), il sait seulement que vous êtes possiblement prêts à quitter Heist pour le rejoindre. Au moins, notre système de confidentialité prouve son efficacité.</em></p><p><em>Bref, Santa vous considère à l’essai et vous confie une mission test. Je vous transmets ici son message.</em></p><p></p><div class=\"orange-box\"><p>Le briefing est disponible sous forme audio grâce à l’aide de jeu de <em>Fourmi1</em> : @UUID[Playlist.Z1tdEdVvXmvod4Um.PlaylistSound.5GvngZ6sLFsejSWY]{Briefing Santa}</p></div><p>« Bienvenue aux portes d’un avenir radieux, agents. Avant de vous lancer dans le grand bain, un peu de contexte : après l’annonce du Brexit, le monde de la culture anglaise a souhaité se démarquer du virage poli­ tique et chercher à préserver le lien entre le Royaume-Uni et le continent.</p><p>De façon très symbolique, le musée du Louvre et le British Museum souhaitent procéder à un échange de pièces de leurs collections respectives, en empruntant pour cela le tunnel sous la Manche afin de marquer le coup.</p><p></p><p>En effet, l’opération est particulièrement médiatisée. Un Eurostar est spécialement affrété à cette occasion pour réaliser l’aller-retour entre Paris et Londres. Trois voitures seront réservées aux officiels et aux invités, une autre aux journalistes et trois de plus seront transformées pour l’occasion en un mini-musée avec des pièces originales. Tous les invités VIP pourront le visiter pendant le trajet.</p><p>À l’aller, plusieurs œuvres seront exposées, dont une statue de 15 cm représentant Imhotep assis. C’est cet objet que je souhaite avoir en ma possession. Emparez-vous-en, sortez du train sans que l’on puisse vous soupçonner et gardez-le précieusement. Je sais que vous prêtez une certaine attention au style. Vous serez payé triple si le vol en lui-même a lieu alors que vous êtes sous la Manche. Vous pouvez ressortir en France ou au Royaume-Uni, comme bon vous semble. Je vous recontacterai dans les jours à venir pour que vous puissiez me remettre la statue en main propre ; nous pourrons alors officiellement travailler ensemble. Bonne chance,</p><p style=\"text-align:right\">Santa »</p><p></p><p><em>Bien. Voici donc votre mission : obéis­sez à Santa, faites ce qu’il vous demande. C’est notre meilleure voie pour le ren­contrer et l’arrêter. Vous aurez tout le soutien de l’agence pour cette opération : faites votre reconnaissance tant que le train est à quai, puis contactez-moi pour établir votre projet et recevoir votre matériel avant d’embarquer.</em></p><p><em>Le train part à 14 heures, dans 4 heures, de Paris, gare du Nord. Il est en train d’être aménagé par les équipes du Louvre et d’Eurostar. Nous pouvons vous four­nir une accréditation « presse » au nom du Kunst Magazine. Une seule. Pour les autres, je peux vous avoir des billets passagers dans l’urgence, mais, si vous recherchez quelque chose de plus élaboré, il faudra que vous trouviez vous-mêmes une solution pour entrer dans le train.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div><img src=\"systems/heist/images/media/scenario/vol-sous-manche/statue-imhothep.webp\" /></div><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Statue d’Imhotep, 15 cm.</p><p><em><strong>Lieu :</strong></em> Eurostar.</p><p><em><strong>Délai :</strong></em> Avant l’arrivée du train à Londres, bonus si le vol a lieu sous la Manche.</p><p><em><strong>Victoire :</strong></em> Les agents sortent du train avec la statue.</p><p><em><strong>Défaite (à garder secret) :</strong></em> L’équipe adverse s’em­ pare de la statue avant eux.</p></div></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717948270020,
+            "modifiedTime": 1717957687980,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Intrigue",
+          "type": "text",
+          "_id": "LRdpGAPxJImLbuOz",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Le train-musée Paris-Londres</h2><p>Ce voyage est bien ce qu’il semble être : un coup de communication au goût de pied de nez politique orga­nisé par les deux musées frustrés par le Brexit et ce qu’il représente.</p><p>Au niveau pratique, le train est un Eurostar habituel. Il partira de Paris pour s’arrêter à Londres. Le trajet est légèrement modifié : il n’y aura pas de prise de passagers dans d’autres gares et, à part un court arrêt à Calais avant de s’enfoncer dans le tunnel sous la Manche, le train ne s’arrêtera pas.</p><p>Le train est composé de 16 voitures. Les voitures 9 à 16 (à l’arrière du train) accueilleront des passagers et fonctionneront comme lors d’un trajet habi­­tuel. Les voitures 1 à 8 sont réservées par les deux musées pour l’opération. La séparation se fait entre les deux voituresbars. Les voitures 1 à 3 (1<sup>ère</sup> classe) sont réservées aux invités VIP, la voiture 4 aux journalistes, les voitures 5, 6 et 7 accueillent l’exposition en elle-même et la voiture 8 sert de salle de réception. En théorie, le passage de la voiture 9 à la voiture 8 n’est pas auto­risé (surveillé par un vigile).</p><p>Le réaménagement de l’intérieur du train est terminé depuis deux jours. Ce matin, il reste à installer les œuvres dans les voitures-musée, ce qui se fait un peu dans l’urgence, sous la supervision de <strong>@UUID[Actor.ilaBBvAeibMfE4ym]{Laurence Bernard Dortuivon}</strong>, commissaire d’exposition et historienne d’art. C’est elle qui gère l’exposition du côté français. Son homologue anglaise prendra le relais à l’arrivée à Londres. Mme Bernard Dortuivon a mis en place cette opération dans l’objectif d’impressionner le monde de la culture et de rafler un plus beau poste comme, au hasard, celui de son supérieur, <strong>@UUID[Actor.TmlgDJBEuyhhf511]{Julien Baget}</strong>, directeur du Louvre.</p><p>La statue d’Imhotep se trouvera dans la voiture 6.</p><h2>Santa</h2><p>Santa est effectivement à la tête d’une organisation concurrente de Heist et dispose de moyens considérables. Son identité est gardée secrète (mais sera dévoilée dans le troisième acte de cette campagne).</p><p>Ce donneur d’ordre a la volonté de recruter les meilleurs agents possible et, pour cela, met les candidats en concurrence, sans les prévenir, afin de ne garder que les plus combatifs.</p><p>La mission qui a été confiée aux agents a également été proposée à un autre groupe de dissidents (qui sont, eux, réellement intéressés par l’offre de Santa).</p><p>Au choix du meneur, chacun des dissidents peut avoir déjà travaillé avec au moins un des personnages. Sauf à prévoir un déguisement, ils se reconnaîtront dès qu’ils se verront.</p><p></p><p>Les dissidents participent au voyage en même temps que les personnages et ont élaboré un projet que vous pouvez trouver dans l’encart ci-dessous.</p><div class=\"blue-box\"><h1>Le projet des dissidents</h1><div><p>Les agents dissidents ne sont pas visibles pendant la reconnaissance. Ils entrent en scène à l’embarquement (donc probablement au début de la phase d’Action). En fonction de leur nombre et du choix du meneur, les joueurs peuvent chacun en reconnaître un ou deux : ils ont déjà travaillé avec eux sur d’autres missions. Les dissidents reconnaissent également les agents et sont tout autant surpris de voir des concurrents monter dans le train. Ils ne laissent cependant rien transparaître de plus qu’un croisement de regard un peu appuyé.</p><p>Chacun des dissidents porte un attaché-case suffisamment grand pour contenir la statue. Jusqu’à la fin, il sera difficile de savoir dans quelle mallette se trouve la statuette, s’ils s’en emparent.</p></div><h2>Étape 1, positionnement</h2><ul><li><p><strong>@UUID[Actor.IBRD1HC5dmehXw6f]{Heart}</strong> manipule la liste des invités pour en enlever deux inscrits et s’y ajouter avec <strong>@UUID[Actor.iuf95dnFdaHLyWS9]{Club}</strong>. Il veut se faire passer pour un ministre de la Culture suédois accompagné de son assistant. Son smartphone en permanence dans les mains, il prend des notes.</p></li><li><p><strong>@UUID[Actor.Rl46A4V26mGwZe73]{Diamond}</strong> et <strong>@UUID[Actor.swmYUIdRFz8wU6pa]{Spade}</strong> entrent du côté passager avec des billets classiques.</p></li><li><p>Une fois le train parti, Diamond génère une bousculade dans la voiture-bar n<sup>o</sup> 9, attirant l’attention de la sécurité. Cela laisse le temps à Spade d’entrer dans la voiture-bar VIP 8 où elle se mêle discrètement aux invités.</p></li><li><p>Heart repère la statue et reste à proximité jusqu’à réception du signal d’action de Club.</p></li></ul><h2>Étape 2, vol</h2><ul><li><p>Club hacke le pilotage du train et le fait s’arrêter dans le tunnel.</p></li><li><p>Diamond lâche une bombe fumigène dans sa voiture et crie à l’incendie, provoquant l’évacuation du train.</p></li><li><p>Spade profite de la cohue pour entrer dans l’exposition.</p></li><li><p>Heart hurle de panique, concentrant sur lui l’attention du personnel.</p></li><li><p>Club coupe les lumières de l’exposition.</p></li><li><p>Spade dévisse et soulève la cloche et s’empare de la statue, la glissant dans son attaché-case.</p></li></ul><h2>Étape 3, exfiltration</h2><ul><li><p>Tous sortent du train parmi la foule qui évacue.</p></li><li><p>Diamond projette un obstacle sur les rails du tunnel voisin, forçant le train faisant la liaison retour, qui arrive à ce moment-là, à s’arrêter. Les dis­sidents incitent alors les autres passagers de leur train à monter se mettre à l’abri dans la rame « inopinée » pour quitter le tunnel. Dans la confusion, le nouveau train ouvre ses portes : certains passagers en descendent, d’autres y montent…</p></li><li><p>Quand le calme revient un tant soit peu, les passagers du deuxième train sont rappelés à leur place pour reprendre le trajet (l’obstacle a été enlevé) ; les autres sont conduits à pied dans le tunnel de service par l’équipe encadrante.</p></li><li><p>Les dissidents profitent du désordre pour se dissimuler dans le nouveau train et disparaître.</p></li></ul></div>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717948573897,
+            "modifiedTime": 1717954437082,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Lieux",
+          "type": "text",
+          "_id": "kTjchpgMooXWQrOp",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Gare du Nord</h2><p>Le départ des trains Eurostar se fait au niveau +1, d’où ne partent que ces trains.</p><p>L’accès aux quais est fermé par des portes de verre.</p><p>À l’heure de la reconnaissance, deux rames Eurostar sont à quai, voies 2 et 3.</p><p>Les voies 3 et 4 sont réparties de part et d’autre d’un large quai, occupé aujourd’hui par divers agents de sécurité et employés du Louvre, du train et de la gare.</p><img src=\"systems/heist/images/media/scenario/vol-sous-manche/qr-code-gare-du-nord.webp\" class=\"centered\" width=\"300\" /><h3>Voie 2</h3><p>Cette voie est en cours d’embarquement (départ à 10h40) : des agents de sécurité vérifient les papiers et les bagages des voyageurs qui avancent en direction de leur voiture.</p><p>La vérification des titres de transport se fait à l’entrée des voitures.</p><h3>Voie 3, 1<sup>ère</sup> moitié de la voie (arrière du train)</h3><p>Le long de la première moitié du quai sont stationnées les voitures 9 à 16. Les portails d’accès sont surveillés par deux agents de sécurité. Ils ne laissent passer que les personnes identifiées comme travaillant sur le projet d’exposition (uniforme et/ou badge du Louvre ou d’Eurostar).</p><p></p><p>Le ballet des personnes entrant et sortant est plutôt animé. Une quarantaine de personnes en tout sont en train d’organiser le prochain départ du train : personnel d’entretien, techniciens, agents d’accueil et de restauration… La surveillance est loin d’être infaillible.</p><p></p><p>Un contrôle de sécurité officiel est en cours d’installation : contrôle des papiers d’identité, scan des bagages aux rayons X, détecteurs de métaux, etc.</p><p>Il sera opérationnel et ouvert aux passagers à 13 heures.</p><h3>Voie 3, 2<sup>e</sup> moitié de la voie (avant du train)</h3><p>Deux fourgonnettes noires (type Master) sont garées à proximité des voitures 5 et 6. Les œuvres en sortent une par une, portées par des employés du Louvre jusqu’à l’intérieur du train, pour être installées dans les voitures 5 à 7.</p><p>Laurence Bernard Dortuivon supervise l’installation des dernières œuvres. Elle décharge son stress sur les différents employés et, en particulier, sur son assistant <strong>@UUID[Actor.ANzLHPGsuQ61UJAv]{Mathis Lehase}</strong>. Celui-ci prend note docilement de toutes les décisions de sa supérieure, suivant le rythme au mieux de ses capacités.</p><p>La camionnette d’un traiteur (« Bon Appétit Paris ») est garée devant la voiture 8 et prépare l’espace bar VIP. Six employés vident des caisses et aménagent la voiture-bar. Ils sont gérés par <strong>@UUID[Actor.FOXTYJURW14TQeoW]{Jean-Michel Engels}</strong>. L’un d’entre eux repartira avec la camionnette et les cinq autres s’occuperont du service dans le train en compagnie du chef Engels.</p><p>À 12 h 30, tous les véhicules sont retirés du quai.</p><p></p><p><strong>Peu avant l’heure du départ (14 heures)</strong>, un cordon rouge empêche les visiteurs d’avancer vers les portails d’accès à la seconde moitié du train : ils doivent d’abord présenter leur invitation à l’événement.</p><p>Devant le cordon, deux personnes vérifient les noms et indiquent le numéro de voiture aux voyageurs (4 pour la presse et 1 à 3 pour les VIP).</p><p>C’est Lehase qui a la responsabilité de la liste des invités et qui est donc sollicité en cas de doute.</p><p>La liste est sur un fichier partagé que chaque membre du personnel consulte depuis une tablette. Rien d’impossible à pirater donc.</p><p></p><p>Il est également facile de voir arriver les différents invités à l’avance : il n’y a qu’un seul chemin d’accès possible pour monter à l’étage de la gare.</p><p></p><p>Un comptoir d’accueil aux couleurs du Louvre et du British Museum est installé juste derrière le cordon. Deux jeunes employées bilingues (français, anglais) sont en train d’installer cet espace où elles fourniront dépliants et explications aux invités avant le départ du train.</p><p>Devant les portes des voitures 1 à 4, des agents d’accueil vérifient à leur tour les invitations, veillant à ce que chacun trouve sa place.</p><p>Baget, le directeur du Louvre, et Bernard Dortuivon saluent l’arrivée des différentes personnalités près de la voiture 4.</p><p>L’ensemble de l’installation des invités est surveillé par un service de sécurité privé qui s’assure, entre autres, que personne n’entre dans les voitures 5 à 7.</p><h2>L’Eurostar</h2><p>Le trajet dure 2h43 de gare à gare.</p><p>L’arrivée dans le tunnel se fait environ 1h20 après le départ de Paris et la traversée dure 35 minutes.</p><div class=\"blue-box\"><h1>Le réseau informatique dans l’Eurostar et dans le tunnel</h1><div><p>Les passagers du train peuvent accéder gratuitement à un réseau wifi ; il suffit pour cela de cliquer sur un lien pour être connecté.</p><p>Le réseau 4G fonctionne tout le long du trajet, même dans le tunnel.</p><p>Le train ne dispose pas d’un réseau interne, mais, en se branchant aux bons câbles ou en ouvrant les bons boîtiers, il est sans doute possible pour un profes­ sionnel de prendre en charge les commandes du train sans entrer dans la cabine.</p><p>Le tunnel est relié à un centre de contrôle ferroviaire avec lequel le train peut communiquer. Le personnel de ce centre contrôle à distance le trafic, mais éga­ lement l’alimentation des caténaires, l’éclairage et la ventilation dans le tunnel.</p></div></div><h3>Cabine de pilotage</h3><p>La cabine est accessible depuis la voiture 1, ou depuis l’extérieur à l’arrêt. Les portes sont cependant verrouillées par une clé dont disposent tous les membres de l’équipage de l’Euro­ star, mais pas le personnel du Louvre.</p><p>Un seul pilote est dans la cabine, <strong>@UUID[Actor.BGOviwJFsmQccLDn]{James Polden}</strong>. Toutefois, il reçoit souvent la visite d’un hôte ou d’une hôtesse qui s’installe en cabine entre deux tâches.</p><p>Il cherche à faire le plus de selfies possible avec des personnalités à bord du train, invitant qui le souhaite à visiter la cabine de pilotage durant le trajet (même si cela va à l’encontre du règlement).</p><h3>Voitures VIP et presse (1, 2, 3 et 4)</h3><p>Pour la durée du trajet, les voitures 1, 2 et 3 sont réservées aux invités et la voiture 4 aux journalistes, soit 180 invi­tés au total.</p><p>Le placement n’est pas libre : le personnel d’accueil guide chaque pas­ sager à sa place. Puis ce dernier reçoit un livret présentant l’opération et détaillant les œuvres exposées. L’hôte ou l’hôtesse lui précise aussi l’horaire auquel on viendra le chercher pour lui présenter l’exposition.</p><p>Parmi les invités les plus connus, on trouve le ministre français de la Culture, la maire de Paris, quelques stars de la chanson et du cinéma et les dirigeants de quelques entreprises qui opèrent des deux côtés de la Manche. Par ailleurs, c’est dans la voiture 4 qu’est installée <strong>@UUID[Actor.Rm4rSsH8jU3zK7DW]{Juliette Galandon}</strong>, journaliste parisienne très en vue.</p><h3>Voitures d’exposition (5, 6 et 7)</h3><div class=\"blue-box\"><h1>Visite de l’exposition</h1><div><p>Durant le voyage, chaque passager peut venir visiter l’exposition et profiter de l’espace bar, mais pas exactement quand il le souhaite.</p><p>Toutes les 10 minutes, un membre du personnel (et éventuellement un offi­ciel pour les invités les plus prestigieux) vient chercher un petit groupe de 5 à 15 passagers à la fois pour les conduire jusqu’aux voitures d’exposition.</p><p>Les visites durent 30 minutes maximum aller-retour, en essayant de ne pas faire se croiser les groupes dans l’exposition pour éviter les embouteillages.</p><p>Les journalistes et les invités les moins prestigieux sont poliment mais ferme­ ment invités à suivre ce planning, mais les personnalités importantes peuvent traîner dans l’exposition ou la voiture-bar sans être rappelées à l’ordre sur l’horaire.</p></div></div><p>Les fauteuils et supports à bagage ont été retirés de ces voitures. Des cloisons ont été placées le long des parois du train, cachant les fenêtres et permettant d’installer les supports pour les œuvres, les éclairages, les écriteaux, etc.</p><p>Chaque voiture contient cinq œuvres, classées par thème.</p><p>La voiture 5 contient cinq tableaux réalisés entre le XVIIe et le XIXe siècle, qui ont en commun d’avoir des créateurs anglais : @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.85ZIed9IQS1ryUZI]{Thomas Gainsborough}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.iB38cmOX5klaNOJd]{John Martin}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.P39AJKYAA0aYd9Dw]{Henry Raeburn}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.JpYvAkOWd2GJtvzS]{William Turner} et @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.KcHGjYFk0MQiGCI3]{Thomas Lawrence}.</p><p></p><p>L’œuvre la plus connue de cette voiture est probablement <em>Le Pandemonium</em> de John Martin.</p><p>La voiture 6 propose cinq pièces tirées du fonds archéologique du Louvre : @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.863PVHNMUTeTfVq7]{une statuette bleue d’hippopotame}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.56UF7K4glOaO4ZuT]{la statue du « scribe accroupi »}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.50MUOJ6OuwooWkfp]{la statue du dieu Amon} protégeant Toutânkhamon, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.hCH34mo8Ihotbdiu]{la stèle du roi Serpent} et enfin la fameuse @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.XYyOeGl5STFMqgEa]{statue d’Imhotep}, en plein centre du wagon.</p><p>La voiture 7 contient des pièces de la Rome antique : @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.fyi03oUqgMiB00wL]{une statue d’Appolon}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.iMcZKLvncvi7ROIv]{un buste de faune}, @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.eDy4Fr9siOldSt9i]{une statuette de satyre} et deux reliefs représentant @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.vaCPAzqCDdgkyB9T]{Dyonisos} et @UUID[JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.e3bNoOaDN2zr8n7I]{des ménades}.</p><p></p><p>Toutes les œuvres sont isolées du public par des poteaux reliés par une corde. Les tableaux sont sous verre blindé. Les statues les plus imposantes ne sont pas protégées. Les plus petites (dont celle d’Imhotep) sont sous cloche sur un piédestal en bois.</p><p>Retirer la cloche blindée n’est pas sorcier : elle est simplement fixée par quelques vis au piédestal.</p><p>Il n’y a pas de système d’alarme. La seule réelle mesure antivol est la surveillance des agents de sécurité.</p><div class=\"orange-box\"><p>Vous pouvez afficher l’agencement des voitures 5 à 7 en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.yJ9sbvmIFT8P32vq]{Voiture 5} ;</p></li><li><p>@UUID[Macro.HNga4Q5T5qjBlIM1]{Voiture 6} ;</p></li><li><p>@UUID[Macro.2hfhmquUkPwacFHU]{Voiture 7}.</p></li></ul></div><h3>Voiture-bar VIP (voiture 8)</h3><p>Les fauteuils et cloisons de cette voiture ont été retirés pour ne laisser qu’un seul grand espace ouvert donnant sur le bar. Quelques tables mange-debout sont installées près des fenêtres.</p><p>Quatre personnes s’occupent du service, chapeautées par le chef Engels, qui prend le temps de discuter avec chaque invité. Les mets servis sont de très haute qualité et pensés pour être mangés facilement debout. Le champagne est la boisson principale.</p><p>Un agent de sécurité se tient au niveau de la porte menant à l’exposition.</p><h3>Voitures publiques (9 à 16)</h3><p>Ces voitures fonctionnent comme pour un trajet en train normal. La seule particularité est la présence d’un agent de sécurité dans la voiture-bar 9, empêchant l’accès à la voiture 8.</p><h2>Tunnel sous la Manche</h2><p>Le tunnel mesure 50,5 km. Un Eurostar met environ 35 minutes à le traverser.</p><h3>Tunnels ferroviaires</h3><p>Ces deux interminables tubes de béton accueillent chacun une voie de chemin de fer. Ils sont éclairés par des néons blafards répartis tous les 10 mètres. Des tuyaux et des câbles courent le long des parois et du plafond. Une rampe en béton le long des rails peut servir de quai pour marcher à 1 mètre au-dessus de ceux-ci.</p><p>Tous les 375 mètres, un tunnel transversal appelé « rameau de communication » mène au tunnel de service. Il peut être emprunté à pied.</p><p>Tous les 250 mètres, un « rameau de pistonnement » de 2 mètres de diamètre relie les deux tunnels ferroviaires par leurs sommets. Il permet à l’air de circuler et, ce faisant, aux trains de ne pas ralentir.</p><h3>Tunnel de service</h3><p>Le tunnel de service est un long tube de béton de 4 mètres de diamètre qui permet de faire circuler deux petites voitures côte à côte. Il sert pour la circulation du personnel d’entretien sur toute la longueur du tunnel et pour l’éventuelle évacuation de passagers.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717948952132,
+            "modifiedTime": 1717960398137,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Casting",
+          "type": "text",
+          "_id": "ZutF1xI1YsVUDVFe",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Laurence Bernard Dortuivon</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/vol-sous-manche/laurence-bertrand-dortuivon.webp\" /></div></div><p>À 55 ans, cette historienne d’art, commissaire d’exposition au Louvre depuis 15 ans, est prête à tout pour prendre la place de son supérieur, Julien Baget, qu’elle méprise au plus haut point. Elle considère qu’elle a dû lutter pour grimper les échelons un à un depuis le début de sa carrière, contrairement à lui à qui tout a toujours souri sans effort.</p><p>Elle est à l’origine de l’idée de ce train et de toute l’opération, et elle fait en sorte que tout le monde soit bien au courant : la presse, les politiques, etc.</p><p>Très sûre d’elle, autoritaire, elle ne veut rien savoir des détails et exige la perfection de la part de ses collaborateurs, sans toujours prendre le temps d’expliciter ce que cela peut signifier à ses yeux.</p><p>Elle a beaucoup à gagner (ou à perdre) pendant ce voyage et est donc très stressée, mais s’assure de ne rien laisser paraître. Si les choses devaient mal tourner, elle ferait tout pour déporter la responsabilité du fiasco sur Baget.</p><h2>Mathis Lehase</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/vol-sous-manche/mathis-lehase.webp\" /></div></div><p>À 35 ans, il est l’assistant servile de Bernard Dortuivon. Il lui voue un véritable culte (tous ses choix sont parfaits et il s’en veut de ne pas y avoir pensé avant), mais est également terrorisé par ses accès de colère. Par mimétisme, il transfère ses ordres à ses subalternes sur le même ton.</p><p>Il fait preuve d’un zèle exceptionnel pour la satisfaire, mais devient vite maladroit ou confus en situation de stress. Il voue lui aussi une haine peu justifiée à Baget, par pure loyauté.</p><h2>Julien Baget</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/vol-sous-manche/julien-baget.webp\" /></div></div><p>Devenir directeur du Louvre à seulement 45 ans est un accomplissement en soi. Pourtant, cela semble n’être qu’une première étape dans le parcours fulgurant de ce bureaucrate à qui tout réussit depuis toujours. Il est pressenti pour devenir ministre de la Culture dans un futur remaniement, mais… chut ! Tout cela n’est que rumeurs…</p><p>Assez nonchalant, il semble ne jamais être affecté par la pression ou le stress. Il manie l’art relationnel avec un brio remarquable : il connaît toutes et tous et arrive à nouer un contact fin, précis et sincère (du moins en apparence) avec une facilité déconcertante.</p><h2>Jean-Michel Engels</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/vol-sous-manche/jean-michel-engels.webp\" /></div></div><p>Ce chef étoilé de 61 ans est une star nationale depuis sa participation à une émission de télé-réalité.</p><p>Il tient ici la voiture-bar VIP et souhaite profiter de la vitrine que lui offre cette opération pour trouver de futurs clients très prestigieux. En effet, plus les affaires fonctionnent, plus il voit que, dans le domaine de la haute gastronomie, un très gros contrat peut rapporter énormément.</p><p>C’est lui qui a élaboré l’ensemble des recettes proposées à bord, bien qu’il n’ait rien préparé lui-même. Il est très attentif à ce que le service et la nourriture soient irréprochables. Toujours souriant, il peut se révéler imbuvable en coulisses : il sait jouer de son image et de son influence pour mener à la baguette tout son personnel, jonglant entre menaces et remarques cinglantes.</p><h2>James Polden</h2><p>Ce chauffeur de train de 36 ans tient un compte X/Insta plutôt bien suivi sur son travail. Il tire de son succès (relatif ) sur les réseaux une immense fierté et une raison d’être. Chaque post réussi lui donne l’impression de pouvoir faire la pluie et le beau temps dans le petit monde ferroviaire anglo-français. En pratique, les communicants d’Eurostar voient cela d’un bon œil et s’accommodent de son comportement de plus en plus prétentieux tant que ses posts spontanés offrent une image sympathique à la compagnie sans frais.</p><h2>Juliette Galandon</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/vol-sous-manche/juliette-galandon.webp\" /></div></div><p>Chroniqueuse montante de la radio publique française et pigiste pour plusieurs magazines culturels prestigieux, Juliette Galandon est une figure qui compte dans le monde des arts. Son sens de l’analyse aiguiséetsonécriturefineettranchantene sont pas les seules raisons de son succès. Elle sait aussi s’imposer quand il le faut pour se trouver au bon endroit au bon moment et, autant que faire se peut, en exclusivité. Si certains confrères doivent en pâtir, tant pis.</p><p>Elle a aussi su négocier à plusieurs reprises des virages qui ne lui ont pas fait que des amis, dénonçant chaque fois les dérives du monde de la culture.</p><p>Elle a réussi à se faire inviter pour ce voyage, mais préférerait trouver de la matière sur les dessous politiques, financiers et humains d’une telle opération de communication.</p><div class=\"blue-box\"><h1>Les agents dissidents</h1><div><p>Nous vous proposons ici quatre profils d’agents dissidents. Toutefois, vous pouvez parfaitement reprendre tout ou partie du groupe du scénario précé­ dent pour en faire des ennemis récurrents.</p><h2>Hearth</h2><p>Cet homme de 55 ans, petit et rondouillard, doté d’une superbe moustache blanche, est habillé d’un costume sur mesure impeccable. Il respire la joie de vivre et la bonne humeur. Il est capable de sympathiser avec n’importe qui en un rien de temps et de devenir immédiatement, aux yeux de parfaits inconnus, quelqu’un de fiable à qui ils peuvent tout confier.</p><h2>Spade</h2><p>De taille moyenne, entre deux âges, les cheveux noirs coiffés en chignon, habillée dans un tailleur gris banal, cette femme a l’art de passer inaperçue dans n’importe quel contexte. Elle devient en un instant une vague silhouette, une figurante de la vie quotidienne qu’aucun témoin n’est capable de décrire, voire de se rappeler.</p><h2>Diamond</h2><p>Trapu, les cheveux noirs longs et ondulés, il a en permanence l’attitude et le look d’un All Black prêt à démarrer le haka. Il dispose d’une force physique impressionnante qui le rend capable de s’occuper à lui seul de plusieurs agents de sécurité simultanément sans broncher, laissant le champ libre à ses collègues.</p><h2>Club</h2><p>La petite vingtaine, très apprêtée, toujours serviable et souriante, cette jeune femme cache derrière ses (fausses) lunettes des talents de hackeuse hors du commun, qu’elle marie avec de solides connaissances en électronique et en ingénierie mécanique, ce qui fait de ce train son terrain de jeu rêvé.</p></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717950284504,
+            "modifiedTime": 1717954500794,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Événements Joker",
+          "type": "text",
+          "_id": "nQLa8R0yciAaFpmX",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Les deux événements sont liés au projet des dissidents (voir plus tôt @UUID[.LRdpGAPxJImLbuOz#le-projet-des-dissidents]{Le Projet des dissidents}).</p><h2>Joker 1</h2><p>L’équipe des dissidents met son plan en marche : Diamond provoque une cohue dans la voiture 9 pour laisser à Spade l’occasion d’entrer en voiture 8.</p><h2>Joker 2</h2><p>Ici, vous avez le choix en fonction du rythme de la partie :</p><ul><li><p>Si le train est toujours en marche, les dissidents l’arrêtent dans le tunnel selon leur projet ;</p></li><li><p>Si le projet des dissidents est déjà plus avancé : le second train s’arrête dans l’autre tunnel.</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717952852390,
+            "modifiedTime": 1717952921724,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Liste d’achats",
+          "type": "text",
+          "_id": "82PNGSE38DarE89D",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Pour aider vos joueurs pendant la phase de Préparation, voici quelques éléments que vous pouvez leur sug­ gérer, pour donner des pistes :</p><ul><li><p>@UUID[Item.K7sY9Y2h0JGkCYTF]{Une liste des personnes invitées} (2$) ;</p></li><li><p>@UUID[Item.nxwKEuv8eniyPhg4]{Des informations sur l’équipe adverse} (1$ par agent) ;</p></li><li><p>@UUID[Item.Lq59nWOGEmOI3DOe]{Des uniformes de personnel de service} (2$) ;</p></li><li><p>Une copie de la statuette :</p><ul><li><p>@UUID[Item.jbWBEqhXRNPMFZUY]{Mauvaise qualité} (1$) ;</p></li><li><p>@UUID[Item.khmyd7hODAZHOL5n]{Moyenne qualité} (2$) ;</p></li><li><p>@UUID[Item.Tb57XrnYqh3IFR52]{Bonne qualité} (3$).</p></li></ul></li><li><p>@UUID[Item.ASOGCaoZW5vA49MG]{Un badge d’employé ou conducteur Eurostar} pour accéder à l’ensemble du train sans être inquiété (2 $) ;</p></li><li><p>@UUID[Item.gUMfSfoeJbXtWr2T]{Un accès au réseau interne de navigation et de communication} (2$) ;</p></li><li><p>@UUID[Item.Qzt1k42DmC5G7C0F]{Gadget permettant d’arrêter le train} s’il est branché à des câbles d’alimentation (2$).</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717952957584,
+            "modifiedTime": 1717953471418,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Piste d’actions",
+          "type": "text",
+          "_id": "yaLWXomajyPa8PV2",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Voici quelques points d’intérêt prévus par le scénario. Si les joueurs viennent avec de nouvelles idées, tant mieux !</p><h3>Soutirer des informations</h3><p>Plusieurs des personnes présentes sur la seconde partie du quai savent beaucoup de choses. Lehase en particulier peut être facilement manipulé.</p><h3>Passer par la voie 2</h3><p>Depuis cette voie, il est possible, par exemple :</p><ul><li><p>D’entrer dans l’autre train pour observer à travers les fenêtres ce qui se joue dans le train-musée ;</p></li><li><p>De passer sous ou au-dessus du train (attention aux caténaires) pour atteindre la voie 3 ;</p></li><li><p>D’aller jusqu’à l’avant du train pour le contourner par les trails et atteindre la voie 3.</p></li></ul><h3>Se faire passer pour un employé d’Eurostar ou pour un membre de la sécurité ou du service traiteur</h3><p>Avec le bon costume, cela ne devrait pas poser de souci.</p><h3>S’ajouter dans la liste des invités</h3><p>En la piratant pour pouvoir la modifier par exemple.</p><h3>Manipuler le train</h3><p>En le piratant directement ou en passant par le réseau ferroviaire, voire en prenant le contrôle du pilotage. Cela peut permettre de l’arrêter en voie, de le mettre dans le noir, d’ouvrir les portes, etc.</p><h3>Laisser les dissidents faire</h3><p>Après tout, si une autre équipe est sur le coup, autant les laisser prendre les risques jusqu’au dernier moment et leur extorquer le butin !</p><h3>S’emparer de la statuette</h3><p>En la remplaçant par une fausse, en profitant d’une « avarie » du train, en attirant l’attention des gardes à l’extérieur, etc.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717953490898,
+            "modifiedTime": 1717953579027,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Fin de partie",
+          "type": "text",
+          "_id": "g33kB5bGXmQY8voQ",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le scénario prend fin quand les agents quittent la scène, avec ou sans la statue.</p><p><strong>S’ils disposent de la statue</strong> (et s’ils n’ont pas fait trop de grabuge, ou, à défaut, si rien ne peut les relier à Heist ), Jack les félicite. Santa les recontactera très prochainement pour la livraison et leur transmettre une prochaine mission.</p><p><strong>S’ils n’ont pas réussi à s’emparer de la statue</strong>, Jack est mécontent : il est impossible de remonter la piste de Santa pour le moment. Santa les ignore également, ils ont prouvé leur inutilité. Vous pouvez malgré tout proposer le troisième scénario de cette campagne à vos joueurs en apportant quelques modifications : ils prennent la place d’autres agents dissidents qui ont été repérés par l’agence et qu’elle a discrètement fait disparaître, au moins pour un temps.</p><p>La mission prend également fin si le paquet du meneur vient à s’épuiser. Les événements suivent alors leur cours en fonction de ce qui s’est passé jusque-là, ce qui signifie probablement que l’équipe dissidente s’enfuit avec la statue.</p><img src=\"systems/heist/images/media/scenario/vol-sous-manche/vol-sous-manche.webp\" />"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717953590949,
+            "modifiedTime": 1717953633957,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717947836410,
+        "modifiedTime": 1717953633957,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "hAjaAqGzVLXKM7Hk",
+      "name": "Aides de jeu",
+      "_id": "c0tVxxHgoVNaLyC9",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Plan de l’Eurostar - MJ",
+          "type": "image",
+          "_id": "gwGZJhLzldtuoMdM",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/plan-eurostar-gm.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717954548914,
+            "modifiedTime": 1717954648001,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Plan des wagons 1 à 8 - Agents",
+          "type": "image",
+          "_id": "4RsHzhx1J0bFgzk7",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/wagon-1-8.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717954810015,
+            "modifiedTime": 1717954814050,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Plan des wagons 9 à 16 - Agents",
+          "type": "image",
+          "_id": "11ELvHaVUqnCHZSe",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/wagon-9-16.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717954823249,
+            "modifiedTime": 1717954826523,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Plan de Gare du Nord",
+          "type": "image",
+          "_id": "UZO4czSabYl1D9na",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/plan-gare-du-nord.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.UZO4czSabYl1D9na"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717956577568,
+            "modifiedTime": 1717956583988,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Œuvres",
+          "type": "pdf",
+          "_id": "9IMgQtCzgESTI20s",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/ouvres.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.9IMgQtCzgESTI20s"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717956607984,
+            "modifiedTime": 1717956613137,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Liste des journalistes",
+          "type": "pdf",
+          "_id": "pdoBAAlYDB39i1iO",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/liste-journalistes.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.pdoBAAlYDB39i1iO"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717956623862,
+            "modifiedTime": 1717956628379,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Liste des invités « VIP »",
+          "type": "pdf",
+          "_id": "vQlgFmxHcaKHQJ8I",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/liste-invites-vip.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.vQlgFmxHcaKHQJ8I"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717956643075,
+            "modifiedTime": 1717956647073,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Carton d’invitation du Louvres",
+          "type": "pdf",
+          "_id": "YPTTLUhB3WLWlYD9",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/carton-invitation.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.YPTTLUhB3WLWlYD9"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717956670332,
+            "modifiedTime": 1717956675479,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Brochure",
+          "type": "pdf",
+          "_id": "ITktbeUT12EJ6wKC",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/brochure.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.ITktbeUT12EJ6wKC"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717956758425,
+            "modifiedTime": 1717956763079,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1000000,
+          "name": "Billets de train",
+          "type": "pdf",
+          "_id": "WIuKwkXqybDKaQ9w",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/billets-train.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.WIuKwkXqybDKaQ9w"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957032475,
+            "modifiedTime": 1717957036892,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1100000,
+          "name": "Badge du Louvre",
+          "type": "pdf",
+          "_id": "WiE5FeU3oW0nYGKF",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/badge-louvre.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.WiE5FeU3oW0nYGKF"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957058906,
+            "modifiedTime": 1717957080025,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1200000,
+          "name": "Badge SNCF - Personnel de wagon",
+          "type": "pdf",
+          "_id": "EdwYhpcszx7VLhTN",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/badge-personnel-wagon-sncf.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.EdwYhpcszx7VLhTN"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957097733,
+            "modifiedTime": 1717957183053,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1300000,
+          "name": "Badge SNCF - Conducteur",
+          "type": "pdf",
+          "_id": "7V4uYF3mj0ce53fr",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/badge-conducteur-sncf.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.7V4uYF3mj0ce53fr"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957112828,
+            "modifiedTime": 1717957195336,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1400000,
+          "name": "Accréditation de presse",
+          "type": "pdf",
+          "_id": "5PJTk2dgbNaBqEJV",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/accreditation-presse.pdf",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.5PJTk2dgbNaBqEJV"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957204820,
+            "modifiedTime": 1717957208630,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1500000,
+          "name": "PNJ - Laurence Bernard Dortuivon",
+          "type": "image",
+          "_id": "KUh2QiE0gKdlysyx",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/laurence-bertrand-dortuivon.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957249256,
+            "modifiedTime": 1717957254235,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1600000,
+          "name": "PNJ - Mathis Lehase",
+          "type": "image",
+          "_id": "j61brYXbJNOZQYD4",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/mathis-lehase.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957263676,
+            "modifiedTime": 1717957278245,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1700000,
+          "name": "PNJ - Julien Baget",
+          "type": "image",
+          "_id": "Wzec1sPafJfa1PZU",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/julien-baget.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957286677,
+            "modifiedTime": 1717957302443,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1800000,
+          "name": "PNJ - Jean-Michel Engels",
+          "type": "image",
+          "_id": "AqGLBL4sweRruOeP",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/jean-michel-engels.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957313165,
+            "modifiedTime": 1717957318296,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1900000,
+          "name": "PNJ - Juliette Galandon",
+          "type": "image",
+          "_id": "NyqK9QHH2OP9uCK0",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/juliette-galandon.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957331106,
+            "modifiedTime": 1717957337014,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2000000,
+          "name": "Voiture 5 - Henry Raeburn",
+          "type": "image",
+          "_id": "P39AJKYAA0aYd9Dw",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": "Thomas Reid"
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/henry-raeburn-thomas-reid.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.P39AJKYAA0aYd9Dw"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957832102,
+            "modifiedTime": 1717958526071,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2100000,
+          "name": "Voiture 5 - Thomas Lawrence",
+          "type": "image",
+          "_id": "KcHGjYFk0MQiGCI3",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": "Satan"
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/thomas-lawrence-satan.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.KcHGjYFk0MQiGCI3"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957845441,
+            "modifiedTime": 1717958513424,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2200000,
+          "name": "Voiture 5 - John Martin",
+          "type": "image",
+          "_id": "iB38cmOX5klaNOJd",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": "Le Pandemonium"
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/john-martin-le-pandemonium.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.iB38cmOX5klaNOJd"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957863228,
+            "modifiedTime": 1717958548179,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2300000,
+          "name": "Voiture 5 - William Turner",
+          "type": "image",
+          "_id": "JpYvAkOWd2GJtvzS",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": "Hannibal"
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/william-turner-hannibal.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.JpYvAkOWd2GJtvzS"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957877313,
+            "modifiedTime": 1717958568060,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2400000,
+          "name": "Voiture 5 - Thomas Gainsborough",
+          "type": "image",
+          "_id": "85ZIed9IQS1ryUZI",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": "Époux Andrews"
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/thomas-gainsborough-epoux-andrews.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.85ZIed9IQS1ryUZI"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957893942,
+            "modifiedTime": 1717958587715,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2500000,
+          "name": "Voiture 6 - Statuette bleue d’hippopotame",
+          "type": "image",
+          "_id": "863PVHNMUTeTfVq7",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/hippopotame.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.863PVHNMUTeTfVq7"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717957912371,
+            "modifiedTime": 1717958609913,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2600000,
+          "name": "Voiture 6 - Statue du « scribe accroupi »",
+          "type": "image",
+          "_id": "56UF7K4glOaO4ZuT",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/scribe-accroupi.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.56UF7K4glOaO4ZuT"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958630180,
+            "modifiedTime": 1717958635826,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2700000,
+          "name": "Voiture 6 - Statue du dieu Amon",
+          "type": "image",
+          "_id": "50MUOJ6OuwooWkfp",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/dieu-amon.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.50MUOJ6OuwooWkfp"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958656019,
+            "modifiedTime": 1717958661124,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2800000,
+          "name": "Voiture 6 - Stèle du roi Serpent",
+          "type": "image",
+          "_id": "hCH34mo8Ihotbdiu",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/stele-roi-serpent.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.hCH34mo8Ihotbdiu"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958681034,
+            "modifiedTime": 1717958686343,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 2900000,
+          "name": "Voiture 6 - Statue d’Imhotep",
+          "type": "image",
+          "_id": "XYyOeGl5STFMqgEa",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/statuette-imhotep.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.XYyOeGl5STFMqgEa"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958703675,
+            "modifiedTime": 1717958713750,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 3000000,
+          "name": "Voiture 7 - Statue d’Appolon",
+          "type": "image",
+          "_id": "fyi03oUqgMiB00wL",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/statue-appolon.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.fyi03oUqgMiB00wL"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958735282,
+            "modifiedTime": 1717958744643,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 3100000,
+          "name": "Voiture 7 - Buste de faune",
+          "type": "image",
+          "_id": "iMcZKLvncvi7ROIv",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/buste-faune.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.iMcZKLvncvi7ROIv"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958759113,
+            "modifiedTime": 1717958764493,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 3200000,
+          "name": "Voiture 7 - Statuette de satyre",
+          "type": "image",
+          "_id": "eDy4Fr9siOldSt9i",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/satyre.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.eDy4Fr9siOldSt9i"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958778722,
+            "modifiedTime": 1717958784651,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 3300000,
+          "name": "Voiture 7 - Dyonisos",
+          "type": "image",
+          "_id": "vaCPAzqCDdgkyB9T",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/dyonisos-chez-icarios.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.vaCPAzqCDdgkyB9T"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958806882,
+            "modifiedTime": 1717958845747,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 3400000,
+          "name": "Voiture 7 - Ménades",
+          "type": "image",
+          "_id": "e3bNoOaDN2zr8n7I",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/vol-sous-manche/menades.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.c0tVxxHgoVNaLyC9.JournalEntryPage.e3bNoOaDN2zr8n7I"
+            }
+          },
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1717958854744,
+            "modifiedTime": 1717960656320,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954060215,
+        "modifiedTime": 1717954060215,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "folder": "cVvV00qMX3PwEqMO",
+      "name": "Wagons 1 à 8",
+      "_id": "Ezr34h73OtxpMryU",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/vol-sous-manche/wagon-1-8.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1717959126409,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 198,
+            "height": 96,
+            "radius": null,
+            "points": []
+          },
+          "x": 2399.121563683072,
+          "y": 1716.0110971020395,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Cabines",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ThgN1X3ES4d2G4uI"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 132,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2562.338398486794,
+          "y": 2764.7375788151257,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "VIP",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "onwOed58ANvja8le"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 132,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2185.856242112848,
+          "y": 2765.201639343338,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "VIP",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "9EixqsrdjhcFXnu4"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 132,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1826.5868221842795,
+          "y": 2761.5663303925558,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "VIP",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "MsPROCqY7yoB3CGg"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1484,
+          "y": 2763,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Presse",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "nz5VszdOQ0qcVkev"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 219,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2201.3991803283307,
+          "y": 2877.6767969735897,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Exposition",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "2jGYGK6xd6NK12QJ"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 219,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1840.0607818415365,
+          "y": 2874.661601513205,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Exposition",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "uoMLNGafe4PiYPDw"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1498.3839848679472,
+          "y": 2877.015195460384,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Bar VIP",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "YxH1I0nB1jpak3KM"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 219,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2573.991803283311,
+          "y": 2873.232030264106,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Exposition",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "uJH57A3ConA4ox8o"
+        },
+        {
+          "_id": "LDipgoG8hc30lCWo",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 50,
+            "height": 127,
+            "radius": null,
+            "points": []
+          },
+          "x": 2548.233732676462,
+          "y": 3229.612168993389,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {}
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 50,
+            "height": 127,
+            "radius": null,
+            "points": []
+          },
+          "x": 2387.9998470001074,
+          "y": 3437.0197173430606,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "wsFG6DabK4D1sf2V"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 50,
+            "height": 127,
+            "radius": null,
+            "points": []
+          },
+          "x": 2550.980129657047,
+          "y": 3650.0391286863355,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "6bZxecjEw2q9fPph"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 50,
+            "height": 127,
+            "radius": null,
+            "points": []
+          },
+          "x": 2390.4315630488854,
+          "y": 3891.5290787649396,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "GMHgOzjD4iug2sUu"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 50,
+            "height": 127,
+            "radius": null,
+            "points": []
+          },
+          "x": 2550.980129657047,
+          "y": 4108.783950725745,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "2zAcTLGEp0dugmxy"
+        },
+        {
+          "_id": "vnaTxgElnqVPByNu",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2177.392051862819,
+          "y": 3263.274436303973,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {}
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2018.039358186174,
+          "y": 3471.6859760100133,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "lnhDNdidf8AYcz5f"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2166.1453711240542,
+          "y": 3681.4268046256534,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "FqENfVXvKrCH1FKX"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2017.1766145881343,
+          "y": 3924.31333549047,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "rXCyEcQf9ARQCLKW"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2174.1959494314633,
+          "y": 4144.940924470766,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "4Sq7iyWnyCaWFStK"
+        },
+        {
+          "_id": "Nt0UFy10ydXdQJni",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 70,
+            "height": 70,
+            "radius": null,
+            "points": []
+          },
+          "x": 2160.9488149387175,
+          "y": 3675.932502698742,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#ff0000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {}
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 70,
+            "height": 70,
+            "radius": null,
+            "points": []
+          },
+          "x": 2533.3691210930056,
+          "y": 1199.8926367209833,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#ff0000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "ZLD2VJXh07F6dv1r"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 354,
+            "height": 69,
+            "radius": null,
+            "points": []
+          },
+          "x": 2615,
+          "y": 1200,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Statue d’Imhotep",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "8z4voDeTFqHjJzK8"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1667.597148418145,
+          "y": 3951.4630965919914,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "kiZliJzyDERTOu6z"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1667.597148418145,
+          "y": 3449.9463183604917,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "UztDuS3dPKXeNT2m"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1816.0266885471365,
+          "y": 4152.979874823492,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "fHNdl3QQdf9Fr49E"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1816.0266885471365,
+          "y": 3652.979874823492,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "w1bwB1Do5ijmdgN9"
+        },
+        {
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 60,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1816.0266885471365,
+          "y": 3252.979874823492,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#000000",
+          "fillAlpha": 1,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "texture": null,
+          "text": "",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "_id": "H9RFQHwnYQwlX0kj"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "85ZIed9IQS1ryUZI",
+          "text": "",
+          "x": 2515,
+          "y": 3298,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "Uk84wgiF0StCrBqP",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "iB38cmOX5klaNOJd",
+          "text": "",
+          "x": 2475,
+          "y": 3510,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "koQpBYRaUUT7cHub",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "P39AJKYAA0aYd9Dw",
+          "text": "",
+          "x": 2519,
+          "y": 3720,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "qBHWLGheevL1fcVg",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "JpYvAkOWd2GJtvzS",
+          "text": "",
+          "x": 2475,
+          "y": 3959,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "aWhf6qmqOeAvn36j",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "KcHGjYFk0MQiGCI3",
+          "text": "",
+          "x": 2517,
+          "y": 4179,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "dmYcRqeEQ0eFLhmS",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "863PVHNMUTeTfVq7",
+          "text": "",
+          "x": 2143,
+          "y": 3293,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "JyW3pVx6h64GZUDg",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "56UF7K4glOaO4ZuT",
+          "text": "",
+          "x": 2111,
+          "y": 3502,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "Bqyf0nTWuDsZFClu",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "50MUOJ6OuwooWkfp",
+          "text": "",
+          "x": 2111,
+          "y": 3954,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "ULyBtYWhhOqLPCOg",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "hCH34mo8Ihotbdiu",
+          "text": "",
+          "x": 2141,
+          "y": 4175,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "pD2DNpGvhkCUFlAU",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "XYyOeGl5STFMqgEa",
+          "text": "",
+          "x": 2127,
+          "y": 3711,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "BRUK1fwllXc7hXZU",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "fyi03oUqgMiB00wL",
+          "text": "",
+          "x": 1779,
+          "y": 3282,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "KzoyeBv3mmluCVLc",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "iMcZKLvncvi7ROIv",
+          "text": "",
+          "x": 1765,
+          "y": 3480,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "zKACctkAdmvPzLFB",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "eDy4Fr9siOldSt9i",
+          "text": "",
+          "x": 1779,
+          "y": 3684,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "rIH4nqafRhpDKZVW",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "vaCPAzqCDdgkyB9T",
+          "text": "",
+          "x": 1760,
+          "y": 3983,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "AnwBe9cb9EvAND1N",
+          "flags": {}
+        },
+        {
+          "entryId": "c0tVxxHgoVNaLyC9",
+          "pageId": "e3bNoOaDN2zr8n7I",
+          "text": "",
+          "x": 1782,
+          "y": 4185,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": null,
+            "src": "icons/svg/book.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "fontFamily": "Masqualero",
+          "fontSize": 32,
+          "textColor": "#FFFFFF",
+          "textAnchor": 1,
+          "_id": "MduK0m820XOJUHwY",
+          "flags": {}
+        }
+      ],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Scene.Ezr34h73OtxpMryU"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959126410,
+        "modifiedTime": 1717959168264,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "worlds/the-heist/assets/scenes/Ezr34h73OtxpMryU-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "cVvV00qMX3PwEqMO",
+      "name": "Wagons 9 à 16",
+      "_id": "gCOmfXRfbNAPu0E7",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/vol-sous-manche/wagon-9-16.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1717959147835,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 341,
+            "height": 62,
+            "radius": null,
+            "points": []
+          },
+          "x": 2570,
+          "y": 2764.0486702355656,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Bar et passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "y1VMq5qaoJiZAv0R"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2218.216755889136,
+          "y": 2763.1460107066964,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ciWvTXXulMNDvp36"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1857.9247344757437,
+          "y": 2764.0486702355656,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "OlorVLDSBKpHEoh4"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1518.2840342541813,
+          "y": 2760.1505310485136,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "qSmq882VsMHqXbwL"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1517.692004268185,
+          "y": 2876.552927196277,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ub3zWaC7xHFMcOis"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 1857.5414732196718,
+          "y": 2876.552927196277,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "czBYEKqklIKB6z1M"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2220.8380149748814,
+          "y": 2877.601597431842,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "TWP3DLrf95CEcsuu"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 167,
+            "height": 61,
+            "radius": null,
+            "points": []
+          },
+          "x": 2592.659308351042,
+          "y": 2873.783244110864,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#FFFFFF",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#FFFFFF",
+          "strokeAlpha": 0,
+          "text": "Passagers",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "xJZ35FHVx7wKgZbd"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959147836,
+        "modifiedTime": 1717959175635,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "worlds/the-heist/assets/scenes/gCOmfXRfbNAPu0E7-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    }
+  ],
+  "tables": [],
+  "macros": [
+    {
+      "folder": "NadrVP7EImtMhcPL",
+      "name": "Voiture 5",
+      "type": "script",
+      "_id": "yJ9sbvmIFT8P32vq",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  'LDipgoG8hc30lCWo',\n  'wsFG6DabK4D1sf2V',\n  '6bZxecjEw2q9fPph',\n  'GMHgOzjD4iug2sUu',\n  '2zAcTLGEp0dugmxy',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.yJ9sbvmIFT8P32vq"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959822644,
+        "modifiedTime": 1717959887196,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "NadrVP7EImtMhcPL",
+      "name": "Voiture 6",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  'vnaTxgElnqVPByNu',\n  'lnhDNdidf8AYcz5f',\n  'FqENfVXvKrCH1FKX',\n  'rXCyEcQf9ARQCLKW',\n  '4Sq7iyWnyCaWFStK',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.HNga4Q5T5qjBlIM1"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959822644,
+        "modifiedTime": 1717959950156,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "HNga4Q5T5qjBlIM1"
+    },
+    {
+      "folder": "NadrVP7EImtMhcPL",
+      "name": "Voiture 7",
+      "type": "script",
+      "author": "2Ix5Tl3gxkKU6taP",
+      "img": "icons/commodities/tech/blueprint.webp",
+      "scope": "global",
+      "command": "const drawings = [\n  'H9RFQHwnYQwlX0kj',\n  'UztDuS3dPKXeNT2m',\n  'w1bwB1Do5ijmdgN9',\n  'kiZliJzyDERTOu6z',\n  'fHNdl3QQdf9Fr49E',\n];\n\ngame.heist.tools.toggleMapArea({ drawings });",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Macro.2hfhmquUkPwacFHU"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959822644,
+        "modifiedTime": 1717960001503,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "_id": "2hfhmquUkPwacFHU"
+    }
+  ],
+  "cards": [],
+  "playlists": [
+    {
+      "folder": "uewwJCFSRCYwCTYn",
+      "name": "Briefing Santa",
+      "_id": "Z1tdEdVvXmvod4Um",
+      "sounds": [
+        {
+          "name": "Briefing Santa",
+          "path": "systems/heist/images/media/scenario/vol-sous-manche/briefing-santa.ogg",
+          "_id": "5GvngZ6sLFsejSWY",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": false,
+          "volume": 0.46,
+          "fade": null,
+          "sort": 0,
+          "flags": {
+            "core": {
+              "sourceId": "Playlist.Z1tdEdVvXmvod4Um.PlaylistSound.5GvngZ6sLFsejSWY"
+            }
+          },
+          "description": ""
+        }
+      ],
+      "mode": -1,
+      "playing": false,
+      "fade": null,
+      "sorting": "a",
+      "seed": 384,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717957372552,
+        "modifiedTime": 1717957694986,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "description": ""
+    }
+  ],
+  "folders": [
+    {
+      "name": "2. Vol sous la Manche",
+      "sorting": "a",
+      "folder": "e2rYH8n0xr40c115",
+      "type": "Actor",
+      "_id": "RGkfQELDVbRSYmvO",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.RGkfQELDVbRSYmvO"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717954073019,
+        "modifiedTime": 1717954073019,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Actor",
+      "_id": "e2rYH8n0xr40c115",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733282379,
+        "modifiedTime": 1716733282379,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "2. Vol sous la Manche",
+      "sorting": "a",
+      "folder": "QnTSLXoaV2ZYKfAP",
+      "type": "Item",
+      "_id": "bah6vZjInBuB9BHA",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.bah6vZjInBuB9BHA"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717952977531,
+        "modifiedTime": 1717952977531,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Item",
+      "_id": "QnTSLXoaV2ZYKfAP",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733291957,
+        "modifiedTime": 1716733291957,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "2. Vol sous la Manche",
+      "sorting": "a",
+      "folder": "InWjQF95PQLinHYx",
+      "type": "JournalEntry",
+      "_id": "hAjaAqGzVLXKM7Hk",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.hAjaAqGzVLXKM7Hk"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717947830083,
+        "modifiedTime": 1717948079676,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "JournalEntry",
+      "_id": "InWjQF95PQLinHYx",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733297303,
+        "modifiedTime": 1716733297303,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Vol sous la Manche",
+      "sorting": "a",
+      "folder": null,
+      "type": "Playlist",
+      "_id": "uewwJCFSRCYwCTYn",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.uewwJCFSRCYwCTYn"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717957362645,
+        "modifiedTime": 1717957362645,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "2. Vol sous la Manche",
+      "sorting": "a",
+      "folder": "NGHvquppNxSwZpTx",
+      "type": "Scene",
+      "_id": "cVvV00qMX3PwEqMO",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.cVvV00qMX3PwEqMO"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959115737,
+        "modifiedTime": 1717959115737,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Scene",
+      "_id": "NGHvquppNxSwZpTx",
+      "sort": 500000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733271459,
+        "modifiedTime": 1716733273565,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "2. Vol sous la Manche",
+      "sorting": "a",
+      "folder": "vZS1OS74aGcx7Jb3",
+      "type": "Macro",
+      "_id": "NadrVP7EImtMhcPL",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.NadrVP7EImtMhcPL"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1717959802751,
+        "modifiedTime": 1717959802751,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Macro",
+      "_id": "vZS1OS74aGcx7Jb3",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733224414,
+        "modifiedTime": 1716733224414,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "_id": "qlldEo7FBIhSNZLr",
+  "folder": "DCBDpIUcIcYj2d9m",
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716312762402,
+    "modifiedTime": 1717960671752,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!adventures!qlldEo7FBIhSNZLr"
+}

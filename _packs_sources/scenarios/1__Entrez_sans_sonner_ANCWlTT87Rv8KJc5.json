@@ -26,12 +26,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -66,10 +61,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -79,28 +71,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -113,12 +88,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315118020,
         "modifiedTime": 1716315124113,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -142,12 +115,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -182,10 +150,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -195,28 +160,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -229,12 +177,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716314978483,
         "modifiedTime": 1716314986550,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -258,12 +204,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -298,10 +239,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -311,28 +249,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -345,12 +266,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315071637,
         "modifiedTime": 1716315081407,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -374,12 +293,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -414,10 +328,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -427,28 +338,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -461,12 +355,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315051316,
         "modifiedTime": 1716315062849,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -490,12 +382,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -530,10 +417,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -543,28 +427,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -577,12 +444,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315130006,
         "modifiedTime": 1716315136483,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -606,12 +471,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -646,10 +506,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -659,28 +516,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -693,12 +533,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716314994451,
         "modifiedTime": 1716314999474,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -722,12 +560,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -762,10 +595,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -775,28 +605,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -809,12 +622,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716314917748,
         "modifiedTime": 1716314934640,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -838,12 +649,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -878,10 +684,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -891,28 +694,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -925,12 +711,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716314962564,
         "modifiedTime": 1716314970101,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -954,12 +738,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -994,10 +773,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -1007,28 +783,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -1041,12 +800,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315087760,
         "modifiedTime": 1716315096083,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1070,12 +827,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -1110,10 +862,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -1123,28 +872,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -1157,12 +889,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315004872,
         "modifiedTime": 1716315016363,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1186,12 +916,7 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0,
-          "anchorX": 0.5,
-          "anchorY": 0.5,
-          "fit": "contain",
-          "tint": "#ffffff",
-          "alphaThreshold": 0.75
+          "rotation": 0
         },
         "width": 1,
         "height": 1,
@@ -1226,10 +951,7 @@
           "darkness": {
             "min": 0,
             "max": 1
-          },
-          "negative": false,
-          "priority": 0,
-          "color": null
+          }
         },
         "sight": {
           "enabled": false,
@@ -1239,28 +961,11 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0,
-          "color": null
+          "contrast": 0
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false,
-        "hexagonalShape": 0,
-        "occludable": {
-          "radius": 0
-        },
-        "ring": {
-          "enabled": false,
-          "colors": {
-            "ring": null,
-            "background": null
-          },
-          "effects": 1,
-          "subject": {
-            "scale": 1,
-            "texture": null
-          }
-        }
+        "randomImg": false
       },
       "items": [],
       "effects": [],
@@ -1273,12 +978,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315103726,
         "modifiedTime": 1716315111086,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
   ],
@@ -1303,12 +1006,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315609668,
         "modifiedTime": 1716315612057,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1330,12 +1031,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315632891,
         "modifiedTime": 1716315635175,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1357,12 +1056,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315663496,
         "modifiedTime": 1716315666360,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1384,12 +1081,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315643475,
         "modifiedTime": 1716315643475,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1411,12 +1106,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315622121,
         "modifiedTime": 1716315622121,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1438,12 +1131,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315747487,
         "modifiedTime": 1716315747487,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1465,12 +1156,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315675510,
         "modifiedTime": 1716315675510,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1492,12 +1181,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315653869,
         "modifiedTime": 1716315656185,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1519,12 +1206,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315604610,
         "modifiedTime": 1716315604610,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1546,12 +1231,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315595552,
         "modifiedTime": 1716315598109,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
   ],
@@ -1573,7 +1256,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<h1>En quelques mots</h1><p>Heist se trouve en mauvaise posture, car une agence concurrente émerge depuis quelque temps et débauche des agents pour ses propres casses.</p><p>Heist décide de confier à l’équipe des joueurs la mission d’en apprendre un maximum sur ce sérieux adversaire et de récupérer un moyen de prendre contact avec son dirigeant. Mais pour cela, ils vont devoir cambrioler la demeure d’une autre équipe de braqueurs, tout aussi doués qu’eux !</p><h1>Matériel</h1><p>Le scénario <em>Entrez sans sonner</em> utilise 2 plans :</p><ul><li><p>1 plan complet de l’appartement du 1er étage de l’immeuble détaillant l’ensemble des secrets du lieu, joint à ce scénario ;</p></li><li><p>1 plan de départ pour les joueurs présentant l’appartement du 1er étage loué récemment par l’équipe concurrente. Il s’agit du plan fourni par l’agence de location.</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario est le premier acte de la campagne « Santa ». Il peut être joué indépendamment, mais prend encore plus d’intérêt si le groupe joue ensuite les scénarios suivants. Les joueurs incarnent alors les mêmes agents au cours de trois scénarios.</p><p>Une particularité de ce scénario est qu’il se passe à Bruxelles, mais qu’il est possible pour le meneur de changer librement la ville. Si vous pensez que votre groupe s’amusera plus facilement à Lyon, Paris, Copenhague ou Tokyo, n’hésitez pas à appliquer les changements nécessaires.</p>"
+            "content": "<h1>En quelques mots</h1><p>Heist se trouve en mauvaise posture, car une agence concurrente émerge depuis quelque temps et débauche des agents pour ses propres casses.</p><p>Heist décide de confier à l’équipe des joueurs la mission d’en apprendre un maximum sur ce sérieux adversaire et de récupérer un moyen de prendre contact avec son dirigeant. Mais pour cela, ils vont devoir cambrioler la demeure d’une autre équipe de braqueurs, tout aussi doués qu’eux !</p><h1>Matériel</h1><p>Le scénario <em>Entrez sans sonner</em> utilise 2 plans :</p><ul><li><p>1 plan complet de l’appartement du 1er étage de l’immeuble détaillant l’ensemble des secrets du lieu, joint à ce scénario ;</p></li><li><p>1 plan de départ pour les joueurs présentant l’appartement du 1er étage loué récemment par l’équipe concurrente. Il s’agit du plan fourni par l’agence de location.</p></li></ul><p>Plusieurs aides de jeu ont également été créées par <em>Fourmi1</em> :</p><ul><li><p>@UUID[JournalEntry.pDZmlPadzZD6yh8m.JournalEntryPage.0Dnsyh4MtAjgTPs0]{Préparation des agents dissidents}</p></li><li><p>@UUID[JournalEntry.pDZmlPadzZD6yh8m.JournalEntryPage.KYV3f1fC4DyHN7Hf]{Écran clé USB - Image}</p></li><li><p>@UUID[JournalEntry.pDZmlPadzZD6yh8m.JournalEntryPage.pRX8SryfjdKhoxWv]{Écran USB - Vidéo}</p></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario est le premier acte de la campagne « Santa ». Il peut être joué indépendamment, mais prend encore plus d’intérêt si le groupe joue ensuite les scénarios suivants. Les joueurs incarnent alors les mêmes agents au cours de trois scénarios.</p><p>Une particularité de ce scénario est qu’il se passe à Bruxelles, mais qu’il est possible pour le meneur de changer librement la ville. Si vous pensez que votre groupe s’amusera plus facilement à Lyon, Paris, Copenhague ou Tokyo, n’hésitez pas à appliquer les changements nécessaires.</p>"
           },
           "video": {
             "controls": true,
@@ -1589,12 +1272,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716312984758,
-            "modifiedTime": 1716312984758,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "modifiedTime": 1717948041512,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1625,12 +1306,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716313115643,
             "modifiedTime": 1716313685469,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1661,12 +1340,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716313664655,
             "modifiedTime": 1716313759283,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1681,7 +1358,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p>L’action de ce scénario est particulièrement ramassée puisque tout se déroule dans un immeuble d’habitation, divisé en plusieurs appartements. Les PJ vont pouvoir explorer cet immeuble et plusieurs de ses logements ainsi que le chantier et la supérette adjacents.</p><h2>Immeuble</h2><p>Le bâtiment est tout ce qu’il y a de plus simple et n’offre ni une architecture riche ni une esthétique marquée. C’est une ancienne maison des années 1930 qui a été entièrement rénovée et transformée en immeuble de rapport. Il n’y a pas d’ascenseur, mais un grand escalier en bois permet d’accéder aux différents étages. Il y a un bloc de boîtes aux lettres dans l’entrée ; un coup d’œil sur ces dernières donne aux agents le pseudonyme de <em>streamer</em> de l’habitant du dernier étage : Miréno. La porte d’entrée est fermée à l’aide d’un digicode basique (et facilement hackable), mais peut aussi s’ouvrir à l’aide d’un puissant coup d’épaule. Dans tous les cas, elle produit un bruit retentissant dans tout l’immeuble, car elle est un peu gonflée et frotte contre son cadre. Les résidents en ont l’habitude (une entreprise est intervenue à plusieurs reprises pour corriger le problème au fil des mois, sans succès) et ne sont plus surpris par le bruit, en témoigne la présence d’une feuille plastifiée indiquant sur la porte : « <em>Comme vous pouvez le constater, la porte continue de faire beaucoup de bruit. Le syndic a bien conscience du problème et a prévenu un réparateur. L’intervention est programmée pour le 24 septembre.</em> »</p><h2>Chantier</h2><p>C’est pour l’instant un grand terrain vague. Il y avait un immeuble ici, mais il a été détruit dans le but de construire un hôtel. Le chantier avance tout doucement. Il y a actuellement deux ouvriers qui viennent tous les jours, saufle weekend, pour finir la destruction et déblayer ce qui peut l’être : <strong>@UUID[Actor.Qla5VJqA4A9FqWGg]{Benjamin Locke et Aleks Nowak}</strong>. De nombreux outils sont présents lorsque les ouvriers sont là, mais ils sont retirés pendant le weekend. Un trou, non visible depuis la rue, permet d’accéder au réseau de canalisations. Ce réseau étant relié à l’immeuble, des agents assez souples pourraient se servir de ce trou pour y pénétrer.</p><h2><em>Night Shop</em></h2><p>Une épicerie de quartier assez classique borde l’immeuble, avec son alcool derrière le comptoir et ses produits hors de prix. Le rayon nourriture pour animaux est vide de croquettes pour chien. Si un personnage en fait la remarque, le gérant <strong>@UUID[Actor.vuA5Rz2t3zfqMN4y]{Samir Alami}</strong> évoquera un nouveau client qui a acheté tout son stock. C’est aussi un relais colis et de nombreux cartons empilés occupent l’espace. La réserve du magasin est reliée au local poubelle de l’immeuble, ce qui permet un accès facilité à celui-ci. Les PJ peuvent soudoyer le gérant avec une petite somme d’argent pour utiliser cet accès ou s’infiltrer discrètement en détournant son attention.</p><h2>Appartement du rez-de-chaussée</h2><p>C’est ici qu’habite <strong>@UUID[Actor.Z8T5n490jxkhQh7U]{Jeanine Laurent}</strong>, une vieille dame de 85 ans atteinte d’une légère démence. Elle vit seule depuis le décès de son mari, René, il y a 21 ans. Son appartement occupe tout l’espace de l’étage. Les agents peuvent facilement profiter de sa gentillesse pour visiter son logement (elle ouvrira même la porte de l’immeuble s’ils sonnent avec une bonne excuse), car elle cherche de la compagnie. Ils peuvent également facilement se faire passer pour des membres de sa famille, car elle ne les reconnaît plus vraiment. Son appartement sent fort la friture et la térébenthine.</p><h2>Appartement du 1<sup>er</sup> étage</h2><p>C’est l’appartement occupé par les agents dissidents depuis une semaine. Il s’agit d’un logement meublé, plutôt grand et composé de 2 chambres et 1 bureau qui peut servir aussi de chambre. <strong>@UUID[Actor.rD4cQnYj31yoCw5p]{Youri Markov}</strong> et <strong>@UUID[Actor.gZ1wqC6RydbxVIg7]{Eliot Landgren}</strong> disposent chacun d’une chambre individuelle, tandis que <strong>@UUID[Actor.Bczlh3xBBLiybh6v]{Saima Zaman}</strong> et <strong>@UUID[Actor.VwlRhyRG8YJwNdWC]{Fanny Peeters}</strong> dorment dans une chambre commune.</p><p>L’appartement a été sécurisé afin de servir de camp de base pour les agents, même si la possibilité d’être les victimes d’une attaque leur paraît faible. La porte d’entrée reste un gros point faible : cette dernière peut facilement être crochetée ou détruite par les agents. En écoutant à la porte (ou en tentant de sonner) pendant la phase de Reconnaissance, les agents entendent d’abord des aboiements puis des cris en russe. Personne ne les laisse entrer ici, mais la porte s’entrouvre sur l’un des agents dissidents qui cherche, méfiant, à comprendre pourquoi ils souhaitent s’introduire chez eux. Un agent attentif peut remarquer les deux caméras installées dans l’entrée et pointant sur la porte palière. Ces dernières sont faciles à neutraliser pour Trèfle ou à contourner en passant par une fenêtre ou le plafond.</p><p>Les agents sont également accueillis (quelle que soit leur manière d’entrer dans l’appartement) par Babayaga, la chienne de Markov, qui est la seule à occuper les lieux à partir de 18 heures. Elle est particulièrement dangereuse et agressive, mais elle peut être distraite par de la nourriture ou être assommée.</p><p></p><p>L’appartement est dans un très grand désordre ; chercher directement l’objet de la mission sans objectif clair se soldera inévitablement par un échec. Les agents trouvent néanmoins de nombreux objets et documents expliquant le plan des dissidents pour récupérer le tableau. Ces derniers font souvent des références plus ou moins subtiles à Noël. Le musée est appelé « l’usine à cadeaux » et le tableau est décrit comme « le présent pour les enfants sages ».</p><p>Une fouille attentive laisse voir des traces sur le plancher du couloir principal qui mènent au dressing, au sud-est de l’appartement, comme si on avait tiré quelque chose sur le sol. Les suivre amène les agents à découvrir <strong>@UUID[Actor.YfjwS6a7dL7Khv6E]{Guy Vandenbroucke}</strong> dans un placard, attaché à une chaise, un bâillon-boule dans la bouche. Il est en piteux état et a été visiblement tor­turé. Il s’agit d’un des gardiens du musée Magritte qui a été enlevé et séquestré afin d’obtenir un maximum d’informations sur le musée. Le libérer (et le rassurer) est un bon moyen d’en apprendre un peu plus (voir plus loin).</p><p>La chambre de Markov est un lieu consacré à son entraînement et à son maintien en forme. Il n’y a rien à trouver ici, si ce n’est une télécommande ornée d’un pentacle et d’un seul bouton. Le presser calme instantanément Babayaga.</p><p>La chambre partagée par Zaman et Peeters est dans un désordre impressionnant. On peut y trouver autant de câbles que de cordes, montrant des occupations très différentes pour les deux femmes.</p><p>La chambre de Landgren est verrouillée. La clé est cachée dans le compartiment congélateur du frigo de la cuisine. La porte peut aussi être forcée ou détruite. Une fois à l’intérieur, c’est clairement la pièce la mieux rangée. Elle contient la plupart des plans ainsi qu’un petit ordinateur portable, posé sur un bureau. À côté de cet ordinateur se trouve la <strong>clé USB en forme de père Noël</strong> qui a servi pour la prise de contact.</p><div class=\"orange-box\"><p>Vous pouvez afficher les différentes éléments en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.0Sp5sv35NrYbOWmP]{Caméras} ;</p></li><li><p>@UUID[Macro.7dwV6uN4PSsINp92]{Chambre de Markov} ;</p></li><li><p>@UUID[Macro.bdlKSBofXBfRqdlH]{Chambre de Zaman et Peeters} ;</p></li><li><p>@UUID[Macro.ZBe0tJ3zPj5R9UhX]{Salle à manger / Salon} ;</p></li><li><p>@UUID[Macro.53GK8AmyjAPubDSC]{Traces} ;</p></li><li><p>@UUID[Macro.9xPuIfmv7pCXUWOH]{Chambre de Landgren}</p></li></ul></div><h2>Appartement du 2<sup>e</sup> étage</h2><p>Il s’agit d’un logement de tourisme saisonnier HerBnB assez classique, avec son lot de décoration venant de magasins bon marché et de meubles préfabriqués. Les agents ne trouveront rien en fouillant ici (sauf des restes de nourriture dans le réfrigérateur, mais qui ne devraient pas spécialement leur servir). S’ils souhaitent louer cet appartement, ils en ont très rapidement la possibilité : le propriétaire est <strong>@UUID[Actor.mxPjDOadP2YpLkmX]{Jean Grandmaison}</strong>, mais c’est sa fille <strong>Emma</strong> qui gère les réservations. Celle-ci leur répond par message que le logement est libre pour toute la semaine à venir. L’entrée dans les lieux se fait de manière autonome : une réservation leur donne accès au code de l’immeuble (3005) et à celui de la boîte à clé collée au mur adjacent à la porte du logement (2803). Cette boîte est assez fragile et peut facilement être forcée pour récupérer la clé si les agents l’ont repérée. Le HerBnB est juste au-dessus de l’appartement cible et peut servir de camp de base pour les agents. La connexion Internet y est très bonne et le plancher du séjour peut être découpé pour descendre directement chez la cible.</p><h2>Penthouse</h2><p>Le dernier étage est occupé par un magnifique appartement agencé avec une absence de bon goût notable. Beaucoup de néons et d’objets chers sont présents et la décoration est surchargée, dans un style clairement « nouveau riche ». Il s’agit du logement de <strong>@UUID[Actor.TxoKiEr5u51NE5aY]{Jérémie Renaud}</strong>. Les agents pourraient être tentés de dérober les cadres contenant de très rares cartes Pokémon, mais cela serait contre les principes de Heist. Une armoire dans la chambre contient des armes à feu. La cuisine est très mal rangée et de nombreux restes de fast-food y sont éparpillés. L’immense balcon, recouvert de plantes et de mobilier de jardin, occupe la totalité du toit de l’immeuble. On y accède par un escalier dans le séjour.</p><p></p><p>En soirée, le logement est également occupé par <strong>@UUID[Actor.5VODLPBcG65nIDrw]{Cynthia Mercier}</strong>, la petite amie de Renaud. Celle-ci est également présente dans l’immeuble toute la journée du vendredi durant la reconnaissance (voir plus loin).</p><h2>Caves, local poubelle et local à vélo</h2><p>Le niveau de sous-sol est une zone commune à tous les appartements et est divisé en plusieurs espaces. Chaque logement dispose d’une cave, mais ces dernières ne contiennent rien de très pertinent pour les agents. Une inspection du local poubelle révèle des sacs vides de nourriture pour animaux, de nombreuses canettes de boisson énergisante et des emballages de ramen instantanées. Il y a également les cartons de deux caméras de sécurité bon marché. Les agents ont aussi accès ici aux différents vannes et compteurs d’eau et de gaz qui alimentent chaque appartement, ainsi qu’au tableau électrique des espaces communs. Le local à vélo est vide. Les agents peuvent très facilement se cacher ici et ne seront pas dérangés, sauf s’ils sont trop bruyants.</p>"
+            "content": "<p>L’action de ce scénario est particulièrement ramassée puisque tout se déroule dans un immeuble d’habitation, divisé en plusieurs appartements. Les PJ vont pouvoir explorer cet immeuble et plusieurs de ses logements ainsi que le chantier et la supérette adjacents.</p><h2>Immeuble</h2><p>Le bâtiment est tout ce qu’il y a de plus simple et n’offre ni une architecture riche ni une esthétique marquée. C’est une ancienne maison des années 1930 qui a été entièrement rénovée et transformée en immeuble de rapport. Il n’y a pas d’ascenseur, mais un grand escalier en bois permet d’accéder aux différents étages. Il y a un bloc de boîtes aux lettres dans l’entrée ; un coup d’œil sur ces dernières donne aux agents le pseudonyme de <em>streamer</em> de l’habitant du dernier étage : Miréno. La porte d’entrée est fermée à l’aide d’un digicode basique (et facilement hackable), mais peut aussi s’ouvrir à l’aide d’un puissant coup d’épaule. Dans tous les cas, elle produit un bruit retentissant dans tout l’immeuble, car elle est un peu gonflée et frotte contre son cadre. Les résidents en ont l’habitude (une entreprise est intervenue à plusieurs reprises pour corriger le problème au fil des mois, sans succès) et ne sont plus surpris par le bruit, en témoigne la présence d’une feuille plastifiée indiquant sur la porte : « <em>Comme vous pouvez le constater, la porte continue de faire beaucoup de bruit. Le syndic a bien conscience du problème et a prévenu un réparateur. L’intervention est programmée pour le 24 septembre.</em> »</p><h2>Chantier</h2><p>C’est pour l’instant un grand terrain vague. Il y avait un immeuble ici, mais il a été détruit dans le but de construire un hôtel. Le chantier avance tout doucement. Il y a actuellement deux ouvriers qui viennent tous les jours, saufle weekend, pour finir la destruction et déblayer ce qui peut l’être : <strong>@UUID[Actor.Qla5VJqA4A9FqWGg]{Benjamin Locke et Aleks Nowak}</strong>. De nombreux outils sont présents lorsque les ouvriers sont là, mais ils sont retirés pendant le weekend. Un trou, non visible depuis la rue, permet d’accéder au réseau de canalisations. Ce réseau étant relié à l’immeuble, des agents assez souples pourraient se servir de ce trou pour y pénétrer.</p><h2><em>Night Shop</em></h2><p>Une épicerie de quartier assez classique borde l’immeuble, avec son alcool derrière le comptoir et ses produits hors de prix. Le rayon nourriture pour animaux est vide de croquettes pour chien. Si un personnage en fait la remarque, le gérant <strong>@UUID[Actor.vuA5Rz2t3zfqMN4y]{Samir Alami}</strong> évoquera un nouveau client qui a acheté tout son stock. C’est aussi un relais colis et de nombreux cartons empilés occupent l’espace. La réserve du magasin est reliée au local poubelle de l’immeuble, ce qui permet un accès facilité à celui-ci. Les PJ peuvent soudoyer le gérant avec une petite somme d’argent pour utiliser cet accès ou s’infiltrer discrètement en détournant son attention.</p><h2>Appartement du rez-de-chaussée</h2><p>C’est ici qu’habite <strong>@UUID[Actor.Z8T5n490jxkhQh7U]{Jeanine Laurent}</strong>, une vieille dame de 85 ans atteinte d’une légère démence. Elle vit seule depuis le décès de son mari, René, il y a 21 ans. Son appartement occupe tout l’espace de l’étage. Les agents peuvent facilement profiter de sa gentillesse pour visiter son logement (elle ouvrira même la porte de l’immeuble s’ils sonnent avec une bonne excuse), car elle cherche de la compagnie. Ils peuvent également facilement se faire passer pour des membres de sa famille, car elle ne les reconnaît plus vraiment. Son appartement sent fort la friture et la térébenthine.</p><h2>Appartement du 1<sup>er</sup> étage</h2><p>C’est l’appartement occupé par les agents dissidents depuis une semaine. Il s’agit d’un logement meublé, plutôt grand et composé de 2 chambres et 1 bureau qui peut servir aussi de chambre. <strong>@UUID[Actor.rD4cQnYj31yoCw5p]{Youri Markov}</strong> et <strong>@UUID[Actor.gZ1wqC6RydbxVIg7]{Eliot Landgren}</strong> disposent chacun d’une chambre individuelle, tandis que <strong>@UUID[Actor.Bczlh3xBBLiybh6v]{Saima Zaman}</strong> et <strong>@UUID[Actor.VwlRhyRG8YJwNdWC]{Fanny Peeters}</strong> dorment dans une chambre commune.</p><p>L’appartement a été sécurisé afin de servir de camp de base pour les agents, même si la possibilité d’être les victimes d’une attaque leur paraît faible. La porte d’entrée reste un gros point faible : cette dernière peut facilement être crochetée ou détruite par les agents. En écoutant à la porte (ou en tentant de sonner) pendant la phase de Reconnaissance, les agents entendent d’abord des aboiements puis des cris en russe. Personne ne les laisse entrer ici, mais la porte s’entrouvre sur l’un des agents dissidents qui cherche, méfiant, à comprendre pourquoi ils souhaitent s’introduire chez eux. Un agent attentif peut remarquer les deux caméras installées dans l’entrée et pointant sur la porte palière. Ces dernières sont faciles à neutraliser pour Trèfle ou à contourner en passant par une fenêtre ou le plafond.</p><p>Les agents sont également accueillis (quelle que soit leur manière d’entrer dans l’appartement) par Babayaga, la chienne de Markov, qui est la seule à occuper les lieux à partir de 18 heures. Elle est particulièrement dangereuse et agressive, mais elle peut être distraite par de la nourriture ou être assommée.</p><p></p><p>L’appartement est dans un très grand désordre ; chercher directement l’objet de la mission sans objectif clair se soldera inévitablement par un échec. Les agents trouvent néanmoins de nombreux objets et documents expliquant le plan des dissidents pour récupérer le tableau. Ces derniers font souvent des références plus ou moins subtiles à Noël. Le musée est appelé « l’usine à cadeaux » et le tableau est décrit comme « le présent pour les enfants sages ».</p><p>Une fouille attentive laisse voir des traces sur le plancher du couloir principal qui mènent au dressing, au sud-est de l’appartement, comme si on avait tiré quelque chose sur le sol. Les suivre amène les agents à découvrir <strong>@UUID[Actor.YfjwS6a7dL7Khv6E]{Guy Vandenbroucke}</strong> dans un placard, attaché à une chaise, un bâillon-boule dans la bouche. Il est en piteux état et a été visiblement tor­turé. Il s’agit d’un des gardiens du musée Magritte qui a été enlevé et séquestré afin d’obtenir un maximum d’informations sur le musée. Le libérer (et le rassurer) est un bon moyen d’en apprendre un peu plus (voir plus loin).</p><p>La chambre de Markov est un lieu consacré à son entraînement et à son maintien en forme. Il n’y a rien à trouver ici, si ce n’est une télécommande ornée d’un pentacle et d’un seul bouton. Le presser calme instantanément Babayaga.</p><p>La chambre partagée par Zaman et Peeters est dans un désordre impressionnant. On peut y trouver autant de câbles que de cordes, montrant des occupations très différentes pour les deux femmes.</p><p>La chambre de Landgren est verrouillée. La clé est cachée dans le compartiment congélateur du frigo de la cuisine. La porte peut aussi être forcée ou détruite. Une fois à l’intérieur, c’est clairement la pièce la mieux rangée. Elle contient la plupart des plans ainsi qu’un petit ordinateur portable, posé sur un bureau. À côté de cet ordinateur se trouve la <strong>clé USB en forme de père Noël</strong> qui a servi pour la prise de contact.</p><div class=\"orange-box\"><p>Vous pouvez afficher les différentes éléments en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.0Sp5sv35NrYbOWmP]{Caméras} ;</p></li><li><p>@UUID[Macro.7dwV6uN4PSsINp92]{Chambre de Markov} ;</p></li><li><p>@UUID[Macro.bdlKSBofXBfRqdlH]{Chambre de Zaman et Peeters} ;</p></li><li><p>@UUID[Macro.ZBe0tJ3zPj5R9UhX]{Salle à manger / Salon} ;</p></li><li><p>@UUID[Macro.53GK8AmyjAPubDSC]{Traces} ;</p></li><li><p>@UUID[Macro.9xPuIfmv7pCXUWOH]{Chambre de Landgren}.</p></li></ul></div><h2>Appartement du 2<sup>e</sup> étage</h2><p>Il s’agit d’un logement de tourisme saisonnier HerBnB assez classique, avec son lot de décoration venant de magasins bon marché et de meubles préfabriqués. Les agents ne trouveront rien en fouillant ici (sauf des restes de nourriture dans le réfrigérateur, mais qui ne devraient pas spécialement leur servir). S’ils souhaitent louer cet appartement, ils en ont très rapidement la possibilité : le propriétaire est <strong>@UUID[Actor.mxPjDOadP2YpLkmX]{Jean Grandmaison}</strong>, mais c’est sa fille <strong>Emma</strong> qui gère les réservations. Celle-ci leur répond par message que le logement est libre pour toute la semaine à venir. L’entrée dans les lieux se fait de manière autonome : une réservation leur donne accès au code de l’immeuble (3005) et à celui de la boîte à clé collée au mur adjacent à la porte du logement (2803). Cette boîte est assez fragile et peut facilement être forcée pour récupérer la clé si les agents l’ont repérée. Le HerBnB est juste au-dessus de l’appartement cible et peut servir de camp de base pour les agents. La connexion Internet y est très bonne et le plancher du séjour peut être découpé pour descendre directement chez la cible.</p><h2>Penthouse</h2><p>Le dernier étage est occupé par un magnifique appartement agencé avec une absence de bon goût notable. Beaucoup de néons et d’objets chers sont présents et la décoration est surchargée, dans un style clairement « nouveau riche ». Il s’agit du logement de <strong>@UUID[Actor.TxoKiEr5u51NE5aY]{Jérémie Renaud}</strong>. Les agents pourraient être tentés de dérober les cadres contenant de très rares cartes Pokémon, mais cela serait contre les principes de Heist. Une armoire dans la chambre contient des armes à feu. La cuisine est très mal rangée et de nombreux restes de fast-food y sont éparpillés. L’immense balcon, recouvert de plantes et de mobilier de jardin, occupe la totalité du toit de l’immeuble. On y accède par un escalier dans le séjour.</p><p></p><p>En soirée, le logement est également occupé par <strong>@UUID[Actor.5VODLPBcG65nIDrw]{Cynthia Mercier}</strong>, la petite amie de Renaud. Celle-ci est également présente dans l’immeuble toute la journée du vendredi durant la reconnaissance (voir plus loin).</p><h2>Caves, local poubelle et local à vélo</h2><p>Le niveau de sous-sol est une zone commune à tous les appartements et est divisé en plusieurs espaces. Chaque logement dispose d’une cave, mais ces dernières ne contiennent rien de très pertinent pour les agents. Une inspection du local poubelle révèle des sacs vides de nourriture pour animaux, de nombreuses canettes de boisson énergisante et des emballages de ramen instantanées. Il y a également les cartons de deux caméras de sécurité bon marché. Les agents ont aussi accès ici aux différents vannes et compteurs d’eau et de gaz qui alimentent chaque appartement, ainsi qu’au tableau électrique des espaces communs. Le local à vélo est vide. Les agents peuvent très facilement se cacher ici et ne seront pas dérangés, sauf s’ils sont trop bruyants.</p>"
           },
           "video": {
             "controls": true,
@@ -1697,12 +1374,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716313784623,
-            "modifiedTime": 1716734731919,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "modifiedTime": 1717960192018,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1733,12 +1408,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716314175776,
-            "modifiedTime": 1716315140086,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "modifiedTime": 1717950483650,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1769,12 +1442,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716314645822,
             "modifiedTime": 1716314676230,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1805,12 +1476,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716314682024,
             "modifiedTime": 1716315781050,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1841,12 +1510,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716314735642,
             "modifiedTime": 1716314790420,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1877,12 +1544,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716314799549,
             "modifiedTime": 1716314851297,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         }
       ],
@@ -1895,12 +1560,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716311955204,
-        "modifiedTime": 1716315781050,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "modifiedTime": 1717950483650,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -1937,12 +1600,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716726342097,
             "modifiedTime": 1716726400404,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -1974,12 +1635,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716726878051,
             "modifiedTime": 1716726890220,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2009,12 +1668,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716732691997,
             "modifiedTime": 1716732696676,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2046,12 +1703,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716732750790,
             "modifiedTime": 1716732757942,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2082,12 +1737,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716732978311,
             "modifiedTime": 1716733106009,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2119,12 +1772,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716734078447,
             "modifiedTime": 1716734094320,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2156,12 +1807,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716734105691,
             "modifiedTime": 1716734110526,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2193,12 +1842,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716734121731,
             "modifiedTime": 1716734125913,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         },
         {
@@ -2230,12 +1877,10 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "12.325",
+            "coreVersion": "11.315",
             "createdTime": 1716734135647,
             "modifiedTime": 1716734139576,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-            "compendiumSource": null,
-            "duplicateSource": null
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
           }
         }
       ],
@@ -2248,12 +1893,10 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716316137544,
         "modifiedTime": 1716734139576,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
   ],
@@ -2272,12 +1915,7 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0,
-        "anchorX": 0,
-        "anchorY": 0,
-        "fit": "fill",
-        "tint": "#ffffff",
-        "alphaThreshold": 0
+        "rotation": 0
       },
       "foregroundElevation": 4,
       "width": 2516,
@@ -2295,11 +1933,14 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 1,
-        "units": "",
-        "style": "solidLines",
-        "thickness": 1
+        "units": ""
       },
       "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1716726917323,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
       "drawings": [
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2312,13 +1953,14 @@
           },
           "x": 1039.4567119525786,
           "y": 1627.9351568803138,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Chambre de Markov",
           "fontFamily": "Masqualero",
@@ -2329,10 +1971,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "s6BUZca8SrbQ9iWF",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "s6BUZca8SrbQ9iWF"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2345,13 +1984,14 @@
           },
           "x": 2610.643007035944,
           "y": 2229.963896976667,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Chambre de Zaman et Peeters",
           "fontFamily": "Masqualero",
@@ -2362,10 +2002,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "TmlazkE65zASOhRd",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "TmlazkE65zASOhRd"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2378,13 +2015,14 @@
           },
           "x": 1194.9401745279215,
           "y": 2726.119650944157,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Cuisine",
           "fontFamily": "Masqualero",
@@ -2395,10 +2033,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "7nwvhCMNW41WFvpv",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "7nwvhCMNW41WFvpv"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2411,13 +2046,14 @@
           },
           "x": 1515.8412665097871,
           "y": 2723.1526202835353,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Clé de la chambre de Landgren",
           "fontFamily": "Masqualero",
@@ -2428,10 +2064,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "19eeITDEpeV4sbSE",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "19eeITDEpeV4sbSE"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2444,13 +2077,14 @@
           },
           "x": 1238,
           "y": 3037,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Documents sur le casse",
           "fontFamily": "Masqualero",
@@ -2461,10 +2095,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "kF5MF9vFpi4qinHK",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "kF5MF9vFpi4qinHK"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2477,13 +2108,14 @@
           },
           "x": 1244.5582002947801,
           "y": 3249.8297148489373,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Salle à manger",
           "fontFamily": "Masqualero",
@@ -2494,10 +2126,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "O9hN0sIbJDLVWioW",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "O9hN0sIbJDLVWioW"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2510,13 +2139,14 @@
           },
           "x": 1198.2536097729371,
           "y": 3493.2020363210167,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Salon",
           "fontFamily": "Masqualero",
@@ -2527,10 +2157,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "GcuBSvcfNtOLgEfl",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "GcuBSvcfNtOLgEfl"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2543,13 +2170,14 @@
           },
           "x": 2549,
           "y": 3196,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Dressing",
           "fontFamily": "Masqualero",
@@ -2560,10 +2188,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "2PCgvUi15qtTaHGJ",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "2PCgvUi15qtTaHGJ"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2576,13 +2201,14 @@
           },
           "x": 2517.0598254720785,
           "y": 3570.754584905008,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Guy Vandenbroucke",
           "fontFamily": "Masqualero",
@@ -2593,10 +2219,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "eVhpCmQYFoUkcAyX",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "eVhpCmQYFoUkcAyX"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2609,13 +2232,14 @@
           },
           "x": 2139.9962471889994,
           "y": 3103.5992433803567,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Chambre de Landgren",
           "fontFamily": "Masqualero",
@@ -2626,10 +2250,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "93DOzJ20jNyFcNTB",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "93DOzJ20jNyFcNTB"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2642,13 +2263,14 @@
           },
           "x": 2113.1845744910356,
           "y": 3496.147060888156,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Clé USB",
           "fontFamily": "Masqualero",
@@ -2659,10 +2281,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "h92UVuecuOH5pMNo",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "h92UVuecuOH5pMNo"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2675,13 +2294,14 @@
           },
           "x": 1998.4371179245827,
           "y": 2792.6825330195743,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Porte verrouillée",
           "fontFamily": "Masqualero",
@@ -2692,10 +2312,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "1Is9NPTZLeFqxHCM",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "1Is9NPTZLeFqxHCM"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2708,13 +2325,14 @@
           },
           "x": 2080.4248915112275,
           "y": 2665.8021839637313,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Traces",
           "fontFamily": "Masqualero",
@@ -2725,10 +2343,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "k3jenG9haBQPOYyN",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "k3jenG9haBQPOYyN"
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2741,13 +2356,14 @@
           },
           "x": 2500.634581133517,
           "y": 1274.8035366389963,
+          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#ffffff",
+          "fillColor": "#FFFFFF",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#ffffff",
+          "strokeColor": "#FFFFFF",
           "strokeAlpha": 0,
           "text": "Caméra de surveillance",
           "fontFamily": "Masqualero",
@@ -2758,10 +2374,7 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "I5Fjbj4icHtGgmTz",
-          "interface": true,
-          "elevation": 0,
-          "sort": 0
+          "_id": "I5Fjbj4icHtGgmTz"
         }
       ],
       "tokens": [],
@@ -2778,23 +2391,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 2199,
           "y": 1738,
           "width": 50,
           "height": 50,
+          "overhead": false,
+          "z": 100,
           "rotation": 225,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -2802,13 +2415,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "HQNzxrW1XWWoZfMi",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "HQNzxrW1XWWoZfMi"
         },
         {
           "texture": {
@@ -2818,23 +2425,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 1994,
           "y": 1618,
           "width": 50,
           "height": 50,
+          "overhead": false,
+          "z": 100,
           "rotation": 165,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -2842,13 +2449,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "E8L9WhyHL2mFQqKf",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "E8L9WhyHL2mFQqKf"
         },
         {
           "texture": {
@@ -2858,23 +2459,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 2436,
           "y": 1263,
           "width": 87,
           "height": 87,
+          "overhead": false,
+          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -2882,13 +2483,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "d6oXq7EtLdaxjKSE",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "d6oXq7EtLdaxjKSE"
         },
         {
           "texture": {
@@ -2897,38 +2492,31 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0,
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
+            "rotation": 0
           },
           "x": 914,
           "y": 1744,
           "width": 605.7,
           "height": 820,
+          "overhead": false,
           "_id": "E6TrnMFqaIPgJION",
+          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {},
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "flags": {}
         },
         {
           "texture": {
@@ -2937,38 +2525,31 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0,
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
+            "rotation": 0
           },
           "x": 2677,
           "y": 1805,
           "width": 283.1,
           "height": 396.9,
+          "overhead": false,
           "_id": "GyOqmV1smiD8gH0M",
+          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {},
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "flags": {}
         },
         {
           "texture": {
@@ -2977,38 +2558,31 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0,
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
+            "rotation": 0
           },
           "x": 2192,
           "y": 2798,
           "width": 328.6,
           "height": 114.3,
+          "overhead": false,
           "_id": "92qQFRcFJCrNgCyU",
+          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {},
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "flags": {}
         },
         {
           "texture": {
@@ -3018,37 +2592,31 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 1027,
           "y": 2970,
           "width": 823,
           "height": 857,
+          "overhead": false,
           "_id": "FHcbFuSx5YVnYDZS",
+          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {},
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "flags": {}
         },
         {
           "texture": {
@@ -3057,38 +2625,31 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0,
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
+            "rotation": 0
           },
           "x": 2003,
           "y": 3322,
           "width": 451.4,
           "height": 560,
+          "overhead": false,
           "_id": "MKDpTzTCF26DMuZR",
+          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {},
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "flags": {}
         },
         {
           "texture": {
@@ -3098,23 +2659,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 1768,
           "y": 2657,
           "width": 70,
           "height": 70,
+          "overhead": false,
+          "z": 100,
           "rotation": 45,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -3122,13 +2683,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "LOz96Is3Q1QMZbXC",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "LOz96Is3Q1QMZbXC"
         },
         {
           "texture": {
@@ -3138,23 +2693,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 2162,
           "y": 2738,
           "width": 70,
           "height": 70,
+          "overhead": false,
+          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -3162,13 +2717,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "HvCVXvRDLsZXIiYj",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "HvCVXvRDLsZXIiYj"
         },
         {
           "texture": {
@@ -3178,23 +2727,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 2075,
           "y": 2909,
           "width": 70,
           "height": 70,
+          "overhead": false,
+          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -3202,13 +2751,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "SwNQyS9vOUQut5bI",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "SwNQyS9vOUQut5bI"
         },
         {
           "texture": {
@@ -3218,23 +2761,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 2059,
           "y": 3523,
           "width": 70,
           "height": 70,
+          "overhead": false,
+          "z": 100,
           "rotation": 270,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -3242,13 +2785,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "iJb7c9r7O1XJR8Cp",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "iJb7c9r7O1XJR8Cp"
         },
         {
           "texture": {
@@ -3258,23 +2795,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": "#ffffff",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "fit": "fill",
-            "alphaThreshold": 0.75
+            "tint": null
           },
           "x": 2812,
           "y": 3696,
           "width": 70,
           "height": 70,
+          "overhead": false,
+          "z": 100,
           "rotation": 150,
           "alpha": 1,
           "hidden": true,
           "locked": false,
+          "roof": false,
           "occlusion": {
-            "mode": 0,
-            "alpha": 0
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
           },
           "video": {
             "loop": true,
@@ -3282,13 +2819,7 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "elMfj7T9WjCeWP3H",
-          "sort": 100,
-          "restrictions": {
-            "light": false,
-            "weather": false
-          },
-          "elevation": 0
+          "_id": "elMfj7T9WjCeWP3H"
         }
       ],
       "walls": [],
@@ -3305,60 +2836,17 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716726917325,
-        "modifiedTime": 1716733916595,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
+        "modifiedTime": 1716734759114,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "foreground": null,
       "thumb": "worlds/the-heist/assets/scenes/6h4oMlUhdaJAfsVK-thumb.webp",
-      "weather": "",
-      "environment": {
-        "globalLight": {
-          "luminosity": 0,
-          "enabled": true,
-          "darkness": {
-            "max": 1,
-            "min": 0
-          },
-          "alpha": 0.5,
-          "bright": false,
-          "color": null,
-          "coloration": 1,
-          "saturation": 0,
-          "contrast": 0,
-          "shadows": 0
-        },
-        "darknessLevel": 0,
-        "darknessLock": false,
-        "cycle": true,
-        "base": {
-          "hue": 0,
-          "intensity": 0,
-          "luminosity": 0,
-          "saturation": 0,
-          "shadows": 0
-        },
-        "dark": {
-          "hue": 0.7138888888888889,
-          "intensity": 0,
-          "luminosity": -0.25,
-          "saturation": 0,
-          "shadows": 0
-        }
-      },
-      "fog": {
-        "exploration": false,
-        "reset": 1716726917323,
-        "overlay": null,
-        "colors": {
-          "explored": null,
-          "unexplored": null
-        }
-      },
-      "regions": []
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
     }
   ],
   "tables": [],
@@ -3377,20 +2865,14 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Macro.7dwV6uN4PSsINp92"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733464642,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": "Macro.7dwV6uN4PSsINp92",
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     },
     {
@@ -3406,20 +2888,14 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Macro.bdlKSBofXBfRqdlH"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733487931,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": "Macro.bdlKSBofXBfRqdlH",
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "_id": "bdlKSBofXBfRqdlH"
     },
@@ -3436,20 +2912,14 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Macro.ZBe0tJ3zPj5R9UhX"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733248408,
         "modifiedTime": 1716734007885,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": "Macro.ZBe0tJ3zPj5R9UhX",
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "_id": "ZBe0tJ3zPj5R9UhX"
     },
@@ -3466,20 +2936,14 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Macro.53GK8AmyjAPubDSC"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733531601,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": "Macro.53GK8AmyjAPubDSC",
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "_id": "53GK8AmyjAPubDSC"
     },
@@ -3496,20 +2960,14 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Macro.9xPuIfmv7pCXUWOH"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733549301,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": "Macro.9xPuIfmv7pCXUWOH",
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       },
       "_id": "9xPuIfmv7pCXUWOH"
     },
@@ -3527,20 +2985,14 @@
         "default": 0,
         "2Ix5Tl3gxkKU6taP": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Macro.0Sp5sv35NrYbOWmP"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733890096,
         "modifiedTime": 1716733915926,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": "Macro.0Sp5sv35NrYbOWmP",
-        "duplicateSource": null
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
       }
     }
   ],
@@ -3559,14 +3011,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716726906608,
         "modifiedTime": 1716733277382,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "Santa",
@@ -3580,14 +3029,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733271459,
         "modifiedTime": 1716733273565,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3601,14 +3047,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716314898649,
         "modifiedTime": 1716733287865,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "Santa",
@@ -3622,14 +3065,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733282379,
         "modifiedTime": 1716733282379,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3643,14 +3083,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716315588173,
         "modifiedTime": 1716733294198,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "Santa",
@@ -3664,14 +3101,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733291957,
         "modifiedTime": 1716733291957,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3685,14 +3119,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716311948605,
         "modifiedTime": 1716733300433,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "Santa",
@@ -3706,14 +3137,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733297303,
         "modifiedTime": 1716733297303,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3727,14 +3155,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733232660,
         "modifiedTime": 1716733232660,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     },
     {
       "name": "Santa",
@@ -3748,14 +3173,11 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "12.325",
+        "coreVersion": "11.315",
         "createdTime": 1716733224414,
         "modifiedTime": 1716733224414,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
-      "description": ""
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
     }
   ],
   "_id": "ANCWlTT87Rv8KJc5",
@@ -3764,12 +3186,10 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "12.325",
+    "coreVersion": "11.315",
     "createdTime": 1716312641337,
-    "modifiedTime": 1716734770164,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
-    "compendiumSource": null,
-    "duplicateSource": null
+    "modifiedTime": 1717960203786,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "_key": "!adventures!ANCWlTT87Rv8KJc5"
 }

@@ -5,6 +5,7 @@
 ### Added
 
 - Display remaining cards on agent sheet
+- Adventure compendium for the scenario "Vol sous la Manche"
 
 ### Changed
 
