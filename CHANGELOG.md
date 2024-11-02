@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Official cards images
+
 ## [12.0.0] - 2024-06-09
 
 ### Added

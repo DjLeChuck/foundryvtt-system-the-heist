@@ -2,14 +2,14 @@
   "name": "Deck de Trèfle",
   "type": "deck",
   "description": "Cartes du deck de Trèfle.",
-  "img": "cards/backs/dark-gold.webp",
+  "img": "systems/heist/images/cards/club/agent/back.webp",
   "cards": [
     {
       "name": "As de Trèfle",
       "faces": [
         {
           "name": "As de Trèfle",
-          "img": "cards/dark-gold/clubs-ace.webp",
+          "img": "systems/heist/images/cards/club/agent/01.webp",
           "text": ""
         }
       ],
@@ -51,7 +51,7 @@
         {
           "name": "Deux de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-02.webp"
+          "img": "systems/heist/images/cards/club/agent/02.webp"
         }
       ],
       "width": 2,
@@ -92,7 +92,7 @@
         {
           "name": "Trois de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-03.webp"
+          "img": "systems/heist/images/cards/club/agent/03.webp"
         }
       ],
       "width": 2,
@@ -133,7 +133,7 @@
         {
           "name": "Quatre de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-04.webp"
+          "img": "systems/heist/images/cards/club/agent/04.webp"
         }
       ],
       "width": 2,
@@ -174,7 +174,7 @@
         {
           "name": "Cinq de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-05.webp"
+          "img": "systems/heist/images/cards/club/agent/05.webp"
         }
       ],
       "width": 2,
@@ -215,7 +215,7 @@
         {
           "name": "Six de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-06.webp"
+          "img": "systems/heist/images/cards/club/agent/06.webp"
         }
       ],
       "width": 2,
@@ -256,7 +256,7 @@
         {
           "name": "Sept de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-07.webp"
+          "img": "systems/heist/images/cards/club/agent/07.webp"
         }
       ],
       "width": 2,
@@ -297,7 +297,7 @@
         {
           "name": "Huit de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-08.webp"
+          "img": "systems/heist/images/cards/club/agent/08.webp"
         }
       ],
       "width": 2,
@@ -338,7 +338,7 @@
         {
           "name": "Neuf de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-09.webp"
+          "img": "systems/heist/images/cards/club/agent/09.webp"
         }
       ],
       "width": 2,
@@ -379,7 +379,7 @@
         {
           "name": "Dix de Trèfle",
           "text": "",
-          "img": "cards/dark-gold/clubs-10.webp"
+          "img": "systems/heist/images/cards/club/agent/10.webp"
         }
       ],
       "width": 2,
@@ -419,7 +419,7 @@
       "faces": [
         {
           "name": "Valet de Trèfle",
-          "img": "cards/dark-gold/clubs-jack.webp",
+          "img": "systems/heist/images/cards/club/agent/11.webp",
           "text": ""
         }
       ],
@@ -460,7 +460,7 @@
       "faces": [
         {
           "name": "Dame de Trèfle",
-          "img": "cards/dark-gold/clubs-queen.webp",
+          "img": "systems/heist/images/cards/club/agent/12.webp",
           "text": ""
         }
       ],
@@ -501,7 +501,7 @@
       "faces": [
         {
           "name": "Roi de Trèfle",
-          "img": "cards/dark-gold/clubs-king.webp",
+          "img": "systems/heist/images/cards/club/agent/13.webp",
           "text": ""
         }
       ],

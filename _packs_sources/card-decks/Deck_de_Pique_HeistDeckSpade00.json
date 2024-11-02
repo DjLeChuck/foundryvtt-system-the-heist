@@ -2,14 +2,14 @@
   "name": "Deck de Pique",
   "type": "deck",
   "description": "Cartes du deck de Pique.",
-  "img": "cards/backs/dark-gold.webp",
+  "img": "systems/heist/images/cards/spade/agent/back.webp",
   "cards": [
     {
       "name": "As de Pique",
       "faces": [
         {
           "name": "As de Pique",
-          "img": "cards/dark-gold/spades-ace.webp",
+          "img": "systems/heist/images/cards/spade/agent/01.webp",
           "text": ""
         }
       ],
@@ -51,7 +51,7 @@
         {
           "name": "Deux de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-02.webp"
+          "img": "systems/heist/images/cards/spade/agent/02.webp"
         }
       ],
       "width": 2,
@@ -92,7 +92,7 @@
         {
           "name": "Trois de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-03.webp"
+          "img": "systems/heist/images/cards/spade/agent/03.webp"
         }
       ],
       "width": 2,
@@ -133,7 +133,7 @@
         {
           "name": "Quatre de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-04.webp"
+          "img": "systems/heist/images/cards/spade/agent/04.webp"
         }
       ],
       "width": 2,
@@ -174,7 +174,7 @@
         {
           "name": "Cinq de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-05.webp"
+          "img": "systems/heist/images/cards/spade/agent/05.webp"
         }
       ],
       "width": 2,
@@ -215,7 +215,7 @@
         {
           "name": "Six de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-06.webp"
+          "img": "systems/heist/images/cards/spade/agent/06.webp"
         }
       ],
       "width": 2,
@@ -256,7 +256,7 @@
         {
           "name": "Sept de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-07.webp"
+          "img": "systems/heist/images/cards/spade/agent/07.webp"
         }
       ],
       "width": 2,
@@ -297,7 +297,7 @@
         {
           "name": "Huit de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-08.webp"
+          "img": "systems/heist/images/cards/spade/agent/08.webp"
         }
       ],
       "width": 2,
@@ -338,7 +338,7 @@
         {
           "name": "Neuf de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-09.webp"
+          "img": "systems/heist/images/cards/spade/agent/09.webp"
         }
       ],
       "width": 2,
@@ -379,7 +379,7 @@
         {
           "name": "Dix de Pique",
           "text": "",
-          "img": "cards/dark-gold/spades-10.webp"
+          "img": "systems/heist/images/cards/spade/agent/10.webp"
         }
       ],
       "width": 2,
@@ -419,7 +419,7 @@
       "faces": [
         {
           "name": "Valet de Pique",
-          "img": "cards/dark-gold/spades-jack.webp",
+          "img": "systems/heist/images/cards/spade/agent/11.webp",
           "text": ""
         }
       ],
@@ -460,7 +460,7 @@
       "faces": [
         {
           "name": "Dame de Pique",
-          "img": "cards/dark-gold/spades-queen.webp",
+          "img": "systems/heist/images/cards/spade/agent/12.webp",
           "text": ""
         }
       ],
@@ -501,7 +501,7 @@
       "faces": [
         {
           "name": "Roi de Pique",
-          "img": "cards/dark-gold/spades-king.webp",
+          "img": "systems/heist/images/cards/spade/agent/13.webp",
           "text": ""
         }
       ],

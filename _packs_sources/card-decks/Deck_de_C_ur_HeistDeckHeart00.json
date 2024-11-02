@@ -2,14 +2,14 @@
   "name": "Deck de Cœur",
   "type": "deck",
   "description": "Cartes du deck de Cœur.",
-  "img": "cards/backs/dark-gold.webp",
+  "img": "systems/heist/images/cards/heart/agent/back.webp",
   "cards": [
     {
       "name": "As de Cœur",
       "faces": [
         {
           "name": "As de Cœur",
-          "img": "cards/dark-gold/hearts-ace.webp",
+          "img": "systems/heist/images/cards/heart/agent/01.webp",
           "text": ""
         }
       ],
@@ -51,7 +51,7 @@
         {
           "name": "Deux de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-02.webp"
+          "img": "systems/heist/images/cards/heart/agent/02.webp"
         }
       ],
       "width": 2,
@@ -92,7 +92,7 @@
         {
           "name": "Trois de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-03.webp"
+          "img": "systems/heist/images/cards/heart/agent/03.webp"
         }
       ],
       "width": 2,
@@ -133,7 +133,7 @@
         {
           "name": "Quatre de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-04.webp"
+          "img": "systems/heist/images/cards/heart/agent/04.webp"
         }
       ],
       "width": 2,
@@ -174,7 +174,7 @@
         {
           "name": "Cinq de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-05.webp"
+          "img": "systems/heist/images/cards/heart/agent/05.webp"
         }
       ],
       "width": 2,
@@ -215,7 +215,7 @@
         {
           "name": "Six de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-06.webp"
+          "img": "systems/heist/images/cards/heart/agent/06.webp"
         }
       ],
       "width": 2,
@@ -256,7 +256,7 @@
         {
           "name": "Sept de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-07.webp"
+          "img": "systems/heist/images/cards/heart/agent/07.webp"
         }
       ],
       "width": 2,
@@ -297,7 +297,7 @@
         {
           "name": "Huit de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-08.webp"
+          "img": "systems/heist/images/cards/heart/agent/08.webp"
         }
       ],
       "width": 2,
@@ -338,7 +338,7 @@
         {
           "name": "Neuf de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-09.webp"
+          "img": "systems/heist/images/cards/heart/agent/09.webp"
         }
       ],
       "width": 2,
@@ -379,7 +379,7 @@
         {
           "name": "Dix de Cœur",
           "text": "",
-          "img": "cards/dark-gold/hearts-10.webp"
+          "img": "systems/heist/images/cards/heart/agent/10.webp"
         }
       ],
       "width": 2,
@@ -419,7 +419,7 @@
       "faces": [
         {
           "name": "Valet de Cœur",
-          "img": "cards/dark-gold/hearts-jack.webp",
+          "img": "systems/heist/images/cards/heart/agent/11.webp",
           "text": ""
         }
       ],
@@ -460,7 +460,7 @@
       "faces": [
         {
           "name": "Dame de Cœur",
-          "img": "cards/dark-gold/hearts-queen.webp",
+          "img": "systems/heist/images/cards/heart/agent/12.webp",
           "text": ""
         }
       ],
@@ -501,7 +501,7 @@
       "faces": [
         {
           "name": "Roi de Cœur",
-          "img": "cards/dark-gold/hearts-king.webp",
+          "img": "systems/heist/images/cards/heart/agent/13.webp",
           "text": ""
         }
       ],

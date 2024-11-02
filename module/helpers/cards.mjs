@@ -94,7 +94,7 @@ export function getJokerData(position) {
     faces: [
       {
         name: 'Joker',
-        img: 'cards/dark-gold/joker.webp',
+        img: 'systems/heist/images/cards/jack-joker.webp',
       },
     ],
     type: 'base',
