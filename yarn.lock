@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@foundryvtt/foundryvtt-cli@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@foundryvtt/foundryvtt-cli@npm:1.0.2"
+"@foundryvtt/foundryvtt-cli@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@foundryvtt/foundryvtt-cli@npm:1.0.3"
   dependencies:
     chalk: "npm:^5.2.0"
     classic-level: "npm:^1.2.0"
@@ -18,7 +18,7 @@ __metadata:
     yargs: "npm:^17.7.1"
   bin:
     fvtt: fvtt.mjs
-  checksum: 10c0/e1cb1e06488fc833aab482e7f69c7a5c12a027f9d779fca6c798b546e7443500c32ed11b33f654e0f5fa8192864572e6a5b7245e686e98319e8c4e2aea360c24
+  checksum: 10c0/97ff23249db3858266d172017ae32d02cfd768f69a2e4edd436c25ac9161fac85526e588c68df2ed928d15eda9f4af9923e785da2810d142a3493090da41978b
   languageName: node
   linkType: hard
 
@@ -992,7 +992,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "heist@workspace:."
   dependencies:
-    "@foundryvtt/foundryvtt-cli": "npm:^1.0.2"
+    "@foundryvtt/foundryvtt-cli": "npm:^1.0.3"
     "@rollup/plugin-commonjs": "npm:^25.0.7"
     "@rollup/plugin-node-resolve": "npm:^15.2.3"
     autoprefixer: "npm:^10.4.19"
