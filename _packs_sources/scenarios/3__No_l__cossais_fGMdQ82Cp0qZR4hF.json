@@ -1,0 +1,3763 @@
+{
+  "name": "3. Noël écossais",
+  "img": "systems/heist/images/media/scenario/noel-ecossais/noel-ecossais.webp",
+  "caption": "",
+  "sort": 150000,
+  "description": "<p>Les joueurs ont découvert qu’un certain Santa débauche des agents Heist. Ils ont trouvé un objet leur permettant de prendre contact avec Santa et de se faire passer pour des agents dissidents afin d’infiltrer cette nouvelle organisation de l’intérieur (scénario 1). Ils ont alors été soumis à un test : voler une statuette dans l’Eurostar (scénario 2). Ils doivent maintenant l’amener à Santa en Écosse afin de valider leur entrée dans cette nouvelle agence.</p>",
+  "actors": [
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Andrew Robertson",
+      "type": "npc",
+      "_id": "VHl0bw7L3qvnQBCY",
+      "img": "systems/heist/images/media/scenario/noel-ecossais/andrew-robertson.webp",
+      "system": {
+        "description": "<p>Majordome et chef du personnel du donjon, il travaille pour Sir Mac Allister depuis des années.</p><p>Froid et excessivement professionnel, il supervise aujourd’hui l’équipe de service du repas organisé, la préparation de celui-ci lui ayant été retirée au profit d’une arriviste de la grande ville qu’il traite avec le plus grand mépris.</p><p>Il vit sur place, près des cuisines. Il est d’ailleurs le seul habitant permanent du château, son équipe étant composée exclusivement d’extras employés pour la soirée. Il croit en avoir vu certains qui seraient vaguement compétents. Il ne rate aucune occasion de souligner leurs erreurs aux autres.</p><p>Robertson ignore qui vit au dernier étage, mais sait bien qu’il ne s’agit pas de Mac Allister. Chaque soir depuis son arrivée, il est chargé de déposer un repas sur un chariot dans le vestibule du dernier étage, de toquer à la porte du bureau et de partir.</p><p>Il dispose d’un badge lui permettant d’activer l’ascenseur.</p>"
+      },
+      "prototypeToken": {
+        "name": "Andrew Robertson",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/noel-ecossais/andrew-robertson.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011258258,
+        "modifiedTime": 1731011277760,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Daisy Lordon",
+      "type": "npc",
+      "_id": "bgEGjQ2dF3CvSSzu",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Du haut de son mètre cinquante et de derrière de ses imposantes lunettes, Lordon est une jeune étudiante en histoire intarissable sur l’Écosse et son patrimoine.</p><p>Elle commence tout juste son stage à Eilean Donan, qu’elle considère comme une chance inouïe. Elle ne cache pas son enthousiasme, quitte à parfois faire preuve d’une certaine maladresse qui suscite les regards désapprobateurs de sa supérieure, Elisa Duncain.</p><p>Elle n’a jamais entendu parler de Santa.</p>"
+      },
+      "prototypeToken": {
+        "name": "Daisy Lordon",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011183378,
+        "modifiedTime": 1731011193638,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Elisa Duncain",
+      "type": "npc",
+      "_id": "enifBlhitnrko6p1",
+      "img": "systems/heist/images/media/scenario/noel-ecossais/elisa-duncain.webp",
+      "system": {
+        "description": "<p>Responsable du musée, elle s’occupe elle-même de l’accueil des visiteurs pour ce jour de réouverture. Elle est plutôt stressée, très attentive au moindre agissement du personnel sous ses ordres et aux petits soins avec les visiteurs. À condition qu’ils se comportent correctement…</p><p>La cinquantaine, rousse aux cheveux courts, toujours tirée à quatre épingles, elle était déjà chargée du musée avant le rachat et la fermeture pour rénovation. Mac Allister a continué à la payer pendant ce temps et lui a poliment demandé son avis consultatif sur les travaux, sans particulièrement en tenir compte.</p><p>Elle n’apprécie pas du tout que le donjon et les anciennes cuisines ne soient plus accessibles au public. Par ailleurs, elle considère la présence de tout ce personnel de sécurité vraiment excessive.</p><p>Elle n’a jamais entendu parler de Santa.</p>"
+      },
+      "prototypeToken": {
+        "name": "Elisa Duncain",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/noel-ecossais/elisa-duncain.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011150882,
+        "modifiedTime": 1731011168809,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Lady Crowley",
+      "type": "npc",
+      "_id": "qMtqaGDWGVdukWVi",
+      "img": "systems/heist/images/media/scenario/noel-ecossais/lady-crowley.webp",
+      "system": {
+        "description": "<p>À 80 ans passés, cette frêle dame très élégamment vêtue est la représentante de la famille noble la plus influente de la région. Elle garde l’esprit vif et fait preuve d’un humour pince-sans-rire affûté.</p><p>Lors du dîner, elle porte un superbe collier conçu par De Beers, le « Marie-Antoinette », composé de multiples diamants et estimé à plus de 3 millions d’euros.</p>"
+      },
+      "prototypeToken": {
+        "name": "Lady Crowley",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/noel-ecossais/lady-crowley.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011318362,
+        "modifiedTime": 1731011338161,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Lucil Schwartzman",
+      "type": "npc",
+      "_id": "qMCGODdfuUgcoQkv",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "description": "<p>Directrice de Fireworks &amp; Friends, la trentaine, ferme et dynamique, elle ne supporte pas la contradiction quand il s’agit de son travail.</p><p>Ce soir, elle est assez stressée : elle ne connaît pas l’horaire exact du lancement du feu d’artifice. Mac Allister lui a simplement indiqué que ce serait « <em>à son signal, pendant la soirée</em> ».</p><p>Cela oblige Schwartzman à tenir son équipe prête à agir pendant poten­ tiellement des heures, rendant la situation inconfortable. Le boulot est excessivement bien payé, sans ça elle aurait dit non.</p>"
+      },
+      "prototypeToken": {
+        "name": "Lucil Schwartzman",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/logos/mini.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011221906,
+        "modifiedTime": 1731011245129,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Santa",
+      "type": "npc",
+      "_id": "RoDuupPjYdiKXioH",
+      "img": "systems/heist/images/media/scenario/noel-ecossais/santa.webp",
+      "system": {
+        "description": "<p>Santa est une femme d’une cinquantaine d’années. Grande, élancée, les cheveux blancs bouclés, elle n’adresse la parole ou ne porte son regard qu’à ceux qu’elle juge dignes de son intérêt. Elle s’habille en tailleur rouge et blanc en toutes circonstances.</p><p>Rares sont les personnes qui l’ont rencontrée directement, y compris parmi ses collaborateurs. Beaucoup pensent qu’il s’agit d’un homme, peut-être bien Mac Allister, et elle maintient cette confusion autant que possible.</p><p>Sa réelle identité est un mystère.</p><p>Elle semble être la cheffe et fondatrice d’une organisation clandestine de vols à haut risque, directement concurrente de Heist. Elle ne se reconnaît cependant dans aucun des principes dont Heist se prévaut : tous les moyens sont bons pour atteindre ses fins, même les moins respectables.</p>"
+      },
+      "prototypeToken": {
+        "name": "Santa",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/noel-ecossais/santa.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731010702836,
+        "modifiedTime": 1731011078240,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Sarah Hamilton",
+      "type": "npc",
+      "_id": "4cx7Uy7fN3ANBrmj",
+      "img": "systems/heist/images/media/scenario/noel-ecossais/sarah-hamilton.webp",
+      "system": {
+        "description": "<p>Plus jeune cheffe étoilée de Glasgow, elle a fait la une de plusieurs magazines nationaux et est considérée comme l’étoile montante de la gastronomie internationale. La faire venir avec son équipe a coûté extrêmement cher à Santa, d’autant plus que Hamilton n’a pas hésité à gonfler ses tarifs pour accepter une mission dans un coin aussi reculé du pays.</p><p>Son succès ne l’empêche pas d’être ouverte et à l’écoute de son équipe, qu’elle a sélectionnée avec le plus grand soin et qu’elle connaît parfaitement.</p><p>Elle préférerait ne pas avoir Robertson dans les pattes, mais saura s’en accommoder pour une soirée.</p>"
+      },
+      "prototypeToken": {
+        "name": "Sarah Hamilton",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/noel-ecossais/sarah-hamilton.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011296481,
+        "modifiedTime": 1731011311573,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "pq89nOfxQ7jScEPU",
+      "name": "Sir Angus Mac Allister",
+      "type": "npc",
+      "_id": "tiUbpHQzOngv0oWv",
+      "img": "systems/heist/images/media/scenario/noel-ecossais/sir-angus.webp",
+      "system": {
+        "description": "<p>Cet homme de 70 ans, grand et bedonnant, toujours le rouge aux joues, à la barbe blanche bien garnie, est un noble d’une lignée qui vivote depuis des générations, partiellement ruinée depuis les années 1930 par des placements peu judicieux.</p><p>C’est un célibataire endurci, sans descendance, qui tient par-dessus tout à préserver les apparences. C’est pourquoi il se montre toujours chaleureux, rieur, curieux des autres et bon vivant.</p><p>Ici à Eilean Donan, il sert de face visible à Santa, jouant le rôle du châtelain jovial, sans y vivre pour autant. Il ne connaît pas la véritable identité ni les objectifs de sa commanditaire, mais il est prêt à fermer les yeux sur ses affaires en échange de la nouvelle respectabilité qu’elle lui offre.</p><p>Son apparence et son côté bonhomme devraient faire penser aux joueurs qu’il s’agit de Santa. C’est évidemment un leurre bien volontaire pour faire de la révélation finale un moment d’autant plus satisfaisant.</p>"
+      },
+      "prototypeToken": {
+        "name": "Sir Angus Mac Allister",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "texture": {
+          "src": "systems/heist/images/media/scenario/noel-ecossais/sir-angus.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": null
+        },
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011094182,
+        "modifiedTime": 1731011141532,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "combats": [],
+  "items": [
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Appareil pour prendre le contrôle des feux d’artifice",
+      "type": "planning",
+      "_id": "5xsy7VhxfAcHERKd",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011850277,
+        "modifiedTime": 1731011850277,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Brouilleur pour prendre le contrôle des caméras",
+      "type": "planning",
+      "_id": "SsG4q7zwVZcWh0rF",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 4
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011858029,
+        "modifiedTime": 1731011860469,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Codes de désactivation des sécurités",
+      "type": "planning",
+      "_id": "p71uurd3JABfucqy",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011840251,
+        "modifiedTime": 1731011842736,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Déguisement d’agent de sécurité avec badge",
+      "type": "planning",
+      "_id": "fiQuu3ohmc3Im6Kb",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011816354,
+        "modifiedTime": 1731011818985,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Déguisement de serveur",
+      "type": "planning",
+      "_id": "k0KNWJICUOjeiVJ6",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011802177,
+        "modifiedTime": 1731011804584,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Invitation falsifiée",
+      "type": "planning",
+      "_id": "pSN0Fre0m4BWi64c",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011826635,
+        "modifiedTime": 1731011829519,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Plan du donjon (étages de Santa)",
+      "type": "planning",
+      "_id": "6WbtpxwS2hjezgoy",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 3
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011780646,
+        "modifiedTime": 1731011783664,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Plan du donjon (sauf les 2 derniers étages)",
+      "type": "planning",
+      "_id": "QdIlo7mfApqXjZ8E",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011733229,
+        "modifiedTime": 1731011790315,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "8zpGKiGbCG4WmFRa",
+      "name": "Plan mentionnant l’emplacement des caméras",
+      "type": "planning",
+      "_id": "ALGrPKSKShxPEuB4",
+      "img": "systems/heist/images/logos/mini.webp",
+      "system": {
+        "cost": 2
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011867728,
+        "modifiedTime": 1731011870269,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "folder": "D8NKa2Feve4wfeH2",
+      "name": "Scénario",
+      "_id": "NO3QLeo4AKhLrfNw",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Présentation",
+          "type": "text",
+          "_id": "vqeKe8NUlJSNtnVa",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h1>En quelques mots</h1><p>Les joueurs ont découvert qu’un certain Santa débauche des agents Heist. Ils ont trouvé un objet leur permettant de prendre contact avec Santa et de se faire passer pour des agents dissidents afin d’infiltrer cette nouvelle organisation de l’intérieur (scénario 1). Ils ont alors été soumis à un test : voler une statuette dans l’Eurostar (scénario 2). Ils doivent maintenant l’amener à Santa en Écosse afin de valider leur entrée dans cette nouvelle agence.</p><h1>Matériel</h1><p>Le scénario <em>Noël écossais</em> utilise 3 plans des lieux :</p><ul><li><p>@UUID[JournalEntry.eiabjQuyRo1zL40K.JournalEntryPage.2kwrsscYvyoLaN5a]{1 plan complet} réservé au meneur détaillant les éléments importants de l’île et du château, joint à ce scénario ;</p></li><li><p>1 plan de départ pour les joueurs présentant @UUID[JournalEntry.eiabjQuyRo1zL40K.JournalEntryPage.VItdOURUJRDrBGWn]{une vue complète de l’île };</p><ul><li><p>Ce plan est également disponible sous la forme d’une scène afin que les joueurs puisse dessiner dessus : @UUID[Scene.lKGxNsD7l4eDU6PQ]{Île}</p></li><li><p>Cette scène comporte également des tuiles et dessins masqués par défaut permettant de révélever son contenu au fil du jeu.</p></li></ul></li><li><p>1 plan de départ pour les joueurs montrant plus en détail @UUID[JournalEntry.eiabjQuyRo1zL40K.JournalEntryPage.jJjxKqFt8rfdU0eU]{le château et son musée}.</p><ul><li><p>Ce plan est également disponible sous la forme d’une scène afin que les joueurs puisse dessiner dessus : @UUID[Scene.Duz7HXmzkPfuoyNY]{Château}</p></li><li><p>Cette scène comporte également des tuiles et dessins masqués par défaut permettant de révélever son contenu au fil du jeu.</p></li></ul></li></ul><h1>À propos de ce scénario</h1><p>Ce scénario conclut la campagne « Santa ». Le briefing est écrit en partant du principe que les joueurs ont joué les deux premiers scénarios et ont à chaque fois atteint leurs objectifs.</p><p>Quelques modifications ou éclaircissements vous permettront facilement de faire jouer ce scénario à un nouveau groupe sans l’intégrer à la campagne. Il est aussi possible de l’aménager en cas d’échec des missions précédentes : les agents invités étant tous anonymes, certains personnages peuvent se substituer à un ou plusieurs dissidents.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730751127820,
+            "modifiedTime": 1731013602171,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Briefing",
+          "type": "text",
+          "_id": "SGhspWP9FqQnt6bx",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p style=\"text-align:right\"><em><strong>Écosse,</strong></em></p><p style=\"text-align:right\"><em><strong>vendredi 21 décembre 2008,</strong></em></p><p style=\"text-align:right\"><em><strong>10 heures - Planque de Heist</strong></em></p><p><em>Agents, l’heure est venue de rencontrer Santa.</em></p><p></p><p><em>Lorsqu’il a appris la réussite du vol de la statuette d’Imhotep, il nous a envoyé ce matin un message crypté. Il invite les agents dissidents à un dîner dans un château écossais nommé Eilean Donan.</em></p><p><em>Ce château du XIIIe siècle se situe sur une petite île du Loch Duich, à l’ouest de l’Écosse. Il fut longtemps un fleuron du tourisme écossais avant qu’il ne se fasse racheter il y a un an par Sir Angus Mac Allister, un noble de seconde zone. Les conditions du rachat sont mystérieuses : Mac Allister ne dispose a priori pas d’une fortune suffisante pour se permettre une telle excentricité et les autorités écossaises n’avaient pas de raisons de se débarrasser d’un tel joyau. Une chose est sûre, il fut convenu lors de la vente que le château resterait accessible au public, au moins en partie.</em></p><p></p><p><em>Le monument ferma ses portes après le rachat, pour rénovation ; il les rouvre aujourd’hui.</em></p><p><em>Il peut être visité jusqu’à 18 heures ce soir. Voici des billets pour chacun d’entre vous. La visite semble se limiter à l’aile sud, en plus de la cour intérieure et d’une partie des remparts.</em></p><p><em>Pendant la soirée, un dîner de gala aura lieu et un feu d’artifice sera tiré depuis le château, de manière à être visible par tous depuis la côte.</em></p><p></p><p><em>Mac Allister occupe Eilean Donan depuis trois mois avec son personnel. Cependant, il ne vit pas sur place et en part le soir. En revanche, son major­ dome, Andrew Robertson, a pris ses appartements dans la partie inférieure du donjon, dans le quartier des serviteurs.</em></p><p></p><p><em>Impossible de connaître l’ampleur des rénovations qu’il a entreprises. Celles-ci ne sont toutefois pas totalement termi­nées : des ouvriers sont encore présents sur place.</em></p><p><em>Nous sommes sûrs qu’une chose au moins a changé : la sécurité est clairement renforcée. Caméras dernier cri, agents de sécurité armés et en contact radio perma­nent… le lieu est trop bien protégé pour un simple paysage de carte postale.</em></p><p><em>Nous savons que le rendez-vous pour le dîner de ce soir est à 20 heures. Apparemment, y est invitée une sélection très prestigieuse de la noblesse locale. On attend une trentaine de convives. Le bal­ let des fournisseurs et les préparatifs des domestiques laissent présager un repas digne des plus grands restaurants étoilés. Vous avez reçu un carton d’invitation, attribué à « Un ami de Klaus », assorti de la seule instruction de vous présenter à l’entrée du pont à partir de 19 h 30.</em></p><p><em>Santa précise également dans son mes­sage que seuls un ou deux agents peuvent s’inviter à la fête. Qui qu’il soit, il n’a pas connaissance de l’identité du ou des agents dissidents recrutés ou du nombre précis de membres de votre groupe ; n’im­porte lequel d’entre vous peut donc s’y rendre, seul ou à deux maximum.</em></p><p></p><p><em>Pour cette mission, l’agence vous confie plusieurs objectifs :</em></p><ul><li><p><em>Rencontrer Santa et placer un mou­chard sur lui ;</em></p></li><li><p><em>Si possible, récolter des informations sur Santa et ses ambitions ;</em></p></li><li><p><em>Enfin, et c’est un peu plus personnel, lui faire passer un message en lui volant quelque chose qui a une im­mense valeur pour lui. Laissez une carte à jouer sur place, en signa­ture, pour qu’il comprenne qu’on ne marche pas sur les plates-bandes de Heist sans en subir les conséquences.</em></p></li></ul><p></p><p><em>Nous vous fournirons le mouchard (un rond noir de la taille d’un cachou, auto­collant) avec votre carton d’invitation et vos tickets d’entrée.</em></p><p><em>Agents, vous connaissez votre mission. Plus que jamais, Heist compte sur vous.</em></p><p></p><p><em>Bonne chance.</em></p><div class=\"blue-box\"><h1>Résumé</h1><div class=\"flexrow\"><div class=\"flex2 u-ml-small u-mtb-auto\"><p><em><strong>Cible :</strong></em> Trouver Santa, placer un mouchard sur lui, récolter des informations et voler quelque chose qui lui est précieux.</p><p><em><strong>Lieu :</strong></em> Château Eilean Donan, Écosse.</p><p><em><strong>Délai :</strong></em> D’ici la fin de la nuit.</p><p><em><strong>Victoire :</strong></em> Le mouchard est placé, un objet est volé.</p><p>L’objet volé peut être :</p><ul><li><p>Un ouvrage de la bibliothèque ;</p></li><li><p>Une œuvre de la galerie privée ;</p></li><li><p>Le sous-marin.</p></li></ul><p><em><strong>Défaite (à garder secret) :</strong></em> Les agents sont attrapés par la sécurité, tués ou doivent fuir avant de parvenir à leurs fins.</p></div></div></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730751343402,
+            "modifiedTime": 1730751812592,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Intrigue",
+          "type": "text",
+          "_id": "Y7bNGDaHJm6fx75B",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>@UUID[Actor.RoDuupPjYdiKXioH]{Santa} est une femme ambitieuse, puissante, disposant de ressources exceptionnelles d’origine inconnue et qui tire les ficelles de sa nouvelle organisation dans le plus grand des secrets.</p><p>Depuis deux ans, elle a monté son plan pas à pas : elle veut être à la tête du plus puissant réseau de voleurs au monde. Elle n’a pas de clients pour le moment et n’en cherche pas : les missions qu’elle a mises en place jusqu’ici servent uniquement ses intérêts personnels (à chaque fois les cibles étaient des personnes en travers de son chemin vers le sommet du monde), tout en faisant office de tests pour ses recrutements.</p><p>Pourquoi veut-elle monter une telle agence ? Cela reste un mystère. Vous pouvez néanmoins vous emparer du sujet pour disposer d’un ennemi récurrent.</p><p>Une chose est sûre : elle veut détruire Heist et est prête à tout pour arriver à ses fins.</p><p>À la différence de son illustre concurrent, Santa ne s’embarrasse pas de principes. S’il doit y avoir des dégâts collatéraux, qu’il en soit ainsi. D’ailleurs, des rumeurs dans le monde des assassins suggèrent qu’elle recrute également dans ce secteur, bâtissant une agence tentaculaire aux moyens d’action bien plus diversifiés que ceux de Heist.</p><p>Pour son équipe de voleurs, Santa veut les meilleurs des meilleurs et n’a que faire des autres.</p><p>Elle a contacté plusieurs agents réguliers de Heist, sans connaître leur réelle identité, seulement leurs états de service. Elle leur a fait passer un processus de recrutement identique : chacun a volé un objet bien précis et doit l’amener ce soir dans sa base d’opérations écossaise, le château d’Eilean Donan. Elle ignore que les joueurs ont pris la place d’un de ces groupes d’agents dissidents.</p><p>Mais le test n’est pas terminé.</p><p>Cette soirée et la réouverture du musée servent deux objectifs pour Santa.</p><p>Tout d’abord, couvrir ses opérations. Durant les rénovations du château, elle a fait bâtir un bureau d’où elle pilote une partie de ses affaires, une galerie d’art privée contenant des œuvres volées inestimables (son « coffre-fort », d’une certaine manière), ainsi qu’une voie d’évasion indétectable : un quai sous-marin à usage personnel.</p><p>Pour ne pas attirer l’attention, elle a choisi un visage respectable comme nouveau propriétaire officiel des lieux : @UUID[Actor.tiUbpHQzOngv0oWv]{Sir Angus Mac Allister}. La réception de ce soir va servir à amadouer toutes les personnes influentes du coin, dont @UUID[Actor.qMtqaGDWGVdukWVi]{Lady Crowley}, en leur présentant un châtelain affable, un musée resplendissant et un lieu touristique qui met parfaitement en valeur le patrimoine local auquel ils semblent tous tant attachés.</p><p>En parallèle, cette soirée est l’occasion de finir sa série de tests de recrutement. Sont en effet conviés à cette soirée trois agents de Heist en cours de débauchage, en plus des joueurs.</p><p>Santa compte les mettre en compétition durant la soirée pour n’en garder qu’un seul (potentiellement avec son équipe) et faire disparaître les autres qui en savent trop.</p><p>Voilà l’occasion rêvée de s’approcher d’elle au plus près…</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730751872672,
+            "modifiedTime": 1731011541521,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "Lieux",
+          "type": "text",
+          "_id": "hDcIxqXOJ9v3Oui1",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Description des lieux à lire aux joueurs quand ils arrivent sur place :</p><p></p><p><em>Eilean Donan est un petit château situé sur une île éloignée d’à peine plus de 100 mètres de la côte. Un pont en pierre y mène, empruntable à pied seulement. Les voitures des visiteurs sont garées sur un parking sur la berge, près de la boutique de souvenirs.</em></p><p><em>La neige tombe et donne un côté fée­ rique au décor. Les visiteurs s’avancent sur le pont et admirent la vue sur ce joyau du patrimoine écossais. De la rive, on discerne clairement le donjon principal, le plus haut bâtiment du château. Sur le rempart et sur l’île, du personnel de sécurité, bien équipé, patrouille. Le bastion est occupé par les artificiers et fermé au public aujourd’hui. Le bâtiment le plus modeste, au sud, sert de musée et d’entrée aux touristes, qui res­ sortent par la grande porte cochère juste à côté. Un véhicule d’une société de traiteur est garé devant celle-ci.</em></p><p><em>Un chemin de promenade contourne le château par le nord, pour mener à la façade maritime des fondations. Avant cela, il passe devant un mémorial et les ruines d’une tour médiévale disparue, auprès desquelles se situe un quai en bois. Un petit bateau de plaisance y est amarré.</em></p><div class=\"blue-box\"><h1>Jour et nuit</h1><div><p>La phase de Reconnaissance a lieu, par défaut, pendant la jour­née, durant les heures de visite du château.</p><p>La phase d’Action a lieu, par défaut, en soirée, pendant le dîner.</p><p>La description des lieux cidessous correspond par défaut à la journée ou précise si un élément est différent entre le jour et la nuit.</p></div></div><p></p><img src=\"systems/heist/images/media/scenario/noel-ecossais/qr-code-noel-ecossais.webp\" class=\" centered\" height=\"300\" /><h2>Parking</h2><p>Le parking s’étale le long du loch.</p><p>Une cinquantaine de voitures et trois bus de tourisme y sont garés.</p><p>Deux utilitaires (fermés et inoccupés) sortent du lot :</p><ul><li><p>Celui de Glas’ Renovation, une entreprise de travaux spécialisée dans les vitres. Il contient des outils, deux blouses et deux casques de chantier, mais pas de documents utiles. Les ouvriers reviennent à leur véhicule vers 17 heures pour rentrer chez eux ;</p></li><li><p>Celui de Firework &amp; Friends, un prestataire en spectacles pyro­techniques. Il contient un volumineux stock de feux d’artifice. Les artificiers partiront tard dans la soirée, après le spectacle.</p></li></ul><h2>Pont</h2><p>Emprunter le pont ne peut se faire qu’à pied pour les visiteurs ; une impo­sante barrière d’époque en fer forgé grillagée bloque l’accès aux véhicules.</p><p>Le site est ouvert au public de 10 heures à 18 heures.</p><p>Deux gardes sont de faction à l’entrée du pont, dans une petite cabine. Depuis celle-ci, ils peuvent relever la barrière pour laisser passer les véhicules.</p><p>Une caméra, placée au-dessus de la cabine, filme les arrivées.</p><p>Des dépliants touristiques sont en libre-service devant la cabine, dans une dizaine de langues.</p><h2>Promenade (chemin nord)</h2><p>Les visiteurs peuvent emprunter ce chemin qui longe les façades nord du donjon.</p><p>Il passe devant un mémorial en l’honneur du clan MacRae, à l’origine de la construction du château, et de ses efforts durant la guerre civile au XVIIe siècle.</p><p>À un ponton en bois, près des ruines, est amarré un petit bateau de plaisance pouvant accueillir cinq passagers.</p><p>Une caméra surveille le bateau.</p><p>La promenade mène jusqu’à un quai donnant sur le fronton marin, à l’ouest du château, mais le passage est bloqué par des barrières de chantier et des panneaux « Interdit au public – Chantier en cours ».</p><p>Un garde patrouille en permanence sur le chemin, faisant des allers-retours entre le donjon et l’entrée du chantier.</p><p>De nuit, rien n’éclaire la promenade, à part la lampe torche du garde.</p><div class=\"orange-box\"><p>Vous pouvez afficher le ponton en utilisant la macro suivante :</p><ul><li><p>@UUID[Macro.leTsBnqEYgEaGNSc]{Ponton}.</p></li></ul></div><h2>Quai (côte ouest)</h2><p>Le seul accès terrestre au quai est la promenade, mais il est fermé au public par des panneaux indiquant des travaux en cours.</p><p>Au milieu du quai, un trou a été creusé dans le sol, près de la muraille. Il fait environ 1,5 m de diamètre et est profond de 5 m. De la surface, on ne voit rien de ce qu’il y a au fond.</p><p>De jour, deux ouvriers de Glas’ Renovation travaillent sur le chantier. Ils sont en train de préparer du béton pour boucher le trou et de rénover le quai et la muraille. Ils connaissent l’existence du tunnel souterrain, mais sont soumis à un contrat de confidentialité. Ils ne savent pas à quoi il sert et ne l’ont vu qu’inondé.</p><p>Descendre dans le trou n’est pas une tâche aisée, mais permet d’accéder directement au tunnel secret.</p><p>De nuit, le trou est recouvert d’une très grande bâche.</p><h2>Musée (aile sud)</h2><p>La porte en bois est ouverte en permanence pendant les horaires d’ouverture (10 heures – 18 heures).</p><p>Le bâtiment abrite trois étages. Tous sont bas de plafond, voûtés, entièrement en pierre. Les fenêtres sont petites et dans des renfoncements de mur.</p><p>L’ensemble est surveillé par trois ou quatre caméras de sécurité par étage.</p><h3>Rez-de-chaussée</h3><p>La première moitié de cet étage est dévolu à l’accueil du musée.</p><p>Passé la porte d’entrée, les visiteurs sont salués par @UUID[Actor.enifBlhitnrko6p1]{Elisa Duncain}, debout derrière le comptoir de la billetterie.</p><p>Des toilettes sont à disposition du public.</p><p>De l’autre côté du couloir, face à l’accueil, une porte avec l’inscription « Interdit au public » mène aux espaces réservés au personnel. Chaque membre du staff du musée possède un badge qui lui permet de l’ouvrir. Cet espace dispose d’une porte d’accès à la cour intérieure.</p><p>Des visites guidées (en anglais uniquement) commencent toutes les heures pour une durée d’une heure environ. Elles comprennent la présentation du musée, des remparts et de la cour intérieure.</p><p>La guide, passionnée par son sujet, est @UUID[Actor.bgEGjQ2dF3CvSSzu]{Daisy Lordon}.</p><p></p><p>Le musée en lui-même commence dans la seconde partie du rez-dechaussée, avec plusieurs vestiges datant du XIIIe siècle à nos jours, dont une imposante statue en bois représentant un archer d’un clan rival.</p><p>Un escalier tournant mène à la suite de l’exposition, au premier étage.</p><h3>1<sup>er</sup> étage</h3><p>Entièrement consacrée au musée, cette section explore l’histoire du lieu, de sa création à nos jours, à travers des dioramas, des écrans dynamiques et divers documents d’époque.</p><p>Le parcours de la visite s’y attarde avant de monter au dernier étage, puis de la traverser de nouveau pour accéder à la cour.</p><p>Une porte donne sur la cour intérieure du château, juste à côté de la porte marine. Un escalier tournant mène au deuxième étage et au rez-de-chaussée.</p><h3>2<sup>e</sup> étage</h3><p>Cette zone est, elle aussi, entièrement consacrée au musée, en particulier aux œuvres d’art diverses ayant appartenu aux propriétaires successifs du château.</p><p>Le seul point d’entrée et de sortie est l’escalier menant au premier étage.</p><p>Une grande fenêtre ronde, avec un splendide vitrail médiéval, donne sur le loch au sud-ouest.</p><h2>Cour intérieure</h2><p>La cour intérieure est assez étroite. Des escaliers permettent d’accéder aux remparts ou à certaines entrées de bâtiment.</p><p></p><p>Elle dispose de plusieurs points d’accès :</p><ul><li><p>La porte cochère qui sert de sortie pour les visiteurs est surveillée en permanence par deux gardes ;</p></li><li><p>Le public sort du musée par une petite porte au premier étage de celui-ci et descend dans la cour par un petit escalier ;</p></li><li><p>Le personnel du musée passe par une porte au rez-de-chaussée du musée ;</p></li><li><p>Une petite porte dérobée mène à la salle de sécurité, seul le personnel de sécurité est autorisé à l’emprunter ;</p></li><li><p>Une porte en haut d’un bel escalier ouvragé mène au niveau 0 du donjon. C’est l’entrée des résidents et des invités. Un garde y est posté de jour comme de nuit ;</p></li><li><p>Une autre porte permet d’accéder au donjon, directement à hauteur de la cour cette fois. Elle mène au niveau­-1 et sert uniquement au personnel ;</p></li><li><p>Enfin, en faisant le tour par le rempart et la tour de garde ouest, on peut accéder au donjon par la porte arrière. Celle-ci mène aux escaliers de service et à l’ascenseur. Un garde y est posté de jour comme de nuit.</p></li></ul><p>Des caméras de sécurité sont placées au-dessus de chacune des portes.</p><p>Des escaliers permettent de monter de la cour vers le mur d’enceinte à l’est qui fait le tour du bastion. En journée comme en soirée, ce rempart est surveillé par deux gardes qui patrouillent.</p><h2>Salle de sécurité (ancienne cuisine)</h2><p>On y a accès soit depuis la porte de service près de la porte cochère (sortie des visiteurs), soit directement depuis la cour intérieure par la porte dérobée.</p><p>Il s’agit d’une grande pièce qui était autrefois accessible au public (de vieilles cuisines), que la nouvelle direction a décidé de fermer pour en faire une salle de sécurité de haut niveau.</p><p>La salle est en permanence occupée par trois gardes.</p><p>Toutes les caméras du château et des alentours sont reliées à cette salle et diffusent leur contenu sur des écrans accrochés au mur.</p><p>Depuis les postes informatiques, il est possible de déclencher les systèmes de sécurité du château :</p><ul><li><p>Verrouillage du portail du pont ;</p></li><li><p>Verrouillage du donjon ;</p></li><li><p>Déclenchement et arrêt des alarmes du musée et du donjon ;</p></li><li><p>Déclenchement de la sécurité du musée privé du donjon ;</p></li><li><p>Inondation et mise à sec du tunnel secret.</p></li></ul><p></p><p>Les gardes communiquent entre eux par oreillette. Tous les messages passent également par la salle de sécurité.</p><p>Le personnel de sécurité dispose également d’une seconde pièce attenante qui fait office de vestiaire pour leurs affaires personnelles et leur équipement : armes, oreillettes, etc.</p><h2>Bastion</h2><p>Le bastion et son mur d’enceinte sont fermés au public aujourd’hui.</p><p>Il consiste en une petite cour intérieure fermée par une herse qui servait de dernier refuge en cas d’invasion et de point de surveillance et de défense idéal contre les envahisseurs venant de la berge.</p><p>Quatre employés de Firework &amp; Friends, dirigés par @UUID[Actor.qMCGODdfuUgcoQkv]{Lucil Schwartzman}, y travaillent pour installer le feu d’artifice prévu cette nuit.</p><p>Des feux d’artifice ont été installés sur tout le bastion et ses murailles, tous reliés à une imposante console électronique et un ordinateur mis en place sous une tonnelle dans la cour du bastion. C’est de là qu’est piloté le spectacle pyrotechnique.</p><p>Dans la journée, des caisses de matériel sont en train d’être déballées. Le soir, elles sont soigneusement fermées et mises à l’abri des étincelles.</p><p>Dans la nuit, au signal du châtelain, le show démarre. Il dure une dizaine de minutes et est parfaitement visible depuis le donjon, mais aussi depuis la rive.</p><p>Il est à la fois aux couleurs de Noël et de l’Écosse et finit par un superbe final dessinant une vue de Eilean Donan en feux d’artifice.</p><p>Après le spectacle, l’équipe de Fireworks &amp; Friends range son matériel et quitte les lieux.</p><h2>Donjon</h2><p>Le donjon est le plus grand bâtiment du château.</p><p>Il n’est pas accessible au public.</p><p>L’architecture est similaire à celle du musée : épais murs de pierres visibles, charpentes en bois, fenêtres en renfoncement.</p><p>Les hauteurs de plafond sont toute­ fois plus importantes, donnant aux salles une envergure plus impressionnante et accueillante.</p><p>Pour passer d’un étage à l’autre, il existe deux cages d’escaliers.</p><p>La première (à l’est du bâtiment) est un bel escalier ouvragé et est utilisée par les résidents ou les invités. Elle permet de circuler du niveau -1 au niveau 1.</p><p>La seconde est un escalier de service situé à l’ouest du bâtiment. Cette cage d’escalier est fermée aux invités et dessert l’ensemble des étages. Depuis les récentes rénovations, elle accueille également un ascenseur qui peut s’arrêter à chacun des étages et qui est le seul moyen officiel d’accéder au tunnel secret.</p><p>Une carte électronique RFID est nécessaire pour ouvrir les portes de l’ascenseur. Seul l’entourage direct de Santa en possède une.</p><div class=\"orange-box\"><p>Vous pouvez afficher l’ascenseur en utilisant la macro suivante :</p><ul><li><p>@UUID[Macro.JYHOY8bpuLYDn5XO]{Ascenseur}.</p></li></ul></div><h3>Niveau -1 (service)</h3><p>Au niveau inférieur du donjon, sous les étages réservés aux habitants et invités, se trouvent les espaces réservés au personnel de service, en particulier les cuisines, les quartiers du majordome @UUID[Actor.VHl0bw7L3qvnQBCY]{Andrew Robertson} (seul membre du personnel à vivre sur place) et les vestiaires de tout le personnel de maison.</p><p>On y accède par la porte donnant sur la cour intérieure, par les escaliers principaux ou par les escaliers de service.</p><p>La cuisine est la salle centrale de ce niveau. En journée, elle grouille de monde, tout affairé pour la préparation du dîner du soir. Elle est gérée aujourd’hui par la jeune cheffe étoilée @UUID[Actor.4cx7Uy7fN3ANBrmj]{Sarah Hamilton}, star de la cuisine à Glasgow, spécialement venue avec son staff sur place pour l’occasion.</p><p>Il règne une certaine tension entre, d’une part, les serveurs et les commis habitués à travailler ici et, d’autre part, les membres de l’équipe de Hamilton, facilement méprisants. Chacun cherche sa place ou veut s’imposer, créant parfois une certaine confusion bien invisible aux étages supérieurs, mais source de querelle au niveau inférieur.</p><p>La cuisine n’est pas surveillée par des gardes et les seules caméras sont celles des escaliers.</p><h3>Niveau 0 (salle de réception)</h3><p>L’entrée officielle des invités les conduit tout d’abord dans un vestibule à côté d’un vestiaire où deux serviteurs les accueilleront juste avant le repas de ce soir et prendront leurs affaires.</p><p>Deux toilettes sont accessibles depuis ce vestibule.</p><p>Les invités longent ensuite les escaliers menant à l’étage supérieur et au niveau 0 avant d’arriver dans la grande pièce occupant quasiment toute la surface de l’étage, la salle de réception.</p><p>La salle est décorée d’immenses tableaux représentant le portrait des maîtres successifs du château.</p><p>Un discret quatuor classique s’installe dans un coin pendant la journée et propose une ambiance sonore durant la soirée.</p><p>Hormis l’entrée principale, une seule porte, au fond de la salle, mène à la cage d’escalier de service.</p><h3>Niveau 1 (salle de banquet)</h3><p>À l’étage, une seule grande pièce occupe quasiment toute la surface avec, en son centre, une large table de banquet.</p><p>Les fenêtres des deux côtés sud-ouest et nord-ouest permettent d’observer respectivement la cour du château et le loch.</p><p>En journée, le personnel s’affaire ici à installer la table et à poser les noms devant les places de chacun.</p><h3>Niveau 2 (bibliothèque et musée privé)</h3><p>Cet avant-dernier étage n’est accessible que par la cage d’escalier de service ou par l’ascenseur.</p><p>Un long couloir traverse l’étage en ligne droite du sud-ouest au nord-est et dessert deux pièces.</p><h4>Bibliothèque</h4><p>La première pièce est une bibliothèque. Elle occupe toute la façade sud-est et dispose d’une large fenêtre ouverte de ce côté-ci.</p><p>De superbes meubles en bois ouvragé supportent des centaines de livres de collection, datant pour certains du Moyen Âge.</p><p>Un pupitre trône près de la fenêtre. La bible qui est dessus est un exemplaire unique, aux enluminures exceptionnelles, ouvert sur un passage de l’évangile selon Luc : la naissance de Jésus (chapitre 2, verset 1).</p><p>De jour comme de nuit, la salle est vide, et la porte verrouillée par une simple serrure.</p><p>Une alarme silencieuse alerte la salle de sécurité à l’ouverture de la porte si aucune mesure n’a été prise.</p><p>Il n’y a pas de caméras.</p><p>Les livres en eux-mêmes ne sont pas protégés.</p><h4>Musée privé</h4><p>L’autre pièce prend toute la façade nord-ouest.</p><p>Il s’agit d’une galerie d’art privée : une vingtaine de peintures sont accrochées aux murs, éclairées avec goût et soin.</p><p>Une étude des œuvres permet de découvrir qu’elles sont d’époques et de genres divers, allant de l’impressionnisme au contemporain. Toutes cependant partagent le fait de valoir au minimum 100 000 € auprès des bons acheteurs et d’avoir été volées dans les trois dernières années.</p><p>La porte est sécurisée. Pour l’ouvrir, il faut scanner l’empreinte digitale de Santa, ce qui désactive les mesures de sécurité de la galerie par la même occasion.</p><p>Au sol, des capteurs invisibles à l’œil nu quadrillent toute la surface.</p><p>Chaque toile est fixée au mur et reliée à des capteurs de pression.</p><p>Toucher le sol ou retirer une toile sans avoir désactivé le système de sécurité préalablement alerte la salle de surveillance.</p><h3>Niveau 3 (quartiers de Santa)</h3><p>Cet étage n’est accessible que par l’ascenseur ou l’escalier de service. À la sortie de l’ascenseur, un vestibule avec quelques fauteuils design sert d’éventuelle salle d’attente.</p><p>C’est la seule pièce de l’étage à être surveillée par une caméra.</p><p>Ensuite, le niveau est découpé en deux espaces : les quartiers privés de Santa d’un côté et son bureau de l’autre.</p><p>Les portes menant aux quartiers privés ou au bureau sont verrouillées par un système de vérification des empreintes digitales.</p><p>Le bureau est une grande salle donnant sur la cour du château. Un large meuble en verre sert de table de travail à Santa. L’ordinateur installé ici contient toutes les informations dont l’agence Heist a besoin : activités, vols en cours, clients, etc. – rappelons qu’il s’agit d’un objectif optionnel. Aucune indication toutefois sur la réelle identité de Santa.</p><p>Les belles bibliothèques qui décorent de part et d’autre la pièce contiennent, en plus d’objets de décoration hors de prix et de livres de collection, des dossiers papier regroupant les données sur les différents membres de l’organisation de Santa : les agents Heist sous surveillance, ceux en cours de recrutement et ceux déjà passés dans ses rangs.</p><p></p><p>Les quartiers privés se limitent à un salon à la décoration épurée, une spacieuse chambre, une salle de bain et une garde-robe ne présentant que des tailleurs rouge et blanc.</p><p>La fouille de l’endroit ne permet de déduire qu’une chose : ce n’est pas un lieu de vie permanent, mais un pied-à-terre.</p><h2>Tunnel secret</h2><p>L’accès à ce tunnel se fait par l’ascenseur de service ou en passant par le trou laissé par les ouvriers sur le quai ouest.</p><p>La surveillance est assurée par une caméra au niveau de l’ascenseur.</p><p>Depuis la porte de l’ascenseur, le tunnel descend en ligne droite sur une centaine de mètres, en pente douce.</p><p>Au bout du tunnel se trouve un quai d’embarquement pour un sous-marin miniature.</p><p>La salle en elle-même est ronde et plutôt étroite, éclairée par de simples néons.</p><p>Au centre de la pièce, un bassin d’eau laisse voir le sous-marin miniature flotter.</p><p></p><p>Le sous-marin en lui-même est petit : il permet d’accueillir jusqu’à quatre personnes en plus du pilote seulement.</p><p>Si les choses tournent mal pour Santa, c’est son moyen de fuite privilégié.</p><div class=\"orange-box\"><p>Vous pouvez afficher le trou et le tunnel secret en utilisant les macros suivantes :</p><ul><li><p>@UUID[Macro.5lwrpYSFKTzFu9Wt]{Trou dans le sol} ;</p></li><li><p>@UUID[Macro.WzJnQwNmS4mcLnbc]{Tunnel secret} ;</p></li><li><p>@UUID[Macro.hcw5GZvzqfrmtpVx]{Sous-marin}.</p></li></ul></div>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730752191452,
+            "modifiedTime": 1734469511930,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "Casting",
+          "type": "text",
+          "_id": "LJoUTrqGXel1V8te",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Santa</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/noel-ecossais/santa.webp\" /></div></div><p>Santa est une femme d’une cinquantaine d’années. Grande, élancée, les cheveux blancs bouclés, elle n’adresse la parole ou ne porte son regard qu’à ceux qu’elle juge dignes de son intérêt. Elle s’habille en tailleur rouge et blanc en toutes circonstances.</p><p>Rares sont les personnes qui l’ont rencontrée directement, y compris parmi ses collaborateurs. Beaucoup pensent qu’il s’agit d’un homme, peut-être bien Mac Allister, et elle maintient cette confusion autant que possible.</p><p>Sa réelle identité est un mystère.</p><p>Elle semble être la cheffe et fondatrice d’une organisation clandestine de vols à haut risque, directement concurrente de Heist. Elle ne se reconnaît cependant dans aucun des principes dont Heist se prévaut : tous les moyens sont bons pour atteindre ses fins, même les moins respectables.</p><h2>Sir Angus Mac Allister</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/noel-ecossais/sir-angus.webp\" /></div></div><p>Cet homme de 70 ans, grand et bedonnant, toujours le rouge aux joues, à la barbe blanche bien garnie, est un noble d’une lignée qui vivote depuis des générations, partiellement ruinée depuis les années 1930 par des placements peu judicieux.</p><p>C’est un célibataire endurci, sans descendance, qui tient par-dessus tout à préserver les apparences. C’est pourquoi il se montre toujours chaleureux, rieur, curieux des autres et bon vivant.</p><p>Ici à Eilean Donan, il sert de face visible à Santa, jouant le rôle du châtelain jovial, sans y vivre pour autant. Il ne connaît pas la véritable identité ni les objectifs de sa commanditaire, mais il est prêt à fermer les yeux sur ses affaires en échange de la nouvelle respectabilité qu’elle lui offre.</p><p>Son apparence et son côté bonhomme devraient faire penser aux joueurs qu’il s’agit de Santa. C’est évidemment un leurre bien volontaire pour faire de la révélation finale un moment d’autant plus satisfaisant.</p><h2>Elisa Duncain</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/noel-ecossais/elisa-duncain.webp\" /></div></div><p>Responsable du musée, elle s’occupe elle-même de l’accueil des visiteurs pour ce jour de réouverture.</p><p>Elle est plutôt stressée, très attentive au moindre agissement du personnel sous ses ordres et aux petits soins avec les visiteurs. À condition qu’ils se comportent correctement…</p><p>La cinquantaine, rousse aux cheveux courts, toujours tirée à quatre épingles, elle était déjà chargée du musée avant le rachat et la fermeture pour rénovation. Mac Allister a continué à la payer pendant ce temps et lui a poliment demandé son avis consultatif sur les travaux, sans particulièrement en tenir compte.</p><p></p><p>Elle n’apprécie pas du tout que le donjon et les anciennes cuisines ne soient plus accessibles au public. Par ailleurs, elle considère la présence de tout ce personnel de sécurité vraiment excessive.</p><p>Elle n’a jamais entendu parler de Santa.</p><h2>Daisy Lordon</h2><p>Du haut de son mètre cinquante et de derrière de ses imposantes lunettes, Lordon est une jeune étudiante en histoire intarissable sur l’Écosse et son patrimoine.</p><p>Elle commence tout juste son stage à Eilean Donan, qu’elle considère comme une chance inouïe. Elle ne cache pas son enthousiasme, quitte à parfois faire preuve d’une certaine maladresse qui suscite les regards désapprobateurs de sa supérieure, Elisa Duncain.</p><p>Elle n’a jamais entendu parler de Santa.</p><h2>Lucil Schwartzman</h2><p>Directrice de Fireworks &amp; Friends, la trentaine, ferme et dynamique, elle ne supporte pas la contradiction quand il s’agit de son travail.</p><p>Ce soir, elle est assez stressée : elle ne connaît pas l’horaire exact du lancement du feu d’artifice. Mac Allister lui a simplement indiqué que ce serait « <em>à son signal, pendant la soirée</em> ».</p><p>Cela oblige Schwartzman à tenir son équipe prête à agir pendant poten­ tiellement des heures, rendant la situation inconfortable. Le boulot est excessivement bien payé, sans ça elle aurait dit non.</p><h2>Andrew Robertson</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/noel-ecossais/andrew-robertson.webp\" /></div></div><p>Majordome et chef du personnel du donjon, il travaille pour Sir Mac Allister depuis des années.</p><p>Froid et excessivement professionnel, il supervise aujourd’hui l’équipe de service du repas organisé, la préparation de celui-ci lui ayant été retirée au profit d’une arriviste de la grande ville qu’il traite avec le plus grand mépris.</p><p>Il vit sur place, près des cuisines. Il est d’ailleurs le seul habitant permanent du château, son équipe étant composée exclusivement d’extras employés pour la soirée. Il croit en avoir vu certains qui seraient vaguement compétents. Il ne rate aucune occasion de souligner leurs erreurs aux autres.</p><p>Robertson ignore qui vit au dernier étage, mais sait bien qu’il ne s’agit pas de Mac Allister. Chaque soir depuis son arrivée, il est chargé de déposer un repas sur un chariot dans le vestibule du dernier étage, de toquer à la porte du bureau et de partir.</p><p>Il dispose d’un badge lui permettant d’activer l’ascenseur.</p><h2>Sarah Hamilton</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/noel-ecossais/sarah-hamilton.webp\" /></div></div><p>Plus jeune cheffe étoilée de Glasgow, elle a fait la une de plusieurs magazines nationaux et est considérée comme l’étoile montante de la gastronomie internationale. La faire venir avec son équipe a coûté extrêmement cher à Santa, d’autant plus que Hamilton n’a pas hésité à gonfler ses tarifs pour accepter une mission dans un coin aussi reculé du pays.</p><p>Son succès ne l’empêche pas d’être ouverte et à l’écoute de son équipe, qu’elle a sélectionnée avec le plus grand soin et qu’elle connaît parfaitement.</p><p>Elle préférerait ne pas avoir Robertson dans les pattes, mais saura s’en accommoder pour une soirée.</p><h2>Lady Crowley</h2><div class=\"npc-portrait-wrapper\"><div class=\"npc-portrait\"><img src=\"systems/heist/images/media/scenario/noel-ecossais/lady-crowley.webp\" /></div></div><p>À 80 ans passés, cette frêle dame très élégamment vêtue est la représentante de la famille noble la plus influente de la région. Elle garde l’esprit vif et fait preuve d’un humour pince-sans-rire affûté.</p><p>Lors du dîner, elle porte un superbe collier conçu par De Beers, le « MarieAntoinette », composé de multiples diamants et estimé à plus de 3 millions d’euros.</p><div class=\"blue-box\"><h1>Les agents dissidents</h1><div><p>Nous vous proposons ici trois profils d’agents dissidents. Toutefois, vous pouvez parfaitement reprendre tout ou partie du groupe du premier ou du deuxième scénario pour en faire des ennemis récurrents. Contrairement à <em>Vol sous la Manche</em>, les joueurs et ces agents ne se connaissent pas.</p><h2>CÉSAR</h2><p>Agent dissident de Heist, en cours de débauchage par Santa.</p><p>Grand blond à la mâchoire carrée et au visage buriné, la quarantaine bien avancée, il porte le smoking avec bien plus de classe que son physique d’an­cien militaire ne pourrait le laisser penser.</p><h2>RACHEL</h2><p>Agente dissidente de Heist, en cours de débauchage par Santa.</p><p>La trentaine, la peau noire et les cheveux courts, elle porte ce soir une robe de soirée splendide qui cache un arsenal de gadgets.</p><h2>HECTOR</h2><p>Agent dissident de Heist, en cours de débauchage par Santa.</p><p>La soixantaine bien entamée, chauve, sec, des lunettes rondes vissées sur le nez. Il analyse tout ce qui l’entoure. Sa canne sert bien plus de moyen de défense, qu’il manie avec une extrême précision, que de soutien pour une jambe qu’il prétend déficiente.</p></div></div>",
+            "markdown": ""
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730754965762,
+            "modifiedTime": 1731011478264,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "Déroulé du dîner",
+          "type": "text",
+          "_id": "fmqd2OSuDMtFSL9a",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Cette soirée du 21 décembre est le cadre d’un dîner mondain particulier à Eilean Donan. Cette section décrit la suite des événements et leurs horaires (indicatifs, modifiez-les à votre convenance en cours de partie pour accélérer ou ralentir le tempo de l’aventure).</p><h2>18h00 : Fermeture du château au public</h2><p>Les derniers visiteurs s’en vont, les grilles du pont sont fermées. Le personnel embauché pour l’événement travaille d’arrache-pied pour être prêt à l’heure.</p><h2>19h30 - 20h15 : Accueil des convives</h2><p>Les invités sont accueillis à la grille du pont par deux gardes en permanence de faction à cet endroit. Ils vérifient les cartons d’invitation.</p><p>Plusieurs autres gardes escortent individuellement chaque groupe d’invités de la tête du pont jusqu’à la porte du donjon, en passant par la porte cochère.</p><p></p><p>L’accueil est le même pour les agents qui présentent un carton d’invitation, mais on leur demande, avant de les escorter, s’ils ont sur eux leur cadeau de Noël. En échange de l’œuvre commandée par Santa lors du scénario 2, ils peuvent entrer dans le château.</p><p>Une observation de la ronde des invités permet d’identifier trois autres personnes qui sont traitées de la même manière, d’autres agents Heist débauchés par Santa : César, Rachel et Hector.</p><p></p><p>Les invités sont accueillis dans le donjon par Robertson et le personnel de service. Les vestes et sacs sont pris et placés au vestiaire ; les convives peuvent ensuite circuler librement dans la salle de réception au niveau 0.</p><p>L’orchestre commence à jouer dès 19 h 30 et les serveurs circulent dans la pièce avec des flûtes de champagne et des petits-fours.</p><p>Mac Allister arrive par la porte de service vers 19 h 45. Il fait le tour de l’ensemble des invités, semblant tous les connaître personnellement.</p><p>Aux agents Heist, il dit avoir entendu parler de leurs exploits et sera ravi d’en parler avec eux plus en détail dans la soirée.</p><p>Les joueurs auront probablement le pressentiment qu’il s’agit de Santa, mais rien ne peut encore le confirmer ou l’infirmer. Noyez le poisson s’ils se montrent insistants : « <em>Ho, ho, ho ! Chaque chose en son temps, cher ami !</em> »</p><h2>20h15 - 23h00 : Dîner</h2><p>Robertson invite l’ensemble des convives à monter au niveau 1 pour le repas.</p><p></p><p>La grande table de la salle de banquet est dressée. Chaque invité est escorté personnellement par un serveur à sa place, indiquée par une étiquette à son nom.</p><p>En revanche, les places des agents Heist et dissidents ne sont pas nominatives. Ils sont assis de part et d’autre de Mac Allister qui préside la table, sur le côté le plus proche de la porte menant aux escaliers de service.</p><p></p><p>Lady Crowley est l’invitée d’honneur, assise au centre de la table, côté cour.</p><h2>Timing aléatoire : Le vol du collier</h2><p>Dès que le Joker 1 est pioché (voir plus loin @UUID[.LIDEEnZvaasLISVQ#joker-1-:-lenveloppe]{Joker 1 : L’enveloppe}), les trois agents concurrents se mettent en action pour réussir le défi de Santa.</p><ul><li><p>Hector engage la conversation avec Lady Crowley : il lui parle de ses origines écossaises et des liens qu’ils ont sûrement. Il s’approche d’elle pour lui montrer une photographie d’un ancêtre qui est sûrement au confluent de leurs deux lignées et profite de cette intimité pour s’emparer du collier d’un rapide et habile mouvement de sa canne.</p></li><li><p>Rachel se lève pour rejoindre les toilettes et dépose près d’une fenêtre un discret petit appareil. Quand elle revient, elle appuie sur un interrupteur au moment où elle passe derrière Lady Crowley. L’appareil diffuse alors un son d’explosion qui attire l’attention de tous les convives. Rachel profite de cette diversion pour s’emparer du collier.</p></li><li><p>César joue l’homme saoul. Il se met à parler plus fort et à provoquer les autres invités, créant le malaise. Il attend qu’on lui demande de quitter les lieux pour se lever et trébucher sur Lady Crowley, s’emparant du collier dans un même mouvement.</p></li></ul><h2>Après le vol : Le rendez-vous avec Santa</h2><p>Une fois le collier en la possession d’un des agents, Mac Allister s’adresse directement au voleur victorieux : « <em>Vous avez été sage toute l’année. Empruntez la porte derrière moi. Prenez l’ascenseur qui sera ouvert. On vous y attend, vous allez pouvoir offrir votre cadeau.</em> »</p><p>La porte de l’ascenseur est effectivement ouverte. L’agent (ou les agents s’ils sont venus à deux) peut y entrer : les portes se ferment et l’ascenseur se met en marche de lui-même, montant au dernier étage.</p><p>Dans le vestibule, deux gardes attendent. L’un d’eux ouvre la porte du bureau, invitant l’agent à entrer.</p><p>Santa est assise dans un fauteuil, dos à l’agent, de l’autre côté de la table. Elle se retourne quand il approche.</p><p>Elle prend le collier, le tend à un garde.</p><p>Elle officialise ensuite le partenariat entre ses nouvelles recrues et sa nouvelle organisation, promettant des ressources exceptionnelles pour chaque mission, des revenus bien au-delà de ceux de Heist et, surtout, une totale impunité : elle dispose de connexions lui permettant de faire sauter bien des verrous légaux partout dans le monde.</p><p>Santa ne répond pas aux questions sur les détails de son organisation, ses clients, ses ressources ou son identité. Son objectif affiché est simple : supplanter Heist pour faire disparaître l’agence et tous les « Jack » du monde. L’argent et le pouvoir ne sont qu’une agréable conséquence.</p><p>Pour finaliser son contrat, Santa donne une dernière tâche à l’agent : éliminer au moins un des voleurs concurrents conviés à la soirée, de la façon de son choix. Elle s’occupe des autres cibles.</p><p>Si les joueurs n’ont pas été sélectionnés pour le rendez-vous, Hector, Rachel ou César, à votre choix, cherche donc à éliminer les joueurs à partir de cet instant.</p><p>Une fois tout ceci annoncé, elle s’engage à contacter ses nouvelles recrues d’ici un mois pour leur premier contrat.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730755599669,
+            "modifiedTime": 1731013758241,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "Événements Joker",
+          "type": "text",
+          "_id": "LIDEEnZvaasLISVQ",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<h2>Joker 1 : L’enveloppe</h2><p>Les agents identifiés par Santa comme des dissidents reçoivent une enveloppe d’un serveur. À l’intérieur, une lettre leur est adressée :</p><p></p><p><em>« Cher agent,</em></p><p><em>Le collier de Lady Crowley est splendide. Il serait parfait dans ma collection. Celui ou celle qui saura s’en emparer sans éveiller le moindre soupçon pourra avoir un entre­ tien avec moi. Les autres pourront rentrer chez eux, ils n’auront pas été assez sages pour recevoir un cadeau cette année.</em></p><p style=\"text-align:right\"><em>Santa »</em></p><p></p><p>En plus des éventuels personnages, trois dissidents (César, Rachel et Hector) ont reçu une enveloppe similaire. Les agents Heist et dissidents peuvent s’identifier à ce point commun.</p><h2>Joker 2 : Le feu d’artifice</h2><p>Mac Allister invite tous les invités à se lever et à se diriger vers les fenêtres du donjon : le feu d’artifice va commencer.</p><p>Celui-ci dure une dizaine de minutes. Tous les feux partent du bastion, mais éclairent le ciel partout au-dessus du château.</p><p>Les lumières du château (dans la cour, sur les remparts et dans les salles où se situent les invités) sont partiellement éteintes pour permettre au public de mieux observer le spectacle.</p><p>Une foule d’une centaine de personnes attend dans le froid de l’autre côté du pont.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730756013865,
+            "modifiedTime": 1730756122033,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "Liste d’achats",
+          "type": "text",
+          "_id": "JqlEHTdRRuPMBbGG",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Pour aider vos joueurs pendant la phase de Préparation, voici quelques éléments que vous pouvez leur sug­ gérer, pour donner des pistes :</p><ul><li><p>@UUID[Item.QdIlo7mfApqXjZ8E]{Un plan du donjon, sauf les 2 derniers étages} (2 $) ;</p></li><li><p>@UUID[Item.6WbtpxwS2hjezgoy]{Un plan du donjon, étages de Santa} (3 $) ;</p></li><li><p>@UUID[Item.k0KNWJICUOjeiVJ6]{Un déguisement de serveur} (2 $) ;</p></li><li><p>@UUID[Item.fiQuu3ohmc3Im6Kb]{Un déguisement d’agent de sécurité avec badge} (3 $) ;</p></li><li><p>@UUID[Item.pSN0Fre0m4BWi64c]{Une invitation falsifiée} (2 $) ;</p></li><li><p>@UUID[Item.p71uurd3JABfucqy]{Les codes de désactivation des sécurités} (2 $) ;</p></li><li><p>@UUID[Item.5xsy7VhxfAcHERKd]{Un appareil pour prendre le contrôle des feux d’artifice} (1 $) ;</p></li><li><p>@UUID[Item.SsG4q7zwVZcWh0rF]{Un brouilleur pour prendre le contrôle des caméras} (4 $) ;</p></li><li><p>@UUID[Item.ALGrPKSKShxPEuB4]{Un plan mentionnant l’emplacement des caméras} (2 $).</p></li></ul>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730756131451,
+            "modifiedTime": 1731011927223,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "Pistes d’actions",
+          "type": "text",
+          "_id": "jYvKmC1XxdDZ48z4",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Voici quelques points d’intérêt prévus par le scénario. Si les joueurs viennent avec de nouvelles idées, tant mieux !</p><h3>Jouer au touriste perdu</h3><p>Pour entrer dans la salle de sécurité ou le donjon.</p><h3>Passer par le tunnel</h3><p>Une fois les ouvriers partis ou distraits, passer par le trou dans le quai permet de découvrir très tôt l’envers du décor et d’accéder au sous-marin et aux étages du donjon par l’ascenseur.</p><h3>Se faire passer pour un membre de la sécurité ou du personnel de service</h3><p>Attention, Hamilton et Robertson connaissent chacun leurs équipes, mais pas l’équipe de l’autre…</p><h3>Se débarrasser des concurrents avant même la réception</h3><p>Après tout, la traversée de ce pont pourrait se faire sous la surveillance d’un garde tout nouvellement recruté…</p><h3>Devenir artificier</h3><p>Lancer le feu d’artifice au moment choisi peut détourner l’attention de tout le monde pendant un certain temps.</p><h3>Jouer à l’homme-grenouille</h3><p>Arriver de nuit à la nage permet de profiter de bien des angles morts de la sécurité.</p><h3>Pirater le système de sécurité</h3><p>Soit directement depuis le poste de surveillance, soit en hackant les caméras, soit depuis le bureau de Santa…</p><h3>S’emparer d’une carte de sécurité</h3><p>Toute la garde rapprochée de Santa possède une telle carte, un moyen de monter aux étages.</p><h3>Passer par la fenêtre</h3><p>Avec le bon matériel, un agent compétent peut grimper le long de la façade du donjon pour atteindre l’étage où se situe la bibliothèque et le musée privé.</p><h3>Endormir tout le monde</h3><p>Le bon produit soporifique versé dans les bouteilles ou le repas par un invité, un cuisinier ou un serveur permettrait sans trop de souci de se débarrasser d’une bonne partie des gêneurs ou de gagner très vite le « jeu » imposé par Santa.</p>"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730756188835,
+            "modifiedTime": 1730756341409,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 1000000,
+          "name": "Fin de partie",
+          "type": "text",
+          "_id": "RPRzxJMP9F7csan3",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {},
+          "text": {
+            "format": 1,
+            "content": "<p>Le scénario prend fin dans plusieurs cas :</p><ul><li><p>Les agents quittent les lieux en ayant placé le mouchard sur Santa, volé un des objets précieux et éventuellement récolté des informations supplémentaires sur les opérations de Santa. Dans ce cas, Jack est ravi, la mission est un succès total ;</p></li><li><p>Les agents ne parviennent pas à rencontrer Santa ou à placer le mouchard avant minuit. Ils doivent alors fuir les lieux, potentiellement pourchassés par un agent dissident assassin.</p></li></ul><p>La mission prend également fin si le paquet du meneur vient à s’épuiser. Les événements suivent alors leurs cours en fonction de ce qui s’est passé jusquelà : minuit sonne, Santa s’en va (en sous-marin s’il est toujours disponible) et les agents doivent partir, sans doute avec un agent dissident à leur trousse.</p><p>Dans tous les cas, certaines questions demeurent : qui est Santa ? L’agence devra-t-elle à nouveau faire face à Santa dans l’avenir ? Chercherat-elle à mettre fin définitivement à ses opérations ? Cette partie de l’histoire vous appartient !</p><p>D’un autre côté, si, au cours du scénario, un agent choisit de prendre le parti de Santa et de tuer une des cibles, alors Santa le recrute pour ses opérations à venir, ainsi que tous ses complices.</p><p>Ce cas de figure peut intervenir dans n’importe quelle fin !</p><p>Vous pouvez alors préparer une suite où les agents ne travaillent plus pour Heist. Ils sont dorénavant aux ordres de Santa dans des missions du même registre, mais avec un cadre moral bien plus souple.</p><p>Vous pouvez également faire de ces traîtres des ennemis récurrents pour de futurs scénarios.</p><img src=\"systems/heist/images/media/scenario/noel-ecossais/noel-ecossais.webp\" />"
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1730756351420,
+            "modifiedTime": 1731010630984,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1730751052084,
+        "modifiedTime": 1731013758241,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "folder": "D8NKa2Feve4wfeH2",
+      "name": "Aides de jeu",
+      "_id": "eiabjQuyRo1zL40K",
+      "pages": [
+        {
+          "sort": 100000,
+          "name": "Plan de l’île - Agents",
+          "type": "image",
+          "_id": "VItdOURUJRDrBGWn",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/plan-agent-ile.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1731012542085,
+            "modifiedTime": 1731012589963,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 200000,
+          "name": "Plan du château - Agents",
+          "type": "image",
+          "_id": "jJjxKqFt8rfdU0eU",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/plan-agent-chateau-musee.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1731012577962,
+            "modifiedTime": 1731012582864,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 300000,
+          "name": "Plan complet - MJ",
+          "type": "image",
+          "_id": "2kwrsscYvyoLaN5a",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/plan-mj.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1731012797026,
+            "modifiedTime": 1731012801205,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 400000,
+          "name": "PNJ - Santa",
+          "type": "image",
+          "_id": "UhSQ5ZdmyypbDQIW",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/santa.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1734469728148,
+            "modifiedTime": 1734469752676,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 500000,
+          "name": "PNJ - Sir Angus Mac Allister",
+          "type": "image",
+          "_id": "fyIZoRzVnJVhlxUI",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/sir-angus.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1734469773298,
+            "modifiedTime": 1734469778139,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 600000,
+          "name": "PNJ - Elisa Duncain",
+          "type": "image",
+          "_id": "zupc1Tc89TpiVWAe",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/elisa-duncain.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1734469792974,
+            "modifiedTime": 1734469798540,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 700000,
+          "name": "PNJ - Andrew Robertson",
+          "type": "image",
+          "_id": "OCCFDORb9vPdQHxy",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/andrew-robertson.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1734469813181,
+            "modifiedTime": 1734469819093,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 800000,
+          "name": "PNJ - Sarah Hamilton",
+          "type": "image",
+          "_id": "pkvYECf1euUu0n3C",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/sarah-hamilton.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1734469832745,
+            "modifiedTime": 1734469836687,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        },
+        {
+          "sort": 900000,
+          "name": "PNJ - Lady Crowley",
+          "type": "image",
+          "_id": "nl2b6hX42WOS2OrR",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "image": {
+            "caption": ""
+          },
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": "systems/heist/images/media/scenario/noel-ecossais/lady-crowley.webp",
+          "system": {},
+          "ownership": {
+            "default": -1,
+            "2Ix5Tl3gxkKU6taP": 3
+          },
+          "flags": {},
+          "_stats": {
+            "systemId": "heist",
+            "systemVersion": "#{VERSION}#",
+            "coreVersion": "11.315",
+            "createdTime": 1734469849284,
+            "modifiedTime": 1734469860977,
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+          }
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1730751045252,
+        "modifiedTime": 1731012801205,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "folder": "lxDrJ0tPPLaoK6Zs",
+      "name": "Château",
+      "_id": "Duz7HXmzkPfuoyNY",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/noel-ecossais/plan-agent-chateau-musee.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1731012486607,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 398,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 1003.5460222476422,
+          "y": 1207.4964509455153,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Caméra de sécurité",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "MxT6xv2eaZbsb8VK"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 302,
+            "height": 114,
+            "radius": null,
+            "points": []
+          },
+          "x": 1500,
+          "y": 2000,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Cour intérieure",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "aFK7wvO4Bd1X5TOX"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 239,
+            "height": 64,
+            "radius": null,
+            "points": []
+          },
+          "x": 919.286304123138,
+          "y": 2690.3568479384307,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Entrée",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ptOOCoPBYqdsSlHJ"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 162,
+            "height": 85,
+            "radius": null,
+            "points": []
+          },
+          "x": 920.1427391753725,
+          "y": 2413,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Accueil",
+          "fontFamily": "Masqualero",
+          "fontSize": 40,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "vvIJpe0ZClt7kQK7"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 199,
+            "height": 64,
+            "radius": null,
+            "points": []
+          },
+          "x": 1141.4655538647464,
+          "y": 3031.8224018031774,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Sortie",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "MCWQl68e8pdKwaFO"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 231,
+            "height": 149,
+            "radius": null,
+            "points": []
+          },
+          "x": 1508.3900554150946,
+          "y": 3715.1402618581933,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Mur d’enceinte",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "61O9yvHL9UpawxP1"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 260,
+            "height": 85,
+            "radius": null,
+            "points": []
+          },
+          "x": 2430.8580865970207,
+          "y": 2891.321163144588,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Donjon",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "JQ0bizQ9Ind7GmRE"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 264,
+            "height": 178,
+            "radius": null,
+            "points": []
+          },
+          "x": 1860.4630765475672,
+          "y": 2696.1427391753728,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Entrée résidents et invités",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "qujw6l1nNiTrAeSD"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 269,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 2056.894597163257,
+          "y": 2332.7867170093346,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Accès - 1",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "JHGYagXqSjVaAyBx"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 398,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 2447.927804639921,
+          "y": 2530.6423262891763,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Porte de service",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "jDs9MNKdnSfrhLQB"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 276,
+            "height": 67,
+            "radius": null,
+            "points": []
+          },
+          "x": 2904.8215760307844,
+          "y": 2533.7510322154913,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Ascenseur",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "3MBtpYmyihfKJDWf"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 328,
+            "height": 64,
+            "radius": null,
+            "points": []
+          },
+          "x": 2275.6033384057605,
+          "y": 1931.8224018031774,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Tour de garde",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "8JjUGruChWcpBUHX"
+        },
+        {
+          "_id": "xm04YtZavZozDKG9",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 50,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 2864.8704470721614,
+          "y": 2477.0777317567035,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 6,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "text": ""
+        },
+        {
+          "_id": "qpgyXq7rmVp0uHHL",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "p",
+            "width": 565,
+            "height": 889,
+            "radius": null,
+            "points": [
+              14.191413381744042,
+              0,
+              564.5028878516096,
+              887.751748213565,
+              541.6389440699099,
+              888.5401600681062,
+              0,
+              12.614589672661623
+            ]
+          },
+          "x": 2325,
+          "y": 1592,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 4,
+          "strokeColor": "#808080",
+          "strokeAlpha": 1,
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "text": ""
+        },
+        {
+          "_id": "x6n9JuGEeR1hlBIS",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "e",
+            "width": 220,
+            "height": 222,
+            "radius": null,
+            "points": []
+          },
+          "x": 2155.4741700835084,
+          "y": 1402.49839759422,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#808080",
+          "strokeAlpha": 1,
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "text": ""
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 129,
+            "height": 121,
+            "radius": null,
+            "points": []
+          },
+          "x": 2202.1435712344783,
+          "y": 1444.587104184155,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Sous-marin",
+          "fontFamily": "Masqualero",
+          "fontSize": 40,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "4aTUOZMWHJIS6rFx"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 328,
+            "height": 64,
+            "radius": null,
+            "points": []
+          },
+          "x": 2485.1742083683102,
+          "y": 1627.8724528233245,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Trou dans le sol",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "MNLQYv1GOD5bsnjZ"
+        },
+        {
+          "_id": "uOh4e7pAbHSsVPiG",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "p",
+            "width": 61,
+            "height": 50,
+            "radius": null,
+            "points": [
+              12.125237547389133,
+              28.84970312999394,
+              8.362232791302631,
+              2.5086698373906984,
+              15.0520190243451,
+              7.1078978726070545,
+              22.578028536517195,
+              13.797684105649296,
+              24.66858673434308,
+              8.362232791302631,
+              28.431591490429128,
+              0.4181116395650406,
+              29.267814769559664,
+              0,
+              33.448931165210524,
+              11.28901426825837,
+              37.21193592129703,
+              12.125237547388679,
+              48.500950189555624,
+              11.28901426825837,
+              46.41039199172974,
+              18.815023780430693,
+              49.337173468685705,
+              21.32369361782162,
+              59.371852818248954,
+              22.578028536516968,
+              61.46241101607484,
+              25.086698373907893,
+              51.00962002694632,
+              33.448931165210524,
+              49.75528510825097,
+              34.70326608390587,
+              51.845843306076404,
+              39.30249411912246,
+              45.992280352164926,
+              49.33717346868548,
+              36.79382428173176,
+              41.811163956513155,
+              35.12137772347114,
+              43.90172215433881,
+              31.358372967385094,
+              50.17339674781579,
+              17.560688861735798,
+              42.647387235643464,
+              11.289014268258597,
+              38.88438247955719,
+              8.780344430867899,
+              49.75528510825052,
+              0.836223279130536,
+              38.46627083999192,
+              5.0173396747818515,
+              30.10403804868929,
+              7.52600951217255,
+              24.668586734342625,
+              1.2543349186953492,
+              15.470130663909913,
+              0,
+              14.215795745214336,
+              10.870902628693784,
+              16.724465582605262,
+              12.961460826519215,
+              17.560688861735343
+            ]
+          },
+          "x": 2376.32755344174,
+          "y": 1691.9826603252184,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0.5,
+          "fillType": 1,
+          "fillColor": "#808080",
+          "fillAlpha": 0.5,
+          "strokeWidth": 1,
+          "strokeColor": "#808080",
+          "strokeAlpha": 1,
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "text": ""
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 201,
+            "height": 135,
+            "radius": null,
+            "points": []
+          },
+          "x": 1104.0472020041425,
+          "y": 2185.709663012132,
+          "z": 0,
+          "rotation": 75,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Personnel",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "pTOWzEnvFLgioqNs"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 196,
+            "height": 85,
+            "radius": null,
+            "points": []
+          },
+          "x": 1598.274532257938,
+          "y": 2351.0918052509046,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Sécurité",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "rD3bMYSSiGnBc83t"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 269,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 2149.5855425251016,
+          "y": 2880.8537536673625,
+          "z": 0,
+          "rotation": 90,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Vestibule",
+          "fontFamily": "Masqualero",
+          "fontSize": 52,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "YMPlqdJhvyTT76iU"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 900,
+          "y": 1200,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "LApWZoKDUgxnlHvA"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 2374,
+          "y": 3164,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "yudl2Zb34hLJMemP"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 868,
+          "y": 1865,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "JEi84lcWMm60h2Fx"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera-invert.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 1133,
+          "y": 1832,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 330,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "1vqz53QyWzJWpjbB"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera-invert.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 1249,
+          "y": 2385,
+          "width": 50,
+          "height": 50,
+          "overhead": false,
+          "z": 100,
+          "rotation": 330,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "MtWQz7Y3myMJC0CO"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1008,
+          "y": 2613,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 15,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "bCazHLV7ueD0SXHp"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1319,
+          "y": 3035,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 105,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "n9WGB1xBl1fDrKOK"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2031,
+          "y": 2867,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "nxPUCvxfugyuT7mq"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2200,
+          "y": 2400,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 165,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "cOFA300nEaN6Pno0"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2679,
+          "y": 2483,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 75,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "gr3XxV8eDGRDZslW"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2922,
+          "y": 2475,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 315,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "Cm17OUj6xLlbRUJL"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2416,
+          "y": 1648,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 255,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "jhVsx8TMp5o1jYoL"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2585,
+          "y": 1942,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 120,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "AhuCgqlmtv6Ozmo0"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1630,
+          "y": 2413,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 240,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "5YGGla1smYYUvfXX"
+        }
+      ],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731012486609,
+        "modifiedTime": 1731012497848,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "worlds/the-heist/assets/scenes/Duz7HXmzkPfuoyNY-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "lxDrJ0tPPLaoK6Zs",
+      "name": "Île",
+      "_id": "lKGxNsD7l4eDU6PQ",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "systems/heist/images/media/scenario/noel-ecossais/plan-agent-ile.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 4,
+      "width": 2516,
+      "height": 3543,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 1,
+        "units": ""
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1731012405860,
+      "globalLight": true,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 398,
+            "height": 65,
+            "radius": null,
+            "points": []
+          },
+          "x": 1058,
+          "y": 1569,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Caméra de sécurité",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "qluiREA9qRLARk1M"
+        },
+        {
+          "_id": "S7T2yLmrYX55QZw5",
+          "author": "2Ix5Tl3gxkKU6taP",
+          "shape": {
+            "type": "r",
+            "width": 124,
+            "height": 62,
+            "radius": null,
+            "points": []
+          },
+          "x": 1819.3759119896954,
+          "y": 2089.571583526997,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#cc287e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#000000",
+          "strokeAlpha": 1,
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#FFFFFF",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "text": ""
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1550.5456009986067,
+          "y": 2004.6363499063805,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Ponton",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "2J72pKfxHihV4sd8"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2287.6364002496516,
+          "y": 2074.1815985020903,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Ruines",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "D19RUPMgACx3xTBf"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2054.181749531903,
+          "y": 2584.5454499687935,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Mémorial",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ef86V7MzbnEjEf6I"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2295.3636500936195,
+          "y": 2932.0002013730846,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Promenade",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "BZwxgCfLVSCsyWIU"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 2013.4337024937568,
+          "y": 3286.5662975062432,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Bastion",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "T03Zrsfgf2cT8Ve7"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1535.1627057606138,
+          "y": 3125.9698892518727,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Musée",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "X5PfrCtesnYvP96R"
+        },
+        {
+          "author": "WaAvcr5QhVwh4Q5w",
+          "shape": {
+            "type": "r",
+            "width": 214,
+            "height": 60,
+            "radius": null,
+            "points": []
+          },
+          "x": 1295.2171205486982,
+          "y": 2636.8615982793444,
+          "z": 0,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "text": "Quai",
+          "fontFamily": "Masqualero",
+          "fontSize": 48,
+          "textColor": "#000000",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "flags": {},
+          "texture": null,
+          "_id": "ClhLWzUzXWeXuPcx"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 942,
+          "y": 1557,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "2ygLFsQhZ887PWM7"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/freepik/security-camera.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff"
+          },
+          "x": 1961,
+          "y": 2056,
+          "width": 87,
+          "height": 87,
+          "overhead": false,
+          "z": 100,
+          "rotation": 135,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "vm7ru1AUMpmMYoQY"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1734,
+          "y": 2038,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 135,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "ElYtjLx7IC4Mxn5h"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2239,
+          "y": 2098,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 270,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "N8bKyiFQWuYCp0NE"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1971,
+          "y": 2609,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 270,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "lXgJ79ez3W4B10Im"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2239,
+          "y": 2968,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 270,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "VBkYk6gvEpezNgQ6"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 2007,
+          "y": 3218,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "Sif1Y1MlmZM1sPuv"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1495,
+          "y": 3112,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 300,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "ppbxpo7DCnBUgsbF"
+        },
+        {
+          "texture": {
+            "src": "systems/heist/images/icons/game-icons/arrow-cursor.svg",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "x": 1321,
+          "y": 2689,
+          "width": 70,
+          "height": 70,
+          "overhead": false,
+          "z": 100,
+          "rotation": 255,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {},
+          "_id": "7t2hP4OcFeTCtWne"
+        }
+      ],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "2Ix5Tl3gxkKU6taP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731012405862,
+        "modifiedTime": 1731081461970,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      },
+      "foreground": null,
+      "thumb": "worlds/the-heist/assets/scenes/lKGxNsD7l4eDU6PQ-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    }
+  ],
+  "tables": [],
+  "macros": [],
+  "cards": [],
+  "playlists": [],
+  "folders": [
+    {
+      "name": "3. Noël Écossais",
+      "sorting": "a",
+      "folder": "NGHvquppNxSwZpTx",
+      "type": "Scene",
+      "_id": "lxDrJ0tPPLaoK6Zs",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.lxDrJ0tPPLaoK6Zs"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731012366182,
+        "modifiedTime": 1731012366182,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Scene",
+      "_id": "NGHvquppNxSwZpTx",
+      "sort": 500000,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733271459,
+        "modifiedTime": 1716733273565,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "3. Noël Écossais",
+      "sorting": "a",
+      "folder": "e2rYH8n0xr40c115",
+      "type": "Actor",
+      "_id": "pq89nOfxQ7jScEPU",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.pq89nOfxQ7jScEPU"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731010659149,
+        "modifiedTime": 1731010659149,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Actor",
+      "_id": "e2rYH8n0xr40c115",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733282379,
+        "modifiedTime": 1716733282379,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "3. Noël Écossais",
+      "sorting": "a",
+      "folder": "QnTSLXoaV2ZYKfAP",
+      "type": "Item",
+      "_id": "8zpGKiGbCG4WmFRa",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.8zpGKiGbCG4WmFRa"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1731011705430,
+        "modifiedTime": 1731011705430,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "Item",
+      "_id": "QnTSLXoaV2ZYKfAP",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733291957,
+        "modifiedTime": 1716733291957,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "3. Noël Écossais",
+      "sorting": "a",
+      "folder": "InWjQF95PQLinHYx",
+      "type": "JournalEntry",
+      "_id": "D8NKa2Feve4wfeH2",
+      "sort": 0,
+      "color": null,
+      "flags": {
+        "core": {
+          "sourceId": "Folder.D8NKa2Feve4wfeH2"
+        }
+      },
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1730751027944,
+        "modifiedTime": 1730751027944,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    },
+    {
+      "name": "Santa",
+      "sorting": "a",
+      "folder": null,
+      "type": "JournalEntry",
+      "_id": "InWjQF95PQLinHYx",
+      "sort": 0,
+      "color": null,
+      "flags": {},
+      "_stats": {
+        "systemId": "heist",
+        "systemVersion": "#{VERSION}#",
+        "coreVersion": "11.315",
+        "createdTime": 1716733297303,
+        "modifiedTime": 1716733297303,
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+      }
+    }
+  ],
+  "_id": "fGMdQ82Cp0qZR4hF",
+  "folder": "DCBDpIUcIcYj2d9m",
+  "flags": {},
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1716312802856,
+    "modifiedTime": 1734469875573,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "_key": "!adventures!fGMdQ82Cp0qZR4hF"
+}

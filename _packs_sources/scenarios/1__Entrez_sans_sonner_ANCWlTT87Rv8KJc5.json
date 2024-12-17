@@ -26,7 +26,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -61,7 +66,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -71,11 +79,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -88,10 +113,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315118020,
         "modifiedTime": 1716315124113,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -115,7 +142,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -150,7 +182,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -160,11 +195,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -177,10 +229,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716314978483,
         "modifiedTime": 1716314986550,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -204,7 +258,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -239,7 +298,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -249,11 +311,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -266,10 +345,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315071637,
         "modifiedTime": 1716315081407,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -293,7 +374,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -328,7 +414,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -338,11 +427,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -355,10 +461,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315051316,
         "modifiedTime": 1716315062849,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -382,7 +490,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -417,7 +530,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -427,11 +543,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -444,10 +577,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315130006,
         "modifiedTime": 1716315136483,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -471,7 +606,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -506,7 +646,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -516,11 +659,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -533,10 +693,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716314994451,
         "modifiedTime": 1716314999474,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -560,7 +722,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -595,7 +762,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -605,11 +775,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -622,10 +809,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716314917748,
         "modifiedTime": 1716314934640,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -649,7 +838,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -684,7 +878,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -694,11 +891,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -711,10 +925,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716314962564,
         "modifiedTime": 1716314970101,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -738,7 +954,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -773,7 +994,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -783,11 +1007,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -800,10 +1041,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315087760,
         "modifiedTime": 1716315096083,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -827,7 +1070,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -862,7 +1110,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -872,11 +1123,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -889,10 +1157,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315004872,
         "modifiedTime": 1716315016363,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -916,7 +1186,12 @@
           "scaleY": 1,
           "offsetX": 0,
           "offsetY": 0,
-          "rotation": 0
+          "rotation": 0,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -951,7 +1226,10 @@
           "darkness": {
             "min": 0,
             "max": 1
-          }
+          },
+          "negative": false,
+          "priority": 0,
+          "color": null
         },
         "sight": {
           "enabled": false,
@@ -961,11 +1239,28 @@
           "attenuation": 0.1,
           "brightness": 0,
           "saturation": 0,
-          "contrast": 0
+          "contrast": 0,
+          "color": null
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [],
       "effects": [],
@@ -978,10 +1273,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315103726,
         "modifiedTime": 1716315111086,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -1006,10 +1303,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315609668,
         "modifiedTime": 1716315612057,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1031,10 +1330,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315632891,
         "modifiedTime": 1716315635175,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1056,10 +1357,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315663496,
         "modifiedTime": 1716315666360,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1081,10 +1384,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315643475,
         "modifiedTime": 1716315643475,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1106,10 +1411,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315622121,
         "modifiedTime": 1716315622121,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1131,10 +1438,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315747487,
         "modifiedTime": 1716315747487,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1156,10 +1465,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315675510,
         "modifiedTime": 1716315675510,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1181,10 +1492,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315653869,
         "modifiedTime": 1716315656185,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1206,10 +1519,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315604610,
         "modifiedTime": 1716315604610,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1231,10 +1546,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315595552,
         "modifiedTime": 1716315598109,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -1272,10 +1589,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716312984758,
             "modifiedTime": 1717948041512,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1306,10 +1625,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716313115643,
             "modifiedTime": 1716313685469,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1340,10 +1661,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716313664655,
             "modifiedTime": 1716313759283,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1374,10 +1697,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716313784623,
             "modifiedTime": 1717960192018,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1408,10 +1733,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716314175776,
             "modifiedTime": 1717950483650,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1442,10 +1769,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716314645822,
             "modifiedTime": 1716314676230,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1476,10 +1805,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716314682024,
             "modifiedTime": 1716315781050,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1510,10 +1841,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716314735642,
             "modifiedTime": 1716314790420,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1544,10 +1877,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716314799549,
             "modifiedTime": 1716314851297,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -1560,10 +1895,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716311955204,
         "modifiedTime": 1717950483650,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -1600,10 +1937,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716726342097,
             "modifiedTime": 1716726400404,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1635,10 +1974,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716726878051,
             "modifiedTime": 1716726890220,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1668,10 +2009,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716732691997,
             "modifiedTime": 1716732696676,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1703,10 +2046,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716732750790,
             "modifiedTime": 1716732757942,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1737,10 +2082,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716732978311,
             "modifiedTime": 1716733106009,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1772,10 +2119,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716734078447,
             "modifiedTime": 1716734094320,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1807,10 +2156,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716734105691,
             "modifiedTime": 1716734110526,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1842,10 +2193,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716734121731,
             "modifiedTime": 1716734125913,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -1877,10 +2230,12 @@
           "_stats": {
             "systemId": "heist",
             "systemVersion": "#{VERSION}#",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1716734135647,
             "modifiedTime": 1716734139576,
-            "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+            "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -1893,10 +2248,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716316137544,
         "modifiedTime": 1716734139576,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -1915,7 +2272,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 4,
       "width": 2516,
@@ -1933,14 +2295,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 1,
-        "units": ""
+        "units": "",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1716726917323,
-      "globalLight": true,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -1953,14 +2312,13 @@
           },
           "x": 1039.4567119525786,
           "y": 1627.9351568803138,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Chambre de Markov",
           "fontFamily": "Masqualero",
@@ -1971,7 +2329,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "s6BUZca8SrbQ9iWF"
+          "_id": "s6BUZca8SrbQ9iWF",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -1984,14 +2345,13 @@
           },
           "x": 2610.643007035944,
           "y": 2229.963896976667,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Chambre de Zaman et Peeters",
           "fontFamily": "Masqualero",
@@ -2002,7 +2362,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "TmlazkE65zASOhRd"
+          "_id": "TmlazkE65zASOhRd",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2015,14 +2378,13 @@
           },
           "x": 1194.9401745279215,
           "y": 2726.119650944157,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Cuisine",
           "fontFamily": "Masqualero",
@@ -2033,7 +2395,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "7nwvhCMNW41WFvpv"
+          "_id": "7nwvhCMNW41WFvpv",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2046,14 +2411,13 @@
           },
           "x": 1515.8412665097871,
           "y": 2723.1526202835353,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Clé de la chambre de Landgren",
           "fontFamily": "Masqualero",
@@ -2064,7 +2428,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "19eeITDEpeV4sbSE"
+          "_id": "19eeITDEpeV4sbSE",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2077,14 +2444,13 @@
           },
           "x": 1238,
           "y": 3037,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Documents sur le casse",
           "fontFamily": "Masqualero",
@@ -2095,7 +2461,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "kF5MF9vFpi4qinHK"
+          "_id": "kF5MF9vFpi4qinHK",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2108,14 +2477,13 @@
           },
           "x": 1244.5582002947801,
           "y": 3249.8297148489373,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Salle à manger",
           "fontFamily": "Masqualero",
@@ -2126,7 +2494,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "O9hN0sIbJDLVWioW"
+          "_id": "O9hN0sIbJDLVWioW",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2139,14 +2510,13 @@
           },
           "x": 1198.2536097729371,
           "y": 3493.2020363210167,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Salon",
           "fontFamily": "Masqualero",
@@ -2157,7 +2527,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "GcuBSvcfNtOLgEfl"
+          "_id": "GcuBSvcfNtOLgEfl",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2170,14 +2543,13 @@
           },
           "x": 2549,
           "y": 3196,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Dressing",
           "fontFamily": "Masqualero",
@@ -2188,7 +2560,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "2PCgvUi15qtTaHGJ"
+          "_id": "2PCgvUi15qtTaHGJ",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2201,14 +2576,13 @@
           },
           "x": 2517.0598254720785,
           "y": 3570.754584905008,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Guy Vandenbroucke",
           "fontFamily": "Masqualero",
@@ -2219,7 +2593,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "eVhpCmQYFoUkcAyX"
+          "_id": "eVhpCmQYFoUkcAyX",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2232,14 +2609,13 @@
           },
           "x": 2139.9962471889994,
           "y": 3103.5992433803567,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Chambre de Landgren",
           "fontFamily": "Masqualero",
@@ -2250,7 +2626,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "93DOzJ20jNyFcNTB"
+          "_id": "93DOzJ20jNyFcNTB",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2263,14 +2642,13 @@
           },
           "x": 2113.1845744910356,
           "y": 3496.147060888156,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Clé USB",
           "fontFamily": "Masqualero",
@@ -2281,7 +2659,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "h92UVuecuOH5pMNo"
+          "_id": "h92UVuecuOH5pMNo",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2294,14 +2675,13 @@
           },
           "x": 1998.4371179245827,
           "y": 2792.6825330195743,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Porte verrouillée",
           "fontFamily": "Masqualero",
@@ -2312,7 +2692,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "1Is9NPTZLeFqxHCM"
+          "_id": "1Is9NPTZLeFqxHCM",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2325,14 +2708,13 @@
           },
           "x": 2080.4248915112275,
           "y": 2665.8021839637313,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Traces",
           "fontFamily": "Masqualero",
@@ -2343,7 +2725,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "k3jenG9haBQPOYyN"
+          "_id": "k3jenG9haBQPOYyN",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         },
         {
           "author": "WaAvcr5QhVwh4Q5w",
@@ -2356,14 +2741,13 @@
           },
           "x": 2500.634581133517,
           "y": 1274.8035366389963,
-          "z": 0,
           "rotation": 0,
           "bezierFactor": 0,
           "fillType": 0,
-          "fillColor": "#FFFFFF",
+          "fillColor": "#ffffff",
           "fillAlpha": 0.1,
           "strokeWidth": 8,
-          "strokeColor": "#FFFFFF",
+          "strokeColor": "#ffffff",
           "strokeAlpha": 0,
           "text": "Caméra de surveillance",
           "fontFamily": "Masqualero",
@@ -2374,7 +2758,10 @@
           "locked": false,
           "flags": {},
           "texture": null,
-          "_id": "I5Fjbj4icHtGgmTz"
+          "_id": "I5Fjbj4icHtGgmTz",
+          "interface": true,
+          "elevation": 0,
+          "sort": 0
         }
       ],
       "tokens": [],
@@ -2391,23 +2778,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2199,
           "y": 1738,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 225,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2415,7 +2802,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "HQNzxrW1XWWoZfMi"
+          "_id": "HQNzxrW1XWWoZfMi",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2425,23 +2818,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1994,
           "y": 1618,
           "width": 50,
           "height": 50,
-          "overhead": false,
-          "z": 100,
           "rotation": 165,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2449,7 +2842,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "E8L9WhyHL2mFQqKf"
+          "_id": "E8L9WhyHL2mFQqKf",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2459,23 +2858,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2436,
           "y": 1263,
           "width": 87,
           "height": 87,
-          "overhead": false,
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2483,7 +2882,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "d6oXq7EtLdaxjKSE"
+          "_id": "d6oXq7EtLdaxjKSE",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2492,31 +2897,38 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 914,
           "y": 1744,
           "width": 605.7,
           "height": 820,
-          "overhead": false,
           "_id": "E6TrnMFqaIPgJION",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2525,31 +2937,38 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 2677,
           "y": 1805,
           "width": 283.1,
           "height": 396.9,
-          "overhead": false,
           "_id": "GyOqmV1smiD8gH0M",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2558,31 +2977,38 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 2192,
           "y": 2798,
           "width": 328.6,
           "height": 114.3,
-          "overhead": false,
           "_id": "92qQFRcFJCrNgCyU",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2592,31 +3018,37 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1027,
           "y": 2970,
           "width": 823,
           "height": 857,
-          "overhead": false,
           "_id": "FHcbFuSx5YVnYDZS",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2625,31 +3057,38 @@
             "scaleY": 1,
             "offsetX": 0,
             "offsetY": 0,
-            "rotation": 0
+            "rotation": 0,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
           },
           "x": 2003,
           "y": 3322,
           "width": 451.4,
           "height": 560,
-          "overhead": false,
           "_id": "MKDpTzTCF26DMuZR",
-          "z": 100,
           "rotation": 0,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
             "autoplay": true,
             "volume": 0
           },
-          "flags": {}
+          "flags": {},
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2659,23 +3098,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 1768,
           "y": 2657,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 45,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2683,7 +3122,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "LOz96Is3Q1QMZbXC"
+          "_id": "LOz96Is3Q1QMZbXC",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2693,23 +3138,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2162,
           "y": 2738,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2717,7 +3162,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "HvCVXvRDLsZXIiYj"
+          "_id": "HvCVXvRDLsZXIiYj",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2727,23 +3178,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2075,
           "y": 2909,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 180,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2751,7 +3202,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "SwNQyS9vOUQut5bI"
+          "_id": "SwNQyS9vOUQut5bI",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2761,23 +3218,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2059,
           "y": 3523,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 270,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2785,7 +3242,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "iJb7c9r7O1XJR8Cp"
+          "_id": "iJb7c9r7O1XJR8Cp",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         },
         {
           "texture": {
@@ -2795,23 +3258,23 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
           },
           "x": 2812,
           "y": 3696,
           "width": 70,
           "height": 70,
-          "overhead": false,
-          "z": 100,
           "rotation": 150,
           "alpha": 1,
           "hidden": true,
           "locked": false,
-          "roof": false,
           "occlusion": {
-            "mode": 1,
-            "alpha": 0,
-            "radius": null
+            "mode": 0,
+            "alpha": 0
           },
           "video": {
             "loop": true,
@@ -2819,7 +3282,13 @@
             "volume": 0
           },
           "flags": {},
-          "_id": "elMfj7T9WjCeWP3H"
+          "_id": "elMfj7T9WjCeWP3H",
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0
         }
       ],
       "walls": [],
@@ -2836,17 +3305,60 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716726917325,
         "modifiedTime": 1716734759114,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": null,
       "thumb": "worlds/the-heist/assets/scenes/6h4oMlUhdaJAfsVK-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": true,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1716726917323,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     }
   ],
   "tables": [],
@@ -2869,10 +3381,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733464642,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -2892,10 +3406,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733487931,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "bdlKSBofXBfRqdlH"
     },
@@ -2916,10 +3432,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733248408,
         "modifiedTime": 1716734007885,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "ZBe0tJ3zPj5R9UhX"
     },
@@ -2940,10 +3458,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733531601,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "53GK8AmyjAPubDSC"
     },
@@ -2964,10 +3484,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733248408,
         "modifiedTime": 1716733549301,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_id": "9xPuIfmv7pCXUWOH"
     },
@@ -2989,10 +3511,12 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733890096,
         "modifiedTime": 1716733915926,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -3011,11 +3535,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716726906608,
         "modifiedTime": 1716733277382,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Santa",
@@ -3029,11 +3556,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733271459,
         "modifiedTime": 1716733273565,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3047,11 +3577,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716314898649,
         "modifiedTime": 1716733287865,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Santa",
@@ -3065,11 +3598,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733282379,
         "modifiedTime": 1716733282379,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3083,11 +3619,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716315588173,
         "modifiedTime": 1716733294198,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Santa",
@@ -3101,11 +3640,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733291957,
         "modifiedTime": 1716733291957,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3119,11 +3661,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716311948605,
         "modifiedTime": 1716733300433,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Santa",
@@ -3137,11 +3682,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733297303,
         "modifiedTime": 1716733297303,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "1. Entrez sans sonner",
@@ -3155,11 +3703,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733232660,
         "modifiedTime": 1716733232660,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Santa",
@@ -3173,11 +3724,14 @@
       "_stats": {
         "systemId": "heist",
         "systemVersion": "#{VERSION}#",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1716733224414,
         "modifiedTime": 1716733224414,
-        "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
-      }
+        "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     }
   ],
   "_id": "ANCWlTT87Rv8KJc5",
@@ -3186,10 +3740,12 @@
   "_stats": {
     "systemId": "heist",
     "systemVersion": "#{VERSION}#",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1716312641337,
     "modifiedTime": 1717960203786,
-    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!adventures!ANCWlTT87Rv8KJc5"
 }

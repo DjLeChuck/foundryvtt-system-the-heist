@@ -93,6 +93,11 @@
     border: none;
     color: var(--c-astronaut);
   }
+
+  h4 {
+    font-family: var(--f-masqualero);
+    font-weight: bold;
+  }
 }
 
 @mixin boxes {
