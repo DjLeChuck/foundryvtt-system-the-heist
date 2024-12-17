@@ -2,9 +2,12 @@
 
 ## [Unreleased]
 
+## [12.1.0] - 2024-12-17
+
 ### Added
 
 - Official cards images
+- Adventure compendium for the third (and last!) "Santa" scenario "Noël Écossais"
 
 ## [12.0.0] - 2024-06-09
 
@@ -12,7 +15,7 @@
 
 - Support for FoundryVTT 12
 - Display remaining cards on agent sheet
-- Adventure compendium for the scenario "Vol sous la Manche"
+- Adventure compendium for the second "Santa" scenario "Vol sous la Manche"
 
 ### Changed
 
@@ -144,7 +147,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.0.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.0...main
+
+[12.1.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.0.0...12.1.0
 
 [12.0.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/11.5.0...12.0.0
 
