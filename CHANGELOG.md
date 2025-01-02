@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [12.1.1] - 2025-01-02
+
 ### Changed
 
 - Use WEBP format on 2 maps instead of JPG
@@ -155,7 +157,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.1...main
+
+[12.1.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.0...12.1.1
 
 [12.1.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.0.0...12.1.0
 
