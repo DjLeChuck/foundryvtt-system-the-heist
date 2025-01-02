@@ -1384,7 +1384,7 @@
             "controls": true,
             "volume": 0.5
           },
-          "src": "systems/heist/images/media/scenario/mu/camp-gm.jpg",
+          "src": "systems/heist/images/media/scenario/mu/camp-gm.webp",
           "system": {},
           "ownership": {
             "default": -1,
@@ -1421,7 +1421,7 @@
             "controls": true,
             "volume": 0.5
           },
-          "src": "systems/heist/images/media/scenario/mu/tomb-gm.jpg",
+          "src": "systems/heist/images/media/scenario/mu/tomb-gm.webp",
           "system": {},
           "ownership": {
             "default": -1,

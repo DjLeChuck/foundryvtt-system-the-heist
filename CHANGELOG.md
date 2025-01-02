@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Use WEBP format on 2 maps instead of JPG
+
 ## [12.1.0] - 2024-12-17
 
 ### Added
