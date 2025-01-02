@@ -6,6 +6,10 @@
 
 - Use WEBP format on 2 maps instead of JPG
 
+### Fixed
+
+- Add sizes on SVG to avoid loading error on Firefox
+
 ## [12.1.0] - 2024-12-17
 
 ### Added
