@@ -6,33 +6,33 @@ export const Setup = {
   listen() {
     Hooks.once('setup', () => {
       // Register sheets
-      Actors.unregisterSheet('core', ActorSheet);
-      Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.AgentActorSheet, {
+      foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
+      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.AgentActorSheet, {
         types: ['agent'],
         makeDefault: true,
       });
-      Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
+      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
         types: ['heist'],
         makeDefault: true,
       });
-      Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.NpcActorSheet, {
+      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.NpcActorSheet, {
         types: ['npc'],
         makeDefault: true,
       });
-      Items.unregisterSheet('core', ItemSheet);
-      Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
+      foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
         types: ['agentType'],
         makeDefault: true,
       });
-      Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
+      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
         types: ['fetish'],
         makeDefault: true,
       });
-      Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.PlanningItemSheet, {
+      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.PlanningItemSheet, {
         types: ['planning'],
         makeDefault: true,
       });
-      Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
+      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
         types: ['skill'],
         makeDefault: true,
       });

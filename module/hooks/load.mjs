@@ -44,7 +44,5 @@ export const Load = {
     };
 
     CONFIG.defaultFontFamily = 'Masqualero';
-
-    CONFIG.Canvas.layers.heist = { layerClass: ControlsLayer, group: 'primary' };
   },
 };

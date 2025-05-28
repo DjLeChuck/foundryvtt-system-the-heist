@@ -1,6 +1,6 @@
 import * as HEIST from '../../const.mjs';
 
-export class NpcActorSheet extends ActorSheet {
+export class NpcActorSheet extends foundry.appv1.sheets.ActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {

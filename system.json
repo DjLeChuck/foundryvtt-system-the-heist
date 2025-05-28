@@ -4,8 +4,8 @@
   "description": "The Heist system for FoundryVTT!",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": 11,
-    "verified": "12.325"
+    "minimum": 13,
+    "verified": 13.344
   },
   "flags": {
     "hotReload": {
@@ -116,6 +116,35 @@
       "system": "heist"
     }
   ],
+  "documentTypes": {
+    "Actor": {
+      "agent": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "heist": {
+        "htmlFields": [
+          "plan"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    },
+    "Item": {
+      "agentType": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "fetish": {},
+      "planning": {},
+      "skill": {}
+    }
+  },
   "socket": true,
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",

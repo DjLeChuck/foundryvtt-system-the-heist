@@ -5,7 +5,7 @@ import * as HEIST from '../const.mjs';
  * Pre-loaded templates are compiled and cached for fast access when rendering
  */
 export const registerTemplates = function () {
-  loadTemplates([
+  foundry.applications.handlebars.loadTemplates([
     // Agent actor
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-editable-skills.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-skills.html.hbs`,

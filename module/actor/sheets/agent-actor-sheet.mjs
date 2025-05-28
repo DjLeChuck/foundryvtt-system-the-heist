@@ -1,7 +1,7 @@
 import * as HEIST from '../../const.mjs';
 import { AgentTypeItem } from '../../item/documents/_module.mjs';
 
-export class AgentActorSheet extends ActorSheet {
+export class AgentActorSheet extends foundry.appv1.sheets.ActorSheet {
   isLocked = true;
 
   /** @override */

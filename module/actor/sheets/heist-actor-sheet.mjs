@@ -3,11 +3,7 @@ import { AgentActor } from '../documents/_module.mjs';
 import { PlanningItem } from '../../item/documents/_module.mjs';
 import { range, transformAsChoices } from '../../helpers/utils.mjs';
 
-/**
- * Extend the basic ActorSheet with some very simple modifications
- * @extends {ActorSheet}
- */
-export class HeistActorSheet extends ActorSheet {
+export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
