@@ -18,6 +18,7 @@
   --color-shadow-primary: var(--c-brown-rust);
   --card-radius: 26px;
 
+  @import "utils/reset";
   @import "components/common";
 
   @import "components/cards-display";

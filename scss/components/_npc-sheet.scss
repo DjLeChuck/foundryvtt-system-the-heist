@@ -22,15 +22,13 @@
 
     .sheet-body {
       margin-top: var(--big-gap);
+      height: 100%;
 
       .editor {
         height: 100%;
         min-height: 15rem;
 
         &.prosemirror {
-          border: 1px solid var(--c-brown-rust);
-          border-radius: 6px;
-
           menu {
             background: var(--c-brown-rust);
           }

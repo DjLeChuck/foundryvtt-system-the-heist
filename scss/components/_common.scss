@@ -30,4 +30,26 @@
 
     @include light-transparency-bg;
   }
+
+  &.sheet {
+    header {
+      &.sheet-header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        & > * {
+          flex: 1;
+        }
+
+        img {
+          flex: 0 0 64px;
+          height: 64px;
+          margin-right: 6px;
+        }
+      }
+    }
+  }
 }

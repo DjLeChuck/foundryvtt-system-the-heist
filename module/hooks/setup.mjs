@@ -12,18 +12,13 @@ export const Setup = {
         types: ['agent'],
         makeDefault: true,
       });
-
-      // foundry.documents.collections.Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
-      // foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.AgentActorSheet, {
-      //   types: ['agent'],
-      //   makeDefault: true,
-      // });
-      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
-        types: ['heist'],
+      sheets.registerSheet(Actor, HEIST.SYSTEM_ID, actor.sheets.NpcActorSheet, {
+        types: ['npc'],
         makeDefault: true,
       });
-      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.NpcActorSheet, {
-        types: ['npc'],
+
+      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
+        types: ['heist'],
         makeDefault: true,
       });
       foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
