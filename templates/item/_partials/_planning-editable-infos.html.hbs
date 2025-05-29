@@ -1,11 +1,11 @@
 <div class="flexshrink flexcol">
   <p>
-    <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+    <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
   </p>
 
   <p>
-    <label for="cost-{{this._id}}">{{localize "HEIST.PlanningItem.Cost"}}</label>
-    <select name="system.cost">{{selectOptions costChoices selected=this.system.cost}}</select>
+    <label for="cost-{{document._id}}">{{localize systemFields.cost.label}}</label>
+    {{formInput systemFields.cost id=(concat "cost-" document._id) name="system.cost" value=source.system.cost}}
     {{localize "HEIST.PlanningItem.Credits"}}
   </p>
 </div>

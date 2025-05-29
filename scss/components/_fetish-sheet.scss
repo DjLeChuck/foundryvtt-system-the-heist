@@ -9,8 +9,9 @@
     align-items: center;
     justify-content: center;
 
-    form {
+    .fetish {
       width: 100%;
+      height: 100%;
 
       .fetish-wrapper {
         @include black-card-style;

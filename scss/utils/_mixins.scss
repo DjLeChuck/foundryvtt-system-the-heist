@@ -64,7 +64,7 @@
 }
 
 @mixin hn-styles {
-  h1 {
+  h1:not(.window-title) {
     font-family: var(--f-bodega-sans);
     letter-spacing: 1px;
     color: var(--c-brown-rust);

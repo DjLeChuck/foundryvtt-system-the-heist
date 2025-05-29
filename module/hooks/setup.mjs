@@ -16,26 +16,26 @@ export const Setup = {
         types: ['npc'],
         makeDefault: true,
       });
-
-      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
-        types: ['heist'],
-        makeDefault: true,
-      });
-      foundry.documents.collections.Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
-      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
+      // heist
+      sheets.unregisterSheet(Item, 'core', foundry.appv1.sheets.ItemSheet);
+      sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
         types: ['agentType'],
         makeDefault: true,
-      });
-      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
+      });sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
         types: ['fetish'],
         makeDefault: true,
       });
-      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.PlanningItemSheet, {
+      sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.PlanningItemSheet, {
         types: ['planning'],
         makeDefault: true,
       });
-      foundry.documents.collections.Items.registerSheet(HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
+      sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
         types: ['skill'],
+        makeDefault: true,
+      });
+
+      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
+        types: ['heist'],
         makeDefault: true,
       });
     });

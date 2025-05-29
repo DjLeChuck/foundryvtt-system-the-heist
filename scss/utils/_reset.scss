@@ -10,6 +10,7 @@ input[type="text"], input[type="number"], input[type="password"], input[type="da
   border: 1px solid var(--c-tan);
   border-radius: 3px;
   user-select: text;
+  text-align: inherit;
 }
 
 select {
@@ -31,4 +32,12 @@ textarea {
   border-radius: 3px;
   color: var(--color-text-dark-primary);
   user-select: text;
+}
+
+.flexcol > * {
+  flex: 1;
+}
+
+.flexshrink {
+  flex: 0;
 }

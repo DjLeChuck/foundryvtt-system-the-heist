@@ -1,6 +1,5 @@
 import * as HEIST from '../../const.mjs';
 import { AgentActor } from '../documents/_module.mjs';
-import { PlanningItem } from '../../item/documents/_module.mjs';
 import { range, transformAsChoices } from '../../helpers/utils.mjs';
 
 export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
@@ -131,6 +130,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /** @var Item item */
     const item = await fromUuid(data.uuid);
+    // @todo À revoir
     if (!item || !(item instanceof PlanningItem)) {
       return false;
     }

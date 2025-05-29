@@ -1,7 +1,7 @@
-<form class="{{cssClass}}" autocomplete="off">
+<div class="{{document.type}}">
   {{#if editable}}
     <p class="sheet-edit">
-      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-action="toggleLock">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
     </p>
@@ -9,16 +9,17 @@
 
   <div class="fetish-wrapper flexcol">
     <div class="fetish-image">
-      <img src="{{item.img}}"{{#if (and editable (not isLocked))}} data-edit="img"{{/if}} alt="" />
+      <img src="{{document.img}}"{{#if (and editable (not isLocked))}} data-action="editImage" data-edit="img"{{/if}}
+           alt="" />
     </div>
 
     <div class="flexshrink">
       {{#if (and editable (not isLocked))}}
-        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+        <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
       {{/if}}
       {{#if (or (not editable) isLocked)}}
-        <p>{{item.name}}</p>
+        <p>{{document.name}}</p>
       {{/if}}
     </div>
   </div>
-</form>
+</div>

@@ -4,7 +4,6 @@ import { registerHandlebarsHelper } from '../helpers/handlebars.mjs';
 import * as HEIST from '../const.mjs';
 import * as app from '../app/_module.mjs';
 import * as actor from '../actor/_module.mjs';
-import * as item from '../item/_module.mjs';
 import { Tools } from '../helpers/tools.mjs';
 
 export const Init = {
@@ -18,12 +17,6 @@ export const Init = {
         actorClasses: {
           agent: actor.documents.AgentActor,
           heist: actor.documents.HeistActor,
-        },
-        itemClasses: {
-          agentType: item.documents.AgentTypeItem,
-          fetish: item.documents.FetishItem,
-          planning: item.documents.PlanningItem,
-          skill: item.documents.SkillItem,
         },
       };
 

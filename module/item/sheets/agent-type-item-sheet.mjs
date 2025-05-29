@@ -1,21 +1,29 @@
 import { BaseItemSheet } from './base-item-sheet.mjs';
-import * as HEIST from '../../const.mjs';
 
-export class AgentTypeItemSheet extends BaseItemSheet {
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [HEIST.SYSTEM_ID, 'sheet', 'item', 'agent-type-sheet'],
+const { ux } = foundry.applications;
+
+export default class AgentTypeItemSheet extends BaseItemSheet {
+  static DEFAULT_OPTIONS = {
+    position: {
       width: 520,
       height: 480,
-    });
+    },
+    item: {
+      type: 'agent-type',
+    },
+  };
+
+  static {
+    this._initializeItemSheetClass();
   }
 
-  async getData() {
-    const context = super.getData();
-
-    context.enrichedDescription = await TextEditor.enrichHTML(context.system.description, { async: true });
-
-    return context;
+  /** @override */
+  async _prepareContext(options) {
+    return Object.assign({}, await super._prepareContext(options), {
+      enrichedDescription: await ux.TextEditor.implementation.enrichHTML(this.item.system.description, {
+        secrets: this.document.isOwner,
+        relativeTo: this.item,
+      }),
+    });
   }
 }

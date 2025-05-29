@@ -1,8 +1,8 @@
 <div class="flexshrink flexcol">
-  <p>{{item.name}}</p>
+  <p>{{document.name}}</p>
 
   <p>
-    {{localize "HEIST.PlanningItem.Cost"}}
-    {{this.system.cost}} {{localize "HEIST.PlanningItem.Credits"}}
+    {{localize systemFields.cost.label}}
+    {{source.system.cost}} {{localize "HEIST.PlanningItem.Credits"}}
   </p>
 </div>

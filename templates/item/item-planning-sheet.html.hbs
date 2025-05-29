@@ -1,7 +1,7 @@
-<form class="{{cssClass}}" autocomplete="off">
+<div class="{{document.type}}">
   {{#if editable}}
     <p class="sheet-edit">
-      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-lock>
+      <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-action="toggleLock">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
     </p>
@@ -22,4 +22,4 @@
       <img src="{{ui "magpie.webp"}}" alt="" />
     </div>
   </div>
-</form>
+</div>

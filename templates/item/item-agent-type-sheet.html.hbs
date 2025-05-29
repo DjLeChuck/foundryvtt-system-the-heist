@@ -1,0 +1,18 @@
+<div class="{{document.type}} flex flexcol">
+  <header class="sheet-header flexshrink">
+    <img src="{{document.img}}"{{#if editable}} data-action="editImage" data-edit="img"{{/if}}
+         title="{{document.name}}" />
+
+    {{#if editable}}
+      <input class="agent-type-name" name="name" type="text" value="{{document.name}}"
+             placeholder="{{localize "HEIST.Global.Name"}}" />
+    {{else}}
+      <p class="agent-type-name">{{document.name}}</p>
+    {{/if}}
+  </header>
+
+  <section class="blue-box sheet-body">
+    {{formInput systemFields.description name="system.description" value=source.system.description
+                enriched=enrichedDescription toggled=true}}
+  </section>
+</div>

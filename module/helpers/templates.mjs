@@ -27,9 +27,5 @@ export const registerTemplates = function () {
 
     // Chat
     `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/success.html.hbs`,
-
-    // Planning item
-    `systems/${HEIST.SYSTEM_ID}/templates/item/_partials/_planning-locked-infos.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/item/_partials/_planning-editable-infos.html.hbs`,
   ]);
 };
