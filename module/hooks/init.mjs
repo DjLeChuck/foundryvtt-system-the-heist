@@ -13,6 +13,7 @@ export const Init = {
       console.log('The Heist | Initializing System');
 
       // Register actors and items classes
+      // @todo Remove after passing on AppV2
       game.system[HEIST.SYSTEM_ID] = {
         actorClasses: {
           agent: actor.documents.AgentActor,
