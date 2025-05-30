@@ -50,7 +50,7 @@ async function createItemMacro(data, slot) {
   const command = `game.${HEIST.SYSTEM_ID}.rollItemMacro("${data.uuid}");`;
   let macro = game.macros.find(m => (m.name === item.name) && (m.command === command));
   if (!macro) {
-    macro = await Macro.create({
+    macro = await Macro.implementation.create({
       name: item.name,
       type: 'script',
       img: item.img,

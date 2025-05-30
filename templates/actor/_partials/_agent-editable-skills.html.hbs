@@ -3,11 +3,11 @@
     <div class="flex flex-group-left flex-50">
       <span>{{this.name}}</span>
       <button type="button" class="action-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Edit"}}"
-              data-edit-item data-id="{{this._id}}">
+              data-action="editItem" data-id="{{this._id}}">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-edit"}}"></i>
       </button>
       <button type="button" class="action-btn flexshrink" data-tooltip="{{localize "HEIST.Global.Delete"}}"
-              data-remove-item data-id="{{this._id}}">
+              data-action="deleteItem" data-id="{{this._id}}">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-trash"}}"></i>
       </button>
     </div>

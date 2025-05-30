@@ -1,3 +1,2 @@
-<input id="fetish-{{actor.id}}" type="checkbox"
-       data-fetish disabled {{checked (not actor.canUseFetish)}} />
+<input id="fetish-{{actor.id}}" type="checkbox" disabled {{checked (not actor.system.canUseFetish)}} />
 <label for="fetish-{{actor.id}}">{{fetish.name}}</label>

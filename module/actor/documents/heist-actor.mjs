@@ -202,7 +202,7 @@ export class HeistActor extends BaseActor {
   async #createDeck() {
     const baseDeck = await this.#baseDeck();
 
-    return await Cards.create(foundry.utils.mergeObject(baseDeck.toObject(false), {
+    return await Cards.implementation.create(foundry.utils.mergeObject(baseDeck.toObject(false), {
       name: game.i18n.format('HEIST.Cards.DeckName', { name: this.name }),
       flags: {
         [HEIST.SYSTEM_ID]: {
@@ -213,7 +213,7 @@ export class HeistActor extends BaseActor {
   }
 
   async #createPile() {
-    return await Cards.create({
+    return await Cards.implementation.create({
       name: game.i18n.format('HEIST.Cards.PileName', { name: this.name }),
       type: 'pile',
       flags: {
@@ -225,7 +225,7 @@ export class HeistActor extends BaseActor {
   }
 
   async #createHand(nameKey) {
-    return await Cards.create({
+    return await Cards.implementation.create({
       name: game.i18n.format(nameKey, { name: this.name }),
       type: 'hand',
       flags: {

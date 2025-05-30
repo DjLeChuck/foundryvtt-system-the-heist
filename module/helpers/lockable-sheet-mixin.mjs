@@ -14,6 +14,10 @@ export default function LockableSheetMixin(BaseSheet) {
       });
     }
 
+    unlock() {
+      this.#isLocked = false;
+    }
+
     static #onToggleLock() {
       this.#isLocked = !this.#isLocked;
 

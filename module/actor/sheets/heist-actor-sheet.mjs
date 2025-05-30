@@ -1,5 +1,4 @@
 import * as HEIST from '../../const.mjs';
-import { AgentActor } from '../documents/_module.mjs';
 import { range, transformAsChoices } from '../../helpers/utils.mjs';
 
 export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
@@ -103,6 +102,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
       return false;
     }
 
+    // @todo À revoir
     if (!(actor instanceof AgentActor)) {
       return false;
     }
@@ -217,7 +217,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     const actor = game.actors.get(dataset.agentId);
     if (actor) {
-      await ChatMessage.create({
+      await ChatMessage.implementation.create({
         content: `<h3>${game.i18n.format(`HEIST.ChatMessage.${dataset.difficulty.titleCase()}TestAsked`, {
           name: actor.name,
         })}</h3>`,
@@ -247,7 +247,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
           return;
         }
 
-        await ChatMessage.create({
+        await ChatMessage.implementation.create({
           content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
             count,
             name: agent.name,
@@ -276,7 +276,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
       yes: async () => {
         await agent.rescue();
 
-        await ChatMessage.create({
+        await ChatMessage.implementation.create({
           content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentRescued', {
             name: agent.name,
           })}</h3>`,
@@ -304,7 +304,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
       yes: async () => {
         await agent.kill();
 
-        await ChatMessage.create({
+        await ChatMessage.implementation.create({
           content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentKilled', {
             name: agent.name,
           })}</h3>`,
@@ -399,7 +399,7 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
 
         await this.actor.jackDrawCards(this.actor.jackReconnaissanceHand, nbCards);
 
-        await ChatMessage.create({
+        await ChatMessage.implementation.create({
           content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
         });
       },

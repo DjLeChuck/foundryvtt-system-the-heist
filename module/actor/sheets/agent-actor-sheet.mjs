@@ -16,6 +16,8 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
       openAgency: AgentActorSheet.#onOpenAgency,
       editDocumentImage: AgentActorSheet.#onEditDocumentImage,
       resurrect: AgentActorSheet.#onResurrect,
+      editItem: AgentActorSheet.#onEditItem,
+      deleteItem: AgentActorSheet.#onDeleteItem,
     },
     form: {
       submitOnChange: true,
@@ -45,10 +47,53 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
         secrets: this.document.isOwner,
         relativeTo: this.actor,
       }),
-      hasDeck: null !== this.actor.deck,
-      remainingCards: this.actor.deck?.availableCards.length,
+      hasDeck: null !== this.actor.deckDocument,
+      remainingCards: this.actor.deckDocument?.availableCards.length,
       ...this.#prepareItems(),
     });
+  }
+
+  /**
+   * @param {DragEvent} event
+   * @param {HeistItem} item
+   */
+  async _onDropItem(event, item) {
+    if ('planning' === item.type) {
+      return;
+    }
+
+    if ('agentType' === item.type && null !== this.actor.system.agentType) {
+      if (!game.users.activeGM) {
+        ui.notifications.error(game.i18n.localize('HEIST.Errors.ChangeAgentTypeRequireActiveGM'));
+
+        return;
+      }
+
+      await this.actor.system.agentType.delete();
+    }
+
+    if ('fetish' === item.type && null !== this.actor.system.fetish) {
+      await this.actor.system.fetish.delete();
+    }
+
+    if ('skill' === item.type && !this.actor.system.canLearnSkill) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.AlreadyMaxSkills'));
+
+      return;
+    }
+
+    await super._onDropItem(event, item);
+
+    if ('agentType' === item.type) {
+      if (game.user.isGM) {
+        await this.actor.setDecks();
+      } else {
+        game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
+          request: HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_DECKS,
+          actor: this.actor.id,
+        });
+      }
+    }
   }
 
   #prepareItems() {
@@ -84,11 +129,11 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   static #onOpenAgency() {
-    if (null === this.actor.agency) {
+    if (null === this.actor.agencyDocument) {
       return;
     }
 
-    this.actor.agency.sheet.render(true);
+    this.actor.agencyDocument.sheet.render(true);
   }
 
   static async #onEditDocumentImage() {
@@ -118,9 +163,36 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
       },
       content: `<h4>${game.i18n.localize('HEIST.Agent.ConfirmResurrect')}</h4>`,
       yes: {
-        callback: async () => {
-          await this.actor.resurrect();
-        },
+        callback: async () => await this.actor.resurrect(),
+      },
+    });
+  }
+
+  static #onEditItem(e) {
+    const item = this.actor.items.get(e.target.dataset.id);
+    if (!item) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.ItemNotFound'));
+
+      return;
+    }
+
+    item.sheet.unlock();
+    item.sheet.render(true);
+  }
+
+  static async #onDeleteItem(e) {
+    const item = this.actor.items.get(e.target.dataset.id);
+    if (!item) {
+      ui.notifications.error(game.i18n.localize('HEIST.Errors.ItemNotFound'));
+
+      return;
+    }
+
+    await api.DialogV2.confirm({
+      title: game.i18n.localize('AreYouSure'),
+      content: `<h4>${game.i18n.format('HEIST.Global.DeleteItem', { name: item.name })}</h4>`,
+      yes: {
+        callback: async () => await item.delete(),
       },
     });
   }

@@ -1,15 +1,14 @@
 import * as actor from '../actor/_module.mjs';
 import * as item from '../item/_module.mjs';
 import * as documents from '../documents/_module.mjs';
-import * as cards from '../cards/_module.mjs';
 import * as HEIST from '../const.mjs';
 
 export const Load = {
   listen() {
     // Define custom Document classes
-    CONFIG.Actor.documentClass = actor.documents.BaseActor;
+    CONFIG.Actor.documentClass = documents.HeistActor;
     CONFIG.Item.documentClass = documents.HeistItem;
-    CONFIG.Cards.documentClass = cards.documents.BaseCards;
+    CONFIG.Cards.documentClass = documents.HeistCards;
 
     // Register custom Data Model
     CONFIG.Actor.dataModels.agent = actor.models.AgentDataModel;

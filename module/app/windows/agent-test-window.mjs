@@ -406,11 +406,11 @@ export class AgentTestWindow extends WithSettingsWindow {
           break;
       }
 
-      await ChatMessage.create({
+      await ChatMessage.implementation.create({
         content: await renderTemplate(messageTemplate, messagePayload),
       });
     } else {
-      await ChatMessage.create({
+      await ChatMessage.implementation.create({
         content: await renderTemplate(
           `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/failure.html.hbs`,
           messagePayload,
@@ -463,7 +463,7 @@ export class AgentTestWindow extends WithSettingsWindow {
       });
     }
 
-    await ChatMessage.create({
+    await ChatMessage.implementation.create({
       content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/blackjack.html.hbs`, {
         recalls,
       }),

@@ -1,4 +1,4 @@
-import { BaseCards } from '../../cards/documents/_module.mjs';
+import * as documents from '../../documents/_module.mjs';
 
 export class AgentTypeDataModel extends foundry.abstract.DataModel {
   static defineSchema() {
@@ -6,7 +6,7 @@ export class AgentTypeDataModel extends foundry.abstract.DataModel {
 
     return {
       type: new fields.StringField({ required: true, blank: false }),
-      deckId: new fields.ForeignDocumentField(BaseCards, { idOnly: true }),
+      deckId: new fields.ForeignDocumentField(documents.HeistCards, { idOnly: true }),
       description: new fields.HTMLField(),
     };
   }
