@@ -1,10 +1,9 @@
 import * as HEIST from '../../const.mjs';
+import LockableSheetMixin from '../../helpers/lockable-sheet-mixin.mjs';
 
 const { api, apps, sheets, ux } = foundry.applications;
 
-export default class AgentActorSheet extends api.HandlebarsApplicationMixin(sheets.ActorSheetV2) {
-  #isLocked = true;
-
+export default class AgentActorSheet extends LockableSheetMixin(api.HandlebarsApplicationMixin(sheets.ActorSheetV2)) {
   static DEFAULT_OPTIONS = {
     classes: [HEIST.SYSTEM_ID, 'actor', 'agent-sheet'],
     position: {
@@ -12,7 +11,6 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
       height: 935,
     },
     actions: {
-      toggleLock: AgentActorSheet.#onToggleLock,
       openAgency: AgentActorSheet.#onOpenAgency,
       editDocumentImage: AgentActorSheet.#onEditDocumentImage,
       resurrect: AgentActorSheet.#onResurrect,
@@ -42,7 +40,6 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
       actor: this.document,
       system: this.document.system,
       systemFields: this.document.system.schema.fields,
-      isLocked: this.#isLocked,
       enrichedDescription: await ux.TextEditor.implementation.enrichHTML(this.actor.system.description, {
         secrets: this.document.isOwner,
         relativeTo: this.actor,
@@ -120,12 +117,6 @@ export default class AgentActorSheet extends api.HandlebarsApplicationMixin(shee
       fetish,
       skills,
     };
-  }
-
-  static #onToggleLock() {
-    this.#isLocked = !this.#isLocked;
-
-    this.render();
   }
 
   static #onOpenAgency() {

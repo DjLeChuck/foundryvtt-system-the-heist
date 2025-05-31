@@ -5,7 +5,7 @@ input[type="text"], input[type="number"], input[type="password"], input[type="da
   background: rgba(0, 0, 0, 0.05);
   padding: 1px 3px;
   margin: 0;
-  color: var(--color-text-dark-primary);
+  color: var(--color-dark-2);
   line-height: inherit;
   border: 1px solid var(--c-tan);
   border-radius: 3px;
@@ -16,7 +16,7 @@ input[type="text"], input[type="number"], input[type="password"], input[type="da
 select {
   background: rgba(0, 0, 0, 0.05);
   border: 1px solid var(--c-tan);
-  color: var(--color-text-dark-primary);
+  color: var(--color-dark-2);
   border-radius: 3px;
   padding: 0 3px;
   text-overflow: ellipsis;
@@ -30,12 +30,8 @@ textarea {
   padding: 5px;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
-  color: var(--color-text-dark-primary);
+  color: var(--color-dark-2);
   user-select: text;
-}
-
-.flexcol > * {
-  flex: 1;
 }
 
 .flexshrink {

@@ -1,8 +1,8 @@
 <div class="white-box agent type-{{type}}">
   {{#if isGM}}
     <div class="delete-btn flexcol">
-      <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-remove-actor
-              data-type="{{agent.agentType.system.type}}" data-id="{{agent.id}}" class="action-btn">
+      <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-action="removeActor"
+              data-type="{{agent.system.agentType.system.type}}" data-id="{{agent.id}}" class="action-btn">
         <i class="fa fa-trash"></i>
       </button>
     </div>
@@ -10,9 +10,9 @@
 
   <div class="agent-info flexcol">
     <div class="flex align-center">
-      <div class="agent-image{{#if agent.isDead}} dead{{/if}}{{#if agent.visible}} openable{{/if}}"
-           {{#if agent.isDead}}data-tooltip="{{localize "HEIST.Global.AgentIsDead"}}"{{/if}}
-        {{#if agent.visible}} data-open-sheet="{{agent.id}}"{{/if}}>
+      <div class="agent-image{{#if agent.system.isDead}} dead{{/if}}{{#if agent.visible}} openable{{/if}}"
+           {{#if agent.system.isDead}}data-tooltip="{{localize "HEIST.Global.AgentIsDead"}}"{{/if}}
+        {{#if agent.visible}} data-action="openSheet" data-id="{{agent.id}}"{{/if}}>
         <img class="img" src="{{agent.img}}" title="{{agent.name}}" />
       </div>
     </div>
@@ -24,27 +24,27 @@
 
     <p class="flexrow">
       <u>{{localize "HEIST.Cards.Remaining"}}</u>
-      <strong>{{length agent.deck.availableCards}}</strong>
+      <strong>{{length agent.system.deckDocument.availableCards}}</strong>
     </p>
 
     <p class="flexrow">
       <u>{{localize "HEIST.Agent.FetishObject"}}</u>
-      <strong class="{{#if agent.fetishUsed}}u-strike{{/if}}">
-        {{agent.fetish.name}}
+      <strong class="{{#if agent.system.fetishUsed}}u-strike{{/if}}">
+        {{agent.system.fetish.name}}
       </strong>
     </p>
 
-    {{#if (and isGM (not agent.isDead))}}
-      <div class="flexrow">
-        <button type="button" data-harm-agent data-agent-id="{{agent.id}}"
+    {{#if (and isGM (not agent.system.isDead))}}
+      <div class="flexrow agent-actions">
+        <button type="button" data-action="harmAgent" data-agent-id="{{agent.id}}"
                 data-tooltip="{{localize "HEIST.HeistSheet.Harm"}}" class="action-btn">
           <i class="fa-duotone fa-hand-fist"></i>
         </button>
-        <button type="button" data-rescue-agent data-agent-id="{{agent.id}}"
+        <button type="button" data-action="rescueAgent" data-agent-id="{{agent.id}}"
                 data-tooltip="{{localize "HEIST.HeistSheet.Rescue"}}" class="action-btn">
           <i class="fa-duotone fa-briefcase-medical"></i>
         </button>
-        <button type="button" data-kill-agent data-agent-id="{{agent.id}}"
+        <button type="button" data-action="killAgent" data-agent-id="{{agent.id}}"
                 data-tooltip="{{localize "HEIST.HeistSheet.Kill"}}" class="action-btn">
           <i class="fa-duotone fa-skull"></i>
         </button>

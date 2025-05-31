@@ -1,15 +1,9 @@
-export function* range(begin, end, interval = 1) {
+export function range(begin, end, interval = 1) {
+  const agg = [];
+
   for (let i = begin; i <= end; i += interval) {
-    yield i;
-  }
-}
-
-export function transformAsChoices(values) {
-  const choices = {};
-
-  for (const i of values) {
-    choices[i] = i;
+    agg.push(i);
   }
 
-  return choices;
+  return agg;
 }

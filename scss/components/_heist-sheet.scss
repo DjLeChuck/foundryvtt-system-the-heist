@@ -18,8 +18,16 @@
       object-fit: contain;
     }
 
-    input {
-      @include light-transparency-bg;
+    h1 {
+      margin: 0 var(--medium-gap);
+      font-size: 32px;
+      font-weight: normal;
+
+      input {
+        @include light-transparency-bg;
+
+        height: 48px;
+      }
     }
 
     .quick-actions {
@@ -159,6 +167,10 @@
         .agent-info {
           p {
             margin: 0.3em 0;
+          }
+
+          .agent-actions {
+            gap: var(--small-gap);
           }
         }
       }

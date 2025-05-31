@@ -1,20 +1,11 @@
 import * as HEIST from '../../const.mjs';
-import { range, transformAsChoices } from '../../helpers/utils.mjs';
+import { range } from '../../helpers/utils.mjs';
 
-export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [HEIST.SYSTEM_ID, 'sheet', 'actor', 'heist-sheet'],
-      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
-      width: 830,
-      height: 935,
-      tabs: [{ navSelector: '.sheet-tabs', contentSelector: '.sheet-body', initial: 'agency' }],
-    });
-  }
+const { api, handlebars, sheets } = foundry.applications;
 
-  constructor(object, options = {}) {
-    super(object, options);
+export default class HeistActorSheet extends api.HandlebarsApplicationMixin(sheets.ActorSheetV2) {
+  constructor(options, ...args) {
+    super(options, ...args);
 
     Hooks.on('updateCard', async (card, change) => {
       if (!change?.drawn) {
@@ -35,58 +26,98 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
     Hooks.on(`${HEIST.SYSTEM_ID}.changeGamePhase`, () => this.render());
   }
 
-  /**
-   * A convenience reference to the Actor document
-   * @type {HeistActor}
-   */
-  get actor() {
-    return this.object;
-  }
+  static DEFAULT_OPTIONS = {
+    classes: [HEIST.SYSTEM_ID, 'actor', 'heist-sheet'],
+    position: {
+      width: 830,
+      height: 935,
+    },
+    window: {
+      contentClasses: ['flexcol'],
+    },
+    actions: {
+      removeActor: this.#onRemoveActor,
+      openSheet: this.#onOpenSheet,
+      harmAgent: this.#onHarmAgent,
+      rescueAgent: this.#onRescueAgent,
+      killAgent: this.#onKillAgent,
+    },
+    form: {
+      submitOnChange: true,
+    },
+  };
+
+  static PARTS = {
+    header: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/header.html.hbs`,
+    },
+    nav: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/nav.html.hbs`,
+    },
+    body: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-heist-sheet.html.hbs`,
+    },
+    jokers: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/jokers.html.hbs`,
+    },
+    agency: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/agency.html.hbs`,
+      templates: [
+        `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-jack.html.hbs`,
+        `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agent.html.hbs`,
+      ],
+    },
+    reconnaissance: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/reconnaissance.html.hbs`,
+    },
+    planning: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/planning.html.hbs`,
+    },
+    progression: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/heist/progression.html.hbs`,
+    },
+  };
+
+  static TABS = {
+    sheet: {
+      tabs: [
+        { id: 'jokers', group: 'sheet', label: 'HEIST.HeistSheet.Jokers.Title' },
+        { id: 'agency', group: 'sheet', label: 'HEIST.HeistSheet.TheAgency' },
+        { id: 'reconnaissance', group: 'sheet', label: 'HEIST.GamePhases.Phase2.Title' },
+        { id: 'planning', group: 'sheet', label: 'HEIST.GamePhases.Phase3.Title' },
+        { id: 'progression', group: 'sheet', label: 'HEIST.GamePhases.Phase5.Title' },
+      ],
+      initial: 'agency',
+    },
+  };
 
   /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
-
-    if (!game.user.isOwner) {
-      return;
-    }
-
-    html.on('click', '[data-open-sheet]', this.#onOpenSheet.bind(this));
-    html.on('click', '[data-add-planning-item]', this.#onAddPlanningItem.bind(this));
-    html.on('click', '[data-open-agent-test]', this.#onOpenAgentTest.bind(this));
-    html.on('click', '[data-use-rescue]', this.#onUseRescue.bind(this));
-
-    if (!game.user.isGM) {
-      return;
-    }
-
-    html.on('click', '[data-ask-agent-test]', this.#onAskAgentTest.bind(this));
-    html.on('click', '[data-harm-agent]', this.#onHarmAgent.bind(this));
-    html.on('click', '[data-rescue-agent]', this.#onRescueAgent.bind(this));
-    html.on('click', '[data-kill-agent]', this.#onKillAgent.bind(this));
-    html.on('click', '[data-remove-actor]', this.#onRemoveActor.bind(this));
-    html.on('click', '[data-edit-item]', this.#onEditItem.bind(this));
-    html.on('click', '[data-remove-item]', this.#onRemoveItem.bind(this));
-    html.on('click', '[data-draw-reconnaissance]', this.#onDrawReconnaissanceCards.bind(this));
-    html.on('click', '[data-next-phase]', this.#onNextPhase.bind(this));
+  async _prepareContext(options) {
+    return Object.assign({}, await super._prepareContext(options), {
+      system: this.document.system,
+      systemFields: this.document.system.schema.fields,
+      isGM: game.user.isGM,
+    });
   }
 
-  /** @override */
-  async getData() {
-    const context = super.getData();
-    context.jackAvailableCards = this.actor.jackDeck?.availableCards.length;
-    context.canAskTest = game[HEIST.SYSTEM_ID].agentTestWindow.canAskTest;
-    context.diamond = this.actor.diamond;
-    context.heart = this.actor.heart;
-    context.spade = this.actor.spade;
-    context.club = this.actor.club;
+  async _preparePartContext(partId, context, options) {
+    context = await super._preparePartContext(partId, context, options);
 
-    context.isGM = game.user.isGM;
+    if ('jokers' === partId) {
+      const recoJokersPiles = range(1, this.document.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
+      const actionJokerPiles = range(1, this.document.system.jack.jokerPhasesConfigurations.action.numberOfPile);
 
-    await this.#prepareJokersContext(context);
-    await this.#prepareReconnaissanceContext(context);
-    await this.#preparePlanningContext(context);
-    await this.#prepareProgressionContext(context);
+      context.jokers = {
+        reconnaissance: recoJokersPiles,
+        action: actionJokerPiles,
+      };
+    } else if ('agency' === partId) {
+      context.jackAvailableCards = this.document.system.jackDeck?.availableCards.length;
+      context.diamond = this.document.system.diamondDocument;
+      context.heart = this.document.system.heartDocument;
+      context.spade = this.document.system.spadeDocument;
+      context.club = this.document.system.clubDocument;
+    }
 
     return context;
   }
@@ -98,27 +129,27 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /** @var Actor actor */
     const actor = await fromUuid(data.uuid);
-    if (!actor) {
+    if ('agent' !== actor?.type) {
       return false;
     }
 
-    // @todo À revoir
-    if (!(actor instanceof AgentActor)) {
-      return false;
-    }
-
-    const agentType = actor.agentType;
+    const agentType = actor.system.agentType;
     if (null === agentType || !agentType.system?.type) {
       return false;
     }
 
-    if (null !== actor.agency) {
+    if (null !== actor.system.agencyDocument) {
       ui.notifications.error(game.i18n.localize('HEIST.Errors.AgentAlreadyInAgency'));
 
       return false;
     }
 
-    await this.actor.update({ [`system.${agentType.system.type}`]: actor.id });
+    const current = await game.actors.get(this.document.system[agentType.system.type]);
+    if (current) {
+      await current.update({ 'system.agency': null });
+    }
+
+    await this.document.update({ [`system.${agentType.system.type}`]: actor.id });
 
     await actor.update({ 'system.agency': this.actor.id });
   }
@@ -130,75 +161,86 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /** @var Item item */
     const item = await fromUuid(data.uuid);
-    // @todo À revoir
-    if (!item || !(item instanceof PlanningItem)) {
+    if ('planning' !== item?.type) {
       return false;
     }
 
     return super._onDropItem(event, data);
   }
 
-  async #onAddPlanningItem(e) {
-    e.preventDefault();
+  /**
+   * @returns {Record<string, Record<string, ApplicationTab>>}
+   */
+  #getTabs() {
+    const tabs = {};
+    for (const [groupId, config] of Object.entries(this.constructor.TABS)) {
+      const group = {};
+      for (const t of config) {
+        const active = this.tabGroups[t.group] === t.id;
+        group[t.id] = Object.assign({ active, cssClass: active ? 'active' : '' }, t);
+      }
+      tabs[groupId] = group;
+    }
 
+    if (!game.user.isGM) {
+      delete tabs.sheet.jokers;
+      delete tabs.sheet.reconnaissance;
+    }
+
+    return tabs;
+  }
+
+  static async #onAddPlanningItem() {
     const items = await this.actor.createEmbeddedDocuments('Item', [{
       type: 'planning',
       name: game.i18n.localize('HEIST.Global.NewItem'),
     }]);
 
-    items[0].sheet.isLocked = false;
+    items[0].unlock();
     items[0].sheet.render(true);
   }
 
-  async #onOpenAgentTest(e) {
-    e.preventDefault();
-
+  static async #onOpenAgentTest() {
     game[HEIST.SYSTEM_ID].agentTestWindow.render(true);
   }
 
-  async #onOpenSheet(e) {
-    e.preventDefault();
-
-    const actorId = e.currentTarget?.dataset?.openSheet;
-    if (!actorId) {
-      return;
-    }
-
+  static async #onOpenSheet(e) {
+    const { id: actorId } = e.target.dataset;
     const actor = game.actors.get(actorId);
-    if (!actor || !actor.sheet) {
+    if (!actor?.sheet) {
       return;
     }
 
     actor.sheet.render(true);
   }
 
-  async #onAskAgentTest(e) {
-    e.preventDefault();
-
+  static async #onAskAgentTest() {
     if (game[HEIST.SYSTEM_ID].agentTestWindow.isRunning) {
       ui.notifications.error(game.i18n.localize('HEIST.Errors.TestAlreadyRunning'));
 
       return;
     }
 
-    const agents = this.actor.agents.filter((agent) => !agent?.isDead);
+    const agents = this.actor.agents.filter((agent) => !agent?.system.isDead);
     const jackJokers = this.actor.jackJokers;
 
-    const dataset = await Dialog.prompt({
-      title: game.i18n.localize('HEIST.HeistSheet.AskTest'),
-      content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-ask-test.html.hbs`, {
+    const dataset = await api.DialogV2.prompt({
+      window: { title: game.i18n.localize('HEIST.HeistSheet.AskTest') },
+      content: await handlebars.renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-ask-test.html.hbs`, {
         agents,
         nextDrawHasJoker: this.actor.jackNextDrawHasJoker(),
         hasFirstJoker: 0 < jackJokers.length,
         hasSecondJoker: 2 === jackJokers.length,
       }),
-      label: game.i18n.localize('HEIST.Global.Validate'),
-      callback: async (html) => {
-        return {
-          agentId: html[0].querySelector('[data-agent]').value,
-          difficulty: html[0].querySelector('[data-difficulty]:checked').value,
-          joker: parseInt((html[0].querySelector('[data-joker]:checked')?.value || '0'), 10),
-        };
+      ok: {
+        label: game.i18n.localize('HEIST.Global.Validate'),
+        callback: async (html) => {
+          return {
+            agentId: html[0].querySelector('[data-agent]').value,
+            difficulty: html[0].querySelector('[data-difficulty]:checked').value,
+            joker: parseInt((html[0].querySelector('[data-joker]:checked')?.value || '0'), 10),
+          };
+        },
       },
     });
 
@@ -225,313 +267,182 @@ export class HeistActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
   }
 
-  async #onHarmAgent(e) {
-    e.preventDefault();
-
-    const { agentId } = e.currentTarget.dataset;
-    if (!agentId) {
-      return;
-    }
-
+  static async #onHarmAgent(e) {
+    const { agentId } = e.target.dataset;
     const agent = game.actors.get(agentId);
     if (!agent) {
       return;
     }
 
-    await Dialog.confirm({
+    await api.DialogV2.confirm({
       title: game.i18n.format('HEIST.HeistSheet.Harm'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
-      yes: async () => {
-        const count = await agent.harm();
-        if (null === count) {
-          return;
-        }
+      yes: {
+        callback: async () => {
+          const count = await agent.system.harm();
+          if (null === count) {
+            return;
+          }
 
-        await ChatMessage.implementation.create({
-          content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
-            count,
-            name: agent.name,
-          })}</h3>`,
-        });
+          await ChatMessage.implementation.create({
+            content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentHarmed', {
+              count,
+              name: agent.name,
+            })}</h3>`,
+          });
+
+          this.render(false);
+        },
       },
     });
   }
 
-  async #onRescueAgent(e) {
-    e.preventDefault();
-
-    const { agentId } = e.currentTarget.dataset;
-    if (!agentId) {
-      return;
-    }
-
+  static async #onRescueAgent(e) {
+    const { agentId } = e.target.dataset;
     const agent = game.actors.get(agentId);
     if (!agent) {
       return;
     }
 
-    await Dialog.confirm({
+    await api.DialogV2.confirm({
       title: game.i18n.format('HEIST.HeistSheet.Rescue'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
-      yes: async () => {
-        await agent.rescue();
+      yes: {
+        callback: async () => {
+          await agent.system.rescue();
 
-        await ChatMessage.implementation.create({
-          content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentRescued', {
-            name: agent.name,
-          })}</h3>`,
-        });
+          await ChatMessage.implementation.create({
+            content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentRescued', {
+              name: agent.name,
+            })}</h3>`,
+          });
+
+          this.render(false);
+        },
       },
     });
   }
 
-  async #onKillAgent(e) {
-    e.preventDefault();
-
-    const { agentId } = e.currentTarget.dataset;
-    if (!agentId) {
-      return;
-    }
-
+  static async #onKillAgent(e) {
+    const { agentId } = e.target.dataset;
     const agent = game.actors.get(agentId);
     if (!agent) {
       return;
     }
 
-    await Dialog.confirm({
+    await api.DialogV2.confirm({
       title: game.i18n.format('HEIST.HeistSheet.Kill'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
-      yes: async () => {
-        await agent.kill();
+      yes: {
+        callback: async () => {
+          await agent.system.kill();
 
-        await ChatMessage.implementation.create({
-          content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentKilled', {
-            name: agent.name,
-          })}</h3>`,
-        });
+          await ChatMessage.implementation.create({
+            content: `<h3>${game.i18n.format('HEIST.ChatMessage.AgentKilled', {
+              name: agent.name,
+            })}</h3>`,
+          });
+
+          this.render(false);
+        },
       },
     });
   }
 
-  async #onRemoveActor(e) {
-    e.preventDefault();
-
-    const { id: actorId, type } = e.currentTarget.dataset;
-    if (!actorId) {
-      return;
-    }
-
+  static async #onRemoveActor(e) {
+    const { id: actorId, type } = e.target.dataset;
     const actor = game.actors.get(actorId);
     if (!actor) {
       return;
     }
 
-    await Dialog.confirm({
+    await api.DialogV2.confirm({
       title: game.i18n.format('HEIST.HeistSheet.RemoveActor.Title'),
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
 <p>${game.i18n.format('HEIST.HeistSheet.RemoveActor.Message', { agent: actor.name })}</p>`,
-      yes: this.#removeActor.bind(this, type, actor),
+      yes: {
+        callback: async () => {
+          await this.actor.update({ [`system.${type}`]: null });
+          await actor.update({ 'system.agency': null });
+        },
+      },
     });
   }
 
-  async #removeActor(type, actor) {
-    await this.actor.update({ [`system.${type}`]: null });
-    await actor.update({ 'system.agency': null });
-  }
-
-  async #onEditItem(e) {
-    e.preventDefault();
-
-    const { id: itemId } = e.currentTarget.dataset;
-    if (!itemId) {
-      return;
-    }
-
+  static async #onEditItem(e) {
+    const { id: itemId } = e.target.dataset;
     const item = this.actor.items.get(itemId);
     if (!item) {
       return;
     }
 
-    item.sheet.isLocked = false;
+    item.sheet.unlock();
     await item.sheet.render(true);
   }
 
-  async #onRemoveItem(e) {
-    e.preventDefault();
-
-    const { id: itemId } = e.currentTarget.dataset;
-    if (!itemId) {
-      return;
-    }
-
+  static async #onRemoveItem(e) {
+    const { id: itemId } = e.target.dataset;
     const item = this.actor.items.get(itemId);
     if (!item) {
       return;
     }
 
-    await Dialog.confirm({
+    await api.DialogV2.confirm({
       title: game.i18n.format('HEIST.Global.Delete'),
       content: `<p>${game.i18n.localize('AreYouSure')}</p>`,
-      yes: () => item.delete(),
+      yes: {
+        callback: () => item.delete(),
+      },
     });
   }
 
-  async #onDrawReconnaissanceCards(e) {
-    e.preventDefault();
-
+  static async #onDrawReconnaissanceCards() {
     let numberCardsOptions = '';
 
-    for (let i = 0; i <= Math.min(5, this.actor.jackDeck.availableCards.length); i++) {
+    for (let i = 0; i <= Math.min(5, this.actor.jackDeck?.availableCards.length); i++) {
       numberCardsOptions += `<option value="${i}">${i}</option>`;
     }
 
-    await Dialog.prompt({
-      title: game.i18n.localize('HEIST.Global.DrawCards'),
+    await api.DialogV2.prompt({
+      window: { title: game.i18n.localize('HEIST.Global.DrawCards') },
       content: `<p>
   <label for="number-cards">${game.i18n.localize('HEIST.Cards.HowManyToDraw')}</label>
   <select id="number-cards">${numberCardsOptions}</select>
 </p>`,
-      callback: async (html) => {
-        const nbCards = parseInt(html.find('#number-cards')[0]?.value || '0', 10);
-        if (0 === nbCards) {
-          return;
-        }
+      ok: {
+        callback: async (html) => {
+          const nbCards = parseInt(html.find('#number-cards')[0]?.value || '0', 10);
+          if (0 === nbCards) {
+            return;
+          }
 
-        await this.actor.jackDrawCards(this.actor.jackReconnaissanceHand, nbCards);
+          await this.actor.jackDrawCards(this.actor.jackReconnaissanceHand, nbCards);
 
-        await ChatMessage.implementation.create({
-          content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
-        });
+          await ChatMessage.implementation.create({
+            content: await handlebars.renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
+          });
+        },
       },
       rejectClose: false,
     });
   }
 
-  async #onNextPhase(e) {
-    e.preventDefault();
-
-    await Dialog.confirm({
-      title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.NextPhase'),
+  static async #onNextPhase() {
+    await api.DialogV2.confirm({
+      window: { title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.NextPhase') },
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
 <p>${game.i18n.format('HEIST.GamePhaseWindow.NextPhaseValidation.Message')}</p>`,
-      yes: () => {
-        const gamePhase = game[HEIST.SYSTEM_ID].gamePhaseWindow;
+      yes: {
+        callback: () => {
+          const gamePhase = game[HEIST.SYSTEM_ID].gamePhaseWindow;
 
-        gamePhase.activePreparationPhase();
+          gamePhase.activePreparationPhase();
+        },
       },
     });
   }
 
-  async #onUseRescue(e) {
-    e.preventDefault();
-
+  static async #onUseRescue() {
     await this.actor.update({ 'system.progression.rescue': false });
-  }
-
-  async #prepareJokersContext(context) {
-    const nbPiles = range(0, 10);
-    const nbPilesChoices = transformAsChoices(nbPiles);
-
-    const recoJokerNbPiles = range(1, this.actor.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
-    const recoJokerChoices = transformAsChoices(recoJokerNbPiles);
-
-    const actionJokerNbPiles = range(1, this.actor.system.jack.jokerPhasesConfigurations.action.numberOfPile);
-    const actionJokerChoices = transformAsChoices(actionJokerNbPiles);
-
-    context.jokers = {
-      reconnaissance: {
-        nbPiles: nbPilesChoices,
-        jokersPiles: recoJokerChoices,
-      },
-      action: {
-        nbPiles: nbPilesChoices,
-        jokersPiles: actionJokerChoices,
-      },
-    };
-
-    return context;
-  }
-
-  async #prepareReconnaissanceContext(context) {
-    context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
-      && this.actor.jackCanDraw;
-    context.reconnaissanceHand = this.actor.jackReconnaissanceHand;
-    context.agentsCompromised = false;
-
-    context.colors = {
-      hearts: {
-        icon: '<i class="fa fa-heart"></i>',
-        label: game.i18n.localize('HEIST.Global.Suit.Hearts'),
-        value: 0,
-        isOverflowed: false,
-      },
-      spades: {
-        icon: '<i class="fa fa-spade"></i>',
-        label: game.i18n.localize('HEIST.Global.Suit.Spades'),
-        value: 0,
-        isOverflowed: false,
-      },
-      diamonds: {
-        icon: '<i class="fa fa-diamond"></i>',
-        label: game.i18n.localize('HEIST.Global.Suit.Diamonds'),
-        value: 0,
-        isOverflowed: false,
-      },
-      clubs: {
-        icon: '<i class="fa fa-club"></i>',
-        label: game.i18n.localize('HEIST.Global.Suit.Clubs'),
-        value: 0,
-        isOverflowed: false,
-      },
-    };
-
-    if (!context.reconnaissanceHand) {
-      return;
-    }
-
-    const handSize = context.reconnaissanceHand.availableCards.length;
-
-    for (const card of context.reconnaissanceHand.cards) {
-      ++context.colors[card.suit].value;
-
-      if (HEIST.RECONNAISSANCE_SUIT_OVERFLOW_LIMIT <= context.colors[card.suit].value) {
-        context.colors[card.suit].isOverflowed = true;
-
-        if (handSize >= HEIST.RECONNAISSANCE_HAND_TRIGGER_LIMIT) {
-          context.agentsCompromised = true;
-        }
-      }
-    }
-  }
-
-  async #preparePlanningContext(context) {
-    const available = this.actor.availableCredits;
-    const used = context.items.reduce((acc, item) => acc + item.system.cost, 0);
-
-    context.planning = {
-      description: await TextEditor.enrichHTML(context.actor.system.plan, { async: true }),
-      credits: {
-        available,
-        used,
-        remaining: available - used,
-      },
-    };
-  }
-
-  #prepareProgressionContext(context) {
-    const budgetOptions = HandlebarsHelpers.selectOptions(
-      transformAsChoices(range(0, 10, 2)),
-      {
-        hash: {
-          selected: context.actor.system.progression.budgetAugmentation,
-        },
-      },
-    );
-
-    context.progression = {
-      budgetAugmentations: `<select name="system.progression.budgetAugmentation">${budgetOptions}</select>`,
-    };
-
-    return context;
   }
 }

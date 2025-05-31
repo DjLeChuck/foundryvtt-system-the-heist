@@ -56,35 +56,35 @@ export class AgentTestWindow extends WithSettingsWindow {
   }
 
   /**
-   * @returns {boolean}
+   * @returns {Boolean}
    */
   get canAskTest() {
     return game.user.isGM && !this.isRunning && (!this.agency || this.agency.jackCanAskTest);
   }
 
   /**
-   * @returns {boolean}
+   * @returns {Boolean}
    */
   get isRunning() {
     return this._getSetting('isRunning', false);
   }
 
   /**
-   * @returns {boolean}
+   * @returns {Boolean}
    */
   get #isRevealed() {
     return this._getSetting('isRevealed', false);
   }
 
   /**
-   * @returns {boolean}
+   * @returns {Boolean}
    */
   get #isFinished() {
     return this._getSetting('isFinished', false);
   }
 
   /**
-   * @returns {boolean}
+   * @returns {Boolean}
    */
   get #isSuccessful() {
     return this._getSetting('isSuccessful', false);
@@ -169,7 +169,7 @@ export class AgentTestWindow extends WithSettingsWindow {
    * @param {String} difficulty
    * @param {String} agencyId
    * @param {String} agentId
-   * @param {number} jokerToUse
+   * @param {Number} jokerToUse
    */
   async doAgentTest(difficulty, agencyId, agentId, jokerToUse) {
     await this.#prepareTest(agencyId, agentId);

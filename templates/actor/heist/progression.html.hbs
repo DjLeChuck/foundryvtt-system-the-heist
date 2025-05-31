@@ -1,8 +1,9 @@
-<div class="progression flexcol">
+<div class="tab progression flexcol {{tabs.progession.id}} {{tabs.progession.cssClass}}" data-group="sheet"
+     data-tab="progession">
   <div class="blue-box">
     <h1>{{localize "HEIST.Global.Explanations"}}</h1>
 
-    <p>{{localize "HEIST.HeistSheet.Progression.HowTo" name=actor.name}}</p>
+    <p>{{localize "HEIST.HeistSheet.Progression.HowTo" name=document.name}}</p>
     <p>{{localize "HEIST.HeistSheet.Progression.ChooseOne"}}</p>
   </div>
 
@@ -13,23 +14,23 @@
 
     <div class="flexrow flex-group-center">
       <p class="flex flex-group-center">
-        <input type="checkbox" id="training-1-{{actor.id}}" {{checked actor.system.progression.firstAgentTraining}}
+        <input type="checkbox" id="training-1-{{document.id}}" {{checked document.system.progression.firstAgentTraining}}
                name="system.progression.firstAgentTraining" />
-        <label for="training-1-{{actor.id}}">
+        <label for="training-1-{{document.id}}">
           {{localize "HEIST.HeistSheet.Progression.Training.TrainingNumber" number=1}}
         </label>
       </p>
       <p class="flex flex-group-center">
-        <input type="checkbox" id="training-2-{{actor.id}}" {{checked actor.system.progression.secondAgentTraining}}
+        <input type="checkbox" id="training-2-{{document.id}}" {{checked document.system.progression.secondAgentTraining}}
                name="system.progression.secondAgentTraining" />
-        <label for="training-2-{{actor.id}}">
+        <label for="training-2-{{document.id}}">
           {{localize "HEIST.HeistSheet.Progression.Training.TrainingNumber" number=2}}
         </label>
       </p>
       <p class="flex flex-group-center">
-        <input type="checkbox" id="training-3-{{actor.id}}" {{checked actor.system.progression.thirdAgentTraining}}
+        <input type="checkbox" id="training-3-{{document.id}}" {{checked document.system.progression.thirdAgentTraining}}
                name="system.progression.thirdAgentTraining" />
-        <label for="training-3-{{actor.id}}">
+        <label for="training-3-{{document.id}}">
           {{localize "HEIST.HeistSheet.Progression.Training.TrainingNumber" number=3}}
         </label>
       </p>
@@ -47,9 +48,9 @@
 
       <p>{{{localize "HEIST.HeistSheet.Progression.Improvisation.Description"}}}</p>
       <p class="flex flex-group-center">
-        <input type="checkbox" id="improvisation-{{actor.id}}" {{checked actor.system.progression.improvisation}}
+        <input type="checkbox" id="improvisation-{{document.id}}" {{checked document.system.progression.improvisation}}
                name="system.progression.improvisation" />
-        <label for="improvisation-{{actor.id}}">{{localize "HEIST.Global.Acquire"}}</label>
+        <label for="improvisation-{{document.id}}">{{localize "HEIST.Global.Acquire"}}</label>
       </p>
     </div>
   </div>
@@ -59,24 +60,24 @@
 
       <p>{{{localize "HEIST.HeistSheet.Progression.Network.Description"}}}</p>
       <p class="flex flex-group-center">
-        <input type="checkbox" id="network-{{actor.id}}" {{checked actor.system.progression.network}}
+        <input type="checkbox" id="network-{{document.id}}" {{checked document.system.progression.network}}
                name="system.progression.network" />
-        <label for="network-{{actor.id}}">{{localize "HEIST.Global.Acquire"}}</label>
+        <label for="network-{{document.id}}">{{localize "HEIST.Global.Acquire"}}</label>
       </p>
     </div>
 
     <div class="white-box u-mt-small">
       <h2>{{localize "HEIST.HeistSheet.Progression.Rescue.Title"}}</h2>
 
-      <p>{{{localize "HEIST.HeistSheet.Progression.Rescue.Description" name=actor.name}}}</p>
+      <p>{{{localize "HEIST.HeistSheet.Progression.Rescue.Description" name=document.name}}}</p>
 
       <div class="flexrow">
         <p class="flex flex-group-center">
-          <input type="checkbox" id="rescue-{{actor.id}}" {{checked actor.system.progression.rescue}}
+          <input type="checkbox" id="rescue-{{document.id}}" {{checked document.system.progression.rescue}}
                  name="system.progression.rescue" />
-          <label for="rescue-{{actor.id}}">{{localize "HEIST.Global.Acquire"}}</label>
+          <label for="rescue-{{document.id}}">{{localize "HEIST.Global.Acquire"}}</label>
         </p>
-        {{#if actor.system.progression.rescue}}
+        {{#if document.system.progression.rescue}}
           <p class="flex flex-group-center">
             <button type="button" class="action-btn" data-use-rescue>
               <i class="fa fa-check"></i>

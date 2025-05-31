@@ -6,19 +6,16 @@
   </div>
 
   <div class="flexrow u-gap-small">
-    <div>
-      <button type="button" class="action-btn" data-ask-agent-test
-        {{# if (not canAskTest)}} disabled data-tooltip="{{localize "HEIST.Errors.TestAlreadyRunning"}}"{{/if}}>
-        <i class="fa-duotone fa-cards"></i>
-        {{localize "HEIST.HeistSheet.AskTest"}}
-      </button>
-    </div>
-    <div>
-      <button type="button" class="action-btn" data-open-agent-test>
-        <i class="fa-duotone fa-eye"></i>
-        {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
-      </button>
-    </div>
+    <button type="button" class="action-btn" data-action="askAgentTest"
+      {{# if (not canAskTest)}} disabled data-tooltip="{{localize "HEIST.Errors.TestAlreadyRunning"}}"{{/if}}>
+      <i class="fa-duotone fa-cards"></i>
+      {{localize "HEIST.HeistSheet.AskTest"}}
+    </button>
+
+    <button type="button" class="action-btn" data-action="openAgentTest">
+      <i class="fa-duotone fa-eye"></i>
+      {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
+    </button>
   </div>
   <div class="align-center">
     <p>

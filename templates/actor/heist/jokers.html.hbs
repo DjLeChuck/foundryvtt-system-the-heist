@@ -1,0 +1,52 @@
+<div class="tab flexcol jokers {{tabs.jokers.id}} {{tabs.jokers.cssClass}}" data-group="sheet" data-tab="jokers">
+  <div class="blue-box">
+    <h1>{{localize "HEIST.Global.Explanations"}}</h1>
+
+    <p>{{{localize "HEIST.HeistSheet.Jokers.Explanations.Details.P0"}}}</p>
+    <p>{{localize "HEIST.HeistSheet.Jokers.Explanations.Details.P1"}}</p>
+    <ul>
+      <li>{{{localize "HEIST.HeistSheet.Jokers.Explanations.Reconnaissance"}}}</li>
+      <li>{{{localize "HEIST.HeistSheet.Jokers.Explanations.Action"}}}</li>
+    </ul>
+
+    <p>{{{localize "HEIST.HeistSheet.Jokers.Explanations.Note"}}}</p>
+  </div>
+
+  <div class="configurations white-box">
+    <h2>{{localize "HEIST.HeistSheet.Jokers.Reconnaissance"}}</h2>
+
+    {{formGroup systemFields.jack.fields.jokerPhasesConfigurations.fields.reconnaissance.fields.numberOfPile
+                name="system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile"
+                value=source.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile
+                localize=true classes="flexrow" rootId=rootId}}
+
+    {{formGroup systemFields.jack.fields.jokerPhasesConfigurations.fields.reconnaissance.fields.firstJokerPile
+                name="system.jack.jokerPhasesConfigurations.reconnaissance.firstJokerPile"
+                value=source.system.jack.jokerPhasesConfigurations.reconnaissance.firstJokerPile
+                localize=true classes="flexrow" rootId=rootId widget="select" choices=jokers.reconnaissance}}
+
+    {{formGroup systemFields.jack.fields.jokerPhasesConfigurations.fields.reconnaissance.fields.secondJokerPile
+                name="system.jack.jokerPhasesConfigurations.reconnaissance.secondJokerPile"
+                value=source.system.jack.jokerPhasesConfigurations.reconnaissance.secondJokerPile
+                localize=true classes="flexrow" rootId=rootId widget="select" choices=jokers.reconnaissance}}
+  </div>
+
+  <div class="configurations white-box">
+    <h2>{{localize "HEIST.HeistSheet.Jokers.Action"}}</h2>
+
+    {{formGroup systemFields.jack.fields.jokerPhasesConfigurations.fields.action.fields.numberOfPile
+                name="system.jack.jokerPhasesConfigurations.action.numberOfPile"
+                value=source.system.jack.jokerPhasesConfigurations.action.numberOfPile
+                localize=true classes="flexrow" rootId=rootId}}
+
+    {{formGroup systemFields.jack.fields.jokerPhasesConfigurations.fields.action.fields.firstJokerPile
+                name="system.jack.jokerPhasesConfigurations.action.firstJokerPile"
+                value=source.system.jack.jokerPhasesConfigurations.action.firstJokerPile
+                localize=true classes="flexrow" rootId=rootId widget="select" choices=jokers.action}}
+
+    {{formGroup systemFields.jack.fields.jokerPhasesConfigurations.fields.action.fields.secondJokerPile
+                name="system.jack.jokerPhasesConfigurations.action.secondJokerPile"
+                value=source.system.jack.jokerPhasesConfigurations.action.secondJokerPile
+                localize=true classes="flexrow" rootId=rootId widget="select" choices=jokers.action}}
+  </div>
+</div>

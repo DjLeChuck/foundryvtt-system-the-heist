@@ -1,0 +1,25 @@
+<header class="sheet-header flexshrink">
+  <div class="flex flexcol">
+    <div class="flexrow flex-group-center">
+      <img src="{{document.img}}" data-action="editImage" data-edit="img" title="{{document.name}}"
+           height="100" width="100" />
+
+      <h1>
+        <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "HEIST.Global.Name"}}" />
+      </h1>
+
+      <div class="flexshrink flexrow quick-actions">
+        {{#if isGM}}
+          <button type="button" class="action-btn flexshrink" data-action="askAgentTest"
+            {{# if (not canAskTest)}} disabled{{/if}} data-tooltip="{{localize "HEIST.HeistSheet.AskTest"}}">
+            <i class="fa-duotone fa-cards"></i>
+          </button>
+        {{/if}}
+        <button type="button" class="action-btn flexshrink" data-action="openAgentTest"
+                data-tooltip="{{localize "HEIST.AgentTestWindow.DisplayWindow"}}">
+          <i class="fa-duotone fa-eye"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>

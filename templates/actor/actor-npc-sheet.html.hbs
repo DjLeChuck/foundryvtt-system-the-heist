@@ -1,8 +1,8 @@
-<div class="{{actor.type}} flex flexcol">
+<div class="{{document.type}} flex flexcol">
   <header class="sheet-header flexshrink">
-    <img src="{{actor.img}}"{{#if editable}} data-action="editImage" data-edit="img"{{/if}} title="{{actor.name}}" />
+    <img src="{{document.img}}"{{#if editable}} data-action="editImage" data-edit="img"{{/if}} title="{{document.name}}" />
 
-    <input class="npc-name" name="name" type="text" value="{{actor.name}}"
+    <input class="npc-name" name="name" type="text" value="{{document.name}}"
            placeholder="{{localize "HEIST.Global.Name"}}" />
   </header>
 

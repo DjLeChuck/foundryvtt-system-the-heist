@@ -49,3 +49,7 @@
   --medium-gap: 12px;
   --big-gap: 16px;
 }
+
+body {
+  --font-body: var(--f-masqualero), sans-serif;
+}

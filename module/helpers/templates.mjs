@@ -6,21 +6,6 @@ import * as HEIST from '../const.mjs';
  */
 export const registerTemplates = function () {
   foundry.applications.handlebars.loadTemplates([
-    // Agent actor
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-editable-skills.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-skills.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-editable-fetish.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_agent-fetish.html.hbs`,
-
-    // The Heist actor
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-jokers.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agency.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-agent.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-jack.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-reconnaissance.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-planning.html.hbs`,
-    `systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-progression.html.hbs`,
-
     // Agent Test Window
     `systems/${HEIST.SYSTEM_ID}/templates/app/_partials/_agent-test-window-test-running.html.hbs`,
     `systems/${HEIST.SYSTEM_ID}/templates/app/_partials/_agent-test-window-no-test.html.hbs`,

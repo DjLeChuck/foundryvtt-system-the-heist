@@ -12,16 +12,20 @@ export const Setup = {
         types: ['agent'],
         makeDefault: true,
       });
+      sheets.registerSheet(Actor, HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
+        types: ['heist'],
+        makeDefault: true,
+      });
       sheets.registerSheet(Actor, HEIST.SYSTEM_ID, actor.sheets.NpcActorSheet, {
         types: ['npc'],
         makeDefault: true,
       });
-      // heist
       sheets.unregisterSheet(Item, 'core', foundry.appv1.sheets.ItemSheet);
       sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.AgentTypeItemSheet, {
         types: ['agentType'],
         makeDefault: true,
-      });sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
+      });
+      sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.FetishItemSheet, {
         types: ['fetish'],
         makeDefault: true,
       });
@@ -31,11 +35,6 @@ export const Setup = {
       });
       sheets.registerSheet(Item, HEIST.SYSTEM_ID, item.sheets.SkillItemSheet, {
         types: ['skill'],
-        makeDefault: true,
-      });
-
-      foundry.documents.collections.Actors.registerSheet(HEIST.SYSTEM_ID, actor.sheets.HeistActorSheet, {
-        types: ['heist'],
         makeDefault: true,
       });
     });

@@ -1,11 +1,11 @@
-<div class="{{actor.type}}">
+<div class="{{document.type}}">
   {{#if editable}}
     <p class="sheet-edit">
       <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-action="toggleLock">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
 
-      {{#if actor.agency}}
+      {{#if document.agency}}
         <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.HeistSheet.TheAgency"}}"
                 data-action="openAgency">
           <i class="fa fa-briefcase"></i>
@@ -18,7 +18,7 @@
           <i class="fa fa-image"></i>
         </button>
 
-        {{# if actor.isDead}}
+        {{# if document.isDead}}
           <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Agent.Resurrect"}}"
                   data-action="resurrect">
             <i class="fa fa-tombstone"></i>
@@ -39,14 +39,14 @@
     {{/if}}
 
     <div class="flex flexcol align-center agent-inner">
-      <div class="agent-image{{#if actor.isDead}} dead{{/if}}">
-        <img src="{{actor.img}}" alt="" />
+      <div class="agent-image{{#if document.isDead}} dead{{/if}}">
+        <img src="{{document.img}}" alt="" />
       </div>
       <div class="agent-info flexshrink">
         {{#if (not isLocked)}}
           <div class="agent-name">
-            <label for="agent-{{actor.id}}-name"><strong>{{localize "HEIST.Global.Name"}}</strong></label>
-            <input type="text" name="name" value="{{actor.name}}" id="agent-{{actor.id}}-name" />
+            <label for="agent-{{document.id}}-name"><strong>{{localize "HEIST.Global.Name"}}</strong></label>
+            <input type="text" name="name" value="{{document.name}}" id="agent-{{document.id}}-name" />
           </div>
         {{/if}}
 

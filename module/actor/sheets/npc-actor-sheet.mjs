@@ -16,7 +16,7 @@ export default class NpcActorSheet extends api.HandlebarsApplicationMixin(sheets
 
   static PARTS = {
     main: {
-      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/npc-agent-sheet.html.hbs`,
+      template: `systems/${HEIST.SYSTEM_ID}/templates/actor/actor-npc-sheet.html.hbs`,
     },
   };
 

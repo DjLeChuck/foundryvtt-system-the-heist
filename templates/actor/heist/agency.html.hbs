@@ -1,9 +1,10 @@
-<div class="flexcol agent-container{{#if (not isGM)}} no-jack{{/if}}">
+<div class="tab flexcol agent-container{{#if (not isGM)}} no-jack{{/if}} {{tabs.agency.id}} {{tabs.agency.cssClass}}"
+     data-group="sheet" data-tab="agency">
   {{#if isGM}}
     {{> (template "actor/_partials/_heist-jack.html.hbs")}}
   {{else}}
     <div class="flexshrink">
-      <button type="button" class="action-btn" data-open-agent-test>
+      <button type="button" class="action-btn" data-action="openAgentTest">
         <i class="fa-duotone fa-eye"></i>
         {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
       </button>

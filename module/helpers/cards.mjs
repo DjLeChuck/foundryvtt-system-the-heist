@@ -1,16 +1,18 @@
+import * as HEIST from '../const.mjs';
+
 export const BLACKJACK_SCORE = 21;
 
 /**
  * A simple representation of a card.
  * @typedef {Object} SimpleCard
- * @property {number} id
- * @property {string} name
- * @property {number} value
- * @property {string} back
- * @property {string} front
- * @property {boolean} visible
- * @property {boolean} excluded
- * @property {string} suit
+ * @property {Number} id
+ * @property {String} name
+ * @property {Number} value
+ * @property {String} back
+ * @property {String} front
+ * @property {Boolean} visible
+ * @property {Boolean} excluded
+ * @property {String} suit
  */
 
 /**
@@ -32,7 +34,7 @@ export function simpleClone(cards) {
 
 /**
  * @param {SimpleCard[]} cards
- * @param {boolean} testAceAsOne
+ * @param {Boolean} testAceAsOne
  * @returns number
  */
 export function scoreForAgent(cards, testAceAsOne) {
@@ -82,7 +84,7 @@ export function sortByValue(cards) {
 
 /**
  * @param {Cards[]|SimpleCard[]} cards
- * @return {boolean}
+ * @return {Boolean}
  */
 export function includesJoker(cards) {
   return -1 !== cards.findIndex((card) => 'jokers' === card.suit);
@@ -94,7 +96,7 @@ export function getJokerData(position) {
     faces: [
       {
         name: 'Joker',
-        img: 'systems/heist/images/cards/jack-joker.webp',
+        img: `systems/${HEIST.SYSTEM_ID}/images/cards/jack-joker.webp`,
       },
     ],
     type: 'base',
@@ -115,7 +117,7 @@ function _getValueForJack(card) {
 
 /**
  * @param {SimpleCard} card
- * @param {boolean} aceAsOne
+ * @param {Boolean} aceAsOne
  * @return number
  */
 function _getValueForAgent(card, aceAsOne) {

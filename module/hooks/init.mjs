@@ -3,22 +3,12 @@ import { registerTemplates } from '../helpers/templates.mjs';
 import { registerHandlebarsHelper } from '../helpers/handlebars.mjs';
 import * as HEIST from '../const.mjs';
 import * as app from '../app/_module.mjs';
-import * as actor from '../actor/_module.mjs';
 import { Tools } from '../helpers/tools.mjs';
 
 export const Init = {
   listen() {
     Hooks.on('init', () => {
       console.log('The Heist | Initializing System');
-
-      // Register actors and items classes
-      // @todo Remove after passing on AppV2
-      game.system[HEIST.SYSTEM_ID] = {
-        actorClasses: {
-          agent: actor.documents.AgentActor,
-          heist: actor.documents.HeistActor,
-        },
-      };
 
       registerHandlebarsHelper();
       registerSettings();

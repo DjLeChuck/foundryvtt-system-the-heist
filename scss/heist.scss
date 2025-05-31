@@ -18,6 +18,10 @@
   --color-shadow-primary: var(--c-brown-rust);
   --card-radius: 26px;
 
+  --color-text-emphatic: var(--color-dark-1);
+  --color-text-primary: var(--color-dark-2);
+  --color-text-secondary: var(--color-dark-3);
+
   @import "utils/reset";
   @import "components/common";
 

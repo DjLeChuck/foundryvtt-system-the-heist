@@ -4,6 +4,10 @@
 
   font-size: 1rem;
 
+  .form-group:not(:last-child) {
+    margin-bottom: var(--small-gap);
+  }
+
   .action-btn {
     color: var(--c-gable-green);
     background-color: var(--c-manhattan);
