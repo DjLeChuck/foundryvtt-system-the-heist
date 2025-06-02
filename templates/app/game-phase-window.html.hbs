@@ -25,32 +25,26 @@
   {{#if isGM}}
     <div class="buttons flex flexrow">
       {{#if hasNextPhase}}
-        <div>
-          <button type="button" class="action-btn" data-next>
-            <i class="fa fa-forward"></i>
-            {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
-          </button>
-        </div>
+        <button type="button" class="action-btn" data-action="nextPhase">
+          <i class="fa fa-forward"></i>
+          {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
+        </button>
       {{/if}}
       {{#if canPause}}
-        <div>
-          <button type="button" class="action-btn" data-pause {{disabled (not active)}}>
-            {{#if paused}}
-              <i class="fa fa-play"></i>
-              {{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}
-            {{else}}
-              <i class="fa fa-pause"></i>
-              {{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}
-            {{/if}}
-          </button>
-        </div>
-      {{/if}}
-      <div>
-        <button type="button" class="action-btn" data-reset>
-          <i class="fa fa-rotate-left"></i>
-          {{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}
+        <button type="button" class="action-btn" data-action="togglePause" {{disabled (not active)}}>
+          {{#if paused}}
+            <i class="fa fa-play"></i>
+            {{localize "HEIST.GamePhaseWindow.Buttons.Launch"}}
+          {{else}}
+            <i class="fa fa-pause"></i>
+            {{localize "HEIST.GamePhaseWindow.Buttons.Pause"}}
+          {{/if}}
         </button>
-      </div>
+      {{/if}}
+      <button type="button" class="action-btn" data-action="reset">
+        <i class="fa fa-rotate-left"></i>
+        {{localize "HEIST.GamePhaseWindow.Buttons.Reset"}}
+      </button>
     </div>
   {{/if}}
 </div>

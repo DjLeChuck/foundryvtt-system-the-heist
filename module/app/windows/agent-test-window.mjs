@@ -1,8 +1,7 @@
 import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
-import { WithSettingsWindow } from './with-settings-window.mjs';
 
-export class AgentTestWindow extends WithSettingsWindow {
+export class AgentTestWindow extends Application {
   #testSuccessBlackjack = 0;
   #testSuccessFetish = 1;
   #testSuccessCards = 2;

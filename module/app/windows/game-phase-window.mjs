@@ -1,8 +1,15 @@
 import * as HEIST from '../../const.mjs';
-import { WithSettingsWindow } from './with-settings-window.mjs';
+import WithSettingsMixin from '../../helpers/with-settings-mixin.mjs';
 
-export class GamePhaseWindow extends WithSettingsWindow {
+const { api } = foundry.applications;
+
+export class GamePhaseWindow extends WithSettingsMixin(api.HandlebarsApplicationMixin(api.ApplicationV2)) {
   constructor(options = {}) {
+    options.position = {
+      width: GamePhaseWindow.#width(),
+      height: GamePhaseWindow.#height(),
+    };
+
     super(options);
 
     this.phases = this.#loadPhases();
@@ -17,25 +24,47 @@ export class GamePhaseWindow extends WithSettingsWindow {
     }
   }
 
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [HEIST.SYSTEM_ID, 'game-phase-window'],
-      title: game.i18n.localize('HEIST.GamePhaseWindow.Title'),
-      width: GamePhaseWindow.#width(),
-      height: GamePhaseWindow.#height(),
-      settingsName: 'gamePhase',
+  static DEFAULT_OPTIONS = {
+    classes: [HEIST.SYSTEM_ID, 'game-phase-window'],
+    window: {
+      title: 'HEIST.GamePhaseWindow.Title',
       resizable: true,
-    });
+    },
+    actions: {
+      nextPhase: this.#onNextPhase,
+      togglePause: this.#onTogglePause,
+      reset: this.#onReset,
+    },
+    settingsName: 'gamePhase',
+  };
+
+  static PARTS = {
+    main: {
+      template: undefined,
+    },
+  };
+
+  _configureRenderParts(options) {
+    const parts = super._configureRenderParts(options);
+    parts.main.template = GamePhaseWindow.#template();
+
+    return parts;
   }
 
   /** @override */
-  get template() {
-    if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
-      return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window-small.html.hbs`;
-    }
+  async _prepareContext(options) {
+    const timeLeft = this._getSetting('timeLeft');
 
-    return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`;
+    return Object.assign({}, await super._prepareContext(options), {
+      timeLeft,
+      isGM: game.user.isGM,
+      phases: this.phases,
+      currentPhase: this.#getCurrentPhase(),
+      paused: this.#getPausedStatus(),
+      active: 0 < timeLeft,
+      canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
+      hasNextPhase: null !== this.#nextPhase,
+    });
   }
 
   get currentPhase() {
@@ -54,31 +83,6 @@ export class GamePhaseWindow extends WithSettingsWindow {
     const phase = this.phases[this.#currentPhaseIndex + 1];
 
     return undefined === phase ? null : phase;
-  }
-
-  getData() {
-    const timeLeft = this._getSetting('timeLeft');
-
-    return {
-      timeLeft,
-      isGM: game.user.isGM,
-      phases: this.phases,
-      currentPhase: this.#getCurrentPhase(),
-      paused: this.#getPausedStatus(),
-      active: 0 < timeLeft,
-      canPause: !game.settings.get(HEIST.SYSTEM_ID, 'useGamePauseForPhaseTimeLeft'),
-      hasNextPhase: null !== this.#nextPhase,
-    };
-  }
-
-  activateListeners(html) {
-    if (!game.user.isGM) {
-      return;
-    }
-
-    html.on('click', '[data-pause]', this.#onTogglePause.bind(this));
-    html.on('click', '[data-next]', this.#onNextPhase.bind(this));
-    html.on('click', '[data-reset]', this.#onReset.bind(this));
   }
 
   render(force = false, options = {}) {
@@ -139,10 +143,38 @@ export class GamePhaseWindow extends WithSettingsWindow {
     return 300;
   }
 
-  async #onTogglePause(e) {
-    e.preventDefault();
+  static #template() {
+    if (game.settings.get(HEIST.SYSTEM_ID, 'smallGamePhaseWindow')) {
+      return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window-small.html.hbs`;
+    }
 
+    return `systems/${HEIST.SYSTEM_ID}/templates/app/game-phase-window.html.hbs`;
+  }
+
+  static async #onTogglePause() {
     await this.togglePause();
+  }
+
+  static async #onNextPhase() {
+    await api.DialogV2.confirm({
+      window: { title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.NextPhase') },
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
+<p>${game.i18n.format('HEIST.GamePhaseWindow.NextPhaseValidation.Message')}</p>`,
+      yes: {
+        callback: async () => await this.#changePhase(this.#currentPhaseIndex + 1),
+      },
+    });
+  }
+
+  static async #onReset() {
+    await api.DialogV2.confirm({
+      window: { title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.Reset') },
+      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
+<p>${game.i18n.format('HEIST.GamePhaseWindow.ResetPhaseValidation.Message')}</p>`,
+      yes: {
+        callback: async () => await this.#changePhase(0),
+      },
+    });
   }
 
   #loadPhases() {
@@ -156,28 +188,6 @@ export class GamePhaseWindow extends WithSettingsWindow {
     }
 
     return phases;
-  }
-
-  async #onNextPhase(e) {
-    e.preventDefault();
-
-    await Dialog.confirm({
-      title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.NextPhase'),
-      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
-<p>${game.i18n.format('HEIST.GamePhaseWindow.NextPhaseValidation.Message')}</p>`,
-      yes: this.#changePhase.bind(this, this.#currentPhaseIndex + 1),
-    });
-  }
-
-  async #onReset(e) {
-    e.preventDefault();
-
-    await Dialog.confirm({
-      title: game.i18n.format('HEIST.GamePhaseWindow.Buttons.Reset'),
-      content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
-<p>${game.i18n.format('HEIST.GamePhaseWindow.ResetPhaseValidation.Message')}</p>`,
-      yes: this.#changePhase.bind(this, 0),
-    });
   }
 
   async #changePhase(phase) {
