@@ -1,5 +1,5 @@
-<div class="tab progression flexcol {{tabs.progession.id}} {{tabs.progession.cssClass}}" data-group="sheet"
-     data-tab="progession">
+<div class="tab progression flexcol {{tabs.progression.id}} {{tabs.progression.cssClass}}" data-group="sheet"
+     data-tab="progression">
   <div class="blue-box">
     <h1>{{localize "HEIST.Global.Explanations"}}</h1>
 
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="flexrow u-gap-small">
+  <div class="flexrow flexstretch u-gap-small">
     <div class="white-box u-mt-small">
       <h2>{{localize "HEIST.HeistSheet.Progression.Budget.Title"}}</h2>
 
@@ -54,7 +54,7 @@
       </p>
     </div>
   </div>
-  <div class="flexrow u-gap-small">
+  <div class="flexrow flexstretch u-gap-small">
     <div class="white-box u-mt-small">
       <h2>{{localize "HEIST.HeistSheet.Progression.Network.Title"}}</h2>
 
@@ -79,7 +79,7 @@
         </p>
         {{#if document.system.progression.rescue}}
           <p class="flex flex-group-center">
-            <button type="button" class="action-btn" data-use-rescue>
+            <button type="button" class="action-btn" data-action="useRescue">
               <i class="fa fa-check"></i>
               {{localize "HEIST.Global.Use"}}
             </button>

@@ -1,7 +1,7 @@
 import * as HEIST from '../../const.mjs';
 import { range } from '../../helpers/utils.mjs';
 
-const { api, handlebars, sheets } = foundry.applications;
+const { api, fields, handlebars, sheets, ux } = foundry.applications;
 
 export default class HeistActorSheet extends api.HandlebarsApplicationMixin(sheets.ActorSheetV2) {
   constructor(options, ...args) {
@@ -40,7 +40,11 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       openSheet: this.#onOpenSheet,
       harmAgent: this.#onHarmAgent,
       rescueAgent: this.#onRescueAgent,
+      useRescue: this.#onUseRescue,
       killAgent: this.#onKillAgent,
+      addPlanningItem: this.#onAddPlanningItem,
+      editItem: this.#onEditItem,
+      removeItem: this.#onRemoveItem,
     },
     form: {
       submitOnChange: true,
@@ -104,19 +108,15 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     context = await super._preparePartContext(partId, context, options);
 
     if ('jokers' === partId) {
-      const recoJokersPiles = range(1, this.document.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
-      const actionJokerPiles = range(1, this.document.system.jack.jokerPhasesConfigurations.action.numberOfPile);
-
-      context.jokers = {
-        reconnaissance: recoJokersPiles,
-        action: actionJokerPiles,
-      };
+      await this.#prepareJokersContext(context);
     } else if ('agency' === partId) {
-      context.jackAvailableCards = this.document.system.jackDeck?.availableCards.length;
-      context.diamond = this.document.system.diamondDocument;
-      context.heart = this.document.system.heartDocument;
-      context.spade = this.document.system.spadeDocument;
-      context.club = this.document.system.clubDocument;
+      await this.#prepareAgencyContext(context);
+    } else if ('reconnaissance' === partId) {
+      await this.#prepareReconnaissanceContext(context);
+    } else if ('planning' === partId) {
+      await this.#preparePlanningContext(context);
+    } else if ('progression' === partId) {
+      await this.#prepareProgressionContext(context);
     }
 
     return context;
@@ -190,13 +190,123 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     return tabs;
   }
 
+  async #prepareJokersContext(context) {
+    const recoJokersPiles = range(1, this.document.system.jack.jokerPhasesConfigurations.reconnaissance.numberOfPile);
+    const actionJokerPiles = range(1, this.document.system.jack.jokerPhasesConfigurations.action.numberOfPile);
+
+    context.jokers = {
+      reconnaissance: recoJokersPiles,
+      action: actionJokerPiles,
+    };
+  }
+
+  async #prepareAgencyContext(context) {
+    context.jackAvailableCards = this.document.system.jackDeck?.availableCards.length;
+    context.diamond = this.document.system.diamondDocument;
+    context.heart = this.document.system.heartDocument;
+    context.spade = this.document.system.spadeDocument;
+    context.club = this.document.system.clubDocument;
+  }
+
+  async #prepareReconnaissanceContext(context) {
+    context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
+      && this.document.jackCanDraw;
+    context.reconnaissanceHand = this.document.jackReconnaissanceHand;
+    context.agentsCompromised = false;
+
+    context.colors = {
+      hearts: {
+        icon: '<i class="fa fa-heart"></i>',
+        label: game.i18n.localize('HEIST.Global.Suit.Hearts'),
+        value: 0,
+        isOverflowed: false,
+      },
+      spades: {
+        icon: '<i class="fa fa-spade"></i>',
+        label: game.i18n.localize('HEIST.Global.Suit.Spades'),
+        value: 0,
+        isOverflowed: false,
+      },
+      diamonds: {
+        icon: '<i class="fa fa-diamond"></i>',
+        label: game.i18n.localize('HEIST.Global.Suit.Diamonds'),
+        value: 0,
+        isOverflowed: false,
+      },
+      clubs: {
+        icon: '<i class="fa fa-club"></i>',
+        label: game.i18n.localize('HEIST.Global.Suit.Clubs'),
+        value: 0,
+        isOverflowed: false,
+      },
+    };
+
+    if (!context.reconnaissanceHand) {
+      return;
+    }
+
+    const handSize = context.reconnaissanceHand.availableCards.length;
+
+    for (const card of context.reconnaissanceHand.cards) {
+      ++context.colors[card.suit].value;
+
+      if (HEIST.RECONNAISSANCE_SUIT_OVERFLOW_LIMIT <= context.colors[card.suit].value) {
+        context.colors[card.suit].isOverflowed = true;
+
+        if (handSize >= HEIST.RECONNAISSANCE_HAND_TRIGGER_LIMIT) {
+          context.agentsCompromised = true;
+        }
+      }
+    }
+  }
+
+  async #preparePlanningContext(context) {
+    const available = this.document.system.totalAvailableCredits;
+    const used = this.document.items.reduce((acc, item) => acc + item.system.cost, 0);
+
+    context.items = this.document.items;
+    context.planning = {
+      description: await ux.TextEditor.enrichHTML(this.document.system.plan, {
+        secrets: this.document.isOwner,
+        relativeTo: this.item,
+      }),
+      credits: {
+        available,
+        used,
+        remaining: available - used,
+      },
+    };
+  }
+
+  async #prepareProgressionContext(context) {
+    const options = [];
+    const { min, max, step } = this.document.system.schema.fields.progression.fields.budgetAugmentation;
+
+    for (let i = min; i <= max; i += step) {
+      options.push({
+        label: i,
+        value: i,
+      });
+    }
+
+    const budgetSelect = fields.createSelectInput({
+      options,
+      value: this.document.system.progression.budgetAugmentation,
+      name: 'system.progression.budgetAugmentation',
+    });
+
+    context.progression = {
+      budgetAugmentations: budgetSelect.outerHTML,
+    };
+  }
+
   static async #onAddPlanningItem() {
     const items = await this.actor.createEmbeddedDocuments('Item', [{
       type: 'planning',
       name: game.i18n.localize('HEIST.Global.NewItem'),
     }]);
 
-    items[0].unlock();
+    items[0].sheet.unlock();
     items[0].sheet.render(true);
   }
 
@@ -275,7 +385,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     await api.DialogV2.confirm({
-      title: game.i18n.format('HEIST.HeistSheet.Harm'),
+      window: { title: game.i18n.format('HEIST.HeistSheet.Harm') },
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
       yes: {
         callback: async () => {
@@ -305,7 +415,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     await api.DialogV2.confirm({
-      title: game.i18n.format('HEIST.HeistSheet.Rescue'),
+      window: { title: game.i18n.format('HEIST.HeistSheet.Rescue') },
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
       yes: {
         callback: async () => {
@@ -323,6 +433,10 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     });
   }
 
+  static async #onUseRescue() {
+    await this.actor.update({ 'system.progression.rescue': false });
+  }
+
   static async #onKillAgent(e) {
     const { agentId } = e.target.dataset;
     const agent = game.actors.get(agentId);
@@ -331,7 +445,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     await api.DialogV2.confirm({
-      title: game.i18n.format('HEIST.HeistSheet.Kill'),
+      window: { title: game.i18n.format('HEIST.HeistSheet.Kill') },
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>`,
       yes: {
         callback: async () => {
@@ -357,7 +471,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     await api.DialogV2.confirm({
-      title: game.i18n.format('HEIST.HeistSheet.RemoveActor.Title'),
+      window: { title: game.i18n.format('HEIST.HeistSheet.RemoveActor.Title') },
       content: `<h4>${game.i18n.localize('AreYouSure')}</h4>
 <p>${game.i18n.format('HEIST.HeistSheet.RemoveActor.Message', { agent: actor.name })}</p>`,
       yes: {
@@ -388,7 +502,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     await api.DialogV2.confirm({
-      title: game.i18n.format('HEIST.Global.Delete'),
+      window: { title: game.i18n.format('HEIST.Global.Delete') },
       content: `<p>${game.i18n.localize('AreYouSure')}</p>`,
       yes: {
         callback: () => item.delete(),
@@ -440,9 +554,5 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
         },
       },
     });
-  }
-
-  static async #onUseRescue() {
-    await this.actor.update({ 'system.progression.rescue': false });
   }
 }

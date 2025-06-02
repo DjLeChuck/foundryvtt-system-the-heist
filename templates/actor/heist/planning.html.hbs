@@ -3,7 +3,8 @@
     <h2>{{localize "HEIST.HeistSheet.Planning.Title"}}</h2>
 
     <div class="plan-editor">
-      {{editor planning.description target="system.plan" button=true editable=editable engine="prosemirror"}}
+      {{formInput systemFields.plan name="system.plan" value=system.plan
+                  enriched=planning.description toggled=true}}
     </div>
   </div>
 
@@ -25,8 +26,8 @@
   </div>
 
   {{#if isGM}}
-    <p>
-      <button type="button" class="action-btn" data-add-planning-item>
+    <p class="flex">
+      <button type="button" class="action-btn flexgrow" data-action="addPlanningItem">
         <i class="fa fa-add"></i>
         {{localize "HEIST.HeistSheet.Planning.AddItem"}}
       </button>
@@ -44,12 +45,12 @@
         </div>
 
         {{#if ../isGM}}
-          <div class="flexrow">
-            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Edit"}}" data-edit-item
+          <div class="flexrow planning-actions">
+            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Edit"}}" data-action="editItem"
                     data-id="{{this._id}}">
               <i class="fa fa-pencil"></i>
             </button>
-            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Delete"}}" data-remove-item
+            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Delete"}}" data-action="removeItem"
                     data-id="{{this._id}}">
               <i class="fa fa-trash"></i>
             </button>

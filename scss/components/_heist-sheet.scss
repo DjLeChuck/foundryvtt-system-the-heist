@@ -189,8 +189,6 @@
         min-height: 11rem;
 
         &.prosemirror {
-          border: 1px solid var(--c-brown-rust);
-          border-radius: 6px;
           height: 100%;
           padding: 0;
 
@@ -225,12 +223,19 @@
 
     .planning-items {
       row-gap: var(--small-gap);
+      overflow: hidden auto;
+      max-height: 260px;
+
+      .planning-actions {
+        gap: var(--small-gap);
+      }
     }
   }
 
   .progression {
     select {
       height: 26px;
+      width: auto;
     }
   }
 }

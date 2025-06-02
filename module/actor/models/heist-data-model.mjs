@@ -61,6 +61,7 @@ export class HeistDataModel extends foundry.abstract.DataModel {
         secondAgentTraining: new fields.BooleanField(),
         thirdAgentTraining: new fields.BooleanField(),
         budgetAugmentation: new fields.NumberField({
+          min: 0,
           max: 10,
           step: 2,
         }),

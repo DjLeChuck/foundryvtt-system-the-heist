@@ -154,9 +154,6 @@
                 min-height: 15rem;
 
                 &.prosemirror {
-                  border: 1px solid var(--c-brown-rust);
-                  border-radius: 6px;
-
                   &.editing-source {
                     textarea {
                       color: var(--c-white);

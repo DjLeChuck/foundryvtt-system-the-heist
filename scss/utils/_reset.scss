@@ -13,6 +13,13 @@ input[type="text"], input[type="number"], input[type="password"], input[type="da
   text-align: inherit;
 }
 
+input[type="checkbox"] {
+  &::before {
+    color: var(--color-dark-6);
+    font-weight: normal;
+  }
+}
+
 select {
   background: rgba(0, 0, 0, 0.05);
   border: 1px solid var(--c-tan);
@@ -36,4 +43,8 @@ textarea {
 
 .flexshrink {
   flex: 0;
+}
+
+.flexgrow {
+  flex: 1;
 }
