@@ -42,10 +42,10 @@ export default class AgentActorSheet extends LockableSheetMixin(api.HandlebarsAp
       systemFields: this.document.system.schema.fields,
       enrichedDescription: await ux.TextEditor.implementation.enrichHTML(this.actor.system.description, {
         secrets: this.document.isOwner,
-        relativeTo: this.actor,
+        relativeTo: this.document,
       }),
-      hasDeck: null !== this.actor.deckDocument,
-      remainingCards: this.actor.deckDocument?.availableCards.length,
+      hasDeck: null !== this.document.system.deckDocument,
+      remainingCards: this.document.system.deckDocument?.availableCards.length,
       ...this.#prepareItems(),
     });
   }
@@ -120,11 +120,11 @@ export default class AgentActorSheet extends LockableSheetMixin(api.HandlebarsAp
   }
 
   static #onOpenAgency() {
-    if (null === this.actor.agencyDocument) {
+    if (null === this.document.system.agencyDocument) {
       return;
     }
 
-    this.actor.agencyDocument.sheet.render(true);
+    this.document.system.agencyDocument.sheet.render(true);
   }
 
   static async #onEditDocumentImage() {
@@ -154,7 +154,7 @@ export default class AgentActorSheet extends LockableSheetMixin(api.HandlebarsAp
       },
       content: `<h4>${game.i18n.localize('HEIST.Agent.ConfirmResurrect')}</h4>`,
       yes: {
-        callback: async () => await this.actor.resurrect(),
+        callback: async () => await this.document.system.resurrect(),
       },
     });
   }

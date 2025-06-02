@@ -1,11 +1,11 @@
-<div class="{{document.type}}">
+<div class="{{document.type}} inner-wrapper">
   {{#if editable}}
     <p class="sheet-edit">
       <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}" data-action="toggleLock">
         <i class="fa {{ifThen isLocked "fa-lock" "fa-unlock"}}"></i>
       </button>
 
-      {{#if document.agency}}
+      {{#if document.system.agency}}
         <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.HeistSheet.TheAgency"}}"
                 data-action="openAgency">
           <i class="fa fa-briefcase"></i>
@@ -18,7 +18,7 @@
           <i class="fa fa-image"></i>
         </button>
 
-        {{# if document.isDead}}
+        {{# if document.system.isDead}}
           <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Agent.Resurrect"}}"
                   data-action="resurrect">
             <i class="fa fa-tombstone"></i>
@@ -39,7 +39,7 @@
     {{/if}}
 
     <div class="flex flexcol align-center agent-inner">
-      <div class="agent-image{{#if document.isDead}} dead{{/if}}">
+      <div class="agent-image{{#if document.system.isDead}} dead{{/if}}">
         <img src="{{document.img}}" alt="" />
       </div>
       <div class="agent-info flexshrink">

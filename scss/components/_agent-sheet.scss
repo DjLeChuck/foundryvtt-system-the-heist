@@ -19,6 +19,7 @@
         margin-left: 2px;
         display: flex;
         height: 100%;
+        overflow-y: auto;
 
         .heist-margin {
           font-family: var(--f-masqualero-groove);
@@ -60,10 +61,11 @@
           max-width: 80%;
           margin-left: auto;
           margin-right: auto;
+          position: relative;
+          justify-content: flex-start;
 
           .agent-image {
-            position: relative;
-            margin: auto;
+            margin: 0 auto;
             width: 440px;
 
             &.dead::before {
@@ -93,8 +95,8 @@
           }
 
           .agent-info {
-            position: relative;
-            margin-top: -210px;
+            position: absolute;
+            top: 415px;
 
             .agent-name {
               display: flex;
