@@ -121,7 +121,7 @@ export class AgentDataModel extends foundry.abstract.DataModel {
   async drawCards(number) {
     const cards = await this.handDocument?.draw(this.deck, number, { chatNotification: false });
 
-    this.render(false);
+    this.parent.sheet.render(false);
 
     return cards;
   }
@@ -129,7 +129,7 @@ export class AgentDataModel extends foundry.abstract.DataModel {
   async throwHand() {
     await this.handDocument?.pass(this.pileDocument, this.handDocument?.cards.map((c) => c.id), { chatNotification: false });
 
-    this.render(false);
+    this.parent.sheet.render(false);
   }
 
   async useFetish() {

@@ -3,22 +3,22 @@
     background: url("../images/ui/purple-room-r.webp") no-repeat left;
 
     @include light-transparency-bg;
-  }
 
-  h1 {
-    background-color: rgba(255, 255, 255, 0.7);
-  }
+    h1 {
+      background-color: rgba(255, 255, 255, 0.7);
+    }
 
-  .score {
-    font-family: var(--f-bodega-sans);
-    font-size: var(--font-size-28);
-    color: var(--c-brown-rust);
-    background-color: rgba(255, 255, 255, 0.7);
-  }
+    .score {
+      font-family: var(--f-bodega-sans);
+      font-size: var(--font-size-28);
+      color: var(--c-brown-rust);
+      background-color: rgba(255, 255, 255, 0.7);
+    }
 
-  .actions-buttons {
-    display: flex;
-    flex-direction: row;
-    gap: var(--big-gap);
+    .actions-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: var(--big-gap);
+    }
   }
 }

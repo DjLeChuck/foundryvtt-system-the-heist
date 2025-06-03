@@ -43,6 +43,8 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       useRescue: this.#onUseRescue,
       killAgent: this.#onKillAgent,
       addPlanningItem: this.#onAddPlanningItem,
+      askAgentTest: this.#onAskAgentTest,
+      openAgentTest: this.#onOpenAgentTest,
       editItem: this.#onEditItem,
       removeItem: this.#onRemoveItem,
     },
@@ -101,6 +103,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       system: this.document.system,
       systemFields: this.document.system.schema.fields,
       isGM: game.user.isGM,
+      canAskTest: game[HEIST.SYSTEM_ID].agentTestWindow.canAskTest,
     });
   }
 
@@ -331,26 +334,19 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       return;
     }
 
-    const agents = this.actor.agents.filter((agent) => !agent?.system.isDead);
-    const jackJokers = this.actor.jackJokers;
+    const agents = this.document.system.agents.filter((agent) => !agent?.system.isDead);
+    const jackJokers = this.document.system.jackJokers;
 
-    const dataset = await api.DialogV2.prompt({
+    const dataset = await api.DialogV2.input({
       window: { title: game.i18n.localize('HEIST.HeistSheet.AskTest') },
       content: await handlebars.renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/actor/_partials/_heist-ask-test.html.hbs`, {
         agents,
-        nextDrawHasJoker: this.actor.jackNextDrawHasJoker(),
+        nextDrawHasJoker: this.document.system.jackNextDrawHasJoker(),
         hasFirstJoker: 0 < jackJokers.length,
         hasSecondJoker: 2 === jackJokers.length,
       }),
       ok: {
         label: game.i18n.localize('HEIST.Global.Validate'),
-        callback: async (html) => {
-          return {
-            agentId: html[0].querySelector('[data-agent]').value,
-            difficulty: html[0].querySelector('[data-difficulty]:checked').value,
-            joker: parseInt((html[0].querySelector('[data-joker]:checked')?.value || '0'), 10),
-          };
-        },
       },
     });
 

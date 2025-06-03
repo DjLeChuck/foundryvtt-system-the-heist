@@ -1,22 +1,84 @@
 import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
+import WithSettingsMixin from '../../helpers/with-settings-mixin.mjs';
 
-export class AgentTestWindow extends Application {
+const { api, handlebars } = foundry.applications;
+
+export class AgentTestWindow extends WithSettingsMixin(api.HandlebarsApplicationMixin(api.ApplicationV2)) {
   #testSuccessBlackjack = 0;
   #testSuccessFetish = 1;
   #testSuccessCards = 2;
   #testFailure = 99;
 
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [HEIST.SYSTEM_ID, 'agent-test-window'],
-      title: game.i18n.localize('HEIST.AgentTestWindow.Title'),
-      template: `systems/${HEIST.SYSTEM_ID}/templates/app/agent-test-window.html.hbs`,
+  static DEFAULT_OPTIONS = {
+    classes: [HEIST.SYSTEM_ID, 'agent-test-window'],
+    window: {
+      title: 'HEIST.AgentTestWindow.Title',
+      resizable: true,
+    },
+    position: {
       width: 750,
       height: 850,
-      settingsName: 'currentTest',
-      resizable: true,
+    },
+    actions: {
+      draw: this.#onDraw,
+      useFetish: this.#onUseFetish,
+      finishTest: this.#onFinishTest,
+      revealTest: this.#onRevealTest,
+    },
+    settingsName: 'currentTest',
+  };
+
+  static PARTS = {
+    main: {
+      template: `systems/${HEIST.SYSTEM_ID}/templates/app/agent-test-window.html.hbs`,
+      templates: [
+        `systems/${HEIST.SYSTEM_ID}/templates/app/_partials/_agent-test-window-test-running.html.hbs`,
+        `systems/${HEIST.SYSTEM_ID}/templates/app/_partials/_agent-test-window-no-test.html.hbs`,
+      ],
+    },
+  };
+
+  /** @override */
+  async _prepareContext(options) {
+    const context = await super._prepareContext(options);
+    const agency = this.agency;
+    const agent = this.agent;
+
+    if (null === agency || null === agent) {
+      return Object.assign({}, context, {
+        test: {
+          isRunning: false,
+        },
+      });
+    }
+
+    const jackCards = this.#jackCards;
+    const agentCards = this.#agentCards;
+
+    return Object.assign({}, context, {
+      isAdmin: game.user.isGM,
+      test: {
+        isRunning: true,
+        isRevealed: this.#isRevealed,
+        isFinished: this.#isFinished,
+        isSuccessful: this.#isSuccessful,
+        isBlackjack: this.#isBlackjack,
+      },
+      jack: {
+        name: 'Jack',
+        cards: jackCards,
+        score: !this.#isRevealed && CARDS.includesJoker(jackCards) ? '?' : CARDS.scoreForAgent(jackCards, false),
+        totalScore: CARDS.scoreForJack(jackCards),
+      },
+      agent: {
+        name: agent.name,
+        isOwner: agent.isOwner,
+        cards: agentCards,
+        score: CARDS.scoreForAgent(agentCards, true),
+        canDraw: agent.system.canDraw,
+        canUseFetish: agent.system.canUseFetish,
+      },
     });
   }
 
@@ -38,7 +100,7 @@ export class AgentTestWindow extends Application {
   }
 
   /**
-   * @returns {AgentActor|null}
+   * @returns {HeistActor|null}
    */
   get agent() {
     const agentId = this._getSetting('agent');
@@ -58,7 +120,7 @@ export class AgentTestWindow extends Application {
    * @returns {Boolean}
    */
   get canAskTest() {
-    return game.user.isGM && !this.isRunning && (!this.agency || this.agency.jackCanAskTest);
+    return game.user.isGM && !this.isRunning && (!this.agency || this.agency.system.jackCanAskTest);
   }
 
   /**
@@ -107,63 +169,6 @@ export class AgentTestWindow extends Application {
     return CARDS.BLACKJACK_SCORE === CARDS.scoreForAgent(this.#agentCards, true);
   }
 
-  getData() {
-    const agency = this.agency;
-    const agent = this.agent;
-
-    if (null === agency || null === agent) {
-      return {
-        test: {
-          isRunning: false,
-        },
-      };
-    }
-
-    const jackCards = this.#jackCards;
-    const agentCards = this.#agentCards;
-
-    return {
-      isAdmin: game.user.isGM,
-      test: {
-        isRunning: true,
-        isRevealed: this.#isRevealed,
-        isFinished: this.#isFinished,
-        isSuccessful: this.#isSuccessful,
-        isBlackjack: this.#isBlackjack,
-      },
-      jack: {
-        name: 'Jack',
-        cards: jackCards,
-        score: !this.#isRevealed && CARDS.includesJoker(jackCards) ? '?' : CARDS.scoreForAgent(jackCards, false),
-        totalScore: CARDS.scoreForJack(jackCards),
-      },
-      agent: {
-        name: agent.name,
-        isOwner: agent.isOwner,
-        cards: agentCards,
-        score: CARDS.scoreForAgent(agentCards, true),
-        canDraw: agent.canDraw,
-        canUseFetish: agent.canUseFetish,
-      },
-    };
-  }
-
-  activateListeners(html) {
-    const agent = this.agent;
-
-    if (agent?.isOwner) {
-      html.on('click', '[data-draw]', this.#onDraw.bind(this));
-      html.on('click', '[data-fetish]', this.#onUseFetish.bind(this));
-    }
-
-    if (!game.user.isGM) {
-      return;
-    }
-
-    html.on('click', '[data-finish]', this.#onFinishTest.bind(this));
-    html.on('click', '[data-reveal]', this.#onRevealTest.bind(this));
-  }
-
   /**
    * @param {String} difficulty
    * @param {String} agencyId
@@ -176,26 +181,26 @@ export class AgentTestWindow extends Application {
     let cards;
 
     if (0 !== jokerToUse) {
-      cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 2);
+      cards = await this.agency.system.jackDrawCards(this.agency.system.jackTestHand, 2);
 
       // The drawn cards already contains a Joker
       if (CARDS.includesJoker(cards)) {
-        cards.push(...await this.agency.jackDrawCards(this.agency.jackTestHand, 1));
+        cards.push(...await this.agency.system.jackDrawCards(this.agency.system.jackTestHand, 1));
       } else {
         // -1 -> index 0
-        const joker = await this.agency.jackDrawJoker(this.agency.jackTestHand, jokerToUse - 1);
+        const joker = await this.agency.system.jackDrawJoker(this.agency.system.jackTestHand, jokerToUse - 1);
 
         if (null === joker) {
           // Error, no joker, add a new card
           ui.notifications.error('No joker available!');
 
-          cards.push(...await this.agency.jackDrawCards(this.agency.jackTestHand, 1));
+          cards.push(...await this.agency.system.jackDrawCards(this.agency.system.jackTestHand, 1));
         } else {
           cards.push(joker);
         }
       }
     } else {
-      cards = await this.agency.jackDrawCards(this.agency.jackTestHand, 3);
+      cards = await this.agency.system.jackDrawCards(this.agency.system.jackTestHand, 3);
     }
 
     // Clone cards
@@ -302,9 +307,7 @@ export class AgentTestWindow extends Application {
     await this.#clearHands();
   }
 
-  async #onDraw(e) {
-    e.preventDefault();
-
+  static async #onDraw() {
     const cards = await this.agent.drawCards(1);
 
     if (game.user.isGM) {
@@ -317,9 +320,7 @@ export class AgentTestWindow extends Application {
     }
   }
 
-  async #onFinishTest(e) {
-    e.preventDefault();
-
+  static async #onFinishTest() {
     await this.#revealTest();
 
     const jackScore = CARDS.scoreForJack(this.#jackCards);
@@ -334,10 +335,8 @@ export class AgentTestWindow extends Application {
     this.#refreshViews();
   }
 
-  async #onUseFetish(e) {
-    e.preventDefault();
-
-    await this.agent.useFetish();
+  static async #onUseFetish() {
+    await this.agent.system.useFetish();
 
     if (game.user.isGM) {
       await this.handleAgentFetish();
@@ -346,9 +345,7 @@ export class AgentTestWindow extends Application {
     }
   }
 
-  async #onRevealTest(e) {
-    e.preventDefault();
-
+  static async #onRevealTest() {
     if (!game.user.isGM) {
       return;
     }
@@ -359,10 +356,10 @@ export class AgentTestWindow extends Application {
   }
 
   async #clearHands() {
-    await this.agency?.jackThrowTestHand();
+    await this.agency?.system.jackThrowTestHand();
 
-    for (const agent of this.agency?.agents) {
-      await agent?.throwHand();
+    for (const agent of this.agency?.system.agents) {
+      await agent?.system.throwHand();
     }
   }
 
@@ -406,11 +403,11 @@ export class AgentTestWindow extends Application {
       }
 
       await ChatMessage.implementation.create({
-        content: await renderTemplate(messageTemplate, messagePayload),
+        content: await handlebars.renderTemplate(messageTemplate, messagePayload),
       });
     } else {
       await ChatMessage.implementation.create({
-        content: await renderTemplate(
+        content: await handlebars.renderTemplate(
           `systems/${HEIST.SYSTEM_ID}/templates/chat/agent-test/failure.html.hbs`,
           messagePayload,
         ),
@@ -436,13 +433,13 @@ export class AgentTestWindow extends Application {
     const testedAgent = this.agent;
     const recalls = [];
 
-    for (const agent of this.agency?.agents) {
+    for (const agent of this.agency?.system.agents) {
       if (!agent) {
         continue;
       }
 
       if (agent === testedAgent) {
-        const number = await agent.recallHand();
+        const number = await agent.system.recallHand();
 
         recalls.push({
           number,
@@ -463,7 +460,7 @@ export class AgentTestWindow extends Application {
     }
 
     await ChatMessage.implementation.create({
-      content: await renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/blackjack.html.hbs`, {
+      content: await handlebars.renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/blackjack.html.hbs`, {
         recalls,
       }),
     });
@@ -480,7 +477,7 @@ export class AgentTestWindow extends Application {
   }
 
   #refreshLinkedSheets() {
-    for (const agent of this.agency?.agents) {
+    for (const agent of this.agency?.system.agents) {
       agent?.sheet?.render(false, { focus: false });
     }
 

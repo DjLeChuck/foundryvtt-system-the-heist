@@ -64,6 +64,7 @@ export class HeistDataModel extends foundry.abstract.DataModel {
           min: 0,
           max: 10,
           step: 2,
+          initial: 0,
         }),
         improvisation: new fields.BooleanField(),
         network: new fields.BooleanField(),
