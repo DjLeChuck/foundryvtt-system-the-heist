@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [13.0.0] - 2025-06-04
+
+### Added
+
+- Support for FoundryVTT 13 🚀
+
 ## [12.1.1] - 2025-01-02
 
 ### Changed
