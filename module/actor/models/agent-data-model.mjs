@@ -119,7 +119,7 @@ export class AgentDataModel extends foundry.abstract.DataModel {
    * @returns {Promise<Card[]>}
    */
   async drawCards(number) {
-    const cards = await this.handDocument?.draw(this.deck, number, { chatNotification: false });
+    const cards = await this.handDocument?.draw(this.deckDocument, number, { chatNotification: false });
 
     this.parent.sheet.render(false);
 
@@ -195,13 +195,22 @@ export class AgentDataModel extends foundry.abstract.DataModel {
     await this.#recallCards(this.deckDocument, this.pileDocument, this.deckDocument?.availableCards.length);
   }
 
+  async setDecks() {
+    if (game.user !== game.users.activeGM) {
+      return;
+    }
+
+    await this.#deleteDecks();
+    await this.#createDecks();
+  }
+
   async _onCreate(data, options, userId) {
     if (userId !== game.user.id) {
       return;
     }
 
     if (null !== this.agentType) {
-      await this.#setDecks();
+      await this.setDecks();
     }
   }
 
@@ -220,20 +229,11 @@ export class AgentDataModel extends foundry.abstract.DataModel {
     const filteredOwnerships = Object.fromEntries(
       Object.entries(ownership)
         .filter(([_, value]) => value === CONST.DOCUMENT_OWNERSHIP_LEVELS.OWNER)
-        .map(([key, value]) => [key, CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER])
+        .map(([key, value]) => [key, CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER]),
     );
 
     this.handDocument?.update({ ownership: filteredOwnerships }, { diff: false, recursive: false });
     this.pileDocument?.update({ ownership: filteredOwnerships }, { diff: false, recursive: false });
-  }
-
-  async #setDecks() {
-    if (game.user !== game.users.activeGM) {
-      return;
-    }
-
-    await this.#deleteDecks();
-    await this.#createDecks();
   }
 
   async #createDecks() {

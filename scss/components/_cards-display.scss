@@ -3,6 +3,8 @@
 
   .card-container {
     padding: var(--small-gap) 0;
+    display: flex;
+    justify-content: center;
 
     &.excluded {
       border-radius: var(--small-gap);

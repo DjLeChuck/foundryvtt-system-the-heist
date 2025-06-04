@@ -334,7 +334,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       return;
     }
 
-    const agents = this.document.system.agents.filter((agent) => !agent?.system.isDead);
+    const agents = this.document.system.agents.filter((agent) => agent?.system.canBeTested);
     const jackJokers = this.document.system.jackJokers;
 
     const dataset = await api.DialogV2.input({
@@ -360,7 +360,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       dataset.difficulty,
       this.actor.id,
       dataset.agentId,
-      dataset.joker,
+      dataset.joker ?? 0,
     );
 
     const actor = game.actors.get(dataset.agentId);

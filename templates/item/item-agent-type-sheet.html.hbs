@@ -1,7 +1,7 @@
 <div class="{{document.type}} flex flexcol">
   <header class="sheet-header flexshrink">
     <img src="{{document.img}}"{{#if editable}} data-action="editImage" data-edit="img"{{/if}}
-         title="{{document.name}}" />
+         data-tooltip="{{document.name}}" />
 
     {{#if editable}}
       <input class="agent-type-name" name="name" type="text" value="{{document.name}}"

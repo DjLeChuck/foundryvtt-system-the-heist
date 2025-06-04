@@ -1,7 +1,7 @@
 <div class="white-box agent type-{{type}}">
   {{#if isGM}}
     <div class="delete-btn flexcol">
-      <button type="button" title="{{localize "HEIST.Global.Delete"}}" data-action="removeActor"
+      <button type="button" data-tooltip="{{localize "HEIST.Global.Delete"}}" data-action="removeActor"
               data-type="{{agent.system.agentType.system.type}}" data-id="{{agent.id}}" class="action-btn">
         <i class="fa fa-trash"></i>
       </button>
@@ -13,7 +13,7 @@
       <div class="agent-image{{#if agent.system.isDead}} dead{{/if}}{{#if agent.visible}} openable{{/if}}"
            {{#if agent.system.isDead}}data-tooltip="{{localize "HEIST.Global.AgentIsDead"}}"{{/if}}
         {{#if agent.visible}} data-action="openSheet" data-id="{{agent.id}}"{{/if}}>
-        <img class="img" src="{{agent.img}}" title="{{agent.name}}" />
+        <img class="img" src="{{agent.img}}" />
       </div>
     </div>
 

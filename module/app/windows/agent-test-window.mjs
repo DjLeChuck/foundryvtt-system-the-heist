@@ -308,7 +308,7 @@ export class AgentTestWindow extends WithSettingsMixin(api.HandlebarsApplication
   }
 
   static async #onDraw() {
-    const cards = await this.agent.drawCards(1);
+    const cards = await this.agent.system.drawCards(1);
 
     if (game.user.isGM) {
       await this.handleAgentDraw(cards);
@@ -449,7 +449,7 @@ export class AgentTestWindow extends WithSettingsMixin(api.HandlebarsApplication
         });
       }
 
-      const number = await agent.recallFromPile(2);
+      const number = await agent.system.recallFromPile(2);
 
       recalls.push({
         number,

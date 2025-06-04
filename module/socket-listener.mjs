@@ -21,7 +21,7 @@ export class SocketListener {
           await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentFetish();
           break;
         case HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_DECKS:
-          await game.actors.get(payload.actor)?.setDecks();
+          await game.actors.get(payload.actor)?.system.setDecks();
           break;
         case HEIST.SOCKET_REQUESTS.GM_HANDLE_AGENT_DRAW:
           await game[HEIST.SYSTEM_ID].agentTestWindow.handleAgentDraw(payload.cards);

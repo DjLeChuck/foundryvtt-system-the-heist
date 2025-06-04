@@ -83,7 +83,7 @@ export default class AgentActorSheet extends LockableSheetMixin(api.HandlebarsAp
 
     if ('agentType' === item.type) {
       if (game.user.isGM) {
-        await this.actor.setDecks();
+        await this.actor.system.setDecks();
       } else {
         game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
           request: HEIST.SOCKET_REQUESTS.GM_HANDLE_SET_DECKS,

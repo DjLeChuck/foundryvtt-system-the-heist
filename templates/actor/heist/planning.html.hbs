@@ -46,12 +46,12 @@
 
         {{#if ../isGM}}
           <div class="flexrow planning-actions">
-            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Edit"}}" data-action="editItem"
-                    data-id="{{this._id}}">
+            <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Edit"}}"
+                    data-action="editItem" data-id="{{this._id}}">
               <i class="fa fa-pencil"></i>
             </button>
-            <button type="button" class="action-btn" title="{{localize "HEIST.Global.Delete"}}" data-action="removeItem"
-                    data-id="{{this._id}}">
+            <button type="button" class="action-btn" data-tooltip="{{localize "HEIST.Global.Delete"}}"
+                    data-action="removeItem" data-id="{{this._id}}">
               <i class="fa fa-trash"></i>
             </button>
           </div>

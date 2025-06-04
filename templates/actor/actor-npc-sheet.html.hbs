@@ -1,6 +1,7 @@
 <div class="{{document.type}} flex flexcol">
   <header class="sheet-header flexshrink">
-    <img src="{{document.img}}"{{#if editable}} data-action="editImage" data-edit="img"{{/if}} title="{{document.name}}" />
+    <img src="{{document.img}}"{{#if editable}} data-action="editImage" data-edit="img"{{/if}}
+         data-tooltip="{{document.name}}" />
 
     <input class="npc-name" name="name" type="text" value="{{document.name}}"
            placeholder="{{localize "HEIST.Global.Name"}}" />
