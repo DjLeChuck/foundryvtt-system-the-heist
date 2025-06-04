@@ -27,20 +27,20 @@
 
   {{#if canDrawReconnaissance}}
     <div class="flexrow u-gap-small">
-      <button type="button" class="action-btn u-mt-small" data-draw-reconnaissance>
+      <button type="button" class="action-btn u-mt-small" data-action="drawReconnaissance">
         <i class="fa-duotone fa-cards"></i>
         {{localize "HEIST.Global.DrawCards"}}
       </button>
-      <button type="button" class="action-btn u-mt-small" {{disabled (not agentsCompromised)}} data-next-phase>
+      <button type="button" class="action-btn u-mt-small" {{disabled (not agentsCompromised)}} data-action="nextPhase">
         <i class="fa-duotone fa-forward"></i>
         {{localize "HEIST.GamePhaseWindow.Buttons.NextPhase"}}
       </button>
     </div>
   {{/if}}
 
-  <div class="flexrow align-center cards-container u-mt-small">
+  <div class="flexrow align-center cards-container">
     {{#each reconnaissanceHand.cards}}
-      <div class="flex-20">
+      <div class="flex-20 u-mt-small">
         <img src="{{this.img}}" alt="{{this.name}}" class="card" />
       </div>
     {{/each}}

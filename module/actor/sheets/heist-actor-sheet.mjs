@@ -47,6 +47,8 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
       openAgentTest: this.#onOpenAgentTest,
       editItem: this.#onEditItem,
       removeItem: this.#onRemoveItem,
+      drawReconnaissance: this.#onDrawReconnaissanceCards,
+      nextPhase: this.#onNextPhase,
     },
     form: {
       submitOnChange: true,
@@ -213,8 +215,8 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
 
   async #prepareReconnaissanceContext(context) {
     context.canDrawReconnaissance = HEIST.GAME_PHASE_RECONNAISSANCE === game[HEIST.SYSTEM_ID].gamePhaseWindow.currentPhase?.id
-      && this.document.jackCanDraw;
-    context.reconnaissanceHand = this.document.jackReconnaissanceHand;
+      && this.document.system.jackCanDraw;
+    context.reconnaissanceHand = this.document.system.jackReconnaissanceHand;
     context.agentsCompromised = false;
 
     context.colors = {
@@ -349,6 +351,10 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
         label: game.i18n.localize('HEIST.Global.Validate'),
       },
     });
+
+    if (null === dataset) {
+      return;
+    }
 
     if (!dataset.difficulty || !dataset.agentId) {
       ui.notifications.error('Cannot ask a test, missing difficulty and/or agentId!');
@@ -507,33 +513,40 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
   }
 
   static async #onDrawReconnaissanceCards() {
-    let numberCardsOptions = '';
+    const options = [];
 
-    for (let i = 0; i <= Math.min(5, this.actor.jackDeck?.availableCards.length); i++) {
-      numberCardsOptions += `<option value="${i}">${i}</option>`;
+    for (let i = 0; i <= Math.min(5, this.actor.system.jackDeck?.availableCards.length); i++) {
+      options.push({
+        label: i,
+        value: i,
+      });
     }
 
-    await api.DialogV2.prompt({
+    const nbCards = fields.createFormGroup({
+      rootId: 'difficulty',
+      label: game.i18n.localize('HEIST.Cards.HowManyToDraw'),
+      input: fields.createSelectInput({
+        options,
+        name: 'nbCards',
+      }),
+    });
+
+    const dataset = await api.DialogV2.input({
       window: { title: game.i18n.localize('HEIST.Global.DrawCards') },
-      content: `<p>
-  <label for="number-cards">${game.i18n.localize('HEIST.Cards.HowManyToDraw')}</label>
-  <select id="number-cards">${numberCardsOptions}</select>
-</p>`,
+      content: nbCards.outerHTML,
       ok: {
-        callback: async (html) => {
-          const nbCards = parseInt(html.find('#number-cards')[0]?.value || '0', 10);
-          if (0 === nbCards) {
-            return;
-          }
-
-          await this.actor.jackDrawCards(this.actor.jackReconnaissanceHand, nbCards);
-
-          await ChatMessage.implementation.create({
-            content: await handlebars.renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
-          });
-        },
+        label: game.i18n.localize('HEIST.Global.Validate'),
       },
-      rejectClose: false,
+    });
+
+    if (null === dataset || '0' === dataset.nbCards) {
+      return;
+    }
+
+    await this.actor.system.jackDrawCards(this.actor.system.jackReconnaissanceHand, parseInt(dataset.nbCards, 10));
+
+    await ChatMessage.implementation.create({
+      content: await handlebars.renderTemplate(`systems/${HEIST.SYSTEM_ID}/templates/chat/cards/few-cards-drawn.html.hbs`, {}),
     });
   }
 

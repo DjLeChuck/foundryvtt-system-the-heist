@@ -1,6 +1,7 @@
 &.heist-sheet {
   .window-content {
     background: url("../images/ui/blueprint.webp") no-repeat;
+    overflow-y: auto;
 
     @include light-transparency-bg;
   }
@@ -173,6 +174,14 @@
             gap: var(--small-gap);
           }
         }
+      }
+    }
+  }
+
+  .reconnaissance {
+    .cards-container {
+      .card {
+        width: 98%;
       }
     }
   }
