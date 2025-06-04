@@ -3,7 +3,7 @@ import * as HEIST from '../../const.mjs';
 import * as CARDS from '../../helpers/cards.mjs';
 import { range } from '../../helpers/utils.mjs';
 
-export class HeistDataModel extends foundry.abstract.DataModel {
+export class HeistDataModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
     const jokerPhaseConfiguration = (numberOfPile = 0, firstJoker = 0, secondJoker = 0) => new fields.SchemaField({

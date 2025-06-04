@@ -1,4 +1,4 @@
-export class PlanningDataModel extends foundry.abstract.DataModel {
+export class PlanningDataModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
 

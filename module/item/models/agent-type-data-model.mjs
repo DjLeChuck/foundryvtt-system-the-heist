@@ -1,6 +1,6 @@
 import * as documents from '../../documents/_module.mjs';
 
-export class AgentTypeDataModel extends foundry.abstract.DataModel {
+export class AgentTypeDataModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
 
