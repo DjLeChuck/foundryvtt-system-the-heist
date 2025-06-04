@@ -101,7 +101,14 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
 
   /** @override */
   async _prepareContext(options) {
-    return Object.assign({}, await super._prepareContext(options), {
+    const context = await super._prepareContext(options);
+
+    if (!game.user.isGM) {
+      delete context.tabs.jokers;
+      delete context.tabs.reconnaissance;
+    }
+
+    return Object.assign({}, context, {
       system: this.document.system,
       systemFields: this.document.system.schema.fields,
       isGM: game.user.isGM,
@@ -125,6 +132,12 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     return context;
+  }
+
+  _toggleDisabled(disabled) {
+    super._toggleDisabled(disabled);
+
+    this.form.querySelectorAll('button[data-free-action]').forEach((el) => el.disabled = false);
   }
 
   async _onDropActor(event, data) {
@@ -171,28 +184,6 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     }
 
     return super._onDropItem(event, data);
-  }
-
-  /**
-   * @returns {Record<string, Record<string, ApplicationTab>>}
-   */
-  #getTabs() {
-    const tabs = {};
-    for (const [groupId, config] of Object.entries(this.constructor.TABS)) {
-      const group = {};
-      for (const t of config) {
-        const active = this.tabGroups[t.group] === t.id;
-        group[t.id] = Object.assign({ active, cssClass: active ? 'active' : '' }, t);
-      }
-      tabs[groupId] = group;
-    }
-
-    if (!game.user.isGM) {
-      delete tabs.sheet.jokers;
-      delete tabs.sheet.reconnaissance;
-    }
-
-    return tabs;
   }
 
   async #prepareJokersContext(context) {

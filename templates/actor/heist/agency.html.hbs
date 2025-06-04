@@ -3,8 +3,9 @@
   {{#if isGM}}
     {{> (template "actor/_partials/_heist-jack.html.hbs")}}
   {{else}}
-    <div class="flexshrink">
-      <button type="button" class="action-btn" data-action="openAgentTest">
+    <div class="flex">
+      <button type="button" class="action-btn flexgrow" data-action="openAgentTest" data-free-action
+              data-tooltip="{{localize "HEIST.AgentTestWindow.DisplayWindow"}}">
         <i class="fa-duotone fa-eye"></i>
         {{localize "HEIST.AgentTestWindow.DisplayWindow"}}
       </button>
