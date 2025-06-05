@@ -1,4 +1,4 @@
-import { autoRegisterBabel, registerSettings } from '../system/settings.mjs';
+import { registerSettings } from '../system/settings.mjs';
 import { registerTemplates } from '../helpers/templates.mjs';
 import { registerHandlebarsHelper } from '../helpers/handlebars.mjs';
 import * as HEIST from '../const.mjs';
@@ -14,10 +14,10 @@ export const Init = {
       registerSettings();
       registerTemplates();
 
-      if (typeof Babele !== 'undefined') {
-        if (game.settings.get(HEIST.SYSTEM_ID, 'autoRegisterBabel')) {
-          autoRegisterBabel();
-        }
+      if (game.settings.get(HEIST.SYSTEM_ID, 'autoRegisterBabel')) {
+        Hooks.once('babele.init', (babele) => {
+          babele.setSystemTranslationsDir('lang/packs/translations');
+        });
       }
 
       // Add utility classes to the global game object so that they're more easily

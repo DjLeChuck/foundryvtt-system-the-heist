@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Simplify Babele configuration
+
 ### Fixed
 
 - Font color in adventure compendium

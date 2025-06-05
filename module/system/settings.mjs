@@ -1,12 +1,6 @@
 import * as HEIST from '../const.mjs';
 import * as app from '../app/_module.mjs';
 
-export function autoRegisterBabel() {
-  if (typeof Babele !== 'undefined') {
-    Babele.get().setSystemTranslationsDir('lang/packs/translations');
-  }
-}
-
 export function registerSettings() {
   game.settings.register(HEIST.SYSTEM_ID, 'systemHowToShown', {
     scope: 'world',
@@ -22,13 +16,7 @@ export function registerSettings() {
     config: true,
     default: false,
     type: Boolean,
-    onChange: value => {
-      if (value) {
-        autoRegisterBabel();
-      }
-
-      window.location.reload();
-    },
+    requiresReload: true,
   });
 
   game.settings.register(HEIST.SYSTEM_ID, 'currentTest', {
