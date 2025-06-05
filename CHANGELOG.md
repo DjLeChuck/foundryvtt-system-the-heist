@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Agent doesn't get back played cards after a blackjack
+
 ## [12.1.1] - 2025-01-02
 
 ### Changed
@@ -157,7 +159,7 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.1...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.1...12.x
 
 [12.1.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.0...12.1.1
 
