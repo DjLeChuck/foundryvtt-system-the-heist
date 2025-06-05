@@ -15,7 +15,9 @@
   @include hn-styles;
   @include boxes;
 
-  color: var(--color-dark-2);
+  &:not(.adventure) {
+    color: var(--color-dark-2);
+  }
 
   .journal-entry-content, .editor.prosemirror {
     background-color: var(--c-white) !important;

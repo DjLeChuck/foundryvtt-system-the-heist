@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Font color in adventure compendium
+
 ## [13.0.3] - 2025-06-05
 
 ### Fixed
