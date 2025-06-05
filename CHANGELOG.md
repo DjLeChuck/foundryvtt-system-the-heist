@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Font color in journal
+- Agent doesn't get back played cards after a blackjack
+
 ## [13.0.0] - 2025-06-04
 
 ### Added

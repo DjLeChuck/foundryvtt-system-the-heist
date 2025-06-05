@@ -274,7 +274,6 @@ export class AgentTestWindow extends WithSettingsMixin(api.HandlebarsApplication
 
     await this.#revealTest();
     await this.#finishTest(true, this.#testSuccessBlackjack);
-    await this.#processBlackjack();
 
     this.#refreshViews();
   }
@@ -414,6 +413,10 @@ export class AgentTestWindow extends WithSettingsMixin(api.HandlebarsApplication
       });
     }
 
+    if (this.#testSuccessBlackjack === resultType) {
+      await this.#processBlackjack();
+    }
+
     game.socket.emit(`system.${HEIST.SYSTEM_ID}`, {
       request: HEIST.SOCKET_REQUESTS.REFRESH_AGENCY_SHEET,
       agencyId: this.agency.id,
@@ -464,8 +467,6 @@ export class AgentTestWindow extends WithSettingsMixin(api.HandlebarsApplication
         recalls,
       }),
     });
-
-    this.#refreshLinkedSheets();
   }
 
   #refreshViews() {

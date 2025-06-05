@@ -34,6 +34,7 @@ export default class HeistActorSheet extends api.HandlebarsApplicationMixin(shee
     },
     window: {
       contentClasses: ['flexcol'],
+      resizable: true,
     },
     actions: {
       removeActor: this.#onRemoveActor,
