@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [13.0.3] - 2025-06-05
+
 ### Fixed
 
 - Font color in journal
@@ -168,7 +170,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.0...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.1...main
+
+[13.0.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.0...13.0.1
 
 [13.0.0]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/12.1.1...13.0.0
 
