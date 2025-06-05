@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [13.0.2] - 2025-06-05
+
 ### Changed
 
 - Simplify Babele configuration
@@ -10,7 +12,7 @@
 
 - Font color in adventure compendium
 
-## [13.0.3] - 2025-06-05
+## [13.0.1] - 2025-06-05
 
 ### Fixed
 
@@ -178,7 +180,9 @@
 
 - Initial release of the system! 🚀
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.1...main
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.2...main
+
+[13.0.2]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.1...13.0.2
 
 [13.0.1]: https://github.com/DjLeChuck/foundryvtt-system-the-heist/compare/13.0.0...13.0.1
 
